@@ -1,0 +1,59 @@
+---
+description: Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales de nube.
+keywords: servicios principales
+seo-description: Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
+seo-title: Ayuda de Experience Cloud y los servicios principales
+solution: Experience Cloud
+title: Ayuda de Experience Cloud y los servicios principales
+uuid: aec 6 f 689-e 617-4876-ae 6 c-e 961 cfcb 991 a
+translation-type: tm+mt
+source-git-commit: c901b17fee21165d36785c055c3e4d498aca410f
+
+---
+
+
+# Ayuda de Experience Cloud y servicios principales
+
+Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
+
+![](assets/experience-cloud-core-services.png)
+
+## Documentación de producto de los servicios principales
+
+| Servicio | Descripción |
+|--- |--- |
+| [Activación](activation/activation.md) | Activation es el servicio principal que le permite implementar y desplegar soluciones de Experience Cloud. Incluye:<ul><li>[Launch, de Adobe](https://docs.adobelaunch.com/) (la solución de administración de etiquetas más reciente)</li><li>[Administrador dinámico de etiquetas](https://marketing.adobe.com/resources/help/en_US/dtm/)</li><li>[Triggers](activation/triggers.md)</li><li>[Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/)</li><li>[Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)</li></ul> |
+|  [Administration](admin-getting-started/admin-getting-started.md) | Administre las autorizaciones y perfiles de producto de usuario de Experience Cloud. |
+| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets proporciona un único almacén centralizado para los recursos preparados para el marketing que puede compartir entre sus soluciones. |
+| [Exchange](https://experiencecloud.adobeexchange.com/) | Amplíe la funcionalidad de Adobe Experience Cloud con las mejores extensiones, scripts y mucho más. Explore con la barra de búsqueda u ordene por producto o tipo de aplicación. |
+| [Fuente](feed.md) | Comparta o publique recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed. |
+| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services aúna las prestaciones de marketing móvil para aplicaciones móviles de Adobe Marketing Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
+| [People](audience-library/audience-library.md) | En la biblioteca de audiencias, puede crear audiencias, combinar audiencias existentes para crear audiencias compuestas y ver todas las audiencias compartidas.<br>En [Atributos del cliente](attributes/attributes.md), también puede cargar datos de clientes empresariales en Experience Cloud. |
+
+## Administración y activación
+
+* [Administración de usuarios y productos](admin-getting-started/admin-getting-started.md) (Admin Console)
+* [Activación de las soluciones en los servicios principales](core-services/core-services.md)
+* [Preguntas frecuentes](admin-getting-started/admin-getting-started.md)
+* [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
+* [Servicio de Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* [Integraciones](marketing-cloud-integrations.md)
+* [Integración de Adobe Target con Experience Cloud](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+* [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Administración de perfiles en Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
+* [Precarga de DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+
+## Notas de la versión
+
+* [Novedades de Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md#concept_9A4370BD59744928BDC9F87E978798B3)
+* [Notas de la versión - Correcciones acumuladas](marketing-cloud-interface/release-notes.md#concept_F5C9FF69A5B44395BB5FA0552F4E9175)
+
+## Recursos de la comunidad y blogs
+
+* [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
+* [Experience League](https://landing.adobe.com/experience-league/)
+* [Comuníquese con el servicio de asistencia](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Comunidad de Experience Cloud](https://forums.adobe.com/community/experience-cloud)
+* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Blog de experiencia del cliente de Adobe](https://theblog.adobe.com/customer-experience/) (blog)
+* [Información general de servicios principales](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
