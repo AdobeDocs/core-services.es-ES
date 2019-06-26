@@ -1,12 +1,12 @@
 ---
 description: Obtenga más información sobre cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
 keywords: servicios principales
-seo-description: Aprenda a compartir o publicar recursos y informes de Adobe Analytics directamente con otros mediante su fuente de Experience Cloud.
+seo-description: Descubra cómo se comparten o publican recursos e informes de Adobe Analytics directamente con otros a través de Experience Cloud Feed.
 seo-title: Fuente
 solution: Experience Cloud
 title: Fuente
-uuid: 7 ff 327 d 1-5 a 74-49 fb -8 c 3 c -729034818 ebc
-translation-type: tm+mt
+uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -22,7 +22,7 @@ Es posible que Feed esté vacío la primera vez que se inicia sesión en Experie
 
 Entre los ajustes de Feed se incluyen:
 
-* **Temas: Todo\ &lt; nombre de la organización\ &gt;:** Muestra todas las publicaciones que se han compartido con usted y todas las publicaciones a las que tiene acceso.
+* **Temas: Todos \&lt;nombre de la organización \&gt;:** Muestra todas las publicaciones compartidas con usted y todas a las que tiene acceso.
 * **Administrar temas:** le permite seguir, dejar de seguir o sugerir temas. Además, los administradores pueden aprobar, rechazar, desactivar y crear temas.
 * **Nueva publicación:** cree publicaciones que puedan ver los miembros de los grupos.
 * **Todas las publicaciones:** vea todas las publicaciones de la fuente.
@@ -36,9 +36,9 @@ Puede compartir informes de [!UICONTROL Reports &amp; Analytics] con Experience 
 
 1. [Inicie sesión](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) en Experience Cloud con su Adobe ID.
 
-1. Vaya a Reports &amp; Analytics y, a continuación, [cree un proyecto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Vaya a Reports &amp; Analytics y, a continuación, [cree un proyecto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/?f=freeform_overview).
 
-1. Haga clic **[!UICONTROL en Más]** &gt; **[!UICONTROL Compartir]**.
+1. Haga clic en **[!UICONTROL Más]** &gt; **[!UICONTROL Compartir]**.
 
    ![](assets/share_report.png)
 
