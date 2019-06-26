@@ -3,8 +3,8 @@ description: Obtenga más información sobre cómo asignar uno o más grupos de 
 seo-description: Obtenga más información sobre cómo asignar uno o más grupos de informes a una organización.
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
-uuid: b 983 d 5 a 6-b 3 d 0-4137-ac 53-bc 5681 d 3 e 58 b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -26,9 +26,9 @@ Debe ser administrador de Analytics en una empresa de inicio de sesión con acce
 
 Las organizaciones aparecen en gris si se carece de permisos de administrador de Analytics para una empresa de inicio de sesión en ellas y con acceso al grupo de informes dado.
 
-## Asignar un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## Asignación de un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Haga clic **[!UICONTROL en Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**
+1. Haga clic en **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**
 
    También puede utilizar una [URL directa](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
@@ -36,13 +36,13 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
    Esta vista pretende ayudarlo a tomar una decisión fundamentada acerca de la asignación.
 
-1. Haga clic en el menú desplegable en la columna **[!UICONTROL Organización asignada]junto a un grupo de informes y seleccione la organización a la que desea asignar.**
+1. Haga clic en el menú desplegable en la columna **[!UICONTROL Organización asignada]** junto a un grupo de informes y seleccione la organización a la que desea asignar.
 
    Consulte la siguiente sección para obtener sugerencias sobre cómo seleccionar una organización de Experience Cloud.
 
 ## Asignar varios grupos de informes a una organización {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Haga clic **[!UICONTROL en Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**.
+1. Haga clic en **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**.
 
    También puede utilizar una [URL directa](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
@@ -62,13 +62,14 @@ Esta sección contiene sugerencias para ayudarlo a seleccionar la organización 
 
 **¿Qué organización debo elegir?**
 
-Si el servicio Experience Cloud ID está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) para encontrar el identificador de organización que utiliza el servicio de ID de visitante.
+Si el servicio Experience Cloud ID está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-test-verify) para encontrar el ID de organización que utiliza el servicio de ID de visitante.
 
 Si el servicio ID de visitante de Experience Cloud no está implementado en los sitios que recopilan datos para el grupo de informes y lo implementa en el futuro, tendrá que asegurarse de que la implementación coincida con la organización elegida en la herramienta Report Suite Mapping.
 
 **¿Por qué algunas organizaciones aparecen en gris?**
 
 Indica que carece de privilegios suficientes para asignar al grupo de informes en gris. Consideremos el siguiente ejemplo:
+
 ![](assets/rs-mapping.png) En este diagrama, la llave azul indica privilegios de administrador. Las líneas grises indican visibilidad.
 
 Este usuario tiene acceso a dos organizaciones de Experience Cloud. Ha hecho lo siguiente:
@@ -91,7 +92,7 @@ Algunos de sus grupos de informes podrían ser visibles en una empresa de inicio
 
 **¿Qué sucede si no reconozco algunas de las organizaciones indicadas en el menú desplegable de uno de mis grupos de informes?**
 
-La lista muestra todas las organizaciones * posibles * a las que podría asignarse su grupo de informes, aunque no tenga permiso para asignar a todos esos grupos de informes. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte a un administrador de Experience Cloud de su organización para determinar la mejor opción.
+La lista muestra todas las organizaciones posibles a las que podría asignarse el grupo de informes, aunque carezca de permiso para asignar a todos estos grupos de informes. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte a un administrador de Experience Cloud de su organización para determinar la mejor opción.
 
 **¿Qué sucede si no reconozco algunas de las empresas de inicio de sesión indicadas para un grupo de informes en la columna “Visible para empresas de inicio de sesión”?**
 
@@ -107,7 +108,7 @@ Los grupos de informes asignados aparecen en un formato no editable. Si necesita
 
 **¿Qué sucede si solo conozco el identificador de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?**
 
-Puede encontrar el nombre de su organización en [Organizaciones y configuración de cuentas](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Puede encontrar el nombre de su organización en [Ajustes de organizaciones y cuenta](https://marketing.adobe.com/resources/help/es_ES/mcloud/?f=organizations).
 
 **Veo una fecha en la columna “Fecha de asignación”. ¿Quién realizó esta asignación?**
 
