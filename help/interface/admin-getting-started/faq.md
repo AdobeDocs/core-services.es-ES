@@ -2,17 +2,17 @@
 description: Preguntas y respuestas comunes para los administradores de Experience Cloud.
 keywords: servicios principales
 seo-description: Preguntas y respuestas comunes para los administradores de Experience Cloud.
-seo-title: Preguntas más frecuentes
+seo-title: Preguntas frecuentes
 solution: Experience Cloud
-title: Preguntas más frecuentes
-uuid: 3 ed 0 b 4 eb -690 f -4 c 14-a 31 c -0 cc 1118 fb 3 b 4
-translation-type: tm+mt
+title: Preguntas frecuentes
+uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
+translation-type: ht
 source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 Preguntas y respuestas comunes para los administradores de Experience Cloud.
 
@@ -21,19 +21,19 @@ Preguntas y respuestas comunes para los administradores de Experience Cloud.
 Si su implementación no se ha aprovisionado para servicios principales, consulte [Habilitar las soluciones para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), que describe cómo:
 
 
-1. [Cómo unirse a Experience Cloud y convertirse en administrador](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Cómo implementar el servicio Experience Cloud ID mediante Administrador dinámico de etiquetas](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o el nuevo [Launch, de Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))
-1. [Cómo asignar grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
-1. [(Solo Analytics) Cómo modernizar el código AppMeasurement de Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
-1. [(Solo Target) Cómo modernizar la implementación de Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Cómo verificar la implementación de los servicios principales](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
-1. [Cómo administrar usuarios y productos](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Cómo empezar a utilizar servicios principales](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
+1. [Únase a Experience Cloud y conviértase en administrador](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Implemente el servicio Experience Cloud ID a través de Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o el nuevo [Experience Platform Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)).
+1. [Asignación de grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
+1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
+1. [(Solo Target) Modernizar la implementación de Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [Verificar la implementación de los servicios principales](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Administración de usuarios y productos](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
+1. [Empezar a utilizar los servicios principales](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
 
 
 
-Para obtener más ayuda, [póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+Para obtener más ayuda [, póngase en contacto con el equipo de asistencia de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 **¿Cobra Adobe a mi empresa por el acceso a Experience Cloud?**
 
@@ -45,7 +45,7 @@ La funcionalidad que ofrece la interfaz de Experience Cloud añade un nuevo valo
 
 **¿Cómo puedo resolver mis dudas acerca de la migración de mi empresa?**
 
-[Póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[Póngase en contacto con el servicio de asistencia de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 **¿Qué es*`provisioning`*?**
 
@@ -58,17 +58,17 @@ El aprovisionamiento de Experience Cloud significa que:
 
 **¿Cómo administro los usuarios y perfiles de producto?**
 
-* Consulte la [Guía del usuario de Admin Console](https://helpx.adobe.com/enterprise/administering/user-guide.html) para obtener ayuda.
+* Consulte la [Guía de usuario de Admin Console](https://helpx.adobe.com/es/enterprise/administering/user-guide.html) para obtener ayuda.
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** Los administradores de Analytics deben consultar [Administración de usuarios de Analytics en Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/), que trata la migración de identificadores de usuario de las herramientas del administrador de Analytics a Admin Console.
+* **Importante:** Administradores de Analytics, consulten [Administración de usuarios de Analytics en Admin Console](https://marketing.adobe.com/resources/help/es_ES/experience-cloud/admin-console/analytics-migration/) para saber más sobre la migración de ID de usuarios desde las Herramientas de administración de Analytics a Admin Console.
 
 **¿Qué puedo hacer si alguien no puede iniciar sesión en la interfaz de Experience Cloud?**
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios, que reciben un correo electrónico con instrucciones para que inicien sesión.
 
-Es posible que deba [ponerse en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html) para verificar que su empresa esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con la asistencia de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) para verificar que su empresa esté plenamente aprovisionada.
 
 **¿Dónde puede ir un usuario para administrar la vinculación de cuentas?**
 
@@ -84,13 +84,13 @@ Consulte [Administración de cuentas de usuario](../admin-getting-started/organi
 
 Una *organización* es la entidad que habilita un administrador a fin de configurar grupos y usuarios, y para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-**¿Dónde puedo encontrar mi identificador de organización de IMS?**
+**¿Dónde puedo encontrar mi ID de organización de IMS?**
 
-Consulte [Búsqueda del identificador de organización](organizations.md).
+Consulte [Búsqueda del ID de organización](organizations.md).
 
-El ID de organización se muestra en la página de aterrizaje de Experience Cloud y en la página de aterrizaje de la Consola [de administración](https://adminconsole.adobe.com).
+El ID de organización se muestra en la página de inicio de Experience Cloud y en [la página de inicio de Admin Console](https://adminconsole.adobe.com).
 
-Los administradores también pueden iniciar sesión en Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) para una organización específica, en cuya URL podrán ver el identificador de su organización de IMS.
+Los administradores también pueden iniciar sesión en Admin Console (Vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) para una organización específica, en cuya URL podrán ver el identificador de su organización de IMS.
 
 Por ejemplo, en la siguiente dirección URL:
 
@@ -106,7 +106,7 @@ Su acceso deberá ser eliminado de la solución en sí. No podrá acceder al pro
 
 **¿Qué es un Adobe ID?**
 
-Consulte [Tipos de identidad](https://helpx.adobe.com/enterprise/help/identity.html).
+Consulte [Tipos de identidad](https://helpx.adobe.com/es/enterprise/help/identity.html).
 
 **¿Puedo vincular cuentas de solución para mis usuarios?**
 
@@ -118,4 +118,4 @@ Adobe Social es un producto que puede venderse con Analytics. Por tanto, si tien
 
 **¿Cómo comparto un informe o una campaña en Experience Cloud?**
 
-Un informe de Analytics o una campaña de Target son ejemplos de recursos que puede compartir en [la fuente](../feed.md#concept_9256B8768A294009A777282DD8719213).
+Un informe de Analytics o una campaña de Target son ejemplos de recursos que se pueden compartir en la [Fuente](../feed.md#concept_9256B8768A294009A777282DD8719213).
