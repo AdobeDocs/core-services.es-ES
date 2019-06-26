@@ -1,12 +1,12 @@
 ---
-description: Cómo desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
+description: Desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
 keywords: servicios principales
-seo-description: Cómo desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
+seo-description: Desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
 seo-title: Desactivar la sincronización de carpetas compartidas
 solution: Experience Cloud
 title: Desactivar la sincronización de carpetas compartidas
-uuid: 17 c 42 b 39-614 c -45 e 4-bfb 1-c 6 cb 2 fd 66150
-translation-type: tm+mt
+uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 # Desactivar la sincronización de carpetas compartidas
 
-Cómo desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
+Desactivar la sincronización de carpetas de Experience Cloud compartidas desde su carpeta Creative Cloud Files.
 
 >[!NOTE]
 >
->Solo puede desactivar las carpetas que posee.
+>Solo puede detener la sincronización de archivos que le pertenecen.
 <p class="head"> <b>Windows</b> </p>
 
 1. Abrir Windows Explorer.
