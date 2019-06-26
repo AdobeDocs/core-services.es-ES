@@ -1,6 +1,6 @@
 ---
 source-git-commit: de9a84581dd3f52e1f76f39105bcb89e849b6230
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Artículo sobre colaboración
@@ -9,7 +9,7 @@ Agradecemos las contribuciones de nuestra comunidad, así como de los empleados 
 
 ## Código de conducta de Adobe Open Source
 
-Este proyecto ha adoptado el [código de conducta de Adobe Open Source](code-of-conduct.md) o el [código de conducta de .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obtener más información, consulte el artículo [Contribución](contributing.md).
+Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-conduct.md) o el [Código de conducta de .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obtener más información, consulte el artículo [Contribución](contributing.md).
 
 ## Acerca de las contribuciones al contenido de Adobe
 
@@ -19,7 +19,7 @@ La manera en que contribuye depende de quién es usted y del tipo de cambios con
 
 ### Cambios menores
 
-Si desea contribuir de buena fe con actualizaciones menores, visite el artículo y haga clic en el vínculo **Editar** que le redirige a la fuente del artículo GitHub. A continuación, utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la guía [general del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
+Si desea contribuir de buena fe con actualizaciones menores, visite el artículo y haga clic en el vínculo **Editar** que le redirige a la fuente del artículo GitHub. A continuación, utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
 
 Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Cambios importantes de los empleados de Adobe
 
-Si es un redactor técnico, administrador de programa o desarrollador del equipo de producto para una [!UICONTROL solución de Adobe Experience Cloud] y es su trabajo colaborar en artículos técnicos o crearlos, debe utilizar el repositorio privado en `https://git.corp.adobe.com/AdobeDocs`.
+Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de [!UICONTROL Adobe Experience Cloud], y su trabajo consiste en contribuir a artículos técnicos o crearlos, debe utilizar el repositorio privado que hay en `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -41,14 +41,14 @@ Si es un redactor técnico, administrador de programa o desarrollador del equipo
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para editar o ramificar el repositorio con el fin de realizar contribuciones importantes.
 
-Consulte la Guía del colaborador de [Adobe Docs para](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) obtener más detalles.
+Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener información más detallada.
 
-## Cómo utilizar Markdown para dar formato al tema
+## Utilizar Markdown para dar formato al tema
 
 Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si no está familiarizado con Markdown, consulte:
 
-* [Conceptos básicos de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Lista de referencias de Markdown imprimible](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Fundamentos de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Hoja imprimible de Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiquetas
 
