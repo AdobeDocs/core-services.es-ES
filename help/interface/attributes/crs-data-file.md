@@ -1,12 +1,12 @@
 ---
 description: Requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
-keywords: atributos del cliente; servicios principales
+keywords: atributos del cliente;servicios principales
 seo-description: Requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
 seo-title: Acerca del archivo de datos y las fuentes de datos para los atributos del cliente
 solution: Experience Cloud
 title: Acerca del archivo de datos y las fuentes de datos para los atributos del cliente
-uuid: 9 dd 0 e 364-889 b -45 db-b 190-85 c 0930 a 101 e
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 Requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
 
-Deberá poder acceder a CRM o a datos similares de su empresa. Los datos que cargue en Experience Cloud deben ser [!DNL .csv] un archivo. Si carga mediante FTP o sftp, también carga un [!DNL .fin] archivo.
+Deberá poder acceder a CRM o a datos similares de su empresa. Los datos que cargue en Experience Cloud deben estar en un archivo [!DNL .csv]. Si carga a través de un FTP o sFTP, también debe subir un archivo [!DNL .fin].
 
-Los atributos del cliente están diseñados para gestionar algunos archivos por día. Para mitigar el problema de la demora de un gran número de archivos pequeños, los archivos enviados en los 30 minutos siguientes a un lote anterior desde la misma organización se dirigen a una cola de prioridad inferior.
+Los Atributos del cliente están diseñados para gestionar algunos archivos cada día. Para reducir el problema de la demora en el procesamiento de un gran número de archivos pequeños, los archivos enviados en los 30 minutos siguientes a un lote anterior desde la misma organización se redirigirán a una cola de prioridad inferior.
 
 <!-- <p>Articulate difference between this and SAINT. </p> -->
 
-## Tipos de archivo permitidos y requisitos de nomenclatura {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## Tipos de archivos permitidos y requisitos de nombre {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
@@ -39,7 +39,7 @@ Los atributos del cliente están diseñados para gestionar algunos archivos por 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Obligatorio) El archivo <span class="filepath">.fin</span> indica al sistema que la carga de datos ha finalizado. El nombre del archivo <span class="filepath">.fin</span> debe concordar con el nombre del archivo <span class="filepath">.csv</span>. </p> <p>Adobe recomienda la creación de un archivo de texto vacío con una extensión <span class="filepath">.fin</span>. Un archivo vacío ahorra espacio y tiempo de carga. </p> <p> <p>Nota: No se permite cambiar el nombre de un archivo <span class="filepath">.fin</span> una vez se ha cargado. El archivo <span class="filepath">.fin</span> debe cargarse de forma independiente y no puede ser un archivo anteriormente cargado con un nombre diferente. </p> </p> <p>Después de cargar el archivo <span class="filepath">.fin</span> en el FTP de atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Eso es distinto con respecto a otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). </p> <p>El archivo <span class="filepath">.fin</span> no es necesario cuando se utiliza el método de carga de arrastrar y soltar. </p> </td> 
+   <td colname="col2"> <p>(Obligatorio) El archivo <span class="filepath">.fin</span> indica al sistema que la carga de datos ha finalizado. El nombre del archivo <span class="filepath">.fin</span> debe concordar con el nombre del archivo <span class="filepath">.csv</span>. </p> <p>Adobe recomienda la creación de un archivo de texto vacío con una extensión <span class="filepath">.fin</span>. Un archivo vacío ahorra espacio y tiempo de carga. </p> <p> <p>Nota: No se permite cambiar el nombre de un archivo <span class="filepath">.fin</span> una vez cargado. El archivo <span class="filepath">.fin</span> debe cargarse de forma independiente y no puede ser un archivo anteriormente cargado con un nombre diferente. </p> </p> <p>Después de cargar el archivo <span class="filepath">.fin</span> en el FTP de atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Eso es distinto con respecto a otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). </p> <p>El archivo <span class="filepath">.fin</span> no es necesario cuando se utiliza el método de carga de arrastrar y soltar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> o <span class="filepath">.zip </span> </p> </td> 
@@ -81,7 +81,7 @@ El mismo archivo visto en un editor de textos:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Columna de ID de cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe coincidir con el que se ha trasladado al servicio Experience Cloud ID. </p> <p>Para Analytics, el ID que se ha almacenado en una prop o eVar. </p> <p>Para Target, valor setCustomerID. (Consulte <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Target: Sincronización del ID de cliente </a>) </p> <p> Este ID de cliente es el identificador único que utiliza su CRM para cada persona de su base de datos. Las columnas restantes son atributos que provienen de su CRM. Usted elegirá cuántos atributos cargar. </p> <p>Se recomiendan los nombres sencillos y descriptivos para los encabezados de columna, pero no es obligatorio. Cuando valide el esquema tras la carga, puede asignar nombres sencillos para las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos del almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de cliente y estados de autenticación </a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe coincidir con el que se ha trasladado al servicio Experience Cloud ID. </p> <p>Para Analytics, el ID que se ha almacenado en una prop o eVar. </p> <p>Para Target, valor setCustomerID. (Consulte <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Target: Sincronización del ID de cliente </a>) </p> <p> Este ID de cliente es el identificador único que utiliza su CRM para cada persona de su base de datos. Las columnas restantes son atributos que provienen de su CRM. Usted elegirá cuántos atributos cargar. </p> <p>Se recomiendan los nombres sencillos y descriptivos para los encabezados de columna, pero no es obligatorio. Cuando valide el esquema tras la carga, puede asignar nombres sencillos para las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. Un  <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos del almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-authenticated-state" format="https" scope="external">ID de cliente y estados de autenticación </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas subsiguientes </p> </td> 
@@ -113,19 +113,19 @@ El mismo archivo visto en un editor de textos:
    <td colname="col1"> <p>Directrices de FTP y limitación de tamaño </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">El límite máximo de tamaño de archivo para FTP es de 4 GB por carga. </li> 
-      <li>Límite mínimo de tamaño de archivo para 10 MB para cada carga. </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">El límite en el tamaño máximo de un archivo para FTP es de 4 GB por carga. </li> 
+      <li>El límite en el tamaño mínimo de un archivo es de 10 MB por carga. </li>
       <li>Puede cargar un archivo cada media hora. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Debe soltar su archivo <span class="filepath">.csv</span> (y el <span class="filepath">.fin</span>) en la carpeta raíz del sitio FTP. </li> 
      </ul> </p> <p> <p>Importante: El espacio total permitido para la cuenta de FTP es 40 GB. El usuario se debe encargar de eliminar los archivos procesados. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Requisitos de archivo </p> </td> 
-   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contengan un salto de línea, comillas dobles o comas deben entrecomillarse. </p> <p> Los caracteres de comillas dobles en un campo deben acompañarse con secuencias de escape en forma de barra invertida (\). </p> <p> Las columnas en blanco se almacenan como <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contengan un salto de línea, comillas dobles o comas deben entrecomillarse. </p> <p> Los caracteres de comillas dobles en un campo deben acompañarse con secuencias de escape en forma de barra invertida (\). </p> <p> Las columnas en blanco se almacenan como  <span class="term"> null </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios archivos </p> </td> 
-   <td colname="col2"> <p>Al cargar datos de atributos del cliente, si tiene varios archivos que desea cargar con rapidez, y especialmente si los archivos son grandes, asegúrese de que el archivo anterior se haya procesado antes de cargar el siguiente archivo. Puede monitorearlo comprobando cuándo se movió el archivo anterior a la carpeta procesada o fallida de la cuenta FTP de atributos del cliente. </p> <p> Dividir un archivo grande en archivos más pequeños y enviarlo en sucesión rápida puede ralentizar el procesamiento, a menos que se asegure de que cada archivo se procese completamente antes de enviar el siguiente. </p> </td> 
+   <td colname="col2"> <p>Al cargar datos de atributos del cliente, si tiene varios archivos que desea cargar en sucesión con rapidez, asegúrese de que el archivo anterior se haya procesado antes de cargar el siguiente archivo, especialmente si dichos archivos son grandes. Puede monitorizar esto si comprueba cuándo se movió el archivo anterior a la carpeta procesada o de error de la cuenta FTP de atributos del cliente. </p> <p> Dividir un archivo grande en otros más pequeños y enviarlos en sucesión rápida puede ralentizar el procesamiento, a menos que se asegure de que cada archivo se procese completamente antes de enviar el siguiente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codificación de caracteres </p> </td> 
@@ -143,7 +143,7 @@ El mismo archivo visto en un editor de textos:
 </table>
 
 
-## Aprovechamiento de varias fuentes de datos {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
+## Utilización de varias fuentes de datos {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de aproximadamente una hora antes de que los ID empiecen a sincronizarse con la nueva fuente de datos.
 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Consulte [ID de cliente y estados de autenticación](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) para obtener más información).
+(Consulte [ID de cliente y Estados de autenticación](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid_customer_ids) para obtener más información).
 
-En **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personas]** &gt; **[!UICONTROL Atributos del cliente]**:
+En **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL People]** &gt; **[!UICONTROL Atributos del cliente]**:
 
 Cree dos fuentes de atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente
