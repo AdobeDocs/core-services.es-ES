@@ -1,17 +1,17 @@
 ---
-audience: usuario final
-user-guide-title: Guía del usuario de servicios principales
+audience: end-user
+user-guide-title: Guía del usuario de los servicios principales
 user-guide-url: https://www.adobe.com/es
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
 
 ---
 
 
-# Guía del usuario de servicios principales {#interface}
+# Guía del usuario de los servicios principales {#interface}
 
-+ [Ayuda de Experience Cloud y servicios principales](experience-cloud.md)
++ [Ayuda de Experience Cloud y los servicios principales](experience-cloud.md)
 + Acerca de los servicios principales {#about-core-services}
    + [Información general de los servicios principales](core-services-landing.md)
    + [Activación de las soluciones en los servicios principales](core-services/core-services.md)
@@ -25,43 +25,43 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
    + [Actualización a Analytics Premium y Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
    + [Incrustación de contenido](admin-getting-started/oembed.md)
-+ Activación {#activation}
-   + [Información general de activación](activation/activation.md)
-   + [Guía del usuario de lanzamiento](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
-   + [Guía del usuario de DTM](https://marketing.adobe.com/resources/help/en_US/dtm/)
++ Activation {#activation}
+   + [Información general de Activation](activation/activation.md)
+   + [Iniciar guía de usuario](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
+   + [Guía de usuario de DTM](https://marketing.adobe.com/resources/help/es_ES/dtm/)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
    + [Información general de recursos](experience-cloud-assets/experience-cloud-assets.md)
-   + [Uso compartido de carpetas y recursos de Experience Cloud con Creative Cloud](experience-cloud-assets/creative-cloud.md)
+   + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestionar usuarios de Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Uso compartido de una carpeta de recursos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
    + [Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
    + [Cargar un recurso a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Desactivar la sincronización de carpetas compartidas](experience-cloud-assets/t-disable-asset-sync.md)
-   + [Requisitos del archivo de recurso para compartir](experience-cloud-assets/assets-file-reqs.md)
-   + [Comportamiento de carpetas compartidas](experience-cloud-assets/asset-behavior.md)
+   + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
+   + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Audiencias{#audiences}
    + [Descripción general de las audiencias](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
-   + [Publicar un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
+   + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
 + Atributos del cliente {#customer-attributes}
-   + [Información general sobre los atributos del cliente](attributes/attributes.md)
+   + [Información general sobre Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para los atributos del cliente](attributes/crs-data-file.md)
-   + [Creación de un origen de atributos del cliente y carga del archivo de datos](attributes/t-crs-usecase.md)
+   + [Crear un origen de atributos del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
    + [Opcional: cargar el archivo de datos a través de FTP](attributes/t-upload-attributes-ftp.md)
    + [Validar el esquema](attributes/validate-schema.md)
    + [Configurar suscripciones](attributes/subscription.md)
    + [Actualizar el esquema](attributes/t-update-schema.md)
-   + [Consideraciones de privacidad: atributos del cliente](attributes/privacy-mac.md)
+   + [Consideraciones sobre la privacidad: atributos del cliente](attributes/privacy-mac.md)
 + Notas de la versión {#release-notes}
    + [Novedades de Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md)
    + [Notas de versión acumuladas](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Fuente](feed.md)
-+ [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/)
++ [Mobile Services](https://marketing.adobe.com/resources/help/es_ES/mobile/)
 + Más recursos {#more-resources}
    + [Foro](https://forums.adobe.com/community/experience-cloud)
    + [Terminología](terms.md)
    + [Uso de la precarga de DNS con diferentes soluciones y servicios](dns-prefetch.md)
-   + [Actualizaciones de documentación: Experience Cloud](doc-updates.md)
+   + [Actualizaciones de la documentación: Experience Cloud](doc-updates.md)
