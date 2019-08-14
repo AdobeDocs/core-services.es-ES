@@ -4,7 +4,7 @@ user-guide-title: Guía del usuario de los servicios principales
 user-guide-url: https://www.adobe.com/es
 index: true
 translation-type: tm+mt
-source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -18,6 +18,21 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [Asignación de grupos de informes a una organización](core-services/report-suite-mapping.md)
    + [Acerca de los nuevos nombres de las nubes en Experience Cloud](solutions-core-services.md)
 + [Integraciones de Experience Cloud](marketing-cloud-integrations.md)
++ Experience Cloud cookies {#ec-cookies}
+   + [Descripción general de Coookies](cookies/cookies-privacy.md)
+   + [Cookies de origen](cookies/cookies-first-party.md)
+   + [Cookies de Analytics](cookies/cookies-analytics.md)
+   + [Cookies de Audience Manager](cookies/cookies-am.md)
+   + [Cookies de Conectores de datos](cookies/cookies-dc.md)
+   + [Cookies del Área de trabajo de datos](cookies/cookies-insight.md)
+   + [Cookies de Experience Cloud](cookies/cookies-mc.md)
+   + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
+   + [Cookies de Scene 7](cookies/cookies-s7.md)
+   + [Cookies de Search and Promote](cookies/cookies-snp.md)
+   + [Cookies de Survey](cookies/cookies-survey.md)
+   + [Cookies de Target](cookies/cookies-target.md)
+   + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
+   + [Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
    + [Administración de usuarios y productos de Experience Cloud](admin-getting-started/admin-getting-started.md)
    + [Preguntas frecuentes](admin-getting-started/faq.md)
