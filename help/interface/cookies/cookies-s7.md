@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 ---
 
@@ -33,9 +33,9 @@ Cookies para el visor AS2 Flash eCatalog:
 
 Los nuevos visores AS3 no implementan la persistencia de sesión.
 
-* [Nombre de la cookie: VatLogin.jsp](../cookies-overview/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed. state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed_ idx. ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [Nombre de la cookie: VatLogin.jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
+* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed. state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed_ idx. ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## Nombre de la cookie: VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
