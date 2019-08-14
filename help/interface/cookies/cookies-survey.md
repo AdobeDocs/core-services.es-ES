@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -18,10 +18,6 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 # Cookies de Survey{#survey-cookies}
 
 Survey usa cookies para diferenciar las peticiones de distintos navegadores y almacenar información útil que se puede usar para comprender mejor las opiniones de los clientes.
-
-* [Nombre de la cookie: s_sv_sid](../cookies/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nombre de la cookie: s_sv_s1](../cookies/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Nombre de la cookie: s_sv_p1](../cookies/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## Nombre de la cookie: s_sv_sid {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
