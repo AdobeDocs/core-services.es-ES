@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -23,12 +23,8 @@ En la siguiente lista se describe cómo afecta el soporte para las cookies de te
 
 **Adobe Analytics y Target**
 
-<!--
-Test
--->
-
 * Sigue sin afectar a los clientes con una implementación propia. 
-* Los clientes que no usen una implementación propia pueden implementar el [servicio de ID de visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service) para almacenar la cookie de ID como cookie propia sin una implementación propia.
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 **Adobe Experience Manager**
 
