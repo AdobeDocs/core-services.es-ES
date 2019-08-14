@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Hay dos opciones disponibles para implementar cookies individuales
 
 * El servicio Experience Platform ID. El servicio de ID puede establecer la cookie en el contexto de origen mediante JavaScript.
 * Entradas DNS en el servidor DNS de las empresas.
-* Si su sitio tiene páginas seguras mediante `https://` el protocolo y no utiliza el servicio Experience Platform ID, puede trabajar con Adobe para obtener un certificado SSL con el fin de implementar cookies de origen
+* Si su sitio tiene páginas seguras mediante `https:` el protocolo y no utiliza el servicio Experience Platform ID, puede trabajar con Adobe para obtener un certificado SSL con el fin de implementar cookies de origen
 
 El proceso de publicación de certificados SSL puede resultar confuso y requerir mucho tiempo. Como resultado, Adobe estableció una sociedad con digicert, una autoridad certificadora líder del sector (CA), y desarrolló un proceso integrado por el cual la compra y administración de estos certificados es automatizada.
 
