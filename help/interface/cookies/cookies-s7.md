@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -33,18 +33,14 @@ Cookies para el visor AS2 Flash eCatalog:
 
 Los nuevos visores AS3 no implementan la persistencia de sesión.
 
-* [Nombre de la cookie: VatLogin.jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed. state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Nombre de la cookie: s 7 js. flyout. infomessage. displayed_ idx. ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
-
-## Nombre de la cookie: VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
+**Nombre de la cookie: VatLogin.jsp**
 
 | Atributo | Descripción |
 |---|---|
 | Información almacenada | Establece la cookie de sesión. El AuthFilter incrustado en IPS ImageServer (IS, IR y también los archivos SWF/máscaras y los contextos de vídeo) usa la cookie para la autorización de acceso. Si está presente, permite el paso a través de las peticiones HTTP. De lo contrario, devuelve un valor de falta de autorización. |
 | Vencimiento | Esta cookie es una cookie de sesión. El vencimiento de la sesión actual está establecido en 45 minutos en el archivo [!DNL web.xml] de IPS de Scene7. |
 
-## Nombre de la cookie: s 7 js. flyout. infomessage. displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+**Nombre de la cookie: s 7 js. flyout. infomessage. displayed`assetId`. state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +61,7 @@ Los nuevos visores AS3 no implementan la persistencia de sesión.
  </tbody> 
 </table>
 
-## Nombre de la cookie: s 7 js. flyout. infomessage. displayed<assetId>_ idx<id>. ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+**Nombre de la cookie: s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
 
 Los visores DHTML heredados usan las cookies de navegador para almacenar información de estado y datos de notas permanentes. También las usa el menú flotante DHTML multipantalla para hacer que el indicador de mensaje sea específico de sesión.
 
