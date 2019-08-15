@@ -10,31 +10,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Cómo afectan los cambios en la compatibilidad con cookies de terceros a los clientes{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
 
 En la siguiente lista se describe cómo afecta el soporte para las cookies de terceros a las implementaciones actuales de las soluciones de Adobe Experience Cloud:
 
-**Adobe Analytics y Target**
+## Adobe Analytics y Adobe Target
 
-* Sigue sin afectar a los clientes con una implementación propia. 
+* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
 * Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
-**Adobe Experience Manager**
+## Adobe Experience Manager
 
-* Como Adobe Experience Manager funciona en su totalidad en el dominio del cliente, existe una interacción mínima con las cookies de terceros, por lo que el impacto es mínimo. 
+* Dado que Adobe Experience Manager funciona completamente dentro del dominio del cliente, existe una interacción mínima con las cookies de terceros y, por lo tanto, mínima de ningún impacto.
 
-**Adobe Social**
+## Adobe Social
 
 * Social no se vería afectado siempre que el cliente tenga la versión más reciente del código.
 
-**Adobe Media Optimizer**
+## Adobe Advertising Cloud
 
 * Buscar:
 
