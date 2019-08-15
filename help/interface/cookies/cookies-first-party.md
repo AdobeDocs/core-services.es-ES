@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21bab04d9df4f75afbd1dc5940842b57c34ecb24
+source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
 
 ---
 
@@ -41,12 +41,10 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 1. Complete el formulario de solicitud y abra un ticket con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa Administrado de Adobe. Cada campo se describe dentro del documento con ejemplos.
 
-1. Cree registros CNAME. Una vez recibidos el ticket, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes.
+1. Cree registros CNAME (consulte las instrucciones más abajo). Una vez recibidos el ticket, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes.
 
 * **Proteger** : Por ejemplo, el nombre de host `smetrics.example.com` apunta a: `example.com.ssl.d1.omtrdc.net`.
 * **No seguro** : por ejemplo, el nombre de host `metrics.example.com` apunta a: `example.com.d1.omtrdc.net`.
-
-Consulte Creación de registros CNAME para obtener más información.
 
 1. Cuando estos CNAMES estén en su sitio, Adobe trabajará con digicert para adquirir e instalar un certificado en los servidores de producción de Adobe. Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los visitantes existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (https), actualice `s.trackingServer`el. Si el sitio es seguro (https), actualice ambos `s.trackingServer``s.trackingServerSecure` y variables.
 
