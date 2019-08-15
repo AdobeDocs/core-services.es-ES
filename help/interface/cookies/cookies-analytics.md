@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
@@ -30,139 +30,47 @@ En concreto, usa las cookies para definir de forma anónima a los nuevos visitan
 * [Nombre de la cookie: s_fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [Cookies establecidas por complementos](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Consulte más información sobre las [cookies propias](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html) en la ayuda de Analytics.
+Consulte más información sobre las [cookies propias](/help/interface/cookies/cookies-first-party.md) en la ayuda de Analytics.
 
 ## Nombre de la cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-<table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Atributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descripción </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Contiene una copia del ID de Experience Cloud (ECID) o MID. El MID se almacena en un par clave-valor que sigue esta sintaxis, s_ ecid = MCMID|&lt; ECID &gt; </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p>2 años </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p>Esta cookie es configurada por el dominio del cliente después de que el cliente haya establecido la cookie AMCV. El propósito de esta cookie es permitir el seguimiento de ID persistente en el estado 1 ^ st ^ party y se utiliza como ID de referencia si la cookie AMCV ha caducado. Consulte la cookie AMCV aquí para obtener más detalles. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p>Solo clientes CNAME. No aplicable a tres situaciones de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p>45 bytes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Atributo | Descripción |
+|--- |--- |
+| Información almacenada | Contiene una copia del ID de Experience Cloud (ECID) o MID. El MID se almacena en un par clave-valor que sigue esta sintaxis, s_ ecid = MCMID | <ECID> |
+| Vencimiento | 2 años |
+| Uso | Esta cookie es configurada por el dominio del cliente después de que el cliente haya establecido la cookie AMCV. El propósito de esta cookie es permitir el seguimiento de ID persistente en el estado 1 ^ st ^ party y se utiliza como ID de referencia si la cookie AMCV ha caducado. Consulte la cookie AMCV aquí para obtener más detalles. |
+| Ubicación | Solo clientes CNAME. No aplicable a escenarios de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. |
+| Tamaño | 45 bytes |
 
 ## Nombre de la cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
-<table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Atributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descripción </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> El código JavaScript establece y lee esta cookie para determinar si las cookies están habilitadas (se configura como “True”) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p> Esta es una cookie de sesión y caduca cuando se cierra el navegador </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p> Una sola cookie para todas las cuentas </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p> Esta cookie se almacena en el dominio de la página </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p> 4 bytes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Atributo | Descripción |
+|--- |--- |
+| Información almacenada | El código JavaScript establece y lee esta cookie para determinar si las cookies están habilitadas (se configura como “True”) |
+| Vencimiento | Esta es una cookie de sesión y caduca cuando se cierra el navegador |
+| Uso | Una sola cookie para todas las cuentas |
+| Ubicación | Esta cookie se almacena en el dominio de la página |
+| Tamaño | 4 bytes |
 
 ## Nombre de la cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
-<table id="table_05EEB54B5EA2409DB1D071FD1484E8F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Atributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descripción </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> El código JavaScript establece y lee esta cookie cuando están habilitadas las funcionalidades ClickMap y Activity Map. Contiene información sobre el vínculo anterior en el que el usuario hizo clic. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p> Esta es una cookie de sesión y caduca cuando se cierra el navegador </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p> Una sola cookie para todas las cuentas </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p> Esta cookie se almacena en el dominio de la página </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p> Varía según el tamaño de la dirección URL de la página, pero normalmente es de 100 a 200 bytes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Atributo | Descripción |
+|--- |--- |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando están habilitadas las funcionalidades ClickMap y Activity Map. Contiene información sobre el vínculo anterior en el que el usuario hizo clic. |
+| Vencimiento | Esta es una cookie de sesión y caduca cuando se cierra el navegador |
+| Uso | Una sola cookie para todas las cuentas |
+| Ubicación | Esta cookie se almacena en el dominio de la página |
+| Tamaño | Varía según el tamaño de la dirección URL de la página, pero normalmente de 100 a 200 bytes |
 
 ## Nombre de la cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
-<table id="table_774F04AA9E3847D9AE7803520B5AAAE3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Atributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descripción </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Marca de fecha y hora del identificador de visitante único </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p> 2 años </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p> Esta cookie se usa para identificar a un visitante único </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p> Esta cookie se almacena en el dominio de la petición de imagen, que suele ser 2O7.net si usa cookies de terceros o su dominio si usa cookies de origen </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p> 44 bytes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Atributo | Descripción |
+|--- |--- |
+| Información almacenada | Marca de fecha y hora del identificador de visitante único |
+| Vencimiento | 2 años |
+| Uso | Esta cookie se usa para identificar a un visitante único |
+| Ubicación | Esta cookie se almacena en el dominio de la petición de imagen, que suele ser 2O7.net si usa cookies de terceros o su dominio si usa cookies de origen |
+| Tamaño | 44 bytes |
 
 >[!NOTE]
 >
@@ -170,36 +78,13 @@ Consulte más información sobre las [cookies propias](https://marketing.adobe.c
 
 ## Nombre de la cookie: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
-<table id="table_B0EDB50677D14A86A1BFB7CCAAE95C88"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Atributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descripción </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Marca de fecha y hora del ID de visitante único alternativo </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p>5 años </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p> Esta cookie se usa para identificar a un visitante único si la cookie estándar <span class="codeph">s_vi</span> no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p> Esta cookie está almacenada en su dominio como una cookie propia. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p> 33 bytes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Atributo | Descripción |
+|--- |--- |
+| Información almacenada | Marca de fecha y hora del ID de visitante único alternativo |
+| Vencimiento | 5 años |
+| Uso | Esta cookie se usa para identificar a un visitante único si la cookie estándar s_vi no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
+| Ubicación | Esta cookie está almacenada en su dominio como una cookie propia. |
+| Tamaño | 33 bytes |
 
 ## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
