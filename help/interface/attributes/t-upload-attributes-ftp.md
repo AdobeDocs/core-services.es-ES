@@ -6,8 +6,8 @@ seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
 title: 'Opcional: cargar el archivo de datos a través de FTP'
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 Si no carga mediante arrastrar y soltar, puede cargar datos de atributo del cliente mediante FTP a Experience Cloud.
 
-Puede cargar los datos una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de dicha cuenta. Los datos deben tener el formato [!DNL .csv], con un segundo archivo [!DNL .fin] para indicar que la carga ha finalizado.
+Puede cargar los datos una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de dicha cuenta. Los datos deben tener el formato `.csv`, con un segundo archivo `.fin` para indicar que la carga ha finalizado.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de atributos del cliente pueden realizarse por FTP o SFTP.
 
 * Necesita un cliente que admita las conexiones SFTP.
-* Puede conectarse con SFTP si usa un nombre de usuario con o sin contraseña, como se describe [aquí](https://marketing.adobe.com/resources/help/es_ES/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puede conectar con SFTP con un nombre de usuario y contraseña o sin contraseña, como se describe [aquí](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -45,11 +45,11 @@ Las cargas de archivos al sitio FTP de atributos del cliente pueden realizarse p
 
 1. Haga clic en **[!UICONTROL Acciones]** &gt; **[!UICONTROL Carga de archivo]**.
 
-1. Cargue un archivo [!DNL .fin] para que su archivo se pueda recuperar.
+1. Cargue un archivo `.fin` para que su archivo se pueda recuperar.
 
-   El tipo de archivo [!DNL .fin] lo crea el usuario e indica que la carga ha finalizado. Puede ser un archivo del bloc de notas en blanco. Por ejemplo, si carga [!DNL crs123.csv], también carga [!DNL crs123.fin].
+   El tipo de archivo `.fin` lo crea el usuario e indica que la carga ha finalizado. Puede ser un archivo del bloc de notas en blanco. Por ejemplo, si carga [!DNL crs123.csv], también carga [!DNL crs123.fin].
 
    Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta llamada **procesado**.
 
 
-   Consulte  [Requisitos del archivo de datos para la carga de atributos de cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener información importante acerca de los nombres y estructura de los archivos.
+   Consulte [Requisitos del archivo de datos para la carga de atributos de cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener información importante acerca de los nombres y estructura de los archivos.
