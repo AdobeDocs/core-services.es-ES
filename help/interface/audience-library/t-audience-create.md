@@ -6,8 +6,8 @@ seo-title: Crear una audiencia
 solution: Experience Cloud
 title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -39,7 +39,7 @@ Cada círculo representa una regla que define una afiliación de audiencia. Los 
 
    ![](assets/audience_create.png)
 
-1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL People]** &gt; **[!UICONTROL Biblioteca de audiencias]**.
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
 1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
 
 ![Resultado de los pasos](assets/audience_create_new.png)
