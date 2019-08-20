@@ -6,8 +6,8 @@ seo-title: Notas de versión acumuladas
 solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+translation-type: tm+mt
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,9 +18,25 @@ Funciones, notas de la versión y problemas conocidos de la interfaz de Experien
 
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Para ver las notas de la versión que abarcan todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
+Para obtener notas de la versión acerca de todas las soluciones, consulte las [Notas de versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+
+## Agosto - 2019
+
+* Se ha corregido un problema crítico en el inicio de sesión de Experience Cloud que llevaba al cierre de sesión de algunos usuarios. (MCUI-6908)
+* Se ha actualizado el inicio de sesión de Experience Cloud para mejorar el rendimiento y reducir la latencia. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Interfaz actualizada de forma cosmética. (MCUI-6861, MCUI-6911, MCUI-6862)
+* Se ha corregido un problema con los [!UICONTROL Triggers] de Experience Cloud, que provocaba una interpretación incorrecta de la cláusula _Me gusta_ en la definición de [!UICONTROL Activador]. (MCUI-6611)
+
+## Abril - 2019
+
+* Se ha actualizado el conmutador de aplicación para incluir Marketo en el paquete de soluciones de Experience Cloud y se han añadido actualizaciones de marca en Experience Platform. (MCUI-6529)
+* Se ha actualizado Experience Cloud Home para incluir vínculos de navegación a las páginas de Fuentes y Administración. (MCUI-6682)
+* Se ha corregido un problema en la definición [!UICONTROL de activador] para el uso correcto de la cláusula "like". (MCUI-6611)
+* Se han mejorado los Atributos del cliente para un mejor inicio de sesión en el servicio de Suscripción. (MCUI-6519)
 
 ## Versión 19.1.1: 17 de enero de 2019
+
+**Nota:** En marzo de 2019, la interfaz de Experience Cloud no admitirá Internet Explorer 11.
 
 * Se ha corregido un problema que impedía buscar en la ayuda desde los resultados devueltos. (MCUI-1670)
 * Se ha corregido y mejorado la administración de eVar en Triggers. (MCUI-6400)
@@ -100,7 +116,7 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 
 >[!NOTE]
 >
->Microsoft [finalizará la asistencia](https://www.microsoft.com/es-es/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
+>Microsoft va a [dejar de ofrecer asistencia](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
 
 ## Versión 15.10: 14 de octubre de 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -155,7 +171,7 @@ No hay información disponible
 </table>
 
 * Se ha corregido un problema que evitaba que los atributos del cliente se sincronizaran para algunos clientes.
-* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target se mostrara en japonés.](https://marketing.adobe.com/resources/help/es_ES/target/a4t/).
+* Se ha corregido un problema que evitaba que la página [Documentación del producto de Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) se mostrara en japonés.
 * Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud]el.
 
 ## Versión 15.4.1: 8 de abril de 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
