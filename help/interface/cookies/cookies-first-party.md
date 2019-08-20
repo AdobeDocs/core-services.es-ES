@@ -39,12 +39,9 @@ El programa Certificados administrados de Adobe permite implementar un nuevo cer
 
 Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
-1. Complete el formulario ![de solicitud](assets/FPC_Request_Form.xlsx) y abra un ticket con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa Administrado de Adobe. Cada campo se describe dentro del documento con ejemplos.
+1. Complete el formulario de solicitud de cookie [de origen](/help/interface/cookies/assets/FPC_Request_Form.xlsx) y abra un ticket con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa Administrado de Adobe. Cada campo se describe dentro del documento con ejemplos.
 
-1. Cree registros CNAME (consulte las instrucciones más abajo). Una vez recibidos el ticket, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes.
-
-* **Proteger** : Por ejemplo, el nombre de host `smetrics.example.com` apunta a: `example.com.ssl.d1.omtrdc.net`.
-* **No seguro** : por ejemplo, el nombre de host `metrics.example.com` apunta a: `example.com.d1.omtrdc.net`.
+1. Cree registros CNAME (consulte las instrucciones más abajo). Una vez recibidos el ticket, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes: **Proteger** : Por ejemplo, el nombre de host `smetrics.example.com` apunta a: `example.com.ssl.d1.omtrdc.net`. **No seguro** : por ejemplo, el nombre de host `metrics.example.com` apunta a: `example.com.d1.omtrdc.net`.
 
 1. Cuando estos CNAMES estén en su sitio, Adobe trabajará con digicert para adquirir e instalar un certificado en los servidores de producción de Adobe. Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los visitantes existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (https), actualice `s.trackingServer`el. Si el sitio es seguro (https), actualice ambos `s.trackingServer``s.trackingServerSecure` y variables.
 
@@ -109,9 +106,9 @@ Si los registros CNAME no están configurados correctamente o no están activos,
 
 Antes de editar el código del sitio para utilizar cookies de origen, complete estos requisitos previos:
 
-* Solicite un certificado SSL, tal como se describe en Pasos de implementación para el Programa de certificados administrados de Adobe.
-* Cree registros CNAME.
-* Ping el nombre de host.
+* Solicite un certificado SSL, tal como se describe anteriormente en Pasos de implementación para el Programa de certificados administrados de Adobe.
+* Creación de registros CNAME (véase más arriba).
+* Ping el nombre de host (véase más arriba).
 
 Después de comprobar que los nombres de host responden y redirigen a los servidores de recopilación de datos de Adobe, puede modificar su implementación para que señale a sus propios nombres de host de recopilación de datos.
 
@@ -119,6 +116,7 @@ Después de comprobar que los nombres de host responden y redirigen a los servid
 1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código solo pertinente a cookies de origen, busque las variables s. trackingserver y s. trackingserversecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Cargue el archivo javascript principal actualizado en el sitio.
+
 1. Si pasa a cookies de origen de una implementación antigua o cambia a otro nombre de host de colección de origen, recomendamos migrar visitantes del dominio anterior al nuevo dominio.
 
 Consulte [Migración de visitantes](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) en la Guía de implementación de Analytics.
