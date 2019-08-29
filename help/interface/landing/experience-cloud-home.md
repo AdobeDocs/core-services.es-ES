@@ -4,7 +4,7 @@ seo-title: Documentación de productos y ayuda para soluciones en Adobe Experien
 description: Documentación de productos y ayuda para soluciones en Adobe Experience Cloud.
 seo-description: Ayuda de Experience Cloud
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 381ce8d571d2a8e76052ab159239f5240e9bef38
 
 ---
 
@@ -27,7 +27,7 @@ Documentación de productos y ayuda de Adobe Experience Cloud.
 
 ![Ayuda](assets\mc_analytics_32.png) **de Analytics Analytics**
 
-* [Página de inicio de la ayuda de Analytics](/help/landing/home.md)
+* [Página de inicio de la ayuda de Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [Herramientas](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [Administrador](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
 * [Implementación](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
@@ -40,7 +40,7 @@ Documentación de productos y ayuda de Adobe Experience Cloud.
 
 ![Ayuda de Audience Manager](assets\mc_analytics_32.png) **Audience Manager**
 
-* Audience Manager
+* [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * Administrador de Audience Manager
 
 ![Ayuda](assets\mc_target_32.png) **de Target Target**
