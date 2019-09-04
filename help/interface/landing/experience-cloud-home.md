@@ -4,7 +4,7 @@ seo-title: Documentación de productos y ayuda para soluciones en Adobe Experien
 description: Documentación de productos y ayuda para soluciones en Adobe Experience Cloud.
 seo-description: Ayuda de Experience Cloud
 translation-type: tm+mt
-source-git-commit: 786ef462c1c3be516f4047c56c0c4a41c31e4212
+source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 786ef462c1c3be516f4047c56c0c4a41c31e4212
 
 Documentación de productos y ayuda de Adobe Experience Cloud.
 
-![Ayuda de Experience Cloud](assets/experience_cloud_appicon_32.png)
-
-## Ayuda de Experience Cloud
+## ![Ayuda de Experience Cloud para](assets/experience_cloud_appicon_32.png) Experience Cloud
 
 * [Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (todos los productos)
 * [Ayuda de Experience Cloud y de servicios principales](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -27,9 +25,7 @@ Documentación de productos y ayuda de Adobe Experience Cloud.
 * [Cooperación entre dispositivos](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-![Ayuda de Analytics](assets/mc_analytics_32.png)
-
-## Ayuda de Analytics
+## ![Ayuda de Analytics Help](assets/mc_analytics_32.png) Analytics
 
 * [Página de inicio de la ayuda de Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [Herramientas](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -42,42 +38,30 @@ Documentación de productos y ayuda de Adobe Experience Cloud.
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-![Ayuda del Audience Manager](assets/mc_audiencemanager_32.png)
-
-## Ayuda del Audience Manager
+## ![Ayuda de Audience Manager para](assets/mc_audiencemanager_32.png) Audience Manager
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * [Administrador de Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
-![Ayuda de Target](assets/mc_target_32.png)
-
-## Ayuda de Target
+## ![Ayuda](assets/mc_target_32.png) de Target Target Target
 
 * [Notas de la versión de Target](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-![Ayuda de Experience Manager](assets/mc_experiencemanager_32.png)
-
-## Ayuda de Experience Manager
+## ![Ayuda de](assets/mc_experiencemanager_32.png) Experience Manager Help Manager
 
 * [Información y asistencia de Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
-![Ayuda de campaña](assets/mc_campaign_32.png)
-
-## Ayuda de campaña
+## ![Ayuda de la campaña de ayuda](assets/mc_campaign_32.png) de campaña
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-![Ayuda de Primetime](assets/primetime_app_32.png)
-
-## Ayuda de Primetime
+## ![Ayuda Primetime de](assets/primetime_app_32.png) Primetime
 
 * [Ayuda de Primetime](http://help.adobe.com/en_US/primetime/)
 
-![Ayuda de Advertising Cloud](assets/advertisingcloud_appicon_32.png)
-
-## Ayuda de Advertising Cloud
+## ![Ayuda de Advertising Cloud Help](assets/advertisingcloud_appicon_32.png) Cloud
 
 Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) en la parte superior de cualquier página.
 
