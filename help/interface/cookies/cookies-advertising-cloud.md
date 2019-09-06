@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6950426a81f22757387b297f349377d34865842
+source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
 
@@ -279,6 +279,39 @@ Advertising Cloud usa cookies para asignar eventos de participación de publicid
   <tr> 
    <td colname="col1"> <p>Tamaño </p> </td> 
    <td colname="col2"> <p>~20 bytes </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Nombre de la cookie: id_ adcloud
+
+<table> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Atributo </th> 
+   <th colname="col2" class="entry"> Descripción </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Información almacenada </p> </td> 
+   <td colname="col2"> <p>El ID del remitente </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Vencimiento </p> </td> 
+   <td colname="col2"> <p>91 días </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Uso </p> </td> 
+   <td colname="col2"> <p>La cookie se establece en el dominio de origen pero aún no se usa </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Ubicación </p> </td> 
+   <td colname="col2"> <p>Dominio de nivel superior del anunciante (como example.com) </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Tamaño </p> </td> 
+   <td colname="col2"> <p>16 bytes </p> </td> 
   </tr> 
  </tbody> 
 </table>
