@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ Advertising Cloud usa cookies para asignar eventos de participación de publicid
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>ID y marcas de hora (en formato aaaammdd) de clics en pantalla </p> </td> 
+   <td colname="col2"> <p>ID y marcas de hora (en formato aaaammdd) de clics en pantalla</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>15 minutos/p &gt; </p> </td> 
+   <td colname="col2"> <p>15 minutos</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
@@ -50,6 +50,39 @@ Advertising Cloud usa cookies para asignar eventos de participación de publicid
  </tbody> 
 </table>
 
+## Nombre de la cookie: _ tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Atributo </th> 
+   <th colname="col2" class="entry"> Descripción </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Información almacenada </p> </td> 
+   <td colname="col2"> <p>ID codificados y marcas de hora para participaciones publicitarias mediante el seguimiento de DSP de Advertising Cloud </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Vencimiento </p> </td> 
+   <td colname="col2"> <p>1 año </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Uso </p> </td> 
+   <td colname="col2"> <p>Una cookie de terceros que almacena participaciones de usuarios con publicidades, como «la última publicidad vista xyz 123 el 30 de junio de 2016» </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Ubicación </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Tamaño </p> </td> 
+   <td colname="col2"> <p>Variable; los datos se codifican y normalmente menos de 1 KB </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Nombre de la cookie: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ Advertising Cloud usa cookies para asignar eventos de participación de publicid
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>El ID del remitente, las marcas de fecha y hora realizadas por la última visita del remitente al sitio web del anunciante y el último clic de búsqueda del remitente, y el ef_ id que se creó cuando el usuario hizo clic en un anuncio/p &gt; </p> </td> 
+   <td colname="col2"> <p>El ID del remitente, las marcas de fecha y hora realizadas por la última visita del remitente al sitio web del anunciante y el último clic de búsqueda del remitente, y el ef_ id que se creó cuando el usuario hizo clic en una publicidad</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
@@ -216,37 +249,3 @@ Advertising Cloud usa cookies para asignar eventos de participación de publicid
   </tr> 
  </tbody> 
 </table>
-
-## Nombre de la cookie: _ tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Atributo </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>ID codificados y marcas de hora para participaciones publicitarias mediante el seguimiento de DSP de Advertising Cloud </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>1 año </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Uso </p> </td> 
-   <td colname="col2"> <p>Una cookie de terceros que almacena participaciones de usuarios con publicidades, como «la última publicidad vista xyz 123 el 30 de junio de 2016» </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ubicación </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tamaño </p> </td> 
-   <td colname="col2"> <p>Variable; los datos se codifican y normalmente menos de 1 KB </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
