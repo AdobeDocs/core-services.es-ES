@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Acerca del archivo de datos y las fuentes de datos para los atributos del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ Los Atributos del cliente están diseñados para gestionar algunos archivos cada
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Archivo de valores separados por comas (como uno creado en Excel). Este es el archivo que contiene los datos de atributo de cliente. </p> <p> <b>Requisitos de nomenclatura:</b> asegúrese que las extensiones de nombre de archivo no contienen espacios en blanco. </p> </td> 
+   <td colname="col2"> <p>Archivo de valores separados por comas (como uno creado en Excel). Este es el archivo que contiene los datos de atributo de cliente. </p> <p> <b></b> Requisitos de nomenclatura: Asegúrese de que las extensiones de nombre de archivo no contengan ningún espacio en blanco o ninguno de estos caracteres ".", "..", "/", ":" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
