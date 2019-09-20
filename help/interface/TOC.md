@@ -2,9 +2,10 @@
 audience: end-user
 user-guide-title: Guía del usuario de los servicios principales
 user-guide-url: https://www.adobe.com/es
+product: servicios principales
 index: true
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
@@ -20,16 +21,16 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [Acerca de los nuevos nombres de las nubes en Experience Cloud](solutions-core-services.md)
 + [Integraciones de Experience Cloud](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
-   + [Descripción general de Coookies](cookies/cookies-privacy.md)
+   + [Información general sobre las cookies](cookies/cookies-privacy.md)
    + [Cookies de origen](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de Conectores de datos](cookies/cookies-dc.md)
-   + [Cookies del Área de trabajo de datos](cookies/cookies-insight.md)
+   + [Cookies de Data Connectors](cookies/cookies-dc.md)
+   + [Cookies de Área de trabajo de datos](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de Scene 7](cookies/cookies-s7.md)
-   + [Cookies de Search and Promote](cookies/cookies-snp.md)
+   + [Cookies de Scene7](cookies/cookies-s7.md)
+   + [Buscar y promocionar cookies](cookies/cookies-snp.md)
    + [Cookies de Target](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes](cookies/cookies-thirdparty.md)
@@ -42,7 +43,7 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [Incrustación de contenido](admin-getting-started/oembed.md)
 + Activation {#activation}
    + [Información general de Activation](activation/activation.md)
-   + [Guía del usuario de lanzamiento](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Iniciar guía del usuario](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Guía del usuario de DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
