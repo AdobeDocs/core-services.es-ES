@@ -1,15 +1,15 @@
 ---
 description: Scene7 usa cookies para almacenar información útil que se puede usar para la presentar medios dinámicos en el navegador.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Scene7 usa cookies para almacenar información útil que se puede usar para la presentar medios dinámicos en el navegador.
 seo-title: Cookies de Scene7
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Scene7
-uuid: f 9 b 9 d 13 a -17 e 5-4139-8 c 84-6 fe 5 d 22 c 4196
+uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ Los nuevos visores AS3 no implementan la persistencia de sesión.
 | Información almacenada | Establece la cookie de sesión. El AuthFilter incrustado en IPS ImageServer (IS, IR y también los archivos SWF/máscaras y los contextos de vídeo) usa la cookie para la autorización de acceso. Si está presente, permite el paso a través de las peticiones HTTP. De lo contrario, devuelve un valor de falta de autorización. |
 | Vencimiento | Esta cookie es una cookie de sesión. El vencimiento de la sesión actual está establecido en 45 minutos en el archivo [!DNL web.xml] de IPS de Scene7. |
 
-**Nombre de la cookie: s 7 js. flyout. infomessage. displayed`assetId`. state**
+**Nombre de la cookie: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ Los nuevos visores AS3 no implementan la persistencia de sesión.
  </tbody> 
 </table>
 
-**Nombre de la cookie: s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
+**Nombre de la cookie: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 Los visores DHTML heredados usan las cookies de navegador para almacenar información de estado y datos de notas permanentes. También las usa el menú flotante DHTML multipantalla para hacer que el indicador de mensaje sea específico de sesión.
 
