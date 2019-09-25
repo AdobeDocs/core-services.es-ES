@@ -1,15 +1,15 @@
 ---
 description: Elimine los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Elimine los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles.
 seo-title: Habilitación de la configuración de privacidad para las cookies de navegador
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Habilitación de la configuración de privacidad para las cookies de navegador
-uuid: f 6 a 56 e 8 b-b 021-49 db -8 eb 4-6 c 14 af 0 c 7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -21,15 +21,15 @@ Elimine los usuarios que bloquearon todas las cookies en el escritorio y en los 
 
 Esta configuración le permite respetar la intención del usuario de parar el proceso Analytics si este bloquea todas las cookies en su configuración de las cookies de navegador.
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. Vaya a **[!UICONTROL Herramientas administrativas]** &gt; **[!UICONTROL Grupos de informes]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Configuración de privacidad**].
+1. Habilite **[!UICONTROL Configuración de privacidad]** (para escritorio o móvil).
 
    Al habilitar esta función, se excluirán de los informes de Analytics los datos recopilados en los navegadores de escritorio que el usuario haya configurado para que bloqueen todas las cookies. Si Adobe no reconoce el navegador, los datos se incluirán en los informes de Analytics.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que muchas aplicaciones móviles (como el navegador de la aplicación para Facebook o Twitter) pueden aparecer como un navegador móvil estándar pero no permiten todas las cookies. Habilitar está función podría excluir una gran parte del tráfico móvil de los informes de Analytics.
+>Tenga en cuenta que varias aplicaciones móviles (como en el caso del navegador de la aplicación para Facebook o Twitter) pueden aparecer como un navegador móvil convencional, pero no permiten todas las cookies. Habilitar está función podría excluir una gran parte del tráfico móvil de los informes de Analytics.
 
 **Acerca de la Configuración de privacidad del navegador**
 
