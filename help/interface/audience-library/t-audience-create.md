@@ -6,7 +6,7 @@ seo-title: Crear una audiencia
 solution: Experience Cloud
 title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -31,15 +31,16 @@ Cada círculo representa una regla que define una afiliación de audiencia. Los 
 
 >[!NOTE]
 >
->La audiencia está completamente definida tras la recopilación de datos una vez completado el periodo especificado. El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta. Esta audiencia está compuesta por:
+>La audiencia está completamente definida tras la recopilación de datos una vez completado el periodo especificado.
+El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta. Esta audiencia está compuesta por:
 
 * La sección de Hogar y jardinería derivada de los datos de página o los datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento de [!DNL Adobe Analytics][publicado](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) en [!DNL Experience Cloud].
+* Usuarios de Chrome y Safari derivados de un segmento de [!DNL Adobe Analytics] [publicado](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) en [!DNL Experience Cloud].
 
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. En [!DNL Experience Cloud], en [!DNL Experience Platform], haga clic en **[!UICONTROL Usuarios]** &gt; **[!UICONTROL Biblioteca de audiencias]**.
 1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
 
 ![Resultado de los pasos](assets/audience_create_new.png)
@@ -47,7 +48,7 @@ Cada círculo representa una regla que define una afiliación de audiencia. Los 
 1. En la página [!UICONTROL Crear audiencia], especifique un título y una descripción.
 1. Dentro de [!UICONTROL Reglas], seleccione una fuente de atributos:
 
-* **[!UICONTROL Datos de Analytics en tiempo real:]** datos de atributo derivados de solicitudes de imagen en tiempo real de Analytics; incluyen datos tales como eVars y eventos. Debe seleccionar un grupo de informes al usar esta fuente de atributos, y definir la dimensión o el evento para incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
+* **[!UICONTROL Datos de Real-Time Analytics:]** datos de atributo derivados de solicitudes de imagen en tiempo real de Analytics; incluyen datos tales como eVars y eventos. Debe seleccionar un grupo de informes al usar esta fuente de atributos, y definir la dimensión o el evento para incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
 
    >[!NOTE]
    >
