@@ -6,7 +6,7 @@ seo-title: Validar el esquema
 solution: Experience Cloud
 title: Validar el esquema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -34,7 +34,7 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
 * **[!UICONTROL Ver/Editar Esquema:]** Asigna nombres para mostrar en los datos de atributo, como se describe en el siguiente paso.
 
-* **[!UICONTROL Configuración de FTP:]**[Cargue los datos a través de un FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL Configuración de FTP:]** [Cargue los datos a través de un FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 * **[!UICONTROL Búsqueda de ID:]** Introduzca un ID de cliente (CID) de su `.csv` para buscar información sobre ese ID en Experience Cloud. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
 
@@ -51,7 +51,7 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
 También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de dicha cuenta. Los datos deben tener el formato .csv, con un segundo archivo .fin para indicar que la carga ha finalizado
 
-Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) en la ayuda de para obtener más información.[!DNL Analytics]
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://marketing.adobe.com/resources/help/es_ES/reference/?f=reports_customer_attributes) en las páginas de ayuda de [!DNL Analytics] para obtener más información.
 
 * **[!UICONTROL Atributo:]** Lectura de datos de atributo desde un archivo cargado `.csv`.
 
