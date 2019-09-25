@@ -6,7 +6,7 @@ seo-title: Notas de versión acumuladas
 solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,16 +18,16 @@ Funciones, notas de la versión y problemas conocidos de la interfaz de Experien
 
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Para obtener notas de la versión acerca de todas las soluciones, consulte las [Notas de versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Para ver las notas de la versión que abarcan todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
 
-## Agosto - 2019
+## Agosto de 2019
 
 * Se ha corregido un problema crítico en el inicio de sesión de Experience Cloud que llevaba al cierre de sesión de algunos usuarios. (MCUI-6908)
 * Se ha actualizado el inicio de sesión de Experience Cloud para mejorar el rendimiento y reducir la latencia. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Interfaz actualizada de forma cosmética. (MCUI-6861, MCUI-6911, MCUI-6862)
 * Se ha corregido un problema con los [!UICONTROL Triggers] de Experience Cloud, que provocaba una interpretación incorrecta de la cláusula _Me gusta_ en la definición de [!UICONTROL Activador]. (MCUI-6611)
 
-## Abril - 2019
+## Abril de 2019
 
 * Se ha actualizado el conmutador de aplicación para incluir Marketo en el paquete de soluciones de Experience Cloud y se han añadido actualizaciones de marca en Experience Platform. (MCUI-6529)
 * Se ha actualizado Experience Cloud Home para incluir vínculos de navegación a las páginas de Fuentes y Administración. (MCUI-6682)
@@ -116,7 +116,7 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 
 >[!NOTE]
 >
->Microsoft va a [dejar de ofrecer asistencia](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
+>Microsoft [finalizará la asistencia](https://www.microsoft.com/es-es/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
 
 ## Versión 15.10: 14 de octubre de 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -164,14 +164,14 @@ No hay información disponible
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las  selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selección de menú <span class="term"> Exchange </span> se ha trasladado del menú desplegable Ayuda al carril de navegación izquierdo. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado<span class="term"> Soluciones </span>. Podrá iniciar todas las soluciones desde la mitad inferior del carril de navegación. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado <span class="term">Soluciones</span>. Podrá iniciar todas las soluciones desde la mitad inferior del carril de navegación. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * Se ha corregido un problema que evitaba que los atributos del cliente se sincronizaran para algunos clientes.
-* Se ha corregido un problema que evitaba que la página [Documentación del producto de Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) se mostrara en japonés.
+* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target se mostrara en japonés.](https://marketing.adobe.com/resources/help/es_ES/target/a4t/).
 * Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud]el.
 
 ## Versión 15.4.1: 8 de abril de 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
