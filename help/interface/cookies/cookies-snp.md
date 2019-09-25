@@ -1,15 +1,15 @@
 ---
 description: Search&Promote usa cookies para comprender las intenciones de búsqueda de los visitantes y anticiparse a ellas.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Search&Promote usa cookies para comprender las intenciones de búsqueda de los visitantes y anticiparse a ellas.
 seo-title: Cookies de Search&Promote
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Search&Promote
-uuid: 65 bf 24 e 0-0564-4 dc 2-b 652-9 fd 9 db 57 d 23 f
+uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
