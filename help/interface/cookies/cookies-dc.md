@@ -1,23 +1,23 @@
 ---
-description: Conectores de datos usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
-keywords: cookies; privacidad
-seo-description: Conectores de datos usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
-seo-title: Cookies de Conectores de datos
-solution: Marketing Cloud, Analytics, Target, Social
-title: Cookies de Conectores de datos
-uuid: 5 d 27 ba 66-e 640-4513-befc -69 e 8502 de 941
+description: Data Connectors usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
+keywords: cookies,privacidad
+seo-description: Data Connectors usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
+seo-title: Cookies de Data Connectors
+solution: Experience Cloud,Analytics,Target,Social
+title: Cookies de Data Connectors
+uuid: 5d27ba66-e640-4513-befc-69e8502de941
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
 
-# Cookies de Conectores de datos{#data-connectors-cookies}
+# Cookies de Data Connectors{#data-connectors-cookies}
 
-Conectores de datos usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
+Data Connectors usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -29,11 +29,11 @@ Conectores de datos usa cookies para ofrecer a los anunciantes métricas de rend
  <tbody> 
   <tr> 
    <td colname="col1"> <p>integration_id </p> </td> 
-   <td colname="col2"> <p>Permite que Conectores de datos recuerde la última integración usada. </p> </td> 
+   <td colname="col2"> <p>Permite que Data Connectors recuerde la última integración usada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
-   <td colname="col2"> <p>Permite que Conectores de datos sepa si se mostrará la página <span class="wintitle">Introducción</span>. </p> </td> 
+   <td colname="col2"> <p>Permite que Data Connectors sepa si se mostrará la página <span class="wintitle">Introducción</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
