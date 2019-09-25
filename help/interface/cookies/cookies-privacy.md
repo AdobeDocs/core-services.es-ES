@@ -1,15 +1,15 @@
 ---
 description: Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
 seo-title: Acerca de las cookies y la privacidad
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Acerca de las cookies y la privacidad
-uuid: 7 fb 36845-6282-438 a-bbc 6-0 c 3 cf 95 de 1 c 9
+uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
 
-La mayoría de las cookies establecidas por los productos de Experience Cloud no contienen información de identificación personal. Tanto estas cookies como los datos que tienen asociados son seguros y solo se usan para los informes de su empresa y para ofrecer contenido y anuncios relevantes. Los datos no están disponibles para terceros ni para otros clientes de Adobe, a no ser que se usen en informes del sector agregados. For example, the [!DNL Digital Marketing Insight Report] analyzes aggregated and anonymous data across retailers.
+La mayoría de las cookies establecidas por los productos de Experience Cloud no contienen información de identificación personal. Tanto estas cookies como los datos que tienen asociados son seguros y solo se usan para los informes de su empresa y para ofrecer contenido y anuncios relevantes. Los datos no están disponibles para terceros ni para otros clientes de Adobe, a no ser que se usen en informes del sector agregados. Por ejemplo, el informe [!DNL Digital Marketing Insight Report] analiza los datos agregados y anónimos de los comerciantes.
 
 Adobe no combina la información a nivel de navegador entre distintas empresas. Para proteger la privacidad y seguridad de los datos de los clientes, algunos de los servicios de Experience Cloud ofrecen a las empresas la capacidad de usar un conjunto de cookies distinto para cada sitio seguido. Algunos de los servicios ofrecidos por Digital Marketing Suite también proporcionan a los clientes la capacidad de usar su propio nombre de dominio como propietario de la cookie. Esta práctica crea una capa adicional de privacidad y seguridad: hace que las cookies de Experience Cloud sean *cookies propias*, por lo que pertenecen de manera permanente al sitio de la empresa.
 
