@@ -1,15 +1,15 @@
 ---
 description: Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede usar posteriormente. También se pueden usar para asociar la información de navegación a registros de cliente.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede usar posteriormente. También se pueden usar para asociar la información de navegación a registros de cliente.
 seo-title: Cookies de Analytics
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Analytics
-uuid: e 2 d 3 d 61 d -2708-48 b 2-a 7 e 6-2331 f 2 aed 8 e 0
+uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navega
 
 En concreto, usa las cookies para definir de forma anónima a los nuevos visitantes, ayudar en el análisis de los datos de flujo de navegación y realizar un seguimiento de la actividad histórica del sitio web, como por ejemplo la respuesta a ciertas campañas o la duración del ciclo de ventas.
 
-* [Nombre de la cookie: s_ ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
+* [Nombre de cookie: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nombre de la cookie: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
 * [Nombre de la cookie: s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Nombre de la cookie: s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
@@ -32,13 +32,13 @@ En concreto, usa las cookies para definir de forma anónima a los nuevos visitan
 
 Consulte más información sobre las [cookies propias](/help/interface/cookies/cookies-first-party.md) en la ayuda de Analytics.
 
-## Nombre de la cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
+## Nombre de cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Contiene una copia del ID de Experience Cloud (ECID) o MID. El MID se almacena en un par clave-valor que sigue esta sintaxis, s_ ecid = MCMID | <ECID> |
+| Información almacenada | Contiene una copia del Experience Cloud ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID | <ECID> |
 | Vencimiento | 2 años |
-| Uso | Esta cookie es configurada por el dominio del cliente después de que el cliente haya establecido la cookie AMCV. El propósito de esta cookie es permitir el seguimiento de ID persistente en el estado 1 ^ st ^ party y se utiliza como ID de referencia si la cookie AMCV ha caducado. Consulte la cookie AMCV aquí para obtener más detalles. |
+| Uso | El dominio del cliente establece esta cookie después de que el cliente establezca la cookie AMCV. El propósito de esta cookie es permitir el seguimiento continuado del ID en el estado de origen y se utiliza como ID de referencia si la cookie de AMCV ha expirado. Para obtener más detalles, consulte la cookie AMCV aquí. |
 | Ubicación | Solo clientes CNAME. No aplicable a escenarios de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. |
 | Tamaño | 45 bytes |
 
@@ -52,7 +52,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 | Ubicación | Esta cookie se almacena en el dominio de la página |
 | Tamaño | 4 bytes |
 
-## Nombre de la cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
+## Nombre de la cookie: s_sq  {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
 | Atributo | Descripción |
 |--- |--- |
@@ -74,19 +74,19 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 >[!NOTE]
 >
->Cada ID de visitante de Analytics está asociado con un perfil de visitante en servidores de Adobe. Los perfiles de visitante se borran tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
+>Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
-## Nombre de la cookie: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nombre de la cookie: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Atributo | Descripción |
 |--- |--- |
 | Información almacenada | Marca de fecha y hora del ID de visitante único alternativo |
 | Vencimiento | 5 años |
-| Uso | Esta cookie se usa para identificar a un visitante único si la cookie estándar s_vi no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
+| Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar s_vi no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
 | Ubicación | Esta cookie está almacenada en su dominio como una cookie propia. |
 | Tamaño | 33 bytes |
 
-## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Se pueden establecer cookies adicionales según el uso de los complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en varias circunstancias distintas, entre las que se incluyen las siguientes: recuperar valores de URL, concatenar valores para pasarlos a Analytics, capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
