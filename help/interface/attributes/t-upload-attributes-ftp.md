@@ -6,7 +6,7 @@ seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
 title: 'Opcional: cargar el archivo de datos a través de FTP'
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de atributos del cliente pueden realizarse por FTP o SFTP.
 
 * Necesita un cliente que admita las conexiones SFTP.
-* Puede conectar con SFTP con un nombre de usuario y contraseña o sin contraseña, como se describe [aquí](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puede conectarse con SFTP si usa un nombre de usuario con o sin contraseña, como se describe [aquí](https://marketing.adobe.com/resources/help/es_ES/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -52,4 +52,4 @@ Las cargas de archivos al sitio FTP de atributos del cliente pueden realizarse p
    Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta llamada **procesado**.
 
 
-   Consulte [Requisitos del archivo de datos para la carga de atributos de cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener información importante acerca de los nombres y estructura de los archivos.
+   Consulte  [Requisitos del archivo de datos para la carga de atributos de cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener información importante acerca de los nombres y estructura de los archivos.
