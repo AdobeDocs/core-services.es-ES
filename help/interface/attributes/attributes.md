@@ -6,7 +6,7 @@ seo-title: Atributos del cliente
 solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## Información general
 
-Para localizar [!UICONTROL los atributos] del cliente, vaya **[!DNL Experience Platform]** a &gt; **[!UICONTROL Personas]** &gt; **[!UICONTROL Atributos del cliente]**
+Para localizar los [!UICONTROL atributos del cliente], vaya a **[!DNL Experience Platform]** &gt; **[!UICONTROL Usuarios]** &gt; **[!UICONTROL Atributos del cliente]**
 
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, saque el máximo partido de los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
@@ -36,14 +36,14 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * **Mbox de Target:** para los atributos del cliente se necesita la versión 58 o posterior de mbox.js.
 
 
-   Consulte [Implementación de Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
+   Consulte [Implementación de mbox.js](https://marketing.adobe.com/resources/help/es_ES/target/ov/?f=t_mbox_download).
 
 * **at.js:** cualquier versión.
 
 
 
 
-## ¿Qué son los datos del cliente empresariales?{#section_6F34C29F11414842AA57D2B1248FA3C6}
+## ¿Qué son los datos del cliente empresariales? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 Los datos empresariales residen en otros sistemas. Pueden resultar complejos y significan cosas distintas para cada persona. Estos datos pueden incluir información como afiliaciones, nivel de lealtad, edad, género, productos propios, intereses y valor de duración.
 
