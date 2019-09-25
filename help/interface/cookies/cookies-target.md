@@ -1,15 +1,15 @@
 ---
 description: Target usa cookies para ofrecer a los administradores de sitios Web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
-keywords: cookies; privacidad
+keywords: cookies,privacidad
 seo-description: Target usa cookies para ofrecer a los administradores de sitios Web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
 seo-title: Cookies de Target
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Target
-uuid: 44 f 7 e 32 e -8 d 99-4682-8 b 54-8364 d 001 b 403
+uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -54,7 +54,7 @@ En caso necesario, puede modificar esta configuración a excepción de la duraci
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>Si alguno de los nombres de dominio incorpora un código de país (como [!DNL mycompany.co.uk]), colabore con los servicios de cliente para configurar [!DNL mbox.js] de forma que lo admita.
 
 La cookie conserva una serie de valores para administrar la experiencia de los clientes con las campañas de Target:
 
