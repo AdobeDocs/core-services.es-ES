@@ -6,7 +6,7 @@ seo-title: Crear un origen de atributo de cliente y cargar el archivo de datos
 solution: Experience Cloud
 title: Crear un origen de atributo de cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -94,9 +94,9 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       El ID de alias se corresponde con ciertas áreas en las que establece valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Administración dinámica de etiquetas:** El ID de alias se corresponde con el valor *Código de integración* en [!UICONTROL Configuración del cliente], en la herramienta [Servicio de Experience Cloud ID](https://marketing.adobe.com/resources/help/es_ES/dtm/?f=macid).
+      * **** Administración dinámica de etiquetas: El ID de alias corresponde al valor del código *de* integración en Configuración [!UICONTROL de]cliente, en la herramienta [Servicio](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) de ID de Experience Cloud.
 
-      * **API de visitante:** El ID de alias corresponde al [ID del cliente](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid_customer_ids) adicional que puede asociar con cada visitante.
+      * **API de visitante:** El ID de Alias se corresponde con los [ID de cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) que puede asociar con cada visitante.
 
          Por ejemplo, *"crm_id"* en:
 
@@ -106,14 +106,14 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
          ```
 
 
-      * **iOS:** El ID de alias corresponde a *"idType"* en [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/?f=methods).
+      * **** iOS: El ID de alias corresponde a *"idType"* en [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
 
          Por ejemplo:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** El ID de alias corresponde a *"idType"* en [syncIdentifiers](https://marketing.adobe.com/resources/help/es_ES/mobile/android/methods.html).
+      * **Android:** el ID de alias se corresponde con *"idType"* en [syncIdentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
 
          Por ejemplo:
 
@@ -175,7 +175,7 @@ Consulte [Configurar suscripciones](../attributes/subscription.md#concept_ECA3C4
 
 **Para activar un origen de atributos**
 
-En la página [!UICONTROL Crear nuevo [o Editar] Atributos del cliente de origen], busque el encabezado [!UICONTROL Activar] y, a continuación, haga clic en **[!UICONTROL Activar]**.
+En la página [!UICONTROL Crear nuevo [o Editar] origen de atributos del cliente], busque el encabezado [!UICONTROL Activar] y, a continuación, haga clic en **[!UICONTROL Activar]**.
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las audiencias de Experience Cloud y en Audience Manager.
 
-Consulte [Informe de atributos del cliente](https://marketing.adobe.com/resources/help/es_ES/reference/?f=reports_customer_attributes) en las páginas de ayuda de Analytics para obtener más información.
+Consulte [Informe de atributos del cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) en la ayuda de Analytics para obtener más información.
 
 ## Utilizar los atributos de cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ En Target, puede seleccionar un atributo del cliente en la sección Perfil del v
 
 ![](assets/crs-add-attribute-target.png)
 
-Consulte [Creación de una nueva audiencia](https://marketing.adobe.com/resources/help/es_ES/target/target/?f=t_creating_a_new_audience) en las páginas de ayuda de Target.
+Consulte [Creación de una nueva audiencia](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) en la ayuda de Target.
