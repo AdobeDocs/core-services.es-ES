@@ -6,7 +6,7 @@ seo-title: Activación de las soluciones de Experience Cloud en los servicios pr
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 
 ---
@@ -34,7 +34,7 @@ Le explicamos lo que debe hacer para unirse a Experience Cloud:
 
 >[!NOTE]
 >
->Para Target, [migre a at.js desde mbox.js](https://marketing.adobe.com/resources/help/es_ES/target/ov2/?f=t_target-migrate-atjs).
+>For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
 
 
 ![](assets/step2_icon.png) Modernice su implementación y solicite que un administrador lo aprovisione.
@@ -47,7 +47,7 @@ Le explicamos lo que debe hacer para unirse a Experience Cloud:
 
 **Acceso de administrador**
 
-Una vez que sea administrador, podrá iniciar sesión en [marketing.adobe.com](https://marketing.adobe.com/).
+Una vez que sea administrador, podrá iniciar sesión en [marketing.adobe.com](https://marketing.adobe.com).
 
 Verá el enlace **[!UICONTROL Administración]** en el menú de navegación de Experience Cloud.
 
@@ -79,49 +79,49 @@ En las siguientes secciones se describe cómo modernizar la implementación. Mod
 
 ## Paso 2: Implemente el servicio Experience Cloud ID utilizando Dynamic Tag Manager o Experience Platform Launch {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-El método más sencillo para activar los servicios principales de Experience Cloud es activarlo automáticamente en Analytics y Target con la [Herramienta del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-dtm-implement) en Dynamic Tag Manager. (O en Experience Platform Launch).
+El método más sencillo para activar los servicios principales de Experience Cloud es activarlo automáticamente en Analytics y Target con la [herramienta del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-implement.html) en Administrador dinámico de etiquetas. (O en Experience Platform Launch).
 
 ![](assets/menu-activation-shell.png)
 
-Para obtener el servicio Experience Cloud ID (anteriormente conocido como ID de visitante), vaya a [aquí](https://marketing.adobe.com/resources/help/es_ES/mcvid/).
+Para obtener más información sobre el servicio Experience Cloud ID (anteriormente conocido como ID de visitante), vaya [aquí](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-Además, la administración de etiquetas del futuro es [Experience Platform Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
+Además, la herramienta de nueva generación para la administración de etiquetas es [Launch, de Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/).
 
 **¿No utiliza ni la Dynamic Tag Management ni Launch?**
 
 Si no utiliza la Dynamic Tag Management, implemente manualmente el servicio de ID a través de la implementación de JavaScript ([!DNL VisitorAPI.js]) de esta forma:
 
-1. Siga los pasos descritos en [Implementación del servicio Experience Cloud ID para Analytics](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-setup-analytics).
+1. Siga los pasos descritos en [Implementación del servicio de Experience Cloud ID para Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html).
 
-   Adobe también recomienda configurar [ID de cliente](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-authenticated-state) adicionales. Estos ID se asocian con cada visitante para activar las funciones actuales y futuras en los servicios principales de Experience Cloud.
+   Adobe también recomienda la configuración de algunos [ID de cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) adicionales. Estos ID se asocian con cada visitante para activar las funciones actuales y futuras en los servicios principales de Experience Cloud.
 
 1. Actualice el [!DNL s_code] existente a la versión H.27.3 o posterior, o su [!DNL AppMeasurement.js] existente a la versión 1.4 o posterior.
 
-   Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://marketing.adobe.com/resources/help/es_ES/reference/?f=code_manager_admin) en las herramientas de administración de Analytics.
+   Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=code_manager_admin), en las herramientas del administrador de Analytics.
 
-   (La guía de [Implementación de JavaScript](https://marketing.adobe.com/resources/help/es_ES/sc/implement/?f=js_implementation) está disponible si necesita más información sobre [!DNL AppMeasurement.js].)
+   La guía de [implementación de JavaScript](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html) está disponible si necesita obtener más información sobre [!DNL AppMeasurement.js].
 
 1. Sincronice el ID de cliente para Analytics. Consulte [Analytics - Sincronización del ID de cliente](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (a continuación).
 
 ## Analytics y Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del servicio de Experience Cloud ID, Adobe recomienda (para Analytics y Target) que sincronice los [ID de cliente](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-authenticated-state) con Experience Cloud.
+Como parte de la configuración del servicio Experience Cloud ID, Adobe recomienda (para Analytics y Target) que sincronice los [ID de cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) con Experience Cloud.
 
-En Target, [!DNL mbox3rdpartyid] debe obtener el ID de cliente y enviárselo a Target. (Consulte [Trabajar con los atributos del cliente](https://marketing.adobe.com/resources/help/es_ES/target/target/?f=c_working-with-customer-attributes) en Target).
+En Target, [!DNL mbox3rdpartyid] debe obtener el ID de cliente y enviárselo a Target. (Consulte [Trabajo con atributos del cliente](https://marketing.adobe.com/resources/help/en_US/target/target/c_working-with-customer-attributes.html) en Target).
 
 Cuando un visitante se autentica en su sitio web o se identifica de algún modo, la implementación debe mostrar el ID de cliente de CRM de esa persona a la página o aplicación. A continuación, puede usar la llamada de función apropiada para sincronizar el ID de cliente en Experience Cloud. Esta sincronización almacena el ID de cliente de CRM del visitante y activa esos atributos del cliente para su uso en Experience Cloud.
 
 Por ejemplo, suponga que el ID de cliente de Bob es `52mc210tr42` en su sistema CRM. Cuando Bob se autentifique en su sitio, debe mostrar este ID en la página y utilizar el ID para sincronizarlo de una de las dos formas siguientes:
 
 * Llamar a `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` mediante el servicio de ID del visitante. O bien,
-* Rellenar el  *`Customer ID (52mc210tr42)`* en una propiedad o eVar.
+* Rellenar el *`Customer ID (52mc210tr42)`* en una propiedad o eVar.
 
 
 Se debe establecer el ID de cliente en cada llamada al servidor de [!DNL Analytics] cuando se conozca el ID de cliente.
 
 **SDK para móvil**
 
-Consulte la sección del *Servicio de Experience Cloud ID* para obtener ejemplos de sintaxis sobre cómo establecer ID de cliente adicionales en las aplicaciones móviles de [Android](https://marketing.adobe.com/resources/help/es_ES/mobile/android/?f=methods) e [iOS](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/?f=methods).
+Consulte la sección del servicio *de ID de* Experience Cloud para ver ejemplos de sintaxis sobre cómo establecer ID de cliente adicionales en aplicaciones de [Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods) e [iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods) Mobile.
 
 **Activación de atributos para datos históricos**
 
@@ -137,17 +137,17 @@ Consulte [Asignación de grupos de informes a una organización](report-suite-ma
 
 ## Paso 4. (Adobe Analytics) Modernice el código AppMeasurement de Analytics {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Compruebe que está en una colección de datos regionales (RDC). Si el dominio de recopilación de datos es [!DNL omtrdc.net], o si el CNAME está asignado a [!DNL omtrdc.net], usted se encuentra en RDC. Consulte [Transición a RDC](https://marketing.adobe.com/resources/help/es_ES/whitepapers/rdc/?f=rdc_transition) para obtener más información. Si utiliza cookies de origen, consulte [CNAME y servicio de ID de visitante](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid_cname) para obtener información sobre los CNAME de recopilación de datos y el seguimiento entre dominios.
+Compruebe que está en una colección de datos regionales (RDC). Si el dominio de recopilación de datos es [!DNL omtrdc.net], o si el CNAME está asignado a [!DNL omtrdc.net], usted se encuentra en RDC. Consulte [Transición a RDC](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/?f=rdc_transition) para obtener más información. Si utiliza cookies propias, consulte [CNAME y el servicio de ID de visitante](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname) para obtener más información acerca de la colección de datos CNAME y el seguimiento interdominio.
 
 Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La forma más sencilla de conseguir esto es añadir una herramienta de [!DNL Adobe Analytics] en Dynamic Tag Management que especifique *`Automatic`* como método de configuración.
 
-En Dynamic Tag Management, haga clic en **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL Información general]**&gt;**[!UICONTROL Agregar una herramienta]**&gt;**[!UICONTROL Adobe Analytics]**. Consulte[Configuración de Adobe Analytics](https://marketing.adobe.com/resources/help/es_ES/dtm/?f=analytics_dtm)en Dynamic Tag Management para obtener información sobre la implementación.
+En Dynamic Tag Management, haga clic en **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL Información general]**&gt;**[!UICONTROL Agregar una herramienta]**&gt;**[!UICONTROL Adobe Analytics]**. Consulte[Configuración de Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/dtm/?f=analytics_dtm)en la Dynamic Tag Management para obtener información de implementación.
 
 ## Paso 5. (Adobe Target) Modernice su implementación de Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Se recomienda agregar una [Herramienta de Adobe Target](https://marketing.adobe.com/resources/help/es_ES/dtm/?f=target) en Dynamic Tag Management para que la recuperación de la biblioteca sea automática. En Dynamic Tag Management, haga clic en **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL Información general]**&gt;**[!UICONTROL Agregar una herramienta]**&gt;**[!UICONTROL Adobe Target]**.** Nota:**También puede usar la Dynamic Tag Management para implementar el servicio Experience Cloud ID en Target (y otras soluciones). Para que Target use los servicios principales,** se necesita **la actualización del servicio Experience Cloud ID.
-* Si no utiliza Dynamic Tag Management [, actualice la biblioteca mbox](https://marketing.adobe.com/resources/help/es_ES/target/ov/?f=t_mbox_download) manualmente.
-* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para Adobe Target. Los datos de Target y Analytics se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos soluciones. Consulte [Implementación de Analytics para Target](https://marketing.adobe.com/resources/help/es_ES/target/a4t/?f=a4t).
+* Es recomendable agregar una [herramienta Adobe Target](https://marketing.adobe.com/resources/help/en_US/dtm/target.html) en la Dynamic Tag Management para que la recuperación de la biblioteca sea automática. En Dynamic Tag Management, haga clic en **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL Información general]**&gt;**[!UICONTROL Agregar una herramienta]**&gt;**[!UICONTROL Adobe Target]**.** Nota:**También puede usar la Dynamic Tag Management para implementar el servicio Experience Cloud ID en Target (y otras soluciones). Para que Target use los servicios principales,** se necesita **la actualización del servicio Experience Cloud ID.
+* Si no utiliza la Dynamic Tag Management, [actualice la biblioteca mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=t_mbox_download) manualmente.
+* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para Adobe Target. Los datos de Target y Analytics se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos soluciones. Consulte [Implementación de Analytics para Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/?f=a4t).
 * 
    >[!IMPORTANT]
    >
@@ -241,6 +241,6 @@ El uso de perfil de audiencia en tiempo real aprovecha la cookie de Audience Man
 
 Si desea proporcionar la capacidad adecuada de no participación, los visitantes del sitio deben agregar la no participación de Audience Manager a sus procesos de no participación actuales.
 
-Consulte [Adobe Experience Cloud: Implementación de exclusiones en Adobe](https://marketing.adobe.com/resources/help/es_ES/sc/implement/?f=opt_out) para obtener instrucciones.
+Consulte las instrucciones en [Adobe Experience Cloud: Implementación de no participación de Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/opt_out.html).
 
-Consulte [CNAME de recopilación de datos y Seguimiento entre dominios](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid_cname) para activar el seguimiento entre dominios.
+Consulte [CNAME de recopilación de datos y seguimiento interdominio](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname) para activar el seguimiento interdominio.
