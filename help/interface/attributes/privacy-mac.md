@@ -6,7 +6,7 @@ seo-title: 'Consideraciones sobre la privacidad: atributos del cliente'
 solution: Experience Cloud
 title: 'Consideraciones sobre la privacidad: atributos del cliente'
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -34,7 +34,7 @@ Un motivo común por el cuales los anunciantes hacen esto es para mejorar la inf
 
 Adobe es consciente de que este tipo de decisiones de marketing y publicidad pueden tener implicaciones de privacidad, por lo que Adobe cuenta con controles de privacidad incorporados que ayudan a los anunciantes a satisfacer las expectativas de sus clientes. Adobe recomienda a sus anunciantes que consideren cuidadosamente qué información es adecuada para su uso en marketing y en qué circunstancias los anunciantes cuentan con permisos para utilizar dicha información.
 
-**Prácticas recomendadas**.
+**Prácticas recomendadas**
 
 Cuando se carga PII en Adobe Analytics o Target, Adobe recomienda que el cliente tenga la PII con hash antes de cargarla en Adobe. La información con hash puede seguir utilizándose con propósitos de marketing y análisis. Como recordatorio, Adobe prohíbe a los anunciantes enviar información personal delicada a Adobe Analytics y Target, como registros médicos, información de cuentas financieras y datos acerca de menores.
 
