@@ -4,7 +4,7 @@ seo-description: Obtenga más información sobre cómo asignar uno o más grupos
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -62,7 +62,7 @@ Esta sección contiene sugerencias para ayudarlo a seleccionar la organización 
 
 **¿Qué organización debo elegir?**
 
-Si el servicio Experience Cloud ID está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-test-verify) para encontrar el ID de organización que utiliza el servicio de ID de visitante.
+Si el servicio Experience Cloud ID está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) para encontrar el identificador de organización que utiliza el servicio de ID de visitante.
 
 Si el servicio ID de visitante de Experience Cloud no está implementado en los sitios que recopilan datos para el grupo de informes y lo implementa en el futuro, tendrá que asegurarse de que la implementación coincida con la organización elegida en la herramienta Report Suite Mapping.
 
@@ -108,7 +108,7 @@ Los grupos de informes asignados aparecen en un formato no editable. Si necesita
 
 **¿Qué sucede si solo conozco el identificador de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?**
 
-Puede encontrar el nombre de su organización en [Ajustes de organizaciones y cuenta](https://marketing.adobe.com/resources/help/es_ES/mcloud/?f=organizations).
+Puede encontrar el nombre de su organización en [Organizaciones y configuración de cuentas](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
 
 **Veo una fecha en la columna “Fecha de asignación”. ¿Quién realizó esta asignación?**
 
