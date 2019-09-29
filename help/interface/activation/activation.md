@@ -6,7 +6,7 @@ seo-title: Activation
 solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -20,7 +20,7 @@ Activation incluye el último producto de administración de etiquetas denominad
 
 Implemente y administre las etiquetas de análisis, marketing y publicidad necesarias para lograr experiencias de cliente relevantes.
 
-Consulte [Experience Platform Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/).
+Véase [Launch, de Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -35,15 +35,15 @@ Para iniciar la Dynamic Tag Management, haga clic en **[!UICONTROL Activation]**
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/getting-started/?f=add-adobe-analytics-dtm-tool" format="html" scope="external"> Implementación de Adobe Analytics </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/add-adobe-analytics-dtm-tool.html" format="html" scope="external"> Implementación de Adobe Analytics </a> </p> </td> 
    <td colname="col2"> <p> Instrucciones paso a paso para agregar Adobe Analytics con la Dynamic Tag Management de Adobe </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/mcvid/?f=mcvid-implementation-guides" format="html" scope="external"> Guías de implementación para el servicio Experience Cloud ID </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Guías de implementación para el servicio Experience Cloud ID </a> </p> </td> 
    <td colname="col2"> <p>El servicio Experience Cloud ID activa la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos de los clientes, el uso compartido de audiencia y los Triggers). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/dtm/" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
    <td colname="col2"> <p>Obtenga más información sobre cómo implementar las soluciones de Experience Cloud con la Dynamic Tag Management. </p> </td> 
   </tr> 
  </tbody> 
@@ -79,4 +79,4 @@ Si desea ayuda en la implementación de la Dynamic Tag Management, le animamos a
 
 La extensión de Adobe Experience Cloud Debugger para Chrome examina sus páginas web y le ayuda a encontrar problemas con la implementación de las soluciones de Experience Cloud.
 
-Consulte [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) si necesita ayuda.
+Consulte [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) para obtener ayuda.
