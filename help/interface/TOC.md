@@ -13,24 +13,24 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 # Guía del usuario de los servicios principales {#interface}
 
 + [Documentación del producto de Experience Cloud](landing/experience-cloud-home.md)
-+ [Ayuda de Experience Cloud y servicios principales](experience-cloud.md)
++ [Ayuda de Experience Cloud y los servicios principales](experience-cloud.md)
 + Acerca de los servicios principales {#about-core-services}
    + [Información general de los servicios principales](core-services-landing.md)
    + [Activación de las soluciones en los servicios principales](core-services/core-services.md)
    + [Asignación de grupos de informes a una organización](core-services/report-suite-mapping.md)
    + [Acerca de los nuevos nombres de las nubes en Experience Cloud](solutions-core-services.md)
 + [Integraciones de Experience Cloud](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [Información general sobre las cookies](cookies/cookies-privacy.md)
++ Cookies de Experience Cloud {#ec-cookies}
+   + [Descripción general de cookies](cookies/cookies-privacy.md)
    + [Cookies de origen](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de Data Connectors](cookies/cookies-dc.md)
-   + [Cookies de Área de trabajo de datos](cookies/cookies-insight.md)
+   + [Cookies de Data Connectors ](cookies/cookies-dc.md)
+   + [Cookies de Data Workbench](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
    + [Cookies de Scene7](cookies/cookies-s7.md)
-   + [Buscar y promocionar cookies](cookies/cookies-snp.md)
+   + [Cookies de Search &amp; Promote](cookies/cookies-snp.md)
    + [Cookies de Target](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes](cookies/cookies-thirdparty.md)
@@ -56,7 +56,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [Desactivar la sincronización de carpetas compartidas](experience-cloud-assets/t-disable-asset-sync.md)
    + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
-+ Audiencias{#audiences}
++ Audiencias {#audiences}
    + [Descripción general de las audiencias](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
