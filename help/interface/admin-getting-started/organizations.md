@@ -6,7 +6,7 @@ seo-title: Organizaciones y vinculación de cuentas
 solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -70,5 +70,5 @@ Ayuda para problemas que se derivan de la vinculación de cuentas.
 
 Normalmente, la vinculación de cuentas falla porque Adobe ID está vinculado a un usuario anterior. Cuando la vinculación de cuentas falla, puede:
 
-* [Póngase en contacto con el servicio de asistencia de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+* [Póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * Acceder a la solución mediante el inicio de sesión estándar mientras el problema se soluciona.
