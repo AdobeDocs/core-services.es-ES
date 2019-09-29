@@ -6,7 +6,7 @@ seo-title: Inicio de sesión y administración de la configuración de perfil
 solution: Experience Cloud
 title: Inicio de sesión y administración de la configuración de perfil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -42,13 +42,13 @@ Inicie sesión y verifique que se encuentra en la [organización](../admin-getti
 
 | Elemento | Descripción |
 |--- |--- |
-| [Conceptos básicos de Admin Console](https://helpx.adobe.com/es/marketing-cloud/how-to/first-time-setup.html) | Obtenga más información sobre los primeros pasos que debe seguir para comenzar a usar las soluciones Experience Cloud. |
-| [Configuración de la identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con que el se autenticarán sus usuarios finales. |
-| [Administración de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
+| [Conceptos básicos de Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Obtenga más información sobre los primeros pasos que debe seguir para comenzar a usar las soluciones Experience Cloud. |
+| [Configuración de la identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con que el se autenticarán sus usuarios finales. |
+| [Administración de usuarios](https://helpx.adobe.com/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
 | [Inicio de Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console es la ubicación central para la administración de usuarios y autorizaciones de productos de Adobe de toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo ](https://adminconsole.adobe.com). |
 | [Gestionar usuarios de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permite a los expertos en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Desde aquí puede administrar a los usuarios de Creative Cloud aprobados para colaborar con su organización. |
 | [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización, no a un grupo de informes individual. Para asegurar el correcto funcionamiento de estos servicios, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que  [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Identificador de organización](../admin-getting-started/organizations.md) | El *identificador de organización* se encuentra al final de la página Administration. Este es el identificador asociado a su empresa aprovisionada de Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+| [ID de organización](../admin-getting-started/organizations.md) | El *identificador de organización* se encuentra al final de la página Administration. Este es el identificador asociado a su empresa aprovisionada de Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
 
 ## Inicio de sesión en Experience Cloud (usuarios) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,7 +58,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 1. Compruebe con su administrador que su [organización](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) está aprovisionada en Experience Cloud.
 
 
-1. Vaya a [Adobe Experience Cloud](https://marketing.adobe.com/) ( [!DNL marketing.adobe.com]).
+1. Vaya a [Adobe Experience Cloud](https://marketing.adobe.com) ( [!DNL marketing.adobe.com]).
 1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]**.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
@@ -135,7 +135,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
    Restablecer la contraseña de una solución debería resolver los problemas de vinculación de contraseña de Experience Cloud.
 
-   Para los usuarios de Adobe Analytics, vaya a [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Si es usuario de Adobe Analytics, vaya a [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Configuración del inicio de sesión en una solución mediante un vínculo directo {#concept_8BE493A08786469B88B210E13F78FF2F}
 
@@ -153,7 +153,7 @@ URL de ejemplo:
 
 >[!NOTE]
 >
->Debe codificar cualquier dirección URL antes de pasarla al parámetro `destURL`. (Hay páginas del codificador disponibles, como [la URL del decodificador/codificador](https://meyerweb.com/eric/tools/dencoder/)).
+>Debe codificar cualquier dirección URL antes de pasarla al parámetro `destURL`. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
 | Parámetro | Descripción | Ejemplo | Obligatorio/opcional |
 |--- |--- |--- |--- |
