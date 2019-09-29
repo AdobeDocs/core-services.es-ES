@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics
 title: Cookies de terceros
 index: y
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
@@ -119,6 +119,6 @@ Después de comprobar que sus nombres de host responden y redirigen a los servid
 
 1. Si está migrando a cookies de origen desde una implementación antigua, o cambiando a otro nombre de host de recopilación de origen, le recomendamos migrar a los visitantes del dominio anterior al nuevo dominio.
 
-Consulte [Migración de visitantes](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/visitor-migration.translate.html) en la Guía de implementación de Analytics.
+Consulte Migración [de](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visitantes en la Guía de implementación de Analytics.
 
 Después de haber cargado el archivo de JavaScript, ya estará todo configurado para la recopilación de datos de cookies de origen. Le recomendamos que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
