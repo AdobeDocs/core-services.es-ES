@@ -1,12 +1,12 @@
 ---
-description: Obtenga más información sobre cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
+description: Descubra cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
 keywords: servicios principales
 seo-description: Descubra cómo se comparten o publican recursos e informes de Adobe Analytics directamente con otros a través de Experience Cloud Feed.
 seo-title: Fuente
 solution: Experience Cloud
 title: Fuente
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 # Fuente
 
-Obtenga más información sobre cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
+Descubra cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
 
 Es posible que Feed esté vacío la primera vez que se inicia sesión en Experience Cloud. Conforme cree publicaciones y comparta contenido, y otros usuarios lo compartan con usted, Feed se rellenará automáticamente para ayudarlo tanto a usted como a los miembros de su equipo a mantenerse actualizados.
 
@@ -36,7 +36,7 @@ Puede compartir informes de [!UICONTROL Reports &amp; Analytics] con Experience 
 
 1. [Inicie sesión](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) en Experience Cloud con su Adobe ID.
 
-1. Vaya a Reports &amp; Analytics y, a continuación, [cree un proyecto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/?f=freeform_overview).
+1. Vaya a Reports &amp; Analytics y, a continuación, [cree un proyecto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
 
 1. Haga clic en **[!UICONTROL Más]** &gt; **[!UICONTROL Compartir]**.
 
