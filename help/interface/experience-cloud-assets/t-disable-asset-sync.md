@@ -6,7 +6,7 @@ seo-title: Desactivar la sincronización de carpetas compartidas
 solution: Experience Cloud
 title: Desactivar la sincronización de carpetas compartidas
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
