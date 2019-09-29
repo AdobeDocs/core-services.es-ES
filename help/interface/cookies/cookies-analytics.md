@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -25,10 +25,10 @@ En concreto, usa las cookies para definir de forma anónima a los nuevos visitan
 * [Nombre de la cookie: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
 * [Nombre de la cookie: s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Nombre de la cookie: s_cc](../cookies/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nombre de la cookie: s_sq](../cookies/cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
+* [Nombre de la cookie: s_sq ](../cookies/cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Nombre de la cookie: s_vi](../cookies/cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
-* [Nombre de la cookie: s_fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
-* [Cookies establecidas por complementos](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
+* [Nombre de la cookie: s_fid ](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
+* [Cookies establecidas por complementos ](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
 Consulte más información sobre las [cookies propias](/help/interface/cookies/cookies-first-party.md) en la ayuda de Analytics.
 
@@ -68,7 +68,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 |--- |--- |
 | Información almacenada | Marca de fecha y hora del identificador de visitante único |
 | Vencimiento | 2 años |
-| Uso | Esta cookie se usa para identificar a un visitante único |
+| Uso | Esta cookie se usa para identificar a un visitante único  |
 | Ubicación | Esta cookie se almacena en el dominio de la petición de imagen, que suele ser 2O7.net si usa cookies de terceros o su dominio si usa cookies de origen |
 | Tamaño | 44 bytes |
 
