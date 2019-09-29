@@ -6,7 +6,7 @@ seo-title: 'Actualizaciones de la documentación: Experience Cloud'
 solution: Experience Cloud
 title: 'Actualizaciones de la documentación: Experience Cloud'
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -66,7 +66,7 @@ Se ha añadido [Activación de las soluciones en los servicios principales](core
 
 **Actualizado: 15/01/2015**
 
-Se ha agregado que los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte  [Uso compartido de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Se ha agregado que los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Actualizado: 17/07/2014**
 
