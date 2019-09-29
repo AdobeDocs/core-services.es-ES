@@ -5,7 +5,7 @@ seo-title: Uso de la precarga de DNS con diferentes soluciones y servicios
 solution: Experience Cloud
 title: Uso de la precarga de DNS con diferentes soluciones y servicios
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
