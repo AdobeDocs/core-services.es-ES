@@ -6,7 +6,7 @@ seo-title: Atributos del cliente
 solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -36,7 +36,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * **Mbox de Target:** para los atributos del cliente se necesita la versión 58 o posterior de mbox.js.
 
 
-   Consulte [Implementación de mbox.js](https://marketing.adobe.com/resources/help/es_ES/target/ov/?f=t_mbox_download).
+   Consulte [Implementación de Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
 
 * **at.js:** cualquier versión.
 
