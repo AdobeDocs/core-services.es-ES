@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution-title: Información y asistencia
+solution-title: Aprendizaje y asistencia
 solution-hub-url: https://helpx.adobe.com/es/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Primeros pasos
@@ -9,7 +9,7 @@ getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/g
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/core-services.en
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2e8f97e7834cd92378c1717742a1e8af4bc93df
 
 ---
@@ -36,4 +36,4 @@ En el archivo TOC.md
 | metadatos | qué hace |
 |--- |--- |
 | user-guide-title | Se utiliza como vínculo en el encabezado del artículo |
-| user-guide-url | Abre la página helpx hub |
+| user-guide-url | Abrir la página helpx hub |
