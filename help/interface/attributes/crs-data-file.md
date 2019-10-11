@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Acerca del archivo de datos y las fuentes de datos para los atributos del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ Los Atributos del cliente están diseñados para gestionar algunos archivos cada
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Archivo de valores separados por comas (como uno creado en Excel). Este es el archivo que contiene los datos de atributo de cliente. </p> <p> <b></b> Requisitos de nomenclatura: Asegúrese de que las extensiones de nombre de archivo no contengan ningún espacio en blanco o ninguno de estos caracteres ".", "..", "/", ":" </p> </td> 
+   <td colname="col2"> <p>Archivo de valores separados por comas (como uno creado en Excel). Este es el archivo que contiene los datos de atributo de cliente. </p> <p> <b>Requisitos de nomenclatura:</b> asegúrese que las extensiones de nombre de archivo no contienen espacios en blanco. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -43,7 +43,7 @@ Los Atributos del cliente están diseñados para gestionar algunos archivos cada
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> o <span class="filepath">.zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) o <span class="filepath">.zip</span>: para archivos comprimidos. Un archivo <span class="filepath">.zip</span> no puede contener más de un archivo en el archivo. </p> <p> <b>Requisitos de nomenclatura:</b> el nombre del <span class="filepath">.zip</span> o del <span class="filepath">.gz</span> debe concordar con el nombre del <span class="filepath">.csv </span>. Por ejemplo, si su archivo <span class="filepath">.csv</span> es <span class="filepath">crm_small.csv</span>, el archivo <span class="filepath">.zip</span> debería ser <span class="filepath">crm_small.csv.zip </span>. </p> <p>El archivo .fin debe concordar con el .csv. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) o <span class="filepath">.zip</span>: para archivos comprimidos. Un archivo <span class="filepath">.zip</span> no puede contener más de un archivo en el archivo. </p> <p> <b>Requisitos de nomenclatura:</b> el nombre del <span class="filepath">.zip</span> o del <span class="filepath">.gz</span> debe concordar con el nombre del <span class="filepath">.csv</span>. Por ejemplo, si su archivo <span class="filepath">.csv</span> es <span class="filepath">crm_small.csv</span>, el archivo <span class="filepath">.zip</span> debería ser <span class="filepath">crm_small.csv.zip</span>. </p> <p>El archivo .fin debe concordar con el .csv. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ El mismo archivo visto en un editor de textos:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Columna de ID de cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe coincidir con el que se ha trasladado al servicio Experience Cloud ID. </p> <p>Para Analytics, el ID que se ha almacenado en una prop o eVar. </p> <p>Para Target, valor setCustomerID. (Consulte <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Target: Sincronización del ID de cliente </a>) </p> <p> Este ID de cliente es el identificador único que utiliza su CRM para cada persona de su base de datos. Las columnas restantes son atributos que provienen de su CRM. Usted elegirá cuántos atributos cargar. </p> <p>Se recomiendan los nombres sencillos y descriptivos para los encabezados de columna, pero no es obligatorio. Cuando valide el esquema tras la carga, puede asignar nombres sencillos para las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos del almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de cliente y estados de autenticación </a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe coincidir con el que se ha trasladado al servicio Experience Cloud ID. </p> <p>Para Analytics, el ID que se ha almacenado en una prop o eVar. </p> <p>Para Target, valor setCustomerID. (Consulte <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Target: Sincronización del ID de cliente</a>) </p> <p> Este ID de cliente es el identificador único que utiliza su CRM para cada persona de su base de datos. Las columnas restantes son atributos que provienen de su CRM. Usted elegirá cuántos atributos cargar. </p> <p>Se recomiendan los nombres sencillos y descriptivos para los encabezados de columna, pero no es obligatorio. Cuando valide el esquema tras la carga, puede asignar nombres sencillos para las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos del almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID de cliente y estados de autenticación</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas subsiguientes </p> </td> 
@@ -121,7 +121,7 @@ El mismo archivo visto en un editor de textos:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Requisitos de archivo </p> </td> 
-   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contengan un salto de línea, comillas dobles o comas deben entrecomillarse. </p> <p> Los caracteres de comillas dobles en un campo deben acompañarse con secuencias de escape en forma de barra invertida (\). </p> <p> Las columnas en blanco se almacenan como  <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contengan un salto de línea, comillas dobles o comas deben entrecomillarse. </p> <p> Los caracteres de comillas dobles en un campo deben acompañarse con secuencias de escape en forma de barra invertida (\). </p> <p> Las columnas en blanco se almacenan como <span class="term">null</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios archivos </p> </td> 
@@ -164,4 +164,4 @@ Visitor.setCustomerIDs({
 
 En **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL People]** &gt; **[!UICONTROL Atributos del cliente]**:
 
-Cree dos fuentes de atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente
+Cree dos fuentes de atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente.
