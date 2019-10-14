@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Uso compartido de una carpeta de recursos de Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -50,8 +50,8 @@ Comparta una carpeta de recursos de Experience Cloud con usuarios de Creative Cl
 Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja de ser compartida y los usuarios de Creative Cloud ya no tendrán acceso a ella.
 Formas adicionales de utilizar un recurso compartido incluyen:
 
-* Utilizar recursos en el [!UICONTROL Selector de recursos] en [!DNL Adobe Social] para publicaciones sociales. Consulte la [página de Publisher](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher).
-* Cargue o intercambie recursos en la [Biblioteca de contenido](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) en [!DNL Adobe Target] para imágenes en actividades.
+* Utilizar recursos en el [!UICONTROL Selector de recursos] en [!DNL Adobe Social] para publicaciones sociales.
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 Después de compartir una carpeta con Creative Cloud, verá en la misma el logotipo de Creative Cloud.
 
