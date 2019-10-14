@@ -5,7 +5,7 @@ seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -108,7 +108,7 @@ Los grupos de informes asignados aparecen en un formato no editable. Si necesita
 
 **¿Qué sucede si solo conozco el identificador de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?**
 
-Puede encontrar el nombre de su organización en [Organizaciones y configuración de cuentas](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Puede encontrar el nombre de su organización en [Organizaciones y configuración de cuentas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 **Veo una fecha en la columna “Fecha de asignación”. ¿Quién realizó esta asignación?**
 
