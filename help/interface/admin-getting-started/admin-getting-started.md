@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # Administración de usuarios y productos de Experience Cloud {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ Obtenga más información sobre el inicio de sesión en Admin Console y la admin
 
 Descubra las últimas funciones de la administración de usuarios en Experience Cloud.
 
-
 ## Inicio de sesión en Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 Los administradores ya no administran usuarios en las soluciones. Ahora, la administración de usuarios y productos para Experience Cloud se realiza en Admin Console.
@@ -46,7 +32,6 @@ Los administradores ya no administran usuarios en las soluciones. Ahora, la admi
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Escriba su [Adobe ID o Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) y su contraseña.
-
 
 En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Iniciar Admin Console]**.
 
@@ -93,9 +78,6 @@ Consulte:
 * [Administración de productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Vídeo: [Cómo se configuran espacios de trabajo de Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## Campaign: Perfiles de producto, inquilinos y grupos de seguridad {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Un *inquilino* en Campaign se muestra como un *producto* en la página Productos de Admin Console.
@@ -139,7 +121,6 @@ Dispone de más ayuda aquí:
 * [Permisos de usuarios Enterprise](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html), en la ayuda de Target, para obtener más información.
 * Vídeo: [Cómo se configuran espacios de trabajo de Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 Asigne permisos de acceso a informes de Analytics (grupos de informes, métricas, dimensiones, etc.) a un perfil de producto.
@@ -150,7 +131,6 @@ Por ejemplo, puede crear un perfil de producto que contenga varias herramientas 
 1. En el perfil de producto, haga clic en **[!UICONTROL Permisos]** (disponible solo para administradores).
 1. Configure los permisos del perfil:
 
-
 | Elemento | Descripción |
 |--- |--- |
 | Grupos de informes | Habilite permisos para grupos de informes específicos. |
@@ -159,12 +139,8 @@ Por ejemplo, puede crear un perfil de producto que contenga varias herramientas 
 | Herramientas de grupos de informes | Habilite permisos de usuario para servicios web, administración de grupos de informes, herramientas e informes, y elementos de tablero. |
 | Herramientas de Analytics | Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors. Las configuraciones de empresa de la categoría Personalizar Admin Console se han trasladado a las herramientas de Analytics. |
 
-
-
 ## Delegación de funciones administrativas en usuarios {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 Admin Console le permite delegar derechos administrativos limitados en otros miembros de su organización. Las funciones delegadas permiten a los usuarios administrar el acceso al software de los usuarios finales, proporcionar capacidades de implementación de acceso y funcionar como delegados de soporte.
 
 Por ejemplo, puede:
@@ -172,7 +148,6 @@ Por ejemplo, puede:
 * Permitir al director creativo otorgar acceso a Creative Cloud.
 * Permitir al director de marketing otorgar acceso a Experience Cloud.
 * Mantener separadas estas dos funciones para que no puedan solaparse las funciones de ambos.
-
 
 Al utilizar estas funciones, puede delegar la administración de forma simultánea en otras personas sin tener que proporcionar más capacidades de las necesarias.
 
@@ -185,8 +160,6 @@ Al utilizar estas funciones, puede delegar la administración de forma simultán
 
 Navegadores compatibles con Experience Cloud.
 
-
-<!-- browsers.xml -->
 **Servicios principales de Experience Cloud**
 
 * Última versión de Internet Explorer de Microsoft. (Microsoft [ha dejado de ofrecer soporte](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Por este motivo, Adobe no corregirá los problemas notificados en relación con estas versiones específicas de Internet Explorer).
@@ -194,14 +167,8 @@ Navegadores compatibles con Experience Cloud.
 * Mozilla Firefox
 * Apple Safari
 
-
 **Solución y requisitos del producto**
 
-* [Analysis Workspace e Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (incluye Adobe Social)
-* [Report Builder ](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (incluye Adobe Social)
+* [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
