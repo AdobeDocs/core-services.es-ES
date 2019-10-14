@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Validar el esquema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 El proceso de validación le permite asignar nombres para mostrar y descripciones en atributos cargados (cadenas, números enteros, números y demás). Se ha creado un esquema basado en estos ajustes. El esquema se utiliza para validar todos los datos futuros cargados a esta fuente de datos. Este proceso de asignación no altera los datos originales.
 
-
 >[!NOTE]
 >
 >Actualizar el esquema tras la validación elimina los atributos del cliente. Consulte [Actualizar el esquema (también elimina los atributos)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
-
 
 **[!UICONTROL Origen de atributos del cliente]** &gt; **[!UICONTROL Crear un nuevo origen de atributos del cliente]** &gt; **[!UICONTROL Ver/Editar Esquema]**
 
@@ -44,14 +42,9 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Muestra si utiliza una prop o una eVar para cargar los CID. Si estos ID se pasan a Experience Cloud, cualquier ID de visitante asociado con el CID que ha introducido se muestra aquí.
 
-
-
-
-
-
 También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de dicha cuenta. Los datos deben tener el formato .csv, con un segundo archivo .fin para indicar que la carga ha finalizado
 
-Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) en la ayuda de para obtener más información.[!DNL Analytics]
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) en la ayuda de para obtener más información.[!DNL Analytics]
 
 * **[!UICONTROL Atributo:]** Lectura de datos de atributo desde un archivo cargado `.csv`.
 
@@ -63,12 +56,6 @@ Los nombres que aplique a las cadenas, números enteros y números se utilizan p
 
    * **Números**: puede tener hasta dos cifras decimales.
 
-
-
-
 * **[!UICONTROL Mostrar nombre:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo de *Edad del cliente* a *Cliente desde*.
 
 * **[!UICONTROL Descripción:]** Una descripción del atributo.
-
-
-
