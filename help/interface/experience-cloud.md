@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,9 +20,9 @@ Esta página proporciona ayuda, asistencia técnica y documentación del product
 
 * [Notas](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de la versión de Experience Cloud: todos los productos
 * [Prioridad de actualización](https://www.adobe.com/subscription/priority-product-update.html) del producto: suscríbase para recibir notas de la versión cada mes)
-* [Tutoriales en vídeo de Adobe](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Tutoriales en vídeo de Adobe](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) : aprendizaje guiado
-* [Póngase en contacto con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Foro de la comunidad](https://forums.adobe.com/community/experience-cloud)
 * [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
@@ -65,7 +65,7 @@ Esta página proporciona ayuda, asistencia técnica y documentación del product
 * [Componentes](https://docs.adobe.com/content/help/en/analytics/components/home.html)
 * [Exportar](https://docs.adobe.com/content/help/en/analytics/export/home.html)
 * [Importar](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-* [de CRM](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Integración](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
@@ -80,7 +80,7 @@ Esta página proporciona ayuda, asistencia técnica y documentación del product
 
 ## ![Ayuda](assets/mc_experiencemanager_32.png) de Experience Manager Ayuda de Experience Manager
 
-* [Información y asistencia de Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
+* [Formación y asistencia de Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Ayuda de Campaña de ayuda](assets/mc_campaign_32.png) Campaña
 
