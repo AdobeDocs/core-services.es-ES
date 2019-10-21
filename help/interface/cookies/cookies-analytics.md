@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 | Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar s_vi no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
 | Ubicación | Esta cookie está almacenada en su dominio como una cookie propia. |
 | Tamaño | 33 bytes |
+
+## Indicadores de cookie
+
+En la tabla siguiente se describen los indicadores de las cookies de Analytics:
+
+| Cookie (establecida por) | httpOnly | Proteger | SameSite |
+|--- |--- |--- |--- |
+| s_vi (http Response) | No | Sí cuando SameSite es "Ninguno" y la conexión utiliza HTTPS | "Lax" de forma predeterminada al utilizar CNAME. "Ninguno" al usar 2o7.net u omtrdc.net. |
+| s_ecid (http Response) | No | No | "Lax" |
+| s_fid (Javascript) | No | No | Desdefinido |
+| s_cc (Javascript) | No | No | Desdefinido |
+| s_sq (Javascript) | No | No | Desdefinido |
+
+*Nota: Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en "None". Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.*
 
 ## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
