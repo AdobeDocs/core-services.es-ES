@@ -6,11 +6,8 @@ seo-title: Cookies de Analytics
 solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Contiene una copia del Experience Cloud ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID | <ECID> |
+| Información almacenada | Contiene una copia del Experience Cloud ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID | `<ECID>` |
 | Vencimiento | 2 años |
 | Uso | El dominio del cliente establece esta cookie después de que el cliente establezca la cookie AMCV. El propósito de esta cookie es permitir el seguimiento continuado del ID en el estado de origen y se utiliza como ID de referencia si la cookie de AMCV ha expirado. Para obtener más detalles, consulte la cookie AMCV aquí. |
 | Ubicación | Solo clientes CNAME. No aplicable a escenarios de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. |
@@ -56,7 +53,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando están habilitadas las funcionalidades ClickMap y Activity Map. Contiene información sobre el vínculo anterior en el que el usuario hizo clic. |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando se habilita la funcionalidad ClickMap o Activity Map; contiene información sobre el vínculo anterior en el que el usuario hizo clic |
 | Vencimiento | Esta es una cookie de sesión y caduca cuando se cierra el navegador |
 | Uso | Una sola cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página |
@@ -69,7 +66,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 | Información almacenada | Marca de fecha y hora del identificador de visitante único |
 | Vencimiento | 2 años |
 | Uso | Esta cookie se usa para identificar a un visitante único  |
-| Ubicación | Esta cookie se almacena en el dominio de la petición de imagen, que suele ser 2O7.net si usa cookies de terceros o su dominio si usa cookies de origen |
+| Ubicación | Esta cookie se almacena en el dominio de la solicitud de imagen, por lo general un subdominio específico del cliente bajo 2o7.net u omtrdc.net si utiliza cookies de terceros o si su dominio utiliza cookies de origen. |
 | Tamaño | 44 bytes |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 | Atributo | Descripción |
 |--- |--- |
 | Información almacenada | Marca de fecha y hora del ID de visitante único alternativo |
-| Vencimiento | 5 años |
-| Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar s_vi no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
+| Vencimiento | 2 años |
+| Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
 | Ubicación | Esta cookie está almacenada en su dominio como una cookie propia. |
 | Tamaño | 33 bytes |
 
@@ -98,7 +95,7 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 | s_cc (Javascript) | No | No | Desdefinido |
 | s_sq (Javascript) | No | No | Desdefinido |
 
-*Nota: Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en "None". Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.*
+>[!NOTE] Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en "None" para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
 ## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
