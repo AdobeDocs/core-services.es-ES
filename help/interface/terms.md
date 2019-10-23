@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Terminología
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ Una referencia terminológica para los usuarios de Experience Cloud nuevos y có
 | Perfil de producto | Consulte [Administración de productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html). | Para que un usuario tenga autorización para usar un producto o servicio, el usuario debe ser parte de un perfil de producto. El administrador de productos asigna licencias a un perfil de producto asociándolo a un plan que usted ha adquirido.<br>Un usuario puede pertenecer a distintos perfiles de producto que le otorguen diversas licencias. Un usuario puede optar a cualquier producto cuya licencia le haya sido otorgada por alguno de sus perfiles de producto asignados. |
 | Programa | Puede hacer referencia aúna secuencia de escenas de Adobe Story o a tareas programadas en ColdFusion. | En Experience Cloud, una programación es una fecha de inicio (año, mes, día) y una fecha final para activar campañas, canales y actividades. La programación de actividades contiene una granularidad hasta el nivel de minuto. Si se modifica una programación se crea una tarjeta.<br>Algunos ejemplos son:<ul><li>Programaciones de campañas</li><li>Programaciones de canales</li><li>Programaciones de actividades</li></ul> |
 | Compartir | En Creative Cloud, puede compartir archivos de forma externa entre plataformas (social, comunidades, correos electrónicos y demás). | En Experience Cloud, puede compartir un recurso como solo una tarjeta, dentro de los tableros de la interfaz. El uso compartido está disponible para aquellos que han iniciado sesión en el sitio. |
-| Solución | No tiene un uso especial. | En Experience Cloud, las soluciones se conocen como productos; algunos ejemplos son Analytics, Social y Target.<br>Consulte los nuevos nombres de la nube en Experience Cloud (solutions-core-services.md). |
+| Solución | No tiene un uso especial. | En Experience Cloud, las soluciones se conocen como productos; algunos ejemplos son Analytics, Social y Target.<br>[Consulte los nuevos nombres de la nube en Experience Cloud](solutions-core-services.md). |
