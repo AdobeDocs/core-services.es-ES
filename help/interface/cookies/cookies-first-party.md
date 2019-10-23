@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 1. Complete el [Formulario de solicitud de cookies de origen](/help/interface/cookies/assets/FPC_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa administrado de Adobe. Cada campo se describe dentro del documento con ejemplos.
 
-1. Cree registros CNAME (consulte las instrucciones más abajo). Una vez recibido la incidencia, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes: **Proteger**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.ssl.d1.omtrdc.net`. **No seguro**: Por ejemplo, el nombre de host `metrics.example.com` señala a `example.com.d1.omtrdc.net`.
+1. Cree registros CNAME (consulte las instrucciones más abajo). Al recibir el billete, un representante de atención al cliente debe proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes: **Proteger**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.ssl.d1.omtrdc.net`. **No seguro**: Por ejemplo, el nombre de host `metrics.example.com` señala a `example.com.d1.omtrdc.net`.
 
 1. Cuando se establezcan estos CNAMES, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe. Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (https), actualice el `s.trackingServer`. Si el sitio es seguro (https), actualice ambos `s.trackingServer` y las variables de `s.trackingServerSecure`.
 
