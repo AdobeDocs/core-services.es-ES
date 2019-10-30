@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen
 ![](assets/assets-annotate.png)
 
 ## Compartir recursos en su fuente {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**Experience Cloud Feed ya no será compatible a partir del 1 de noviembre de 2019 y dejará de serlo antes de diciembre de 2019.**
 
 Haga clic en **[!UICONTROL Compartir]** en la barra de herramientas para compartir el recurso como [fuente](../feed.md#concept_9256B8768A294009A777282DD8719213) con otros usuarios de Experience Cloud.
 
