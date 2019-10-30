@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: Fuente
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # Fuente
+
+**Experience Cloud Feed ya no será compatible a partir del 1 de noviembre de 2019 y dejará de serlo antes de diciembre de 2019.**
 
 Descubra cómo se comparten o publican recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed.
 
@@ -31,6 +33,8 @@ Entre los ajustes de Feed se incluyen:
 * **Favoritos:** vea las publicaciones que ha marcado como favoritas.
 
 ## Uso compartido de un proyecto de Analytics con Feed {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Experience Cloud Feed ya no será compatible a partir del 1 de noviembre de 2019 y dejará de serlo antes de diciembre de 2019.**
 
 Puede compartir informes de [!UICONTROL Reports &amp; Analytics] con Experience Cloud Feed.
 
