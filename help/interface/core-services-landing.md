@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Acerca de los servicios principales
 uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
 translation-type: tm+mt
-source-git-commit: e2ecca1263999ff309b2ccc40133135c54bffa11
+source-git-commit: d72dde29049ed75f497cb70f0d1b1f077f0712fa
 
 ---
 
@@ -25,6 +25,6 @@ Adobe Experience Platform centraliza y estandariza los datos y el contenido de s
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets proporciona un único almacén centralizado para los recursos preparados para el marketing que puede compartir entre sus soluciones. |
 | [Exchange](https://experiencecloud.adobeexchange.com/) | Amplíe la funcionalidad de Adobe Experience Cloud con las mejores extensiones, scripts y mucho más. Explore con la barra de búsqueda u ordene por producto o tipo de aplicación. |
 | [Launch](activation/activation.md) | Recopilación de datos y activación de tecnología para sitios y aplicaciones. Incluye:<ul><li>Experience Platform Launch (la solución más reciente de administración de etiquetas)</li><li>Dynamic Tag Management</li><li>Triggers</li></ul> |
-| [Fuente](feed.md) | Comparta o publique recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed. |
+| [Fuente](feed.md) | **Experience Cloud Feed ya no será compatible a partir del 1 de noviembre de 2019 y dejará de serlo antes de diciembre de 2019.** Comparta o publique recursos e informes de Analytics directamente con otros a través de Experience Cloud Feed. |
 | [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services aúna las prestaciones de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
 | [People](audience-library/audience-library.md) | En la Biblioteca de audiencias puede crear audiencias, combinarlas para crear otras compuestas y ver todas las audiencias compartidas.<br>En Atributos del cliente, también puede cargar datos de clientes empresariales en Experience Cloud. |
