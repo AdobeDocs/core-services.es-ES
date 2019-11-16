@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado en las soluciones de Experience Cloud.
-keywords: cookies,privacidad
+keywords: cookies;privacy
 seo-description: Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado en las soluciones de Experience Cloud.
 seo-title: Cookies de Experience Cloud
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Cookies de Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -36,11 +36,11 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
   </tr> 
   <tr> 
    <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p>El dominio del cliente establece esta cookie después de que el cliente establezca la cookie AMCV. El propósito de esta cookie es permitir el seguimiento continuado del ID en el estado de origen y se utiliza como ID de referencia si la cookie de AMCV ha expirado. Para obtener más detalles, consulte la cookie AMCV aquí. </p> </td> 
+   <td colname="col2"> <p>El dominio del cliente establece esta cookie después de que el cliente establezca la cookie AMCV. El propósito de esta cookie es permitir el seguimiento de ID persistentes en el estado individual y se utiliza como ID de referencia si la cookie AMCV ha caducado. Para obtener más detalles, consulte la cookie AMCV aquí. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p>Solo clientes CNAME. No aplicable a situaciones de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. </p> </td> 
+   <td colname="col2"> <p>Solo clientes CNAME. No aplicable a escenarios de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tamaño </p> </td> 
@@ -51,7 +51,9 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
 
 **Nombre de la cookie: AMCV_###@AdobeOrg**
 
-The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. Por ejemplo, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. Consulte también [Cookies y el servicio de ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters, such as `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+
+Consulte también [Cookies y el servicio de ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
