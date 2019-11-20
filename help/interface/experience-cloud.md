@@ -1,38 +1,36 @@
 ---
 description: Autoayuda, documentación del producto y documentación técnica para Adobe Experience Cloud. Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe.
-keywords: servicios principales
+keywords: core services
 seo-description: Esta página proporciona autoayuda, documentación del producto y documentación técnica para Experience Cloud.
 seo-title: Ayuda de Adobe Experience Cloud y servicios principales y documentación del producto.
 solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
+source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 
 ---
 
 
-# Documentación del producto de Experience Cloud y los servicios principales
+# Experience Cloud y la documentación del producto de los servicios principales
 
 ![Experience Cloud](assets/banner.png)
 
 Esta página proporciona ayuda, asistencia técnica y documentación del producto para las soluciones y servicios de Adobe Experience Cloud. Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
 
-## Notas de la versión y recursos de la comunidad
+## ¿Qué quieres aprender?
 
-* [Notas](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de la versión de Experience Cloud: todos los productos
-* [Página principal de ayuda: Información y asistencia de Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Prioridad de actualización](https://www.adobe.com/subscription/priority-product-update.html) del producto: suscríbase para recibir notas de la versión cada mes)
-* [Tutoriales en vídeo de Adobe](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Adobe Experience League](https://landing.adobe.com/experience-league/) : aprendizaje guiado
-* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Foro de la comunidad](https://forums.adobe.com/community/experience-cloud)
-* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) (blog)
+* [Notas de la versión y actualizaciones](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) de productos: Novedades de Experience Cloud y suscríbase para obtener actualizaciones
+* [Tutoriales para implementar servicios](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) principales: explore vídeos y tutoriales sobre servicios principales
+* [Ayuda de expertos en la Liga](https://landing.adobe.com/experience-league/) de experiencias: obtenga aprendizaje guiado de expertos y de la comunidad
+* [Educación y formación](https://helpx.adobe.com/learning.html?promoid=KAUDK) : Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de nuestros productos
+* [Blog](https://theblog.adobe.com/customer-experience/) de la experiencia del cliente: lea el blog de Experience Cloud
+* [Ayuda para todos los productos](https://helpx.adobe.com/support/experience-cloud.html) : busque ayuda en Experience Cloud Learn &amp; Support
+* [Servicio de atención](https://helpx.adobe.com/contact/enterprise-support.ec.html) al cliente: Póngase en contacto con el servicio de atención al cliente de Adobe
+
+## Documentación del producto de servicios principales
+
 * [Información general de servicios principales](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
-
-## Ayuda de Experience Cloud y los servicios principales
-
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
