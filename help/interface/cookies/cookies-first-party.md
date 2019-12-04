@@ -1,6 +1,6 @@
 ---
 description: Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador.
-keywords: cookies,privacidad
+keywords: cookies;privacy
 seo-description: Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador.
 seo-title: Cookies de terceros
 solution: Experience Cloud,Analytics
@@ -8,26 +8,29 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # Acerca de las cookies de origen
 
-Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Estas cookies son inofensivas y se originan en un dominio hospedado por Adobe; se denominan cookies de origen.
+Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Estas cookies inofensivas que se originan en un dominio alojado por Adobe se conocen como cookies de terceros.
 
-Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las que se usan en la recogida de datos de Analytics. Puede implementar cookies de origen para evitar las limitaciones de seguimiento impuestas por los navegadores y programas.
+Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las que se usan en la recogida de datos de Analytics. Para admitir el seguimiento de la forma en que los visitantes interactúan con el sitio web, puede implementar cookies de origen.
 
 Hay dos opciones disponibles para implementar cookies individuales
 
 * El servicio Experience Platform ID. El servicio de ID puede establecer la cookie en el contexto de origen a través de JavaScript.
-* Las entradas DNS en el servidor DNS de sus empresas.
-* Si su sitio tiene páginas seguras que utilizan el protocolo `https:` y usted no utiliza el servicio Experience Platform ID, puede trabajar con Adobe para obtener un certificado SSL con el fin de implementar cookies de origen
+* Entradas DNS en el servidor DNS de su empresa para configurar un alias CNAME en un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si ese cliente controla varios dominios, puede usar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero como esto requiere cookies de terceros para todos los dominios fuera del dominio de CNAME, no funciona cuando las cookies de terceros están bloqueadas y por lo tanto no se recomienda. Los CNAME de Adobe nunca se utilizan para realizar el seguimiento de un individuo o dispositivo entre dominios propiedad de distintos clientes.
+
+Incluso cuando se utiliza la primera opción con el servicio Experience Cloud ID, el ITP de Apple hará que las cookies de origen tengan una duración corta, por lo que es mejor usarlas junto con la segunda opción.
+
+Para la segunda opción con un CNAME, si el sitio tiene páginas seguras que utilizan el protocolo, puede trabajar con Adobe para obtener un certificado SSL con el fin de implementar cookies de origen. `https:` Adobe recomienda utilizar HTTPS exclusivamente para la recopilación de datos, ya que en el segundo semestre de 2020 dejaremos de admitir la recopilación de HTTP.
 
 El proceso de publicación de certificados SSL puede resultar confuso y requerir mucho tiempo. Por ello, Adobe estableció una sociedad con DigiCert, una autoridad certificadora (AC) líder en su sector, y desarrolló un proceso integrado por el cual la compra y administración de estos certificados está automatizada.
 
-Con su permiso, trabajaremos con nuestra AC para emitir, implementar y administrar un nuevo certificado SHA-2 SSL para usted. Adobe seguirá administrando este certificado y asegurándose de que el problema de caducidad, revocación o seguridad no afecte a la disponibilidad de la colección de las organizaciones.
+Con su permiso, trabajaremos con nuestra AC para emitir, implementar y administrar un nuevo certificado SHA-2 SSL para usted. Adobe seguirá administrando este certificado y asegurándose de que una caducidad, revocación o seguridad inesperada no amenace la disponibilidad de la colección segura de su organización.
 
 ## Programa de certificados administrados de Adobe
 
@@ -51,7 +54,7 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 ### Mantenimiento y renovaciones
 
-Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir un certificado nuevo para cada implementación por año. Todos los usuarios admitidos de su organización recibirán una notificación por correo electrónico cada vez que una implementación esté cerca de expirar. Para que Adobe renueve su nombre de host, un usuario admitido deberá responder al correo electrónico de Adobe e indicar que desea continuar utilizando el nombre de host expirado para la recopilación de datos. En ese momento, Adobe compra e instala automáticamente un nuevo certificado.
+Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir un certificado nuevo para cada implementación por año. Todos los usuarios admitidos de su organización recibirán una notificación por correo electrónico cada vez que una implementación esté cerca de expirar. Para que Adobe renueve el nombre de host, un usuario de asistencia técnica debe responder al correo electrónico de Adobe e indicar que tiene previsto seguir utilizando el nombre de host caducado para la recopilación de datos. En ese momento, Adobe compra e instala automáticamente un nuevo certificado.
 
 ### Preguntas frecuentes
 
@@ -106,7 +109,7 @@ Si los registros CNAME no están configurados correctamente o no están activos,
 
 Antes de editar el código del sitio para utilizar cookies de origen, complete estos requisitos previos:
 
-* Solicite un certificado SSL, tal como se describe anteriormente en los pasos de implementación para el programa de certificados administrados de Adobe.
+* Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del programa de certificados administrados de *Adobe.*
 * Cree registros CNAME (consultar más arriba).
 * Haga ping al nombre de host (consultar más arriba).
 
