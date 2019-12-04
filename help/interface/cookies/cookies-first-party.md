@@ -8,18 +8,18 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
+source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
 
 ---
 
 
 # Acerca de las cookies de origen
 
-Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Estas cookies inofensivas que se originan en un dominio alojado por Adobe se conocen como cookies de terceros.
+Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Estas cookies inofensivas, que se originan en un dominio alojado por Adobe, se conocen como cookies de terceros.
 
 Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las que se usan en la recogida de datos de Analytics. Para admitir el seguimiento de la forma en que los visitantes interactúan con el sitio web, puede implementar cookies de origen.
 
-Hay dos opciones disponibles para implementar cookies individuales
+Hay dos opciones disponibles para implementar cookies de origen:
 
 * El servicio Experience Platform ID. El servicio de ID puede establecer la cookie en el contexto de origen a través de JavaScript.
 * Entradas DNS en el servidor DNS de su empresa para configurar un alias CNAME en un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si ese cliente controla varios dominios, puede usar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero como esto requiere cookies de terceros para todos los dominios fuera del dominio de CNAME, no funciona cuando las cookies de terceros están bloqueadas y por lo tanto no se recomienda. Los CNAME de Adobe nunca se utilizan para realizar el seguimiento de un individuo o dispositivo entre dominios propiedad de distintos clientes.
@@ -64,7 +64,7 @@ Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir
 | **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | El certificado solo se puede adquirir si ha señalado el nombre de host especificado (por ejemplo, smetrics.example.com) a un nombre de host en propiedad de Adobe. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
 | **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, tiene derecho a solicitar que se revoque el certificado. Solo tendrá que abrir una incidencia con el Servicio de atención al cliente para completarlo. |
 | **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe trabajará con DigiCert para emitir un certificado SHA-2. |
-| **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Analytics sin coste adicional. |
+| **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Adobe Digital Experience sin ningún coste adicional. |
 
 ## Creación de registros CNAME
 
@@ -79,7 +79,7 @@ El especialista de FPC le proporciona los nombres de host configurados y los CNA
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
->[!NNota:] El servicio ID de visitante de Experience Cloud proporciona una alternativa para configurar un CNAME para habilitar cookies de origen.
+>[!N] Nota: El servicio de ID de visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el servicio de ID de Experience Cloud.
 
 ## Hacer ping en el nombre de host
 
@@ -103,7 +103,7 @@ Si los registros CNAME no están configurados correctamente o no están activos,
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NNota:] Si está utilizando `https:// protocol`, el ping solo responderá a partir de la fecha de carga que indique el especialista de FPC. Tampoco olvide hacer ping en el nombre de host seguro y en el no seguro para comprobar que ambos funcionan correctamente antes de actualizar su implementación.
+>[!NNota:] Si está utilizando `https:// protocol`, el ping solo responderá a partir de la fecha de carga que indique el especialista de FPC. Además, asegúrese de hacer ping al nombre de host seguro y al nombre de host no seguro para asegurarse de que ambos funcionan correctamente antes de actualizar la implementación.
 
 ## Actualización del código de implementación
 
@@ -111,7 +111,7 @@ Antes de editar el código del sitio para utilizar cookies de origen, complete e
 
 * Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del programa de certificados administrados de *Adobe.*
 * Cree registros CNAME (consultar más arriba).
-* Haga ping al nombre de host (consultar más arriba).
+* Ping los nombres de host (ver arriba).
 
 Después de comprobar que sus nombres de host responden y redirigen a los servidores de recopilación de datos, puede modificar su implementación de modo que señale a sus propios nombres de host de recopilación de datos.
 
