@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Si los registros CNAME no están configurados correctamente o no están activos,
 
 Antes de editar el código del sitio para utilizar cookies de origen, complete estos requisitos previos:
 
-* Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del programa de certificados administrados de *Adobe.*
+* Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del Programa de certificados administrados de [Adobe](#adobe-managed-certificate-program).
 * Cree registros CNAME (consultar más arriba).
 * Ping los nombres de host (ver arriba).
 
