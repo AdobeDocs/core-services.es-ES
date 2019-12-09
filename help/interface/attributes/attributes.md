@@ -1,13 +1,13 @@
 ---
 description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
-keywords: servicios principales;atributos del cliente
+keywords: core services;customer attributes
 seo-description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
 seo-title: Atributos del cliente
 solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * **Mbox de Target:** para los atributos del cliente se necesita la versión 58 o posterior de mbox.js.
 
 
-   Consulte [Implementación de Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
+   Consulte [Implementación de Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 * **at.js:** cualquier versión.
-
-
-
 
 ## ¿Qué son los datos del cliente empresariales? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
