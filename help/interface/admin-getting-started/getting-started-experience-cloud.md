@@ -1,13 +1,13 @@
 ---
 description: Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
-keywords: servicios principales
+keywords: core services
 seo-description: Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
 seo-title: Inicio de sesión y administración de la configuración de perfil
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Inicio de sesión y administración de la configuración de perfil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -58,7 +58,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 1. Compruebe con su administrador que su [organización](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) está aprovisionada en Experience Cloud.
 
 
-1. Vaya a [Adobe Experience Cloud](https://marketing.adobe.com) ( [!DNL marketing.adobe.com]).
+1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]**.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
@@ -141,15 +141,13 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
 Una opción es iniciar sesión en una página específica de una solución utilizando para ello la autenticación proporcionada por la interfaz de Experience Cloud.
 
+### Plantilla URL
 
-<!-- mac-deep-linking.xml -->
-**Plantilla URL**
-
-[!DNL https://<tenantId>.marketing.adobe.com/<solutionname>?destURL=<fullURL>]
+`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
 URL de ejemplo:
 
-[!DNL https://aem62tenant.marketing.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html]
+`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
