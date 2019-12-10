@@ -1,6 +1,6 @@
 ---
 description: Los administradores pueden obtener información sobre los requisitos, qué encontrarán al actualizar a Analytics Premium y dónde encontrar ayuda como administradores de Experience Cloud.
-keywords: actualización
+keywords: upgrading
 seo-description: Los administradores pueden obtener información sobre los requisitos, qué encontrarán al actualizar a Analytics Premium y dónde encontrar ayuda como administradores de Experience Cloud.
 seo-title: Actualización a Analytics Premium y Experience Cloud
 solution: Experience Cloud
@@ -8,7 +8,7 @@ title: Actualización a Analytics Premium y Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ Al actualizar a Adobe Analytics Premium obtiene todas las funciones o productos 
 Analytics Premium ofrece
 
 * Acceso a 250 variables de conversión (eVars)
-* [Análisis de aplicaciones móviles](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [Análisis de aplicaciones móviles](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * Data Workbench (consulta de datos visual, atribución basada en reglas, análisis en canales múltiples)
 
 >[!NOTE]
@@ -81,9 +81,9 @@ Cualquier software que se ejecute de forma local debe desactivarse, incluidos lo
 
 Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus soluciones para utilizar los servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
 
-Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL marketing.adobe.com] y comenzar a usar los servicios principales, incluidos los atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
+Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experiencecloud.adobe.com] y comenzar a usar los servicios principales, incluidos los atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
 
-**Administrar usuarios y grupos**
+### Administrar usuarios y grupos
 
 La administración de usuarios se realiza en [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (vínculo del producto).
 
