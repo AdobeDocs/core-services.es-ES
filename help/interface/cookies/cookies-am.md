@@ -3,11 +3,11 @@ description: Audience Manager cuenta con unas cookies sencillas para llevar a ca
 keywords: cookies
 seo-description: Audience Manager cuenta con unas cookies sencillas para llevar a cabo diferentes funciones. Entre estas funciones se incluyen la asignación de ID, el registro de llamadas de datos, el error de seguimiento y las comprobaciones para ver si se pueden establecer cookies. En esta sección se enumeran y describen diferentes cookies configuradas por Audience Manager.
 seo-title: Cookies de Audience Manager
-solution: Experience Cloud,Audience Manager
+solution: Marketing Cloud,Audience Manager
 title: Cookies de Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager cuenta con unas cookies sencillas para llevar a cabo diferentes
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un identificador único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un identificador único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Otros atributos</b> </p> </td> 
@@ -125,7 +125,7 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">destino </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">destino </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
