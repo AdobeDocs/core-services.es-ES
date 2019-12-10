@@ -1,13 +1,13 @@
 ---
 description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
-keywords: servicios principales
+keywords: core services
 seo-description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
 seo-title: Administración de usuarios y productos de Experience Cloud
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Administración de usuarios y productos de Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -63,18 +63,18 @@ Hay disponible una herramienta de migración de ID de usuario de Analytics para 
 
 La migración de cuentas se está poniendo a disposición de los clientes por fases. Adobe le avisará y ayudará cuando le llegue el momento de migrar las cuentas de usuario existentes desde **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]** a Admin Console.
 
-Tras la migración, los usuarios iniciarán sesión con su Adobe ID (o Enterprise ID) y se autenticarán en sus soluciones y servicios de Experience Cloud en [marketing.adobe.com](https://marketing.adobe.com). Si los usuarios intentan iniciar sesión con los accesos heredados ([!DNL my.omniture.com] y [!DNL sc.omniture.com]), se los redirigirá a [!DNL marketing.adobe.com].
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Si los usuarios intentan iniciar sesión con los accesos heredados ([!DNL my.omniture.com] y [!DNL sc.omniture.com]), se los redirigirá a [!DNL experiencecloud.adobe.com].
 
 **Ayuda relacionada**
 
-[Migración de ID de usuario de Analytics](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Migración de ID de usuario de Analytics](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target: Perfiles de producto vs. Espacios de trabajo {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 En Target, un espacio de trabajo es un perfil de producto. Permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades concretas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en Adobe Analytics.
 
 Consulte:
-* [Permisos de usuario de Enterprise](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Administración de productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Vídeo: [Cómo se configuran espacios de trabajo de Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Consulte [Administración de grupos y usuarios](https://helpx.adobe.com/campaign
 
 Experience Platform Launch, se muestra en la página Productos de Admin Console. Puede incluir otras soluciones y servicios principales en un perfil de producto de Launch.
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## Administrador dinámico de etiquetas {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 Invite a usuarios a la Dynamic Tag Management, asigne funciones de usuario y añada usuarios a grupos.
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 Cree usuarios de Audience Manager y asígnelos a grupos. También puede ver los límites (características, segmentos, destinos y AlgoModel).
 
-Consulte [Administración](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) en la ayuda de Audience Manager.
+Consulte [Administración](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) en la ayuda de Audience Manager.
 
 ## Administración de productos de Experience Cloud {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ Al invitar a un usuario a una organización, puede darle acceso a productos y pe
 Dispone de más ayuda aquí:
 
 * [Administración de productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Permisos de usuarios Enterprise](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html), en la ayuda de Target, para obtener más información.
+* [Permisos de usuarios Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html), en la ayuda de Target, para obtener más información.
 * Vídeo: [Cómo se configuran espacios de trabajo de Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
