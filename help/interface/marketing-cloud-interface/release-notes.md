@@ -1,13 +1,13 @@
 ---
 description: Funciones, notas de la versión y problemas conocidos de la interfaz de Experience Cloud.
-keywords: servicios principales
+keywords: core services
 seo-description: Funciones, notas de la versión y problemas conocidos de la interfaz de Experience Cloud.
 seo-title: Notas de versión acumuladas
 solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Funciones, notas de la versión y problemas conocidos de la interfaz de Experien
 
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Para obtener notas de la versión acerca de todas las soluciones, consulte las [Notas de versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Para obtener notas de la versión acerca de todas las soluciones, consulte las [Notas de versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ## Agosto de 2019
 
@@ -171,7 +171,7 @@ No hay información disponible
 </table>
 
 * Se ha corregido un problema que evitaba que los atributos del cliente se sincronizaran para algunos clientes.
-* Se ha corregido un problema que evitaba que la página [Documentación del producto de Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) se mostrara en japonés.
+* Se ha corregido un problema que evitaba que la página [Documentación del producto de Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) se mostrara en japonés.
 * Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud]el.
 
 ## Versión 15.4.1: 8 de abril de 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 
 **Correcciones y mejoras**
 
-* Cuando navega a [!DNL marketing.adobe.com], la experiencia de inicio de sesión es ahora coherente con el inicio de sesión de Creative Cloud de Adobe.
+* Cuando navega a [!DNL experiencecloud.adobe.com], la experiencia de inicio de sesión es ahora coherente con el inicio de sesión de Creative Cloud de Adobe.
 * En la página Administrar organizaciones, la experiencia de vinculación (una vez recibida la invitación) ahora es consistente en todas las soluciones.
 
 **Problemas conocidos**
