@@ -1,13 +1,13 @@
 ---
 description: Implementación de Experience Cloud y cómo convertirse en administrador. Este proceso moderniza las soluciones para funciones de servicios principales como los atributos del cliente y las audiencias.
-keywords: servicios principales;atributos del cliente
+keywords: core services;customer attributes
 seo-description: Implementación de Experience Cloud y cómo convertirse en administrador. Este proceso moderniza las soluciones para funciones de servicios principales como los atributos del cliente y las audiencias.
 seo-title: Activación de las soluciones de Experience Cloud en los servicios principales
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Le explicamos lo que debe hacer para unirse a Experience Cloud:
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernice su implementación y solicite que un administrador lo aprovisione.
 
@@ -116,11 +116,11 @@ Por ejemplo, suponga que el ID de cliente de Bob es `52mc210tr42` en su sistema 
 
 Se debe establecer el ID de cliente en cada llamada al servidor de [!DNL Analytics] cuando se conozca el ID de cliente.
 
-**SDK para móvil**
+### SDK para móvil
 
 Consulte la sección del servicio *de ID de* Experience Cloud para ver ejemplos de sintaxis sobre cómo establecer ID de cliente adicionales en aplicaciones de [Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) e [iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) Mobile.
 
-**Activación de atributos para datos históricos**
+### Activación de atributos para datos históricos
 
 Los datos de atributo del cliente pasan a estar disponibles una vez que los visitantes inician sesión. Si aún no ha implementado el servicio más reciente de Experience Cloud ID y ha registrado históricamente los ID de cliente en una prop o eVar, puede solicitar un proceso que envíe los inicios de sesión históricos a Experience Cloud. Este proceso le permite empezar a utilizar los atributos del cliente inmediatamente.
 
