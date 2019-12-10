@@ -1,13 +1,13 @@
 ---
 description: Publique un segmento de audiencia de Analytics en Experience Cloud y Adobe Target para actividades de marketing para audiencias.
-keywords: servicios principales
+keywords: core services
 seo-description: Publique un segmento de audiencia de Analytics en Experience Cloud y Adobe Target para actividades de marketing para audiencias.
 seo-title: Publicación de un segmento de audiencia de Analytics
 solution: Experience Cloud
 title: Publicación de un segmento de audiencia de Analytics
 uuid: 4201dc22-4b79-457c-a614-949bba087617
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 Publique un segmento de audiencia de Analytics en Experience Cloud y Adobe Target para actividades de marketing para audiencias.
 
-1. En Analytics, [cree un segmento](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html).
+1. En Analytics, [cree un segmento](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 1. En el Creador de segmentos, active la opción **[!UICONTROL Publicar este segmento en Experience Cloud]**.
 
    ![](assets/ec_audience_example.png)
