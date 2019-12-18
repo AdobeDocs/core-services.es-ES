@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Preguntas más frecuentes, limitaciones y prácticas recomendadas
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
+source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
 
 ---
 
@@ -24,7 +24,7 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
 | Problema | Descripción |
 |--- |--- |
 | Limitaciones de la suscripción a Atributos del cliente | Cuando actualice a Analytics Premium, no podrá disponer de los atributos adicionales hasta que transcurran transcurrido 24 horas. Durante este periodo, puede aparecer el error Máximas suscripciones a atributos. |
-| Límite diario de carga de frecuencia | Lo mejor es no actualizar los atributos del cliente más de una vez al día. Adobe recomienda esperar al menos 24 horas para cargar otro archivo de datos de perfil de cliente (para el mismo conjunto de perfiles). |
+| Límite diario de carga de frecuencia | Adobe recomienda actualizar los atributos del cliente solo una vez al día. Debe esperar al menos 24 horas para cargar otro archivo de datos de perfil de cliente para el mismo conjunto de perfiles. |
 | ID de Analytics personalizado (s.visitorID) | Configurar un ID de cliente con    s.visitorID es un modo de identificar usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique a un visitante mediante s.visitorID.<br>Entre ellas se cuentan las audiencias compartidas, Análisis para objetivo (A4T) y atributos del cliente.<br>Estas integraciones no admiten la configuración de un ID de Analytics personalizado. |
 | Limitaciones de extensión de caracteres en Analytics | Cuando se crea una suscripción a Analytics, la longitud de campo para los archivos cargados se trunca a 255. |
 
