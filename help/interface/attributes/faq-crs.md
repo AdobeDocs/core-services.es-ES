@@ -1,13 +1,13 @@
 ---
 description: Preguntas más frecuentes y prácticas recomendadas para atributos del cliente en Analytics y Target.
-keywords: atributos del cliente
+keywords: customer attributes
 seo-description: Preguntas más frecuentes y prácticas recomendadas para atributos del cliente en Analytics y Target.
 seo-title: Preguntas más frecuentes, limitaciones y prácticas recomendadas
 solution: Experience Cloud
 title: Preguntas más frecuentes, limitaciones y prácticas recomendadas
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
+source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
 
 ---
 
@@ -24,6 +24,7 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
 | Problema | Descripción |
 |--- |--- |
 | Limitaciones de la suscripción a Atributos del cliente | Cuando actualice a Analytics Premium, no podrá disponer de los atributos adicionales hasta que transcurran transcurrido 24 horas. Durante este periodo, puede aparecer el error Máximas suscripciones a atributos. |
+| Límite diario de carga de frecuencia | Lo mejor es no actualizar los atributos del cliente más de una vez al día. Adobe recomienda esperar al menos 24 horas para cargar otro archivo de datos de perfil de cliente (para el mismo conjunto de perfiles). |
 | ID de Analytics personalizado (s.visitorID) | Configurar un ID de cliente con    s.visitorID es un modo de identificar usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique a un visitante mediante s.visitorID.<br>Entre ellas se cuentan las audiencias compartidas, Análisis para objetivo (A4T) y atributos del cliente.<br>Estas integraciones no admiten la configuración de un ID de Analytics personalizado. |
 | Limitaciones de extensión de caracteres en Analytics | Cuando se crea una suscripción a Analytics, la longitud de campo para los archivos cargados se trunca a 255. |
 
@@ -52,7 +53,7 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
   </tr> 
   <tr> 
    <td colname="col1"> <p> ¿Cuántos atributos del cliente puedo utilizar? </p> </td> 
-   <td colname="col2"> <p>Puede cargar cientos de columnas <span class="filepath">.csv</span> en el servicio de atributos del cliente. </p> <p> 
+   <td colname="col2"> <p>Puede cargar cientos de columnas <span class="filepath">.csv</span> en el servicio de atributos del cliente. Sin embargo, al configurar suscripciones y seleccionar atributos, se aplican los límites siguientes (por grupo de informes), según las soluciones que posea:</p> <p> 
      <ul>
      <li>Foundation: 0</li>
      <li>Select: 3</li>
