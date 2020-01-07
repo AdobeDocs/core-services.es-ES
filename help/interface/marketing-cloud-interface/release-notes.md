@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -20,6 +20,10 @@ Para obtener una lista de actualizaciones de documentación, consulte [Experienc
 
 Para obtener notas de la versión acerca de todas las soluciones, consulte las [Notas de versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
+## Enero - 2020
+
+* La página Fuente quedó obsoleta en diciembre de 2019. Busque un aviso de obsolescencia del producto. (MCUI-10039)
+
 ## Agosto de 2019
 
 * Se ha corregido un problema crítico en el inicio de sesión de Experience Cloud que llevaba al cierre de sesión de algunos usuarios. (MCUI-6908)
@@ -31,7 +35,7 @@ Para obtener notas de la versión acerca de todas las soluciones, consulte las [
 
 * Se ha actualizado el conmutador de aplicación para incluir Marketo en el paquete de soluciones de Experience Cloud y se han añadido actualizaciones de marca en Experience Platform. (MCUI-6529)
 * Se ha actualizado Experience Cloud Home para incluir vínculos de navegación a las páginas de Fuentes y Administración. (MCUI-6682)
-* Se ha corregido un problema en la definición [!UICONTROL de activador] para el uso correcto de la cláusula "like". (MCUI-6611)
+* Se ha corregido un problema en la definición [!UICONTROL de activador] para el uso correcto de la cláusula &quot;like&quot;. (MCUI-6611)
 * Se han mejorado los Atributos del cliente para un mejor inicio de sesión en el servicio de Suscripción. (MCUI-6519)
 
 ## Versión 19.1.1: 17 de enero de 2019
@@ -95,7 +99,7 @@ Para obtener notas de la versión acerca de todas las soluciones, consulte las [
 
 **Problema conocido**
 
-Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]**, pero su cuenta de Dynamic Tag Management no está vinculada a Experience Cloud (Adobe ID), no podrá iniciar sesión en Dynamic Tag Management. Para evitar este problema, acceda directamente a la página [!DNL dtm.adobe.com] en una nueva pestaña del navegador.
+Si accede a Dynamic Tag Management a través de la interfaz **[!UICONTROL Experience Cloud]**>**[!UICONTROL  Activation]** pero su cuenta de Dynamic Tag Management no está vinculada con Experience Cloud (Adobe ID), no podrá iniciar sesión en Dynamic Tag Management. Para evitar este problema, acceda directamente a la página [!DNL dtm.adobe.com] en una nueva pestaña del navegador.
 
 ## Versión 16.1: 21 de enero de 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -505,7 +509,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Al eliminar una imagen, Assets no informa de si la imagen se utiliza en Adobe Target Essentials.
 * El rendimiento de la interfaz de [!UICONTROL Experience Cloud] era lento cuando muchos usuarios lo utilizaban simultáneamente.
 * Al eliminar una imagen en [!UICONTROL Experience Cloud Assets], no se mostraba una advertencia si la imagen se estaba utilizando en [!DNL Adobe Target Essentials].
-* Si la opción **[!UICONTROL Recordarme]** no estaba seleccionada durante el inicio de sesión, se cerraba la sesión del usuario a los 15 minutos.
+* Si la opción **[!UICONTROL Recordarme]**no estaba seleccionada durante el inicio de sesión, se cerraba la sesión del usuario a los 15 minutos.
 * Los usuarios debían cerrar la sesión y volver a iniciarla para que se apliquen todos los cambios de permisos y autorizaciones.
 * El inicio de sesión en [!DNL Experience Cloud] tardaba más de un segundo.
 * Para determinados usuarios, al eliminar archivos de [!DNL Experience Cloud] no se realizó la sincronización con [!DNL Digital Asset Management].
@@ -539,7 +543,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 
 * Después de agregar una etiqueta personalizada a un recurso, el resto de los cambios de metadatos no persisten.
 * Los usuarios han de actualizar el tablero para que las tarjetas eliminadas desaparezcan de la vista.
-* Cuando no se selecciona **[!UICONTROL Recordarme]** durante el inicio de sesión, se cierra la sesión del usuario tras 15 minutos.
+* Cuando no se selecciona **[!UICONTROL Recordarme]**durante el inicio de sesión, se cierra la sesión del usuario tras 15 minutos.
 * En la página de aterrizaje de la solución [!DNL Analytics] se muestran errores de formato.
 * Los usuarios deben cerrar la sesión y volver a iniciarla para que se apliquen todos los cambios de permisos y autorizaciones.
 * Al eliminar una imagen, [!UICONTROL Assets] no informa de si la imagen se utiliza en [!DNL Adobe Target Essentials].
@@ -574,7 +578,7 @@ La versión 14.3.1 es una versión de mantenimiento cuyo objetivo es mejorar la 
 * Al eliminar una imagen en Experience Cloud Assets, no se informaba al usuario si la imagen estaba siendo usada en Adobe Target Essentials.
 * Al actualizar una tarjeta en [!DNL Analytics], a veces podía causar que apareciera un gráfico vacío en la tarjeta ampliada.
 * Los usuarios deben cerrar la sesión y volver a iniciarla para que se apliquen todos los cambios de permisos y autorizaciones.
-* Cuando *`Remember me`* no se selecciona durante el inicio de sesión, la sesión del usuario se cerrará a los 15 minutos.
+* Cuando *`Remember me`*no se selecciona durante el inicio de sesión, la sesión del usuario se cerrará a los 15 minutos.
 * En la página de aterrizaje de la solución [!DNL Analytics] se muestran errores de formato.
 * El vínculo Comentarios en la vista de tarjetas de recursos no se puede seleccionar.
 * La interfaz de Experience Cloud se puede ralentizar cuando muchos usuarios la usa en paralelo
@@ -620,5 +624,5 @@ La versión 14.3.1 es una versión de mantenimiento cuyo objetivo es mejorar la 
 
 * Se ha corregido un problema que impedía que los informes compartidos de [!DNL Analytics] aplicaran filtros de segmento.
 * Se ha corregido un problema que provocaba que las soluciones se mostraran como vinculadas en la página [!UICONTROL Soluciones de Experience Cloud] aunque las cuentas de las soluciones no estuvieran vinculadas.
-* Se ha corregido un problema que impedía a los clientes de [!DNL Adobe Target] de Asia hacer clic en el botón **[!UICONTROL Continuar a Experience Cloud]** de la página de vinculación.
+* Se ha corregido un problema que impedía a los clientes de [!DNL Adobe Target] de Asia hacer clic en el botón **[!UICONTROL Continuar a Experience Cloud]**de la página de vinculación.
 * Se ha corregido un problema que impedía compartir vídeos de YouTube.
