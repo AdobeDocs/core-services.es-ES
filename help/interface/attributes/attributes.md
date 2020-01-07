@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## Información general
 
-Para localizar los [!UICONTROL atributos del cliente], vaya a **[!DNL Experience Platform]** &gt; **[!UICONTROL Usuarios]** &gt; **[!UICONTROL Atributos del cliente]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
 
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, saque el máximo partido de los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
@@ -29,7 +29,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 
 * **Pertenencia a un grupo:** Para cargar los datos de atributos de los clientes, los usuarios deben ser miembros del [grupo de Atributos del cliente](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
 
-   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [!DNL Experience Cloud]. Vaya a **[!UICONTROL Administración]** &gt; **[!UICONTROL Iniciar Admin Console]** &gt; **[!UICONTROL Grupos]**. Si *Atributos del cliente* se muestra como uno de los grupos, está listo para empezar.
+   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [!DNL Experience Cloud]. Vaya a **[!UICONTROL Administración]**>**[!UICONTROL  Iniciar Admin Console]** > **[!UICONTROL Grupos]**. Si *Atributos del cliente*se muestra como uno de los grupos, está listo para empezar.
 
    Los usuarios que se agregan al grupo Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
@@ -40,7 +40,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 
 * **at.js:** cualquier versión.
 
-## ¿Qué son los datos del cliente empresariales? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 Los datos empresariales residen en otros sistemas. Pueden resultar complejos y significan cosas distintas para cada persona. Estos datos pueden incluir información como afiliaciones, nivel de lealtad, edad, género, productos propios, intereses y valor de duración.
 
@@ -48,7 +48,7 @@ La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos d
 
 ![](assets/01_crs_usecase.png)
 
-Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Atributos del cliente]**.
+Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]**>**[!UICONTROL  Atributos del cliente]**.
 
 Consulte [Carga de datos del atributo del cliente](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) para obtener información sobre este flujo de trabajo.
 
