@@ -3,10 +3,10 @@ description: Experience Cloud Assets proporciona un único almacén centralizado
 seo-description: Experience Cloud Assets proporciona un único almacén centralizado para los recursos preparados para el marketing que puede compartir entre sus soluciones. Un recurso es (o forma parte de) un documento digital, una imagen, un vídeo o audio que puede tener varias representaciones y subrecursos (por ejemplo, capas en un archivo de Photoshop, diapositivas en un archivo de PowerPoint, páginas en un PDF o archivos en un ZIP).
 seo-title: Assets
 solution: Experience Cloud
-title: Assets
+title: Recursos
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -71,23 +71,23 @@ Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación,
 
 ## Anotar recursos {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
+Haga clic en **[!UICONTROL Anotar]**dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
 
 ![](assets/assets-annotate.png)
 
-## Compartir recursos en su fuente {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-**Experience Cloud Feed ya no será compatible a partir del 1 de noviembre de 2019 y dejará de serlo antes de diciembre de 2019.**
+**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
 
-Haga clic en **[!UICONTROL Compartir]** en la barra de herramientas para compartir el recurso como [fuente](../feed.md#concept_9256B8768A294009A777282DD8719213) con otros usuarios de Experience Cloud.
+Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
 
-![](assets/assets-share-card.png)
+![](assets/assets-share-card.png) 
 
-Compartir hace que se muestre la imagen en su página de Feed y con quien haya compartido la tarjeta.
+Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
 
 ## Visualizar recursos en pantalla completa y hacer zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Haga clic en **[!UICONTROL Vistas]** &gt; **[!UICONTROL Imagen]** para ver la imagen completa del recurso y activar el zoom.
+Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Imagen]** para ver la imagen completa del recurso y activar el zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +95,7 @@ Haga clic en **[!UICONTROL Vistas]** &gt; **[!UICONTROL Imagen]** para ver la im
 
 Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
 
-Haga clic en **[!UICONTROL Vistas]** &gt; **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
+Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Propiedades]** para ver las propiedades de un recurso:
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +103,6 @@ Haga clic en **[!UICONTROL Vistas]** &gt; **[!UICONTROL Propiedades]** para ver 
 
 Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
 
-Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Informe de uso]**
+Haga clic en **[!UICONTROL Herramientas]**>**[!UICONTROL  Informes]** > **[!UICONTROL Informe de uso]**
 
 ![](assets/assets-usage-report.png)
