@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -115,7 +115,3 @@ No. Los usuarios deben vincular sus propias soluciones con sus nombres de usuari
 **¿Por qué veo Social si mi empresa no lo tiene?**
 
 Adobe Social es un producto que puede venderse con Analytics. Por tanto, si tiene Analytics podrá ver esta solución, pero no podrá acceder a ella a menos que la haya adquirido.
-
-**¿Cómo comparto un informe o una campaña en Experience Cloud?**
-
-Un informe de Analytics o una campaña de Target son ejemplos de recursos que se pueden compartir en la [Fuente](../feed.md#concept_9256B8768A294009A777282DD8719213).
