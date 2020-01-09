@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Acerca de los nuevos nombres de las nubes en Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -54,50 +54,48 @@ Incluye Media Optimizer y TubeMogul.
 
 La siguiente información describe brevemente las soluciones y proporciona vínculos de ayuda. También dispone de [fórmulas de casos de uso](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) para ayudarlo con los flujos de trabajo de marketing digital.
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/)
+![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Para ponerse en marcha con Analytics:
 
-1. Cree su primer grupo de informes (repositorio de datos) de Analytics mediante los pasos descritos en [Introducción a Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/).
-1. A continuación, implemente código de Analytics utilizando [Launch, de Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/).
+1. Cree su primer grupo de informes (repositorio de datos) de Analytics mediante los pasos descritos en [Introducción a Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
+1. A continuación, implemente código de Analytics utilizando [Launch, de Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 Experience Platform Launch es el futuro de la administración de etiquetas y ofrece un modo sencillo de implementar y administrar todas las etiquetas de análisis, marketing y publicidad.
 
 Consulte también:
 
-* [¿Qué productos de Analytics debo usar?](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html)
-* [Comparación de productos y requisitos de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [¿Qué productos de Analytics debo usar?](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
+* [Comparación de productos y requisitos de Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/)
+![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 Adobe Target se integra con Analytics y otros servicios principales de Experience Cloud. Temas útiles de introducción:
 
-* [Configuración de Target](https://marketing.adobe.com/resources/help/en_US/target/ov/c_seting_up_target.html)
-* [Cómo funciona Target](https://marketing.adobe.com/resources/help/en_US/target/ov/c_how_target_works.html)
-* [Primeros pasos del administrador](https://marketing.adobe.com/resources/help/en_US/target/ov/start_target.html)
-* [Uso de Analytics como origen de informes para Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
+* [Configuración de Target](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
+* [Cómo funciona Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
+* [Primeros pasos del administrador](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
+* [Uso de Analytics como origen de informes para Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://marketing.adobe.com/resources/help/en_US/social/)
+![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
 Social es una solución alojada y de suscripción que le ayuda a lograr sus objetivos de medios sociales y a mejorar su estrategia y rendimiento. Puede administrar el marketing social con una plataforma exhaustiva que habilita la escucha social, de publicación y analítica.
 
-[Introducción a Social](https://marketing.adobe.com/resources/help/en_US/social/c_gs.html)
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-3.html)
+![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Como solución de administración de contenido, Adobe Experience Manager facilita la gestión de sus recursos y contenidos para sitios web, aplicaciones móviles, comunidades y formularios.
 
-Consulte [Adobe Experience Manager 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html) para obtener ayuda.
+Consulte [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) para obtener ayuda.
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
+![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 Como plataforma de administración de datos, Adobe Audience Manager le ayuda a crear perfiles de audiencia únicos para que pueda detectar y segmentar a los clientes más valiosos en cada canal.
 
-![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://marketing.adobe.com/resources/help/en_US/media-optimizer/)
+![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud es una solución programática de adquisición de anuncios que le permite encontrar y prever la mejor combinación de canales publicitarios en función de su presupuesto, y ofrecer contenido a su audiencia de forma directa y automática.
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://helpx.adobe.com/support/campaign.html)
+![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Adobe Campaign permite planificar, enviar y medir campañas en todos sus canales en línea y sin conexión para aumentar la productividad y ofrecer experiencias relevantes a sus clientes.
 
@@ -117,6 +115,5 @@ Adobe Primetime es una plataforma de TV multipantalla que ayuda a los emisores d
 | [Administration](admin-getting-started/admin-getting-started.md) | Administre las autorizaciones de usuario y producto para todas sus nubes y soluciones de Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Almacene, sincronice y comparta fácilmente todos los recursos digitales en una ubicación central para ahorrar tiempo y proporcionar una experiencia más uniforme al cliente. |
 | [Exchange](exchange.md) | Busque, examine, seleccione, pague y descargue extensiones de Digital Marketing mediante aplicaciones. |
-| [Fuente](feed.md) | La colaboración es intrínseca a Experience Cloud. Utilice Feed para mantenerse conectado a su equipo a través de una fuente central que le permite compartir publicaciones, comentarios y datos adjuntos. |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
+| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
 | People | Cree una vista completa de cada cliente conectando datos de Adobe con otros que no sean de Adobe en las soluciones de Experience Cloud. Descubra qué es lo que más les interesa gracias a las interacciones con los puntos de contacto. Reconozca a los clientes habituales cuando realicen visitas desde dispositivos que no sean los habituales. También puede agrupar usuarios en audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library/audience-library.md): categorice distintos tipos de clientes en audiencias y, a continuación, comparta estas audiencias en las soluciones de Experience Cloud.<br>[Atributos del cliente](attributes/attributes.md): característica de la audiencia que le permite conectar información del consumidor recopilada fuera de Experience Cloud.<br>[Gráfico del dispositivo](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): colabore con las marcas más populares del mundo para reconocer a un consumidor familiar tras un dispositivo no familiar (en la versión beta, solo para miembros de cooperación de los dispositivos de Experience Cloud). |
