@@ -71,7 +71,7 @@ Cree una oferta para agregarla al inventario de ofertas.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Límite máximo por usuario </p> </td> 
-   <td colname="col2"> <p>El máximo de tiempo que se puede proponer una oferta a un usuario determinado. </p> <p>Nota:  El número de veces que se propone una oferta a un usuario determinado se calcula en el momento de la preparación del correo electrónico. Por ejemplo, si prepara un correo electrónico con un número de ofertas, esos números se contabilizan como límite máximo por usuario, independientemente de si se envía o no el correo electrónico.</p> </td> 
+   <td colname="col2"> <p>El máximo de tiempo que se puede proponer una oferta a un usuario determinado. </p> <p>Nota:  El número de veces que se propone una oferta a un usuario determinado se calcula en el momento de la preparación del correo electrónico. Por ejemplo, si prepara un correo electrónico con un número de ofertas, esos números se contabilizan como límite máximo por usuario, independientemente de si se envía o no el correo electrónico.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etiquetas </p> </td> 
