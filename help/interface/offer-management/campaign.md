@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: a0e0b51d731343d5cd4226ab29d917aca63317c2
 
 ---
 
@@ -109,7 +109,7 @@ Inserte una actividad de oferta en cualquier imagen o bloque de texto dentro de 
 * **** Comprobación de ubicación: Todas las ofertas deben tener una representación de contenido que coincida con la colocación seleccionada como parte de la actividad de oferta. Si se elimina una colocación de una oferta entre el tiempo de creación de la actividad y el tiempo de preparación (si el tiempo es superior a tres minutos), dicha oferta no se considerará.
 * **** Comprobación de fecha: Todas las ofertas deben ser válidas para la fecha actual ( _no es_ la fecha de envío de la oferta). La fecha en la que se prepara la campaña de correo electrónico es la fecha que determina qué oferta se va a ofrecer. Por ejemplo, si prepara una campaña de correo electrónico el 15/15/17 y una de las ofertas seleccionadas no es válida hasta el 16/17, la oferta no se sirve.
 
-* **** Comprobación de la regla de elegibilidad: Todas las ofertas deben cumplir las reglas [de](offers.md#task_6C4AE487377D424FA133ACCA6AF741D4)elegibilidad.
+* **** Comprobación de la regla de elegibilidad: Todas las ofertas deben cumplir las reglas [de](offers.md)elegibilidad.
 
 * **** Comprobación de prioridad: Si un usuario puede optar a varias ofertas, la Administración [!UICONTROL de] ofertas utiliza la prioridad establecida por el usuario para determinar qué oferta mostrar a cada usuario.
 
