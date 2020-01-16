@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Administración de usuarios y productos de Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 ---
 
@@ -33,7 +33,7 @@ Los administradores ya no administran usuarios en las soluciones. Ahora, la admi
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Escriba su [Adobe ID o Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) y su contraseña.
 
-En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Iniciar Admin Console]**.
+En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer clic en **[!UICONTROL Administración]**>**[!UICONTROL  Iniciar Admin Console]**.
 
 **Ayuda relacionada**
 
@@ -61,7 +61,7 @@ Administre los permisos de usuarios y productos de Analytics en Admin Console.
 
 Hay disponible una herramienta de migración de ID de usuario de Analytics para ayudar a los administradores a migrar cuentas de Administración de usuarios de Analytics a [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-La migración de cuentas se está poniendo a disposición de los clientes por fases. Adobe le avisará y ayudará cuando le llegue el momento de migrar las cuentas de usuario existentes desde **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]** a Admin Console.
+La migración de cuentas se está poniendo a disposición de los clientes por fases. Adobe le avisará y ayudará cuando le llegue el momento de migrar las cuentas de usuario existentes de **[!UICONTROL Herramientas de administración]**>**[!UICONTROL  Administración de usuarios]** a Admin Console.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Si los usuarios intentan iniciar sesión con los accesos heredados ([!DNL my.omniture.com] y [!DNL sc.omniture.com]), se los redirigirá a [!DNL experiencecloud.adobe.com].
 
@@ -110,7 +110,7 @@ Cree un perfil de producto y asígnelo a un grupo de permisos.
 
 Al invitar a un usuario a una organización, puede darle acceso a productos y perfiles de producto. También puede delegar en un usuario permisos administrativos limitados. Del mismo modo, puede crear grupos de usuarios y, después, añadir el grupo a un perfil de producto para habilitar el acceso.
 
-1. En [Admin Console](https://adminconsole.adobe.com/enterprise/)**, haga clic en[!UICONTROL Productos]**.
+1. En [Admin Console](https://adminconsole.adobe.com/enterprise/), haga clic en **[!UICONTROL Productos]**.
 1. Haga clic en **[!UICONTROL Nuevo perfil]**.
 1. Configure los detalles del perfil y, después, haga clic en **[!UICONTROL Siguiente]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
@@ -127,8 +127,8 @@ Asigne permisos de acceso a informes de Analytics (grupos de informes, métricas
 
 Por ejemplo, puede crear un perfil de producto que contenga varias herramientas de Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] y [!UICONTROL Report Builder]), con permiso para métricas y dimensiones concretas (incluidas eVars) y funciones como la creación de segmentos o métricas calculadas.
 
-1. Inicie sesión en [Admin Console](https://adminconsole.adobe.com/enterprise) y, a continuación, haga clic en **[!UICONTROL Productos]** (o haga clic en el nombre de su producto).
-1. En el perfil de producto, haga clic en **[!UICONTROL Permisos]** (disponible solo para administradores).
+1. Inicie sesión en [Admin Console](https://adminconsole.adobe.com/enterprise) y, a continuación, haga clic en **[!UICONTROL Productos]**(o haga clic en el nombre de su producto).
+1. En el perfil de producto, haga clic en **[!UICONTROL Permisos]**(disponible solo para administradores).
 1. Configure los permisos del perfil:
 
 | Elemento | Descripción |
@@ -151,24 +151,27 @@ Por ejemplo, puede:
 
 Al utilizar estas funciones, puede delegar la administración de forma simultánea en otras personas sin tener que proporcionar más capacidades de las necesarias.
 
-1. En Admin Console, haga clic en **[!UICONTROL Usuarios]** y, a continuación, haga clic en el nombre del usuario.
+1. En Admin Console, haga clic en **[!UICONTROL Usuarios]**y, a continuación, haga clic en el nombre del usuario.
 1. Haga clic en **[!UICONTROL Editar derechos de administrador]**.
 1. Configure los derechos de administración del usuario.
-1. Haga clic en **[!UICONTROL Siguiente]** para revisar la configuración y, a continuación, haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Siguiente]**para revisar la configuración y, a continuación, haga clic en**[!UICONTROL  Guardar]**.
 
 ## Navegadores compatibles y requisitos del sistema {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
 Navegadores compatibles con Experience Cloud.
 
-**Servicios principales de Experience Cloud**
+Los exploradores admitidos por Experience Cloud incluyen:
 
-* Última versión de Internet Explorer de Microsoft. (Microsoft [ha dejado de ofrecer soporte](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Por este motivo, Adobe no corregirá los problemas notificados en relación con estas versiones específicas de Internet Explorer).
-* Google Chrome
-* Mozilla Firefox
-* Apple Safari
+* [!DNL Microsoft Edge] (Microsoft [ha dejado de ofrecer soporte](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Por este motivo, Adobe no corregirá los problemas notificados en relación con estas versiones específicas de Internet Explorer).
+* [!DNL Google Chrome]
+* [!DNL Firefox]
+* [!DNL Safari]
+* [!DNL Opera]
 
-**Solución y requisitos del producto**
+**** Nota: Aunque la interfaz de Experience Cloud admite estos exploradores, es posible que las soluciones individuales no admitan todos los exploradores. (Por ejemplo, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) no es compatible [!DNL Opera]y [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) no lo es [!DNL Safari]).
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (incluye Adobe Social)
+**Soluciones y requisitos del producto**
+
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
