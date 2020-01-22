@@ -1,9 +1,9 @@
 ---
-description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
+description: Obtenga información sobre cómo iniciar sesión en Admin Console, administrar los permisos de usuario y perfiles de producto de Experience Cloud y la compatibilidad con navegadores.
 keywords: core services
-seo-description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
+seo-description: Obtenga información sobre cómo iniciar sesión en Admin Console, administrar los permisos de usuario y perfiles de producto de Experience Cloud y la compatibilidad con navegadores.
 seo-title: Administración de usuarios y productos de Experience Cloud
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Administración de usuarios y productos de Experience Cloud {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud.
+Obtenga información sobre cómo iniciar sesión en Admin Console, administrar los permisos de usuario y perfiles de producto de Experience Cloud y la compatibilidad con navegadores.
 
 >[!IMPORTANT]
 >
