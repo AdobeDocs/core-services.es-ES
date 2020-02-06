@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -40,7 +40,7 @@ Para iniciar la Dynamic Tag Management, haga clic en **[!UICONTROL Activation]**
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guías de implementación para el servicio Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>El servicio Experience Cloud ID activa la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos de los clientes, el uso compartido de audiencia y los Triggers). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
+   <td colname="col2"> <p>El servicio Experience Cloud ID habilita la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos del cliente, el uso compartido de audiencias y los activadores). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
