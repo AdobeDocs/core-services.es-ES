@@ -69,7 +69,7 @@ Si desea ayuda en la implementación de la Dynamic Tag Management, le animamos a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso de Triggers en Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 incluye una integración con el nuevo servicio principal Triggers. Este servicio principal permite a los usuarios de empresa definir fácilmente activadores (Triggers) según los datos de comportamiento en línea capturados en Adobe Analytics. Una vez definido el Trigger, estará disponible en Adobe Campaign para posibilitar el envío de mensajes de remarketing que promuevan la participación y las conversiones. Esta nueva función lista para usar permitirá a los comerciantes activar mensajes de remarketing en el momento adecuado según eventos en línea como el abandono del carro de compras, visualizaciones de páginas, reproducciones de vídeos, etc. </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 incorpora una integración con el nuevo servicio Trigger. Este servicio permite a los usuarios empresariales definir fácilmente activadores en función de los datos de comportamiento en línea capturados en Adobe Analytics. Una vez definido el Trigger, estará disponible en Adobe Campaign para posibilitar el envío de mensajes de remarketing que promuevan la participación y las conversiones. Esta nueva función lista para usar permitirá a los comerciantes activar mensajes de remarketing en el momento adecuado según eventos en línea como el abandono del carro de compras, visualizaciones de páginas, reproducciones de vídeos, etc. </p> </td> 
   </tr> 
  </tbody> 
 </table>
