@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: Inicio de sesión y administración de la configuración de perfil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # Inicio de sesión y administración de la configuración de perfil
 
-Iniciar sesión en Experience Cloud (y no en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios principales que posea. Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
+El inicio de sesión en Experience Cloud (en lugar de iniciar sesión en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios que posee. Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
 
 <!-- t_sign_in.xml -->
 
@@ -85,7 +85,7 @@ Puede editar los detalles personales y especificar una [organización](../admin-
 
 Reciba notificaciones (por correo electrónico o dentro del producto) acerca de actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y soluciones para los que desea recibir notificaciones, como el estado de carga de los atributos del cliente.
 
-Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]**.](assets/icon_edit_board.png)![
+Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]**.![](assets/icon_edit_board.png)
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
