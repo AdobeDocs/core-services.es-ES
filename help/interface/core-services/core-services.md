@@ -62,7 +62,6 @@ Consulte [Administración de usuarios y productos de Experience Cloud](../admin-
 
 Para iniciar sesión en Experience Cloud, los usuarios deben:
 
-
 1. Tener un Adobe ID.
 1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. Pertenecer a un grupo de soluciones asignado a un grupo de empresas.
