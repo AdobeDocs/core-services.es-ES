@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Preguntas más frecuentes, limitaciones y prácticas recomendadas
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -48,7 +48,7 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>Realice un aprovisionamiento. </p> <p>Si es cliente de <b>Analytics</b>, Adobe realizará el aprovisionamiento de atributos del cliente. Si solo utiliza <b>Target</b> y no tiene Analytics, debe solicitar el aprovisionamiento de servicios principales poniéndose en contacto con el servicio de atención al cliente. </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>Hable con el equipo de CRM. Descubra qué tipo de datos de cliente están disponibles y pueden ser interesantes de utilizar en Analytics y en Experience Cloud. </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implemente los servicios principales. </p> <p>Consulte  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Introducción: Activación de las soluciones en los servicios principales</a> para ver los pasos necesarios para modernizar su implementación de servicios principales. (Consulte la sección sobre sincronización de ID de clientes para obtener información importante). </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implemente los servicios principales. </p> <p>Consulte <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Introducción: Activación de las soluciones en los servicios principales</a> para ver los pasos necesarios para modernizar su implementación de servicios principales. (Consulte la sección sobre sincronización de ID de clientes para obtener información importante). </p> </li> 
     </ol> <p> <b>Nota:</b> Hay disponible una sección de preguntas más frecuentes para implementar los servicios principales  <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local"> aquí</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: extremadamente recomendable. </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> necesario. </li> 
-     </ul> </p> <p>El uso del servicio de ID mejora la funcionalidad y abre las puertas al uso de las funcionalidades de Experience Cloud más recientes, incluidas las audiencias en tiempo real, la modernización de destino, la integración con Analytics y el seguimiento del funcionamiento del vídeo. </p> <p>Para ver información detallada, consulte  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Servicios principales: Activar las soluciones</a> </p> <p> <b>Nota</b>: El servicio <span class="term"> de ID de</span> Experience Cloud es la implementación modernizada de lo que antes se conocía como el servicio <span class="term"> de ID de visitante de</span>Analytics. </p> </td> 
+     </ul> </p> <p>El uso del servicio de ID mejora la funcionalidad y abre las puertas al uso de las funcionalidades de Experience Cloud más recientes, incluidas las audiencias en tiempo real, la modernización de destino, la integración con Analytics y el seguimiento del funcionamiento del vídeo. </p> <p>Para ver información detallada, consulte <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Servicios principales: Activar las soluciones</a> </p> <p> <b>Nota</b>: El servicio <span class="term"> de ID de</span> Experience Cloud es la implementación modernizada de lo que antes se conocía como el servicio <span class="term"> de ID de visitante de</span>Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿De qué forma se relaciona la función de atributos del cliente con Adobe Audience Manager? </p> </td> 
@@ -111,5 +111,17 @@ Sugerencias y limitaciones en el uso de Atributos del cliente.
    <td colname="col2"> <p> Para ver el número de registros publicados y sincronizados por Target, haga clic en el icono Estado de sincronización con un archivo de atributos específico. "Sincronizar %" es una métrica en tiempo real que especifica el % de perfiles que se han sincronizado en Target. </p> <p> <b></b> Nota: Los atributos pueden tardar hasta 24 horas en sincronizarse con Target. </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> ¿Qué representan las métricas de carga de archivos en la fuente de atributos del cliente? </p> </td>
+	<td colname="col2"> <p> Puede comprobar el estado de los atributos cargados en Atributos del cliente con la ayuda de las siguientes métricas: </p>
+		<ul>
+			<li> <b> Registros: </b> Número de registros en el archivo de atributos. </li>
+			<li> <b> Nuevos registros: </b> Número de registros nuevos presentes en el archivo de atributos. </li>
+			<li> <b> Registros actualizados: </b> Número de registros que ya existen en Atributos del cliente con valores actualizados en el archivo. </li>
+			<li> <b> Todos los datos (registros): </b> Número total de registros cargados correctamente en Atributos del cliente. </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
