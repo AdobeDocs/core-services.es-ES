@@ -6,7 +6,7 @@ seo-title: Ver los detalles de usuarios y usuarios de Experience Cloud
 solution: Experience Cloud
 title: 'Ver los detalles de usuarios y usuarios de Experience Cloud '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ Esta página muestra una lista completa de los usuarios con acceso a Experience 
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse A->Z, Z->A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar para ver tipos de ID específicos. Consulte [Administrar tipos](https://helpx.adobe.com/enterprise/using/identity.html) de identidad para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las soluciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros a la lista desplegable de usuarios con acceso a la solución específico. |
-| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas ascendente o descendentes. <br> **** Importante: Los datos del último inicio de sesión no se conservan durante más de 30 días antes del valor de fecha, por lo que es posible que los usuarios no tengan información sobre el último inicio de sesión. [!UICONTROL A partir de (FECHA)] : los datos de inicio de sesión del usuario se conservan durante 365 días. Puede utilizar esta información para ver la actividad de inicio de sesión actual en Experience Cloud, pero no para realizar acciones en cuentas inactivas. Además, es posible que los usuarios creados recientemente no tengan el estado de último inicio de sesión. |
+| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas ascendente o descendentes. <br> **** Importante: A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no una recomendación para realizar acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista de usuarios
 
