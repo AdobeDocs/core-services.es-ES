@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Uso de la precarga de DNS con diferentes soluciones y servicios
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servicio de Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`insertar ID de socio aquí`*.demdex.net">`
+* **** Servicio Experience Cloud ID: `<link rel="dns-prefetch" href="//fast. *`insertar ID de socio aquí`*.demdex.net">`
 
 * **Dynamic Tag Manager** (DTM): No obligatorio. Los vínculos DTM están disponibles en cuanto la página se carga.
 
