@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud Integraciones
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -30,7 +30,7 @@ Describe cómo:
 
 Soluciones o servicios:
 
-* Activation: Dynamic Tag Management o Experience Platform Launch
+* Activación: administración dinámica de etiquetas o inicio de plataforma de experiencia
 * Analytics
 * Target
 * [Servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
