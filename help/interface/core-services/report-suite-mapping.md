@@ -5,7 +5,7 @@ seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 Obtenga más información sobre cómo asignar uno o más grupos de informes a una organización.
 
-Los servicios de Experience Cloud (como el servicio Experience Cloud ID y People) están asociados a una organización y no a un grupo de informes individual. Para asegurar el correcto funcionamiento de estos servicios, cada grupo de informes de Analytics debe asignarse a una organización. El proceso de asignación:
+Los servicios de Experience Cloud (como el servicio Experience Cloud ID y el servicio principal Personas) están asociados a una organización en lugar de a un grupo de informes individual. Para asegurar el correcto funcionamiento de estos servicios, cada grupo de informes de Analytics debe asignarse a una organización. El proceso de asignación:
 
 * Establece una organización de Experience Cloud como organización principal para el grupo de informes.
 * No cambia quién puede acceder a un grupo de informes (el acceso se sigue determinado según la cuenta de inicio de sesión en Adobe Analytics de cada usuario).
@@ -27,7 +27,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignación de un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**
+1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Report Suite Mapping]**
 
 1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, haga clic en **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
@@ -39,7 +39,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignar varios grupos de informes a una organización {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Asignación de grupos de informes]**.
+1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Report Suite Mapping]**.
 
 1. Seleccione los grupos de informes que desea asignar.
 
@@ -57,7 +57,7 @@ Esta sección contiene sugerencias para ayudarlo a seleccionar la organización 
 
 **¿Qué organización debo elegir?**
 
-Si el servicio Experience Cloud ID está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) para encontrar el identificador de organización que utiliza el servicio de ID de visitante.
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) para encontrar el identificador de organización que utiliza el servicio de ID de visitante.
 
 Si el servicio ID de visitante de Experience Cloud no está implementado en los sitios que recopilan datos para el grupo de informes y lo implementa en el futuro, tendrá que asegurarse de que la implementación coincida con la organización elegida en la herramienta Report Suite Mapping.
 
