@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Acerca de los nuevos nombres de las nubes en Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -59,9 +59,9 @@ La siguiente información describe brevemente las soluciones y proporciona vínc
 Para ponerse en marcha con Analytics:
 
 1. Cree su primer grupo de informes (repositorio de datos) de Analytics mediante los pasos descritos en [Introducción a Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. A continuación, implemente código de Analytics utilizando [Launch, de Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. A continuación, implemente el código de Analytics mediante [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-Experience Platform Launch es el futuro de la administración de etiquetas y ofrece un modo sencillo de implementar y administrar todas las etiquetas de análisis, marketing y publicidad.
+Experience Platform Launch es la próxima generación de administración de etiquetas y proporciona una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad.
 
 Consulte también:
 
@@ -111,7 +111,7 @@ Adobe Primetime es una plataforma de TV multipantalla que ayuda a los emisores d
 
 | Servicio principal | Descripción |
 |--- |--- |
-| [Activation](activation/activation.md) | Sistemas de administración de etiquetas (Experience Platform Launch, y Dynamic Tag Management).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
+| [Activation](activation/activation.md) | Sistemas de administración de etiquetas (Inicio de plataforma de experiencia y Administración dinámica de etiquetas).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Administre las autorizaciones de usuario y producto para todas sus nubes y soluciones de Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Almacene, sincronice y comparta fácilmente todos los recursos digitales en una ubicación central para ahorrar tiempo y proporcionar una experiencia más uniforme al cliente. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch es la función de administración de etiquetas de próxima generación de Adobe. Launch ofrece a los clientes una alternativa sencilla para implementar y gestionar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. |
