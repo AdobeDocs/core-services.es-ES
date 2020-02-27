@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -22,7 +22,7 @@ Si su implementación no se ha aprovisionado para servicios principales, consult
 
 
 1. [Únase a Experience Cloud y conviértase en administrador](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Cómo implementar el servicio Experience Cloud ID mediante Administrador dinámico de etiquetas](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o el nuevo [Launch, de Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
+1. [Implement the Experience Cloud ID Service using Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (or the new [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Asignación de grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo Target) Modernizar la implementación de Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -47,7 +47,7 @@ La funcionalidad que ofrece la interfaz de Experience Cloud añade un nuevo valo
 
 [Póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**¿Qué es *`provisioning`*?**
+**What is *`provisioning`*?**
 
 El aprovisionamiento de Experience Cloud significa que:
 
