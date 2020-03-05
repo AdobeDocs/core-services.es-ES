@@ -88,7 +88,7 @@ Consulte [Administración de grupos y usuarios](https://helpx.adobe.com/campaign
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Inicio de plataforma de experiencia se muestra en la página Productos de Admin Console. Puede incluir otras soluciones y servicios en un perfil de producto de Launch.
+Experience Platform Launch se muestra en la página Productos de la Consola de administración. Puede incluir otras soluciones y servicios en un perfil de producto de Launch.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
