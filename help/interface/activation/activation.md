@@ -1,7 +1,7 @@
 ---
-description: Activation incluye el producto de administración de etiquetas más reciente llamado Inicio de plataforma de experiencia. Dynamic Tag Management (DTM); y Triggers.
+description: Activation incluye el último producto de administración de etiquetas llamado Experience Platform Launch. Dynamic Tag Management (DTM); y Triggers.
 keywords: core services
-seo-description: Activation incluye el último producto de administración de etiquetas llamado Inicio de plataforma de experiencia. Dynamic Tag Management (DTM); y Triggers.
+seo-description: Activation incluye el último producto de administración de etiquetas denominado Experience Platform Launch. Dynamic Tag Management (DTM); y Triggers.
 seo-title: Activation
 solution: Experience Cloud
 title: Activation
@@ -14,7 +14,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # Activation
 
-Activation incluye el último producto de administración de etiquetas llamado Inicio de plataforma de experiencia, Administración dinámica de etiquetas (DTM) y Activadores.
+Activation incluye el último producto de administración de etiquetas llamado Experience Platform Launch, Administración dinámica de etiquetas (DTM) y Activadores.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
