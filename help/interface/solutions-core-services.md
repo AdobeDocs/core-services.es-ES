@@ -61,7 +61,7 @@ Para ponerse en marcha con Analytics:
 1. Cree su primer grupo de informes (repositorio de datos) de Analytics mediante los pasos descritos en [Introducción a Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
 1. A continuación, implemente el código de Analytics mediante [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-Experience Platform Launch es la próxima generación de administración de etiquetas y proporciona una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad.
+Experience Platform Launch es la próxima generación de administración de etiquetas y le ofrece una manera sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad.
 
 Consulte también:
 
@@ -111,7 +111,7 @@ Adobe Primetime es una plataforma de TV multipantalla que ayuda a los emisores d
 
 | Servicio principal | Descripción |
 |--- |--- |
-| [Activation](activation/activation.md) | Sistemas de administración de etiquetas (Inicio de plataforma de experiencia y Administración dinámica de etiquetas).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
+| [Activation](activation/activation.md) | Sistemas de administración de etiquetas (Experience Platform Launch y administración dinámica de etiquetas).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Administre las autorizaciones de usuario y producto para todas sus nubes y soluciones de Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Almacene, sincronice y comparta fácilmente todos los recursos digitales en una ubicación central para ahorrar tiempo y proporcionar una experiencia más uniforme al cliente. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch es la función de administración de etiquetas de próxima generación de Adobe. Launch ofrece a los clientes una alternativa sencilla para implementar y gestionar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. |
