@@ -30,7 +30,7 @@ Describe cómo:
 
 Soluciones o servicios:
 
-* Activación: administración dinámica de etiquetas o inicio de plataforma de experiencia
+* Activación: administración dinámica de etiquetas o Experience Platform Launch
 * Analytics
 * Target
 * [Servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
