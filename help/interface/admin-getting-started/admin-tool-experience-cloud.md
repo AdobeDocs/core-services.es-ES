@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Herramienta de administración de Experience Cloud
+# Ver usuarios de Experience Cloud en la herramienta de administración
 
-La herramienta de administración de Experience Cloud permite a los administradores ver una lista ordenable y filtrable de todos los usuarios de Experience Cloud. Cada página de detalles del usuario contiene detalles importantes sobre el acceso al producto, las funciones y la información a la que accedió por última vez un usuario.  
+Los administradores pueden ver una lista ordenable y filtrable de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. (**Nota:** La administración de usuarios y productos está configurada en la Consola [de administración](admin-getting-started.md)).
 
 1. Log in to `https://experience.adobe.com/.`
 
@@ -22,7 +22,7 @@ La herramienta de administración de Experience Cloud permite a los administrado
 
 1. En la página de inicio de Experience Cloud, haga clic en Herramienta **[!UICONTROL de administración.]**
 
-    (Como alternativa, en la dirección URL de la página principal puede reemplazar _la página principal_ por _admin._)
+   (Como alternativa, en la dirección URL de la página principal puede reemplazar _la página principal_ por _admin._)
 
    Se abre la página [!UICONTROL Usuarios] .
 
@@ -38,7 +38,7 @@ Esta página muestra una lista completa de los usuarios con acceso a Experience 
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse A->Z, Z->A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar para ver tipos de ID específicos. Consulte [Administrar tipos](https://helpx.adobe.com/enterprise/using/identity.html) de identidad para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las soluciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros a la lista desplegable de usuarios con acceso a la solución específico. |
-| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas ascendente o descendentes. <br> **** Importante: A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no una recomendación para realizar acciones en cuentas inactivas antes del 13 de enero de 2020. |
+| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas ascendente o descendentes. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no una recomendación para realizar acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista de usuarios
 
@@ -69,7 +69,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Avatar del usuario y distintivo del administrador del sistema (si corresponde)
 * Nombre
 * Correo electrónico
-* Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes a los de la dirección de correo electrónico)
+* Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
 * [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
