@@ -22,7 +22,7 @@ Si su implementación no se ha aprovisionado para servicios principales, consult
 
 
 1. [Únase a Experience Cloud y conviértase en administrador](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implement the Experience Cloud ID Service using Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (or the new [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
+1. [Implementación del servicio Experience Cloud ID mediante el Administrador](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) dinámico de etiquetas (o el nuevo [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Asignación de grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo Target) Modernizar la implementación de Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -47,7 +47,7 @@ La funcionalidad que ofrece la interfaz de Experience Cloud añade un nuevo valo
 
 [Póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**What is *`provisioning`*?**
+**¿Qué es *`provisioning`*?**
 
 El aprovisionamiento de Experience Cloud significa que:
 
