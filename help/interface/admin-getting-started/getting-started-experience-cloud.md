@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Inicio de sesión y administración de la configuración de perfil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
 
-1. En la página Feed (o en su página de aterrizaje predeterminada), haga clic en el icono de selección ![](assets/menu-icon.png) para acceder al menú desplegable.
+1. En la página de aterrizaje, haga clic en el icono del selector ![](assets/menu-icon.png) para acceder al menú desplegable.
 
    ![](assets/experience-cloud-core-services.png)
 
