@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Recursos
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -24,9 +24,9 @@ Los servicios de recursos incluyen:
 El uso de los recursos mejora la consistencia y el cumplimiento de marca y acelera la salida al mercado. Puede optimizar los flujos de trabajo en las siguientes soluciones:
 
 * **[!DNL Social]**: publique en propiedades sociales, Facebook, Twitter, LinkedIn, Google+.
-* **[!DNL Target]**: cree experiencias para pruebas A/B y con múltiples variables.
+* **[!DNL Target]** : cree experiencias para pruebas A/B y con múltiples variables.
 * **[!DNL Media Optimizer]**: Desarrolle unidades de anuncios en los distintos canales y campañas.
-* **[!DNL Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
+* **[!DNL Campaign]** : coloque los recursos en campañas y boletines de correo electrónico.
 
 En [!UICONTROL Experience Cloud Assets] puede realizar lo siguiente:
 
@@ -35,7 +35,6 @@ En [!UICONTROL Experience Cloud Assets] puede realizar lo siguiente:
 * [Editar recursos ](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Buscar recursos](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [Anotar recursos](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [Compartir recursos en su fuente](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [Visualizar recursos en pantalla completa y hacer zoom](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Visualizar las propiedades de los recursos](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Ejecutar informes de uso](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -71,23 +70,13 @@ Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación,
 
 ## Anotar recursos {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Haga clic en **[!UICONTROL Anotar]**dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
+Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## Visualizar recursos en pantalla completa y hacer zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Imagen]** para ver la imagen completa del recurso y activar el zoom.
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y activar el zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Imagen]** para ver la imagen
 
 Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
 
-Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Propiedades]** para ver las propiedades de un recurso:
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Haga clic en **[!UICONTROL Vistas]**>**[!UICONTROL  Propiedades]** para ver las 
 
 Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
 
-Haga clic en **[!UICONTROL Herramientas]**>**[!UICONTROL  Informes]** > **[!UICONTROL Informe de uso]**
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
 
 ![](assets/assets-usage-report.png)
