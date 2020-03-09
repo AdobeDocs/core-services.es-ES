@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Preguntas y respuestas comunes para los administradores de Experience Cloud.
 
 Si su implementación no se ha aprovisionado para servicios principales, consulte [Habilitar las soluciones para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), que describe cómo:
 
-
 1. [Únase a Experience Cloud y conviértase en administrador](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementación del servicio Experience Cloud ID mediante el Administrador](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) dinámico de etiquetas (o el nuevo [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Asignación de grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Si su implementación no se ha aprovisionado para servicios principales, consult
 1. [Verificar la implementación de los servicios principales](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Administración de usuarios y productos](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Empezar a utilizar los servicios principales](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 Para obtener más ayuda, [póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
@@ -47,7 +43,7 @@ La funcionalidad que ofrece la interfaz de Experience Cloud añade un nuevo valo
 
 [Póngase en contacto con la asistencia de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**¿Qué es *`provisioning`*?**
+**¿Qué es el _aprovisionamiento?_**
 
 El aprovisionamiento de Experience Cloud significa que:
 
