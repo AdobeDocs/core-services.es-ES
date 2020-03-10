@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -48,7 +48,7 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 1. Cuando se establezcan estos CNAMES, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe. Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (https), actualice el `s.trackingServer`. Si el sitio es seguro (https), actualice ambos `s.trackingServer` y las variables de `s.trackingServerSecure`.
 
-1. Hacer ping al nombre de host (consultar más abajo).
+1. Valide el reenvío de nombres de host (consulte a continuación).
 
 1. Actualizar código de implementación (consultar más abajo).
 
@@ -79,15 +79,29 @@ El especialista de FPC le proporciona los nombres de host configurados y los CNA
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
->[!N] Nota: El servicio de ID de visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el servicio de ID de Experience Cloud.
+>[!NNota:] El servicio de ID de visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el servicio de ID de Experience Cloud.
 
-## Hacer ping en el nombre de host
+## Validar reenvío de nombre de host
 
-Hacer ping en el nombre de host para garantizar un reenvío exitoso. Todos los nombres de host deben responder a un ping para evitar la pérdida de datos.
+En el explorador, haga clic en <https://sstats.adobe.com/_check>.
 
-Después de configurar correctamente los registros CNAME y de que Adobe haya confirmado la instalación del certificado, abra un símbolo del sistema y haga ping en los nombres de host. Con `mysite.com`, por ejemplo: `ping metrics.mysite.com`
+Deberías ver que `SUCCESS` regresaron. Verá errores si no se compró el certificado.
 
-Si todo está configurado correctamente, devolverá un resultado similar a:
+También puede utilizar [!DNL curl] como herramienta de línea de comandos para la validación:
+
+1. Si utiliza [!DNL Windows], instale curl (<https://curl.haxx.se/windows/>).
+1. Si el CNAME aún necesita un certificado, escriba `curl -k https://sstats.adobe.com/_check` en la línea de comandos.
+1. Si el certificado se ha completado, escriba `curl https://sstats.adobe.com/_check`.
+
+Deberías ver que `SUCCESS` regresaron.
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,11 +113,11 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-Si los registros CNAME no están configurados correctamente o no están activos, devolverá lo siguiente:
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NNota:] Si está utilizando `https:// protocol`, el ping solo responderá a partir de la fecha de carga que indique el especialista de FPC. Además, asegúrese de hacer ping al nombre de host seguro y al nombre de host no seguro para asegurarse de que ambos funcionan correctamente antes de actualizar la implementación.
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## Actualización del código de implementación
 
@@ -111,7 +125,7 @@ Antes de editar el código del sitio para utilizar cookies de origen, complete e
 
 * Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del Programa de certificados administrados de [Adobe](#adobe-managed-certificate-program).
 * Cree registros CNAME (consultar más arriba).
-* Ping los nombres de host (ver arriba).
+* Valide los nombres de host (véase más arriba).
 
 Después de comprobar que sus nombres de host responden y redirigen a los servidores de recopilación de datos, puede modificar su implementación de modo que señale a sus propios nombres de host de recopilación de datos.
 
