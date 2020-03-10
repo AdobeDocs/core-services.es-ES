@@ -8,7 +8,7 @@ title: Cookies de terceros
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
+source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
 
 ---
 
@@ -26,7 +26,7 @@ Hay dos opciones disponibles para implementar cookies de origen:
 
 Incluso cuando se utiliza la primera opción con el servicio Experience Cloud ID, el ITP de Apple hará que las cookies de origen tengan una duración corta, por lo que es mejor usarlas junto con la segunda opción.
 
-Para la segunda opción con un CNAME, si el sitio tiene páginas seguras que utilizan el protocolo, puede trabajar con Adobe para obtener un certificado SSL con el fin de implementar cookies de origen. `https:` Adobe recomienda utilizar HTTPS exclusivamente para la recopilación de datos, ya que en el segundo semestre de 2020 dejaremos de admitir la recopilación de HTTP.
+En la segunda opción, si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL a fin de implementar cookies de origen. Adobe recomienda utilizar HTTPS exclusivamente para la recopilación de datos, ya que en el segundo semestre de 2020 dejaremos de admitir la recopilación de HTTP.
 
 El proceso de publicación de certificados SSL puede resultar confuso y requerir mucho tiempo. Por ello, Adobe estableció una sociedad con DigiCert, una autoridad certificadora (AC) líder en su sector, y desarrolló un proceso integrado por el cual la compra y administración de estos certificados está automatizada.
 
@@ -44,13 +44,21 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 1. Complete el [Formulario de solicitud de cookies de origen](/help/interface/cookies/assets/FPC_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa administrado de Adobe. Cada campo se describe dentro del documento con ejemplos.
 
-1. Cree registros CNAME (consulte las instrucciones más abajo). Al recibir el billete, un representante de atención al cliente debe proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAMES serán similares a los siguientes: **Proteger**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.ssl.d1.omtrdc.net`. **No seguro**: Por ejemplo, el nombre de host `metrics.example.com` señala a `example.com.d1.omtrdc.net`.
+1. Cree registros CNAME (consulte las instrucciones más abajo).
 
-1. Cuando se establezcan estos CNAMES, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe. Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (https), actualice el `s.trackingServer`. Si el sitio es seguro (https), actualice ambos `s.trackingServer` y las variables de `s.trackingServerSecure`.
+   Al recibir el billete, un representante de atención al cliente debe proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. El CNAMES será similar al siguiente:
 
-1. Valide el reenvío de nombres de host (consulte a continuación).
+   **Seguro** : por ejemplo, el nombre de host `smetrics.example.com` apunta a: `example.com.ssl.d1.omtrdc.net`.
 
-1. Actualizar código de implementación (consultar más abajo).
+   **No seguro**: Por ejemplo, el nombre de host `metrics.example.com` señala a `example.com.d1.omtrdc.net`.
+
+1. Cuando se establezcan estos CNAMES, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
+
+   Si ya tiene una implementación, debe considerar la migración de visitantes para mantener los visitantes existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, puede actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+
+1. [Valide el reenvío](#validate) de nombres de host (consulte a continuación).
+
+1. [Actualizar el código](#update) de implementación (ver más abajo).
 
 ### Mantenimiento y renovaciones
 
@@ -79,47 +87,39 @@ El especialista de FPC le proporciona los nombres de host configurados y los CNA
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
->[!NNota:] El servicio de ID de visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el servicio de ID de Experience Cloud.
+>[!NNota:]
+>El servicio de ID de visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el servicio de ID de Experience Cloud.
 
-## Validar reenvío de nombre de host
+## Validar reenvío de nombre de host {#validate}
 
-En el explorador, haga clic en <https://sstats.adobe.com/_check>.
+Puede validar el nombre de host mediante <https://sstats.adobe.com/_check>. Si tiene un CNAME configurado y el certificado instalado, puede utilizar el explorador para la validación. Sin embargo, verá una advertencia de seguridad si no hay un certificado instalado.
 
-Deberías ver que `SUCCESS` regresaron. Verá errores si no se compró el certificado.
+**Validar con curl**
 
-También puede utilizar [!DNL curl] como herramienta de línea de comandos para la validación:
+Adobe recomienda usar [!DNL curl] desde la línea de comandos. (Si está en Windows, deberá instalar [!DNL curl] desde: <https://curl.haxx.se/windows/>)
 
-1. Si utiliza [!DNL Windows], instale curl (<https://curl.haxx.se/windows/>).
-1. Si el CNAME aún necesita un certificado, escriba `curl -k https://sstats.adobe.com/_check` en la línea de comandos.
-1. Si el certificado se ha completado, escriba `curl https://sstats.adobe.com/_check`.
+Si tiene un CNAME pero no hay ningún certificado instalado, ejecute:
+`curl -k https://sstats.adobe.com/_check`Respuesta: `SUCCESS`
 
-Deberías ver que `SUCCESS` regresaron.
+(**Nota:** El `-k` valor desactiva la advertencia de seguridad).
 
-<!-- ## Ping the hostname
+Si tiene un CNAME configurado y el certificado está instalado, ejecute:
+`curl https://sstats.adobe.com/_check`Respuesta: ÉXITO
 
-Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+**Validar mediante nslookup**
 
-After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+Puede utilizar nslookup para la validación. Con `mysite.com`, por ejemplo:
 
-If everything is successfully set up, it will return something similar to the following:
+Abra un símbolo del sistema y escriba `nslookup metrics.mysite.com`
 
-```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
+Si todo está configurado correctamente, verá un retorno similar a:
 
-Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
-```
+nslookup metrics.mysite.comServer:  hiodsibxvip01.corp.adobe.comDirección:  10.50.112.247
 
-If the CNAME records are not correctly set up or not active, it will return the following:
+Respuesta no autorizada:
+Nombre:    metrics.mysite.comAddress:  64 136 20 37
 
-`Ping request could not find the host. Please check the name and try again.`
-
->[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
-
-## Actualización del código de implementación
+## Actualización del código de implementación {#update}
 
 Antes de editar el código del sitio para utilizar cookies de origen, complete estos requisitos previos:
 
