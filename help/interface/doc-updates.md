@@ -1,13 +1,13 @@
 ---
 description: Información acerca de actualizaciones en la ayuda de Experience Cloud.
-keywords: servicios principales
+keywords: core services
 seo-description: Información acerca de actualizaciones en la ayuda de Experience Cloud.
 seo-title: 'Actualizaciones de la documentación: Experience Cloud'
 solution: Experience Cloud
 title: 'Actualizaciones de la documentación: Experience Cloud'
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 # Actualizaciones de la documentación: Experience Cloud
 
 Información acerca de actualizaciones en la ayuda de Experience Cloud.
+
+**Actualizado: 10/3/2020**
+
+Se ha actualizado [Validar reenvío](cookies/cookies-first-party.md#validate) de nombres de host en la sección de cookies de origen.
+
+**Actualizado: 20/2/2020**
+
+Se ha añadido [Ver los detalles de usuario de Experience Cloud (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Actualizado: 5/09/2018**
 
