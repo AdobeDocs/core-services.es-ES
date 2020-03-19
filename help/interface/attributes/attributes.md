@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
+source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
 
 ---
 
@@ -36,7 +36,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * **Se requiere Adobe Target** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los atributos del cliente.
 
 
-   Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html o implementación [de mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
+   Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
