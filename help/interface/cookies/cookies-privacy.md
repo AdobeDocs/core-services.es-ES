@@ -1,34 +1,34 @@
 ---
-description: Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
-keywords: cookies,privacidad
-seo-description: Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
+description: El mantenimiento de la privacidad del cliente y la seguridad de los datos son prioridades principales en Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los reguladores de privacidad y los principios de autorregulación (como el programa de AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se utiliza su información y las opciones sobre su uso.
+keywords: cookies;privacy
+seo-description: El mantenimiento de la privacidad del cliente y la seguridad de los datos son prioridades principales en Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los reguladores de privacidad y los principios de autorregulación (como el programa de AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se utiliza su información y las opciones sobre su uso.
 seo-title: Acerca de las cookies y la privacidad
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Acerca de las cookies y la privacidad
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Acerca de las cookies y la privacidad{#about-cookies-and-privacy}
 
-Mantener la seguridad de los datos y la privacidad del cliente son prioridades absolutas para Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los organismos de regulación de la privacidad y los principios de autorregulación (como el programa AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se usa su información y las opciones de que disponen para su uso.
+El mantenimiento de la privacidad del cliente y la seguridad de los datos son prioridades principales en Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los reguladores de privacidad y los principios de autorregulación (como el programa de AdChoices de Digital Advertising Alliance) para proporcionar a los clientes información sobre cómo se utiliza su información y las opciones sobre su uso.
 
-La mayoría de las cookies establecidas por los productos de Experience Cloud no contienen información de identificación personal. Tanto estas cookies como los datos que tienen asociados son seguros y solo se usan para los informes de su empresa y para ofrecer contenido y anuncios relevantes. Los datos no están disponibles para terceros ni para otros clientes de Adobe, a no ser que se usen en informes del sector agregados. Por ejemplo, el informe [!DNL Digital Marketing Insight Report] analiza los datos agregados y anónimos de los comerciantes.
+La mayoría de las cookies establecidas por los productos de Experience Cloud no contienen información personal. Estas cookies y los datos asociados son seguros y se utilizan solamente para los informes de su compañía, y para proporcionar contenido y anuncios relevantes. Los datos no están disponibles para terceros ni para otros clientes de Adobe, a menos que se utilicen en informes del sector agregados. Por ejemplo, el informe [!DNL Digital Marketing Insight Report] analiza los datos agregados y anónimos de los comerciantes.
 
-Adobe no combina la información a nivel de navegador entre distintas empresas. Para proteger la privacidad y seguridad de los datos de los clientes, algunos de los servicios de Experience Cloud ofrecen a las empresas la capacidad de usar un conjunto de cookies distinto para cada sitio seguido. Algunos de los servicios ofrecidos por Digital Marketing Suite también proporcionan a los clientes la capacidad de usar su propio nombre de dominio como propietario de la cookie. Esta práctica crea una capa adicional de privacidad y seguridad: hace que las cookies de Experience Cloud sean *cookies propias*, por lo que pertenecen de manera permanente al sitio de la empresa.
+Adobe no combina la información a nivel de navegador entre distintas empresas. Para proteger la privacidad y seguridad de los datos de los clientes, algunos de los servicios de la oferta de Experience Cloud compañía la capacidad de usar un conjunto de cookies distinto para cada sitio rastreado. Algunas de las ofertas de Suite también oferta a los clientes la capacidad de usar su propio nombre de dominio como propietario de la cookie. Esta práctica crea una capa adicional de privacidad y seguridad, ya que hace que las cookies de Experience Cloud sean cookies *individuales*, que pertenecen de forma permanente al sitio de la compañía.
 
-Las cookies solo pueden almacenar y proporcionar la información que se incluyó anteriormente en ellas. No pueden ejecutar código ni acceder a otros datos almacenados en el ordenador. Además, los navegadores Web restringen el acceso a los datos de las cookies. Los navegadores aplican una norma de seguridad de cookies que hace que todos los datos de las cookies solo estén disponibles para el sitio Web que originalmente estableció esa información.
+Las cookies pueden almacenar y proporcionar solamente la información que se había depositado anteriormente en ellas. No pueden ejecutar código ni acceder a otra información almacenada en el equipo. Además, los exploradores Web restringen el acceso a los datos de cookies. Los navegadores aplican una directiva de seguridad de cookies que hace que todos los datos de las cookies estén disponibles únicamente para el sitio Web que originalmente configuró la información.
 
-Por ejemplo, los datos incluidos en cookies establecidas desde el sitio Web Adobe.com no se pueden visualizar desde ningún otro sitio que no sea Adobe.com.
+Por ejemplo, los datos contenidos en las cookies configuradas desde el sitio web Adobe.com no se pueden ver en ningún otro sitio web que no sea Adobe.com.
 
-El diagrama siguiente ilustra el uso de cookies para una petición de imagen estándar:
+El diagrama siguiente ilustra el uso de cookies para una solicitud de imagen estándar:
 
 ![](assets/CookiesProcessGraphic-01.png)
 
-El diagrama siguiente ilustra el uso de cookies para una petición de imagen directa (usada en casos en los que no se carga un archivo JS):
+El diagrama siguiente ilustra el uso de cookies para una solicitud de imagen recta (utilizado en situaciones en las que no se carga un archivo JS):
 
 ![](assets/CookiesProcessGraphic2.png)
 
