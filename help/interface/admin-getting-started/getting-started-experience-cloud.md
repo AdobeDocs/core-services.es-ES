@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Inicio de sesión y administración de la configuración de perfil
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -42,13 +42,13 @@ Inicie sesión y verifique que se encuentra en la [organización](../admin-getti
 
 | Elemento | Descripción |
 |--- |--- |
-| [Conceptos básicos de Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Obtenga más información sobre los primeros pasos que debe seguir para comenzar a usar las soluciones Experience Cloud. |
-| [Configuración de la identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con que el se autenticarán sus usuarios finales. |
+| [Conceptos básicos de la Consola de administración](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Obtenga información sobre los pasos iniciales que debe seguir para empezar a utilizar las soluciones de Experience Cloud. |
+| [Configurar identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con el que se autenticarán los usuarios finales. |
 | [Administración de usuarios](https://helpx.adobe.com/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
-| [Inicio de Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console es la ubicación central para la administración de usuarios y autorizaciones de productos de Adobe de toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo ](https://adminconsole.adobe.com). |
-| [Gestionar usuarios de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permite a los expertos en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Desde aquí puede administrar a los usuarios de Creative Cloud aprobados para colaborar con su organización. |
-| [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización, no a un grupo de informes individual. Para asegurar el correcto funcionamiento de estos servicios, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que  [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [ID de organización](../admin-getting-started/organizations.md) | El *identificador de organización* se encuentra al final de la página Administration. Este es el identificador asociado a su empresa aprovisionada de Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+| [Iniciar Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo ](https://adminconsole.adobe.com). |
+| [Gestionar usuarios de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
+| [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que  [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [ID de organización](../admin-getting-started/organizations.md) | El ID *de* organización se encuentra en la parte inferior de la página Administración. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
 
 ## Inicio de sesión en Experience Cloud (usuarios) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,7 +58,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 1. Compruebe con su administrador que su [organización](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) está aprovisionada en Experience Cloud.
 
 
-1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]**.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
@@ -83,17 +83,17 @@ Puede editar los detalles personales y especificar una [organización](../admin-
 
 ## Habilitar notificaciones {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Reciba notificaciones (por correo electrónico o dentro del producto) acerca de actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y soluciones para los que desea recibir notificaciones, como el estado de carga de los atributos del cliente.
+Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de los atributos del cliente.
 
 Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]**.![](assets/icon_edit_board.png)
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
-* Ordenar por tipos de mensajes que considere importantes.
+* Ordena por los tipos de mensajes que sean importantes para usted.
 * Buscar notificaciones.
 
 
-**Para activar las notificaciones**
+**Para habilitar las notificaciones**
 
 ![](assets/notifications-admin.png)
 
@@ -103,7 +103,7 @@ Puede ordenar la aparición de notificaciones según los tipos de mensajes que c
  <li id="li_03D33D3228884CECA371B58656B2F3E7">Guided analysis shared </li> 
  <li id="li_DCF710F89317487B8DAA86CC05C694CA">Scheduled report failure </li> 
 </ul> 
-<p> <b>Target</b> </p> 
+<p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
 <p> <b>Media Optimizer</b> </p> 
 <p>Performance alerts </p> 
@@ -126,7 +126,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
    ![](assets/edit-profile.png)
 1. Haga clic en **[!UICONTROL Editar perfil]**.
 
-   En la página Perfiles y contraseñas, complete los campos y opciones de Detalles personales.
+   En la página Perfil y contraseñas, complete los campos y las opciones en Detalles personales.
 
 ## Recuperación de la contraseña  {#task_46541A2806164CB1A4AE8239604E4EB1}
 
@@ -135,11 +135,11 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
    Restablecer la contraseña de una solución debería resolver los problemas de vinculación de contraseña de Experience Cloud.
 
-   Si es usuario de Adobe Analytics, vaya a [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   For Adobe Analytics users, navigate to [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Configuración del inicio de sesión en una solución mediante un vínculo directo {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-Una opción es iniciar sesión en una página específica de una solución utilizando para ello la autenticación proporcionada por la interfaz de Experience Cloud.
+Opcionalmente, puede iniciar sesión en una página específica de una solución mediante la autenticación proporcionada por la interfaz de Experience Cloud.
 
 ### Plantilla URL
 
@@ -153,8 +153,8 @@ URL de ejemplo:
 >
 >Debe codificar cualquier dirección URL antes de pasarla al parámetro `destURL`. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
-| Parámetro | Descripción | Ejemplo | Obligatorio/opcional |
+| Parámetro | Descripción | Ejemplo | Obligatorio / Opcional |
 |--- |--- |--- |--- |
 | tenantId | Nombre del inquilino en el que el usuario debe iniciar sesión. | aem62tenant | Opcional |
-| destURL | La dirección URL completa del sitio al que debe llevarse al usuario. | https://sc.omniture.com/x/1_7xxzf | Opcional |
-| solutionname | Nombre de la solución MAC que posee el parámetro destURL. Se utiliza para verificar que el usuario tiene acceso a la solución que posee la dirección URL.  Es responsabilidad de las soluciones asegurarse de que solutionname está en sincronía con el parámetro destURL.  Por ejemplo: Si la dirección URL contiene “Social” como solutionname y el parámetro destURL proporcionado es una URL de Analytics, se redirigiría a la URL aunque el usuario no tenga acceso a Analytics. MAC NO verifica si el propietario de la dirección destURL está en sincronía con el nombre de la solución. | analytics | Obligatorio si se utiliza el parámetro destURL. |
+| destURL | Dirección URL completa del lugar al que se debe llevar al usuario. | https://sc.omniture.com/x/1_7xxzf | Opcional |
+| solutionname | Nombre de la solución MAC que es el propietario del parámetro destURL. Se utiliza para verificar que el usuario tiene acceso a la solución que posee la dirección URL.  Es responsabilidad de las soluciones asegurarse de que solutionname está en sincronía con el parámetro destURL.  Por ejemplo: Si la dirección URL contiene el nombre de la solución como social y destURL proporcionada es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. MAC NO verifica si el propietario de destURL está sincronizado con el nombre de la solución. | analytics | Necesario si se utiliza el parámetro destURL. |
