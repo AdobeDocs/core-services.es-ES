@@ -1,22 +1,22 @@
 ---
-description: Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede usar posteriormente. También se pueden usar para asociar la información de navegación a registros de cliente.
-keywords: cookies,privacidad
-seo-description: Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede usar posteriormente. También se pueden usar para asociar la información de navegación a registros de cliente.
+description: Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
+keywords: cookies;privacy
+seo-description: Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
 seo-title: Cookies de Analytics
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies de Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Cookies de Analytics{#analytics-cookies}
 
-Adobe Analytics usa cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede usar posteriormente. También se pueden usar para asociar la información de navegación a registros de cliente.
+Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
 
-En concreto, usa las cookies para definir de forma anónima a los nuevos visitantes, ayudar en el análisis de los datos de flujo de navegación y realizar un seguimiento de la actividad histórica del sitio web, como por ejemplo la respuesta a ciertas campañas o la duración del ciclo de ventas.
+En particular, Analytics utiliza cookies para definir de forma anónima nuevos visitantes, analizar los datos del flujo de navegación y realizar un seguimiento de la actividad histórica en el sitio web, como la respuesta a campañas concretas o la duración del ciclo de ventas.
 
 * [Nombre de cookie: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nombre de la cookie: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -27,7 +27,7 @@ En concreto, usa las cookies para definir de forma anónima a los nuevos visitan
 * [Nombre de la cookie: s_fid ](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [Cookies establecidas por complementos ](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Consulte más información sobre las [cookies propias](/help/interface/cookies/cookies-first-party.md) en la ayuda de Analytics.
+Encontrará más información en la ayuda de Analytics sobre las cookies de [origen](/help/interface/cookies/cookies-first-party.md).
 
 ## Nombre de cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
 
@@ -43,9 +43,9 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie para determinar si las cookies están habilitadas (se configura como “True”) |
-| Vencimiento | Esta es una cookie de sesión y caduca cuando se cierra el navegador |
-| Uso | Una sola cookie para todas las cuentas |
+| Información almacenada | El código JavaScript configura y lee esta cookie para determinar si las cookies están habilitadas (simplemente se configuran en &quot;True&quot;) |
+| Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
+| Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página |
 | Tamaño | 4 bytes |
 
@@ -53,9 +53,9 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando se habilita la funcionalidad ClickMap o Activity Map; contiene información sobre el vínculo anterior en el que el usuario hizo clic |
-| Vencimiento | Esta es una cookie de sesión y caduca cuando se cierra el navegador |
-| Uso | Una sola cookie para todas las cuentas |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad ClickMap o la funcionalidad de mapa de Actividad están habilitadas; contiene información sobre el vínculo anterior en el que el usuario hizo clic |
+| Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
+| Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página |
 | Tamaño | Varía según el tamaño de la dirección URL de la página, pero normalmente de 100 a 200 bytes |
 
@@ -63,7 +63,7 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Marca de fecha y hora del identificador de visitante único |
+| Información almacenada | Marca de fecha y hora del ID de visitante único |
 | Vencimiento | 2 años |
 | Uso | Esta cookie se usa para identificar a un visitante único  |
 | Ubicación | Esta cookie se almacena en el dominio de la solicitud de imagen, por lo general un subdominio específico del cliente bajo 2o7.net u omtrdc.net si utiliza cookies de terceros o si su dominio utiliza cookies de origen. |
@@ -77,28 +77,28 @@ Consulte más información sobre las [cookies propias](/help/interface/cookies/c
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Marca de fecha y hora del ID de visitante único alternativo |
+| Información almacenada | Marca de fecha y hora del ID de visitante único de reserva |
 | Vencimiento | 2 años |
-| Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se usa para las implementaciones que utilizan cookies propias. |
-| Ubicación | Esta cookie está almacenada en su dominio como una cookie propia. |
+| Uso | Esta cookie se usa para identificar a un visitante único  if the standard  `s_vi` cookie is unavailable due to third-party cookie restrictions. No se utiliza en implementaciones que utilizan cookies de origen. |
+| Ubicación | Esta cookie se almacena en su dominio como una cookie de origen. |
 | Tamaño | 33 bytes |
 
 ## Indicadores de cookie
 
 En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 
-| Cookie (establecida por) | httpOnly | Proteger | SameSite |
+| Cookie (establecida por) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http Response) | No | Sí cuando SameSite es "Ninguno" y la conexión utiliza HTTPS | "Lax" de forma predeterminada al utilizar CNAME. "Ninguno" al usar 2o7.net u omtrdc.net. |
-| s_ecid (http Response) | No | No | "Lax" |
+| s_vi (http Response) | No | Sí cuando SameSite es &quot;Ninguno&quot; y la conexión utiliza HTTPS | &quot;Lax&quot; de forma predeterminada al utilizar CNAME. &quot;Ninguno&quot; al usar 2o7.net u omtrdc.net. |
+| s_ecid (http Response) | No | No | &quot;Laxo&quot; |
 | s_fid (Javascript) | No | No | Desdefinido |
 | s_cc (Javascript) | No | No | Desdefinido |
 | s_sq (Javascript) | No | No | Desdefinido |
 
->[!NOTE] Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en "None" para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
+>[!NOTE] Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en &quot;None&quot; para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
 ## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Se pueden establecer cookies adicionales según el uso de los complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en varias circunstancias distintas, entre las que se incluyen las siguientes: recuperar valores de URL, concatenar valores para pasarlos a Analytics, capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
+Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formulario, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
 Las variables de conversión (eVarX) pasadas en una petición de imagen sin JavaScript (como, por ejemplo, un código ubicado en un correo electrónico) solo se atribuirán correctamente si el cliente de correo electrónico y el navegador Web comparten el mismo espacio de cookie.
