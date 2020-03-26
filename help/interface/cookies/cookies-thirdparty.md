@@ -1,22 +1,22 @@
 ---
 description: El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
-keywords: cookies,privacidad
+keywords: cookies;privacy
 seo-description: El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
 seo-title: Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Cómo afectan a los clientes los cambios en la compatibilidad con cookies de terceros{#how-changes-to-third-party-cookie-support-impacts-customers}
+# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
 
-En la siguiente lista se describe cómo afecta el soporte para las cookies de terceros a las implementaciones actuales de las soluciones de Adobe Experience Cloud:
+La siguiente lista describe cómo afecta la compatibilidad con cookies de terceros a las implementaciones actuales de las soluciones de Adobe Experience Cloud:
 
 ## Adobe Analytics y Adobe Target
 
@@ -35,18 +35,17 @@ En la siguiente lista se describe cómo afecta el soporte para las cookies de te
 
 * Buscar:
 
-   * Cuando se optimiza la búsqueda según los datos de Adobe Analytics, esta se verá afectada en la misma medida que Adobe Analytics.
-   * La recopilación de los datos de conversión no debería verse afectada.
+   * Cuando la búsqueda se optimiza en función de los datos de Adobe Analytics, la búsqueda se verá afectada de la misma manera que Adobe Analytics.
+   * La recopilación de datos de conversión no debe verse afectada.
 
-* Visualización:
+* Mostrar:
 
-   * Actualmente, la visualización de remarketing depende totalmente de los usos de las cookies de terceros.
-   * La visualización también depende en gran medida de la disponibilidad de diferentes cookies de la red de anuncios para la sincronización.
-   * Se desconoce el impacto global. No obstante, según el primer punto, la visualización se verá más afectada que otros servicios.
-   * Estamos trabajando internamente y en colaboración con nuestros socios publicitarios para evaluar el alcance total del impacto sobre el envío de anuncios.
+   * La visualización de remercadotecnia hoy depende completamente del uso de cookies de terceros.
+   * La visualización también depende en gran medida de la disponibilidad de varias cookies de red de publicidad para la sincronización.
+   * Se desconoce el impacto global. Sin embargo, en el primer punto, la visualización se ve más afectada que en otros servicios.
+   * Estamos trabajando internamente y con nuestros socios publicitarios para evaluar todo el impacto en el envío publicitario.
 
 * Social:
 
-   * No hay ningún impacto en los anuncios de Mercado de Facebook.
-   * Se verá afectado Facebook Exchange (FBX) en la misma medida que la visualización y el envío.
-
+   * No hay impacto en las publicidades de mercado de Facebook.
+   * Facebook Exchange (FBX) se verá afectado de la misma manera que el envío de anuncios en pantalla.
