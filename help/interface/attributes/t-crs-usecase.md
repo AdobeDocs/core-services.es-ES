@@ -1,13 +1,13 @@
 ---
 description: Cree el origen de atributo del cliente y cargue los datos.
-keywords: atributos del cliente;servicios principales
+keywords: customer attributes;core services
 seo-description: Cree el origen de atributo del cliente y cargue los datos.
 seo-title: Crear un origen de atributo de cliente y cargar el archivo de datos
 solution: Experience Cloud
 title: Crear un origen de atributo de cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -35,18 +35,17 @@ Una vez que la fuente de datos esté activa, podrá:
 
 >[!IMPORTANT]
 >
->Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. ( **[!UICONTROL Administración]** &gt; **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Usuarios]** &gt; ). Los usuarios que se agregan al grupo Atributos del cliente verán el elemento de menú [!UICONTROL Atributos del cliente] en [!UICONTROL Audiencia], en la parte izquierda de la interfaz de Experience Cloud.
+>Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
 >
->También es necesaria la pertenencia al grupo de la solución.
+>También se requiere la pertenencia al grupo de soluciones.
 
-Para utilizar la función Atributos del cliente, los usuarios deben pertenecer al grupo Atributos del cliente de Adobe en la administración de usuarios, y a grupos en el nivel de solución (Analytics o Target).
+Para utilizar la función Atributos del cliente, los usuarios deben pertenecer al grupo Atributos del cliente de Adobe en la administración de usuarios, y a grupos en el nivel de solución (Analytics o [!DNL Target]).
 
 Consulte [Usuarios y grupos](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Crear un archivo de datos {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-Estos datos son datos de cliente empresarial de su CRM. Los datos pueden incluir datos de suscriptor de productos, incluidos los ID de miembro, productos con derechos, productos más utilizados y demás.
-
+Estos datos son datos de clientes empresariales de su CRM. Los datos pueden incluir datos de suscriptor de productos, incluidos los ID de miembro, productos con derechos, productos más utilizados, etc.
 
 1. Cree un `.csv`.
 
@@ -68,14 +67,12 @@ Estos datos son datos de cliente empresarial de su CRM. Los datos pueden incluir
 
 Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Experience Cloud.
 
-
 >[!IMPORTANT]
 >
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
-
 1. En [!DNL Experience Cloud], haga clic en el icono Menú ![](assets/menu-icon.png).
-1. En **[!DNL Experience Platform]**, haga clic en **[!UICONTROL Usuarios]** &gt; **[!UICONTROL Atributos del cliente]**.
+1. Under **[!DNL Experience Platform]**, click **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    En la página [!UICONTROL Atributos del cliente] se gestionan y editan los orígenes de datos de atributos existentes.
 
@@ -90,15 +87,15 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
 
-   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. Se utiliza un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor que se introduce en el campo de ID de alias para un origen de atributos del cliente en la interfaz de usuario de Experience Cloud debe coincidir con los valores que se han pasado en la implementación (tanto mediante Dynamic Tag Management como JavaScript de SDK móvil).
+   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. Se utiliza un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo ID de alias para un origen de atributos del cliente en la interfaz de usuario de Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la administración dinámica de etiquetas o JavaScript del SDK móvil).
 
-      El ID de alias se corresponde con ciertas áreas en las que establece valores de ID de cliente adicionales. Por ejemplo:
+      El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **** Administración dinámica de etiquetas: El ID de alias corresponde al valor del código *de* integración en Configuración [!UICONTROL de]cliente, en la herramienta [Servicio](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) de ID de Experience Cloud.
+      * **Administración dinámica de etiquetas:** El ID de alias corresponde al valor del código *de* integración en Configuración [!UICONTROL de]cliente, en la herramienta [Servicio](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) de ID de Experience Cloud.
 
-      * **API de visitante:** El ID de Alias se corresponde con los [ID de cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) que puede asociar con cada visitante.
+      * **API de Visitante:** El ID de alias corresponde a los ID de [cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
 
-         Por ejemplo, *"crm_id"* en:
+         Por ejemplo, *&quot;crm_id&quot;* en:
 
 
          ```
@@ -106,14 +103,14 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
          ```
 
 
-      * **** iOS: El ID de alias corresponde a *"idType"* en [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** El ID de alias corresponde a *&quot;idType&quot;* en [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Por ejemplo:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** el ID de alias se corresponde con *"idType"* en [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** El ID de alias corresponde a *&quot;idType&quot;* en [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          Por ejemplo:
 
@@ -128,7 +125,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
       >Existen requisitos específicos para los archivos de datos. Consulte los [Requisitos de archivos de datos](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener más información.
 
 
-      Una vez cargado el archivo, los datos de la tabla se muestran en el encabezado de [!UICONTROL Carga de archivos] en esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
+      Después de cargar el archivo, los datos de la tabla se muestran en el encabezado Carga [!UICONTROL de] archivos de esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
 
 
 
@@ -140,7 +137,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
    * **[!UICONTROL ID proporcionados por el cliente asociados a ID de visitante de Experience Cloud:]** Muestra cuántos ID se han asociado a los ID de visitante de Experience Cloud.
 
-   * **[!UICONTROL ID proporcionados por el cliente con muchos alias:]** Muestra el recuento de ID proporcionados por el cliente con 500 o más ID de visitante de Experience Cloud asociados. Es muy probable que estos identificadores proporcionados por el cliente no representen a individuos, sino algún tipo de inicio de sesión compartido. El sistema distribuye los atributos asociados a esos ID a los 500 ID de visitante de Experience Cloud con alias creados más recientemente, hasta que el recuento alcanza los 10 000. En este momento, el sistema invalida el ID proporcionado por el cliente y ya no puede distribuir los atributos asociados.
+   * **[!UICONTROL ID proporcionados por el cliente con muchos alias:]** Muestra el recuento de ID proporcionados por el cliente con 500 o más ID de visitante de Experience Cloud asociados. Es muy probable que estos ID proporcionados por el cliente no representen a individuos sino algún tipo de inicio de sesión compartido. El sistema distribuye los atributos asociados con estos ID a los 500 ID de Visitante de Experience Cloud con alias creados más recientemente, hasta que el recuento alcanza los 10.000. En este momento, el sistema invalida el ID proporcionado por el cliente y ya no puede distribuir los atributos asociados.
 
 
 
@@ -169,7 +166,7 @@ Eliminar y reemplazar atributos en el esquema.
 
 ## Configurar suscripciones y activar el origen de atributos {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configuración de una suscripción establece el flujo de datos entre Experience Cloud y las soluciones. Activar el origen de atributos permite el flujo de datos a las soluciones suscritas. Los registros de cliente que ha cargado concuerdan con las señales de ID entrantes de su sitio web o aplicación.
+La configuración de una suscripción configura el flujo de datos entre Experience Cloud y las soluciones. La activación del origen de atributos permite que los datos fluyan a las soluciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
 
 Consulte [Configurar suscripciones](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -192,7 +189,7 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las audiencias de Experience Cloud y en Audience Manager.
 
-Consulte [Informe de atributos del cliente](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) en la ayuda de Analytics para obtener más información.
+Consulte Informe [Atributos](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) del cliente en la ayuda de Analytics para obtener más información.
 
 ## Utilizar los atributos de cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +197,4 @@ En Target, puede seleccionar un atributo del cliente en la sección Perfil del v
 
 ![](assets/crs-add-attribute-target.png)
 
-Consulte [Creación de una nueva audiencia](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) en la ayuda de Target.
+Consulte [Creación de una nueva Audiencia](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) en la [!DNL Target] ayuda.
