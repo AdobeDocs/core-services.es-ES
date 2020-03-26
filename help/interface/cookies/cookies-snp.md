@@ -1,13 +1,13 @@
 ---
 description: Search&Promote usa cookies para comprender las intenciones de búsqueda de los visitantes y anticiparse a ellas.
-keywords: cookies,privacidad
+keywords: cookies;privacy
 seo-description: Search&Promote usa cookies para comprender las intenciones de búsqueda de los visitantes y anticiparse a ellas.
 seo-title: Cookies de Search&Promote
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies de Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -28,11 +28,11 @@ Search&amp;Promote usa cookies para comprender las intenciones de búsqueda de l
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Rastrea las tres últimas búsquedas que ha realizado un usuario en el dominio del cliente. </p> </td> 
+   <td colname="col2"> <p> Rastrea las tres últimas búsquedas que un usuario ha realizado en el dominio del cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p>Se puede configurar en Search&amp;Promote <span class="uicontrol">(Diseño</span> &gt; <span class="uicontrol">Navegación</span> &gt; <span class="uicontrol">Búsquedas recientes</span>). Puede seleccionar entre las siguientes opciones de vencimiento para esta cookie: </p> <p> 
+   <td colname="col2"> <p>Se puede configurar en Search&amp;Promote <span class="uicontrol">(Diseño</span> &gt; <span class="uicontrol">Navegación</span> &gt; <span class="uicontrol">Búsquedas recientes</span>). Puede seleccionar entre las siguientes opciones de caducidad de cookie: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Fin de sesión </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 horas </li> 
@@ -47,15 +47,15 @@ Search&amp;Promote usa cookies para comprender las intenciones de búsqueda de l
   </tr> 
   <tr> 
    <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p>Usada por el motor de búsqueda para mostrar al usuario sus últimos n términos de consulta. </p> </td> 
+   <td colname="col2"> <p>Utilizado por el motor de búsqueda para mostrar al usuario sus últimos n términos de consulta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ubicación </p> </td> 
-   <td colname="col2"> <p>Depende del navegador. Las cookies se guardan en la ubicación predeterminada especificada en el navegador del usuario. </p> </td> 
+   <td colname="col2"> <p>Depende del explorador. Las cookies se guardan en la ubicación predeterminada especificada en el explorador del usuario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tamaño </p> </td> 
-   <td colname="col2"> <p>Menos de 1 K </p> </td> 
+   <td colname="col2"> <p>Menos de 1K. </p> </td> 
   </tr> 
  </tbody> 
 </table>
