@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,7 +39,7 @@ What to do
 
 ### Herramienta de administración
 
-Los administradores pueden realizar la vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de los usuarios de Experience Cloud en la herramienta](admin-tool-experience-cloud.md)de administración.
+Los administradores pueden realizar la vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de usuarios de Experience Cloud en la herramienta](admin-tool-experience-cloud.md)de administración.
 
 ## Inicio de sesión en Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [Migración de ID de usuario de Analytics](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target: Perfiles de producto vs. Espacios de trabajo {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-En Destinatario, un espacio de trabajo es un perfil de producto. Permite que una organización asigne un conjunto específico de usuarios a un conjunto específico de propiedades. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en Adobe Analytics.
+En Adobe Destinatario, un espacio de trabajo es un perfil de producto. Permite que una organización asigne un conjunto específico de usuarios a un conjunto específico de propiedades. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en Adobe Analytics.
 
 Consulte:
 * [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Vídeo: [Cómo configurar espacios de trabajo de Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Vídeo: [Cómo configurar espacios de trabajo de Adobe Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign: Perfiles de producto, inquilinos y grupos de seguridad {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ Al invitar a un usuario a una organización, puede darle acceso a productos y pe
 Encontrará más ayuda en:
 
 * [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Permisos](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) de usuario de Enterprise en la ayuda de Destinatario para obtener más información.
-* Vídeo: [Cómo configurar espacios de trabajo de Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Permisos](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) de usuario de Enterprise en la ayuda de Adobe Destinatario para obtener más información.
+* Vídeo: [Cómo configurar espacios de trabajo de Adobe Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Por ejemplo, puede crear un perfil de producto que contenga varias herramientas 
 |--- |--- |
 | Grupos de informes | Habilite permisos para grupos de informes específicos. |
 | Métricas | Habilite permisos para tráfico, conversión, eventos personalizados, eventos de soluciones, reconocimiento de contenido, etc. |
-| Dimensiones | Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas. |
+| Dimensiones | Personalice el acceso de los usuarios en un nivel granular, incluyendo eVars, informes de tráfico, informes de soluciones e informes de rutas. |
 | Herramientas de grupos de informes | Habilite permisos de usuario para Servicios Web, Administración de grupos de informes, Herramientas e informes y Elementos de Panel. |
 | Herramientas de Analytics | Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors. Las configuraciones de empresa de la categoría Personalizar Admin Console se han trasladado a las herramientas de Analytics. |
 
@@ -185,7 +185,7 @@ Los exploradores admitidos por Experience Cloud incluyen:
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Nota:** Aunque la interfaz de Experience Cloud admite estos exploradores, es posible que las soluciones individuales no los admitan a todos. (Por ejemplo, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) no es compatible con [!DNL Opera] y [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) no es compatible con [!DNL Safari]).
+**Nota:** Aunque la interfaz de Experience Cloud admite estos exploradores, es posible que las soluciones individuales no los admitan a todos. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **Soluciones y requisitos del producto**
 
