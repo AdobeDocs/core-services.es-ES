@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -29,24 +29,24 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 
 * **Pertenencia a un grupo:** Para cargar los datos de atributos de los clientes, los usuarios deben ser miembros del [grupo de Atributos del cliente](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
 
-   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [!DNL Experience Cloud]. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Iniciar Admin Console]** > **[!UICONTROL Grupos]**. Si *Atributos del cliente* se muestra como uno de los grupos, está listo para empezar.
+   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Si *Atributos del cliente* se muestra como uno de los grupos, está listo para empezar.
 
    Los usuarios que se agregan al grupo Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
-* **Se requiere Adobe Target** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los atributos del cliente.
+* **Se requiere Adobe Destinatario** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los atributos del cliente.
 
 
    Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
-Los datos empresariales residen en otros sistemas. Pueden resultar complejos y significan cosas distintas para cada persona. Estos datos pueden incluir información como afiliaciones, nivel de lealtad, edad, género, productos propios, intereses y valor de duración.
+Los datos empresariales residen en otros sistemas. Puede ser complejo y significar cosas diferentes para diferentes personas. Estos datos pueden incluir información como membresías, nivel de lealtad, edad, sexo, productos propios, intereses y valor de duración.
 
-La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos del suscriptor de productos, incluidos los ID de miembro, los productos con licencia, los productos más ejecutados y demás.
+La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos del suscriptor de productos, incluidos los ID de miembro, los productos con derechos, los productos más iniciados, etc.
 
 ![](assets/01_crs_usecase.png)
 
-Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Atributos del cliente]**.
+After you create the data file, you can upload it to the customer attribute source that you create in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Consulte [Carga de datos del atributo del cliente](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) para obtener información sobre este flujo de trabajo.
 
@@ -58,5 +58,5 @@ Por ejemplo:
 
 | Solución | Ventajas y casos de uso |
 |--- |--- |
-| Adobe Analytics | Los comerciantes y analistas sabrán:<ul><li>Qué campañas en línea son más eficaces con los clientes de nivel oro.</li><li>Qué productos buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño de su sitio tiene una influencia positiva en las tasas de conversión de los clientes más antiguos.</li><li>Qué productos tienden a buscar en el sitio los clientes con un valor de duración bajo.</li></ul> |
-| Adobe Target | Los datos de atributos permiten a los clientes de Target:<ul><li>Mostrar a los miembros del club de fidelidad descuentos y ofertas especiales.</li><li>Recomendar productos de mayor precio a los clientes de lujo.</li><li>Para los clientes que ya reciban correo electrónico, mostrar una oferta de mayor precio en el espacio reservado normalmente para los registros de correo electrónico.</li></ul> |
+| Adobe Analytics | Los especialistas en marketing y analistas pueden comprender:<ul><li>Las campañas en línea más efectivas con sus clientes de nivel oro.</li><li>Los productos que buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño del sitio está teniendo un impacto positivo en las tasas de conversión para los clientes más antiguos.</li><li>Qué productos tienden a buscar en el sitio los clientes con un valor de duración bajo.</li></ul> |
+| Adobe Target | Los datos de atributos permiten a los usuarios de Adobe Destinatario:<ul><li>Muestra descuentos y ofertas especiales para miembros del club de fidelidad.</li><li>Recomiende productos más caros a sus clientes de lujo.</li><li>Para los clientes que ya reciben correos electrónicos, muestre una oferta de venta vertical en el espacio reservado normalmente para las suscripciones por correo electrónico</li></ul> |
