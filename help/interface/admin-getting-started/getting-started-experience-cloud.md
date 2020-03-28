@@ -1,26 +1,20 @@
 ---
 description: Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
 seo-title: Inicio de sesión y administración de la configuración de perfil
-solution: Marketing Cloud
-title: Inicio de sesión y administración de la configuración de perfil
+solution: Experience Cloud
+title: Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Inicio de sesión y administración de la configuración de perfil
+# Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 
-El inicio de sesión en Experience Cloud (en lugar de iniciar sesión en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios que posee. Obtenga más información sobre cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+El inicio de sesión en Experience Cloud (en lugar de iniciar sesión en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios que posee. En esta ayuda se describe cómo iniciar sesión en Experience Cloud, administrar contraseñas y notificaciones y especificar una página de aterrizaje predeterminada.
 
 >[!IMPORTANT]
 >
