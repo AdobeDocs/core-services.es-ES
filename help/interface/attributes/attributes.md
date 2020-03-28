@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Atributos del cliente
-
-## Información general
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 ![](assets/custom_reports.png)
 
 ## Requisitos previos para cargar Atributos del cliente {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **Activación de las soluciones:** [Habilite las soluciones para los servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
@@ -34,7 +31,6 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
    Los usuarios que se agregan al grupo Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
 * **Se requiere Adobe Destinatario** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los atributos del cliente.
-
 
    Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
@@ -59,4 +55,4 @@ Por ejemplo:
 | Solución | Ventajas y casos de uso |
 |--- |--- |
 | Adobe Analytics | Los especialistas en marketing y analistas pueden comprender:<ul><li>Las campañas en línea más efectivas con sus clientes de nivel oro.</li><li>Los productos que buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño del sitio está teniendo un impacto positivo en las tasas de conversión para los clientes más antiguos.</li><li>Qué productos tienden a buscar en el sitio los clientes con un valor de duración bajo.</li></ul> |
-| Adobe Target | Los datos de atributos permiten a los usuarios de Adobe Destinatario:<ul><li>Muestra descuentos y ofertas especiales para miembros del club de fidelidad.</li><li>Recomiende productos más caros a sus clientes de lujo.</li><li>Para los clientes que ya reciben correos electrónicos, muestre una oferta de venta vertical en el espacio reservado normalmente para las suscripciones por correo electrónico</li></ul> |
+| Adobe Target | Los datos de atributos permiten a los usuarios de Adobe Destinatario:<ul><li>Muestra descuentos y ofertas especiales para miembros del club de fidelidad.</li><li>Recomiende productos más caros a sus clientes de lujo.</li><li>Para los clientes que ya reciben correos electrónicos, muestre una oferta de incremento de ventas en el espacio reservado normalmente para los registros por correo electrónico</li></ul> |
