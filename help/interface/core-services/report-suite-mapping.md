@@ -1,33 +1,33 @@
 ---
-description: Obtenga más información sobre cómo asignar uno o más grupos de informes a una organización.
-seo-description: Obtenga más información sobre cómo asignar uno o más grupos de informes a una organización.
+description: Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
+seo-description: Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Asignación de grupos de informes a una organización {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
-Obtenga más información sobre cómo asignar uno o más grupos de informes a una organización.
+Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
 
-Los servicios de Experience Cloud (como el servicio Experience Cloud ID y el servicio principal Personas) están asociados a una organización en lugar de a un grupo de informes individual. Para asegurar el correcto funcionamiento de estos servicios, cada grupo de informes de Analytics debe asignarse a una organización. El proceso de asignación:
+Los servicios de Experience Cloud (como el servicio Experience Cloud ID y el servicio principal Personas) están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. Proceso de asignación:
 
-* Establece una organización de Experience Cloud como organización principal para el grupo de informes.
-* No cambia quién puede acceder a un grupo de informes (el acceso se sigue determinado según la cuenta de inicio de sesión en Adobe Analytics de cada usuario).
+* Establece una organización de Experience Cloud como la organización principal para el grupo de informes.
+* No cambia quién puede acceder a un grupo de informes (el acceso sigue determinado por la cuenta de inicio de sesión de Adobe Analytics para cada usuario)
 
-**Requisitos**
+## Requisitos
 
-Debe ser administrador de Analytics en una empresa de inicio de sesión con acceso al grupo de informes que desea asignar. Además, esta cuenta debe estar [vinculada a una organización de Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) para asignar grupos de informes a dicha organización.
+Debe ser administrador de Analytics de una compañía de inicio de sesión que tenga acceso al grupo de informes que desee asignar. Además, esta cuenta debe estar [vinculada a una organización](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) de Experience Cloud para asignar grupos de informes a dicha organización.
 
 Las organizaciones aparecen en gris si se carece de permisos de administrador de Analytics para una empresa de inicio de sesión en ellas y con acceso al grupo de informes dado.
 
 ## Asignación de un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Report Suite Mapping]**
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
 
 1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, haga clic en **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
@@ -39,7 +39,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignar varios grupos de informes a una organización {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Report Suite Mapping]**.
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
 
 1. Seleccione los grupos de informes que desea asignar.
 
@@ -53,61 +53,61 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Sugerencias para seleccionar una organización de Experience Cloud {#mapping-tips}
 
-Esta sección contiene sugerencias para ayudarlo a seleccionar la organización de Experience Cloud a la que debe asignar un grupo de informes.
+Esta sección contiene sugerencias para ayudarle a seleccionar la organización de Experience Cloud a la que debe asignar un grupo de informes.
 
-**¿Qué organización debo elegir?**
+### ¿Qué organización debo elegir?
 
-If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. Puede utilizar las instrucciones de [Comprobación y verificación del servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) para encontrar el identificador de organización que utiliza el servicio de ID de visitante.
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. You can use the instructions in [Test and Verify the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) to find the org ID that is being used by the Visitor ID service.
 
-Si el servicio ID de visitante de Experience Cloud no está implementado en los sitios que recopilan datos para el grupo de informes y lo implementa en el futuro, tendrá que asegurarse de que la implementación coincida con la organización elegida en la herramienta Report Suite Mapping.
+Si el servicio de ID de Visitante aún no está implementado en los sitios que recopilan datos para el grupo de informes, si implementa el servicio de ID de Visitante de Experience Cloud en el futuro, deberá asegurarse de que la implementación coincida con la organización elegida en la herramienta de asignación de grupos de informes.
 
-**¿Por qué algunas organizaciones aparecen en gris?**
+### ¿Por qué algunas organizaciones están atenuadas?
 
-Indica que carece de privilegios suficientes para asignar al grupo de informes en gris. Consideremos el siguiente ejemplo:
+Esto indica que no tiene suficientes privilegios para asignar al grupo de informes en gris. Consideremos el siguiente ejemplo:
 
 
 ![](assets/rs-mapping.png)
 
  En este diagrama, la llave azul indica privilegios de administrador. Las líneas grises indican visibilidad.
 
-Este usuario tiene acceso a dos organizaciones de Experience Cloud. Ha hecho lo siguiente:
+Este usuario tiene acceso a dos organizaciones de Experience Cloud. Ha realizado lo siguiente:
 
-* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Ha vinculado su cuenta de no administrador en la empresa de inicio de sesión nigel de Analytics a su cuenta de organización de Experience Cloud Nigel Inc.
+* Ha vinculado su cuenta de administrador en la compañía de inicio de sesión de [!UICONTROL chapek] Analytics a su cuenta de organización de Experience Cloud de [!UICONTROL Chapek] Corp.
+* Ha vinculado su cuenta de no administrador en la compañía de inicio de sesión de [!UICONTROL doohan] Analytics a su cuenta de organización de [!UICONTROL Chapek] Corp Experience Cloud.
+* Ha vinculado su cuenta de no administrador en la compañía de inicio de sesión nigel de Analytics a su cuenta de organización de Experience Cloud Nigel Inc.
 
-Los siguientes puntos indican las acciones de asignación que este usuario puede y no puede realizar respecto a estos grupos de informes:
+Los siguientes puntos lista las acciones de asignación que este usuario puede y no puede realizar con respecto a estos grupos de informes:
 
-* [!UICONTROL El grupo de informes Chapek-prod] se puede asignar a la organización [!UICONTROL Chapek] Corp, ya que este usuario es administrador de una empresa de inicio de sesión vinculada de Analytics ([!UICONTROL chapek]) y su cuenta está vinculada a esta organización.
-* [!UICONTROL Este usuario no puede vincular el grupo de informes Nigel-prod porque no es administrador de ninguna empresa de inicio de sesión para la que este grupo de informes sea visible.]
-* [!UICONTROL El grupo de informes Doohan-prod] se puede asignar a [!UICONTROL Chapek Corp] , ya que este usuario es administrador de una empresa de inicio de sesión ([!UICONTROL chapek]) vinculada a la organización de Experience Cloud (tenga en cuenta que no es administrador de la empresa de inicio de sesión doohan de Analytics). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Antes de la asignación, este usuario debería consultar a un administrador de la empresa de inicio de sesión nigel para determinar qué organización es la mejor candidata para la asignación. La interfaz muestra el aviso “Posible conflicto” si selecciona una organización distinta de aquella bajo la que se creó en un principio el grupo de informes.
+* [!UICONTROL El grupo de informes Chapek-prod] se puede asignar a la organización [!UICONTROL Chapek] Corp, ya que este usuario es administrador de una compañía de inicio de sesión vinculada de Analytics ([!UICONTROL chapek]) y su cuenta está vinculada a esta organización.
+* [!UICONTROL Este usuario no puede vincular el grupo de informes Nigel-prod] porque no es administrador en ninguna compañía de inicio de sesión en la que este grupo de informes esté visible.
+* [!UICONTROL El grupo de informes Doohan-prod] se puede asignar a [!UICONTROL Chapek Corp] , ya que este usuario es administrador de una compañía de inicio de sesión ([!UICONTROL chapek]) vinculada a la organización de Experience Cloud (tenga en cuenta que no es administrador de la compañía de inicio de sesión doohan de Analytics). Es importante tener en cuenta que el grupo de informes [!UICONTROL doohan-prod] también puede asignarse a la organización de Nigel Inc Experience Cloud, aunque este usuario no pueda realizar esa asignación. En este caso, ambas organizaciones de Experience Cloud se muestran en la lista, pero [!UICONTROL Nigel Inc] aparece atenuado. Antes de realizar la asignación, este usuario debe consultar con un administrador de la compañía de inicio de sesión nigel para determinar qué organización es la mejor candidata para la asignación. La interfaz de usuario muestra una advertencia de posible conflicto si selecciona una organización diferente a la organización en la que se creó originalmente el grupo de informes.
 
 ## Preguntas frecuentes {#section_099E485805994C929FF9C9F75219BEE1}
 
-**¿Por qué no veo todos mis grupos de informes?**
+### ¿Por qué no veo todos los grupos de informes?
 
-Algunos de sus grupos de informes podrían ser visibles en una empresa de inicio de sesión distinta. Puede cambiar la empresa de inicio de sesión actual mediante el menú desplegable en la parte superior de la pantalla.
+Algunos de los grupos de informes podrían estar visibles en una compañía de inicio de sesión diferente. Puede cambiar la compañía de inicio de sesión actual mediante la lista desplegable situada en la parte superior de la pantalla.
 
-**¿Qué sucede si no reconozco algunas de las organizaciones indicadas en el menú desplegable de uno de mis grupos de informes?**
+### ¿Qué sucede si no reconozco algunas de las organizaciones enumeradas en la lista desplegable de uno de mis grupos de informes?
 
-La lista muestra todas las organizaciones posibles a las que podría asignarse el grupo de informes, aunque carezca de permiso para asignar a todos estos grupos de informes. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte a un administrador de Experience Cloud de su organización para determinar la mejor opción.
+The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte con un administrador de Experience Cloud de su organización para determinar cuál es la mejor opción.
 
-**¿Qué sucede si no reconozco algunas de las empresas de inicio de sesión indicadas para un grupo de informes en la columna “Visible para empresas de inicio de sesión”?**
+### ¿Qué sucede si no reconozco algunas de las Compañías de inicio de sesión enumeradas para un grupo de informes en la columna &quot;Visible para Compañías de inicio de sesión&quot;?
 
-En algún punto, este grupo de informes se compartió con otra empresa de inicio de sesión que puede ser parte de una organización de Experience Cloud distinta.
+En algún momento, este grupo de informes se compartió con otra compañía de inicio de sesión que puede formar parte de una organización diferente de Experience Cloud.
 
-**¿Qué es el error “Posible conflicto” que indica que el grupo de informes lo generó otra organización? ¿Es eso importante?**
+### ¿Qué es este error de &quot;Posible conflicto&quot; en cuanto al grupo de informes que está generando otra organización? ¿Por qué importa eso?
 
-Es una notificación que le ayuda a tomar una decisión fundamentada acerca de la asignación de su grupo de informes. Queremos que sea consciente de que el grupo de informes se creó en un primer momento en una organización distinta, ya que dicha organización podría ser más apropiada para el grupo de informes.
+Se trata de una notificación que le ayuda a tomar una decisión informada sobre la asignación de grupos de informes. Queremos que sea consciente de que el grupo de informes se creó originalmente bajo una organización diferente en caso de que esa organización sea más apropiada para este grupo de informes.
 
-**¿Cómo sé si un grupo de informes está asignado?**
+### ¿Cómo sé si un grupo de informes está asignado?
 
-Los grupos de informes asignados aparecen en un formato no editable. Si necesita cambiar una asignación, póngase en contacto con el Servicio de atención al cliente.
+Los grupos de informes asignados se mostrarán en un formato no editable. Si necesita cambiar una asignación, póngase en contacto con el Servicio de atención al cliente.
 
-**¿Qué sucede si solo conozco el identificador de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?**
+### ¿Qué sucede si solo conozco el identificador de organización de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?
 
-Puede encontrar el nombre de su organización en [Organizaciones y configuración de cuentas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Puede encontrar el nombre de su organización en [Organizaciones y Configuración](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de cuenta.
 
-**Veo una fecha en la columna “Fecha de asignación”. ¿Quién realizó esta asignación?**
+### Veo una fecha en la columna &quot;Fecha de asignación&quot;. ¿Quién hizo ese mapeo?
 
-Puede consultar el registro de Cambios del grupo de informes, en la interfaz de Analytics, para ver qué identificador de usuario realizó el cambio. Busque el evento “Suite associated to IMS Organization” (Grupo asociado a organización IMS).
+Puede consultar el Registro de cambio de grupo de informes en la interfaz de Analytics para comprobar el ID de usuario que realizó el cambio. Busque el evento &quot;Grupo asociado a la organización IMS&quot;.
