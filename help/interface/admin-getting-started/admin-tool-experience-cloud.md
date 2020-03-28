@@ -2,12 +2,12 @@
 description: Obtenga información sobre la herramienta de administración de Experience Cloud para vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud.
 keywords: core services
 seo-description: Obtenga información sobre la herramienta de administración de Experience Cloud para vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud.
-seo-title: Vista de los usuarios de Experience Cloud y los detalles del usuario
+seo-title: Vista de los usuarios de Experience Cloud y detalles de usuario
 solution: Experience Cloud
-title: 'Vista de los usuarios de Experience Cloud y los detalles del usuario '
+title: 'Vista de los usuarios de Experience Cloud y detalles de usuario '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -69,14 +69,14 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Avatar del usuario y distintivo del administrador del sistema (si corresponde)
 * Nombre
 * Correo electrónico
-* Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes a los de la dirección de correo electrónico)
+* Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
 * [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
 
 ## Resumen de soluciones
 
-Esta sección muestra un resumen de las soluciones de Experience Cloud a las que el usuario puede acceder. Incluye la función administrativa del producto cuando corresponde
+Esta sección muestra un resumen de las soluciones de Experience Cloud a las que el usuario puede acceder. Incluye la función administrativa del producto cuando corresponde.
 
 ## Lista detallada de acceso al producto
 
