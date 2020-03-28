@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## Información general sobre Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*Triggers* le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias soluciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+*Los activadores* le permiten identificar, definir y monitorear comportamientos clave de los consumidores y, a continuación, generar una comunicación entre soluciones para volver a captar visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
 
-* Configurar remarketing rápido para abandonos del carrito, con o sin productos eliminados
-* Formularios y solicitudes incompletos
+* Configurar la remercadotecnia rápida para abandonos del carro de compras o abandonos del carro de compras con productos eliminados
+* Formularios y aplicaciones incompletos
 * Cualquier acción o secuencia de acciones en el sitio
 
 ![](assets/trigger-abandonment-2.png)
 
-**Tipos de Triggers**
+### Tipos de Triggers
 
 Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Esto varía según la implementación de la recopilación de datos, la carga en el canal, la configuración personalizada del Trigger definido y el flujo de trabajo en Adobe Campaign.
 
@@ -35,8 +35,6 @@ Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en inici
 ## Crear un Trigger de Experience Cloud {#task_821F37183AC045E5AC8EED20317598FE}
 
 Cree un Trigger de abandono y configure las condiciones del activador y de la puntuación de tendencia. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
-
-<!-- t_create-trigger.xml -->
 
 >[!NOTE]
 >
@@ -57,12 +55,12 @@ Cree un Trigger de abandono y configure las condiciones del activador y de la pu
    |--- |--- |
    | Nombre | Nombre alternativo de este Trigger. |
    | Descripción | Descripción de este Trigger, el uso que le dará, etc. |
-   | Grupo de informes | El [grupo de informes](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) de Analytics utilizado para este activador. Este ajuste identifica los datos de informes que se van a utilizar. |
-   | Visit must include<br>La visita no debe incluir<br>un Trigger sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
+   | Grupo de informes | El grupo [de](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) informes de Analytics utilizado para este activador. Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
+   | Visit must include<br>Visit must not include<br>Trigger after no action<br>Include meta data | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
    | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador Y, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
-   | Iniciar nueva sesión después de | Cree un Trigger para los eventos de inicio y fin de sesión. |
+   | Inicio de una nueva sesión después de | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
-1. (Opcional) En los Triggers de abandono, puede aplicar [Puntuación de tendencia](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
+1. (Optional) In [!UICONTROL Abandonment triggers], you can apply [Propensity Scoring](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
 
    ![Resultado de los pasos](assets/propensity-scoring.png)
 
@@ -71,44 +69,44 @@ Cree un Trigger de abandono y configure las condiciones del activador y de la pu
 
 ### Ejemplos de Triggers
 
-**Trigger de abandono del carro de compras**
+Ejemplos de activadores de Experience Cloud:
+
+#### Trigger de abandono del carro de compras
 
 Por ejemplo, en la siguiente página se muestran reglas que podría usar para un Trigger de abandono del carro de compras en función de los productos que se han visto durante una visita.
 
 ![](assets/abandonment-trigger.png)
 
-**Trigger referente**
+#### Trigger referente
 
-El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (  *productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
+El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios ( *productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
 ![](assets/fb-boots-promo.png)
 
 ## Puntuación de tendencia {#concept_A506150674AD45DB98D3CC07E560D334}
 
-<!-- propensity-scoring.xml -->
-
 Comprenda la tendencia de los clientes a regresar después de haber abandonado un carro de compras. La puntuación de tendencia está integrada en Experience Cloud Triggers y se encuentra disponible para los Triggers de abandono.
 
 ![Resultado de los pasos](assets/propensity-scoring.png)
 
-Por ejemplo, algunos clientes abandonan los carros de compras para aprovechar los incentivos que reciben por correo electrónico para regresar al carro de compras. Para reducir la pérdida de ingresos, el algoritmo de Puntuación de tendencia ayuda a identificar a los usuarios relevantes que abandonan los carros de compras y probablemente no regresarían de no ser por el incentivo.
+Por ejemplo, algunos clientes abandonan los carros de compras para aprovechar los incentivos que reciben por correo electrónico para regresar al carro de compras. Para reducir la pérdida de ingresos, el algoritmo de Puntuación de tendencia ayuda a identificar a los abandonadores relevantes del carro de compras que probablemente no regresarían sin el incentivo.
 
 Puede:
 
-* Evitar la sobreexposición de los clientes al remarketing.
-* Identificar a los usuarios adecuados que abandonaron el carro de compras y asignar su actividad al mensaje adecuado.
-* Aumentar los ingresos determinando qué clientes regresarán y cuáles no.
+* Evite sobreexponer a sus clientes a una remercadotecnia.
+* Identifique a los clientes que abandonan el carro de compras y asigne su actividad al mensaje correcto.
+* Aumente los ingresos al saber qué clientes regresarán y cuáles no.
 
-## El valor de la puntuación de tendencia  {#section_CA99874A25434CC0BF01D0DA61608889}
+### El valor de la puntuación de tendencia  {#section_CA99874A25434CC0BF01D0DA61608889}
 
-Puede realizar una búsqueda de datos para identificar comportamientos o patrones ocultos en los datos. En concreto, la puntuación de tendencia le ayuda a identificar grupos de clientes similares que utilizan medios más específicos y objetivos en lugar de una segmentación o filtrado sencillos. Además, la puntuación de tendencia le permite crear funciones de predicción para identificar el comportamiento de clientes de gran valor para su empresa.
+Puede realizar una búsqueda de datos para identificar comportamientos o patrones ocultos en los datos. En concreto, la puntuación de tendencia le ayuda a identificar grupos de clientes similares que utilizan medios más específicos y objetivos en lugar de una segmentación o filtrado sencillos. Además, la puntuación de tendencia le permite configurar capacidades predictivas para identificar el comportamiento de los clientes de alto valor de su compañía.
 
-Una vez identificada una audiencia de gran valor, puede motivarla a participar para conseguir el máximo efecto. Por ejemplo, si su empresa presta servicios a otras empresas, podría tener posibles clientes a los que realizar llamadas comerciales para, posteriormente, puntuar a dichos posibles clientes e identificar la probabilidad de convertir sin conexión. Dado que todos los posibles clientes generan un aumento de costes, crear un incentivo para identificar a los clientes potenciales que muestran la mayor probabilidad de convertir una venta es la forma más eficaz y económica de concentrar sus recursos.
+Una vez identificada una audiencia de gran valor, puede motivarla a participar para conseguir el máximo efecto. Por ejemplo, si su empresa presta servicios a otras empresas, podría tener posibles clientes a los que realizar llamadas comerciales para, posteriormente, puntuar a dichos posibles clientes e identificar la probabilidad de convertir sin conexión. Debido a que cada posible cliente aumenta los costos, crear un incentivo para identificar a los clientes potenciales con la mayor probabilidad de convertir una venta es la manera más efectiva y menos costosa de enfocar sus recursos.
 
-La puntuación de tendencia permite identificar los factores más importantes a la hora de predecir una puntuación concreta o aumentar la probabilidad de que se produzca un evento, pero también se puede aplicar para responder a preguntas específicas:
+La puntuación de tendencia permite identificar los factores más predictivos de una puntuación determinada o aumentar la probabilidad de que se produzca un evento, pero también se puede aplicar para responder preguntas específicas:
 
-* ¿El cliente va a realizar una conversión?
-* ¿El cliente va a responder a un correo electrónico?
-* ¿El cliente va a volver a comprar?
+* ¿Se convertirá el cliente?
+* ¿Responderá el cliente a un correo electrónico?
+* ¿El cliente volverá a comprar?
 
-La puntuación de tendencia le permite responder a estas preguntas e identificar a aquellos visitantes que muestren una inclinación a realizar una acción que posteriormente se podrá elaborar y puntuar.
+La puntuación de tendencia le permite responder a estas preguntas e identificar visitantes con una inclinación a la acción que luego se puede configurar y puntuar.
