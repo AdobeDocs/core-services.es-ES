@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Crear un origen de atributo de cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
    ![Resultado de los pasos](assets/04_crs_usecase.png)
 1. En la página [!UICONTROL Editar origen de atributos del cliente], configure los siguientes campos:
 
-
    * **[!UICONTROL Nombre:]** Un nombre descriptivo para el origen de atributos de datos. Para [!DNL Adobe Target], los nombres de atributos no pueden incluir espacios. Si pasa un atributo con un espacio, [!DNL Target] lo ignorará. Otros caracteres que no se admiten son: `< , >, ', "`.
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
@@ -97,18 +96,15 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
          Por ejemplo, *&quot;crm_id&quot;* en:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** El ID de alias corresponde a *&quot;idType&quot;* en [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Por ejemplo:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** El ID de alias corresponde a *&quot;idType&quot;* en [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
          Consulte [Aprovechamiento de varias fuentes de datos](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) para obtener información adicional sobre el procesamiento de datos con relación al campo ID de alias e ID de cliente.
    * **[!UICONTROL Cargar archivos:]** Puede arrastrar y soltar el archivo de datos `.csv` o cargar los datos a través de un FTP. (Si utiliza un FTP también se requiere un archivo `.fin`). Consulte [Cargar los datos mediante FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-
       >[!IMPORTANT]
       >
       >Existen requisitos específicos para los archivos de datos. Consulte los [Requisitos de archivos de datos](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener más información.
 
 
       Después de cargar el archivo, los datos de la tabla se muestran en el encabezado Carga [!UICONTROL de] archivos de esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
-
-
 
       **Gráfico de carga de archivos**
 
@@ -138,13 +131,6 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
    * **[!UICONTROL ID proporcionados por el cliente asociados a ID de visitante de Experience Cloud:]** Muestra cuántos ID se han asociado a los ID de visitante de Experience Cloud.
 
    * **[!UICONTROL ID proporcionados por el cliente con muchos alias:]** Muestra el recuento de ID proporcionados por el cliente con 500 o más ID de visitante de Experience Cloud asociados. Es muy probable que estos ID proporcionados por el cliente no representen a individuos sino algún tipo de inicio de sesión compartido. El sistema distribuye los atributos asociados con estos ID a los 500 ID de Visitante de Experience Cloud con alias creados más recientemente, hasta que el recuento alcanza los 10.000. En este momento, el sistema invalida el ID proporcionado por el cliente y ya no puede distribuir los atributos asociados.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Para eliminar atributos, consulte [(Opcional) Actualizar el esquema (elimina los
 ## (Opcional) Actualizar el esquema (elimina los atributos) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 Eliminar y reemplazar atributos en el esquema.
-
 
 1. En la página [!UICONTROL Editar origen de atributos del cliente], elimine la suscripción de **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (en [!UICONTROL Configurar suscripciones]).
 1. [Cargue un nuevo archivo de datos con campos actualizados](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Con los datos que ahora están disponibles en soluciones como
 Adobe Analytics
 </keyword>, puede crear informes sobre los datos, analizarlos y tomar la decisión adecuada en sus campañas de marketing.
 
-El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atributos cargados. El segmento muestra los suscriptores de Photoshop Lightroom cuyo producto más utilizado sea Photoshop.
+El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atributos cargados. This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Consulte Informe [Atributos](https://docs.adobe.com/help/en/analytics/components
 
 ## Utilizar los atributos de cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-En Target, puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia. Todos los atributos del cliente tendrán el prefijo [!DNL crs.] en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
+En [!DNL Target], puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia.  Todos los atributos del cliente tendrán el prefijo [!DNL crs.] en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
 
 ![](assets/crs-add-attribute-target.png)
 
