@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ![Experience Cloud](assets/banner.png)
 
-Esta página proporciona ayuda, asistencia técnica y documentación del producto para las soluciones y servicios de Adobe Experience Cloud. Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
+Esta página proporciona asistencia técnica y documentación técnica y de producto para las soluciones y servicios de Adobe Experience Cloud. Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
 
 ## ¿Qué quieres aprender?
 
@@ -28,9 +28,9 @@ Esta página proporciona ayuda, asistencia técnica y documentación del product
 * [Blog](https://theblog.adobe.com/customer-experience/) de la experiencia del cliente: lea el blog de Experience Cloud
 * [Servicio de atención](https://helpx.adobe.com/contact/enterprise-support.ec.html) al cliente: Póngase en contacto con el servicio de atención al cliente de Adobe
 
-## Documentación del producto de servicios principales
+## Documentación de producto de los servicios principales
 
-* [Información general de servicios principales](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
+* [Información general](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) de servicios principales (blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -50,7 +50,7 @@ Esta página proporciona ayuda, asistencia técnica y documentación del product
 * [Preguntas frecuentes](admin-getting-started/admin-getting-started.md)
 * [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
-* [Integración de Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Integración de Adobe Destinatario con Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Administración de perfiles en Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
+* [Administración de Perfiles en Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
 * [Precarga de DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
