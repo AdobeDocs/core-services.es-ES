@@ -24,18 +24,18 @@ Obtenga información sobre cómo iniciar sesión en Admin Console, administrar l
 
 Descubra las últimas funciones de la administración de usuarios en Experience Cloud.
 
-### Tipo de ID de empresa
+<!-- ### Business ID type
 
-Adobe está introduciendo un tipo de identidad denominado ID _empresarial_. Este tipo de identidad mejora el control de la administración de usuarios y productos al tiempo que aumenta la flexibilidad del uso de Creative Cloud almacenamiento entre su equipo (si corresponde). Adobe está migrando todos los Adobe ID (propiedad de individuos) que se utilizan para empresas a los nuevos Enterprise Business ID (propiedad de su organización).
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-Si ya es cliente de Experience Cloud, Adobe migrará todos sus usuarios en Admin Console con Adobe ID a Business ID. Si es cliente de una nueva empresa o de equipos, agregará usuarios a Admin Console mediante uno de los tipos de identidad disponibles: Enterprise ID, Enterprise ID o Federated ID.
+If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
-<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
-Qué hacer
+What to do
 
-* Los usuarios deberán aceptar los cambios en las Condiciones de uso (TOU) antes de migrar las cuentas a Type2e.
-* Los usuarios que pertenecen a varias organizaciones pueden ver una pantalla de selección de Perfiles durante el flujo de trabajo de inicio de sesión y deben seleccionar la correcta. Esto garantiza que inicien sesión en la organización correcta. (Puede haber varios perfiles para elegir si un usuario era miembro de varias organizaciones antes de la migración).
+* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### Herramienta de administración
 
