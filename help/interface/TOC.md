@@ -1,10 +1,10 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: Guía del usuario de los servicios principales
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
@@ -41,8 +41,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Actualización a Analytics Premium y Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Activación de Experience Cloud {#activation}
    + [Información general de Activation](activation/activation.md)
-   + [Guía del usuario de Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Guía del usuario de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
+   + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Descripción general de los recursos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
@@ -76,10 +76,10 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Colocaciones](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
 + Notas de la versión para Experience Cloud {#release-notes}
-   + [Novedades de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Novedades de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html)
    + [Notas de versión acumuladas](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
++ [Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
 + Más recursos {#more-resources}
    + [Foro](https://forums.adobe.com/community/experience-cloud)
    + [Terminología](terms.md)
