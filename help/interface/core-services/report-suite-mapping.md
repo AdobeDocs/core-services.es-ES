@@ -5,7 +5,7 @@ seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
 
-Los servicios de Experience Cloud (como el servicio Experience Cloud ID y el servicio principal Personas) están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. Proceso de asignación:
+Los servicios de Experience Cloud (como el servicio Experience Cloud ID y [!UICONTROL Personas]) están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. Proceso de asignación:
 
 * Establece una organización de Experience Cloud como la organización principal para el grupo de informes.
 * No cambia quién puede acceder a un grupo de informes (el acceso sigue determinado por la cuenta de inicio de sesión de Adobe Analytics para cada usuario)
@@ -106,7 +106,7 @@ Los grupos de informes asignados se mostrarán en un formato no editable. Si nec
 
 ### ¿Qué sucede si solo conozco el identificador de organización de mi organización de Experience Cloud? ¿Cómo busco el nombre de mi identificador de organización?
 
-Puede encontrar el nombre de su organización en [Organizaciones y Configuración](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de cuenta.
+Puede encontrar el nombre de su organización en [Organizaciones y Configuración](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html)de cuenta.
 
 ### Veo una fecha en la columna &quot;Fecha de asignación&quot;. ¿Quién hizo ese mapeo?
 
