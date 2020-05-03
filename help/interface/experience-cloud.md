@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -28,9 +28,8 @@ Esta página proporciona asistencia técnica y documentación técnica y de prod
 * [Blog](https://theblog.adobe.com/customer-experience/) de la experiencia del cliente: lea el blog de Experience Cloud
 * [Servicio de atención](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) al cliente: Póngase en contacto con el servicio de atención al cliente de Adobe
 
-## Documentación de producto de los servicios principales
+## Documentación del producto de la plataforma de experiencia
 
-* [Información general](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) de servicios principales (blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
 * [Audiencias](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
