@@ -6,7 +6,7 @@ seo-title: Uso compartido de carpetas y recursos entre Experience Cloud y Creati
 solution: Experience Cloud
 title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -29,4 +29,4 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Consulte Biblioteca [de](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) Ofertas en la [!DNL Target] Ayuda.
+Consulte Biblioteca [de](https://docs.adobe.com/help/es-ES/target/using/experiences/offers/manage-content.html) Ofertas en la [!DNL Target] Ayuda.
