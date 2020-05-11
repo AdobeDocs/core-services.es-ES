@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '3809'
+ht-degree: 61%
 
 ---
 
@@ -131,18 +134,18 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## Versión 15.9: 10 de septiembre de 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Se ha corregido un problema de rendimiento de la API de Audience Manager que provocaba agotamientos intermitentes del tiempo de espera al cargar datos de atributos de cliente. (MAC-26305)
-* Se ha corregido un problema que impedía a los usuarios añadir un máximo de 200 atributos del cliente a una suscripción. (MAC-26188)
+* Se ha corregido un problema de rendimiento de la API del Administrador de Audiencias que provocaba tiempos de espera intermitentes al cargar datos de Atributos del cliente. (MAC-26305)
+* Se ha corregido un problema que impedía a los usuarios agregar hasta 200 atributos de cliente a una suscripción. (MAC-26188)
 * Se ha corregido un problema con la biblioteca de Audiencias que impedía compartir audiencias desde la segmentación de Analytics. Este problema hacía que se mostrara &quot;Recopilación de datos&quot; (0 audiencias). Para evitar este problema, Adobe recomienda mantener el tamaño de los segmentos por debajo de los 50.000 miembros de la audiencia por segmento. (MAC-25788)
 * Se ha corregido un problema conocido anterior en la página Atributos del cliente - Editar Esquema que provocaba un error Según el contenido que se producía al cambiar un nombre para mostrar. (MAC-25589, AN-103834)
 
 ## Versión 15.7: 22 de julio de 2015  {#section_2683A152176944E48EF6C943892975B7}
 
-* Se ha corregido un problema que impedía que las descripciones de atributos especificadas en la página Vista/Editar Esquema (en atributos del cliente) se actualizaran en los informes de Analytics. (MAC-25985)
+* Se ha corregido un problema que impedía que las descripciones de atributos especificadas en la página Vista/Editar Esquema (en Atributos del cliente) se actualizaran en los informes de Analytics. (MAC-25985)
 * Se ha corregido un problema que impedía que se representaran las miniaturas de los recursos cargados. (MAC-25863)
 * Se ha corregido un problema que impedía que los nuevos segmentos creados en informes y análisis estuvieran disponibles en Audiencias de Experience Cloud. (MAC-25817)
 * Se ha corregido un problema que impedía compartir audiencias desde Analytics cuando se utiliza el servicio de ID de visitante. (MAC-25788, MAC-25747)
-* Compatibilidad Añadida con caracteres multibyte en atributos del cliente. (MAC-25552)
+* Compatibilidad Añadida con caracteres multibyte en Atributos del cliente. (MAC-25552)
 
 **Problema conocido**
 
