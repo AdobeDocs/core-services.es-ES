@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +23,7 @@ La Activación incluye el último producto de administración de etiquetas llama
 
 Implemente y administre las etiquetas de análisis, marketing y publicidad necesarias para lograr experiencias de cliente relevantes.
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+See [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -43,7 +46,7 @@ Para iniciar la Dynamic Tag Management, haga clic en **[!UICONTROL Activation]**
    <td colname="col2"> <p>El servicio Experience Cloud ID habilita la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos del cliente, el uso compartido de audiencias y los activadores). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
    <td colname="col2"> <p>Obtenga más información sobre la implementación de soluciones de Experience Cloud con la administración dinámica de etiquetas. </p> </td>
   </tr> 
  </tbody> 
@@ -79,4 +82,4 @@ Si desea ayuda en la implementación de la Dynamic Tag Management, le animamos a
 
 La extensión de Adobe Experience Cloud Debugger para Chrome examina sus páginas web y le ayuda a encontrar problemas con la implementación de las soluciones de Experience Cloud.
 
-Consulte [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) para obtener ayuda.
+Consulte [Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para obtener ayuda.
