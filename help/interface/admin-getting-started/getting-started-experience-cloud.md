@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 53%
 
 ---
 
@@ -36,9 +39,9 @@ Inicie sesión y verifique que se encuentra en la [organización](../admin-getti
 
 | Elemento | Descripción |
 |--- |--- |
-| [Conceptos básicos de la Consola de administración](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Obtenga información sobre los pasos iniciales que debe seguir para empezar a utilizar las soluciones de Experience Cloud. |
-| [Configurar identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con el que se autenticarán los usuarios finales. |
-| [Administración de usuarios](https://helpx.adobe.com/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
+| [Conceptos básicos de la Consola de administración](https://helpx.adobe.com/es/marketing-cloud/how-to/first-time-setup.html) | Obtenga información sobre los pasos iniciales que debe seguir para empezar a utilizar las soluciones de Experience Cloud. |
+| [Configurar identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con el que se autenticarán los usuarios finales. |
+| [Administración de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
 | [Iniciar Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo ](https://adminconsole.adobe.com). |
 | [Gestionar usuarios de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
 | [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que  [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
@@ -77,7 +80,7 @@ Puede editar los detalles personales y especificar una [organización](../admin-
 
 ## Habilitar notificaciones {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de los atributos del cliente.
+Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de Atributos del cliente.
 
 Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]**.![](assets/icon_edit_board.png)
 
