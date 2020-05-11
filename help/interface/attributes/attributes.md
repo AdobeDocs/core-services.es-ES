@@ -1,20 +1,23 @@
 ---
-description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
-keywords: core services;customer attributes
-seo-description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
+description: Información general y requisitos previos para cargar atributos del cliente en Experience Cloud.
+keywords: core services;Customer Attributes
+seo-description: Información general y requisitos previos para cargar atributos del cliente en Experience Cloud.
 seo-title: Atributos del cliente
 solution: Experience Cloud
 title: Atributos del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 37%
 
 ---
 
 
 # Atributos del cliente
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+Vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > Atributos **[!UICONTROL del cliente]**
 
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, saque el máximo partido de los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
@@ -22,17 +25,17 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 
 ## Requisitos previos para cargar Atributos del cliente {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Activación de las soluciones:** [Habilite las soluciones para los servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+* **Habilitación de la solución:** [Habilite sus soluciones para los servicios](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)de la plataforma de experiencia.
 
 * **Pertenencia a un grupo:** Para cargar los datos de atributos de los clientes, los usuarios deben ser miembros del [grupo de Atributos del cliente](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
 
-   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Si *Atributos del cliente* se muestra como uno de los grupos, está listo para empezar.
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Si *Atributos del cliente* se muestra como uno de los grupos, está listo para empezar.
 
    Los usuarios que se agregan al grupo Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
-* **Se requiere Adobe Destinatario** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los atributos del cliente.
+* **Se requiere Adobe Destinatario** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para Atributos del cliente.
 
-   Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
+   Consulte [Implementación de at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
