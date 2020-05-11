@@ -1,13 +1,16 @@
 ---
 description: Cree el origen de atributo del cliente y cargue los datos.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Cree el origen de atributo del cliente y cargue los datos.
 seo-title: Crear un origen de atributo de cliente y cargar el archivo de datos
 solution: Experience Cloud
 title: Crear un origen de atributo de cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 66%
 
 ---
 
@@ -28,8 +31,8 @@ Crear un origen de atributos de cliente (archivos CSV y FIN) y cargar los datos.
 
 Una vez que la fuente de datos esté activa, podrá:
 
-* [Utilizar los atributos del cliente en Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Utilizar los atributos de cliente en Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Uso de atributos del cliente en Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Uso de atributos del cliente en Adobe Destinatario](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
@@ -90,9 +93,9 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Administración dinámica de etiquetas:** El ID de alias corresponde al valor del código *de* integración en Configuración [!UICONTROL de]cliente, en la herramienta [Servicio](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) de ID de Experience Cloud.
+      * **Administración dinámica de etiquetas:** El ID de alias corresponde al valor del código *de* integración en Configuración [!UICONTROL de]cliente, en la herramienta [Servicio](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/macid.html) de ID de Experience Cloud.
 
-      * **API de Visitante:** El ID de alias corresponde a los ID de [cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
+      * **API de Visitante:** El ID de alias corresponde a los ID de [cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
 
          Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -100,13 +103,13 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** El ID de alias corresponde a *&quot;idType&quot;* en [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** El ID de alias corresponde a *&quot;idType&quot;* en [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/overview.html).
 
          Por ejemplo:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** El ID de alias corresponde a *&quot;idType&quot;* en [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** El ID de alias corresponde a *&quot;idType&quot;* en [syncIdentifiers](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html).
 
          Por ejemplo:
 
@@ -161,7 +164,7 @@ En la página [!UICONTROL Crear nuevo [o Editar] Atributos del cliente de origen
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 
-## Utilizar los atributos del cliente en Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Con los datos que ahora están disponibles en soluciones como
 <keyword>
@@ -172,13 +175,13 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 ![](assets/08_crs_usecase.png)
 
-Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las audiencias de Experience Cloud y en Audience Manager.
+Al publicar un segmento en Experience Cloud, pasa a estar disponible en Audiencias y Administrador de Audiencias de Experience Cloud.
 
 Consulte Informe [Atributos](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) del cliente en la ayuda de Analytics para obtener más información.
 
-## Utilizar los atributos de cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-En [!DNL Target], puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia.  Todos los atributos del cliente tendrán el prefijo [!DNL crs.] en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
+En [!DNL Target], puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia.  All Customer Attributes will have the prefix [!DNL crs.] in the list. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
 
 ![](assets/crs-add-attribute-target.png)
 
