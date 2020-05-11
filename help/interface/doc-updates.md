@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 'Actualizaciones de la documentación: Experience Cloud'
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +25,7 @@ Se ha actualizado [Validar reenvío](cookies/cookies-first-party.md#validate) de
 
 **Actualizado: 20/2/2020**
 
-Se ha añadido [Ver los detalles de usuario de Experience Cloud (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md).
+Detalles de usuario de Experience Cloud [de Vista Añadida (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Actualizado: 5/09/2018**
 
@@ -30,7 +33,7 @@ Se agregó cómo eliminar un atributo de cliente. Consulte [(Opcional) Actualiza
 
 **Actualizado: 8/6/20118**
 
-Se actualizó [Sobre el archivo de datos y las fuentes de datos para los atributos del cliente](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) con información sobre la carga de varios archivos.
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **Actualizado: 06/06/2018**
 
@@ -74,7 +77,7 @@ Se ha añadido [Activación de las soluciones en los servicios principales](core
 
 **Actualizado: 15/01/2015**
 
-Se ha agregado que los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Los usuarios Añadidos de Experience Cloud ahora pueden compartir carpetas con Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte Uso compartido [de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Actualizado: 17/07/2014**
 
