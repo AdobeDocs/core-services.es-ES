@@ -1,13 +1,16 @@
 ---
 description: El proceso de validación le permite asignar nombres para mostrar y descripciones en atributos cargados (cadenas, números enteros, números y demás). Se crea un esquema basado en esta configuración. El esquema se utiliza para validar todos los datos futuros cargados a esta fuente de datos. Este proceso de asignación no altera los datos originales.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: El proceso de validación le permite asignar nombres para mostrar y descripciones en atributos cargados (cadenas, números enteros, números y demás). Se crea un esquema basado en esta configuración. El esquema se utiliza para validar todos los datos futuros cargados a esta fuente de datos. Este proceso de asignación no altera los datos originales.
 seo-title: Validar el esquema
 solution: Experience Cloud
 title: Validar el esquema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 63%
 
 ---
 
@@ -18,7 +21,7 @@ El proceso de validación le permite asignar nombres para mostrar y descripcione
 
 >[!NOTE]
 >
->Actualizar el esquema tras la validación elimina los atributos del cliente. Consulte [Actualizar el esquema (también elimina los atributos)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Al actualizar el esquema después de la validación, se eliminan los atributos del cliente. Consulte [Actualizar el esquema (también elimina los atributos)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Origen]** de atributos del cliente > **[!UICONTROL Crear nuevo origen]** de atributos del cliente > **[!UICONTROL Vista/Editar Esquema]**
 
