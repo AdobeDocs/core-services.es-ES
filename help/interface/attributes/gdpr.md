@@ -37,7 +37,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Atributos del c
 
 Un ID de organización de IMS es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de organización de IMS de su organización, póngase en contacto con el servicio de atención al cliente de Adobe en gdprsupport@adobe.com. Necesitará el ID de organización de IMS para enviar solicitudes a la API de privacidad.
 
-2. Utilice la interfaz de usuario de Privacy Service para enviar solicitudes de acceso y eliminación a Atributos del cliente, así como para comprobar el estado de las solicitudes existentes.
+1. Utilice la interfaz de usuario de Privacy Service para enviar solicitudes de acceso y eliminación a Atributos del cliente, así como para comprobar el estado de las solicitudes existentes.
 
 ## Valores de campo requeridos en solicitudes JSON de Atributos del cliente
 
