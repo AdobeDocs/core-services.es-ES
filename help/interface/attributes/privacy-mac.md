@@ -1,18 +1,21 @@
 ---
 description: Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
-seo-title: 'Consideraciones sobre la privacidad: atributos del cliente'
+seo-title: 'Consideraciones de privacidad: Atributos del cliente'
 solution: Experience Cloud
-title: 'Consideraciones sobre la privacidad: atributos del cliente'
+title: 'Consideraciones de privacidad: Atributos del cliente'
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 13%
 
 ---
 
 
-# Consideraciones sobre la privacidad: atributos del cliente
+# Consideraciones de privacidad: Atributos del cliente
 
 Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
 
