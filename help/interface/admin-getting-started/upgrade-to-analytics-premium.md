@@ -8,7 +8,10 @@ title: Actualización a Analytics Premium y Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 46%
 
 ---
 
@@ -24,7 +27,7 @@ Al actualizar a Adobe Analytics Premium obtiene todas las funciones o productos 
 Analytics Premium le ofrece:
 
 * Acceso a 250 variables de conversión (eVars)
-* [Análisis de aplicaciones móviles](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [Análisis de aplicaciones móviles](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
 * Data Workbench (consulta de datos visual, atribución basada en reglas, análisis en canales múltiples)
 
 >[!NOTE]
@@ -41,7 +44,7 @@ En Analytics Premium Complete, obtiene todas las funciones de [Analytics Premium
 
 | Producto | Actualizaciones |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[Análisis de contribución](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Atributos del cliente](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (hasta 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Atributos del cliente](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (hasta 200)</li></ul> |
 | Data Workbench | <ul><li>Atribución algorítmica</li><li>Espacios de trabajo pregenerados</li></ul> |
 | Plataforma de Analytics | [Transmisión](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) en directo (datos sin procesar, paneles, activadores) |
 
@@ -51,7 +54,7 @@ La actualización a Predictive Intelligence habilita [Analytics Premium](../admi
 
 | Producto | Actualizaciones |
 |---|---|
-| Reports &amp; Analytics | [Análisis de contribución](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Espacios de trabajo preconstruidos para cualificaciones de audiencia y mercadotecnia predictiva. |
 | Plataforma de Analytics | Reproducción en directo (tableros y Triggers) |
 
@@ -81,7 +84,7 @@ Cualquier software que se ejecute in situ debe desactivarse. Esto incluye los se
 
 Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus soluciones para utilizar los servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
 
-Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experiencecloud.adobe.com] y comenzar a usar los servicios principales, incluidos los atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
+After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
 
 ### Administrar usuarios y grupos
 
