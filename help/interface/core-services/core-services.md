@@ -1,20 +1,23 @@
 ---
-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza sus soluciones para funciones como atributos y audiencias del cliente.
-keywords: core services;customer attributes
-seo-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza sus soluciones para funciones como atributos y audiencias del cliente.
+description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza sus soluciones para funciones como Atributos y audiencias del cliente.
+keywords: core services;Customer Attributes
+seo-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza sus soluciones para funciones como Atributos y audiencias del cliente.
 seo-title: Activación de las soluciones de Experience Cloud en los servicios principales
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 30%
 
 ---
 
 
 # Activación de las soluciones en los servicios principales
 
-Para los clientes existentes, descubra cómo modernizar las implementaciones de soluciones e implementar Experience Cloud para que pueda usar funciones como atributos y audiencias del cliente. Para lograrlo, deberá:
+Para los clientes existentes, descubra cómo modernizar las implementaciones de soluciones e implementar Experience Cloud para que pueda utilizar funciones como Atributos y audiencias del cliente. Para lograrlo, deberá:
 
 1. [Únase a Experience Cloud y conviértase en administrador](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementación del servicio Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -117,7 +120,7 @@ Consulte la sección Servicio *de ID de* Experience Cloud para ver ejemplos de s
 
 ### Activación de atributos para datos históricos
 
-Los datos de atributos del cliente están disponibles después de que los visitantes inicien sesión. Si todavía no ha implementado el servicio de ID de Experience Cloud más reciente y ha estado realizando un seguimiento histórico de los ID de cliente en una prop o eVar, puede solicitar un proceso que envíe los inicios de sesión históricos a Experience Cloud. Este proceso le permite empezar a usar atributos del cliente inmediatamente.
+Los datos de atributos del cliente están disponibles después de que los visitantes inicien sesión. Si todavía no ha implementado el servicio de ID de Experience Cloud más reciente y ha estado realizando un seguimiento histórico de los ID de cliente en una prop o eVar, puede solicitar un proceso que envíe los inicios de sesión históricos a Experience Cloud. Este proceso le permite empezar a utilizar Atributos del cliente inmediatamente.
 
 Póngase en contacto con el Servicio de atención al cliente para habilitar los datos históricos.
 
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >Todos los clientes de Analytics ya están aprovisionados para servicios principales como los atributos del cliente. Si no es cliente de Analytics, póngase en contacto con la atención al cliente para solicitar que se le aprovisione.
+   >Todos los clientes de Analytics ya están aprovisionados para servicios principales como Atributos del cliente. Si no es cliente de Analytics, póngase en contacto con la atención al cliente para solicitar que se le aprovisione.
 
 ## Paso 6. Verifique la implementación de los servicios principales {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
