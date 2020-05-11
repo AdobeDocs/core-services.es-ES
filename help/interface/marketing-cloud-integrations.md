@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Integraciones de Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1521'
+ht-degree: 40%
 
 ---
 
@@ -51,7 +54,7 @@ El servicio de ID proporciona un ID universal y persistente que identifica sus v
 
 Ayuda: [Audiencias](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Cree y gestione audiencias en la biblioteca de Audiencias de Experience Cloud. Las audiencias pueden crearse o derivarse desde distintos orígenes como:
+Cree y gestione Audiencias en la biblioteca de Audiencias de Experience Cloud. Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 
 * Las nuevas se crean en [!DNL Experience Cloud].
 * A partir de segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud].
@@ -134,14 +137,14 @@ Utilice la extensión de Adobe Experience Cloud Debugger para depurar los proble
 
 Ayuda: [Integración de Adobe Destinatario con Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
 
-Integre Adobe Target con Adobe Analytics y otras soluciones de Experience Cloud para permitir el uso de los mismos datos, audiencias, atributos y métricas en las dos soluciones.
+Integre Adobe Destinatario con Adobe Analytics y otras soluciones de Experience Cloud para permitir el uso de los mismos datos, Audiencias, atributos y métricas en ambas soluciones.
 
 **Soluciones o servicios aplicables**
 
 * Atributos del cliente: Configurar la [suscripción](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) de Adobe Destinatario a los atributos del cliente
 * Audiencias de Experience Cloud: [Biblioteca de Audiencias de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html)
-* Administración dinámica de etiquetas: [Prácticas recomendadas para implementar Adobe Destinatario mediante DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Administración dinámica de etiquetas: [Prácticas recomendadas para implementar Adobe Destinatario mediante DTM](https://docs.adobe.com/content/help/es-ES/dtm/implementing/overview.html)
 * Administrador de Audiencias: [Integración de datos de Adobe Destinatario con Adobe Audiencia Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaña: [Integración de Adobe Destinatario con Campaña](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
@@ -187,7 +190,7 @@ Ayuda (se requiere inicio de sesión): [Integración con las soluciones y servic
 
 **Administrador dinámico de etiquetas:** Puede [utilizar el Administrador dinámico de etiquetas para crear etiquetas de seguimiento](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)de conversión basadas en píxeles de Media Optimizer, así como etiquetas de seguimiento de terceros, para sus páginas de aterrizaje de búsqueda, sociales y anuncios en pantalla. (También puede crear etiquetas de Media Optimizer directamente en Media Optimizer).
 
-**Audiencias de Experience Cloud:** (Anunciantes con administración de pantalla) Puede usar cualquiera de las audiencias [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud como destinatarios para los anuncios en pantalla. Puede usar automáticamente audiencias que haya creado en Adobe Experience Cloud y audiencias de Analytics que haya publicado en Adobe Experience Cloud, así como audiencias de Audiencia Manager cuando la cuenta de Media Optimizer esté configurada para permitirlo. Póngase en contacto con su administrador de cuentas para obtener más información sobre el acceso a Adobe Experience Cloud y los Perfiles y Audiencias, así como sobre la configuración inicial entre las audiencias de Media Optimizer y Adobe Experience Cloud. **Nota:** Si también utiliza Adobe Destinatario, cualquiera de las audiencias que ha publicado en Adobe Experience Cloud también estará disponible para actividades en Adobe Destinatario.
+**Audiencias de Experience Cloud:** (Anunciantes con administración de pantalla) Puede usar cualquiera de las Audiencias [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud como destinatarios para los anuncios en pantalla. Puede usar automáticamente Audiencias que haya creado en Adobe Experience Cloud y Audiencias de Analytics que haya publicado en Adobe Experience Cloud, así como Audiencias de Audiencia Manager cuando la cuenta de Media Optimizer esté configurada para permitirlo. Póngase en contacto con su administrador de cuentas para obtener más información sobre el acceso a Adobe Experience Cloud y los Perfiles y Audiencias, así como sobre la configuración inicial entre las Audiencias de Media Optimizer y Adobe Experience Cloud. **Nota:** Si también utiliza Adobe Destinatario, cualquiera de las Audiencias que ha publicado en Adobe Experience Cloud también estará disponible para actividades en Adobe Destinatario.
 
 **Experience Cloud Assets:** (anunciantes con administración en pantalla) se puede usar cualquiera de los recursos de Adobe Experience Cloud como material creativo para los anuncios en pantalla con la nueva vista Display Beta. You must be [logged in to Media Optimizer through Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) to access your Adobe Experience Cloud assets. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
 
