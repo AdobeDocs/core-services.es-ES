@@ -4,10 +4,10 @@ user-guide-title: Guía del usuario de la interfaz de Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 68%
    + [Información general sobre Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para Atributos del cliente](attributes/crs-data-file.md)
-   + [Crear un origen de atributos del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
+   + [Crear un origen de atributo de cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
    + [Opcional: cargar el archivo de datos a través de FTP](attributes/t-upload-attributes-ftp.md)
    + [Validar el esquema](attributes/validate-schema.md)
    + [Configurar suscripciones](attributes/subscription.md)
