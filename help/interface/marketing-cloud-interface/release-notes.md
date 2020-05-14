@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '3809'
-ht-degree: 61%
+source-wordcount: '3929'
+ht-degree: 62%
 
 ---
 
@@ -22,6 +22,22 @@ Funciones, notas de la versión y problemas conocidos de la interfaz de Experien
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión que cubren todas las soluciones, consulte las Notas de la versión de [Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+
+## Abril - 2020
+
+* La página [!UICONTROL Fuente] de Experience Cloud estaba en desuso. (EXC-8505)
+* La página de inicio de sesión de Experience Cloud se ha actualizado para incluir detalles de las marcas. (EXC-10747)
+
+## Febrero - 2020
+
+| Función | Descripción |
+| -----------| ---------- |
+| Herramienta de administración: ver detalles del usuario | Los administradores pueden ver una lista de los usuarios de Experience Cloud que pueden ordenar y filtrar, y sus detalles en la nueva herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Consulte la ayuda de la [herramienta de administración de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obtener más información. |
+
+**Correcciones**
+
+* **Atributos del cliente:** La interfaz de usuario de Atributos del cliente ahora muestra estados adicionales de perfiles sincronizados en Target. (MCUI-10231)
+* **Servicio principal de Triggers:** Debido a la falta de uso, se ha eliminado la puntuación de propensión “Probabilidad de retorno en 30 días” al crear un activador de tipo Abandono. (MCUI-10056)
 
 ## Enero - 2020
 
