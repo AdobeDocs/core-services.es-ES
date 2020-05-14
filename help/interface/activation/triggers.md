@@ -7,7 +7,10 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## Información general sobre Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*Los activadores* le permiten identificar, definir y monitorear comportamientos clave de los consumidores y, a continuación, generar una comunicación entre soluciones para volver a captar visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+Los activadores le permiten identificar, definir y monitorear comportamientos clave de los consumidores y, a continuación, generar una comunicación entre soluciones para volver a captar visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
 
 * Configurar la remercadotecnia rápida para abandonos del carro de compras o abandonos del carro de compras con productos eliminados
 * Formularios y aplicaciones incompletos
@@ -28,28 +31,25 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Esto varía según la implementación de la recopilación de datos, la carga en el canal, la configuración personalizada del Trigger definido y el flujo de trabajo en Adobe Campaign.
 
-* **Abandono:** puede crear un Trigger que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra. Configure la [Puntuación de tendencia](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334) para comprender la tendencia de los clientes después de abandonar un carro de compras.
+* **Abandono:** puede crear un Trigger que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra.
 * **Acción:** puede crear Triggers, por ejemplo, para que se desencadenen después de que los usuarios se suscriban a un boletín, de una suscripción por correo electrónico o cuando se soliciten tarjetas de crédito (confirmaciones). Si tiene un comercio minorista, puede crear un Trigger para visitantes que se suscriben a un programa de fidelidad. Si se dedica al sector de los medios de comunicación y el entretenimiento, cree Triggers para visitantes que vean un determinado programa y que podrían estar interesados en responder a una encuesta.
 * **Inicio y fin de sesión:** cree un Trigger para los eventos de inicio y fin de sesión.
 
 ## Crear un Trigger de Experience Cloud {#task_821F37183AC045E5AC8EED20317598FE}
 
-Cree un Trigger de abandono y configure las condiciones del activador y de la puntuación de tendencia. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
+Cree un activador y configure las condiciones del activador. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
 
 >[!NOTE]
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. En Experience Cloud, haga clic en ![](assets/menu-icon.png) y, a continuación, en **[!UICONTROL Activation]**.
-1. Localice la tarjeta [!UICONTROL Triggers] y después haga clic en **[!UICONTROL Launch]**.
-
-   ![Resultado de los pasos](assets/activation-triggers.png)
-
-1. Haga clic en **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
+1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
+2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+3. Haga clic en **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 
    ![Resultado de los pasos](assets/add-trigger.png)
 
-1. Configure el Trigger rellenando los siguientes campos y arrastrando métricas y dimensiones a los contenedores de la regla:
+4. Configure el Trigger rellenando los siguientes campos y arrastrando métricas y dimensiones a los contenedores de la regla:
 
    | Elemento | Descripción |
    |--- |--- |
@@ -60,12 +60,8 @@ Cree un Trigger de abandono y configure las condiciones del activador y de la pu
    | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador Y, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicio de una nueva sesión después de | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
-1. (Optional) In [!UICONTROL Abandonment triggers], you can apply [Propensity Scoring](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
-
-   ![Resultado de los pasos](assets/propensity-scoring.png)
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-1. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
+5. Haga clic en **[!UICONTROL Guardar]**.
+6. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### Ejemplos de Triggers
 
@@ -82,31 +78,3 @@ Por ejemplo, en la siguiente página se muestran reglas que podría usar para un
 El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios ( *productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
 ![](assets/fb-boots-promo.png)
-
-## Puntuación de tendencia {#concept_A506150674AD45DB98D3CC07E560D334}
-
-Comprenda la tendencia de los clientes a regresar después de haber abandonado un carro de compras. La puntuación de tendencia está integrada en Experience Cloud Triggers y se encuentra disponible para los Triggers de abandono.
-
-![Resultado de los pasos](assets/propensity-scoring.png)
-
-Por ejemplo, algunos clientes abandonan los carros de compras para aprovechar los incentivos que reciben por correo electrónico para regresar al carro de compras. Para reducir la pérdida de ingresos, el algoritmo de Puntuación de tendencia ayuda a identificar a los abandonadores relevantes del carro de compras que probablemente no regresarían sin el incentivo.
-
-Puede:
-
-* Evite sobreexponer a sus clientes a una remercadotecnia.
-* Identifique a los clientes que abandonan el carro de compras y asigne su actividad al mensaje correcto.
-* Aumente los ingresos al saber qué clientes regresarán y cuáles no.
-
-### El valor de la puntuación de tendencia  {#section_CA99874A25434CC0BF01D0DA61608889}
-
-Puede realizar una búsqueda de datos para identificar comportamientos o patrones ocultos en los datos. En concreto, la puntuación de tendencia le ayuda a identificar grupos de clientes similares que utilizan medios más específicos y objetivos en lugar de una segmentación o filtrado sencillos. Además, la puntuación de tendencia le permite configurar capacidades predictivas para identificar el comportamiento de los clientes de alto valor de su compañía.
-
-Una vez identificada una audiencia de gran valor, puede motivarla a participar para conseguir el máximo efecto. Por ejemplo, si su empresa presta servicios a otras empresas, podría tener posibles clientes a los que realizar llamadas comerciales para, posteriormente, puntuar a dichos posibles clientes e identificar la probabilidad de convertir sin conexión. Debido a que cada posible cliente aumenta los costos, crear un incentivo para identificar a los clientes potenciales con la mayor probabilidad de convertir una venta es la manera más efectiva y menos costosa de enfocar sus recursos.
-
-La puntuación de tendencia permite identificar los factores más predictivos de una puntuación determinada o aumentar la probabilidad de que se produzca un evento, pero también se puede aplicar para responder preguntas específicas:
-
-* ¿Se convertirá el cliente?
-* ¿Responderá el cliente a un correo electrónico?
-* ¿El cliente volverá a comprar?
-
-La puntuación de tendencia le permite responder a estas preguntas e identificar visitantes con una inclinación a la acción que luego se puede configurar y puntuar.
