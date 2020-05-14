@@ -2,7 +2,7 @@
 title: Customer Attributes Support for California Consumer Privacy Act (Compatibilidad con atributos del cliente)
 description: Customer Attributes Support for California Consumer Privacy Act (Compatibilidad con atributos del cliente)
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Compatibilidad de atributos del cliente con California Consumer Privacy Act
+# Compatibilidad de Atributos del cliente con la Ley de privacidad del consumidor de California
 
 Esta página describe la compatibilidad de Atributos [!UICONTROL del cliente con la Ley de privacidad del consumidor de California (CCPA, por sus siglas en inglés)] .
 
