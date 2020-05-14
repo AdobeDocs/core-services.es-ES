@@ -2,7 +2,7 @@
 title: Compatibilidad de atributos del cliente con el Reglamento general de protección de datos
 description: Compatibilidad de atributos del cliente con el Reglamento general de protección de datos
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 1%
@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# Compatibilidad de atributos del cliente con el Reglamento general de protección de datos
+# Compatibilidad de Atributos del cliente con el Reglamento general de protección de datos
 
 Esta página describe cómo los atributos del cliente admiten el Reglamento General de Protección de Datos (RGPD).
 
