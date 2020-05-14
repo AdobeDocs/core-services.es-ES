@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
+source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 37%
 
 ---
 
@@ -18,7 +21,7 @@ Obtenga información sobre cómo iniciar sesión en Admin Console, administrar l
 
 >[!IMPORTANT]
 >
->La administración de usuarios en Admin Console introduce interfaces, opciones de navegación y términos nuevos. En la siguiente información se describen estos cambios y se proporcionan vínculos a recursos de ayuda adicionales. This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
+>La administración de usuarios en Admin Console introduce interfaces, opciones de navegación y términos nuevos. En la siguiente información se describen estos cambios y se proporcionan vínculos a recursos de ayuda adicionales. This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/es/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Novedades en la administración de usuarios de Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -39,7 +42,7 @@ What to do
 
 ### Herramienta de administración
 
-Los administradores pueden realizar la vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de usuarios de Experience Cloud en la herramienta](admin-tool-experience-cloud.md)de administración.
+Los administradores pueden realizar la vista de una lista ordenable y filtrable de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de los usuarios de Experience Cloud en la herramienta](admin-tool-experience-cloud.md)de administración.
 
 ## Inicio de sesión en Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
@@ -48,13 +51,13 @@ Los administradores ya no administran usuarios en las soluciones. La administrac
 Para iniciar sesión en Admin Console:
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. Escriba su [Adobe ID o Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) y contraseña.
+1. Escriba su [Adobe ID o Enterprise ID](https://helpx.adobe.com/es/enterprise/using/identity.html) y contraseña.
 
 Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **Ayuda relacionada**
 
-[Guía](https://helpx.adobe.com/enterprise/using/users.html) del usuario de administración de Creative Cloud y Documento Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos](https://helpx.adobe.com/enterprise/help/identity.html)de identidad.
+[Guía](https://helpx.adobe.com/es/enterprise/using/users.html) del usuario de administración de Creative Cloud y Documento Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos](https://helpx.adobe.com/es/enterprise/using/identity.html)de identidad.
 
 [Inicie sesión y administre la configuración](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) de perfil para administrar contraseñas, organizaciones y notificaciones.
 
@@ -84,15 +87,15 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 **Ayuda relacionada**
 
-[Migración de ID de usuario de Analytics](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+[Migración de ID de usuario de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 En Adobe Destinatario, un espacio de trabajo es un perfil de producto. Permite que una organización asigne un conjunto específico de usuarios a un conjunto específico de propiedades. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en Adobe Analytics.
 
 Consulte:
-* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/property-channel.html)
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html)
 * Vídeo: [Cómo configurar espacios de trabajo de Adobe Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign: Perfiles de producto, inquilinos y grupos de seguridad {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -108,6 +111,12 @@ Consulte [Administración de grupos y usuarios](https://helpx.adobe.com/campaign
 Experience Platform Launch se muestra en la página Productos de la Consola de administración. Puede incluir otras soluciones y servicios en un perfil de productos de Launch.
 
 Consulte Administración [de usuarios](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) para obtener información sobre los permisos de usuario en Admin Console y configurar opciones específicas de Launch, incluida la asignación de derechos a perfiles.
+
+## Experience Manager as a Cloud Service
+
+Los clientes de Adobe Enterprise se representan como organizaciones de IMS en Adobe Admin Console. Este es el portal que utilizan los clientes de Adobe para administrar las asignaciones de productos para sus usuarios y grupos. Los clientes de AEM pueden utilizar Adobe Admin Console para administrar sus derechos de producto y la autenticación IMS en AEM como un servicio de nube.
+
+See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
 
 ## Administrador dinámico de etiquetas {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -134,8 +143,8 @@ Al invitar a un usuario a una organización, puede darle acceso a productos y pe
 
 Encontrará más ayuda en:
 
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Permisos](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) de usuario de Enterprise en la ayuda de Adobe Destinatario para obtener más información.
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html)
+* [Permisos](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/property-channel.html) de usuario de Enterprise en la ayuda de Adobe Destinatario para obtener más información.
 * Vídeo: [Cómo configurar espacios de trabajo de Adobe Destinatario en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
@@ -183,10 +192,10 @@ Exploradores admitidos en Experience Cloud.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Nota:** Aunque la interfaz de Experience Cloud admite estos exploradores, es posible que las soluciones individuales no los admitan a todos. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**Nota:** Aunque la interfaz de Experience Cloud admite estos exploradores, es posible que las soluciones individuales no los admitan a todos. (For example, [Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/es-ES/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Soluciones y requisitos del producto
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/es-ES/target/using/implement-target/before-implement/supported-browsers.html)
