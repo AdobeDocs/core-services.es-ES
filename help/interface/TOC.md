@@ -4,10 +4,10 @@ user-guide-title: Guía del usuario de la interfaz de Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 68%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 71%
    + [Validar el esquema](attributes/validate-schema.md)
    + [Configurar suscripciones](attributes/subscription.md)
    + [Actualizar el esquema](attributes/t-update-schema.md)
+   + [Apoyo al Reglamento general de protección de datos](attributes/gdpr.md)
+   + [Compatibilidad con la Ley de privacidad de los consumidores de California](attributes/ccpa.md)
    + [Consideraciones de privacidad: Atributos del cliente](attributes/privacy-mac.md)
 + Administración de Ofertas {#offer-management}
    + [Introducción a la administración de Ofertas](offer-management/getting-started.md)
