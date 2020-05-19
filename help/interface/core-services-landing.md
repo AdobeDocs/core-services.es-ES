@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: Acerca de los servicios principales de Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 23%
+source-wordcount: '511'
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,6 @@ Esta ayuda describe los siguientes productos y servicios:
 | [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) | [!UICONTROL Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. ] [!UICONTROL Experience Platform Launch] ofrece a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las experiencias relevantes de los clientes. |
 | [Organización de recorridos](https://docs.adobe.com/content/help/es-ES/journeys/using/journey-orchestration-home.html) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orquestación] es un servicio de aplicaciones integrado con la plataforma de experiencias. |
 | [Servicio de ubicación](https://docs.adobe.com/content/help/es-ES/places/using/home.html) | El servicio [!UICONTROL de ubicación de la plataforma de] experiencia de Adobe (servicio de ubicación) es un servicio de ubicación geográfica que permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (puntos de interés). |
-| [Ofertas](offer-management/getting-started.md) | Cree, administre y tome decisiones en todos los canales de Experience Cloud. [!UICONTROL La administración] de Ofertas sirve como catálogo de ofertas central donde puede asociar reglas de elegibilidad y varios fragmentos de contenido con cada &quot;objeto&quot; de oferta, publicar esas ofertas en canales y ubicaciones y ofrecer la mejor oferta para cada cliente en cada interacción. |
 | [Exchange](exchange.md) | Busque, examine, seleccione, pague y descargue extensiones de Digital Marketing mediante aplicaciones. |
 | [Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
 | People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. Incluso agrupe a los usuarios en Audiencias para los esfuerzos de mercadotecnia dirigidos a objetivos.<br>[Audiencias](audience-library/audience-library.md) : categorice distintos tipos de clientes en Audiencias y, a continuación, comparta dichas Audiencias en las soluciones de Marketing Cloud.<br>[Atributos](attributes/attributes.md) del cliente: enriquecimiento de audiencia que le permite conectar la información del consumidor recopilada fuera de Marketing Cloud.<br>[Gráfico](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) de dispositivos: colabore con las marcas más populares del mundo para reconocer a un consumidor conocido detrás de un dispositivo desconocido. (en la versión beta, solo para miembros de cooperación de los dispositivos de Experience Cloud). |
