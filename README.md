@@ -1,6 +1,9 @@
 ---
 source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
@@ -10,7 +13,7 @@ Agradecemos las contribuciones de nuestra comunidad, así como de los empleados 
 
 ## Código de conducta de Adobe Open Source
 
-Este proyecto ha adoptado el [código de conducta de Adobe Open Source](code-of-conduct.md) o el [código de conducta de .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obtener más información, consulte el artículo [Contribución](contributing.md).
+Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-conduct.md) o el [Código de conducta de .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obtener más información, consulte el artículo [Contribución](contributing.md).
 
 ## Acerca de las contribuciones al contenido de Adobe
 
@@ -42,7 +45,7 @@ Si es redactor técnico, administrador de programa o desarrollador del equipo de
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para editar o ramificar el repositorio con el fin de realizar contribuciones importantes.
 
-Consulte la Guía del colaborador de [Adobe Docs para](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) obtener más detalles.
+Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más detalles.
 
 ## Cómo utilizar Markdown para dar formato al tema
 
