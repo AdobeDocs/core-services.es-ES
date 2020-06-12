@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
 
 # Actualizaciones de la documentación: Experience Cloud
 
-Información sobre las actualizaciones de la documentación del producto de Experience Cloud.
+Información acerca de actualizaciones en la documentación de Experience Cloud.
 
 **Actualizado: 19/5/2020**
 
@@ -32,11 +32,11 @@ Se Añadieron las páginas siguientes:
 
 **Actualizado: 10/3/2020**
 
-Se ha actualizado [Validar reenvío](cookies/cookies-first-party.md#validate) de nombres de host en la sección de cookies de origen.
+Se ha actualizado [Validar reenvío de nombres de host](cookies/cookies-first-party.md#validate) en la sección de cookies de origen.
 
-**Actualizado: 20/2/2020**
+**Actualizado: 20/02/2020**
 
-Detalles de usuario de Experience Cloud [de Vista Añadida (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md).
+Se ha añadido la opción [Ver detalles del usuario de Experience Cloud (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Actualizado: 5/09/2018**
 
@@ -88,7 +88,7 @@ Se ha añadido [Activación de las soluciones en los servicios principales](core
 
 **Actualizado: 15/01/2015**
 
-Los usuarios Añadidos de Experience Cloud ahora pueden compartir carpetas con Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte Uso compartido [de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Actualizado: 17/07/2014**
 
