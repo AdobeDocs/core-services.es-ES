@@ -6,8 +6,11 @@ seo-title: Organizaciones y vinculación de cuentas
 solution: Marketing Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Obtenga más información sobre la gestión de organizaciones y la vinculación 
 
 ## Identificación de la organización {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Una organización de ** es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. La mayoría de las veces, una organización es su nombre de compañía. Sin embargo, una compañía puede tener muchas organizaciones.
+Una *organización* de  es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-Además, es posible que deba localizar el identificador de su organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
+Además, es posible que deba localizar el ID de su organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
 
 ![Resultado de los pasos](assets/organization-switch.png)
 
@@ -68,5 +71,5 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Póngase en contacto con el servicio de asistencia](https://helpx.adobe.com/marketing-cloud/contact-support.html)de Adobe.
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 * Acceder a la solución mediante el inicio de sesión estándar mientras el problema se soluciona.
