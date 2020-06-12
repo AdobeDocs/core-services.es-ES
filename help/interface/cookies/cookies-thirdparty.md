@@ -2,17 +2,20 @@
 description: El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
 keywords: cookies;privacy
 seo-description: El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
-seo-title: Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes
+seo-title: Efecto de los cambios en el soporte para las cookies de terceros en los clientes
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
-title: Cómo afectan los cambios en el soporte para las cookies de terceros a los clientes
+title: Efecto de los cambios en el soporte para las cookies de terceros en los clientes
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '368'
+ht-degree: 100%
 
 ---
 
 
-# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Efecto de los cambios en el soporte para las cookies de terceros en los clientes {#how-changes-to-third-party-cookie-support-impacts-customers}
 
 El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
 
@@ -21,7 +24,7 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
 ## Adobe Analytics y Adobe Target
 
 * Los clientes con una [implementación propia](/help/interface/cookies/cookies-first-party.md) no se verán muy afectados.
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* Los clientes que no utilizan implementación propia pueden implementar el [Servicio Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) para almacenar la cookie de ID como cookie de origen sin una implementación propia.
 
 ## Adobe Experience Manager
 
@@ -40,12 +43,12 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
 
 * Mostrar:
 
-   * La visualización de remercadotecnia hoy depende completamente del uso de cookies de terceros.
+   * La visualización de remarketing hoy depende completamente del uso de cookies de terceros.
    * La visualización también depende en gran medida de la disponibilidad de varias cookies de red de publicidad para la sincronización.
    * Se desconoce el impacto global. Sin embargo, en el primer punto, la visualización se ve más afectada que en otros servicios.
    * Estamos trabajando internamente y con nuestros socios publicitarios para evaluar todo el impacto en el envío publicitario.
 
 * Social:
 
-   * No hay impacto en las publicidades de mercado de Facebook.
+   * No hay impacto en la publicidad de Facebook.
    * Facebook Exchange (FBX) se verá afectado de la misma manera que el envío de anuncios en pantalla.
