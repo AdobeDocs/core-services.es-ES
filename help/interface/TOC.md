@@ -8,14 +8,14 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # Guía del usuario de los servicios principales {#interface}
 
-+ [Documentación de producto y Experience Cloud](experience-cloud.md)
++ [Documentación del producto y de Experience Cloud](experience-cloud.md)
 + Servicios principales en Experience Cloud {#about-core-services}
    + [Información general de los servicios principales](core-services-landing.md)
    + [Activación de las soluciones en los servicios principales](core-services/core-services.md)
@@ -23,7 +23,7 @@ ht-degree: 67%
    + [Acerca de los nuevos nombres de las nubes en Experience Cloud](solutions-core-services.md)
 + [Integraciones de Experience Cloud](marketing-cloud-integrations.md)
 + Cookies de Experience Cloud {#ec-cookies}
-   + [Información general sobre las cookies de Experience Cloud](cookies/cookies-privacy.md)
+   + [Descripción general de las cookies de Experience Cloud ](cookies/cookies-privacy.md)
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
@@ -31,14 +31,14 @@ ht-degree: 67%
    + [Cookies de Data Workbench](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
-   + [[!DNL Target] cookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] Cookies de ](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] Cookies de ](cookies/cookies-snp.md)
+   + [[!DNL Target] Cookies de ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
-   + [Cómo los cambios en la compatibilidad con cookies de terceros afectan a los clientes](cookies/cookies-thirdparty.md)
+   + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
    + [Administrar la identidad y los productos de los usuarios de Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [Vista de los detalles del usuario de Experience Cloud (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Ver los detalles del usuario de Experience Cloud (Herramienta de administración)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Preguntas frecuentes](admin-getting-started/faq.md)
    + [Inicio de sesión y administración de la configuración de perfil](admin-getting-started/getting-started-experience-cloud.md)
    + [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
@@ -48,8 +48,8 @@ ht-degree: 67%
    + [Guía del usuario de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
    + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Descripción general de los recursos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
++ Recursos de Experience Cloud {#assets}
+   + [Descripción general de los recursos de Experience Cloud ](experience-cloud-assets/experience-cloud-assets.md)
    + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestionar usuarios de Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Uso compartido de una carpeta de recursos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
@@ -62,7 +62,7 @@ ht-degree: 67%
    + [Descripción general de las audiencias](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
-+ Atributos del cliente en Experience Cloud {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [Información general sobre Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para Atributos del cliente](attributes/crs-data-file.md)
@@ -74,7 +74,7 @@ ht-degree: 67%
    + [Apoyo al Reglamento general de protección de datos](attributes/gdpr.md)
    + [Compatibilidad con la Ley de privacidad de los consumidores de California](attributes/ccpa.md)
    + [Consideraciones de privacidad: Atributos del cliente](attributes/privacy-mac.md)
-+ Notas de la versión para Experience Cloud {#release-notes}
++ Notas de la versión de Experience Cloud {#release-notes}
    + [Novedades de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html)
    + [Notas de versión acumuladas](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
