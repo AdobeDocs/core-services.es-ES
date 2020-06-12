@@ -1,20 +1,23 @@
 ---
-description: El Administrador de Audiencias depende de unas pocas cookies simples para realizar diferentes funciones. Éstos incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección lista y describe las distintas cookies configuradas por el Administrador de Audiencias.
+description: Audience Manager depende de una serie de cookies simples para realizar diferentes funciones. Estas incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección incluye y describe las distintas cookies configuradas por Audience Manager.
 keywords: cookies
-seo-description: El Administrador de Audiencias depende de unas pocas cookies simples para realizar diferentes funciones. Éstos incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección lista y describe las distintas cookies configuradas por el Administrador de Audiencias.
+seo-description: Audience Manager depende de una serie de cookies simples para realizar diferentes funciones. Estas incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección incluye y describe las distintas cookies configuradas por Audience Manager.
 seo-title: Cookies de Audience Manager
 solution: Marketing Cloud,Audience Manager
 title: Cookies de Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
 
-# Cookies de Audience Manager{#audience-manager-cookies}
+# Cookies de Audience Manager {#audience-manager-cookies}
 
-El Administrador de Audiencias depende de unas pocas cookies simples para realizar diferentes funciones. Éstos incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección lista y describe las distintas cookies configuradas por el Administrador de Audiencias.
+Audience Manager depende de una serie de cookies simples para realizar diferentes funciones. Estas incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección incluye y describe las distintas cookies configuradas por Audience Manager.
 
 **Cookie demdex**
 
@@ -32,14 +35,14 @@ El Administrador de Audiencias depende de unas pocas cookies simples para realiz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un identificador único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un identificador único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Otros atributos</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">Tiempo de vida: la cookie <span class="wintitle">demdex</span> tiene un intervalo de duración (TTL) de 180 días. El TTL se restablece a 180 días tras cada interacción del usuario con un sitio web del socio. La cookie caduca si un usuario no regresa a su sitio dentro del intervalo TTL. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. En esto caso, el TTL de la cookie se establece en 10 años. </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">Tiempo de vida: la cookie <span class="wintitle">demdex</span> tiene un intervalo de duración (TTL) de 180 días. El TTL se restablece a 180 días tras cada interacción del usuario con un sitio web del socio. La cookie expira si un usuario no regresa a su sitio dentro del intervalo TTL. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Exclusión: <span class="keyword">Audience Manager</span> restablece la cookie con una cadena <span class="codeph">Do Not Adobe Target</span> si un usuario se excluye de la recopilación de datos. En esto caso, el TTL de la cookie se establece en 10 años. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ El Administrador de Audiencias depende de unas pocas cookies simples para realiz
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
    <td colname="col2"> <p>La cookie <span class="wintitle">dextp</span> contiene un nombre de proveedor de datos o ID y una marca de hora UNIX UTC como cadenas delimitadas por una barra vertical. En los ejemplos, <i>la cursiva</i> representa un marcador de posición variable. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">Estilo antiguo: <span class="codeph"> <span class="varname"> nombre del proveedor de datos aquí </span>-1490307822097| <span class="varname"> nombre del proveedor de datos aquí </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">Estilo nuevo: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>Consulte también la sección de sintaxis de datos dextp a continuación. </p> </td> 
   </tr> 
@@ -72,7 +75,7 @@ El Administrador de Audiencias depende de unas pocas cookies simples para realiz
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Duración: la cookie <span class="wintitle">dextp</span> tiene un intervalo de duración (TTL) de 180 días. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. En esto caso, el TTL de la cookie se establece en 10 años. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Exclusión: <span class="keyword">Audience Manager</span> restablece la cookie con una cadena <span class="codeph">Do Not Adobe Target</span> si un usuario se excluye de la recopilación de datos. En esto caso, el TTL de la cookie se establece en 10 años. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -91,23 +94,23 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Primero o Segundo</b> </p> </td> 
+   <td colname="col1"> <p> <b>Primero o segundo</b> </p> </td> 
    <td colname="col2"> <p>La posición del nombre o ID del proveedor de datos varía en función de si la cookie utiliza el formato de estilo nuevo o antiguo. </p> <p> <b>Formato de estilo antiguo:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntax: <span class="codeph"> <span class="varname"> data provider name </span> - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Sintaxis: <span class="codeph"><span class="varname"> nombre del proveedor de datos </span> - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">Ejemplo: <span class="codeph">dataProvider1 – 1490307822038 </span> </li> 
      </ul> </p> <p>La cookie de estilo antigua identifica al proveedor de datos con un nombre legible. </p> <p> <b>Nuevo formato de estilo:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntax: <span class="codeph"> <span class="varname"> data provider ID </span> - 1|2 - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">Sintaxis: <span class="codeph"><span class="varname"> ID del proveedor de datos </span> - 1 2 - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Ejemplo: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
-     </ul> </p> <p>La nueva cookie de estilo: </p> <p> 
+     </ul> </p> <p>Nueva cookie de estilo: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">Reemplaza el nombre legible del proveedor de datos por un ID numérico. </li> 
       <li id="li_28F1E2DB24904E53BE9718AD788CE61E">Identifica el tipo de llamada con ID 1 o ID 2. El ID 1 representa una llamada de sincronización de ID. El ID 2 representa una llamada obsoleta que ya no se utiliza. No debería ver varias cookies dextp (o ninguna) con el ID 2. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Último</b> </p> </td> 
+   <td colname="col1"> <p> <b>Última posición</b> </p> </td> 
    <td colname="col2"> <p>La última posición contiene una marca de tiempo UNIX UTC. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,7 +128,7 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">destino </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">destino </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
@@ -140,7 +143,7 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Tiempo de vida: la cookie <span class="wintitle">dst</span> tiene un intervalo de duración (TTL) de 180 días. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Exclusión: <span class="keyword">Audience Manager</span> restablece la cookie con una cadena <span class="codeph">Do Not Adobe Target</span> si un usuario se excluye de la recopilación de datos. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
