@@ -6,21 +6,24 @@ seo-title: Cookies de Target
 solution: Marketing Cloud,Analytics,Target,Social
 title: Cookies de Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
 
-# Adobe Target Cookies{#target-cookies}
+# Cookies de Adobe Target {#target-cookies}
 
-Adobe Destinatario utiliza cookies para ofrecer a los operadores de sitios web la capacidad de probar qué contenido y ofertas en línea son más relevantes para los visitantes.
+Adobe Target usa cookies para ofrecer a los administradores de sitios Web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
 
 Puede cambiar esta configuración si es necesario, con la excepción de la duración de la cookie. Póngase en contacto con el representante de la cuenta cuando cambie la configuración de la cookie.
 
 >[!NOTE]
 >
->Los usuarios de Adobe Destinatario también pueden crear cookies de terceros personalizadas.
+>Los usuarios de Adobe Target también pueden crear cookies de terceros personalizadas.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,7 +43,7 @@ Puede cambiar esta configuración si es necesario, con la excepción de la durac
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio del servidor </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, con el código de cliente de su cuenta de Adobe Destinatario. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, que usa el código de cliente para la cuenta de Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Duración de la cookie </p> </td> 
@@ -53,7 +56,7 @@ Puede cambiar esta configuración si es necesario, con la excepción de la durac
 >
 >Si alguno de los nombres de dominio incorpora un código de país (como [!DNL mycompany.co.uk]), colabore con los servicios de cliente para configurar [!DNL mbox.js] de forma que lo admita.
 
-La cookie conserva una serie de valores para administrar la forma en que sus visitantes experimentan las campañas de Adobe Destinatario:
+La cookie conserva una serie de valores para administrar la forma en que los visitantes viven las campañas de Adobe Target:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
@@ -65,7 +68,7 @@ La cookie conserva una serie de valores para administrar la forma en que sus vis
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>ID exclusivo para una sesión de usuario. De forma predeterminada, dura 30 minutos. </p> </td> 
+   <td colname="col2"> <p>ID exclusivo para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
