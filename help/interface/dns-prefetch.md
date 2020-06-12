@@ -5,8 +5,11 @@ seo-title: Uso de la precarga de DNS con diferentes soluciones y servicios
 solution: Experience Cloud
 title: Uso de la precarga de DNS con diferentes soluciones y servicios
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Implemente la precarga de DNS para ayudar a reducir el tiempo de la carga de las
 
 ## Explicación de la precarga de DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página Web con sus correspondientes direcciones IP. El proceso de recuperación previa inicio cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo a en el que puede hacer clic en `www.adobe.com`. When a browser loads this page, it uses the [DNS system](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) to look up the linked domain name and resolve it to a corresponding numeric IP address. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de recuperación previa de DNS es transparente para los usuarios.
+Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página web con sus correspondientes direcciones IP. El proceso de precarga comienza cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo a en el que puede hacer clic en `www.adobe.com`. Cuando un navegador carga esta página, utiliza el [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) para buscar el nombre de dominio vinculado y resolverlo en una dirección IP numérica correspondiente. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de precarga de DNS es transparente para los usuarios.
 
 ## Precarga de DNS y soluciones de Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -38,7 +41,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servicio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`insertar ID de socio aquí`*.demdex.net">`
+* **Servicio de Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`insertar ID de socio aquí`*.demdex.net">`
 
 * **Dynamic Tag Manager** (DTM): No obligatorio. Los vínculos DTM están disponibles en cuanto la página se carga.
 
@@ -52,5 +55,5 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 >[!MORE_LIKE_THIS]
 >
->* [Recuperación previa de DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
+>* [Precarga de DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
