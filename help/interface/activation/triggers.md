@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 80%
 
 ## Información general sobre Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-Los activadores le permiten identificar, definir y monitorear comportamientos clave de los consumidores y, a continuación, generar una comunicación entre soluciones para volver a captar visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+Triggers le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias soluciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
 
-* Configurar la remercadotecnia rápida para abandonos del carro de compras o abandonos del carro de compras con productos eliminados
+* Configure el remarketing rápido para abandonos del carro de compras o abandonos del carro de compras con productos eliminados
 * Formularios y aplicaciones incompletos
 * Cualquier acción o secuencia de acciones en el sitio
 
@@ -55,17 +55,17 @@ Cree un activador y configure las condiciones del activador. Por ejemplo, puede 
    |--- |--- |
    | Nombre | Nombre alternativo de este Trigger. |
    | Descripción | Descripción de este Trigger, el uso que le dará, etc. |
-   | Grupo de informes | El grupo [de](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) informes de Analytics utilizado para este activador. Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
-   | Visit must include<br>Visit must not include<br>Trigger after no action<br>Include meta data | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
+   | Grupo de informes | El [grupo de informes](https://docs.adobe.com/content/help/es-ES/analytics/implementation/analytics-basics/ref-reports-report-suites.html) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
+   | La visita debe incluir<br>La visita no debe incluir<br>un Trigger sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
    | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador Y, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
-   | Inicio de una nueva sesión después de | Cree un Trigger para los eventos de inicio y fin de sesión. |
+   | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
 5. Haga clic en **[!UICONTROL Guardar]**.
-6. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
+6. Utilice Triggers para [realizar remarketing en tiempo real](https://helpx.adobe.com/es/support/campaign/standard.html) en [!DNL Adobe Campaign]
 
 ### Ejemplos de Triggers
 
-Ejemplos de activadores de Experience Cloud:
+Ejemplos de Triggers de Experience Cloud:
 
 #### Trigger de abandono del carro de compras
 
