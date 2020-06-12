@@ -6,13 +6,16 @@ seo-title: Cookies de Analytics
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies de Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
 
-# Cookies de Analytics{#analytics-cookies}
+# Cookies de Analytics {#analytics-cookies}
 
 Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
 
@@ -43,7 +46,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript configura y lee esta cookie para determinar si las cookies están habilitadas (simplemente se configuran en &quot;True&quot;) |
+| Información almacenada | JavaScript se encarga de configurar y leer esta cookie para determinar si las cookies están habilitadas (si tienen el valor “True”) |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página |
@@ -53,7 +56,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad ClickMap o la funcionalidad de mapa de Actividad están habilitadas; contiene información sobre el vínculo anterior en el que el usuario hizo clic |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad ClickMap o la funcionalidad de Activity Map están habilitadas. Además, contiene información sobre el vínculo anterior en el que el usuario hizo clic |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página |
@@ -79,7 +82,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 |--- |--- |
 | Información almacenada | Marca de fecha y hora del ID de visitante único de reserva |
 | Vencimiento | 2 años |
-| Uso | Esta cookie se usa para identificar a un visitante único  if the standard  `s_vi` cookie is unavailable due to third-party cookie restrictions. No se utiliza en implementaciones que utilizan cookies de origen. |
+| Uso | Esta cookie se usa para identificar a un visitante único  si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se utiliza en implementaciones que utilizan cookies de origen. |
 | Ubicación | Esta cookie se almacena en su dominio como una cookie de origen. |
 | Tamaño | 33 bytes |
 
@@ -89,16 +92,16 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 
 | Cookie (establecida por) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http Response) | No | Sí cuando SameSite es &quot;Ninguno&quot; y la conexión utiliza HTTPS | &quot;Lax&quot; de forma predeterminada al utilizar CNAME. &quot;Ninguno&quot; al usar 2o7.net u omtrdc.net. |
-| s_ecid (http Response) | No | No | &quot;Laxo&quot; |
-| s_fid (Javascript) | No | No | Desdefinido |
-| s_cc (Javascript) | No | No | Desdefinido |
-| s_sq (Javascript) | No | No | Desdefinido |
+| s_vi   (respuesta http) | No | Sí cuando SameSite tiene el valor “None” y la conexión utiliza HTTPS | “Lax” de forma predeterminada al utilizar CNAME. “None” al usar 2o7.net u omtrdc.net. |
+| s_ecid   (respuesta http) | No | No | &quot;Laxo&quot; |
+| s_fid (Javascript) | No | No | Sin configurar |
+| s_cc (Javascript) | No | No | Sin configurar |
+| s_sq (Javascript) | No | No | Sin configurar |
 
->[!NOTE] Si se utiliza un único CNAME para rastrear varios dominios o propiedades, SameSite debe configurarse en &quot;None&quot; para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
+>[!NOTE] Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
 ## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formulario, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
+Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
 Las variables de conversión (eVarX) pasadas en una petición de imagen sin JavaScript (como, por ejemplo, un código ubicado en un correo electrónico) solo se atribuirán correctamente si el cliente de correo electrónico y el navegador Web comparten el mismo espacio de cookie.
