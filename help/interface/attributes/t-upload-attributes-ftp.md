@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 61%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP Atributos del cliente se pueden realizar mediante FTP o SFTP.
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://docs.adobe.com/help/es-ES/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Para cargar el archivo de datos a través de FTP**
 
@@ -36,12 +36,12 @@ Las cargas de archivos al sitio FTP Atributos del cliente se pueden realizar med
 
    Asegúrese de haber iniciado sesión en su sitio FTP en [!DNL ftp.adobe.com/<sftpname>].
 
-1. Click **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Carga de archivo]**.
 
 1. Cargue un archivo `.fin` para que su archivo se pueda recuperar.
 
    El tipo de archivo `.fin` lo crea el usuario e indica que la carga ha finalizado. Puede ser un archivo del bloc de notas en blanco. Por ejemplo, si carga [!DNL crs123.csv], también carga [!DNL crs123.fin].
 
-   Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta denominada **procesado**.
+   Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta denominada **Procesados**.
 
    See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
