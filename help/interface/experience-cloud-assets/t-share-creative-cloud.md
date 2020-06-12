@@ -6,8 +6,11 @@ seo-title: Uso compartido de una carpeta de recursos de Experience Cloud
 solution: Experience Cloud
 title: Uso compartido de una carpeta de recursos de Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Comparta una carpeta de recursos de Experience Cloud con usuarios de Creative Cl
 
    ![](assets/asset_comment_cc.png)
 
-   En Experience Cloud, haga clic en una imagen y, a continuación, haga clic en el icono de línea temporal para agregar un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y Experience Cloud.
+   En Experience Cloud, haga clic en una imagen y, a continuación, haga clic en el icono de cronología para agregar un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y Experience Cloud.
 
    ![](assets/asset_comment_mac.png)
 
@@ -52,7 +55,7 @@ Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja
 Formas adicionales de utilizar un recurso compartido incluyen:
 
 * Utilizar recursos en el [!UICONTROL Selector de recursos] en [!DNL Adobe Social] para publicaciones sociales.
-* Cargue o intercambie recursos en la biblioteca [de](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) Ofertas en [!DNL Adobe Target] el caso de imágenes en actividades.
+* Cargue o intercambie recursos de la [biblioteca de ofertas](https://docs.adobe.com/help/es-ES/target/using/experiences/offers/manage-content.html) en [!DNL Adobe Target] para imágenes en las actividades.
 
 Después de compartir una carpeta con Creative Cloud, verá en la misma el logotipo de Creative Cloud.
 
@@ -60,6 +63,6 @@ Después de compartir una carpeta con Creative Cloud, verá en la misma el logot
 
 Ayuda relacionada:
 
-* [Ayuda de Creative Cloud: Gestionar y sincronizar archivos](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Ayuda de Creative Cloud: colaborar con otros](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Ayuda de Creative Cloud: Preguntas más frecuentes sobre colaboración](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Ayuda de Creative Cloud: Gestionar y sincronizar archivos](https://helpx.adobe.com/es/creative-cloud/help/sync-files.html)
+* [Ayuda de Creative Cloud: Colaborar con otros usuarios](https://helpx.adobe.com/es/creative-cloud/help/collaboration.html)
+* [Ayuda de Creative Cloud: Preguntas frecuentes sobre colaboración](https://helpx.adobe.com/es/creative-cloud/help/collaboration-faq.html)
