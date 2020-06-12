@@ -6,8 +6,11 @@ seo-title: Crear una audiencia
 solution: Experience Cloud
 title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '494'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 Obtenga más información sobre cómo utilizar las reglas de atributos para crear una audiencia y definir una compuesta en Experience Cloud.
 
-Este artículo le ayuda a comprender cómo:
+Este artículo le ayuda a lo siguiente:
 
 * Crear una audiencia
 * Crear una regla.
@@ -38,7 +41,7 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. En [!DNL Experience Cloud], en [!DNL Experience Platform], haga clic en **[!UICONTROL People]** > **[!UICONTROL Biblioteca de audiencias].**
 1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
 
    ![Resultado de los pasos](assets/audience_create_new.png)
@@ -63,7 +66,7 @@ En [!UICONTROL Reglas], defina las selecciones de atributos de *`Home & Garden`*
 
 * **[!UICONTROL Fuente de atributos:]** Datos de Analytics sin procesar
 * **[!UICONTROL Grupo de informes:]** Grupo de informes 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
+* Dimensión = **[!UICONTROL Tienda (Merch) (v6)]** > **[!UICONTROL igual a]** > **[!UICONTROL Hogar y jardín]**
 
 ![](assets/home_garden.png)
 
@@ -78,13 +81,13 @@ Para comparar, podría agregar una regla *O* (OR) para ver todos los visitantes 
 
 ![](assets/audiences_rule_patio.png)
 
-La regla resultante es una audiencia definida que incluye a los usuarios de Chrome y Safari que visitaron Home &amp; Garden. El segmento Patio y muebles proporciona una perspectiva adicional de todos los visitantes que visitan esa sección del sitio.
+La regla resultante es una audiencia definida que incluye a los usuarios de Chrome y Safari que visitaron la sección Hogar y jardín. El segmento Patio y muebles proporciona una perspectiva adicional de todos los visitantes que visitan esa sección del sitio.
 
 ![](assets/defined_audience.png)
 
 * **Estimación histórica:** (Círculo con puntos) Representa reglas creadas según datos de [!DNL Analytics].
-* **Audiencia real:** (Círculo sólido) Cualquier regla creada que tenga 30 días de datos desde el Administrador de Audiencias. Cuando los datos del Administrador de Audiencias llegan a los 30 días, la línea se vuelve sólida y representa los números reales.
+* **Audiencia real:** (Círculo sólido) cualquier regla creada que tenga 30 días de datos de Audience Manager. Cuando los datos de Audience Manager llegan a los 30 días, la línea se vuelve sólida y representa los números reales.
 
-Una vez que la recopilación de datos se completa para el período especificado, los círculos se combinan para mostrar una audiencia definida.
+Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar una audiencia definida.
 
-Una vez guardada la audiencia, está disponible para otras soluciones. Por ejemplo, puede incluir una audiencia compartida en una actividad de Adobe Destinatario.
+Una vez guardada la audiencia, está disponible para otras soluciones. Por ejemplo, puede incluir una audiencia compartida en una actividad de Adobe Target.
