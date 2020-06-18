@@ -6,11 +6,11 @@ seo-title: Efecto de los cambios en el soporte para las cookies de terceros en l
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Efecto de los cambios en el soporte para las cookies de terceros en los clientes
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
 ## Adobe Analytics y Adobe Target
 
 * Los clientes con una [implementación propia](/help/interface/cookies/cookies-first-party.md) no se verán muy afectados.
-* Los clientes que no utilizan implementación propia pueden implementar el [Servicio Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) para almacenar la cookie de ID como cookie de origen sin una implementación propia.
+* Los clientes que no utilizan implementación propia pueden implementar el [Servicio Experience Platform ID](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/implementation-guides.html) para almacenar la cookie de ID como cookie de origen sin una implementación propia.
 
 ## Adobe Experience Manager
 
@@ -32,7 +32,7 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
 
 ## Adobe Social
 
-* Social no se vería afectado siempre que el cliente tenga la versión más reciente del código.
+* Social no se vería afectado mientras el cliente tenga la versión más reciente del código.
 
 ## Adobe Advertising Cloud
 
