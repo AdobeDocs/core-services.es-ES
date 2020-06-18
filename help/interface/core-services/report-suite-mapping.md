@@ -4,11 +4,11 @@ seo-description: Obtenga información sobre cómo asignar uno o varios grupos de
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignación de un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Asignación de grupos de informes]**
+1. Vaya a Grupos de informes para la administración de datos en [!DNL Analytics] > **[!UICONTROL Administración]** > Administración **[!UICONTROL de datos]** (consulte Configuración de la administración de datos del grupo de informes de [Vista/administración)](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, haga clic en **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
