@@ -5,15 +5,19 @@ seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
 
 # Asignación de grupos de informes a una organización {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>La funcionalidad de asignación de grupos de informes quedará obsoleta en noviembre de 2020. Asigne todos los grupos de informes sobresalientes en >preparación para esto. Póngase en contacto con el servicio de atención al cliente si tiene alguna pregunta.
 
 Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
 
