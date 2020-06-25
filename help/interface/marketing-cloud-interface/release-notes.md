@@ -6,11 +6,11 @@ seo-title: Notas de versión acumuladas
 solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Para obtener una lista de actualizaciones de documentación, consulte [Experienc
 
 Para ver las notas de la versión de todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
 
-## Abril - 2020
+## Abril de 2020
 
 * La página [!UICONTROL Fuente] de Experience Cloud estaba en desuso. (EXC-8505)
 * La página de inicio de sesión de Experience Cloud se ha actualizado para incluir detalles de las marcas. (EXC-10747)
 
-## Febrero - 2020
+## Febrero de 2020
 
 | Función | Descripción |
 | -----------| ---------- |
@@ -141,7 +141,7 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 >
 >Microsoft va a [dejar de ofrecer asistencia](https://www.microsoft.com/es-es/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
 
-## Versión 15.10: 14 de octubre de 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Versión 15.10: 14 de octubre de 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problemas conocidos**
 
@@ -150,24 +150,24 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 
 ## Versión 15.9: 10 de septiembre de 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Se ha corregido un problema de rendimiento de la API de Audience Manager que provocaba tiempos de espera intermitentes al cargar datos de Atributos del cliente. (MAC-26305)
-* Se ha corregido un problema que impedía a los usuarios agregar hasta 200 atributos de cliente a una suscripción. (MAC-26188)
+* Se ha corregido un problema de rendimiento de la API de Audience Manager que provocaba agotamientos intermitentes del tiempo de espera al cargar datos de los Atributos del cliente. (MAC-26305)
+* Se ha corregido un problema que impedía a los usuarios añadir un máximo de 200 Atributos del cliente a una suscripción. (MAC-26188)
 * Se ha corregido un problema con la biblioteca de audiencias que impedía compartir audiencias desde la segmentación de Analytics. Este problema hacía que se mostrara “Recopilación de datos” (0 audiencias). Para evitar este problema, Adobe recomienda mantener el tamaño de los segmentos por debajo de los 50 000 miembros de la audiencia por segmento. (MAC-25788)
-* Se ha corregido un problema ya conocido en la página Atributos de cliente - Editar esquema que daba lugar a la aparición de un error Según el contenido al cambiar un nombre para mostrar. (MAC-25589, AN-103834)
+* Se ha corregido un problema ya conocido en la página Atributos del cliente: Editar esquema que daba lugar a la aparición de un error Según el contenido al cambiar un nombre para mostrar. (MAC-25589, AN-103834)
 
-## Versión 15.7: 22 de julio de 2015  {#section_2683A152176944E48EF6C943892975B7}
+## Versión 15.7: 22 de julio de 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* Se ha corregido un problema que impedía que las descripciones de atributos especificadas en la página Vista/Editar Esquema (en Atributos del cliente) se actualizaran en los informes de Analytics. (MAC-25985)
+* Se ha corregido un problema que impedía que las descripciones de atributos especificadas en la página Vista/Editar esquema (en atributos del cliente) se actualizaran en los informes de Analytics. (MAC-25985)
 * Se ha corregido un problema que impedía que se representaran las miniaturas de los recursos cargados. (MAC-25863)
 * Se ha corregido un problema que impedía que los nuevos segmentos creados en Reports &amp; Analytics estuvieran disponibles en Experience Cloud Audiences. (MAC-25817)
 * Se ha corregido un problema que impedía compartir audiencias desde Analytics cuando se utiliza el servicio de ID de visitante. (MAC-25788, MAC-25747)
-* Compatibilidad Añadida con caracteres multibyte en Atributos del cliente. (MAC-25552)
+* Ahora se admiten caracteres multibyte en los Atributos del cliente. (MAC-25552)
 
 **Problema conocido**
 
 Un problema conocido provoca la creación de cuentas autogeneradas duplicadas en Audience Manager y su vinculación automática con la identidad de un usuario en Experience Cloud. Este problema se produce si intenta navegar a Audience Manager antes de vincular las cuentas. Adobe recomienda vincular las cuentas de Audience Manager a Experience Cloud antes de navegar a Audience Manager. (MAC-25640)
 
-## Versión 15.6.1: 11 de junio de 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Versión 15.6.1: 11 de junio de 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 No hay información disponible
 
@@ -185,7 +185,7 @@ No hay información disponible
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>Los menús de navegación de la izquierda se han actualizado y organizado para proporcionar acceso a todos los servicios y soluciones principales. Los cambios más destacables incluyen: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las   selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selección de menú <span class="term"> Exchange </span> se ha trasladado del menú desplegable Ayuda al carril de navegación izquierdo. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado <span class="term">Soluciones</span>. Podrá iniciar todas las soluciones desde la mitad inferior del carril de navegación. </li> 
     </ul> </td> 
@@ -239,7 +239,7 @@ No hay información disponible
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Atributos del cliente </p> </td> 
-   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de audiencia en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos de cliente</a>. </p> <p> Para obtener información sobre la modernización de las soluciones para los servicios principales, consulte <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las soluciones para los servicios principales</a>. </p> </td> 
+   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de audiencia en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos del cliente</a>. </p> <p> Para obtener información sobre la modernización de las soluciones para los servicios principales, consulte <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las soluciones para los servicios principales</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -278,12 +278,12 @@ No hay información disponible
 Correcciones:
 
 * Se ha mejorado el flujo de trabajo de invitación de correo electrónico del usuario para el aprovisionamiento de cuentas.
-* Se ha corregido un problema de carpeta de recursos que impedía [!DNL Experience Cloud]que[!DNL Adobe Campaign] se mostraran jerarquías de carpeta idénticas.
+* Se ha corregido un problema de carpeta de recursos que impedía [!DNL Experience Cloud] que [!DNL Adobe Campaign] se mostraran jerarquías de carpeta idénticas.
 * Se ha corregido un problema que impedía eliminar audiencias que formaban parte de las actividades de [!DNL Target] desactivadas.
 * Se ha corregido un problema que impedía que el icono Agregar (más) se mostrase en [!UICONTROL Reglas] en la página [!UICONTROL Crear nueva audiencia].
 * Se ha mejorado la compatibilidad de la interfaz de Experience Cloud con Internet Explorer 9.
 
-## Versión 15.1.1: 15 de enero de 2015  {#section_F1A352E928AF432E94CC0A289C345184}
+## Versión 15.1.1: 15 de enero de 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido de [!DNL Adobe Experience Cloud].
 
@@ -297,7 +297,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Acceso de solo lectura. </p> </td> 
-   <td colname="col2"> <p>Acceso de solo lectura. </p> </td> 
+   <td colname="col2"> <p>Los administradores ahora pueden otorgar acceso de solo lectura a los usuarios no administradores. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -323,7 +323,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Algunos usuarios pueden tener problemas para crear una audiencia dentro de un grupo de informes de Analytics después de habilitar las audiencias compartidas.
 * Es posible que algunos usuarios tengan problemas al cargar recursos en un tablero.
 
-## Versión 14.11.1: 13 de noviembre de 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Versión 14.11.1: 13 de noviembre de 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problemas conocidos:
 
@@ -336,7 +336,7 @@ Problemas conocidos:
 * El rendimiento de la interfaz de [!DNL Experience Cloud] se puede reducir cuando muchos usuarios la utilizan en paralelo.
 * La sincronización de Adobe Experience Manager con Creative Cloud no funciona.
 
-## Versión 14.10.1: 16 de octubre de 2014  {#section_E3A0F4423B814707AA3745E083500835}
+## Versión 14.10.1: 16 de octubre de 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
 Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido de [!DNL Adobe Experience Cloud].
 
@@ -449,7 +449,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 
 Ninguna en esta versión.
 
-## Versión 14.6.1: 19 de junio de 2014  {#marketing_cloud_interface}
+## Versión 14.6.1: 19 de junio de 2014 {#marketing_cloud_interface}
 
 Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido de [!DNL Adobe Experience Cloud].
 
@@ -477,7 +477,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * La carga de archivos permite más tipos de archivo que el método de arrastrar y soltar. Para obtener los mejores resultados, realice la carga mediante Assets.
 * Los vínculos de [!DNL Search&Promote] no están disponibles en la página [!UICONTROL Organización y acceso a productos].
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
-* Algunos usuarios no pueden vincular su cuenta de gestión de audiencias con su cuenta de [!DNL Experience Cloud].
+* Algunos usuarios no pueden vincular su cuenta de gestión de público con su cuenta de [!DNL Experience Cloud].
 * Su sesión se cerrará tras 15 minutos de inactividad. Además, cuando se cierre la sesión en una ubicación, también se cerrará la sesión de Experience Cloud.
 * Puede que algunos usuarios de Exchange encuentren sus nombres en los comentarios como un ID de cadena largo en lugar de sus nombres
 
@@ -485,7 +485,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 
 * Se ha corregido un problema que impedía la carga de vídeo en las aplicaciones.
 
-## Versión 14.5.1: 22 de mayo de 2014  {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
+## Versión 14.5.1: 22 de mayo de 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
@@ -536,7 +536,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los usuarios no podían compartir archivos de PowerPoint en tableros.
 * Algunos usuarios tenían una presentación visual peor en Internet Explorer 10 que en otros exploradores.
 
-## Versión 14.4.1: 22 de abril de 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Versión 14.4.1: 22 de abril de 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -578,7 +578,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
 * Los filtros aplicados en los informes de tendencias de Analytics no se aplican a las tarjetas en Experience Cloud.
 * Algunos archivos CSV o de Excel no pueden cargarse en un tablero.
-* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de audiencias con su [!DNL Experience Cloud].
+* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de público con su [!DNL Experience Cloud].
 * Algunos usuarios experimentan un error al compartir segmentos de [!DNL Analytics] en [!DNL Experience Cloud].
 * Es probable que algunos usuarios no puedan explorar las subcarpetas del [!UICONTROL Selector de recursos].
 * Algunos usuarios no pueden compartir sus gadgets de AdLens en [!DNL Experience Cloud].
@@ -617,7 +617,7 @@ La versión 14.3.1 es una versión de mantenimiento que se centra en la velocida
 * Algunos archivos PNG no se pueden representar en una tarjeta.
 * No se puede enviar el comentario de la versión beta.
 
-## Versión 14.2.1: 24 de febrero de 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Versión 14.2.1: 24 de febrero de 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
