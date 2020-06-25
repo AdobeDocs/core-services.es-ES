@@ -6,11 +6,11 @@ seo-title: Validar el esquema
 solution: Experience Cloud
 title: Validar el esquema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ El proceso de validación le permite asignar nombres para mostrar y descripcione
 
 >[!NOTE]
 >
->Al actualizar el esquema después de la validación, se eliminan los atributos del cliente. Consulte [Actualizar el esquema (también elimina los atributos)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Actualizar el esquema tras la validación elimina los Atributos del cliente. Consulte [Actualizar el esquema (también elimina los atributos)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Origen de atributos del cliente]** > **[!UICONTROL Crear un nuevo origen de atributos del cliente]** > **[!UICONTROL Ver/Editar Esquema]**
 
@@ -45,9 +45,9 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Muestra si utiliza una prop o una eVar para cargar los CID. Si estos ID se pasan a Experience Cloud, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.
 
-También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato .csv, con un segundo archivo .fin para indicar que la carga ha finalizado
+También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato .csv, con un segundo archivo .fin para indicar que la carga ha finalizado.
 
-Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://docs.adobe.com/help/es-ES/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) en la ayuda de [!DNL Analytics] para obtener más información.
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la ayuda de [!DNL Analytics] para obtener más información.
 
 * **[!UICONTROL Atributo:]** Lectura de datos de atributo desde un archivo cargado `.csv`.
 
