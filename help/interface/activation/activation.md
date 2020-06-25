@@ -2,15 +2,15 @@
 description: Activation incluye el último producto de administración de etiquetas llamado Experience Platform Launch. Dynamic Tag Management (DTM); y Triggers.
 keywords: core services
 seo-description: Activation incluye el último producto de administración de etiquetas llamado Experience Platform Launch. Dynamic Tag Management (DTM); y Triggers.
-seo-title: 'Activation '
+seo-title: Activation
 solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Para iniciar la Dynamic Tag Management, haga clic en **[!UICONTROL Activation]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Implementación de Adobe Analytics </a> </p> </td> 
-   <td colname="col2"> <p> Instrucciones paso a paso para agregar Adobe Analytics con la Dynamic Tag Management de Adobe </p> </td> 
+   <td colname="col2"> <p> Instrucciones paso a paso para agregar Adobe Analytics con la Dynamic Tag Management de Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guías de implementación para el Servicio de Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>El servicio Experience Cloud ID habilita la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos del cliente, el uso compartido de audiencias y los activadores). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
+   <td colname="col2"> <p>El Servicio de Experience Cloud ID activa la funcionalidad principal en las soluciones de Experience Cloud (incluidos los atributos de los clientes, el uso compartido de audiencias y los activadores). Adobe recomienda expresamente implementar el servicio de ID para aprovechar estas funciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html" format="https" scope="external"> Documentación del producto de la Dynamic Tag Management </a> </p> </td> 
