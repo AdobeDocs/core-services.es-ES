@@ -6,11 +6,11 @@ seo-title: Inicio de sesión y administración de la configuración de perfil
 solution: Experience Cloud
 title: Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Inicie sesión y verifique que se encuentra en la [organización](../admin-getti
 | [Administración de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
 | [Iniciar Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo](https://adminconsole.adobe.com). |
 | [Gestionar usuarios de Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
-| [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que   [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [Asignar grupos de informes](../core-services/core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que [activa Analytics para servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [ID de organización](../admin-getting-started/organizations.md) | El *ID de organización* se encuentra en la parte inferior de la página Administración. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
 
 ## Inicio de sesión en Experience Cloud (usuarios) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
@@ -80,9 +80,9 @@ Puede editar los detalles personales y especificar una [organización](../admin-
 
 ## Habilitar notificaciones {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de Atributos del cliente.
+Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de los Atributos del cliente.
 
-Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]**.![](assets/icon_edit_board.png)
+Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]** ![](assets/icon_edit_board.png).
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
@@ -112,7 +112,7 @@ Puede ordenar la aparición de notificaciones según los tipos de mensajes que c
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## Administración de perfiles y contraseñas  {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## Administración de perfiles y contraseñas {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una organización y una página de aterrizaje predeterminadas.
 
@@ -125,7 +125,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
    En la página Perfil y contraseñas, complete los campos y las opciones en Detalles personales.
 
-## Recuperación de la contraseña  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Recuperación de la contraseña {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navegue a la página de inicio de sesión de su solución.
 1. Haga clic en **[!UICONTROL Contraseña olvidada]**.
