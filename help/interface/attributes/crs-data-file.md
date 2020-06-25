@@ -1,23 +1,23 @@
 ---
-description: Requisitos de archivos de datos y varias fuentes de datos para cargar atributos del cliente en Experience Cloud.
+description: Requisitos de archivos de datos y varios orígenes de datos para cargar Atributos del cliente en Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Requisitos de archivos de datos y varias fuentes de datos para cargar atributos del cliente en Experience Cloud.
-seo-title: Acerca del archivo de datos y las fuentes de datos para Atributos del cliente
+seo-description: Requisitos de archivos de datos y varios orígenes de datos para cargar Atributos del cliente en Experience Cloud.
+seo-title: Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente
 solution: Experience Cloud
-title: Acerca del archivo de datos y las fuentes de datos para Atributos del cliente
+title: Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Acerca del archivo de datos y las fuentes de datos para Atributos del cliente
+# Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente
 
-Requisitos de archivos de datos y varias fuentes de datos para cargar atributos del cliente en Experience Cloud.
+Requisitos de archivos de datos y varios orígenes de datos para cargar Atributos del cliente en Experience Cloud.
 
 Necesitará acceso a CRM o datos similares de su empresa. Los datos que cargue en Experience Cloud deben estar en un archivo `.csv`. Si carga a través de un FTP o sFTP, también debe subir un archivo `.fin`.
 
@@ -39,7 +39,7 @@ Los Atributos del cliente están diseñados para gestionar algunos archivos cada
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Obligatorio) El archivo <span class="filepath">.fin</span> indica al sistema que la carga de datos ha finalizado. El nombre del archivo <span class="filepath">.fin</span> debe concordar con el nombre del archivo <span class="filepath">.csv</span>. </p> <p>Adobe recomienda la creación de un archivo de texto vacío con una extensión <span class="filepath">.fin</span>. Un archivo vacío ahorra espacio y tiempo de carga. </p> <p> <p>Nota: No se permite cambiar el nombre de un archivo <span class="filepath">.fin</span> una vez cargado. El archivo <span class="filepath">.fin</span> debe cargarse de forma independiente y no puede ser un archivo anteriormente cargado con un nombre diferente. </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). Eso es distinto con respecto a otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). </p> <p>El archivo <span class="filepath">.fin</span> no es necesario cuando se utiliza el método de carga de arrastrar y soltar. </p> </td> 
+   <td colname="col2"> <p>(Obligatorio) El archivo <span class="filepath">.fin</span> indica al sistema que la carga de datos ha finalizado. El nombre del archivo <span class="filepath">.fin</span> debe concordar con el nombre del archivo <span class="filepath">.csv</span>. </p> <p>Adobe recomienda la creación de un archivo de texto vacío con una extensión <span class="filepath">.fin</span>. Un archivo vacío ahorra espacio y tiempo de carga. </p> <p> <p>Nota: No se permite cambiar el nombre de un archivo <span class="filepath">.fin</span> una vez cargado. El archivo <span class="filepath">.fin</span> debe cargarse de forma independiente y no puede ser un archivo anteriormente cargado con un nombre diferente. </p> </p> <p>Después de cargar el archivo <span class="filepath">.fin</span> en el FTP de Atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Eso es distinto con respecto a otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). </p> <p>El archivo <span class="filepath">.fin</span> no es necesario cuando se utiliza el método de carga de arrastrar y soltar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> o <span class="filepath">.zip </span> </p> </td> 
@@ -116,11 +116,11 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Requisitos de archivo </p> </td> 
-   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contienen un salto de línea, comillas dobles o comas deben estar entre comillas. </p> <p> Los caracteres de comillas dobles de un campo deben tener un carácter de escape mediante una barra invertida (\). </p> <p> Las columnas en blanco se almacenan como  <span class="term">null</span>. </p> </td> 
+   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contienen un salto de línea, comillas dobles o comas deben estar entre comillas. </p> <p> Los caracteres de comillas dobles de un campo deben tener un carácter de escape mediante una barra invertida (\). </p> <p> Las columnas en blanco se almacenan como <span class="term">null</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios archivos </p> </td> 
-   <td colname="col2"> <p>Al cargar datos de atributos del cliente, si tiene varios archivos que desea cargar en sucesión con rapidez, asegúrese de que el archivo anterior se haya procesado antes de cargar el siguiente archivo, especialmente si dichos archivos son grandes. Puede controlarlo comprobando cuándo se ha movido el archivo anterior a la carpeta procesada o en la que se han producido errores en la cuenta FTP de Atributos del cliente. </p> <p> Dividir un archivo grande en otros más pequeños y enviarlos en sucesión rápida puede ralentizar el procesamiento, a menos que se asegure de que cada archivo se procese completamente antes de enviar el siguiente. </p> </td> 
+   <td colname="col2"> <p>Al cargar datos de atributos del cliente, si tiene varios archivos que desea cargar en sucesión con rapidez, asegúrese de que el archivo anterior se haya procesado antes de cargar el siguiente archivo, especialmente si dichos archivos son grandes. Puede monitorizar esto si comprueba cuándo se movió el archivo anterior a la carpeta procesada o de error de la cuenta FTP de Atributos del cliente. </p> <p> Dividir un archivo grande en otros más pequeños y enviarlos en sucesión rápida puede ralentizar el procesamiento, a menos que se asegure de que cada archivo se procese completamente antes de enviar el siguiente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codificación de caracteres </p> </td> 
@@ -128,7 +128,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Datos históricos </p> </td> 
-   <td colname="col2"> <p> Los atributos del cliente están vinculados al perfil del visitante subyacente en Analytics. Como tal, los atributos del cliente están asociados con el visitante durante toda la vida de ese perfil de visitante en Analytics. Esto incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno del almacén de datos, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Los atributos del cliente están vinculados al perfil del visitante subyacente en Analytics. Como tal, los Atributos del cliente se asocian con el visitante durante toda la vida de ese perfil del visitante en Analytics. Esto incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno del almacén de datos, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos </p> </td> 
@@ -158,4 +158,4 @@ Visitor.setCustomerIDs({
 
 En **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**:
 
-Cree dos fuentes de atributos del cliente utilizando ID de alias exclusivos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos de cliente.
+Cree dos fuentes de Atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente.
