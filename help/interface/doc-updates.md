@@ -6,11 +6,11 @@ seo-title: 'Actualizaciones de la documentación: Experience Cloud'
 solution: Experience Cloud
 title: 'Actualizaciones de la documentación: Experience Cloud'
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Información acerca de actualizaciones en la documentación de Experience Cloud.
 
 Documentación detallada de la administración de Ofertas.
 
-**Actualizado: 15/5/2020**
+**Actualizado: 15/05/2020**
 
-Se Añadieron las páginas siguientes:
+Se agregaron las páginas siguientes:
 
-* [Apoyo al Reglamento general de protección de datos](attributes/gdpr.md)
-* [Compatibilidad con la Ley de privacidad de los consumidores de California](attributes/ccpa.md)
+* [Cumplimiento del Reglamento General de Protección de Datos](attributes/gdpr.md)
+* [Cumplimiento de la Ley de Privacidad del Consumidor de California](attributes/ccpa.md)
 
 **Actualizado: 10/3/2020**
 
@@ -44,7 +44,7 @@ Se agregó cómo eliminar un atributo de cliente. Consulte [(Opcional) Actualiza
 
 **Actualizado: 8/6/20118**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+Se actualizó [Sobre el archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) con información sobre la carga de varios archivos.
 
 **Actualizado: 06/06/2018**
 
@@ -84,7 +84,7 @@ Se ha añadido [Experience Cloud Assets](experience-cloud-assets/experience-clou
 
 **Actualizado: 02/03/2015**
 
-Se ha añadido [Activación de las soluciones en los servicios principales](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Se ha añadido [Activación de las soluciones en los servicios principales](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Actualizado: 15/01/2015**
 
@@ -96,9 +96,9 @@ Se ha añadido [Preguntas frecuentes sobre Experience Cloud](admin-getting-start
 
 **Actualizado: 22/05/2014**
 
-Se ha agregado documentación para Audiencias
+Se ha agregado documentación para Audiencias.
 
-Consulte [Audiencias](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+Consulte [Audiencias](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
 
 **Actualizado: 22/05/2014**
 
