@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,14 +37,14 @@ Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en inici
 
 ## Crear un Trigger de Experience Cloud {#task_821F37183AC045E5AC8EED20317598FE}
 
-Cree un activador y configure las condiciones del activador. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
+Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
 
 >[!NOTE]
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
-2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+1. En Experience Cloud, haga clic en ![](assets/menu-icon.png) y, a continuación, en **[!UICONTROL Launch]**.
+2. Localice la tarjeta [!UICONTROL Triggers] y después haga clic en **[!UICONTROL Manage Triggers]**.
 3. Haga clic en **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 
    ![Resultado de los pasos](assets/add-trigger.png)
@@ -55,7 +55,7 @@ Cree un activador y configure las condiciones del activador. Por ejemplo, puede 
    |--- |--- |
    | Nombre | Nombre alternativo de este Trigger. |
    | Descripción | Descripción de este Trigger, el uso que le dará, etc. |
-   | Grupo de informes | El [grupo de informes](https://docs.adobe.com/content/help/es-ES/analytics/implementation/analytics-basics/ref-reports-report-suites.html) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
+   | Grupo de informes | El [grupo de informes](https://docs.adobe.com/content/help/es-ES/analytics/admin/manage-report-suites/report-suites-admin.html) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
    | La visita debe incluir<br>La visita no debe incluir<br>un Trigger sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
    | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador Y, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
@@ -75,6 +75,6 @@ Por ejemplo, en la siguiente página se muestran reglas que podría usar para un
 
 #### Trigger referente
 
-El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios ( *productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
+El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
 ![](assets/fb-boots-promo.png)
