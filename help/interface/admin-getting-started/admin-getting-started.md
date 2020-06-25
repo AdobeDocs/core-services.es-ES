@@ -6,11 +6,11 @@ seo-title: Administración de usuarios y productos de Experience Cloud
 solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer c
 
 [Inicie sesión y administre la configuración de perfil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) para administrar contraseñas, organizaciones y notificaciones.
 
-## Perfiles y grupos de productos  {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Perfiles y grupos de productos {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 Añadir perfiles de productos marca un cambio con respecto a cómo se administraban anteriormente los productos y servicios de la solución (mediante grupos). En Admin Console, los permisos se basan en perfiles de productos, que son grupos de productos y servicios que puede asignar a los usuarios.
 
@@ -112,11 +112,11 @@ Experience Platform Launch se muestra en la página Productos de Admin Console. 
 
 Consulte [Administración de usuarios](https://docs.adobe.com/content/help/es-ES/launch/using/reference/admin/user-permissions.html) para obtener información sobre los permisos de usuario en Admin Console y configurar opciones específicas de Launch, incluida la asignación de derechos a perfiles.
 
-## Experience Manager as a Cloud Service
+## Experience Manager como servicio en la nube
 
-Los clientes de Adobe Enterprise se representan como organizaciones de IMS en Adobe Admin Console. Este es el portal que utilizan los clientes de Adobe para administrar las asignaciones de productos para sus usuarios y grupos. Los clientes de AEM pueden utilizar Adobe Admin Console para administrar sus derechos de producto y la autenticación IMS en AEM como un servicio de nube.
+Los clientes de Adobe Enterprise están representados como organizaciones de IMS en Adobe Admin Console. Es el portal que utilizan los clientes de Adobe para administrar las asignaciones de productos para sus usuarios y grupos. Los clientes de AEM pueden utilizar Adobe Admin Console para administrar sus derechos de producto y la autenticación IMS en AEM as a Cloud Service.
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+[Compatibilidad de IMS con AEM as a Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Administrador dinámico de etiquetas {#section_3A41CF2BD5994B9891537D063571D4ED}
 
