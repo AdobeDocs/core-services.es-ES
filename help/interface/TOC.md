@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 87%
    + [Inicio de sesión y administración de la configuración de perfil](admin-getting-started/getting-started-experience-cloud.md)
    + [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
    + [Actualización a Analytics Premium y Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Activación de Experience Cloud {#activation}
++ Activation de Experience Cloud {#activation}
    + [Información general de Activation](activation/activation.md)
    + [Guía del usuario de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
    + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
@@ -61,18 +61,18 @@ ht-degree: 87%
    + [Descripción general de las audiencias](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Atributos del cliente en Experience Cloud {#customer-attributes}
    + [Información general sobre Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
-   + [Acerca del archivo de datos y las fuentes de datos para Atributos del cliente](attributes/crs-data-file.md)
-   + [Crear un origen de atributo de cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
+   + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md)
+   + [Crear un origen de Atributo del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
    + [Opcional: cargar el archivo de datos a través de FTP](attributes/t-upload-attributes-ftp.md)
    + [Validar el esquema](attributes/validate-schema.md)
    + [Configurar suscripciones](attributes/subscription.md)
    + [Actualizar el esquema](attributes/t-update-schema.md)
-   + [Apoyo al Reglamento general de protección de datos](attributes/gdpr.md)
-   + [Compatibilidad con la Ley de privacidad de los consumidores de California](attributes/ccpa.md)
-   + [Consideraciones de privacidad: Atributos del cliente](attributes/privacy-mac.md)
+   + [Cumplimiento del Reglamento General de Protección de Datos](attributes/gdpr.md)
+   + [Cumplimiento de la Ley de Privacidad del Consumidor de California](attributes/ccpa.md)
+   + [Consideraciones sobre privacidad: atributos del cliente](attributes/privacy-mac.md)
 + Notas de la versión de Experience Cloud {#release-notes}
    + [Novedades de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html)
    + [Notas de versión acumuladas](marketing-cloud-interface/release-notes.md)
