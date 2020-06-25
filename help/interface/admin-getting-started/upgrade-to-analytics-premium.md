@@ -7,11 +7,11 @@ solution: Experience Cloud
 title: Actualización a Analytics Premium y Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ La actualización a Predictive Intelligence habilita [Analytics Premium](../admi
 | Data Workbench | Espacios de trabajo creados previamente para cualificaciones de audiencia y marketing predictivo |
 | Plataforma de Analytics | Reproducción en directo (tableros y Triggers) |
 
-## Customer 360  {#section_3B2AC245388248688067DC9A48957AFB}
+## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 La actualización a Customer 360 incluye [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) además de:
 
@@ -72,7 +72,7 @@ La actualización a Customer 360 incluye [Analytics Premium](../admin-getting-st
 
 La Atribución avanzada permite disfrutar de [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), además de Atribución algorítmica en Data Workbench (25% del volumen de llamadas al servidor).
 
-## Requisitos de Data Workbench  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Requisitos de Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Los usuarios con asistencia técnica pueden solicitar que todas las licencias de cliente se actualicen para que reflejen el software Premium enviando `dwb@adobe.com` por correo electrónico. Esto habilita características como Atribución algorítmica.
 
@@ -84,7 +84,7 @@ Cualquier software que se ejecute on-premise debe desactivarse. Esto incluye los
 
 Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus soluciones para utilizar los servicios principales](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
 
-After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
+Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experiencecloud.adobe.com] y comenzar a usar los servicios principales, incluidos los Atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
 
 ### Administrar usuarios y grupos
 
