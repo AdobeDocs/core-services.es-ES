@@ -2,22 +2,22 @@
 description: Cree el origen de atributo del cliente y cargue los datos.
 keywords: Customer Attributes;core services
 seo-description: Cree el origen de atributo del cliente y cargue los datos.
-seo-title: Crear un origen de atributo de cliente y cargar el archivo de datos
+seo-title: Crear un origen de atributo del cliente y cargar el archivo de datos
 solution: Experience Cloud
-title: Crear un origen de atributo de cliente y cargar el archivo de datos
+title: Crear un origen de atributo del cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Crear un origen de atributo de cliente y cargar el archivo de datos
+# Crear un origen de atributo del cliente y cargar el archivo de datos
 
-Crear un origen de atributos de cliente (archivos CSV y FIN) y cargar los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que esté listo el origen de los datos, comparta los datos del atributo con Analytics y Target.
+Crear un origen de atributos del cliente (archivos CSV y FIN) y cargar los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que esté listo el origen de los datos, comparta los datos del atributo con Analytics y Target.
 
 ## Flujo de trabajo de atributos del cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -30,16 +30,16 @@ Crear un origen de atributos de cliente (archivos CSV y FIN) y cargar los datos.
 
 Una vez que la fuente de datos esté activa, podrá:
 
-* [Uso de atributos del cliente en Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Uso de atributos del cliente en Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Uso de Atributos del cliente en Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Uso de Atributos del cliente en Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *Atributos del cliente* se muestra como uno de los [!UICONTROL Perfiles de producto], está listo para empezar. Los usuarios que se agregan al grupo Atributos del cliente podrán ver el menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 >
->Para utilizar la función Atributos del cliente, los usuarios también deben pertenecer a grupos de nivel de solución (Analytics o [!DNL Target]).
+>Para usar la función Atributos del cliente, los usuarios también deben pertenecer a grupos de nivel de solución (Analytics o [!DNL Target]).
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+Consulte [Administración de usuarios y productos de Experience Cloud](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Crear un archivo de datos {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -87,7 +87,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/macid.html).
 
-      * **API de Visitante:** El ID de alias corresponde a los ID de [cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) adicionales que pueden asociar con cada visitante.
+      * **API de Visitante:** El ID de alias corresponde a los [ID de cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) adicionales que pueden asociar con cada visitante.
 
          Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -156,7 +156,7 @@ En la página [!UICONTROL Crear nuevo [o Editar] Atributos del cliente de origen
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Uso de los Atributos del cliente en Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Con los datos que ahora están disponibles en soluciones como
 <keyword>
@@ -167,13 +167,13 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 ![](assets/08_crs_usecase.png)
 
-Al publicar un segmento en Experience Cloud, pasa a estar disponible en Audiencias de Experience Cloud y en Audience Manager.
+Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las Audiencias de Experience Cloud y en Audience Manager.
 
-Consulte [Informe de atributos del cliente](https://docs.adobe.com/help/es-ES/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) en la ayuda de Analytics para obtener más información.
+Consulte [Informe de atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la ayuda de Analytics para obtener más información.
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Uso de los Atributos del cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UICONTROL Perfil del visitante] cuando cree una audiencia. All Customer Attributes will have the prefix [!DNL crs.] in the list. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
+En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UICONTROL Perfil del visitante] cuando cree una audiencia. Todos los Atributos del cliente tendrán el prefijo [!DNL crs.] en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
 
 ![](assets/crs-add-attribute-target.png)
 
