@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
+source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,6 @@ ht-degree: 88%
    + [Uso compartido de una carpeta de recursos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
    + [Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
    + [Cargar un recurso a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Desactivar la sincronización de carpetas compartidas](experience-cloud-assets/t-disable-asset-sync.md)
    + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Audiencias en Experience Cloud {#audiences}
