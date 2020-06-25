@@ -6,11 +6,11 @@ seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
 title: 'Opcional: cargar el archivo de datos a través de FTP'
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 
 >[!IMPORTANT]
 >
->Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
+>Compruebe los [Requisitos de archivos de datos para cargar los Atributos del cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) antes de cargar el archivo.
 
-Las cargas de archivos al sitio FTP Atributos del cliente se pueden realizar mediante FTP o SFTP.
+Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar mediante FTP o SFTP.
 
 * Necesita un cliente que admita conexiones SFTP.
 * Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://docs.adobe.com/help/es-ES/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
@@ -44,4 +44,4 @@ Las cargas de archivos al sitio FTP Atributos del cliente se pueden realizar med
 
    Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta denominada **Procesados**.
 
-   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
+   Consulte [Requisitos del archivo de datos para la carga de Atributos del cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) para obtener información importante acerca de los nombres y la estructura de los archivos.
