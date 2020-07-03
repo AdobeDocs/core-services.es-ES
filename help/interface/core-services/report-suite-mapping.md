@@ -4,11 +4,11 @@ seo-description: Obtenga información sobre cómo asignar uno o varios grupos de
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->La funcionalidad de asignación de grupos de informes quedará obsoleta en noviembre de 2020. Asigne todos los grupos de informes sobresalientes en >preparación para esto. Póngase en contacto con el servicio de atención al cliente si tiene alguna pregunta.
+>La funcionalidad de asignación de grupos de informes quedará obsoleta en noviembre de 2020. Asigne todos los grupos de informes pendientes para preparase para esto. Póngase en contacto con el servicio de atención al cliente si tiene alguna pregunta.
 
 Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
 
@@ -36,7 +36,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignación de un grupo de informes a una organización {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Vaya a Grupos de informes para la administración de datos en [!DNL Analytics] > **[!UICONTROL Administración]** > Administración **[!UICONTROL de datos]** (consulte Configuración de la administración de datos del grupo de informes de [Vista/administración)](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. Vaya a Grupos de informes para la administración de datos en [!DNL Analytics] > **[!UICONTROL Administración]** > **[!UICONTROL Gestión de datos]** (consulte [Ver/Administrar la configuración de la Gestión de datos del grupo de informes](https://docs.adobe.com/help/es-ES/analytics/admin/data-governance/gdpr-view-settings.html))
 
 1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, haga clic en **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
@@ -48,7 +48,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 ## Asignar varios grupos de informes a una organización {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Asignación de grupos de informes]**. 
+1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Asignación de grupos de informes]**.
 
 1. Seleccione los grupos de informes que desea asignar.
 
@@ -74,10 +74,9 @@ Si el servicio de ID de visitante aún no está implementado en los sitios que r
 
 Esto indica que no tiene suficientes privilegios para asignar al grupo de informes atenuado. Consideremos el siguiente ejemplo:
 
-
 ![](assets/rs-mapping.png)
 
- En este diagrama, la llave azul indica privilegios de administrador. Las líneas grises indican visibilidad.
+En este diagrama, la llave azul indica privilegios de administrador. Las líneas grises indican visibilidad.
 
 Este usuario tiene acceso a dos organizaciones de Experience Cloud. Ha realizado lo siguiente:
 
