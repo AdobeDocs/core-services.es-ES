@@ -6,11 +6,11 @@ seo-title: Triggers
 solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
    | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
 5. Haga clic en **[!UICONTROL Guardar]**.
-6. Utilice Triggers para [realizar remarketing en tiempo real](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) en [!DNL Adobe Campaign]
+6. Utilice Triggers para [realizar remarketing en tiempo real](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) en [!DNL Adobe Campaign].
 
 ### Ejemplos de Triggers
 
