@@ -6,9 +6,9 @@ seo-title: Cookies de Analytics
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies de Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -66,9 +66,9 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Marca de fecha y hora del ID de visitante único |
+| Información almacenada | Marca de fecha y hora del ID de visitante único. |
 | Vencimiento | 2 años |
-| Uso | Esta cookie se usa para identificar a un visitante único  |
+| Uso | Esta cookie se usa para identificar a un visitante único |
 | Ubicación | Esta cookie se almacena en el dominio de la solicitud de imagen, por lo general un subdominio específico del cliente bajo 2o7.net u omtrdc.net si utiliza cookies de terceros o si su dominio utiliza cookies de origen. |
 | Tamaño | 44 bytes |
 
@@ -98,7 +98,9 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 | s_cc (Javascript) | No | No | Sin configurar |
 | s_sq (Javascript) | No | No | Sin configurar |
 
->[!NOTE] Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
+>[!NOTE]
+>
+>Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
 ## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
