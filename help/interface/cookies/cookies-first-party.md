@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Cookies de terceros
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Con su permiso, trabajaremos con nuestra AC para emitir, implementar y administr
 
 El programa de certificados administrados de Adobe es el proceso recomendado para implementar un nuevo certificado SSL de origen para cookies de origen.
 
-El programa de certificados administrados le permite implementar un nuevo certificado SSL de origen para cookies de origen sin coste adicional. Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
+El programa de certificados administrados de Adobe le permite implementar un nuevo certificado SSL de origen para cookies de origen sin costo adicional (para sus primeros 100 CNAME). Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
 
 ### Implementación
 
@@ -72,7 +72,7 @@ Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir
 | Pregunta | Respuesta |
 |---|---|
 | **¿Es seguro este proceso?** | Sí, el programa administrado de Adobe es más seguro que nuestro método heredado, ya que ningún certificado o clave privada se transfiere fuera de Adobe y la autoridad emisora de certificados. |
-| **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | El certificado solo se puede adquirir si ha señalado el nombre de host especificado (por ejemplo, smetrics.example.com) a un nombre de host en propiedad de Adobe. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
+| **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
 | **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, tiene derecho a solicitar que se revoque el certificado. Solo tendrá que abrir una incidencia con el Servicio de atención al cliente para completarlo. |
 | **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe trabajará con DigiCert para emitir un certificado SHA-2. |
 | **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Adobe Digital Experience sin coste adicional. |
