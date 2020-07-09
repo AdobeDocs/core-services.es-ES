@@ -5,11 +5,11 @@ seo-title: Servicios principales y administración de usuarios de Experience Clo
 solution: Experience Cloud
 title: Acerca de los servicios principales de Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
-workflow-type: ht
-source-wordcount: '511'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Los servicios de Adobe Experience Cloud incluyen [!UICONTROL People] (Audiencias y Atributos del cliente), Ofertas, Experience Platform Launch y Mobile Services. También puede acceder a la ayuda sobre la administración de usuarios y productos en Experience Cloud.
 
-Para acceder a estos servicios en Experience Cloud, haga clic en el menú **[!UICONTROL Experience Platform]** ![](assets/menu-icon.png).
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
