@@ -6,9 +6,9 @@ seo-title: Activación de las soluciones de Experience Cloud en los servicios pr
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 index: true
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -84,8 +84,6 @@ Las siguientes secciones describen cómo modernizar la implementación. La moder
 El [!UICONTROL Servicio de Experience Cloud ID] proporciona un ID común para la integración entre soluciones. Proporciona identificación de visitantes entre dominios y una ruta para la segmentación y personalización entre dispositivos y navegadores en función de los datos de CRM cargados mediante [!UICONTROL Atributos del cliente].
 
 El método más sencillo para activar los servicios principales de Experience Cloud es activarlos automáticamente para Analytics y Adobe Target mediante la extensión del [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) en [!UICONTROL Experience Platform Launch] o mediante la herramienta ECID en [!UICONTROL Dynamic Tag Management]. (Se recomienda usar Experience Platform Launch).
-
-![](assets/menu-activation-shell.png)
 
 Para obtener la ayuda completa del Servicio de Experience Cloud ID (anteriormente, ID de visitante), vaya [aquí](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html).
 
@@ -187,20 +185,11 @@ Consulte [Administración de usuarios y productos de Experience Cloud](../admin-
 
 ### Atributos del cliente
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 Los usuarios que se agregan al grupo [!UICONTROL Atributos del cliente] podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
 ## Paso 8. Empiece a utilizar los servicios principales {#section_960C06093623462E8EA247B3E97274A1}
 
 Aproveche las siguientes funciones.
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL People] > [!UICONTROL Atributos del cliente]
 
