@@ -6,11 +6,11 @@ seo-title: Inicio de sesión y administración de la configuración de perfil
 solution: Experience Cloud
 title: Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 97%
 
 ---
 
@@ -27,14 +27,11 @@ Iniciar sesión en Experience Cloud (y no en una única solución) habilita el i
 
 Inicie sesión y verifique que se encuentra en la [organización](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) correcta.
 
-1. Haga clic en el menú desplegable Experience Cloud (![](assets/menu-icon.png)) y, a continuación, haga clic en **[!UICONTROL Administración]**.
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   Si no se muestra el vínculo **[!UICONTROL Administration]**, no es administrador de Experience Cloud para la [organización](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) que se muestra (Adobe Corp, en este ejemplo). Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
 1. Haga clic en **[!UICONTROL Administración]**.
 
-   ![](assets/admin-landing.png)
 1. A continuación, haga clic en uno de los vínculos siguientes:
 
 | Elemento | Descripción |
