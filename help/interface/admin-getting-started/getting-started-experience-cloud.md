@@ -6,11 +6,11 @@ seo-title: Inicio de sesión y administración de la configuración de perfil
 solution: Experience Cloud
 title: Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Iniciar sesión en Experience Cloud (y no en una única solución) habilita el i
 
 Inicie sesión y verifique que se encuentra en la [organización](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) correcta.
 
-1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
+1. Haga clic en el menú Experience Cloud (![](assets/menu-icon.png)) y, a continuación, haga clic en **[!UICONTROL Administración]**.
 
-   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
+   Si no se muestra el vínculo **[!UICONTROL Administration]**, no es administrador de Experience Cloud para la [organización](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) que se muestra. Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
 1. Haga clic en **[!UICONTROL Administración]**.
 
 1. A continuación, haga clic en uno de los vínculos siguientes:
@@ -57,7 +57,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
 
-1. En la página de aterrizaje, haga clic en el icono del selector ![](assets/menu-icon.png) para acceder al menú desplegable.
+1. En la página de aterrizaje, haga clic en el icono del selector ![](assets/menu-icon.png) para acceder al menú desplegable.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -79,7 +79,7 @@ Puede editar los detalles personales y especificar una [organización](../admin-
 
 Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de los Atributos del cliente.
 
-Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]** ![](assets/icon_edit_board.png).
+Para ir a Notificaciones, haga clic en el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, en el icono **[!UICONTROL Configuración]** ![](assets/icon_edit_board.png).
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
