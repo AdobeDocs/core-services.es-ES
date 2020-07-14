@@ -5,9 +5,9 @@ seo-title: Assets
 solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca y reduce e
 
 * **[!DNL Social]**: publique en propiedades sociales, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]**: cree experiencias para pruebas A/B y con múltiples variables.
-* **[!DNL Media Optimizer]**: Desarrolle unidades de anuncios en los distintos canales y campañas.
+* **[!DNL Media Optimizer]**: desarrolle unidades de anuncios en los distintos canales y campañas.
 * **[!DNL Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
 
 En [!UICONTROL Experience Cloud Assets], puede:
@@ -42,7 +42,7 @@ En [!UICONTROL Experience Cloud Assets], puede:
 * [Ejecutar informes de uso](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 * [Copmartir recursos con Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
-## Navegar a Experience Cloud Assets  {#section_3657039DD3524F2AA88753BFF4781125}
+## Navegar a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![](assets/asset-nav.png)
 
@@ -54,7 +54,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ![](assets/asset-tools.png)
 
-## Editar recursos  {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Editar recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La edición de un recurso activa funciones, entre las que se incluyen:
 
