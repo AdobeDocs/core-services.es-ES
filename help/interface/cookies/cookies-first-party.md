@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Cookies de terceros
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Con su permiso, trabajaremos con nuestra AC para emitir, implementar y administr
 
 El programa de certificados administrados de Adobe es el proceso recomendado para implementar un nuevo certificado SSL de origen para cookies de origen.
 
-El programa de certificados administrados de Adobe le permite implementar un nuevo certificado SSL de origen para cookies de origen sin costo adicional (para sus primeros 100 CNAME). Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
+El programa de certificados administrados le permite implementar un nuevo certificado SSL de origen para cookies de origen sin coste adicional (para sus primeros 100 CNAME). Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
 
 ### Implementación
 
@@ -72,7 +72,7 @@ Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir
 | Pregunta | Respuesta |
 |---|---|
 | **¿Es seguro este proceso?** | Sí, el programa administrado de Adobe es más seguro que nuestro método heredado, ya que ningún certificado o clave privada se transfiere fuera de Adobe y la autoridad emisora de certificados. |
-| **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
+| **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | El certificado solo se puede adquirir si ha señalado el nombre de host especificado (por ejemplo, `smetrics.example.com`) a un nombre de host de Adobe. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
 | **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, tiene derecho a solicitar que se revoque el certificado. Solo tendrá que abrir una incidencia con el Servicio de atención al cliente para completarlo. |
 | **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe trabajará con DigiCert para emitir un certificado SHA-2. |
 | **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Adobe Digital Experience sin coste adicional. |
@@ -83,10 +83,10 @@ El equipo de operaciones de red de su organización debe configurar los servidor
 
 El especialista de FPC le proporciona los nombres de host configurados y los CNAME a los que se va a señalar. Por ejemplo:
 
-* **Nombre del host SSL**:`smetrics.mysite.com`
-* **CNAME de SSL**:`mysite.com.ssl.sc.omtrdc.net`
-* **Nombre del host no SSL**:`metrics.mysite.com`
-* **CNAME no de SSL**:`mysite.com.sc.omtrdc.net`
+* **Nombre del host SSL**: `smetrics.mysite.com`
+* **CNAME de SSL**: `mysite.com.ssl.sc.omtrdc.net`
+* **Nombre del host no SSL**: `metrics.mysite.com`
+* **CNAME no de SSL**: `mysite.com.sc.omtrdc.net`
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
@@ -153,12 +153,12 @@ Antes de editar el código del sitio para utilizar cookies de origen, complete e
 Después de comprobar que sus nombres de host responden y redirigen a los servidores de recopilación de datos, puede modificar su implementación de modo que señale a sus propios nombres de host de recopilación de datos.
 
 1. Abra su archivo principal de JavaScript (`s_code.js/AppMeasurement.js`).
-1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con las cookies de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con las cookies de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Cargue en su sitio el archivo principal de JavaScript actualizado.
 
 1. Si está migrando a cookies de origen desde una implementación antigua, o cambiando a otro nombre de host de recopilación de origen, le recomendamos migrar a los visitantes del dominio anterior al nuevo dominio.
 
-Consulte [Migración de visitantes](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html) en la Guía de implementación de Analytics.
+Consulte [Migración de visitantes](https://docs.adobe.com/content/help/es-ES/analytics/components/metrics/unique-visitors.html) en la Guía de implementación de Analytics.
 
 Después de haber cargado el archivo de JavaScript, ya estará todo configurado para la recopilación de datos de cookies de origen. Le recomendamos que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
