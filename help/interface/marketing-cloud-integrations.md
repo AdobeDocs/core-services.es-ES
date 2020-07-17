@@ -6,11 +6,11 @@ seo-title: Integraciones de Experience Cloud
 solution: Experience Cloud
 title: Integraciones de Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,16 +33,16 @@ Describe cómo:
 
 Soluciones o servicios:
 
-* Activation: Dynamic Tag Management o Experience Platform Launch
+* Activación: Experience Platform Launch (recomendado) o administración dinámica de etiquetas
 * Analytics
 * Target
 * [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
 
 ## Servicio de Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Ayuda: [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
-
 El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Adobe Target, Video Heartbeat y otras soluciones o funciones de Experience Cloud.
+
+See [Experience Cloud ID Service](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
 
 **Soluciones o servicios aplicables**
 
@@ -182,7 +182,7 @@ Sincronice sus recursos en Adobe Experience Manager (AEM) Assets con Adobe Creat
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Ayuda (se requiere inicio de sesión): [Integración con las soluciones y servicios principales de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **Soluciones o servicios aplicables**
 
