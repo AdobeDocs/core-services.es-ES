@@ -6,10 +6,10 @@ seo-title: Preguntas frecuentes sobre los servicios principales de Experience Cl
 solution: Adobe Experience Cloud
 title: Preguntas frecuentes
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '731'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Si su implementación no se ha aprovisionado para servicios principales, consult
 1. [Asignación de grupos de informes a una organización de Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo para Adobe Target) Modernizar la implementación de Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Verificar la implementación de los servicios principales](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Verificar la implementación](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Administración de usuarios y productos](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Empezar a utilizar los servicios principales](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
