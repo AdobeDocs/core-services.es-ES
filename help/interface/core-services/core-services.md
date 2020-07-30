@@ -2,24 +2,24 @@
 description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para funcionalidades como los Atributos del cliente y las audiencias.
 keywords: core services;Customer Attributes
 seo-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para funcionalidades como los Atributos del cliente y las audiencias.
-seo-title: Habilitar las soluciones de Experience Cloud para atributos y audiencias del cliente
+seo-title: Activación de las soluciones de Experience Cloud para atributos y audiencias del cliente
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Habilite la implementación para servicios entre soluciones
+# Activación de la implementación para servicios entre soluciones
 
-Si ha implementado recientemente Experience Cloud mediante Experience Platform Launch, ya está configurado para Atributos del cliente y Audiencias de Experience Cloud. También puede administrar usuarios y productos en Admin Console.
+Si ha implementado recientemente Experience Cloud mediante Experience Platform Launch, ya tiene todo configurado para Atributos del cliente y Audiencias de Experience Cloud. También puede administrar usuarios y productos en Admin Console.
 
-Para los clientes existentes, es posible que tenga que modernizar las implementaciones de sus soluciones e implementar el Experience Cloud. Al hacerlo, puede aprovechar los atributos del cliente y las funciones de audiencia en Analytics, Audience Manager y Adobe Target de Adobe. Para lograrlo, deberá hacer lo siguiente:
+Para los clientes existentes, es posible que tenga que modernizar las implementaciones de sus soluciones e implementar Experience Cloud. Al hacerlo, puede aprovechar los atributos del cliente y las funciones de audiencia en Adobe Analytics, Audience Manager y Adobe Target. Para lograrlo, deberá hacer lo siguiente:
 
 1. [Únase a Experience Cloud y conviértase en administrador](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implemente el Servicio de Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -28,7 +28,7 @@ Para los clientes existentes, es posible que tenga que modernizar las implementa
 1. [Actualice la implementación de Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verificar la implementación](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Administración de usuarios y productos](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Comenzar a compartir datos de atributos y audiencias](#section_960C06093623462E8EA247B3E97274A1)
+1. [Iniciar el uso compartido de datos de atributos y audiencias](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Paso 1. Únase a Experience Cloud y conviértase en administrador {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -189,7 +189,7 @@ Consulte [Administración de usuarios y productos de Experience Cloud](../admin-
 
 Los usuarios que se agregan al grupo [!UICONTROL Atributos del cliente] podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
-## Paso 8. Comenzar a compartir datos de atributos y audiencias {#section_960C06093623462E8EA247B3E97274A1}
+## Paso 8. Iniciar el uso compartido de datos de atributos y audiencias {#section_960C06093623462E8EA247B3E97274A1}
 
 Aproveche las siguientes funciones.
 
@@ -209,11 +209,11 @@ Consulte [Audiencias](../audience-library/audience-library.md#topic_679810123CAA
 
 Si utiliza los servicios de perfil de audiencia en tiempo real y otros servicios principales en Adobe [!DNL Experience Cloud], el uso de estos servicios podría determinar en qué centro (y en qué país) se alojan los datos. En concreto, como los servicios principales de Adobe [!DNL Experience Cloud] se sirven de Adobe Audience Manager, los datos utilizados en [!UICONTROL People] deben residir en servidores de Audience Manager en Estados Unidos.
 
-Al utilizar los servicios principales disponibles mediante el servicio [!UICONTROL People], los tipos de datos enviados desde otros productos de Adobe a la gestión de público son los siguientes:
+Al utilizar los servicios principales disponibles mediante el servicio [!UICONTROL People], los tipos de datos enviados desde otros productos de Adobe a la gestión de audiencia son los siguientes:
 
 * Pares de clave/valor de [!DNL Analytics] (props, eVars, list vars, etc.). De forma predeterminada, las líneas de registro incluyen direcciones IP, con el último octeto de la dirección IP (suponiendo que esta no fue modificada por la configuración de confusión de IP dentro de Adobe [!DNL Analytics]).
 * Características y segmentos para los que los visitantes cumplen los requisitos según las reglas configuradas en Audience Manager.
-* (Opcional) Uno o más de sus ID. Según la implementación del servicio de ID, también podría estar enviando uno o más de sus ID, como ID de CRM o direcciones de correo electrónico con hash. Si estos datos se envían a Adobe [!DNL Analytics], se transfieren a la gestión de público de Adobe. Adobe recomienda no proporcionar datos personales a Adobe [!DNL Analytics]. En lugar de ello, use un hash unidireccional para cifrar los datos antes de enviarlos a Adobe.
+* (Opcional) Uno o más de sus ID. Según la implementación del servicio de ID, también podría estar enviando uno o más de sus ID, como ID de CRM o direcciones de correo electrónico con hash. Si estos datos se envían a Adobe [!DNL Analytics], se transfieren a la gestión de audiencia de Adobe. Adobe recomienda no proporcionar datos personales a Adobe [!DNL Analytics]. En lugar de ello, use un hash unidireccional para cifrar los datos antes de enviarlos a Adobe.
 * Segmentos que se originan en [!DNL Analytics] mediante la función de uso compartido de segmentos del back-end.
 * Se instala la cookie de demdex.net si no están bloqueadas las cookies de terceros. La cookie propia `AMCV_###@AdobeOrg` siempre se instala con el Servicio de Experience Cloud ID.
 
