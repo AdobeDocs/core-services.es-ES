@@ -5,18 +5,18 @@ seo-title: Servicios principales y administración de usuarios de Experience Clo
 solution: Experience Cloud
 title: Acerca de los servicios principales de Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Acerca de Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Experience Platform Launch, and Mobile Services. También puede encontrar ayuda sobre la administración de usuarios y productos Experience Cloud.
+Los servicios de Adobe Experience Cloud incluyen [!UICONTROL People] (Audiencias y Atributos del cliente), Experience Platform Launch y Mobile Services. También puede encontrar temas de ayuda sobre la administración de usuarios y productos Experience Cloud.
 
 Para acceder a estos servicios en Experience Cloud, haga clic en el menú **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
 
@@ -24,7 +24,7 @@ Para acceder a estos servicios en Experience Cloud, haga clic en el menú **[!UI
 
 >[!NOTE]
 >
->La documentación del producto para Experience Platform se encuentra [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html). Technical documentation for [!UICONTROL Experience Platform] developers is located on [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>La documentación del producto de Experience Platform se encuentra [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html). La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 Esta ayuda describe los siguientes productos y servicios:
 
