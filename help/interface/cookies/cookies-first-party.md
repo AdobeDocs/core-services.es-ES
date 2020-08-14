@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: Cookies de terceros
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ El especialista de FPC le proporciona los nombres de host configurados y los CNA
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
->[!Nota:]
+>[!NOTE]
 >
 >El servicio de ID de Visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el Servicio de Experience Cloud ID.
 
@@ -104,7 +104,7 @@ Si tiene un CNAME configurado y el certificado instalado, puede utilizar el expl
 
 `https://sstats.adobe.com/_check`
 
->[!Nota:]
+>[!NOTE]
 >
 >Verá una advertencia de seguridad si no hay un certificado instalado.
 
