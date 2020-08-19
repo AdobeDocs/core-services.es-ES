@@ -6,9 +6,9 @@ seo-title: Administración de usuarios y productos de Experience Cloud
 solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Tras la migración, los usuarios iniciarán sesión con su Adobe ID (o Enterpris
 En Adobe Target, un espacio de trabajo es un perfil de producto. Permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades concretas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en Adobe Analytics.
 
 Consulte:
+
 * [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html)
 * Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/es/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
