@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: 'Vea los usuarios de Experience Cloud y sus detalles '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 53%
+ht-degree: 52%
 
 ---
 
 
 # Directivas y usuarios del Experience Cloud de vista en la herramienta de administración
 
-Los administradores pueden vista una lista ordenable y filtrable de todos los usuarios y políticas de Experience Cloud con los detalles de la herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre los permisos y recursos de la directiva. (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
+Los administradores pueden vista una lista ordenable y filtrable de todos los usuarios y políticas de Experience Cloud con los detalles de la herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre los permisos y recursos de la directiva.
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. Iniciar sesión en `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. En la página de inicio de Experience Cloud, haga clic en **[!UICONTROL Herramienta de administración.]**
+1. En Acceso rápido, haga clic en Herramienta **[!UICONTROL de administración.]**
 
    (Como alternativa, en la URL de página de inicio puede reemplazar _inicio_ por _admin_).
 
@@ -65,7 +69,7 @@ En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, haga c
 
 Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la solución del usuario, las funciones de administración y del producto y la información de acceso más reciente.
 
-## Sección Acerca de
+## Acerca de la sección
 
 Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 
@@ -97,6 +101,8 @@ Esta sección muestra una lista completa de todos los miembros de perfiles de pr
 
 Esta página muestra la lista completa de las directivas de Experience Cloud en su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas.
 
+![](assets/admin-tool-policies.png)
+
 | Elemento | Descripción |
 |---|---|
 | [!UICONTROL Perfil del producto] | Nombre del perfil del producto. La columna puede ordenarse A->Z, Z->A. Haga clic en el nombre de un perfil de producto para ver más detalles sobre la directiva. |
@@ -122,7 +128,14 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de polí
 
 En la página [!UICONTROL Directivas] , para vista de los detalles de una política, haga clic en el nombre del perfil del producto.
 
-Una vista detallada de cada perfil del producto muestra detalles importantes sobre los temas del perfil del producto (usuarios, grupos, etc.), y los permisos y recursos habilitados por el perfil del producto.  Los detalles del perfil del producto se pueden exportar a archivos CSV.  La opción [!UICONTROL Exportar CSV] producirá 2 archivos CSV: Detalles del asunto (usuarios, grupos de usuarios, desarrolladores, integraciones, administradores) y elementos de permisos y recursos.
+![](assets/admin-tool-policy-detail.png)
+
+Una vista detallada de cada perfil del producto muestra detalles importantes sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos activados por el perfil del producto.
+
+Los detalles del perfil del producto se pueden exportar a archivos CSV. La opción [!UICONTROL Exportar CSV] produce dos archivos CSV:
+
+* Detalles del asunto (Usuarios, Grupos De Usuarios, Desarrolladores, Integraciones, Administradores)
+* Elementos de permisos y recursos
 
 ## Sección de resumen
 
@@ -134,7 +147,6 @@ Esta sección muestra un resumen del perfil del producto, que incluye:
 * Número de integraciones
 * Productos asociados
 * Instancia
-
 
 ## Lista detallada del asunto
 
@@ -150,5 +162,4 @@ Esta sección muestra una lista completa de todos los usuarios, grupos de usuari
 
 ## Listas detalladas de permisos y recursos
 
-Esta sección muestra una lista completa de los permisos y recursos disponibles para el perfil del producto. Los permisos y recursos que se han incluido en el perfil del producto se han marcado con un &quot;✔&quot;.  Las listas de permisos y recursos se han clasificado en fichas y columnas para facilitar la visualización.  Las fichas y las columnas muestran la lista de las secciones que se aplican al producto actual.
-
+Esta sección muestra una lista completa de los permisos y recursos disponibles para el perfil del producto. Los permisos y recursos que se han incluido en el perfil del producto se han marcado con un &quot;✔&quot;. Las listas de permisos y recursos se han clasificado en fichas y columnas para facilitar la visualización. Las fichas y las columnas muestran la lista de las secciones que se aplican al producto actual.
