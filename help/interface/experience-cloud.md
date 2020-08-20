@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página proporciona acceso a la documentación del producto para las siguie
 * [[!UICONTROL Biblioteca de audiencias]](audience-library/audience-library.md)
 * [[!UICONTROL Atributos del cliente]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Recursos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
+* [[!UICONTROL Recursos de Experience Cloud]](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookies de Experience Cloud](cookies/cookies-privacy.md)
 
 ## Administración de usuarios y productos
@@ -37,8 +37,7 @@ Esta página proporciona acceso a la documentación del producto para las siguie
 * [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
 * [Integración de Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html)
-* [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Administración de perfiles en Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
+* [Información general sobre seguridad y privacidad del Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Precarga de DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Temas de ayuda relacionados de Experience Cloud
@@ -55,14 +54,11 @@ Esta página proporciona acceso a la documentación del producto para las siguie
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
 * [[!UICONTROL Audiencias]](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
-* [Assets](experience-cloud-assets/experience-cloud-assets.md)
-* [Atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL Atributos del cliente]](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)
 * [Cooperación entre dispositivos](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
