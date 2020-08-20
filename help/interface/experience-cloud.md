@@ -6,16 +6,16 @@ seo-title: Ayuda de Adobe Experience Cloud y servicios principales y documentaci
 solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloud documentación del producto de interfaz
+# Experience Cloud Documentación de interfaz
 
 Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
 
@@ -23,9 +23,9 @@ Experience Cloud es la familia integrada de soluciones y servicios de marketing 
 
 Esta página proporciona acceso a la documentación del producto para las siguientes funciones y servicios:
 
-* [Biblioteca de audiencias](audience-library/audience-library.md)
-* [Atributos del cliente](attributes/attributes.md)
-* [Triggers](activation/triggers.md)
+* [[!UICONTROL Biblioteca de audiencias]](audience-library/audience-library.md)
+* [[!UICONTROL Atributos del cliente]](attributes/attributes.md)
+* [[!UICONTROL Triggers]](activation/triggers.md)
 * [Recursos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookies de Experience Cloud](cookies/cookies-privacy.md)
 
@@ -51,10 +51,10 @@ Esta página proporciona acceso a la documentación del producto para las siguie
 * [Blog de la experiencia del cliente](https://theblog.adobe.com/customer-experience/): Lea el blog de Experience Cloud
 * [Servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html): Póngase en contacto con el Servicio de atención al cliente de Adobe
 
-## Documentación del producto de Experience Platform
+## Documentación de Experience Platform
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
-* [Audiencias](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
+* [[!UICONTROL Audiencias]](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [Atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)
 * [Cooperación entre dispositivos](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html)
