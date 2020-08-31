@@ -6,16 +6,16 @@ seo-title: Ayuda de Adobe Experience Cloud y servicios principales y documentaci
 solution: Adobe Experience Cloud
 title: Ayuda de Experience Cloud y los servicios principales
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud Documentación de interfaz
+# Experience Cloud  Documentación de interfaz
 
 Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
 
@@ -37,7 +37,7 @@ Esta página proporciona acceso a la documentación del producto para las siguie
 * [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
 * [Integración de Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html)
-* [Información general sobre seguridad y privacidad del Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Precarga de DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Temas de ayuda relacionados de Experience Cloud
