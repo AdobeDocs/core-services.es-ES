@@ -6,9 +6,9 @@ seo-title: Administración de usuarios y productos de Experience Cloud
 solution: Experience Cloud
 title: Administración de usuarios y productos de Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Para iniciar sesión en Admin Console:
 1. Vaya a [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Escriba su [Adobe ID o Enterprise ID](https://helpx.adobe.com/es/enterprise/help/identity.html) y contraseña.
 
-En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer clic en **[!UICONTROL Administración]** > **[!UICONTROL Iniciar Admin Console]**.
+En el menú Experience Cloud ( ![](assets/menu-icon.png) ), también puede hacer clic en **[!UICONTROL Administración]** > **[!UICONTROL Iniciar Admin Console]**.
 
 **Ayuda relacionada**
 
@@ -61,7 +61,7 @@ En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer c
 
 [Inicie sesión y administre la configuración de perfil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) para administrar contraseñas, organizaciones y notificaciones.
 
-## Perfiles y grupos de productos {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Perfiles y grupos de productos  {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 Añadir perfiles de productos marca un cambio con respecto a cómo se administraban anteriormente los productos y servicios de la solución (mediante grupos). En Admin Console, los permisos se basan en perfiles de productos, que son grupos de productos y servicios que puede asignar a los usuarios.
 
