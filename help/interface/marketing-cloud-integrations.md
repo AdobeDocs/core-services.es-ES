@@ -6,11 +6,11 @@ seo-title: Integraciones de Experience Cloud
 solution: Experience Cloud
 title: Integraciones de Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Describe cómo:
 
 Soluciones o servicios:
 
-* Activación: Experience Platform Launch (recomendado) o Dynamic Tag Management
+* Activation: Experience Platform Launch (recomendado) o Dynamic Tag Management
 * Analytics
 * Target
 * [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
@@ -119,7 +119,7 @@ Ayuda: [Introducción](https://docs.adobelaunch.com/getting-started)
 
 Utilice las soluciones de Activation de Experience Cloud para configurar y depurar sus soluciones de Experience Cloud.
 
-1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. Utilice [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) o [la administración dinámica de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html) para insertar código que active las [soluciones de Adobe Experience Cloud](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) en sus páginas.
 1. Utilizar [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/es-ES/auditor/using/overview.html) para probar las implementaciones.
 
 Utilice la extensión de Adobe Experience Cloud Debugger para depurar los problemas que ha encontrado Auditor o examinar otra información sobre las implementaciones.
@@ -150,7 +150,7 @@ Integre Adobe Target con Adobe Analytics y otras soluciones de Experience Cloud 
 
 ## Integraciones de Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-Ayuda: [Integración de soluciones](https://helpx.adobe.com/br/experience-manager/6-2/sites/administering/user-guide.html?topic=/experience-manager/6-2/sites/administering/morehelp/integration.ug.js)
+Ayuda: [Integración de soluciones](https://helpx.adobe.com/es/experience-manager/6-2/sites/administering/user-guide.html?topic=/experience-manager/6-2/sites/administering/morehelp/integration.ug.js)
 
 Integre AEM con otras soluciones y servicios de terceros.
 
