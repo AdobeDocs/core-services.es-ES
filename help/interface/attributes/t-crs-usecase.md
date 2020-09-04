@@ -6,11 +6,11 @@ seo-title: Crear un origen de atributo del cliente y cargar el archivo de datos
 solution: Experience Cloud
 title: Crear un origen de atributo del cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -158,10 +158,7 @@ En la página [!UICONTROL Crear nuevo [o Editar] Atributos del cliente de origen
 
 ## Uso de los Atributos del cliente en Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Con los datos que ahora están disponibles en soluciones como
-<keyword>
-Adobe Analytics
-</keyword>, puede crear informes sobre los datos, analizarlos y tomar la decisión adecuada en sus campañas de marketing.
+Ahora que los datos están disponibles en soluciones como Adobe Analytics, puede informar sobre los datos, analizarlos y tomar las medidas adecuadas en sus campañas de marketing.
 
 El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atributos cargados. El segmento muestra los suscriptores de [!DNL Photoshop Lightroom] cuyo producto más utilizado sea Photoshop.
 
