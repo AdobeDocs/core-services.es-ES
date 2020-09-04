@@ -6,10 +6,10 @@ seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
 title: 'Opcional: cargar el archivo de datos a través de FTP'
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '294'
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar 
 
 1. [Creación de un origen de atributos del cliente y carga del archivo de datos...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Asegúrese de haber iniciado sesión en su sitio FTP en [!DNL ftp.adobe.com/<sftpname>].
+   Asegúrese de haber iniciado sesión en su sitio FTP en `ftp.adobe.com/<sftpname>`.
 
 1. Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Carga de archivo]**.
 
