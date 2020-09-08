@@ -6,9 +6,9 @@ seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
 title: 'Opcional: cargar el archivo de datos a través de FTP'
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
