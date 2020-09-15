@@ -5,9 +5,9 @@ breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de Data Connectors](cookies/cookies-dc.md)
-   + [Cookies de Data Workbench](cookies/cookies-insight.md)
+   + Cookies de [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies de [[!UICONTROL  Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] Cookies de ](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] Cookies de ](cookies/cookies-snp.md)
-   + [[!DNL Target] Cookies de ](cookies/cookies-target.md)
+   + Cookies de [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies de [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies de [[!DNL Target] ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
