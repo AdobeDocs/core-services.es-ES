@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Guía del usuario de la interfaz de Experience Cloud
+user-guide-title: Guía de interfaz de Experience Cloud
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies de [!UICONTROL  Data Workbench]](cookies/cookies-insight.md)
+   + Cookies de [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies de [[!UICONTROL  Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies de [!DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies de [!DNL Target]](cookies/cookies-target.md)
+   + Cookies de [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies de [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies de [[!DNL Target] ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Cargar un recurso a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
-+ Audiencias en Experience Cloud {#audiences}
-   + [Descripción general de las audiencias](audience-library/audience-library.md)
++ Audiencias de Experience Cloud {#audiences}
+   + [Información general sobre Audiencias de Experience Cloud](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
 + Atributos del cliente en Experience Cloud {#customer-attributes}
