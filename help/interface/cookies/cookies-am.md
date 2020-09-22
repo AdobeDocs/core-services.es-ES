@@ -3,12 +3,12 @@ description: Audience Manager depende de una serie de cookies simples para reali
 keywords: cookies
 seo-description: Audience Manager depende de una serie de cookies simples para realizar diferentes funciones. Estas incluyen la asignación de ID, el registro de llamadas de datos, el seguimiento de errores y la prueba para ver si se pueden configurar cookies. Esta sección incluye y describe las distintas cookies configuradas por Audience Manager.
 seo-title: Cookies de Audience Manager
-solution: Marketing Cloud,Audience Manager
+solution: Experience Cloud, Audience Manager
 title: Cookies de Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
