@@ -3,12 +3,12 @@ description: Target usa cookies para ofrecer a los administradores de sitios Web
 keywords: cookies;privacy
 seo-description: Target usa cookies para ofrecer a los administradores de sitios Web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
 seo-title: Cookies de Target
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies de Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
