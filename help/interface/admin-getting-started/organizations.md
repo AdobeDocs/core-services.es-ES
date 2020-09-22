@@ -3,12 +3,12 @@ description: Obtenga más información sobre las organizaciones y la vinculació
 keywords: core services
 seo-description: Obtenga más información sobre las organizaciones y la vinculación de cuentas de solución a Experience Cloud.
 seo-title: Organizaciones y vinculación de cuentas
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Obtenga más información sobre la gestión de organizaciones y la vinculación 
 
 ## Identificación de la organización {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Una *organización* de  es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+Una *organización* de  es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
 Además, es posible que deba localizar el ID de su organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
 
