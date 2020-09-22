@@ -3,12 +3,12 @@ description: Preguntas y respuestas comunes para los administradores de Experien
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Preguntas y respuestas comunes para los administradores de Experience Cloud.
 seo-title: Preguntas frecuentes sobre los servicios principales de Experience Cloud.
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Preguntas frecuentes
 index: true
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Consulte [Administración de cuentas de usuario](../admin-getting-started/organi
 
 ## ¿Qué es una organización?
 
-Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
 ## ¿Dónde puedo encontrar mi ID de organización de IMS?
 
