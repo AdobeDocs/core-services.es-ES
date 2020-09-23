@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud  Guía de interfaz
+# Experience Cloud   Guía de interfaz
 
 Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
 
@@ -54,11 +54,11 @@ Las guías de Experience Cloud relacionadas incluyen:
 
 Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience League:
 
-* [Todos los tutoriales de la Liga de experiencias](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Tutoriales del Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Todos los tutoriales de Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Tutoriales de Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [Plataforma de datos de clientes en tiempo real de](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
-## Notas de la versión y ayuda relacionada con el Experience Cloud
+## Notas de la versión y ayuda relacionada con Experience Cloud
 
 * [Documentación del producto para todas las soluciones de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html): Busque ayuda en Experience Cloud Learn &amp; Support
 * [Notas de la versión y actualizaciones de productos](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
