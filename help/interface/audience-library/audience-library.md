@@ -5,18 +5,18 @@ seo-title: Descripción general de Audiences de Experience Cloud
 solution: Experience Cloud
 title: Descripción general de Audiences de Experience Cloud
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '832'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
 
 # Descripción general de Audiences de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). Los servicios de audiencia de Adobe administran la traducción de datos de visitante en segmentación de audiencias. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia en [!DNL Experience Cloud].
+Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). La biblioteca de Audiencias de Adobe permite administrar la traducción de datos de visitante en segmentación de audiencias. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
