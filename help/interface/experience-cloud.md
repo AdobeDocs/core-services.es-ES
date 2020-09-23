@@ -3,11 +3,11 @@ description: Recursos informativos, documentación del producto y documentación
 keywords: platform services
 seo-description: Ayuda acerca de la administración de usuarios y productos en el Admin Console, la activación de soluciones para servicios de plataforma y la ayuda relacionada con la biblioteca de Audiencias, los atributos del cliente, los recursos del Experience Cloud, etc.
 seo-title: Ayuda y documentación del producto de Adobe Experience Cloud y los servicios de plataforma.
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Ayuda de los servicios de Experience Cloud y plataforma
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 75%
