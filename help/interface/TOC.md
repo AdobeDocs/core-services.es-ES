@@ -1,6 +1,6 @@
 ---
 audience: admin
-user-guide-title: Administración de Experience Cloud, Audiencias y atributos del cliente
+user-guide-title: Administración de Experience Cloud, Audiences y Atributos del cliente
 breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
@@ -9,14 +9,14 @@ translation-type: tm+mt
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Administración de Experience Cloud, Audiencias y atributos del cliente {#interface}
+# Administración de Experience Cloud, Audiences y Atributos del cliente {#interface}
 
-+ [Administrador Experience Cloud, Audiencias y atributos del cliente](experience-cloud.md)
++ [Administrador Experience Cloud, Audiences y Atributos del cliente](experience-cloud.md)
 + Servicios de aplicación en Experience Cloud {#about-core-services}
    + [Información general sobre los servicios de aplicaciones](core-services-landing.md)
    + [Activación de la implementación para servicios entre soluciones](core-services/core-services.md)
@@ -28,13 +28,13 @@ ht-degree: 94%
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies de [!UICONTROL  Data Workbench]](cookies/cookies-insight.md)
+   + Cookies de [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies de [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies de [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies de [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies de [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies de [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies de [[!DNL Target] ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
@@ -49,14 +49,14 @@ ht-degree: 94%
    + [Guía del usuario de Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
    + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Recursos de Experience Cloud {#assets}
-   + [Descripción general de los recursos de Experience Cloud ](experience-cloud-assets/experience-cloud-assets.md)
-   + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
++ Activos de Experience Cloud {#assets}
+   + [Descripción general de los activos de Experience Cloud ](experience-cloud-assets/experience-cloud-assets.md)
+   + [Uso compartido de carpetas y activos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestionar usuarios de Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
-   + [Uso compartido de una carpeta de recursos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
-   + [Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
-   + [Cargar un recurso a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
+   + [Uso compartido de una carpeta de activos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
+   + [Cargar un activo a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
+   + [Cargar un activo a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
+   + [Requisitos para compartir un archivo de activos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Biblioteca de audiencias de Experience Cloud {#audiences}
    + [Descripción general de Audiences de Experience Cloud ](audience-library/audience-library.md)
@@ -79,7 +79,7 @@ ht-degree: 94%
    + [Notas de versión acumuladas](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
-+ Más recursos {#more-resources}
++ Más activos {#more-resources}
    + [Foro](https://forums.adobe.com/community/experience-cloud)
    + [Terminología](terms.md)
    + [Uso de la precarga de DNS con diferentes soluciones y servicios](dns-prefetch.md)
