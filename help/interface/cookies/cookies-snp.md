@@ -35,7 +35,7 @@ Search&amp;Promote usa cookies para comprender las intenciones de búsqueda de l
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p>Se puede configurar en Search&amp;Promote <span class="uicontrol">(Diseño</span> &gt; <span class="uicontrol">Navegación</span> &gt; <span class="uicontrol">Búsquedas recientes</span>). Puede seleccionar las siguientes opciones de expiración de cookies: </p> <p> 
+   <td colname="col2"> <p>Se puede configurar en Search&amp;Promote (<span class="uicontrol">Diseño</span> &gt; <span class="uicontrol">Navegación</span> &gt; <span class="uicontrol">Búsquedas recientes</span>). Puede seleccionar las siguientes opciones de expiración de cookies: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Fin de sesión </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 horas </li> 
