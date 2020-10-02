@@ -1,15 +1,15 @@
 ---
 description: Obtenga información sobre la administración de usuarios y productos de Adobe Experience Cloud, People (Audiencias y Atributos del cliente), Journey Orchestration, Ofertas, Places, Experience Platform Launch y Mobile Services.
 seo-description: Obtenga información sobre la administración de usuarios y productos de Adobe Experience Cloud, People (Audiencias y Atributos del cliente), Ofertas, Experience Platform Launch y Mobile Services.
-seo-title: Servicios principales y administración de usuarios de Experience Cloud
+seo-title: Servicios de Experience Cloud y administración de usuarios
 solution: Experience Cloud
-title: Acerca de los servicios principales de Experience Cloud
+title: Acerca de los servicios de Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,4 @@ Esta ayuda describe los siguientes productos y servicios:
 | [Servicio de ubicación](https://docs.adobe.com/content/help/es-ES/places/using/home.html) | El servicio de [!UICONTROL Adobe Experience Platform Location] (servicio de ubicación) es un servicio de ubicación geográfica que permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI). |
 | [Exchange](exchange.md) | Busque, examine, seleccione, pague y descargue extensiones de Digital Marketing mediante aplicaciones. |
 | [Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
-| People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. También puede agrupar usuarios en Audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library/audience-library.md): categorice distintos tipos de clientes en Audiencias y, a continuación, comparta estas Audiencias en las soluciones de Experience Cloud.<br>[Atributos del cliente](attributes/attributes.md): característica de la audiencia que le permite conectar información del consumidor recopilada fuera de Experience Cloud.<br>[Gráfico de dispositivos](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): colabore con las marcas más populares del mundo para reconocer a un consumidor familiar detrás de un dispositivo desconocido. (En la versión beta, solo para miembros de cooperación de los dispositivos de Experience Cloud). |
+| People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. También puede agrupar usuarios en Audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library/audience-library.md): categorice distintos tipos de clientes en Audiencias y, a continuación, comparta estas Audiencias en las soluciones de Experience Cloud.<br>[Atributos del cliente](attributes/attributes.md): característica de la audiencia que le permite conectar información del consumidor recopilada fuera de Experience Cloud.<br>[Gráfico de dispositivos](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): colabore con las marcas más populares del mundo para reconocer a un consumidor familiar detrás de un dispositivo desconocido. |
