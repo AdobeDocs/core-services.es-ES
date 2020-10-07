@@ -6,11 +6,11 @@ seo-title: Crear una audiencia
 solution: Experience Cloud
 title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,8 @@ Cada círculo representa una regla que define la pertenencia a la audiencia. Los
 >[!NOTE]
 >
 >La audiencia está completamente definida tras la recopilación de datos una vez completado el periodo especificado.
-El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta. Esta audiencia comprende:
+
+El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta. Esta audiencia se compone de:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
 * Usuarios de Chrome y Safari derivados de un segmento de [!DNL Adobe Analytics] [publicado](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) en [!DNL Experience Cloud].
