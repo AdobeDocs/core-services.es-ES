@@ -6,16 +6,16 @@ seo-title: Activación de las soluciones de Experience Cloud para atributos y au
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Habilitar la implementación para los servicios de Experience Cloud
+# Habilite la implementación para los servicios de Experience Cloud
 
 Si ha implementado recientemente Experience Cloud mediante Experience Platform Launch, ya tiene todo configurado para Atributos del cliente y Audiencias de Experience Cloud. También puede administrar usuarios y productos en Admin Console.
 
@@ -136,11 +136,11 @@ Compruebe que está en una colección de datos regionales (RDC). Si el dominio d
 
 Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La forma más sencilla de conseguir esto es añadir una herramienta de [!DNL Adobe Analytics] en Dynamic Tag Management que especifique *`Automatic`* como método de configuración.
 
-En [!UICONTROL Dynamic Tag Management], haga clic en **`<Web Property Name>`**  > **[!UICONTROL Información general]** > **[!UICONTROL Agregar una herramienta]** > **[!UICONTROL Adobe Analytics]**. Consulte [Configuración de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/analytics-dtm.html) en Dynamic Tag Management para obtener información sobre la implementación.
+En [!UICONTROL Dynamic Tag Management], haga clic en **`<Web Property Name>`** > **[!UICONTROL Información general]** > **[!UICONTROL Agregar una herramienta]** > **[!UICONTROL Adobe Analytics]**. Consulte [Configuración de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/analytics-dtm.html) en Dynamic Tag Management para obtener información sobre la implementación.
 
 ## Paso 5. (Adobe Target) Actualice su implementación de Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Se recomienda agregar una [Extensión de Adobe Target](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) en [!UICONTROL Experience Platform Launch] para que la recuperación de la biblioteca sea automática. También puede configurar la extensión del [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) para Adobe Target (y otras soluciones) mediante [!UICONTROL Experience Platform Launch]. La actualización del [!UICONTROL Servicio de Experience Cloud ID] **es necesaria** para que Adobe Target utilice los servicios principales. (Si utiliza [!UICONTROL Dynamic Tag Management], agregue una herramienta de [Adobe Target](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/target.html). También puede utilizar [!UICONTROL Dynamic Tag Management] para implementar el Servicio de Experience Cloud ID en Adobe Target).
+* Se recomienda agregar una [Extensión de Adobe Target](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) en [!UICONTROL Experience Platform Launch] para que la recuperación de la biblioteca sea automática. También puede configurar la extensión del [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) para Adobe Target (y otras soluciones) mediante [!UICONTROL Experience Platform Launch]. La actualización del [!UICONTROL Servicio de Experience Cloud ID] **es necesaria** para que Adobe Target utilice los servicios principales. (Si utiliza [!UICONTROL Dynamic Tag Management], agregue una [herramienta de Adobe Target](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/target.html). También puede utilizar [!UICONTROL Dynamic Tag Management] para implementar el Servicio de Experience Cloud ID en Adobe Target).
 * Si no utiliza [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag Management], [actualice la biblioteca de mbox](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manualmente.
 * Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para [!DNL Adobe Target]. [!DNL Target] Los datos de y se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos soluciones [!DNL Analytics]. Consulte [Implementación de Analytics para Target](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html).
 
