@@ -1,15 +1,15 @@
 ---
 audience: admin
 user-guide-title: Administración y servicios de Experience Cloud
-breadcrumb-title: Experience Cloud Services and Administration
-user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
+breadcrumb-title: Administración y servicios de Experience Cloud
+user-guide-description: La Guía de servicios y administración de Adobe Experience Cloud incluye ayuda sobre la administración de usuarios y productos de Experience Cloud, la biblioteca de audiencias, los atributos del cliente, las cookies y los activos de Experience Cloud.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies de [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies de [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies de [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies de [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies de [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies de [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies de [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies de [[!DNL Target] ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
@@ -59,11 +59,11 @@ ht-degree: 100%
    + [Requisitos para compartir un archivo de activos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Biblioteca de audiencias de Experience Cloud {#audiences}
-   + [Descripción general de Audiences de Experience Cloud ](audience-library/audience-library.md)
+   + [Servicio Audiencias de Experience Cloud](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
-+ Atributos del cliente en Experience Cloud {#customer-attributes}
-   + [Información general sobre Atributos del cliente](attributes/attributes.md)
++ Atributos del cliente de Experience Cloud {#customer-attributes}
+   + [Servicio Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md)
    + [Crear un origen de Atributo del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
