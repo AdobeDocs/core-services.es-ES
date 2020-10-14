@@ -2,20 +2,20 @@
 description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
 keywords: core services;Customer Attributes
 seo-description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
-seo-title: Atributos del cliente
+seo-title: Experience Cloud Customer Attributes, servicio
 solution: Experience Cloud
-title: Atributos del cliente
+title: Experience Cloud Customer Attributes, servicio
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 96%
 
 ---
 
 
-# Atributos del cliente  sobre validación
+# Experience Cloud Customer Attributes, servicio
 
 Vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos del cliente]**
 
