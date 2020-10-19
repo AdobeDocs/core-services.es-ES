@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 98%
    + [Acerca de los nuevos nombres de las nubes en Experience Cloud](solutions-core-services.md)
 + [Integraciones de Experience Cloud](marketing-cloud-integrations.md)
 + Cookies de Experience Cloud {#ec-cookies}
-   + [Descripción general de las cookies de Experience Cloud ](cookies/cookies-privacy.md)
+   + [Descripción general de las cookies de Experience Cloud](cookies/cookies-privacy.md)
    + [Cookies de origen en Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies de Analytics](cookies/cookies-analytics.md)
    + [Cookies de Audience Manager](cookies/cookies-am.md)
-   + [Cookies de [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies de [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies de [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies de [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies de [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies de [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies de [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies de [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies de [[!DNL Target] ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
@@ -50,7 +50,7 @@ ht-degree: 98%
    + [Guía del usuario del Administrador dinámico de etiquetas](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Activos de Experience Cloud {#assets}
-   + [Descripción general de los activos de Experience Cloud ](experience-cloud-assets/experience-cloud-assets.md)
+   + [Descripción general de los activos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
    + [Uso compartido de carpetas y activos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestionar usuarios de Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Uso compartido de una carpeta de activos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [Requisitos para compartir un archivo de activos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Biblioteca de audiencias de Experience Cloud {#audiences}
-   + [Servicio Audiencias de Experience Cloud](audience-library/audience-library.md)
+   + [Descripción general de Experience Cloud Audiences](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
 + Atributos del cliente de Experience Cloud {#customer-attributes}
-   + [Servicio Atributos del cliente](attributes/attributes.md)
+   + [Servicio de Atributos del cliente](attributes/attributes.md)
    + [Preguntas más frecuentes, limitaciones y prácticas recomendadas](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md)
    + [Crear un origen de Atributo del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
