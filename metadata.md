@@ -10,11 +10,11 @@ getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/g
 tutorials-title: Tutoriales
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.es-ES
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b24f9d86c18715937abccd65bc439a0c70264526
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
