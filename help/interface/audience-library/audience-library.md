@@ -5,11 +5,11 @@ seo-title: Servicio de Audiencias de Experience Cloud
 solution: Experience Cloud
 title: 'Audiencias de Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 * A partir de segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud]
 * De [!DNL Audience Manager]
 
-**Audiencias en tiempo real o históricas**
+**Audiencias en tiempo real frente a  históricas**
 
 Todas las audiencias, independientemente de su origen, son accesibles para los casos de uso de segmentación en tiempo real. Sin embargo, las audiencias compartidas desde Analytics en Audience Manager no se pueden utilizar para los procesos de segmentación en tiempo real. El sistema evalúa las audiencias de dos maneras:
 
