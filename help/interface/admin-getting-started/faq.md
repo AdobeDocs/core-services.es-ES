@@ -1,23 +1,31 @@
 ---
-description: Preguntas y respuestas comunes para los administradores de Experience Cloud.
+description: Compatibilidad con navegadores, preguntas comunes y respuestas para los administradores del Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Preguntas y respuestas comunes para los administradores de Experience Cloud.
+seo-description: Compatibilidad con navegadores, preguntas comunes y respuestas para los administradores del Experience Cloud.
 seo-title: Preguntas frecuentes sobre los servicios principales de Experience Cloud.
 solution: Experience Cloud
 title: Preguntas frecuentes
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 89%
 
 ---
 
 
 # Preguntas frecuentes sobre Experience Cloud
 
-Preguntas y respuestas comunes para los administradores de Experience Cloud.
+Obtenga información sobre la compatibilidad del navegador y las preguntas y respuestas comunes para los administradores del Experience Cloud.
+
+## ¿Qué exploradores son compatibles con Experience Cloud?
+
+* Microsoft Edge (versión actual y dos versiones anteriores)
+* Google Chrome (dos versiones actuales y posteriores)
+* Mozilla Firefox (dos versiones actuales y posteriores)
+* Safari (versión actual y versiones anteriores)
+* Opera (versión actual y versiones anteriores)
 
 ## ¿Cómo sé si mis soluciones están habilitadas para los servicios principales?
 
