@@ -1,36 +1,36 @@
 ---
-description: Administre la traducción de datos del visitante en segmentación de audiencia en el servicio de Audiencias de Experience Cloud.
+description: Obtenga información sobre cómo administrar la traducción de datos de visitante en segmentación de audiencias en el servicio de Audiencia de Adobe Experience Cloud.
 seo-description: Administre la traducción de datos del visitante en segmentación de audiencia en el servicio de Audiencias de Experience Cloud.
 seo-title: Servicio de Audiencias de Experience Cloud
 solution: Experience Cloud
-title: 'Audiencias de Experience Cloud '
+title: 'audiencias de Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Audiences de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). La biblioteca de audiencias de Adobe administra la traducción de datos sobre visitantes en la segmentación de audiencia. De este modo, la creación y gestión de audiencias es similar a la creación y el uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia para productos y servicios en [!DNL Experience Cloud].
+Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). La biblioteca de audiencias de Adobe administra la traducción de datos sobre visitantes en la segmentación de audiencia. Como tal, crear y administrar audiencias es similar a crear y utilizar segmentos. También puede compartir el segmento de audiencia con productos y servicios de [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 
 * Las nuevas se crean en [!DNL Experience Cloud]
-* A partir de segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud]
-* De [!DNL Audience Manager]
+* [!DNL Analytics] segments published to the [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **Audiencias en tiempo real vs. audiencias históricas**
 
 Todas las audiencias, independientemente de su origen, son accesibles para los casos de uso de segmentación en tiempo real. Sin embargo, las audiencias compartidas desde Analytics en Audience Manager no se pueden utilizar para los procesos de segmentación en tiempo real. El sistema evalúa las audiencias de dos maneras:
 
-* Las audiencias históricas de Analytics se evalúan cada 4 horas. El tiempo total para procesar y compartir puede llevar hasta 8 horas.  Las audiencias históricas siempre incluyen visitantes de retorno.
+* Las audiencias históricas de Analytics se evalúan cada 4 horas. El tiempo total para procesar y compartir puede llevar hasta 8 horas. Las audiencias históricas siempre incluyen visitantes de retorno.
 * Estas audiencias provienen de Audiencias de Experience Cloud y se evalúan en tiempo real.
 
 ## Cómo utilizan las soluciones las audiencias {#concept_01EB9345C5344597BC94A864EDD38EE1}
