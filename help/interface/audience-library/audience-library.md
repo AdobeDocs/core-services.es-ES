@@ -23,7 +23,7 @@ Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes).
 Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 
 * Las nuevas se crean en [!DNL Experience Cloud]
-* [!DNL Analytics] segments published to the [!DNL Experience Cloud]
+* [!DNL Analytics] segmentos publicados en el [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
 **Audiencias en tiempo real vs. audiencias históricas**
