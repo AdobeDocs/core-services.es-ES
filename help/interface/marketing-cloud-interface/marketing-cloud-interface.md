@@ -6,9 +6,9 @@ seo-title: Novedades de Experience Cloud
 solution: Experience Cloud
 title: Novedades de Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento 
 | Función | Descripción |
 |--- |--- |
 | Asignación de grupos de informes en lotes | En  Administración  >  Report Suite Mapping, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>[Asignar grupos de informes](../core-services/core-services.md) a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre soluciones. |
-| Actualizaciones en las audiencias de Experience Cloud | **Aplicación de conjuntos de informes **<br>Ahora puede aplicar un grupo de informes a todas sus [reglas de audiencia](../audience-library/t-audience-create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla).<br>**Props y variables**<br>Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en las audiencias en tiempo real. |
+| Actualizaciones en las audiencias de Experience Cloud | **Aplicación de conjuntos de informes**<br> Ahora puede aplicar un grupo de informes a todas sus [reglas de audiencia](../audience-library/t-audience-create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla). <br>**Props y variables**<br> Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en las audiencias en tiempo real. |
 
 ## 8 de noviembre de 2016: 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
