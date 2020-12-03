@@ -4,9 +4,9 @@ seo-description: Obtenga información sobre cómo asignar uno o varios grupos de
 seo-title: Asignación de grupos de informes a una organización
 title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
 
