@@ -1,9 +1,9 @@
 ---
 title: Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos
 description: Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
    * ID de organización IMS
    * ID de alias de la fuente de datos de CRS en la que desea actuar
    * ID de CRM del perfil en el que desea actuar
+
    Un ID de organización de IMS es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de organización de IMS de su organización, póngase en contacto con el servicio de atención al cliente de Adobe a la dirección gdprsupport@adobe.com. Necesitará el ID de organización de IMS para enviar solicitudes a la API de privacidad.
 
 1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los Atributos del cliente y comprobar el estado de las solicitudes existentes.
