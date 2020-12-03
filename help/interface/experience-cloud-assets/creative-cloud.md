@@ -5,9 +5,9 @@ seo-description: Comparta carpetas y recursos entre Experience Cloud y Creative 
 seo-title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
 solution: Experience Cloud
 title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
