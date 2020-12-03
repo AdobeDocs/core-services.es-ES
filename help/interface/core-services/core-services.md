@@ -6,9 +6,9 @@ seo-title: Activación de las soluciones de Experience Cloud para atributos y au
 solution: Experience Cloud
 title: Activación de las soluciones en los servicios principales
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 
