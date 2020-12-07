@@ -1,15 +1,13 @@
 ---
-description: Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en soluciones de Experience Cloud como Adobe Social y Adobe Target. La carpeta compartida debe proceder de Experience Cloud.
+description: 'Obtenga información sobre cómo compartir carpetas y recursos entre Experience Cloud y Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en soluciones de Experience Cloud como Adobe Social y Adobe Target. La carpeta compartida debe proceder de Experience Cloud.
-seo-title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
 solution: Experience Cloud
-title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
+title: Uso compartido de carpetas y recursos de Experience Cloud con Creative Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 75%
 
 ---
 
