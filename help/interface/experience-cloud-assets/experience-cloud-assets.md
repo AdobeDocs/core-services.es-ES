@@ -1,20 +1,18 @@
 ---
-description: Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas en un archivo de Photoshop, diapositivas en un archivo de PowerPoint, páginas en un PDF o archivos en un ZIP).
-seo-description: Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas en un archivo de Photoshop, diapositivas en un archivo de PowerPoint, páginas en un PDF o archivos en un ZIP).
-seo-title: Assets
+description: Obtenga información sobre Recursos Experience Cloud.
 solution: Experience Cloud
-title: Assets
+title: Información general sobre los recursos de Experience Cloud | Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
 
-# Assets
+# Información general sobre los recursos de Experience Cloud
 
 Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
