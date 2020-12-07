@@ -1,16 +1,14 @@
 ---
-description: Información acerca de actualizaciones en la ayuda de Experience Cloud.
+description: Información sobre las actualizaciones de la ayuda de Adobe Experience Cloud.
 keywords: Experience Cloud services
-seo-description: Información acerca de actualizaciones en la ayuda de Experience Cloud.
-seo-title: 'Actualizaciones de la documentación: Experience Cloud'
 solution: Experience Cloud
-title: 'Actualizaciones de la documentación: Experience Cloud'
+title: 'Actualizaciones de documentación: Experience Cloud | Adobe Experience Cloud'
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 94%
 
 ---
 
