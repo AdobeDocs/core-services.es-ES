@@ -1,25 +1,23 @@
 ---
-description: 'Atributos del cliente: preguntas más frecuentes y prácticas recomendadas para Adobe Analytics y Adobe Target.'
+description: Preguntas más frecuentes sobre los atributos del cliente en Adobe Experience Cloud, Adobe Analytics y Adobe Target.
 keywords: Customer Attributes
-seo-description: Preguntas más frecuentes y prácticas recomendadas para Atributos del cliente en Analytics y Target.
-seo-title: Preguntas más frecuentes, limitaciones y prácticas recomendadas
-solution: Experience Cloud
-title: 'Atributos del cliente: preguntas más frecuentes sobre Adobe Experience Cloud'
+solution: Adobe Experience Cloud
+title: Obtener respuestas a las preguntas más frecuentes sobre Atributos del cliente | Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 98%
+source-wordcount: '1236'
+ht-degree: 96%
 
 ---
 
 
 # Preguntas más frecuentes, limitaciones y prácticas recomendadas
 
-Preguntas más frecuentes y prácticas recomendadas para Atributos del cliente en Analytics y Target.
+Preguntas más frecuentes y prácticas recomendadas para Atributos del cliente en Adobe Analytics y Adobe Target.
 
-## Prácticas recomendadas y limitaciones  {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## Prácticas recomendadas y limitaciones {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 Directrices y limitaciones al usar los [!UICONTROL Atributos del cliente].
 
@@ -28,7 +26,7 @@ Directrices y limitaciones al usar los [!UICONTROL Atributos del cliente].
 | Limitaciones de suscripción de [!UICONTROL atributos del cliente] | Cuando actualice a Analytics Premium, no podrá disponer de los atributos hasta haber transcurrido 24 horas. Durante este periodo, puede aparecer el error Máximas suscripciones a atributos. |
 | Varios inicios de sesión en el mismo dispositivo | Cuando se utilizan los Atributos del cliente para cargar perfiles del cliente en una fuente de datos, Adobe recomienda que no se compartan dispositivos (es decir, el mismo Experience Cloud ID). El Experience Cloud ID (ECID) persiste en el dispositivo. Compartir dispositivos puede hacer que el ECID vincule varios usuarios al mismo ECID, lo que provoca resultados inesperados en [!DNL Target]. **Nota:** En el caso de dispositivos móviles, el ECID es permanente después de instalar la aplicación móvil y debe volver a instalar la aplicación para generar un nuevo ECID. Para su uso en la web, se genera un nuevo ECID después de borrar la cookie del explorador. |
 | Límite diario de carga de frecuencia | Adobe recomienda actualizar los Atributos del cliente solo una vez al día. Debe esperar al menos 24 horas para cargar otro archivo de datos de perfil del cliente para el mismo conjunto de perfiles. |
-| ID de Analytics personalizado (`s.visitorID`) | El establecimiento de un ID de cliente mediante `s.visitorID` es un método para identificar a los usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique un visitante mediante `s.visitorID.`<br>. Esto incluye, entre otras cosas, audiencias compartidas, Analytics para Adobe Target (A4T) y Atributos del cliente.<br>Estas integraciones no admiten la configuración de un ID de Analytics personalizado. |
+| ID de Analytics personalizado (`s.visitorID`) | El establecimiento de un ID de cliente mediante `s.visitorID` es un método para identificar a los usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique un visitante mediante `s.visitorID.`<br> Esto incluye, entre otras cosas, audiencias compartidas, Analytics para Adobe Target (A4T) y Atributos del cliente.<br>Estas integraciones no admiten la configuración de un ID de Analytics personalizado. |
 | Limitaciones de longitud de caracteres en Analytics | Al crear una suscripción de Analytics, las longitudes de campo de los archivos cargados se truncan a 255. |
 
 ## Preguntas frecuentes sobre los Atributos del cliente {#section_E47866EEA83348E09FE43CEC5E44C461}
@@ -36,7 +34,7 @@ Directrices y limitaciones al usar los [!UICONTROL Atributos del cliente].
 | Pregunta | Respuesta |
 |--- |--- |
 | ¿Puedo recibir notificaciones sobre el estado de carga de Atributos del cliente? | Sí. Consulte [Administración de notificaciones](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157). |
-| ¿Qué debo hacer para empezar a usar los Atributos del cliente? | <ol><li>Aprovisione sus soluciones. Si es cliente de Analytics, Adobe le proporcionará los Atributos del cliente. Si solo usa Adobe Target y no tiene Analytics, debe solicitar el aprovisionamiento de servicios principales poniéndose en contacto con el Servicio de atención al cliente.</li> <li>Póngase en contacto con su equipo de CRM. Descubra qué tipo de datos de clientes están disponibles y que quisiera usar en Analytics y en Experience Cloud.</li><li>Implementar servicios principales. Consulte [Activación de las soluciones para servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services.html) para ver los pasos necesarios para modernizar la implementación. (Consulte la sección sobre la sincronización de ID de cliente para obtener información importante).</li></ol> **Nota:** Hay disponible una sección de preguntas más frecuentes para implementar los servicios principales  [ aquí](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91). |
+| ¿Qué debo hacer para empezar a usar los Atributos del cliente? | <ol><li>Aprovisione sus soluciones. Si es cliente de Analytics, Adobe le proporcionará los Atributos del cliente. Si solo usa Adobe Target y no tiene Analytics, debe solicitar el aprovisionamiento de servicios principales poniéndose en contacto con el Servicio de atención al cliente.</li> <li>Póngase en contacto con su equipo de CRM. Descubra qué tipo de datos de clientes están disponibles y que quisiera usar en Analytics y en Experience Cloud.</li><li>Implementar servicios principales. Consulte [Activación de las soluciones para servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services.html) para ver los pasos necesarios para modernizar la implementación. (Consulte la sección sobre la sincronización de ID de cliente para obtener información importante).</li></ol> **Nota:** Hay disponible una sección de preguntas más frecuentes para implementar los servicios principales [aquí](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91). |
 | ¿Cuántos Atributos del cliente puedo utilizar? | Puede cargar cientos de columnas `.csv` en el servicio de atributos del cliente. Sin embargo, al configurar suscripciones y seleccionar atributos grupo de informes, se aplican los límites siguientes por grupos de informes, según la solución que tenga:  <ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 en total</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |
 | ¿Se requiere la migración al Servicio de Experience Cloud ID? | La migración depende de las soluciones que utilice. <ul><li>Adobe Analytics: Recomendado </li><li>Adobe Target: Necesario. </li></ul><br>El uso del servicio de Experience Cloud ID permite la funcionalidad de Experience Cloud más reciente, incluidas las audiencias en tiempo real, la modernización de Adobe Target, la integración de Analytics y el seguimiento de Video Heartbeat. <br> Para obtener más información, consulte [Activación de las soluciones en los servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services.html). <br>**Nota:** El servicio [Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/overview.html) es la implementación modernizada de lo que antes se conocía como _Servicio de ID de visitante de Analytics._ |
 | ¿Cómo se relaciona la funcionalidad de atributos del cliente con Adobe Audience Manager? | Aunque el Audience Manager puede recibir datos para hacer la identificación de audiencias, no puede realizar funciones de análisis que vinculen atributos a datos de comportamiento históricos. Tampoco proporciona las funciones de sistema de informes, análisis y segmentación disponibles en Adobe Analytics. [!UICONTROL People] permite que los datos enriquecidos de todas las soluciones se unan y asocien con un solo ID para su uso en Experience Cloud. <br>En Adobe Target, los Atributos del cliente aparecen como atributos individuales que se pueden combinar con otras reglas para crear audiencias. Las Audiencias compartidas con el servicio de [!UICONTROL Usuarios] son audiencias completas que no se pueden modificar. |
