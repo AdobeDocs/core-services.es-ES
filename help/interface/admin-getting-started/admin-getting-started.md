@@ -1,16 +1,14 @@
 ---
-description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios, perfiles de producto y compatibilidad de exploradores en Experience Cloud.
-keywords: core services
-seo-description: Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios, perfiles de producto y compatibilidad de exploradores en Experience Cloud.
-seo-title: Administración de usuarios y productos de Experience Cloud
-solution: Experience Cloud
-title: Administración de usuarios y productos de Experience Cloud
+description: Obtenga información sobre cómo iniciar sesión en Adobe Admin Console, administrar los permisos de usuario y perfiles de producto de Experience Cloud, y la compatibilidad con navegadores.
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: Obtenga información sobre cómo administrar usuarios y productos | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
