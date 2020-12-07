@@ -1,16 +1,14 @@
 ---
-description: 'Herramientas administrativas para gestionar usuarios aprobados de Creative Cloud. '
+description: 'Obtenga información sobre las herramientas administrativas para administrar usuarios de Creative Cloud aprobados en Experience Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 'Herramientas administrativas para gestionar usuarios aprobados de Creative Cloud. '
-seo-title: Gestionar usuarios de Creative Cloud
 solution: Experience Cloud
-title: Gestionar usuarios de Creative Cloud
+title: Administrar usuarios de Creative Cloud | Adobe Experience Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 46%
+source-wordcount: '122'
+ht-degree: 28%
 
 ---
 
