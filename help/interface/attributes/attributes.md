@@ -1,16 +1,14 @@
 ---
-description: Información general y requisitos previos sobre la carga de atributos del cliente en Adobe Experience Cloud.
+description: Conozca los atributos del cliente en Adobe Experience Cloud.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
-seo-description: Información general y requisitos previos sobre la carga de atributos del cliente en Experience Cloud.
-seo-title: Servicios de atributos del cliente de Experience Cloud
 solution: Experience Cloud
-title: Servicio de atributos del cliente de Adobe Experience Cloud
+title: Servicio Atributos del cliente | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
