@@ -1,16 +1,14 @@
 ---
 description: Si no carga mediante arrastrar y soltar, puede cargar datos de atributo del cliente mediante FTP a Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Si no carga mediante arrastrar y soltar, puede cargar datos de atributo del cliente mediante FTP a Experience Cloud.
-seo-title: 'Opcional: cargar el archivo de datos a través de FTP'
 solution: Experience Cloud
-title: 'Opcional: cargar el archivo de datos a través de FTP'
+title: Cargar el archivo de datos de atributos del cliente mediante FTP | Adobe Experience Cloud
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
