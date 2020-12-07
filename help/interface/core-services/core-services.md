@@ -1,16 +1,14 @@
 ---
-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para funcionalidades como los Atributos del cliente y las audiencias.
+description: Obtenga información sobre cómo implementar el Adobe Experience Cloud y convertirse en administrador.
 keywords: core services;Customer Attributes
-seo-description: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para funcionalidades como los Atributos del cliente y las audiencias.
-seo-title: Activación de las soluciones de Experience Cloud para atributos y audiencias del cliente
 solution: Experience Cloud
-title: Activación de las soluciones en los servicios principales
+title: Habilitar sus soluciones para los servicios principales | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
