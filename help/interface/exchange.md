@@ -1,16 +1,14 @@
 ---
-description: Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones externas e informes.
+description: Obtenga información sobre Exchange Marketplace, un destino único en el que puede buscar, examinar, seleccionar, pagar y descargar extensiones de Digital Marketing mediante aplicaciones.
 keywords: core services
-seo-description: Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones externas e informes.
-seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange Marketplace
+title: Exchange Marketplace | Adobe Experience Cloud
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 80%
 
 ---
 
