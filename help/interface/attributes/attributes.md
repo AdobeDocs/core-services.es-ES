@@ -1,23 +1,23 @@
 ---
-description: Conozca los atributos del cliente en Adobe Experience Cloud.
+description: Obtenga información sobre el servicio Atributos del cliente en Adobe Experience Cloud y cómo cargar los datos para utilizarlos en Analytics y Destinatario.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Servicio Atributos del cliente | Adobe Experience Cloud
+title: Cómo utilizar los atributos del cliente | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Atributos del cliente en Adobe Experience Cloud
+# Cómo utilizar los atributos del cliente en Adobe Experience Cloud
 
-Vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos del cliente]**
+Los atributos del cliente en Adobe Experience Cloud le permiten cargar los datos empresariales capturados desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en un origen de datos de atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
-Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, saque el máximo partido de los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 
    Los usuarios que se agregan a Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
-* Se requiere **Adobe Target** [!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior para los Atributos del cliente.
+* Se requiere **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los Atributos del cliente.
 
    Consulte [Implementación de at.js](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
@@ -47,7 +47,7 @@ Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cli
 
 Consulte [Carga de datos del atributo del cliente](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) para obtener información sobre este flujo de trabajo.
 
-## Ejemplos de uso de soluciones {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Ejemplos de atributos del cliente en Analytics y Destinatario {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 Una vez que los datos se encuentren en Experience Cloud, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
 
