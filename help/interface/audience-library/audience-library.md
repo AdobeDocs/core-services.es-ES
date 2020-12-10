@@ -1,14 +1,14 @@
 ---
-description: Obtenga información sobre cómo administrar la traducción de datos de visitante en segmentación de audiencias en el servicio de Audiencia de Adobe Experience Cloud.
+description: Descubra cómo administrar la traducción de datos sobre visitantes en segmentación de audiencia en el servicio de Audiencias de Adobe Experience Cloud.
 solution: Experience Cloud
 type: Documentation
-title: 'audiencias de Adobe Experience Cloud '
+title: 'Audiencias de Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
 source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes).
 Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 
 * Las nuevas se crean en [!DNL Experience Cloud]
-* [!DNL Analytics] segmentos publicados en el [!DNL Experience Cloud]
+* Segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
 **Audiencias en tiempo real vs. audiencias históricas**
