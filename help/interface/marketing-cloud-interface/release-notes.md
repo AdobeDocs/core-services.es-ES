@@ -2,13 +2,13 @@
 description: Funciones, notas de la versión y problemas conocidos de la interfaz de Experience Cloud.
 keywords: core services
 solution: Experience Cloud
-title: Recopilación de notas de la versión | Adobe Experience Cloud
+title: 'Notas de versión acumuladas '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '3957'
-ht-degree: 99%
+source-wordcount: '3954'
+ht-degree: 100%
 
 ---
 
