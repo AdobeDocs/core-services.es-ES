@@ -1,10 +1,10 @@
 ---
-title: Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California | Adobe Experience Cloud
+title: 'Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California '
 description: Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
