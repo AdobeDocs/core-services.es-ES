@@ -2,13 +2,13 @@
 description: Obtenga información sobre cómo la compatibilidad con cookies de terceros se ha limitado cada vez más en los distintos exploradores.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Cómo los cambios en la compatibilidad con cookies de terceros afectan a los clientes | Adobe Experience Cloud
+title: 'Cómo los cambios en la compatibilidad con cookies de terceros afectan a los clientes '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 91%
+source-wordcount: '295'
+ht-degree: 92%
 
 ---
 
