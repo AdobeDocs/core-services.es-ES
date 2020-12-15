@@ -1,13 +1,13 @@
 ---
 description: Cómo implementar la precarga de DNS para ayudar a reducir los tiempos de carga de la página con diferentes soluciones y servicios en Adobe Experience Cloud.
 solution: Experience Cloud
-title: Uso de la precarga de DNS con diferentes soluciones y servicios | Adobe Experience Cloud
+title: 'Uso de la precarga de DNS con diferentes soluciones y servicios '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 91%
+source-wordcount: '380'
+ht-degree: 94%
 
 ---
 
