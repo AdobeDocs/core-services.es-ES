@@ -1,12 +1,12 @@
 ---
 description: Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización en Experience Cloud.
-title: Asignar grupos de informes a una organización | Adobe Experience Cloud
+title: 'Asignación de grupos de informes a una organización '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 98%
 
 ---
 
