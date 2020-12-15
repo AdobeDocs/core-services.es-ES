@@ -1,10 +1,10 @@
 ---
-title: Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos | Adobe Experience Cloud
+title: 'Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos '
 description: Obtenga información sobre la compatibilidad de atributos del cliente con el Reglamento general de protección de datos
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 97%
 
 ---
