@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre Exchange Marketplace, un destino único en el que puede buscar, examinar, seleccionar, pagar y descargar extensiones de Digital Marketing mediante aplicaciones.
+description: Obtenga información sobre Exchange Marketplace, un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital a través de aplicaciones.
 keywords: core services
 solution: Experience Cloud
 title: 'Exchange Marketplace '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
