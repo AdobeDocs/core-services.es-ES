@@ -15,7 +15,7 @@ ht-degree: 98%
 ---
 
 
-# Activation
+# Activación
 
 Activation incluye el último producto de administración de etiquetas denominado Experience Platform Launch, Dynamic Tag Management (DTM) y Triggers.
 
