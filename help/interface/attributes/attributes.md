@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre el servicio Atributos del cliente en Adobe Experience Cloud y cómo cargar los datos para utilizarlos en Analytics y Destinatario.
+description: Obtenga información sobre el servicio de atributos de cliente de Adobe Experience Cloud y cómo cargar los datos para utilizarlos en Analytics y Target.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
 title: 'Cómo utilizar los atributos del cliente '
@@ -8,16 +8,16 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
 
-# Cómo utilizar los atributos del cliente en Adobe Experience Cloud
+# Uso de atributos de cliente de Adobe Experience Cloud
 
-Los atributos del cliente en Adobe Experience Cloud le permiten cargar los datos empresariales capturados desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en un origen de datos de atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
+Los atributos de cliente de Adobe Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
-To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+Para localizar esta función, vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos de cliente]**
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cli
 
 Consulte [Carga de datos del atributo del cliente](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) para obtener información sobre este flujo de trabajo.
 
-## Ejemplos de atributos del cliente en Analytics y Destinatario {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Ejemplos de atributos de cliente de Analytics y Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 Una vez que los datos se encuentren en Experience Cloud, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
 
