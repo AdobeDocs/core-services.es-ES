@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo implementar el Adobe Experience Cloud y convertirse en administrador.
+description: Obtenga información sobre cómo implementar Adobe Experience Cloud y convertirse en administrador.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Activación de las soluciones en los servicios principales '
@@ -99,7 +99,7 @@ Si no utiliza [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag 
 
 ## Analytics y Adobe Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) con Experience Cloud.
+Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 En Adobe Target, `mbox3rdpartyid` debe obtener el ID de cliente y enviárselo a [!DNL Target]. (Consulte [Uso de Atributos del cliente](https://docs.adobe.com/content/help/es-ES/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) en [!DNL Target]).
 
@@ -207,11 +207,11 @@ Consulte [Audiencias](../audience-library/audience-library.md#topic_679810123CAA
 
 Si utiliza los servicios de perfil de audiencia en tiempo real y otros servicios principales en Adobe [!DNL Experience Cloud], el uso de estos servicios podría determinar en qué centro (y en qué país) se alojan los datos. En concreto, como los servicios principales de Adobe [!DNL Experience Cloud] se sirven de Adobe Audience Manager, los datos utilizados en [!UICONTROL People] deben residir en servidores de Audience Manager en Estados Unidos.
 
-Al utilizar los servicios principales disponibles mediante el servicio [!UICONTROL People], los tipos de datos enviados desde otros productos de Adobe a la gestión de público son los siguientes:
+Al utilizar los servicios principales disponibles mediante el servicio [!UICONTROL People], los tipos de datos enviados desde otros productos de Adobe a la gestión de audiencia son los siguientes:
 
 * Pares de clave/valor de [!DNL Analytics] (props, eVars, list vars, etc.). De forma predeterminada, las líneas de registro incluyen direcciones IP, con el último octeto de la dirección IP (suponiendo que esta no fue modificada por la configuración de confusión de IP dentro de Adobe [!DNL Analytics]).
 * Características y segmentos para los que los visitantes cumplen los requisitos según las reglas configuradas en Audience Manager.
-* (Opcional) Uno o más de sus ID. Según la implementación del servicio de ID, también podría estar enviando uno o más de sus ID, como ID de CRM o direcciones de correo electrónico con hash. Si estos datos se envían a Adobe [!DNL Analytics], se transfieren a la gestión de público de Adobe. Adobe recomienda no proporcionar datos personales a Adobe [!DNL Analytics]. En lugar de ello, use un hash unidireccional para cifrar los datos antes de enviarlos a Adobe.
+* (Opcional) Uno o más de sus ID. Según la implementación del servicio de ID, también podría estar enviando uno o más de sus ID, como ID de CRM o direcciones de correo electrónico con hash. Si estos datos se envían a Adobe [!DNL Analytics], se transfieren a la gestión de audiencia de Adobe. Adobe recomienda no proporcionar datos personales a Adobe [!DNL Analytics]. En lugar de ello, use un hash unidireccional para cifrar los datos antes de enviarlos a Adobe.
 * Segmentos que se originan en [!DNL Analytics] mediante la función de uso compartido de segmentos del back-end
 * Se instala la cookie de demdex.net si no están bloqueadas las cookies de terceros. La cookie propia `AMCV_###@AdobeOrg` siempre se instala con el Servicio de Experience Cloud ID.
 
@@ -225,4 +225,4 @@ Si desea proporcionar la capacidad adecuada de no participación, los visitantes
 
 Consulte [Adobe Experience Cloud: Implementación de exclusiones de Adobe](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/opt-out.html) para obtener instrucciones detalladas.
 
-Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
+Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
