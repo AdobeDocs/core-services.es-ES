@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Comparta una carpeta de recursos de Experience Cloud con usuarios de Creative Cl
 1. En una carpeta de recursos, haga clic en **[!UICONTROL Compartir en Creative Cloud]**.
 
    ![Resultado de los pasos](assets/asset-share-cc.png)
-1. En la página Compartir en Creative Cloud, seleccione un usuario y, a continuación, haga clic en **[!UICONTROL Agregar]**.
+1. En la página Compartir en Creative Cloud, seleccione un usuario y, a continuación, haga clic en **[!UICONTROL Añadir]**.
 
    ![](assets/asset-share-cc-page.png)
 
