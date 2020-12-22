@@ -65,7 +65,7 @@ Nuevas características y correcciones de la interfaz de [!DNL Adobe Experience 
 
 Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento programado o las actualizaciones de productos no aparecen en el resumen de notificaciones por correo electrónico. Estamos trabajando para garantizar que todas las notificaciones de mantenimiento se incluyan en el compendio de correo electrónico.
 
-## martes, 8 de agosto de 2017 {#section_2313A875454044F490B418506DD24593}
+## 8 de agosto de 2017 {#section_2313A875454044F490B418506DD24593}
 
 | Función | Descripción |
 |--- |--- |
