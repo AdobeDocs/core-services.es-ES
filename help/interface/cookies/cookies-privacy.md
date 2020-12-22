@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre las cookies y la privacidad en las soluciones y servicios de Adobe Experience Cloud.
+description: Obtenga información sobre las cookies y la privacidad de las soluciones y los servicios de Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Información general sobre las cookies y la privacidad '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
