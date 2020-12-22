@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# Cómo configurar suscripciones en Experience Cloud
+# Configuración de suscripciones en Experience Cloud
 
 Obtenga más información sobre las fuentes de datos de soluciones y de la configuración de suscripciones. Las Suscripciones habilitan el flujo de datos de atributos del cliente entre Experience Cloud y las soluciones (Analytics y [!DNL Target]).
 
