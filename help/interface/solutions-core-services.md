@@ -53,9 +53,9 @@ Incluye las siguientes soluciones:
 
 Incluye Media Optimizer y TubeMogul.
 
-## ¿Qué son las soluciones?  {#concept_4F52341A45DC49B2B216824B14D54FDA}
+## ¿Qué son las soluciones? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-La siguiente información describe brevemente las soluciones y proporciona vínculos de ayuda. [Las fórmulas de casos de uso](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) también están disponibles para ayudarle con flujos de trabajo de marketing digital.
+La siguiente información describe brevemente las soluciones y proporciona vínculos de ayuda. [Las fórmulas de casos de uso](https://helpx.adobe.com/es/marketing-cloud/how-to/use-cases.html) también están disponibles para ayudarle con flujos de trabajo de marketing digital.
 
 [Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html)
 
@@ -84,7 +84,7 @@ Adobe Target se integra con Analytics y otros servicios principales de Experienc
 
 Como solución de administración de contenido, Adobe Experience Manager facilita la gestión de sus recursos y contenidos para sitios web, aplicaciones móviles, comunidades y formularios.
 
-Consulte [Adobe Experience Manager 6.5](https://helpx.adobe.com/es/support/experience-manager/6-5.html) para obtener ayuda.
+Consulte [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) para obtener ayuda.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/aam-home.html)
 
