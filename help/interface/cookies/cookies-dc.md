@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo Adobe Data Connectors utiliza las cookies para proporcionar a los anunciantes métricas optimizadas de rendimiento de conversión y campaña en varios canales publicitarios.
+description: Obtenga información sobre cómo Adobe Data Connectors usa cookies para ofrecer a los anunciantes métricas de rendimiento de conversiones y campañas optimizadas en varios canales publicitarios.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Cookies de Data Connectors '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
