@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo crear el origen de atributos del cliente y cargarlo en el Adobe Experience Cloud.
+description: Obtenga información sobre cómo crear el origen de atributos de cliente y cargarlo en Adobe Experience Cloud.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: 'Crear un origen de atributo del cliente y cargar el archivo de datos '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
