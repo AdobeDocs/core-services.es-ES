@@ -1,5 +1,5 @@
 ---
-description: Aprenda a utilizar las reglas de atributos para crear una audiencia y definir una audiencia compuesta en Adobe Experience Cloud.
+description: Obtenga información sobre cómo utilizar las reglas de atributos para crear una audiencia y definir una audiencia compuesta en Adobe Experience Cloud.
 keywords: core services
 solution: Experience Cloud
 title: 'Crear una audiencia '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
