@@ -1,18 +1,18 @@
 ---
-description: Obtenga información sobre los recursos Experience Cloud que puede compartir entre las distintas soluciones.
+description: Obtenga información sobre Experience Cloud Assets que puede compartir entre distintas soluciones.
 solution: Experience Cloud
-title: 'Información general sobre los recursos de Experience Cloud '
+title: 'Información general sobre Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Información general sobre los recursos de Experience Cloud
+# Información general sobre Experience Cloud Assets
 
 Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
@@ -24,7 +24,7 @@ Entre los servicios de activos se incluyen:
 El uso de recursos mejora la coherencia y el cumplimiento de la marca y reduce el tiempo de comercialización. Puede optimizar los flujos de trabajo en las soluciones:
 
 * **[!DNL Social]**: publique en propiedades sociales, Facebook, Twitter, LinkedIn, Google+.
-* **[!DNL Target]**: cree experiencias para pruebas A/B y con múltiples variables.
+* **[!DNL Target]**: cree experiencias para pruebas A/B y con pruebas multivariadas.
 * **[!DNL Media Optimizer]**: desarrolle unidades de anuncios en los distintos canales y campañas.
 * **[!DNL Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
 
@@ -52,7 +52,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ![](assets/asset-tools.png)
 
-## Editar recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Editar recursos  {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La edición de un recurso activa funciones, entre las que se incluyen:
 
