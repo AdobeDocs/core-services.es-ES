@@ -1,5 +1,5 @@
 ---
-description: Cómo utiliza la Data Workbench las cookies para analizar grandes volúmenes de datos en rápida evolución en tiempo real.
+description: Cómo usa cookies Data Workbench para analizar grandes volúmenes de datos de rápida evolución en tiempo real.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Data Workbench '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
