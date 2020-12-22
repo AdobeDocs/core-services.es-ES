@@ -145,7 +145,7 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 >
 >Microsoft va a [dejar de ofrecer asistencia](https://www.microsoft.com/es-es/WindowsForBusiness/End-of-IE-support) para Internet Explorer 8, 9 y 10. Debido a esto, no corregiremos los problemas notificados en relación con estas versiones específicas de Internet Explorer.
 
-## Versión 15.10: 14 de octubre de 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Versión 15.10: 14 de octubre de 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problemas conocidos**
 
@@ -189,7 +189,7 @@ No hay información disponible.
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>Los menús de navegación de la izquierda se han actualizado y organizado para proporcionar acceso a todos los servicios y soluciones principales. Los cambios más destacables incluyen: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las  selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selección de menú <span class="term"> Exchange </span> se ha trasladado del menú desplegable Ayuda al carril de navegación izquierdo. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado <span class="term">Soluciones</span>. Podrá iniciar todas las soluciones desde la mitad inferior del carril de navegación. </li> 
     </ul> </td> 
@@ -481,7 +481,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * La carga de archivos permite más tipos de archivo que el método de arrastrar y soltar. Para obtener los mejores resultados, realice la carga mediante Assets.
 * Los vínculos de [!DNL Search&Promote] no están disponibles en la página [!UICONTROL Organización y acceso a productos].
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
-* Algunos usuarios no pueden vincular su cuenta de gestión de público con su cuenta de [!DNL Experience Cloud].
+* Algunos usuarios no pueden vincular su cuenta de gestión de audiencia con su cuenta de [!DNL Experience Cloud].
 * Su sesión se cerrará tras 15 minutos de inactividad. Además, cuando se cierre la sesión en una ubicación, también se cerrará la sesión de Experience Cloud.
 * Puede que algunos usuarios de Exchange encuentren sus nombres en los comentarios como un ID de cadena largo en lugar de sus nombres.
 
@@ -582,7 +582,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
 * Los filtros aplicados en los informes de tendencias de Analytics no se aplican a las tarjetas en Experience Cloud.
 * Algunos archivos CSV o de Excel no pueden cargarse en un tablero.
-* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de público con su [!DNL Experience Cloud].
+* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de audiencia con su [!DNL Experience Cloud].
 * Algunos usuarios experimentan un error al compartir segmentos de [!DNL Analytics] en [!DNL Experience Cloud].
 * Es probable que algunos usuarios no puedan explorar las subcarpetas del [!UICONTROL Selector de recursos].
 * Algunos usuarios no pueden compartir sus gadgets de AdLens en [!DNL Experience Cloud].
