@@ -29,7 +29,7 @@ Además, es posible que deba localizar el ID de su organización con fines de as
 
 El **identificador de organización** es el ID asociado con la empresa que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse).
 
-Para ver el identificador de su organización, vaya a la página de inicio de Experience Cloud o haga clic en ( ![](assets/menu-icon.png)) y, a continuación, haga clic en **[!UICONTROL Administración]**. Puede encontrar el ID de organización en la parte inferior de la página [!UICONTROL Introducción a Experience Cloud] o la página [!UICONTROL Administración].
+Para ver el identificador de su organización, vaya a la página de inicio de Experience Cloud o haga clic en (![](assets/menu-icon.png)) y, a continuación, haga clic en **[!UICONTROL Administración]**. Puede encontrar el ID de organización en la parte inferior de la página [!UICONTROL Introducción a Experience Cloud] o la página [!UICONTROL Administración].
 
 ![](assets/administration-page.png)
 
