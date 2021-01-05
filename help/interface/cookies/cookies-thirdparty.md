@@ -2,13 +2,13 @@
 description: Obtenga información sobre cómo la compatibilidad con cookies de terceros se ha limitado cada vez más en los distintos exploradores.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Cómo los cambios en la compatibilidad con cookies de terceros afectan a los clientes '
+title: 'Impacto en los clientes de los cambios en la compatibilidad con cookies de terceros '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
