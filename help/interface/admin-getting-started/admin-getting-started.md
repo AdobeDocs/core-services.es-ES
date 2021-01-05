@@ -2,13 +2,13 @@
 description: Obtenga información sobre el inicio de sesión en Adobe Admin Console, y la administración de permisos de usuarios, perfiles de productos y compatibilidad de exploradores en Experience Cloud.
 keywords: Experience Cloud services
 solution: Experience Cloud
-title: 'Obtenga información sobre cómo administrar usuarios y productos '
+title: 'Información sobre la administración de usuarios y productos '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1432'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer c
 
 **Ayuda relacionada**
 
-[Guía del usuario de administración](https://helpx.adobe.com/es/enterprise/using/users.html) de Creative Cloud y Document Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos de identidad](https://helpx.adobe.com/enterprise/help/identity.html).
+[Guía del usuario de administración](https://helpx.adobe.com/es/enterprise/using/users.html) de Creative Cloud y Document Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos de identidad](https://helpx.adobe.com/es/enterprise/help/identity.html).
 
 [Inicie sesión y administre la configuración de perfil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) para administrar contraseñas, organizaciones y notificaciones.
 
@@ -127,7 +127,7 @@ Consulte [Usuarios y permisos](https://docs.adobe.com/content/help/es-ES/dtm/usi
 
 Cree usuarios de Audience Manager y asígnelos a grupos. También puede establecer límites de vista (características, segmentos, destinos y [!DNL AlgoModel]).
 
-Consulte [Administración](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) en la ayuda de Audience Manager.
+Consulte [Administración](https://docs.adobe.com/content/help/es-ES/dtm/using/admin/users.html) en la ayuda de Audience Manager.
 
 ## Administración de productos de Experience Cloud {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -142,9 +142,9 @@ Al invitar a un usuario a una organización, puede darle acceso a productos y pe
 
 Encontrará más ayuda en:
 
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) en la ayuda de Adobe Target para obtener más información.
-* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html)
+* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/property-channel.html) en la ayuda de Adobe Target para obtener más información.
+* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/es/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +195,6 @@ Exploradores admitidos en Experience Cloud.
 
 ### Soluciones y requisitos del producto
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/es-ES/target/using/implement-target/before-implement/supported-browsers.html)
