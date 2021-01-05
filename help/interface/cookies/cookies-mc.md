@@ -4,9 +4,9 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Experience Cloud '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
   </tr> 
   <tr> 
    <td colname="col1"> <p> Uso </p> </td> 
-   <td colname="col2"> <p> Esta cookie se usa para identificar a un visitante único </p> </td> 
+   <td colname="col2"> <p> Esta cookie se usa para identificar a un visitante único. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ubicación </p> </td> 
