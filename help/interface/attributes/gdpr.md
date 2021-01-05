@@ -1,9 +1,9 @@
 ---
 title: 'Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos '
 description: Obtenga información sobre la compatibilidad con atributos de cliente con el Reglamento General de Protección de Datos
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
 
 * &quot;clave&quot;: &lt;*generalmente, el nombre del cliente*>
 
-* &quot;acción&quot;: ya sea **acceso** o **eliminación**
+* &quot;acción&quot;: ya sea **acceso** (access) o **eliminación** (delete)
 
 * &quot;ID de usuario&quot;:
 
