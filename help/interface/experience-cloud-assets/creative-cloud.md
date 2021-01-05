@@ -3,9 +3,9 @@ description: 'Obtenga información sobre cómo compartir carpetas y recursos ent
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
