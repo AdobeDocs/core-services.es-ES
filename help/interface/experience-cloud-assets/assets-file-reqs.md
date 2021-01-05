@@ -4,9 +4,9 @@ keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Requisitos de archivo para uso compartido de recursos '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -30,4 +30,4 @@ Las limitaciones de tamaño de archivo provienen del explorador y pueden variar 
 | Internet Explorer 6 | 2 GB | 2 GB 4 GB para transferencias fraccionadas o con relación estrecha. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
-| Internet Explorer 9 a 11 | 4 GB | 17.592 GB |
+| Internet Explorer 9 a 11 | 4 GB | 17,592 GB |
