@@ -3,9 +3,9 @@ description: Obtenga información sobre Experience Cloud Assets que puede compar
 solution: Experience Cloud
 title: 'Información general sobre Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ![](assets/asset-tools.png)
 
-## Editar recursos  {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Editar recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La edición de un recurso activa funciones, entre las que se incluyen:
 
