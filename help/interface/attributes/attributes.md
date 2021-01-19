@@ -1,19 +1,19 @@
 ---
-description: Obtenga información sobre el servicio de atributos de cliente de Adobe Experience Cloud y cómo cargar los datos para utilizarlos en Analytics y Target.
-keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
+title: Uso de atributos de cliente
+description: Obtenga información sobre el servicio Atributos del cliente en Adobe Experience Cloud. Descubra cómo puede cargar los datos para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud
-title: 'Uso de atributos de cliente '
-uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+feature: Customer Attributes
+role: Administrator
+translation-type: tm+mt
+source-git-commit: 654b13b2053df2c91b4c539b4d37b66c6008d759
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 92%
 
 ---
 
 
-# Uso de atributos de cliente de Adobe Experience Cloud
+# Cómo utilizar los atributos del cliente en Adobe Experience Cloud
 
 Los atributos de cliente de Adobe Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
