@@ -1,19 +1,19 @@
 ---
-title: ¿Qué son los atributos del cliente y cómo funcionan?
+title: ¿Qué son los atributos del cliente?
 description: Obtenga información sobre el servicio Atributos del cliente en Adobe Experience Cloud. Descubra cómo cargar datos de atributos del cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 253ec3d13c66be792214e09616f83e8b24929c3c
+source-git-commit: 9aebc0221b4d35c31968394ebb159f10f82960bd
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 91%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
 
-# Cómo utilizar los atributos del cliente en el Experience Cloud
+# Atributos del cliente en Experience Cloud
 
 Los atributos de cliente de Adobe Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
