@@ -1,14 +1,14 @@
 ---
-title: Atributos del cliente
+title: Uso de atributos de cliente
 description: Obtenga información sobre el servicio Atributos del cliente en Adobe Experience Cloud. Descubra cómo cargar datos de atributos del cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 10635b4eda2fff32ef04878178be3ac88fa32756
+source-git-commit: 9c091fc2b5d45b0a396584972fb3ad441444b474
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 94%
 
 ---
 
