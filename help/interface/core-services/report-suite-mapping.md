@@ -2,11 +2,11 @@
 description: Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización en Experience Cloud.
 title: 'Asignación de grupos de informes a una organización '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->La funcionalidad de asignación de grupos de informes quedará obsoleta en noviembre de 2020. Asigne todos los grupos de informes pendientes para preparase para esto. Póngase en contacto con el servicio de atención al cliente si tiene alguna pregunta.
-
-Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización.
+>La funcionalidad de asignación de grupos de informes quedó obsoleta en noviembre de 2020. Si tiene alguna duda, póngase en contacto con el servicio de asistencia al cliente.
 
 Los servicios de Experience Cloud (como el Servicio de Experience Cloud ID y [!UICONTROL People]) están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. Proceso de asignación:
 
