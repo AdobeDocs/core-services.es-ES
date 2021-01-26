@@ -3,9 +3,9 @@ solution: Experience Cloud
 type: Documentation
 title: 'Audiencias de Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las soluci
 | Ayuda con | Recurso |
 |--- |--- |
 | ¿No puede encontrar Audiencias? | Compruebe que está aprovisionado. Consulte [Introducción: Habilite sus soluciones para los servicios principales](../core-services/core-services.md).<br>Haga clic [aquí](https://www.adobe.com/go/audiences) para solicitar acceso a Profiles &amp; Audiences (formulario de aprovisionamiento de integraciones). |
-| Casos de uso | Para obtener más información sobre la solución que se debe utilizar, vaya a [Opciones de creación de audiencias](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) en la Base de conocimiento. |
+| Casos de uso | Para obtener más información sobre la solución que se debe utilizar, vaya a [Opciones de creación de audiencias](https://helpx.adobe.com/es/marketing-cloud-core/kb/People/Audience-Creation-Options.html) en la Base de conocimiento. |
 | Foro | El [Foro de audiencias](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) es un recurso adicional para obtener ayuda con las audiencias. |
 
 ## Elementos de la interfaz de la biblioteca de audiencias {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
