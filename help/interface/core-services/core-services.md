@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Activación de las soluciones en los servicios principales '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ Para los clientes existentes, es posible que tenga que modernizar las implementa
 
 Qué debe hacer para unirse a Experience Cloud:
 
-![](assets/step1_icon.png) Asegúrese de que cuenta con los SKU correspondientes de Adobe Analytics o Adobe Target.
+1. Asegúrese de que cuenta con los SKU correspondientes de Adobe Analytics o Adobe Target.
 
-* **Adobe Analytics:** Standard o Premium (no el SKU de [!DNL SiteCatalyst] heredado).
-* **Adobe Target:** Standard o Premium.
+   * **Adobe Analytics:** Standard o Premium (no el SKU de [!DNL SiteCatalyst] heredado).
+   * **Adobe Target:** Standard o Premium.
 
->[!NOTE]
->
->Para [!DNL Target], migre a at.js desde [!DNL mbox.js]. Consulte [Actualización de at.js 1.x a at.js 2.x](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >Para [!DNL Target], migre a at.js desde [!DNL mbox.js]. Consulte [Actualización de at.js 1.x a at.js 2.x](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Modernice su implementación y solicite que un administrador lo aprovisione.
+1. Modernice su implementación y solicite que un administrador lo aprovisione.
 
-1. Siga los pasos de [Implementación del [!UICONTROL servicio de Experience Cloud ID]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-1. Póngase en contacto con su administrador de cuentas e inicie el proceso de aprovisionamiento de Experience Cloud.
+   * Siga los pasos a continuación en [Implementar el [!UICONTROL servicio de ID de Experience Cloud]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+   * Póngase en contacto con su administrador de cuentas e inicie el proceso de aprovisionamiento de Experience Cloud.
 
-![](assets/step3_icon.png) Administración de usuarios y productos en [!UICONTROL Admin Console].
+1. Administración de usuarios y productos en [!UICONTROL Admin Console].
 
 ### Inicio de sesión de administrador
 
@@ -54,18 +54,18 @@ Una vez que sea administrador, podrá iniciar sesión en [experiencecloud.adobe.
 
 Verá el enlace **[!UICONTROL Administración]** en el menú de navegación de Experience Cloud.
 
-Consulte [Administración de usuarios y productos de Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) para obtener ayuda.
+Consulte [Administración de productos y usuarios Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) para obtener más información.
 
 ### Inicio de sesión de usuario
 
 Para iniciar sesión en Experience Cloud, los usuarios deben:
 
-1. Tener un Adobe ID (o Enterprise ID para su compañía).
-1. Iniciar sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-1. Pertenecer a un grupo de soluciones asignado a un grupo de empresas.
-1. Si es necesario, vincule sus cuentas de soluciones a su Adobe ID (descrito a continuación).
+* Tener un Adobe ID (o Enterprise ID para su compañía).
+* Iniciar sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+* Pertenecer a un grupo de soluciones asignado a un grupo de empresas.
+* Si es necesario, vincule sus cuentas de soluciones a su Adobe ID (descrito a continuación).
 
-![](assets/step4_icon.png) Opcional: Vincule las cuentas de usuario existentes.
+### Opcional: Vincule las cuentas de usuario existentes.
 
 Lo más probable es que tenga usuarios que ya sean miembros de grupos de soluciones, como un grupo de Analytics que haya gestionado anteriormente en [!UICONTROL Analytics] > [!UICONTROL Herramientas de administración].
 
