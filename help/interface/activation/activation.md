@@ -6,16 +6,16 @@ seo-title: Activation
 solution: Experience Cloud Services
 title: Servicios de Activation de Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
 
-# Activación
+# Activation
 
 Activation incluye el último producto de administración de etiquetas denominado Experience Platform Launch, Dynamic Tag Management (DTM) y Triggers.
 
