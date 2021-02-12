@@ -1,13 +1,13 @@
 ---
-description: Descubra cómo administrar los permisos de usuario y los perfiles de producto de Adobe Experience Cloud. Obtenga información sobre cómo iniciar sesión en Adobe Admin Console y la compatibilidad del navegador con Experience Cloud.
+description: Descubra cómo administrar los permisos de usuario y los perfiles de producto de Adobe Experience Cloud. Obtenga información acerca de iniciar sesión en Adobe Admin Console y si el explorador es compatible con Experience Cloud.
 solution: Admin
-title: 'Cómo administrar usuarios y productos '
+title: 'Administración de usuarios y productos '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Obtenga más información sobre el inicio de sesión en Admin Console y la admin
 
 ## Novedades en la administración de usuarios de Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
 
-Obtenga información sobre las últimas funciones de administración de usuarios y productos de Experience Cloud.
+Obtenga información acerca de las funciones más recientes para la administración de usuarios y productos en Experience Cloud.
 
 <!-- ### Business ID type
 
@@ -43,7 +43,7 @@ Los administradores pueden ver una lista de los usuarios de Experience Cloud que
 
 ## Inicio de sesión en Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-Los administradores ya no administran usuarios en soluciones de productos específicas. La administración de usuarios y productos para Experience Cloud ahora se realiza en Admin Console.
+Los administradores ya no administran usuarios en las soluciones de producto específicas. La administración de usuarios y productos para Experience Cloud ahora se realiza en Admin Console.
 
 Para iniciar sesión en Admin Console:
 
@@ -54,7 +54,7 @@ En el menú Experience Cloud (![](assets/menu-icon.png)), también puede hacer c
 
 **Ayuda relacionada**
 
-[Guía del usuario de administración](https://helpx.adobe.com/es/enterprise/using/users.html) de Creative Cloud y Document Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos de identidad](https://helpx.adobe.com/enterprise/help/identity.html).
+[Guía del usuario de administración](https://helpx.adobe.com/es/enterprise/using/users.html) de Creative Cloud y Document Cloud. Algunos datos son relevantes para la administración de usuarios de Experience Cloud, como la [administración de tipos de identidad](https://helpx.adobe.com/es/enterprise/help/identity.html).
 
 [Inicio de sesión y administración de la configuración de perfil](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
@@ -118,9 +118,9 @@ Los clientes de Adobe Enterprise están representados como organizaciones de IMS
 
 ## Experience Platform Launch {#section_3A41CF2BD5994B9891537D063571D4ED}
 
-Invite a los usuarios a [!UICONTROL Inicio de plataforma] y asigne funciones y derechos de usuario.
+Invite a los usuarios a [!UICONTROL Platform Launch], y asigne funciones y derechos de usuario.
 
-Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#admin).
+Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=es#admin).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -141,9 +141,9 @@ Al invitar a un usuario a una organización, puede darle acceso a productos y pe
 
 Encontrará más ayuda en:
 
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) en la ayuda de Adobe Target para obtener más información.
-* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html)
+* [Permisos de usuario de Enterprise](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/property-channel.html) en la ayuda de Adobe Target para obtener más información.
+* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/es/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Asignación de permisos de acceso de Analytics a un perfil de producto {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -194,6 +194,6 @@ Exploradores admitidos en Experience Cloud.
 
 ### Soluciones y requisitos del producto
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/es-ES/target/using/implement-target/before-implement/supported-browsers.html)
