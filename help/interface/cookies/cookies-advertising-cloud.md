@@ -2,11 +2,11 @@
 description: Obtenga información sobre las cookies de Adobe Ad Cloud para asignar eventos de participación de anuncios a eventos de conversión y, posiblemente, para utilizar esa información con el fin de optimizar las ofertas de publicidad.
 title: 'Cookies de Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>2 años </p> </td> 
+   <td colname="col2"> <p>Las cookies configuradas el 24 de febrero de 2021 o anteriores caducan después de 730 días. Las cookies establecidas el 25 de febrero de 2021 o versiones posteriores caducan después de 364 días.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
