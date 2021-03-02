@@ -1,16 +1,20 @@
 ---
-description: Configuración de Triggers en Experience Cloud.
-keywords: integrations;Triggers
+description: Descubra cómo configurar los activadores de Experience Cloud.
+keywords: integraciones;Triggers
 seo-description: Configuración de Triggers en Experience Cloud.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Información general sobre Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '670'
-ht-degree: 100%
+feature: Admin Console
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 98%
 
 ---
 
