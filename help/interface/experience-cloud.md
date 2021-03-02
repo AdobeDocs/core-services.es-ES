@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre la administración de usuarios y productos en Adobe Admin Console, habilite soluciones para los servicios de Experience Cloud, y descubra la biblioteca de audiencias, los atributos de cliente y los recursos de Experience Cloud, entre otras cosas.
-keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
+keywords: Servicios de Adobe Experience Cloud, atributos del cliente, audiencias, administración de usuarios y productos
 solution: Experience Cloud
 title: 'Administración y servicios de Experience Cloud '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+feature: '"Atributos del cliente, Biblioteca de audiencias, Admin Console"'
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 95%
 
 ---
 
