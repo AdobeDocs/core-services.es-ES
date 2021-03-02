@@ -1,14 +1,14 @@
 ---
 description: Obtenga información sobre cómo implementar Adobe Experience Cloud y convertirse en administrador.
-keywords: core services;Customer Attributes
+keywords: servicios principales;atributos del cliente
 solution: Experience Cloud
 title: 'Activación de las soluciones en los servicios principales '
 index: true
-translation-type: ht
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
-workflow-type: ht
-source-wordcount: '2352'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '2357'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Si ha implementado recientemente Experience Cloud mediante Experience Platform Launch, ya tiene todo configurado para Atributos del cliente y Audiencias de Experience Cloud. También puede administrar usuarios y productos en Admin Console.
 
-Para los clientes existentes, es posible que tenga que modernizar las implementaciones de sus soluciones e implementar Experience Cloud. Al hacerlo, puede aprovechar los atributos del cliente y las funciones de audiencia en Adobe Analytics, Audience Manager y Adobe Target. Para lograrlo, deberá hacer lo siguiente:
+Para los clientes existentes, es posible que tenga que modernizar las implementaciones de sus soluciones e implementar Experience Cloud. Al hacerlo, puede aprovechar los atributos del cliente y las funciones de audiencia en Adobe Analytics, Audience Manager y Adobe Target. Para lograr esta implementación:
 
 1. [Únase a Experience Cloud y conviértase en administrador](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implemente el Servicio de Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -99,7 +99,7 @@ Si no utiliza [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag 
 
 ### Analytics y Adobe Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) con Experience Cloud.
+Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 En Adobe Target, `mbox3rdpartyid` debe obtener el ID de cliente y enviárselo a [!DNL Target]. (Consulte [Uso de Atributos del cliente](https://docs.adobe.com/content/help/es-ES/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) en [!DNL Target]).
 
@@ -229,4 +229,4 @@ Si desea proporcionar la capacidad adecuada de no participación, los visitantes
 
 Consulte [Adobe Experience Cloud: Implementación de exclusiones de Adobe](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/opt-out.html) para obtener instrucciones detalladas.
 
-Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
+Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
