@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre cómo iniciar sesión en Adobe Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
-keywords: core services, sign in to Experience Cloud
+keywords: servicios principales, iniciar sesión en Experience Cloud
 solution: Experience Cloud
 title: 'Inicio de sesión y administración de la configuración de perfil de Experience Cloud '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+feature: Admin Console
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '949'
+ht-degree: 99%
 
 ---
 
@@ -120,7 +124,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
    En la página Perfil y contraseñas, complete los campos y las opciones en Detalles personales.
 
-## Recuperación de la contraseña {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Recuperación de la contraseña  {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navegue a la página de inicio de sesión de su solución.
 1. Haga clic en **[!UICONTROL Contraseña olvidada]**.
