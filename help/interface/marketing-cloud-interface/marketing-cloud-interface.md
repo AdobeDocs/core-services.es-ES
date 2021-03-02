@@ -1,16 +1,16 @@
 ---
 description: Información general sobre nuevas funciones y actualizaciones de Experience Cloud.
-keywords: core services
+keywords: servicios principales
 seo-description: Información general sobre nuevas funciones y actualizaciones de Experience Cloud.
 seo-title: Novedades de Experience Cloud
 solution: Experience Cloud
 title: 'Novedades de Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Correcciones y mejoras para la versión de agosto de 2018.
 * Se han realizado mejoras en la sincronización de comentarios de recursos entre Creative Cloud y Experience Cloud. (CORE-15971)
 * Se ha agregado una marca para controlar la sincronización de recursos entre Experience Cloud y Creative Cloud. (CORE-15938)
 * Se han realizado mejoras en la creación de segmentos de audiencia, incluida una mejor experiencia de búsqueda y listado. (CORE-5833, CORE-14278)
-* Se ha corregido un problema de alta prioridad que bloqueaba el uso compartido de carpetas desde MAC a Creative Cloud. (CORE-16677)
+* Se ha corregido un problema de alta prioridad que bloqueaba el uso compartido de carpetas de Experience Cloud a Creative Cloud. (CORE-16677)
 
 ## 19 de julio de 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
