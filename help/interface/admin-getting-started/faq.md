@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre la compatibilidad de exploradores, y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe Experience Cloud.
-keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
+keywords: servicios principales, Experience Cloud, Experience Platform, Analytics, Target, administración de usuarios.
 solution: Experience Cloud
 title: 'Preguntas frecuentes sobre Experience Cloud '
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+feature: Admin Console
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +54,7 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nue
 
 ## ¿Cómo puedo resolver mis dudas acerca de la migración de mi empresa?
 
-[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 ## ¿Qué es el _aprovisionamiento?_
 
@@ -73,7 +77,7 @@ El aprovisionamiento de Experience Cloud significa que:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) para verificar que su empresa esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html) para verificar que su empresa esté plenamente aprovisionada.
 
 ## ¿Dónde puede ir un usuario para administrar la vinculación de cuentas?
 
