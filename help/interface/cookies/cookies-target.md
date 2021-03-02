@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre cómo Adobe Target usa cookies para ofrecer a los administradores del sitio web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
-keywords: cookies;privacy
+keywords: cookies,privacidad
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Uso de cookies de Adobe Target '
+title: 'Cookies de Adobe Target  '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+feature: Cookies
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +70,7 @@ La cookie conserva una serie de valores para administrar la forma en que los vis
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>ID exclusivo para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. </p> </td> 
+   <td colname="col2"> <p>ID único para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
