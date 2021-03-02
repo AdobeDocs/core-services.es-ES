@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre las cookies de Adobe Analytics en Adobe Experience Cloud.
-keywords: cookies;privacy
+keywords: cookies,privacidad
 solution: Experience Cloud,Analytics,Target
-title: 'Uso de las cookies de Adobe Analytics '
+title: 'Cookies de Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+feature: Cookies
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +68,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Marca de fecha y hora del ID de visitante único. |
+| Información almacenada | Marca de fecha y hora del ID único de visitante. |
 | Vencimiento | 2 años |
 | Uso | Esta cookie se usa para identificar a un visitante único. |
 | Ubicación | Esta cookie se almacena en el dominio de la solicitud de imagen, por lo general un subdominio específico del cliente bajo 2o7.net u omtrdc.net si utiliza cookies de terceros o si su dominio utiliza cookies de origen |
@@ -74,11 +78,11 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 >
 >Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
-## Nombre de la cookie: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nombre de la cookie: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | Marca de fecha y hora del ID de visitante único de reserva. |
+| Información almacenada | Marca de fecha y hora del ID único de visitante de reserva. |
 | Vencimiento | 2 años |
 | Uso | Esta cookie se usa para identificar a un visitante único. si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se utiliza en implementaciones que utilizan cookies de origen |
 | Ubicación | Esta cookie se almacena en su dominio como una cookie de origen |
@@ -100,7 +104,7 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 >
 >Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
-## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
