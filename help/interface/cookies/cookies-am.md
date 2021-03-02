@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre las cookies de Audience Manager en Adobe Experience Cloud.
-keywords: cookies
+keywords: 'Cookies de '
 solution: Experience Cloud, Audience Manager
 title: 'Cookies de Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+feature: Cookies
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
@@ -29,11 +33,11 @@ Audience Manager depende de una serie de cookies simples para realizar diferente
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> configura esta cookie para asignar un único ID a un visitante del sitio. La cookie <span class="wintitle">demdex</span> ayuda a <span class="keyword">Audience Manager</span> a llevar a cabo diferentes funciones, tales como la identificación del visitante, la sincronización de ID, la segmentación, el modelado, la creación de informes, etc. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> configura esta cookie para asignar un ID único a un visitante del sitio. La cookie <span class="wintitle">demdex</span> ayuda a <span class="keyword">Audience Manager</span> a llevar a cabo diferentes funciones, tales como la identificación del visitante, la sincronización de ID, la segmentación, el modelado, la creación de informes, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un identificador único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un ID único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Otros atributos</b> </p> </td> 
