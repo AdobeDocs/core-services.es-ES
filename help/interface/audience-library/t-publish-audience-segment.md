@@ -1,11 +1,15 @@
 ---
 title: 'Publicación de un segmento de audiencia de Analytics '
 description: Cómo publicar un segmento de audiencia de Adobe Analytics en Experience Cloud y Adobe Target para actividades de marketing para audiencias.
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '65'
-ht-degree: 100%
+feature: Biblioteca de audiencias
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 98%
 
 ---
 
