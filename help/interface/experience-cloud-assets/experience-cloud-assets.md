@@ -3,18 +3,18 @@ description: Obtenga información sobre Experience Cloud Assets que puede compar
 solution: Experience Cloud
 title: 'Información general sobre Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Información general sobre Experience Cloud Assets
 
-Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
+Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas en un archivo [!DNL Photoshop], diapositivas en un archivo [!DNL PowerPoint], páginas en un PDF o archivos en un ZIP).
 
 Entre los servicios de activos se incluyen:
 
@@ -52,7 +52,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ![](assets/asset-tools.png)
 
-## Editar recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Editar recursos  {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La edición de un recurso activa funciones, entre las que se incluyen:
 
