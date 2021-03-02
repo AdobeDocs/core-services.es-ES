@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado en las soluciones de Experience Cloud.
-keywords: cookies;privacy
+description: Descubra cómo se almacenan y utilizan los servicios de ID en las soluciones de Experience Cloud.
+keywords: cookies,privacidad
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Experience Cloud '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+feature: Cookies
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
@@ -56,7 +60,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
 
 **Nombre de la cookie: AMCV_###@AdobeOrg**
 
-El [Servicio de Experience Platform ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) utiliza JavaScript para almacenar un ID de visitante único en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+El [Servicio de Experience Platform ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) utiliza JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 Consulte también la información relativa a las [Cookies y el servicio de ID](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html).
 
@@ -70,7 +74,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> ID de visitante únicos utilizados por las soluciones de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vencimiento </p> </td> 
