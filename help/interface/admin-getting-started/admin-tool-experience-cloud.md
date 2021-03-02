@@ -1,14 +1,18 @@
 ---
-description: Obtenga información sobre la herramienta de administración de Experience Cloud para ver una lista ordenable y filtrable de todos los usuarios y las directivas de Experience Cloud.
-keywords: core services
+description: Obtenga información sobre la herramienta de administración de Experience Cloud. Vea una lista ordenable y filtrable de todos los usuarios y directivas de Experience Cloud.
+keywords: servicios principales
 solution: Experience Cloud
 title: 'Vea los usuarios de Experience Cloud y sus detalles '
 index: true
-translation-type: ht
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+feature: Admin Console
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +79,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Nombre
 * Correo electrónico
 * Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
-* [Tipo de ID](https://helpx.adobe.com/es/enterprise/using/identity.html)
+* [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
 
@@ -106,7 +110,7 @@ Esta página muestra la lista completa de las directivas de Experience Cloud en 
 | [!UICONTROL Perfil del producto] | Nombre del perfil del producto. La columna puede ordenarse A->Z, Z->A. Haga clic en el nombre de un perfil de producto para ver más detalles sobre la directiva. |
 | [!UICONTROL Producto] | Producto asociado con el perfil del producto. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Instancia] | La instancia (por ejemplo, compañía de inicio de sesión o inquilino) asociada al perfil del producto. Los productos que no tengan instancias únicas o inquilinos mostrarán un &quot; - &quot; para el valor. La columna puede ordenarse de la A a la Z y de la Z a la A. |
-| [!UICONTROL Cantidad de usuarios] | Recuento único de usuarios asociados al perfil del producto, incluida la asignación directa y la asignación de grupos. Las columnas pueden ordenarse de menor a mayor o de mayor a menor. |
+| [!UICONTROL Cantidad de usuarios] | Cantidad única de usuarios asociados al perfil del producto, incluida la asignación directa y la asignación de grupos. Las columnas pueden ordenarse de menor a mayor o de mayor a menor. |
 | [!UICONTROL Cantidad de desarrolladores] | Recuento de funciones de desarrollador asociadas al perfil del producto. Las columnas pueden ordenarse de menor a mayor o de mayor a menor. |
 
 ## Personalización de la visualización de listas de directivas
