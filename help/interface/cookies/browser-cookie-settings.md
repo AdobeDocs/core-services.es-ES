@@ -1,14 +1,18 @@
 ---
-description: Elimine los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles. Esta configuración de privacidad excluye a los usuarios que decidieron excluirse de la recopilación de datos de Analytics.
-keywords: cookies;privacy
+description: Obtenga información sobre cómo habilitar la configuración de privacidad para las cookies del explorador. Puede eliminar los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles.
+keywords: cookies,privacidad
 solution: Experience Cloud, Analytics, Target, Social
-title: 'Habilitación de la configuración de la privacidad para las cookies del explorador '
+title: 'Configuración de privacidad para las cookies del explorador '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+feature: Cookies
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 95%
 
 ---
 
