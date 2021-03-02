@@ -1,11 +1,15 @@
 ---
 title: 'Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos '
 description: Obtenga información sobre la compatibilidad con atributos de cliente con el Reglamento General de Protección de Datos
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+feature: 'Atributos del cliente '
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
