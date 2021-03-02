@@ -1,14 +1,14 @@
 ---
 description: Cómo compartir una carpeta de recursos de Experience Cloud con usuarios de Creative Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: compartir recursos;Creative Cloud;servicios principales
 solution: Experience Cloud
 title: 'Uso compartido de una carpeta de recursos de Experience Cloud '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ Comparta una carpeta de recursos de Experience Cloud con usuarios de Creative Cl
 
    ![](assets/asset_comment_mac.png)
 
-1. Para dejar de compartir una carpeta, haga clic en **[!UICONTROL Compartir en Creative Cloud]** (similar al [Paso 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), después elimine los usuarios haciendo clic en la X y, a continuación, haga clic en **[!UICONTROL Compartir]**.
+1. Para dejar de compartir una carpeta, haga clic en **[!UICONTROL Compartir con Creative Cloud]** (similar al [paso 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), después elimine los usuarios haciendo clic en X y, a continuación, haga clic en **[!UICONTROL Compartir]**.
 
 ![](assets/asset_remove_user.png)
 
-Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja de ser compartida y los usuarios de Creative Cloud ya no tendrán acceso a ella.
+Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja de compartirse y los usuarios de Creative Cloud ya no tendrán acceso a ella.
 
-Formas adicionales de utilizar un recurso compartido incluyen:
+Entre otras formas de utilizar un recurso compartido se incluyen:
 
 * Utilizar recursos en el [!UICONTROL Selector de recursos] en [!DNL Adobe Social] para publicaciones sociales.
 * Cargue o intercambie recursos de la [biblioteca de ofertas](https://docs.adobe.com/help/es-ES/target/using/experiences/offers/manage-content.html) en [!DNL Adobe Target] para imágenes en las actividades.
