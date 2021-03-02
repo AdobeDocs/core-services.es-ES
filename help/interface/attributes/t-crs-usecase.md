@@ -1,14 +1,18 @@
 ---
 description: Obtenga información sobre cómo crear el origen de atributos de cliente y cargarlo en Adobe Experience Cloud.
-keywords: Customer Attributes;core services
+keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
 title: 'Crear un origen de atributo del cliente y cargar el archivo de datos '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+feature: 'Atributos del cliente '
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +123,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       ![](assets/file_upload_attributes.png)
 
-   * **[!UICONTROL ID único de cliente:]** Muestra cuántos ID únicos ha cargado en este origen de atributos.
+   * **[!UICONTROL ID de cliente único:]** Muestra cuántos ID únicos ha cargado en este origen de atributos.
 
    * **[!UICONTROL ID proporcionados por el cliente asociados a ID de visitante de Experience Cloud:]** Muestra cuántos ID se han asociado a los ID de visitante de Experience Cloud.
 
