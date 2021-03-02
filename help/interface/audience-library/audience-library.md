@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: Documentación
 title: 'Audiencias de Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: ht
-source-wordcount: '796'
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las soluci
 | [!DNL Target] | El [servicio de ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Marcar la casilla [Publicar en Experience Cloud](../audience-library/audience-library.md) durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para actividades en [!DNL Target]. Por ejemplo, puede crear actividades de campaña basadas en [!DNL Analytics] métricas de conversión de y segmentos de audiencias creados en [!DNL Analytics]. |
 | Audience Manager | Las audiencias compartidas están disponibles en la segmentación de Audience Manager. Todas las audiencias de Experience Cloud están disponibles de forma nativa en Audience Manager, que proporciona lo siguiente:<ul><li>Automatización integrada sobre cómo se comparten y consumen los flujos de trabajo de la solución</li><li>Destinos fuera del sitio</li><li>Modelado similar</li></ul> |
 | Campaign | <ul><li>Importar audiencias compartidas de diferentes soluciones de Adobe Experience Cloud en Adobe Campaign.</li><li>Exportación de listas de destinatarios como audiencias compartidas. Estas audiencias compartidas pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que use.</li></ul> |
-| Media Optimizer | Utilice la audiencia como destinatarios. |
+| Advertising Cloud | Utilice la audiencia como destinatarios. |
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las soluci
 | Ayuda con | Recurso |
 |--- |--- |
 | ¿No puede encontrar Audiencias? | Compruebe que está aprovisionado. Consulte [Introducción: Habilite sus soluciones para los servicios principales](../core-services/core-services.md).<br>Haga clic [aquí](https://www.adobe.com/go/audiences) para solicitar acceso a Profiles &amp; Audiences (formulario de aprovisionamiento de integraciones). |
-| Casos de uso | Para obtener más información sobre la solución que se debe utilizar, vaya a [Opciones de creación de audiencias](https://helpx.adobe.com/es/marketing-cloud-core/kb/People/Audience-Creation-Options.html) en la Base de conocimiento. |
+| Casos de uso | Para obtener más información sobre la solución que se debe utilizar, vaya a [Opciones de creación de audiencias](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) en la Base de conocimiento. |
 | Foro | El [Foro de audiencias](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) es un recurso adicional para obtener ayuda con las audiencias. |
 
 ## Elementos de la interfaz de la biblioteca de audiencias {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
