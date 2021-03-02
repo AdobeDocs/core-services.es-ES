@@ -1,11 +1,15 @@
 ---
 title: 'Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California '
-description: Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+description: Obtenga información sobre la compatibilidad de Atributos del cliente con la Ley de Privacidad del Consumidor de California
+feature: 'Atributos del cliente '
+topic: Administración
+role: Administrador
+level: Con experiencia
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 97%
 
 ---
 
