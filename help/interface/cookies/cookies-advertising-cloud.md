@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -101,7 +101,7 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>Las cookies configuradas el 24 de febrero de 2021 o anteriores caducan después de 730 días. Las cookies establecidas el 25 de febrero de 2021 o versiones posteriores caducan después de 364 días.</p> </td> 
+   <td colname="col2"> <p>Las cookies instaladas el 24 de febrero de 2021 o en una fecha anterior caducan después de 730 días. Las cookies instaladas el 25 de febrero de 2021 o en una fecha posterior caducan después de 364 días.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
