@@ -8,11 +8,11 @@ feature: Assets
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Las limitaciones de tamaño de archivo provienen del explorador y pueden variar 
 | Internet Explorer 6 | 2 GB | 2 GB 4 GB para transferencias fraccionadas o con relación estrecha. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
-| Internet Explorer 9 a 11 | 4 GB | 17.592 GB |
+| Internet Explorer 9 a 11 | 4 GB | 17,592 GB |
