@@ -3,17 +3,17 @@ description: Obtenga más información sobre las más recientes actualizaciones 
 seo-description: Obtenga más información sobre las más recientes actualizaciones de marca para las nubes y aprenda a desplazarse por la interfaz y buscar ayuda para las soluciones y servicios principales.
 seo-title: Acerca de los nuevos nombres de las nubes en Experience Cloud
 solution: Experience Cloud
-title: 'Acerca de los nombres de las nubes en Experience Cloud '
+title: 'Acerca de los nombres de nube en Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Target se integra con Analytics y otros servicios principales de Experienc
 
 Como solución de administración de contenido, Adobe Experience Manager facilita la gestión de sus recursos y contenidos para sitios web, aplicaciones móviles, comunidades y formularios.
 
-Consulte [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) para obtener ayuda.
+Consulte [Adobe Experience Manager 6.5](https://helpx.adobe.com/es/support/experience-manager/6-5.html) para obtener ayuda.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/aam-home.html)
 
@@ -106,7 +106,7 @@ Adobe Campaign permite planificar, enviar y medir campañas en todos sus canales
 
 Adobe Primetime es una plataforma de TV multipantalla que ayuda a los broadcasters a crear atractivas experiencias de cine y televisión personalizadas para cualquier audiencia.
 
-## ¿Qué son los servicios principales?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## ¿Qué son los servicios principales? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [Los servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services-landing.html) incluyen funciones que simplifican la implementación de productos y habilitan flujos de trabajo entre soluciones, como la segmentación de audiencias, la carga de atributos del cliente o las herramientas de colaboración.
 
