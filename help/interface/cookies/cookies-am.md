@@ -8,11 +8,11 @@ feature: Cookies
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -99,11 +99,11 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
    <td colname="col1"> <p> <b>Primero o segundo</b> </p> </td> 
    <td colname="col2"> <p>La posición del nombre o ID del proveedor de datos varía en función de si la cookie utiliza el formato de estilo nuevo o antiguo. </p> <p> <b>Formato de estilo antiguo:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Sintaxis: <span class="codeph"><span class="varname"> nombre del proveedor de datos </span> - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Sintaxis: <span class="codeph"> <span class="varname"> nombre del proveedor de datos </span> - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">Ejemplo: <span class="codeph">dataProvider1 – 1490307822038 </span> </li> 
      </ul> </p> <p>La cookie de estilo antigua identifica al proveedor de datos con un nombre legible. </p> <p> <b>Nuevo formato de estilo:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">Sintaxis: <span class="codeph"><span class="varname"> ID del proveedor de datos </span> - 1|2 - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">Sintaxis: <span class="codeph"> <span class="varname"> ID del proveedor de datos </span> - 1|2 - <span class="varname"> Marca de tiempo UNIX UTC </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Ejemplo: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>Nueva cookie de estilo: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
