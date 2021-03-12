@@ -8,11 +8,11 @@ feature: Biblioteca de audiencias
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Los *Visitantes de Chrome y Safari* son un segmento de audiencia compartido desd
 
 ![](assets/chrome_safari.png)
 
-Para comparar, podría agregar una regla *O* (OR) para ver todos los visitantes de una sección del sitio como Patio y muebles.
+Para comparar, podría agregar una regla *OR* para ver todos los visitantes de una sección del sitio como Patio y muebles.
 
 ![](assets/audiences_rule_patio.png)
 
