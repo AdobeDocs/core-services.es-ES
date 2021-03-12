@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo cargar datos de atributos del cliente a través de FTP a Experience Cloud.
+description: Aprenda a cargar datos de atributos del cliente a Experience Cloud a través de FTP.
 keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
 title: 'Carga del archivo de datos de atributos de cliente mediante FTP '
@@ -8,11 +8,11 @@ feature: 'Atributos del cliente '
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
