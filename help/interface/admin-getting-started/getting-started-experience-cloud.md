@@ -8,11 +8,11 @@ feature: Admin Console
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
    En la página Perfil y contraseñas, complete los campos y las opciones en Detalles personales.
 
-## Recuperación de la contraseña  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Recuperación de la contraseña {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navegue a la página de inicio de sesión de su solución.
 1. Haga clic en **[!UICONTROL Contraseña olvidada]**.
