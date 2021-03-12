@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo implementar la precarga de DNS para ayudar a reducir los tiempos de carga de las páginas con diferentes soluciones y servicios en Experience Cloud.
+description: Aprenda a implementar la búsqueda previa de DNS para ayudar a reducir los tiempos de carga de la página con diferentes soluciones y servicios en Experience Cloud.
 solution: Experience Cloud
 title: 'Uso de la precarga de DNS con diferentes soluciones y servicios '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -7,11 +7,11 @@ feature: '"Atributos del cliente, Biblioteca de audiencias, Admin Console"'
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
