@@ -1,18 +1,18 @@
 ---
-description: Obtenga información sobre cómo habilitar la configuración de privacidad para las cookies del explorador. Puede eliminar los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles.
+description: Aprenda a habilitar la configuración de la privacidad para las cookies del explorador. Puede eliminar los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles.
 keywords: cookies,privacidad
 solution: Experience Cloud, Analytics, Target, Social
-title: 'Configuración de privacidad para las cookies del explorador '
+title: 'Configuración de la privacidad para las cookies de explorador '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
