@@ -8,16 +8,16 @@ feature: 'Atributos del cliente '
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '522'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
 
-# Consideraciones de privacidad sobre atributos de cliente en Experience Cloud
+# Consideraciones de privacidad sobre atributos de cliente
 
 Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
 
