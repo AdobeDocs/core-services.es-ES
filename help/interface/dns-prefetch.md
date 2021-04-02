@@ -3,14 +3,14 @@ description: Aprenda a implementar la búsqueda previa de DNS para ayudar a redu
 solution: Experience Cloud
 title: 'Uso de la precarga de DNS con diferentes soluciones y servicios '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"Atributos del cliente, Biblioteca de audiencias, Admin Console"'
+feature: 'Atributos del cliente '
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '389'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
