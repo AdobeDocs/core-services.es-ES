@@ -9,9 +9,9 @@ topic: Administración
 role: Administrador
 level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '3966'
 ht-degree: 100%
 
 ---
@@ -505,7 +505,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Ayuda</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. </p> <p>Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones de otros fabricantes, informes y tarjetas de <span class="keyword">Experience Cloud</span>. </p> <p>Consulte <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Ayuda</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. </p> <p>Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones de otros fabricantes, informes y tarjetas de <span class="keyword">Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiencias de Experience Cloud </p> </td> 
