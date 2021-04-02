@@ -4,14 +4,14 @@ keywords: Servicios de Adobe Experience Cloud, atributos del cliente, audiencias
 solution: Experience Cloud
 title: 'Administración y servicios de Experience Cloud '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Atributos del cliente, Biblioteca de audiencias, Admin Console"'
+feature: '"Atributos del cliente"'
 topic: Administración
 role: Administrador
 level: Con experiencia
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '443'
 ht-degree: 98%
 
 ---
