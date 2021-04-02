@@ -9,11 +9,11 @@ feature: Cookies
 topic: Administración
 role: Administrador
 level: Con experiencia
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,9 @@ Hay dos opciones disponibles para implementar cookies de origen:
 * El servicio Experience Platform ID. El servicio de ID puede establecer la cookie en el contexto de origen a través de JavaScript.
 * Entradas DNS en el servidor DNS de su compañía para configurar un alias CNAME en un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si ese cliente controla varios dominios, puede usar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero como esto requiere cookies de terceros para todos los dominios fuera del dominio de CNAME, no funciona cuando las cookies de terceros están bloqueadas y por lo tanto no se recomienda. Los CNAME de Adobe nunca se utilizan para realizar el seguimiento de un individuo o dispositivo entre dominios propiedad de distintos clientes.
 
-Incluso cuando se utiliza la primera opción con el Servicio de Experience Cloud ID, el ITP de Apple hará que las cookies de origen tengan una duración corta, por lo que es mejor usarlas junto con la segunda opción.
+>[!NOTE]
+>
+>Para ambas opciones, el programa Intelligent Tracking Prevention (ITP) de Apple hará que las cookies de origen tengan una duración corta en los navegadores que se rigen por ITP, que incluyen Safari en MacOS y todos los navegadores en iOS y iPadOS. A partir de noviembre de 2020, ambos tipos de cookies tienen una caducidad de siete días. Esta caducidad está sujeta a cambios.
 
 En la segunda opción, si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL a fin de implementar cookies de origen. Adobe recomienda utilizar HTTPS exclusivamente para la recopilación de datos, ya que en el segundo semestre de 2020 dejaremos de admitir la recopilación de HTTP.
 
@@ -94,7 +96,7 @@ Mientras no se modifique el código de implementación, este paso no afectará a
 
 >[!NOTE]
 >
->El servicio de ID de Visitante de Experience Cloud ofrece una alternativa a la configuración de un CNAME para habilitar las cookies de origen, pero debido a los recientes cambios de ITP de Apple, se recomienda asignar un CNAME incluso cuando se utilice el Servicio de Experience Cloud ID.
+>El servicio ID de visitante de Experience Cloud proporciona una alternativa para configurar un CNAME para habilitar cookies de origen.
 
 ## Validar reenvío de nombre de host {#validate}
 
