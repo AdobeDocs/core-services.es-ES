@@ -2,7 +2,7 @@
 title: Componentes y servicios de la interfaz de usuario del Experience Cloud
 description: Obtenga información sobre los componentes de interfaz de usuario, la administración de usuarios y productos en Adobe Admin Console, la biblioteca de audiencias, los atributos del cliente, los recursos de Experience Cloud y mucho más.
 cloud: Experience Cloud
-product: core-services
+product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services
 solution-title: Experience Platform
@@ -14,7 +14,7 @@ tutorials-title: Tutoriales
 tutorials-url: https://docs.adobe.com/content/help/es-ES/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.es-ES
 translation-type: tm+mt
-source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
+source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 86%
