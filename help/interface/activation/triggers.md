@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 'Información general sobre Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

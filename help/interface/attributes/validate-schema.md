@@ -4,10 +4,10 @@ keywords: Atributos del cliente;servicios de Experience Cloud
 solution: Experience Cloud
 title: 'Validación del esquema de atributos de cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: 'Atributos del cliente '
-topic: Administración
-role: Administrador
-level: Con experiencia
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

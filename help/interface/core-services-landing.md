@@ -2,10 +2,10 @@
 description: Obtenga información sobre la administración de usuarios y productos de Adobe Experience Cloud, People (Audiencias y Atributos del cliente), Journey Orchestration, Ofertas, Places, Experience Platform Launch y Mobile Services.
 solution: Experience Cloud
 title: 'Información general sobre los servicios de Experience Cloud '
-feature: 'Atributos del cliente '
-topic: Administración
-role: Administrador
-level: Con experiencia
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt

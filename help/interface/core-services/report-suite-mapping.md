@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo asignar uno o varios grupos de inf
 title: 'Asignación de grupos de informes a una organización '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

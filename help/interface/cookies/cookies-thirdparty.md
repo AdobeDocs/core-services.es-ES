@@ -5,9 +5,9 @@ solution: Experience Cloud,Analytics,Target
 title: 'Impacto en los clientes de los cambios en la compatibilidad con cookies de terceros '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

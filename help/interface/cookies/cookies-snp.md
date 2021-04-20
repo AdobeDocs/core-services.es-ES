@@ -5,9 +5,9 @@ solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Search&Promote '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: Cookies
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

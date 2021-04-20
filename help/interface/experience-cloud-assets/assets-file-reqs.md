@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Requisitos de archivo para uso compartido de recursos '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

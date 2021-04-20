@@ -1,13 +1,13 @@
 ---
 solution: Experience Cloud
-type: Documentación
+type: Documentation
 title: 'Audiencias de Adobe Experience Cloud '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: Descubra cómo administrar la traducción de datos sobre visitantes en segmentación de audiencia en el servicio de Audiencias de Experience Cloud.
-feature: Biblioteca de audiencias
-topic: Administración
-role: Administrador
-level: Con experiencia
+feature: Audience Library
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

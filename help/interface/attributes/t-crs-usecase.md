@@ -4,10 +4,10 @@ keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
 title: 'Crear un origen de atributo del cliente y cargar el archivo de datos '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 'Atributos del cliente '
-topic: Administración
-role: Administrador
-level: Con experiencia
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

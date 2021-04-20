@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Cargar un recurso a una carpeta compartida desde Creative Cloud local '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
 feature: Assets
-topic: Administración
-role: Administrador
-level: Con experiencia
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
