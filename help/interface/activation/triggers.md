@@ -7,17 +7,17 @@ solution: Experience Cloud
 title: 'Información general sobre Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Administration
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '678'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
-
 
 # Triggers
 
@@ -61,7 +61,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
    | Descripción | Descripción de este Trigger, el uso que le dará, etc. |
    | Grupo de informes | El [grupo de informes](https://docs.adobe.com/content/help/es-ES/analytics/admin/manage-report-suites/report-suites-admin.html) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
    | La visita debe incluir<br>La visita no debe incluir<br>un Trigger sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar.  Por ejemplo, las reglas de un Trigger sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: Adición al carro (métrica) y Existe. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: Cierre de compra.</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>Include Meta Data: le permite agregar una dimensión de Campaign determinada o variables que resultan relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar una lógica Cualquiera (Any), Y (And) u O (Or) entre contenedores, según los criterios que determine para la regla. |
-   | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador Y, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
+   | Contenedor | Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita.  Por ejemplo, si tiene dos contenedores unidos por el operador AND, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
 5. Haga clic en **[!UICONTROL Guardar]**.
