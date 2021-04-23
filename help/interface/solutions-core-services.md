@@ -6,17 +6,17 @@ solution: Experience Cloud
 title: 'Acerca de los nombres de nube en Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
-topic: Administration
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: 180a0f66-3d80-48b5-9829-18c5c31d312c
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '671'
+source-wordcount: '669'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de los nuevos nombres de las nubes en Experience Cloud {#topic_BD726D3A649E4FC49063029E86B70C62}
 
