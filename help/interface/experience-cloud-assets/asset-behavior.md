@@ -5,17 +5,17 @@ solution: Experience Cloud
 title: 'Comportamiento de archivos compartidos '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
-topic: Administration
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
-
 
 # Comportamiento de archivos compartidos
 
