@@ -1,18 +1,18 @@
 ---
 title: 'Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California '
 description: Conozca el cumplimiento de atributos del cliente con la Ley de privacidad del consumidor de California.
-feature: Customer Attributes
-topic: Administration
+feature: 'Atributos del cliente '
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 100%
 
 ---
-
 
 # Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
 
@@ -46,7 +46,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
 
 1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los Atributos del cliente y comprobar el estado de las solicitudes existentes.
 
-## Valores de campo requeridos en solicitudes JSON de los [!UICONTROL Atributos del cliente]
+## Valores de campo requeridos en solicitudes JSON de [!UICONTROL Atributos del cliente]
 
 &quot;contexto de compañía&quot;:
 
