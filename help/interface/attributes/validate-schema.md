@@ -4,18 +4,18 @@ keywords: Atributos del cliente;servicios de Experience Cloud
 solution: Experience Cloud
 title: 'Validación del esquema de atributos de cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
-topic: Administration
+feature: 'Atributos del cliente '
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
-
 
 # Validar el esquema
 
@@ -49,7 +49,7 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
 También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato .csv, con un segundo archivo .fin para indicar que la carga ha finalizado.
 
-Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics] Consulte [Informe de atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la ayuda de [!DNL Analytics] para obtener más información.
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics]. Consulte [Informe de atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la ayuda de [!DNL Analytics] para obtener más información.
 
 * **[!UICONTROL Atributo:]** Lectura de datos de atributo desde un archivo cargado `.csv`.
 
