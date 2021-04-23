@@ -6,18 +6,18 @@ seo-title: Terminología
 solution: Experience Cloud
 title: 'Terminología '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: "Customer Attributes"
-topic: Administration
+feature: '"Atributos del cliente"'
+topic: Administración
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: tm+mt
-source-wordcount: '1502'
+exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
-
 
 # Terminología
 
@@ -36,7 +36,7 @@ Una referencia terminológica para los usuarios de Experience Cloud y cómo se u
 | Panel | No tiene un uso especial. | Recopilación de visualizaciones de datos que muestran varias métricas clave en una sola vista. |
 | Aplicación del uso de datos | No tiene un uso especial. | Las políticas, el diseño del sistema, las prácticas y los procedimientos adoptados y definidos por un sistema (soluciones, aplicaciones, servicios, SDK, API, etc.) para utilizar los metadatos de uso de datos y permitir el cumplimiento de las políticas de privacidad corporativas de Adobe, las consideraciones contractuales y los principios generales de privacidad. |
 | Device | No tiene un uso especial. | Un dispositivo de hardware, como una tableta, un teléfono o un equipo de escritorio, en el que se ejecutan las aplicaciones. |
-| Dispositivo Co-op | No tiene un uso especial. | Un grupo de marcas que han acordado compartir datos sobre los dispositivos que utilizan los consumidores para mejorar la identificación de un individuo en todos los dispositivos y ofrecer experiencias más significativas y coherentes. |
+| Device Co-op | No tiene un uso especial. | Un grupo de marcas que han acordado compartir datos sobre los dispositivos que utilizan los consumidores para mejorar la identificación de un individuo en todos los dispositivos y ofrecer experiencias más significativas y coherentes. |
 | [!UICONTROL Servicio de Experience Cloud ID (ECID)] | No tiene un uso especial. | ID única y persistente asignada a un visitante del sitio. Es una entidad específica que puede usar el servicio de identidad de Experience Platform. [Más...](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) |
 | [!UICONTROL Servicio de identidad de Experience Platform] | No tiene un uso especial. | El servicio que vincula identidades. Es el servicio de vinculación de dispositivos para la administración de experiencias individualizadas. |
 | Vinculación | No tiene un uso especial.  La Vinculación hace referencia a la navegación mediante hipervínculos y la de elementos como fuentes, propiedades, capas y demás. | En Experience Cloud, la vinculación suele referirse a la vinculación de cuentas de distintas soluciones con la interfaz.<br>Consulte [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md).<br>La vinculación también hace referencia a URL estándar para informes de Analytics enviados a otros usuarios. |
@@ -46,7 +46,7 @@ Una referencia terminológica para los usuarios de Experience Cloud y cómo se u
 | Portafolio | Conjunto de varios archivos o recursos. | Un contenedor de campañas. |
 | Perfil del producto | Consulte [Administración de productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html). | Para que un usuario tenga derecho a utilizar un producto o servicio, debe formar parte de un perfil de productos. El administrador de productos asigna licencias a un perfil de productos asociándolo a un plan que ha adquirido.<br>Un usuario puede pertenecer a distintos perfiles de producto que le otorguen diversas licencias. La aceptación final de un usuario es la unión de todas las licencias otorgadas por cada perfil de producto a ese usuario. |
 | Programación | Puede hacer referencia a una secuencia de escenas en Adobe Story o a tareas programadas en ColdFusion. | En Experience Cloud, una programación es una fecha de inicio (año, mes, día) y una fecha final para activar campañas, canales y actividades. Las programaciones de Actividades tienen una granularidad inferior al minuto. Al cambiar una programación se crea una tarjeta.<br>Algunos ejemplos son:<ul><li>Programaciones de campañas</li><li>Programaciones de canales</li><li>Programaciones de actividades</li></ul> |
-| Segmento | N/D | Resultado de un conjunto de reglas para calificar una audiencia. En Analytics, los [segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) se pueden usar de forma opcional para definir una audiencia que se puede pasar a Experience Cloud. <br>En Audience Manager, un segmento es una recopilación de [características](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/traits/traits-overview.html) y todos los criterios que califican a los visitantes para la membresía o inclusión en ese segmento. Además, es una recopilación de personas que comparten estos atributos comunes. |
+| Segmento | N/D | Resultado de un conjunto de reglas para calificar una audiencia. En Analytics, los [segmentos](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html) se pueden usar de forma opcional para definir una audiencia que se puede pasar a Experience Cloud. <br>En Audience Manager, un segmento es una recopilación de [características](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/traits/traits-overview.html) y todos los criterios que califican a los visitantes para la membresía o inclusión en ese segmento. Además, es una recopilación de personas que comparten estos atributos comunes. |
 | Uso compartido | En Creative Cloud, puede compartir archivos de forma externa entre plataformas (social, comunidades, correos electrónicos y demás). | En Experience Cloud, puede compartir un recurso como solo una tarjeta, dentro de los tableros de la interfaz. El uso compartido está disponible para los usuarios que iniciaron sesión en el sitio. |
 | Solución | No tiene un uso especial. | En Experience Cloud, las soluciones se conocen como productos; algunos ejemplos son Adobe Analytics, Adobe Social, Adobe Target, etc.<br>[Consulte los nuevos nombres de la nube en Experience Cloud](solutions-core-services.md). |
-| Característica | N/D | Un par clave-valor, por ejemplo, color=azul. En Audience Manager, las [características](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html) se utilizan para generar segmentos. |
+| Característica | N/D | Un par clave-valor, por ejemplo, color=azul. En Audience Manager, las [características](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/traits/traits-overview.html) se utilizan para generar segmentos. |
