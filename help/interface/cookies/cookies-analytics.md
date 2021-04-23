@@ -5,17 +5,17 @@ solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
-topic: Administration
+topic: Administración
 role: Administrator
 level: Experienced
+exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '759'
+source-wordcount: '757'
 ht-degree: 100%
 
 ---
-
 
 # Cookies de Analytics {#analytics-cookies}
 
@@ -84,8 +84,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 |--- |--- |
 | Información almacenada | Marca de fecha y hora del ID único de visitante de reserva. |
 | Vencimiento | 2 años |
-| Uso | Esta cookie se usa para identificar a un visitante único. si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se utiliza en implementaciones que utilizan cookies de origen |
-| Ubicación | Esta cookie se almacena en su dominio como una cookie de origen |
+| Uso | Esta cookie se usa para identificar a un visitante único. si la cookie estándar `s_vi` no está disponible debido a las restricciones de cookies de terceros. No se utiliza en implementaciones que utilizan cookies de origen. |
+| Ubicación | Esta cookie se almacena en su dominio como una cookie de origen. |
 | Tamaño | 33 bytes |
 
 ## Indicadores de cookie
