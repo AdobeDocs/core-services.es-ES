@@ -5,11 +5,11 @@ breadcrumb-title: Administración y servicios de Experience Cloud
 user-guide-description: Obtenga información sobre cómo administrar usuarios y productos en Adobe Experience Cloud y cómo utilizar los servicios Atributos del cliente y Biblioteca de Audiencias. Obtenga información también sobre las cookies y los recursos de Experience Cloud.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 98%
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
 + Atributos del cliente de Experience Cloud {#customer-attributes}
    + [Información general sobre Atributos del cliente](attributes/attributes.md)
-   + [Preguntas más frecuentes sobre Atributos del cliente](attributes/faq-crs.md)
+   + [Preguntas frecuentes acerca de Atributos del cliente](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md)
    + [Crear un origen de Atributo del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
    + [Opcional: cargar el archivo de datos a través de FTP](attributes/t-upload-attributes-ftp.md)
