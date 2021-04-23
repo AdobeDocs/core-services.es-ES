@@ -3,19 +3,19 @@ description: Conozca cuáles son los requisitos y qué esperar al actualizar a A
 keywords: Actualización de Adobe Analytics Premium
 solution: Experience Cloud
 title: 'Actualización a Analytics Premium y Experience Cloud '
-topic: Administration
+topic: Administración
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Experienced
+exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
-
 
 # Actualización a Analytics Premium y Experience Cloud
 
@@ -23,7 +23,7 @@ Los administradores pueden obtener información sobre los requisitos, qué encon
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Al actualizar a Adobe Analytics Premium obtiene todas las funciones o productos disponibles en Analytics Standard, entre los que se incluyen Data Warehouse, Ad Hoc Analysis, Report Builder y Data Connectors (Estos productos se vendieron por separado a los clientes que utilizan la solución clave, SiteCatalyst).
+Al actualizar a Adobe Analytics Premium obtiene todas las funciones o productos disponibles en Analytics Standard, entre los que se incluyen Data Warehouse, Ad Hoc Analysis, Report Builder y Data Connectors. (Estos productos se vendieron por separado a los clientes que utilizan la solución clave, SiteCatalyst).
 
 Analytics Premium le ofrece:
 
@@ -56,7 +56,7 @@ La actualización a Predictive Intelligence habilita [Analytics Premium](../admi
 | Producto | Actualizaciones |
 |---|---|
 | Reports &amp; Analytics | [Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
-| Data Workbench | Espacios de trabajo creados previamente para cualificaciones de audiencia y marketing predictivo |
+| Data Workbench | Espacios de trabajo creados previamente para cualificaciones de audiencia y marketing predictivo. |
 | Plataforma de Analytics | Reproducción en directo (tableros y Triggers) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
