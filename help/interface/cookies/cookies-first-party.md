@@ -6,7 +6,7 @@ title: '"Cookies de origen "'
 index: y
 snippet: y
 feature: Cookies
-topic: Administration
+topic: Administración
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Hay dos opciones disponibles para implementar cookies de origen:
 
 >[!NOTE]
 >
->Para ambas opciones, el programa Intelligent Tracking Prevention (ITP) de Apple hará que las cookies de origen tengan una duración corta en los navegadores que se rigen por ITP, que incluyen Safari en MacOS y todos los navegadores en iOS y iPadOS. A partir de noviembre de 2020, ambos tipos de cookies tienen una caducidad de siete días. Esta caducidad está sujeta a cambios.
+>Para ambas opciones, el programa Intelligent Tracking Prevention (ITP) de Apple hará que las cookies de origen tengan una duración corta en los navegadores que se rigen por ITP, que incluyen Safari en macOS y todos los navegadores en iOS y iPadOS. A partir de noviembre de 2020, ambos tipos de cookies tienen una caducidad de siete días. Esta caducidad está sujeta a cambios.
 
 En la segunda opción, si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL a fin de implementar cookies de origen. Adobe recomienda utilizar HTTPS exclusivamente para la recopilación de datos, ya que en el segundo semestre de 2020 dejaremos de admitir la recopilación de HTTP.
 
