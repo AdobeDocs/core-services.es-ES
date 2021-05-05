@@ -8,11 +8,11 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Assets es un servicio principal heredado, que ahora se encuentra en fase de mantenimiento.
+>Los activos son un servicio principal heredado, que ahora se encuentra en fase de mantenimiento.
 
 Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o un audio (o parte de ello) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un archivo de [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
@@ -60,7 +60,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ![](assets/asset-tools.png)
 
-## Editar recursos  {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Editar recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La edición de un recurso activa funciones, entre las que se incluyen:
 
