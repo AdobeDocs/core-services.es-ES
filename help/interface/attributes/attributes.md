@@ -7,11 +7,11 @@ role: Administrator
 topic: Administración
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Los Atributos del cliente son un servicio principal heredado, que ahora se encuentra en mantenimiento.
+>Los atributos del cliente son un servicio principal heredado, que ahora se encuentra en mantenimiento.
 
 Los atributos de cliente de Adobe Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
