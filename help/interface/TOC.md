@@ -5,9 +5,8 @@ breadcrumb-title: Administración y servicios de Experience Cloud
 user-guide-description: Obtenga información sobre cómo administrar usuarios y productos en Adobe Experience Cloud y cómo utilizar los servicios Atributos del cliente y Biblioteca de Audiencias. Obtenga información también sobre las cookies y los recursos de Experience Cloud.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: ht
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -32,9 +31,9 @@ ht-degree: 100%
    + [Cookies de [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies de Experience Cloud](cookies/cookies-mc.md)
    + [Cookies de Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies de [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies de [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies de [!DNL Target] ](cookies/cookies-target.md)
+   + [[!DNL Scene7]Cookies de ](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote]Cookies de ](cookies/cookies-snp.md)
+   + [[!DNL Target]Cookies de ](cookies/cookies-target.md)
    + [Habilitación de la configuración de privacidad para las cookies de navegador](cookies/browser-cookie-settings.md)
    + [El efecto de los cambios en el soporte de las cookies de terceros en los clientes](cookies/cookies-thirdparty.md)
 + Administración de usuarios y productos {#manage-users-and-products}
@@ -51,19 +50,19 @@ ht-degree: 100%
    + [Triggers](activation/triggers.md)
 + Activos de Experience Cloud {#assets}
    + [Descripción general de los activos de Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
-   + [Uso compartido de carpetas y activos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
+   + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestionar usuarios de Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
-   + [Uso compartido de una carpeta de activos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
-   + [Cargar un activo a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
-   + [Cargar un activo a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Requisitos para compartir un archivo de activos](experience-cloud-assets/assets-file-reqs.md)
+   + [Uso compartido de una carpeta de recursos de Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
+   + [Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
+   + [Cargar un recurso a una carpeta compartida desde Creative Cloud local](experience-cloud-assets/t-cc-asset-upload-thor.md)
+   + [Requisitos para compartir un archivo de recursos](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamiento de archivos compartidos](experience-cloud-assets/asset-behavior.md)
 + Biblioteca de audiencias de Experience Cloud {#audiences}
-   + [Descripción general de Experience Cloud Audiences](audience-library/audience-library.md)
+   + [Servicio de Audiencias de Experience Cloud](audience-library/audience-library.md)
    + [Crear una audiencia](audience-library/t-audience-create.md)
    + [Publicación de un segmento de audiencia de Analytics](audience-library/t-publish-audience-segment.md)
 + Atributos del cliente de Experience Cloud {#customer-attributes}
-   + [Información general sobre Atributos del cliente](attributes/attributes.md)
+   + [Atributos del cliente  sobre validación](attributes/attributes.md)
    + [Preguntas frecuentes acerca de Atributos del cliente](attributes/faq-crs.md)
    + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](attributes/crs-data-file.md)
    + [Crear un origen de Atributo del cliente y cargar el archivo de datos](attributes/t-crs-usecase.md)
@@ -81,4 +80,5 @@ ht-degree: 100%
    + [Foro](https://forums.adobe.com/community/experience-cloud)
    + [Terminología](terms.md)
    + [Uso de la precarga de DNS con diferentes soluciones y servicios](dns-prefetch.md)
-   + [Actualizaciones de la documentación](doc-updates.md)
+   + [Actualizaciones de documentación](doc-updates.md)
+
