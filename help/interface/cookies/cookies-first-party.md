@@ -10,24 +10,25 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 91%
+source-wordcount: '1629'
+ht-degree: 83%
 
 ---
 
 # Acerca de las cookies de origen
 
-Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Estas cookies inofensivas, que se originan en un dominio alojado por Adobe, se conocen como cookies de terceros.
+Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, el Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las que se usan en la recogida de datos de Analytics. Para admitir el seguimiento de la forma en que sus visitantes interactúan con su sitio web, puede implementar cookies de origen.
+Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las que se usan en la recogida de datos de Analytics. Para admitir el seguimiento de la forma en que los visitantes interactúan con el sitio web, debe configurar la recopilación de datos para que utilice cookies de origen:
 
 Hay dos opciones disponibles para implementar cookies de origen:
 
-* El servicio Experience Platform ID. El servicio de ID puede establecer la cookie en el contexto de origen a través de JavaScript.
-* Entradas DNS en el servidor DNS de su compañía para configurar un alias CNAME en un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si ese cliente controla varios dominios, puede usar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero como esto requiere cookies de terceros para todos los dominios fuera del dominio de CNAME, no funciona cuando las cookies de terceros están bloqueadas y por lo tanto no se recomienda. Los CNAME de Adobe nunca se utilizan para realizar el seguimiento de un individuo o dispositivo entre dominios propiedad de distintos clientes.
+* Si utiliza el servicio de identidad de Experience Platform (también conocido como servicio ECID), establecerá automáticamente cookies en el contexto de origen mediante JavaScript.
+* Si utiliza identificadores heredados de Analytics (también conocidos como la cookie &quot;s_vi&quot;), dependerá de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecerán como cookies de origen. Si el servidor de recopilación no coincide con su dominio actual, las cookies se configurarán como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establecerá un [id de reserva (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) de origen en lugar de la cookie estándar &quot;s_vi&quot;.
+
+Para garantizar que el servidor de recopilación coincida con el dominio del sitio, puede utilizar una implementación CNAME en la que se permitan las cookies de en un contexto de origen. Esto implica cambios en la configuración DNS de su empresa para configurar un alias CNAME y señalar a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establecerá como terceros.
 
 >[!NOTE]
 >
@@ -53,15 +54,15 @@ Así se implementa un nuevo certificado SSL de origen para cookies de origen:
 
 2. Cree registros CNAME (consulte las instrucciones más abajo).
 
-   Al recibir el ticket, un representante de atención al cliente debe proporcionarle un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. El CNAME es similar al siguiente:
+   Una vez recibida la incidencia, un especialista del Servicio de atención al cliente le proporcionará un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAME presentan un aspecto similar al siguiente:
 
    **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.adobedc.net`.
 
 >[!NOTE]
-> En el pasado, recomendamos a los clientes que configuren dos CNAME: uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico y que la mayoría de los exploradores desaconsejan enormemente la función HTTP, ya no se recomienda configurar un CNAME para HTTP. Si lo necesita, tendría este aspecto:
->    **No seguro** — el nombre de host `metrics.example.com` apunta a: `example.com.adobedc.net`.
+> En el pasado, recomendábamos a los clientes que configurasen dos CNAME: uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico y que la mayoría de los exploradores desaconsejan enormemente la función HTTP, ya no se recomienda configurar un CNAME para HTTP. Si lo necesita, tendría este aspecto:
+>    **No seguro**: el nombre de host `metrics.example.com` apunta a `example.com.adobedc.net`.
 
-1. Cuando el CNAME esté listo, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
+1. Cuando se establezca el CNAME, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
 
    Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, podrá actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (HTTP), actualice el `s.trackingServer`. Si el sitio es seguro (HTTPS), actualice ambos `s.trackingServer` y las variables de `s.trackingServerSecure`.
 
@@ -87,13 +88,13 @@ Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir
 
 El equipo de operaciones de red de su organización debe configurar los servidores DNS creando nuevos registros CNAME. Cada nombre de host envía datos a los servidores de recopilación de datos de Adobe.
 
-El especialista de FPC le proporciona el nombre de host configurado y a qué CNAME se deben apuntar. Por ejemplo:
+El especialista de FPC le proporciona los nombres de host configurados y los CNAME a los que se va a señalar. Por ejemplo:
 
 * **Nombre del host SSL**: `smetrics.mysite.com`
 * **CNAME de SSL**: `mysite.com.adobedc.net`
 
 >[!NOTE]
-> Si sigue utilizando no seguro, el aspecto será este.
+> Si sigue utilizando el método no seguro, el aspecto será este.
 > * **Nombre del host no SSL**: `metrics.mysite.com`
 > * **CNAME no de SSL**: `mysite.com.adobedc.net`
 
