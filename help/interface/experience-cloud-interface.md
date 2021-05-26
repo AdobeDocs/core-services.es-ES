@@ -6,14 +6,14 @@ feature: '"Componentes de la interfaz central"'
 topic: Administración
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-# Interfaz de Experience Cloud 
+# Temas de ayuda sobre la interfaz de Experience Cloud
 
 Los componentes de la interfaz central del Experience Cloud incluyen funciones que le permiten:
 
@@ -43,11 +43,7 @@ Haga clic en el selector de aplicaciones ![](assets/menu-icon.png) para acceder 
 
 ## Búsqueda y asistencia en Experience Cloud {#search}
 
-La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home). También puede buscar objetos empresariales, como segmentos, conjuntos de datos, esquemas, etc.
-
->[!NOTE]
->
->La búsqueda de objetos empresariales solo está disponible para usuarios Experience Platform.
+La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ En el menú de preferencias de cuenta, puede:
 
 ### Administrar [!UICONTROL Preferencias] del Experience Cloud {#preferences}
 
-Las preferencias del Experience Cloud incluyen notificaciones, suscripciones y alertas. Puede configurar la forma
+Las preferencias del Experience Cloud incluyen notificaciones, suscripciones y alertas.
 
 Haga clic en **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png) para administrar las preferencias.
 
