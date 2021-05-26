@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +50,7 @@ Inicie sesión y verifique que se encuentra en la [organización](../admin-getti
 Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
 
-1. Compruebe con su administrador que su [organización](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) está aprovisionada en Experience Cloud.
+1. Compruebe con su administrador que su [organización](../admin-getting-started/organizations.md) está aprovisionada en Experience Cloud.
 
 
 1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -115,9 +114,9 @@ Puede ordenar la aparición de notificaciones según los tipos de mensajes que c
 
 Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una organización y una página de aterrizaje predeterminadas.
 
-1. [Inicio de sesión en Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Inicie sesión en Experience Cloud.
 
-1. Desde el menú Experience Cloud, haga clic en su imagen de perfil.
+1. En el Experience Cloud, haga clic en la imagen de perfil.
 
    ![](assets/edit-profile.png)
 1. Haga clic en **[!UICONTROL Editar perfil]**.
