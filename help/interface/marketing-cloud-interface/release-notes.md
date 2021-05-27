@@ -9,7 +9,7 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 
 **Correcciones y mejoras**
 
-* Cuando navega a [!DNL experiencecloud.adobe.com], la experiencia de inicio de sesión es ahora coherente con el inicio de sesión de Creative Cloud de Adobe.
+* Cuando navega a [!DNL experience.adobe.com], la experiencia de inicio de sesión es ahora coherente con el inicio de sesión de Creative Cloud de Adobe.
 * En la página Administrar organizaciones, la experiencia de vinculación (una vez recibida la invitación) ahora es consistente en todas las soluciones.
 
 **Problemas conocidos**
