@@ -8,10 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Hay disponible una herramienta de migración de ID de usuario de Analytics para 
 
 La migración de cuentas se está poniendo a disposición de los clientes por fases. Adobe le avisará y ayudará cuando le llegue el momento de migrar las cuentas de usuario existentes desde **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** a Admin Console.
 
-Tras la migración, los usuarios iniciarán sesión con su Adobe ID (o Enterprise ID) y se autenticarán en sus soluciones y servicios de Experience Cloud en [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Si los usuarios intentan iniciar sesión con los accesos heredados ([!DNL my.omniture.com] y [!DNL sc.omniture.com]), se los redirigirá a [!DNL experiencecloud.adobe.com].
+Después de la migración, los usuarios inician sesión con su Adobe ID (o Enterprise ID) y se autentican en sus soluciones y servicios de Experience Cloud en [experience.adobe.com](https://experience.adobe.com). Si los usuarios intentan iniciar sesión con los accesos heredados ([!DNL my.omniture.com], [!DNL sc.omniture.com] y [!DNL experiencecloud.adobe.com]), se los redirigirá a [!DNL experience.adobe.com].
 
 **Ayuda relacionada**
 
