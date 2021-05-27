@@ -6,10 +6,10 @@ feature: '"Componentes de la interfaz central"'
 topic: Administración
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 6%
+source-wordcount: '434'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Los componentes de la interfaz central del Experience Cloud incluyen funciones q
 
 Inicie sesión y verifique que se encuentra en la [organización](admin-getting-started/organizations.md) correcta.
 
-1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html).
+1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
 1. Haga clic en **[!UICONTROL Iniciar sesión con un Adobe ID]**.
 1. En Adobe Experience Cloud, haga clic en su organización.
 
