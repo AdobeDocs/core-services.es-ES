@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '2367'
-ht-degree: 100%
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +23,7 @@ Si ha implementado recientemente Experience Cloud mediante Experience Platform L
 Para los clientes existentes, es posible que tenga que modernizar las implementaciones de sus soluciones e implementar Experience Cloud. Al hacerlo, puede aprovechar los atributos del cliente y las funciones de audiencia en Adobe Analytics, Audience Manager y Adobe Target. Para lograr esta implementación, deberá hacer lo siguiente:
 
 1. [Únase a Experience Cloud y conviértase en administrador](#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implemente el Servicio de Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
+1. [Implementación del Servicio de Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Asigne grupos de informes a una organización de Experience Cloud](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Actualice el código de AppMeasurement para Analytics](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Actualice la implementación de Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -54,9 +53,9 @@ Qué debe hacer para unirse a Experience Cloud:
 
 ### Inicio de sesión de administrador
 
-Una vez que sea administrador, podrá iniciar sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+Una vez que sea administrador, podrá iniciar sesión en [experience.adobe.com](https://experience.adobe.com).
 
-Verá el enlace **[!UICONTROL Administración]** en el menú de navegación de Experience Cloud.
+Verá el enlace **[!UICONTROL Admin Console]** en el menú de navegación del Experience Cloud.
 
 Consulte [Administración de usuarios y productos de Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) para obtener más información.
 
@@ -65,7 +64,7 @@ Consulte [Administración de usuarios y productos de Experience Cloud](../admin-
 Para iniciar sesión en Experience Cloud, los usuarios deben:
 
 * Tener un Adobe ID (o Enterprise ID para su compañía).
-* Iniciar sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+* Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
 * Pertenecer a un grupo de soluciones asignado a un grupo de empresas.
 * Si es necesario, vincule sus cuentas de soluciones a su Adobe ID (descrito a continuación).
 
@@ -103,7 +102,7 @@ Si no utiliza [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag 
 
 ### Analytics y Adobe Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/authenticated-state.html) con Experience Cloud.
+Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 En Adobe Target, `mbox3rdpartyid` debe obtener el ID de cliente y enviárselo a [!DNL Target]. (Consulte [Uso de Atributos del cliente](https://docs.adobe.com/content/help/es-ES/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) en [!DNL Target]).
 
@@ -233,4 +232,4 @@ Si desea proporcionar la capacidad adecuada de no participación, los visitantes
 
 Consulte [Adobe Experience Cloud: Implementación de exclusiones de Adobe](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/opt-out.html) para obtener instrucciones detalladas.
 
-Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
+Consulte [CNAME de recopilación de datos y seguimiento entre dominios](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) para habilitar el seguimiento entre dominios.
