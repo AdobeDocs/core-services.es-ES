@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -25,8 +24,7 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
 
 ## Adobe Analytics y Adobe Target
 
-* Los clientes con una [implementación propia](/help/interface/cookies/cookies-first-party.md) no se verán muy afectados.
-* Los clientes que no utilizan implementación propia pueden implementar el [Servicio Experience Platform ID](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/implementation-guides.html) para almacenar la cookie de ID como cookie de origen sin una implementación propia.
+* Analytics y Target no se verán muy afectados, ya que la misma actividad del sitio solo depende de cookies de origen. Las cookies de terceros son necesarias para comprender la actividad de los usuarios en los distintos dominios. En los exploradores en los que las cookies de terceros están bloqueadas, el seguimiento entre dominios no será posible mediante cookies.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
    * La visualización también depende en gran medida de la disponibilidad de varias cookies de red de publicidad para la sincronización.
    * Se desconoce el impacto global. Sin embargo, en el primer punto, la visualización se ve más afectada que en otros servicios.
    * Estamos trabajando internamente y con nuestros socios publicitarios para evaluar todo el impacto en el envío publicitario.
-
-* Social:
-
-   * No hay impacto en la publicidad de Facebook.
-   * Facebook Exchange (FBX) se verá afectado de la misma manera que el envío de anuncios en pantalla.
