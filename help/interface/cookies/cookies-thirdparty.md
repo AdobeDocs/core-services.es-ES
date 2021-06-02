@@ -9,22 +9,22 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # Efecto de los cambios en el soporte para las cookies de terceros en los clientes {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-El soporte para las cookies de terceros cada vez es más limitado en los navegadores. Por este motivo, Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las solicitudes de los clientes con los derechos de privacidad del consumidor en las soluciones de Adobe Experience Cloud.
+La compatibilidad con cookies de terceros se ha vuelto más limitada en los distintos navegadores. Como tal, el Adobe ha estado trabajando en nuevas soluciones que procuran armonizar las necesidades de los clientes con el derecho del consumidor a la privacidad en todas las aplicaciones de los Experience Cloud.
 
-La siguiente lista describe cómo afecta la compatibilidad con cookies de terceros a las implementaciones actuales de las soluciones de Adobe Experience Cloud:
+La siguiente lista describe cómo afecta el soporte para las cookies de terceros a las implementaciones actuales de las aplicaciones de Experience Cloud:
 
 ## Adobe Analytics y Adobe Target
 
-* Analytics y Target no se verán muy afectados, ya que la misma actividad del sitio solo depende de cookies de origen. Las cookies de terceros son necesarias para comprender la actividad de los usuarios en los distintos dominios. En los exploradores en los que las cookies de terceros están bloqueadas, el seguimiento entre dominios no será posible mediante cookies.
+* Analytics y Target no se ven afectados, ya que la misma actividad del sitio solo depende de cookies de origen. Las cookies de terceros son necesarias para comprender la actividad de los usuarios en los distintos dominios. En los exploradores en los que las cookies de terceros están bloqueadas, no es posible el seguimiento entre dominios mediante cookies.
 
 ## Adobe Experience Manager
 
@@ -46,4 +46,4 @@ La siguiente lista describe cómo afecta la compatibilidad con cookies de tercer
    * La visualización de remarketing hoy depende completamente del uso de cookies de terceros.
    * La visualización también depende en gran medida de la disponibilidad de varias cookies de red de publicidad para la sincronización.
    * Se desconoce el impacto global. Sin embargo, en el primer punto, la visualización se ve más afectada que en otros servicios.
-   * Estamos trabajando internamente y con nuestros socios publicitarios para evaluar todo el impacto en el envío publicitario.
+   * El Adobe está trabajando internamente y con nuestros socios publicitarios para evaluar todo el impacto en el envío publicitario.
