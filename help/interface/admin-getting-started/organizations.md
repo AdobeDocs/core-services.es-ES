@@ -9,9 +9,8 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -73,5 +72,5 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/contact/enterprise-support.ec.html).
 * Acceder a la solución mediante el inicio de sesión estándar mientras el problema se soluciona.
