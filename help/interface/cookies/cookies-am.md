@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -33,11 +32,11 @@ Audience Manager depende de una serie de cookies simples para realizar diferente
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> configura esta cookie para asignar un ID único a un visitante del sitio. La cookie <span class="wintitle">demdex</span> ayuda a <span class="keyword">Audience Manager</span> a llevar a cabo diferentes funciones, tales como la identificación del visitante, la sincronización de ID, la segmentación, el modelado, la creación de informes, etc. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> configura esta cookie para asignar un ID único a un visitante del sitio. La cookie <span class="wintitle"> demdex </span> ayuda a <span class="keyword"> Audience Manager </span> a llevar a cabo funciones básicas como la identificación del visitante, la sincronización de ID, la segmentación, el modelado, la creación de informes, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un ID único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un ID único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Otros atributos</b> </p> </td> 
@@ -85,7 +84,7 @@ Audience Manager depende de una serie de cookies simples para realizar diferente
 
 Sintaxis de datos de la cookie dextp:
 
-En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL dextp] por ubicación en la cadena de datos.
+En la siguiente tabla se enumeran y definen los elementos de una cookie `dextp` por ubicación en la cadena de datos.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -130,7 +129,7 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">destino</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external">destino</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
@@ -153,4 +152,4 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie [!DNL de
 
 **Cookie _dp**
 
-Esta es una cookie temporal. [!DNL Audience Manager] intenta establecer la cookie [!DNL _dp] para determinar si puede establecer otras cookies en el dominio demdex.net en un contexto de terceros. Cuando se ha establecido [!DNL _dp], este tiene un valor de 1. [!DNL Audience Manager] lee este valor y elimina de manera inmediata la cookie. Si la cookie [!DNL _dp] no está presente, [!DNL Audience Manager] sabe que no puede establecer cookies.
+Esta cookie es temporal. [!DNL Audience Manager] intenta establecer la cookie `_dp` para determinar si puede establecer otras cookies en el dominio demdex.net en un contexto de terceros. Cuando se ha establecido `_dp`, este tiene un valor de 1. [!DNL Audience Manager] lee este valor y elimina de manera inmediata la cookie. Si la cookie `_dp` no está presente, [!DNL Audience Manager] sabe que no puede establecer cookies.
