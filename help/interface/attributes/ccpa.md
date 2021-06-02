@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 66%
 
 ---
@@ -27,7 +27,7 @@ Como empresa, usted determina los datos personales que Adobe Experience Cloud pr
 
 Como proveedor de servicios, Adobe Experience Cloud proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone la CCPA y que son aplicables al uso de productos y servicios de Experience Cloud. Esta compatibilidad incluye la administración de solicitudes de acceso y eliminación de información personal.
 
-Este documento describe cómo [!UICONTROL Cliente                   derechos de acceso y eliminación de datos de la CCPA de sus interesados mediante la API de Adobe Experience Platform Privacy Service y la IU del Privacy Service.
+En este documento se describe cómo [!UICONTROL Customer Attributes] admite los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU del Privacy Service.
 
 Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
