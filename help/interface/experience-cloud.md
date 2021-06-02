@@ -8,10 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -63,11 +63,12 @@ El menú [!UICONTROL Ayuda] también le permite acceder a:
 
 ## Buscar globalmente objetos y entidades
 
-La búsqueda global permite encontrar cualquier objeto o entidad comercial en el que se pueden realizar búsquedas en una experiencia de un solo clic, uniforme y sin fisuras. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
+La búsqueda global le permite encontrar objetos o entidades empresariales en los que realizar búsquedas en una experiencia uniforme, sin problemas y con un solo clic. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
 
 ![](assets/platform-search.png)
 
-Esta búsqueda solo está disponible para usuarios Experience Platform.
+>!![NOTE]
+La búsqueda global solo está disponible para usuarios Experience Platform.
 
 ## Administrar preferencias de cuenta {#preferences}
 
@@ -122,9 +123,9 @@ Las guías de Experience Cloud relacionadas incluyen:
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Gráfico de cooperación Experience Platform](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Recopilación/Launch de datos del Experience Platform](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Recopilación/Launch de datos del Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
-* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en): Busque ayuda en Experience Cloud Learn &amp; Support
+* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): Busque ayuda en Experience Cloud Learn &amp; Support
 * [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
-* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
+* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK) : Póngase en contacto con el Adobe para asegurarse de sacar el máximo partido de los productos de Adobe
-* [Blog de la experiencia del cliente](https://blog.adobe.com/customer-experience/): Lea el blog de Experience Cloud
+* [Blog de la experiencia del cliente](https://blog.adobe.com/en/topics/digital-transformation.html): Lea el blog de Experience Cloud
 * [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support): Póngase en contacto con el Servicio de atención al cliente de Adobe
