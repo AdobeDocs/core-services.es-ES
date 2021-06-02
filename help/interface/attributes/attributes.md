@@ -7,21 +7,20 @@ role: Administrator
 topic: Administración
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: ht
-source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 85%
 
 ---
 
 # Atributos del cliente  sobre validación
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Los atributos del cliente son un servicio principal heredado, que ahora se encuentra en mantenimiento.
+>[!UICONTROL Customer ] Attribution es un servicio heredado que ahora se encuentra en mantenimiento.
 
-Los atributos de cliente de Adobe Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
+[!UICONTROL Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). ] Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
 Para localizar esta función, vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos de cliente]**
 
@@ -35,13 +34,13 @@ Para localizar esta función, vaya a **[!DNL Experience Platform]** > **[!UICONT
 
    Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [Experience Cloud](https://experience.adobe.com). Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *Atributos del cliente* se muestra como uno de los [!UICONTROL Perfiles de producto], está listo para empezar.
 
-   Los usuarios que se agregan a Atributos del cliente podrán ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
+   Los usuarios que se agregan a Atributos del cliente pueden ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz del Experience Cloud.
 
 * Se requiere **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los Atributos del cliente.
 
-   Consulte [Implementación de at.js](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [mbox.js](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
+   Consulte [Implementación de at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) o [mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en).
 
-## ¿Qué son los datos del cliente empresariales? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## ¿Qué son los datos del cliente empresariales?  {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 Los datos empresariales residen en otros sistemas. Puede ser complejo y significar cosas diferentes para diferentes personas. Estos datos pueden incluir información como suscripciones, nivel de lealtad, edad, sexo, productos propios, intereses y valor a largo plazo.
 
@@ -61,5 +60,5 @@ Por ejemplo:
 
 | Solución | Ventajas y casos de uso |
 |--- |--- |
-| Adobe Analytics | Los especialistas en marketing y analistas pueden comprender:<ul><li>Las campañas en línea más efectivas con sus clientes de nivel oro.</li><li>Los productos que buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño del sitio está teniendo un impacto positivo en las tasas de conversión para los clientes más antiguos.</li><li>Qué productos tienden a buscar en el sitio los clientes con un valor bajo a largo plazo.</li></ul> |
+| Adobe Analytics | Los especialistas en marketing y analistas pueden comprender:<ul><li>Las campañas en línea más efectivas con sus clientes de nivel oro.</li><li>Los productos que buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño del sitio está teniendo un impacto positivo en las tasas de conversión para los clientes más antiguos.</li><li>Los productos que los clientes con un valor de duración bajo tienden a buscar en mi sitio.</li></ul> |
 | Adobe Target | Los datos de atributos permiten a los usuarios de Adobe Target:<ul><li>Mostrar descuentos y ofertas especiales para miembros del club de fidelidad.</li><li>Recomendar productos más caros a sus clientes de lujo.</li><li>Para los clientes que ya reciben correos electrónicos, permite mostrar una oferta de “up-sell” en el espacio reservado normalmente para los registros por correo electrónico.</li></ul> |
