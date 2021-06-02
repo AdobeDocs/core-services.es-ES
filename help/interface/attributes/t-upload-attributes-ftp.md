@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 Si no carga mediante arrastrar y soltar, puede cargar datos de atributo del cliente mediante FTP a Experience Cloud.
 
-Puede cargar los datos una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv`, con un segundo archivo `.fin` para indicar que la carga ha finalizado.
+Puede cargar los datos una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv` , con un segundo archivo `.fin` para indicar que la carga ha finalizado.
 
 >[!IMPORTANT]
 >
@@ -30,7 +29,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://docs.adobe.com/help/es-ES/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en).
 
 **Para cargar el archivo de datos a través de FTP**
 
