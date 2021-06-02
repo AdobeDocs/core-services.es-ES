@@ -7,11 +7,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '540'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -132,11 +131,11 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>La fecha en la que se realizará la sincronización con el formato aaaammdd </p> </td> 
+   <td colname="col2"> <p>La fecha en la que se realiza la sincronización, con el formato aaammdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>La fecha en la que se realizará la sincronización con el formato aaaammdd </p> </td> 
+   <td colname="col2"> <p>La fecha en la que se realiza la sincronización, con el formato aaammdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
