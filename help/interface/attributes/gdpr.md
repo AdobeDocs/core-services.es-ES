@@ -6,31 +6,30 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
 # Cumplimiento de los Atributos del cliente con el Reglamento General de Protección de Datos
 
-Esta página describe cómo los atributos del cliente cumplen con el Reglamento General de Protección de Datos (RGPD).
+Esta página describe cómo [!UICONTROL Customer Attributes] admite el Reglamento General de Protección de Datos (RGPD).
 
 >[!IMPORTANT]
 >
 >Este documento no contiene material de asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Consulte a su asesor jurídico sobre el RGPD.
 
-El [Reglamento General de Protección de Datos](https://www.adobe.com/es/privacy/general-data-protection-regulation/what-is-gdpr.html), una ley vigente desde el 25 de mayo de 2018, otorga a todos los individuos (sujetos de datos) dentro de las fronteras de la Unión Europea (UE) el control de sus datos personales. También simplifica el entorno reglamentario de las empresas internacionales. Esta ley se aplica a todas las empresas (responsables de tratamiento de datos) que ofrecen bienes o servicios a personas que se encuentran dentro de los límites de la UE, supervisan o recopilan datos personales de personas de la UE en el momento en que se procesan sus datos personales, independientemente de la ubicación comercial del responsable del tratamiento de datos.
+El [Reglamento General de Protección de Datos](https://business.adobe.com/privacy/general-data-protection-regulation.html), una ley vigente desde el 25 de mayo de 2018, otorga a todos los individuos (sujetos de datos) dentro de las fronteras de la Unión Europea (UE) el control de sus datos personales. También simplifica el entorno reglamentario de las empresas internacionales. Esta ley se aplica a todas las empresas (responsables de tratamiento de datos) que ofrecen bienes o servicios a personas que se encuentran dentro de los límites de la UE, supervisan o recopilan datos personales de personas de la UE en el momento en que se procesan sus datos personales, independientemente de la ubicación comercial del responsable del tratamiento de datos.
 
 Adobe Experience Cloud actúa como procesador de datos para cualquier dato personal que reciba y almacene en nombre de sus clientes. Como responsable del tratamiento de datos, determinará qué datos personales Adobe Experience Cloud trata y almacena en su nombre.
 
 Este documento describe cómo los [!UICONTROL Atributos del cliente] admiten los derechos de acceso y eliminación de datos del RGPD de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
-Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y Su empresa](https://www.adobe.com/es/privacy/general-data-protection-regulation.html).
+Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y Su empresa](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Configuración requerida para enviar solicitudes de [!UICONTROL Atributos del cliente]
+## Configuración necesaria para enviar solicitudes de [!UICONTROL Atributos del cliente]
 
 Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL Atributos del cliente], deberá:
 
