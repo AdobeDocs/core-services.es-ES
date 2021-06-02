@@ -9,19 +9,18 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
 # Cookies de Analytics {#analytics-cookies}
 
-Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
+Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar información de navegación a registros de clientes.
 
-En particular, Analytics utiliza cookies para definir de forma anónima nuevos visitantes, analizar los datos del flujo de navegación y realizar un seguimiento de la actividad histórica en el sitio web, como la respuesta a campañas concretas o la duración del ciclo de ventas.
+Analytics usa cookies para definir de forma anónima a los nuevos visitantes, analizar los datos del flujo de navegación y realizar un seguimiento de la actividad histórica en el sitio web, como la respuesta a ciertas campañas en particular o la duración del ciclo de ventas.
 
 * [Nombre de cookie: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nombre de la cookie: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -30,7 +29,7 @@ En particular, Analytics utiliza cookies para definir de forma anónima nuevos v
 * [Nombre de la cookie: s_sq ](../cookies/cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Nombre de la cookie: s_vi](../cookies/cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
 * [Nombre de la cookie: s_fid ](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
-* [Cookies establecidas por complementos ](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
+* [Cookies establecidas por complementos](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
 Encontrará más información en la ayuda de Analytics sobre las cookies de [origen](/help/interface/cookies/cookies-first-party.md).
 
@@ -48,13 +47,13 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | JavaScript se encarga de configurar y leer esta cookie para determinar si las cookies están habilitadas (si tienen el valor “True”) |
+| Información almacenada | El código JavaScript establece y lee esta cookie para determinar si las cookies están habilitadas (configuradas como &quot;True&quot;) |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
 | Tamaño | 4 bytes |
 
-## Nombre de la cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
+## Nombre de la cookie: s_sq  {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
 | Atributo | Descripción |
 |--- |--- |
@@ -78,7 +77,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 >
 >Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
-## Nombre de la cookie: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nombre de la cookie: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Atributo | Descripción |
 |--- |--- |
@@ -102,10 +101,10 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 
 >[!NOTE]
 >
->Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
+>Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda con el cambio de la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
-## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
-Las variables de conversión (eVarX) pasadas en una petición de imagen sin JavaScript (como, por ejemplo, un código ubicado en un correo electrónico) solo se atribuirán correctamente si el cliente de correo electrónico y el navegador Web comparten el mismo espacio de cookie.
+Las variables de conversión (eVarX) pasadas en una solicitud de imagen sin JavaScript (como el código colocado en un correo electrónico) solo se atribuyen correctamente si el cliente de correo electrónico y el explorador web comparten espacio de cookie.
