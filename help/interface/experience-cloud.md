@@ -1,27 +1,104 @@
 ---
-description: Obtenga información sobre la administración de usuarios y productos en Adobe Admin Console, habilite soluciones para los servicios de Experience Cloud, y descubra la biblioteca de audiencias, los atributos de cliente y los recursos de Experience Cloud, entre otras cosas.
-keywords: Servicios de Adobe Experience Cloud, atributos del cliente, audiencias, administración de usuarios y productos
+description: Obtenga información sobre los componentes de la interfaz central para el Experience Cloud. Esta ayuda incluye la administración de usuarios y productos en el Admin Console, la activación de aplicaciones para servicios de Experience Cloud y la obtención de ayuda sobre la biblioteca de audiencias, los atributos del cliente, los recursos de Experience Cloud, etc.
 solution: Experience Cloud
-title: 'Administración y servicios de Experience Cloud '
+title: documentación y ayuda sobre la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: '"Atributos del cliente"'
 topic: Administración
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: ht
-source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 32%
 
 ---
 
-# Guía de administración y servicios de Experience Cloud
+# Componentes de la interfaz central del Experience Cloud
 
-Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube.
+[La familia integrada de aplicaciones, productos y servicios de marketing digital de Experience ](https://experience.adobe.com) Cloud Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
-![Experience Cloud](assets/cloud-pulldown.png)
+![Experience Cloud](assets/landing.png)
+
+Desde el encabezado del Experience Cloud, puede:
+
+* Acceso a sus aplicaciones y servicios
+* Busque documentación del producto, tutoriales y publicaciones de la comunidad
+* Buscar globalmente objetos empresariales usando una búsqueda global (solo usuarios Experience Platform)
+* Administrar las preferencias de la cuenta (alertas, notificaciones y suscripciones)
+
+## Inicie sesión en Experience Cloud
+
+Inicie sesión y verifique que se encuentra en la [organización](admin-getting-started/organizations.md) correcta.
+
+1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
+1. Haga clic en **[!UICONTROL Iniciar sesión con un Adobe ID]**.
+1. En Adobe Experience Cloud, haga clic en su organización.
+
+   ![](assets/organizations-menu.png)
+
+   Su administrador puede ayudarle a verificar que se encuentra en la organización [correcta](admin-getting-started/organizations.md).
+
+## Acceso a aplicaciones de Experience Cloud {#navigation}
+
+Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a todas sus aplicaciones, servicios y organizaciones desde el encabezado unificado.
+
+Para acceder a los servicios de Experience Cloud que posee, haga clic en el selector de aplicaciones ![](assets/menu-icon.png).
+
+![](assets/platform-core-services.png)
+
+## Obtener ayuda y asistencia {#search}
+
+La Ayuda unificada proporciona una ubicación dentro del producto para buscar y acceder al contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home). También puede enviar comentarios abiertos y crear tickets de asistencia priorizados.
+
+![](assets/search-menu.png)
+
+El menú [!UICONTROL Ayuda] también le permite acceder a:
+
+* **[!UICONTROL Asistencia]:** cree un ticket de asistencia o póngase en contacto con el   soporte técnico mediante Twitter.
+* **[!UICONTROL Comentarios]:** comparta comentarios sobre su experiencia de Experience Cloud. Los comentarios se utilizan para mejorar los productos y servicios de Adobe.
+* **[!UICONTROL Estado]:** vaya a  `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y  [!UICONTROL Administrar suscripciones].
+* **[!UICONTROL Developer Connection]:** Navegación hasta  `adobe.io` y búsqueda de documentación para desarrolladores.
+
+## Buscar globalmente objetos y entidades
+
+La búsqueda global permite encontrar cualquier objeto o entidad comercial en el que se pueden realizar búsquedas en una experiencia de un solo clic, uniforme y sin fisuras. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
+
+![](assets/platform-search.png)
+
+Esta búsqueda solo está disponible para usuarios Experience Platform.
+
+## Administrar preferencias de cuenta {#preferences}
+
+Las preferencias del Experience Cloud incluyen notificaciones, suscripciones y alertas. En el menú de preferencias de cuenta, puede:
+
+* Especifique un tema oscuro (no todas las aplicaciones admiten este tema)
+* Buscar [Organizaciones](admin-getting-started/organizations.md)
+* Cerrar sesión
+* Configurar las preferencias, notificaciones y suscripciones de la cuenta
+
+Para administrar las preferencias, haga clic en **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png).
+
+![](assets/preferences-page.png)
+
+En [!UICONTROL preferencias del Experience Cloud], puede configurar las siguientes características:
+
+| Función | Descripción |
+|--- |--- |
+| Organización [predeterminada](admin-getting-started/organizations.md) | Seleccione la organización que desea ver al iniciar Experience Cloud. |
+| [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notifications] y en el correo electrónico. |
+| [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con una etiqueta High y pueden configurarse para su envío como alertas. |
+| [!UICONTROL Alertas] | Seleccione las notificaciones para las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
+| Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
+
+## Notificaciones y anuncios
+
+Haga clic en **[!UICONTROL Notifications]** para recibir alertas sobre actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+
+![](assets/notifications-menu-small.png)
+
+## Obtener ayuda sobre administración y servicios entre aplicaciones
 
 Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y productos de Experience Cloud en Admin Console, lo que permite crear soluciones para los servicios de plataforma. También puede acceder a la ayuda de la Biblioteca de audiencias, atributos del cliente, activos de Experience Cloud y mucho más:
 
@@ -35,7 +112,7 @@ Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y 
 * [Preguntas frecuentes](admin-getting-started/admin-getting-started.md)
 * [Organizaciones y vinculación de cuentas](admin-getting-started/organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
-* [Integración de Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html)
+* [Integración de Adobe Target con Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Precarga de DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -43,29 +120,29 @@ Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y 
 
 Las guías de Experience Cloud relacionadas incluyen:
 
-* [Adobe Mobile](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)
-* [Gráfico de cooperación Experience Platform](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html)
-* [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Servicio de Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Gráfico de cooperación Experience Platform](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
+* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Recopilación/Launch de datos del Experience Platform](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
 
 ## Tutoriales
 
 Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience League:
 
 * [Todos los tutoriales de Experience League](https://experienceleague.adobe.com/?lang=es#quick-how-tos)
-* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Plataforma de datos de clientes en tiempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
+* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
+* [Plataforma de datos de clientes en tiempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
-* [Documentación del producto para todas las soluciones de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html): Busque ayuda en Experience Cloud Learn &amp; Support
-* [Notas de la versión y actualizaciones de productos](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
-* [Tutoriales para implementar servicios principales](https://docs.adobe.com/content/help/es-ES/core-services-learn/tutorials/overview.html): Explore vídeos y tutoriales sobre servicios principales
-* [Ayuda de expertos en Experience League](https://landing.adobe.com/experience-league/): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
-* [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK): Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de nuestros productos
-* [Blog de la experiencia del cliente](https://theblog.adobe.com/customer-experience/): Lea el blog de Experience Cloud
-* [Servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html): Póngase en contacto con el Servicio de atención al cliente de Adobe
+* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en): Busque ayuda en Experience Cloud Learn &amp; Support
+* [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
+* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
+* [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
+* [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK) : Póngase en contacto con el Adobe para asegurarse de sacar el máximo partido de los productos de Adobe
+* [Blog de la experiencia del cliente](https://blog.adobe.com/customer-experience/): Lea el blog de Experience Cloud
+* [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support): Póngase en contacto con el Servicio de atención al cliente de Adobe
