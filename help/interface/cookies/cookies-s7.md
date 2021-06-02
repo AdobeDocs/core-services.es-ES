@@ -9,11 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Para los visores AS2, las cookies:
 Para el visor de catálogos electrónicos AS2 Flash, las cookies:
 
 * Almacenan el contenido generado por el usuario (especialmente el contenido introducido por el usuario en la función “notas adhesivas” del visor eCatalog). Este contenido se restaura cuando el usuario reanuda una sesión.
-* Cuando el usuario inicia un correo electrónico para compartir el catálogo electrónico con otro usuario, el contenido de las notas adhesivas de la segunda viñeta del visor AS2 se copia en nuestros servidores para proporcionárselo al destinatario. Cuando el destinatario inicia la sesión del visor, el contenido de las notas adhesivas se recupera del servidor y se copia en una cookie. Esta función no se utiliza mucho, por lo que no caduca y el contenido antiguo no se elimina. En este momento persiste en los servidores indefinidamente.
+* Cuando el usuario inicia un correo electrónico para compartir el catálogo electrónico con otro usuario, el contenido de las notas adhesivas de la segunda viñeta del visor AS2 se copia en nuestros servidores para proporcionárselo al destinatario. Cuando el destinatario inicia la sesión del visor, el contenido de las notas adhesivas se recupera del servidor y se copia en una cookie. Esta función no se utiliza mucho, por lo que no caduca y el contenido antiguo no se elimina. Actualmente persiste en los servidores indefinidamente.
 
 Los nuevos visores AS3 no implementan la persistencia de la sesión.
 
