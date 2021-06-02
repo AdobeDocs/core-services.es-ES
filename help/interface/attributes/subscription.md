@@ -9,17 +9,16 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # Configuración de suscripciones en Experience Cloud
 
-Obtenga más información sobre las fuentes de datos de soluciones y de la configuración de suscripciones. Las Suscripciones habilitan el flujo de datos de atributos del cliente entre Experience Cloud y las soluciones (Analytics y [!DNL Target]).
+Obtenga más información sobre las fuentes de datos de soluciones y de la configuración de suscripciones. Las suscripciones habilitan el flujo de datos de atributos del cliente entre el Experience Cloud y las soluciones ([!DNL Analytics] y [!DNL Target]).
 
 Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos en los informes. Si usa Adobe Target, puede cargar atributos del cliente para el direccionamiento y la segmentación.
 
