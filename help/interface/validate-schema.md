@@ -1,18 +1,18 @@
 ---
-description: Obtenga información sobre cómo validar el esquema de atributos de cliente en Adobe Experience Cloud.
+description: Obtenga información sobre cómo validar el esquema de Atributos del cliente en Adobe Experience Cloud.
 keywords: Atributos del cliente;servicios de Experience Cloud
 solution: Experience Cloud
-title: 'Validación del esquema de atributos de cliente '
+title: 'Validación del esquema de Atributos del cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: 'Atributos del cliente '
 topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Muestra si utiliza una prop o una eVar para cargar los CID. Si estos ID se pasan a Experience Cloud, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.
 
-También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv` , con un segundo archivo `.fin` para indicar que la carga ha finalizado.
+También puede cargar los datos mediante FTP después de crear un origen de Atributo del cliente y una cuenta FTP en el Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv` , con un segundo archivo `.fin` para indicar que la carga ha finalizado.
 
 Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics]. 
 
