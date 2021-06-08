@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 51%
+ht-degree: 48%
 
 ---
 
@@ -74,7 +74,7 @@ Ayuda: [Atributos del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF49
 >
 >Atributos del cliente es un servicio heredado, que ahora se encuentra en mantenimiento.
 
-Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, utilice los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
+Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud. Una vez cargados, utilice los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
 **Soluciones o servicios aplicables**
 
@@ -149,7 +149,7 @@ Integre Adobe Target con Adobe Analytics y otras soluciones de Experience Cloud 
 
 **Soluciones o servicios aplicables**
 
-* Atributos del cliente: Configurar la [suscripción](subscription.md) de Adobe Target a los atributos del cliente
+* Atributos del cliente: Configurar la [suscripción](subscription.md) de Adobe Target en los Atributos del cliente
 * Audiencias de Experience Cloud: [Biblioteca de audiencias de Experience Cloud](audience-library.md)
 * Analytics: [Adobe Analytics como fuente de informes para Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * Dynamic Tag Management: [Prácticas recomendadas para implementar Adobe Target mediante DTM](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=en)
