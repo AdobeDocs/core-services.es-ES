@@ -9,14 +9,14 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Audiencias de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# audiencias de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). La biblioteca de audiencias de Adobe administra la traducción de datos sobre visitantes en la segmentación de audiencia. Como tal, crear y administrar audiencias es similar a crear y utilizar segmentos. También puede compartir el segmento de audiencia con productos y servicios de [!DNL Experience Cloud].
 
@@ -28,7 +28,7 @@ Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 * Segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
-**Audiencias en tiempo real vs. audiencias históricas**
+**Audiencias en tiempo real o históricas**
 
 Todas las audiencias, independientemente de su origen, son accesibles para los casos de uso de segmentación en tiempo real. Sin embargo, las audiencias compartidas desde Analytics en Audience Manager no se pueden utilizar para los procesos de segmentación en tiempo real. El sistema evalúa las audiencias de dos maneras:
 
