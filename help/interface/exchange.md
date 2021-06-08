@@ -8,18 +8,17 @@ feature: '"Atributos del cliente"'
 topic: Administración
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 89%
 
 ---
 
 
 # Exchange Marketplace
 
-Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones externas e informes.
+Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen Data Connectors, configuraciones personalizadas para el producto central del Adobe, aplicaciones de terceros e informes.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Ayuda]** > **[!UICONTROL Exchange]**
 
