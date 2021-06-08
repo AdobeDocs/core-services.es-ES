@@ -1,26 +1,26 @@
 ---
-description: Obtenga información sobre cómo crear el origen de atributos de cliente y cargarlo en Adobe Experience Cloud.
+description: Obtenga información sobre cómo crear el origen de Atributo del cliente y cargarlo en Adobe Experience Cloud.
 keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
-title: 'Crear un origen de atributo del cliente y cargar el archivo de datos '
+title: 'Crear un origen de Atributo del cliente y cargar el archivo de datos '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: 'Atributos del cliente '
 topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
-# Crear un origen de atributo del cliente y cargar el archivo de datos
+# Crear un origen de Atributo del cliente y cargar el archivo de datos
 
-Crear un origen de atributos del cliente (archivos CSV y FIN) y cargar los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que esté listo el origen de los datos, comparta los datos del atributo con Analytics y Target.
+Cree la fuente de Atributos del cliente (archivos CSV y FIN) y cargue los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que esté listo el origen de los datos, comparta los datos del atributo con Analytics y Target.
 
-## Flujo de trabajo de atributos del cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## Flujo de trabajo de Atributos del cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -57,7 +57,7 @@ Estos datos son datos de clientes empresariales de su CRM. Los datos pueden incl
    ![](assets/01_crs_usecase.png)
 
 1. Antes de continuar, revise la información relevante en los [Requisitos del archivo de datos](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) antes de cargar el archivo.
-1. [Cree un origen de atributo de cliente y cargue los datos](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78), como se describe a continuación.
+1. [Cree un origen de Atributo del cliente y cargue los datos](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) que se describen a continuación.
 
 ## Crear un origen de atributo y cargar el archivo de datos {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -65,7 +65,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
 >[!IMPORTANT]
 >
->Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
+>Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los ID empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de Atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
 1. En [!DNL Experience Cloud], haga clic en el icono Menú ![](assets/menu-icon.png).
 1. En **[!DNL Experience Platform]**, haga clic en **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**.
@@ -82,7 +82,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
 
-   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. Se utiliza un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo ID de alias para un origen de atributos del cliente en la interfaz de usuario de Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante Dynamic Tag Management o JavaScript del SDK móvil).
+   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de Atributos del cliente, como un sistema CRM específico, por ejemplo. Se utiliza un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo ID de alias para un origen de atributo de cliente en la interfaz de usuario del Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la administración dinámica de etiquetas o JavaScript del SDK móvil).
 
       El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
@@ -169,7 +169,7 @@ Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las A
 
 ## Uso de los Atributos del cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UICONTROL Perfil del visitante] cuando cree una audiencia. Todos los Atributos del cliente tienen el prefijo `crs.` en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
+En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UICONTROL Perfil del visitante] al crear una audiencia. Todos los Atributos del cliente tienen el prefijo `crs.` en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
 
 ![](assets/crs-add-attribute-target.png)
 
