@@ -7,10 +7,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 73%
+source-wordcount: '430'
+ht-degree: 69%
 
 ---
 
@@ -31,10 +31,10 @@ Esta ayuda describe los siguientes productos y servicios:
 
 | Servicio principal | Descripción |
 |--- |--- |
-| [Activation](activation/activation.md) | Sistemas de administración de etiquetas (Experience Platform Launch y Dynamic Tag Management).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Almacene, sincronice y comparta fácilmente todos sus recursos digitales en una ubicación central, para ahorrar tiempo y ofrecer una experiencia de cliente más coherente. |
+| [Activation](activation.md) | Sistemas de administración de etiquetas (Experience Platform Launch y Dynamic Tag Management).<br>Los Triggers permiten realizar acciones en tiempo real en Adobe Campaign basándose en la información de Adobe Analytics. |
+| [Assets](experience-cloud-assets.md) | Almacene, sincronice y comparta fácilmente todos sus recursos digitales en una ubicación central, para ahorrar tiempo y ofrecer una experiencia de cliente más coherente. |
 | [Experience Platform Launch/recopilación de datos](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) | [!UICONTROL Experience Platform Launch] es la próxima generación de recopilación de datos e implementación de tecnología para sitios y aplicaciones. [!UICONTROL Experience Platform Launch] ofrece una alternativa sencilla para implementar y gestionar todas las integraciones de análisis, marketing y publicidad necesarias para ofrecer al cliente experiencias más relevantes. |
 | [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=es) | Cree casos de uso de orquestación en tiempo real utilizando datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado en Experience Platform. |
 | [Servicio de ubicación](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Servicio de ubicación de Experience Platform] es un servicio de ubicación geográfica. Permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de la ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI). |
 | [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
-| People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. También puede agrupar usuarios en Audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library/audience-library.md) : categorice distintos tipos de clientes en Audiencias y, a continuación, comparta estas Audiencias entre aplicaciones de Experience Cloud.<br>[Atributos del cliente](attributes/attributes.md) : característica de la audiencia que le permite conectar información del consumidor recopilada fuera del Experience Cloud.<br>[Gráfico de dispositivos](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): colabore con las marcas más populares del mundo para reconocer a un consumidor familiar detrás de un dispositivo desconocido. |
+| People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. También puede agrupar usuarios en Audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library.md) : categorice distintos tipos de clientes en Audiencias y, a continuación, comparta estas Audiencias entre aplicaciones de Experience Cloud.<br>[Atributos del cliente](attributes.md) : característica de la audiencia que le permite conectar información del consumidor recopilada fuera del Experience Cloud. |
