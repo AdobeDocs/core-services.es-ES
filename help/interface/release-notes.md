@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4094'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -256,7 +256,7 @@ No hay información disponible.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Atributos del cliente </p> </td> 
-   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de audiencia en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos del cliente</a>. </p> <p> Para obtener información sobre la modernización de las soluciones para los servicios principales, consulte <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las soluciones para los servicios principales</a>. </p> </td> 
+   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de audiencia en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos del cliente</a>. </p> <p> Para obtener información sobre la modernización de las soluciones para los servicios principales, consulte <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las soluciones para los servicios principales</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
