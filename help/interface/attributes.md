@@ -1,16 +1,16 @@
 ---
 title: Uso de atributos de cliente
-description: Obtenga información sobre el servicio de atributos del cliente en Adobe Experience Cloud. Descubra cómo cargar datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
+description: Obtenga información sobre el servicio de atributos del cliente en Adobe Experience Cloud. Descubra cómo cargar datos de Atributos del cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud
 feature: 'Atributos del cliente '
 role: Administrator
 topic: Administración
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 85%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL Customer ] Attribution es un servicio heredado que ahora se encuentra en mantenimiento.
 
-[!UICONTROL Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). ] Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
+[!UICONTROL Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). ] Puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
 Para localizar esta función, vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos de cliente]**
 
@@ -48,7 +48,7 @@ La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos d
 
 ![](assets/01_crs_usecase.png)
 
-Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Atributos del cliente]**.
+Una vez creado el archivo de datos, puede cargarlo en el origen Atributo del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Atributos del cliente]**.
 
 Consulte [Carga de datos del atributo del cliente](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) para obtener información sobre este flujo de trabajo.
 
