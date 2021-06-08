@@ -8,11 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +21,7 @@ Implemente la precarga de DNS para ayudar a reducir el tiempo de la carga de las
 
 ## Explicación de la precarga de DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página web con sus correspondientes direcciones IP. El proceso de precarga comienza cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo a en el que puede hacer clic en `www.adobe.com`. Cuando un navegador carga esta página, utiliza el [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) para buscar el nombre de dominio vinculado y resolverlo en una dirección IP numérica correspondiente. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de precarga de DNS es transparente para los usuarios.
+Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página web con sus correspondientes direcciones IP. El proceso de precarga comienza cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo a `www.adobe.com` en el que se puede hacer clic. Cuando un navegador carga esta página, utiliza el [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) para buscar el nombre de dominio vinculado y resolverlo en una dirección IP numérica correspondiente. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de precarga de DNS es transparente para los usuarios.
 
 ## Precarga de DNS y soluciones de Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -35,7 +34,7 @@ Sin embargo, puede implementar manualmente la precarga de DNS con sus soluciones
 
 ## Ejemplos de código de precarga de DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realice llamadas a distintas soluciones y servicios de [!DNL Experience Cloud]. Algunas llamadas de precarga requieren el identificador de su organización de [!DNL Adobe] o el seguimiento de información de servidores. En estos ejemplos, el código en *cursiva* representa un marcador de posición de variable. Dicho código se sustituye con su propio ID de socio de [!DNL Adobe], su código de cliente o su información de servidor de seguimiento, etcétera.
+Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realice llamadas a distintas soluciones y servicios de [!DNL Experience Cloud]. Algunas llamadas de precarga requieren el identificador de su organización de [!DNL Adobe] o el seguimiento de información de servidores. En estos ejemplos, el código en *cursiva* representa un marcador de posición de variable. Dicho código se sustituye por su propio [!DNL Adobe] ID de socio, su código de cliente o su información de servidor de seguimiento, entre otros.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -45,9 +44,9 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Servicio de Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`insertar ID de socio aquí`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): No obligatorio. Los vínculos DTM están disponibles en cuanto la página se carga.
+* **Dynamic Tag Manager** (DTM): No obligatorio. Los vínculos de DTM están disponibles cuando se carga la página.
 
-* **Media Optimizer (Ad Cloud):**
+* **Media Optimizer (Advertising Cloud):**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
