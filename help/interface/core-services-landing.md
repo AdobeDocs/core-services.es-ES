@@ -7,9 +7,9 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '433'
 ht-degree: 69%
 
 ---
@@ -38,3 +38,5 @@ Esta ayuda describe los siguientes productos y servicios:
 | [Servicio de ubicación](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Servicio de ubicación de Experience Platform] es un servicio de ubicación geográfica. Permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de la ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI). |
 | [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services aúna todas las prestaciones de marketing móvil para aplicaciones móviles de Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones. |
 | People | Cree una vista completa de clientes individuales conectando datos de Adobe y de otros fabricantes en sus soluciones de Experience Cloud. Averiguar qué es lo que más les importa a medida que interactúan entre puntos de contacto. Reconocer a los consumidores conocidos cuando visitan desde dispositivos desconocidos. También puede agrupar usuarios en Audiencias para los esfuerzos de marketing orientados a una audiencia objetivo.<br>[Audiencias](audience-library.md) : categorice distintos tipos de clientes en Audiencias y, a continuación, comparta estas Audiencias entre aplicaciones de Experience Cloud.<br>[Atributos del cliente](attributes.md) : característica de la audiencia que le permite conectar información del consumidor recopilada fuera del Experience Cloud. |
+
+{style=&quot;table-layout:auto&quot;}
