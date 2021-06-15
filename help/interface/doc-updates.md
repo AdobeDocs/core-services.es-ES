@@ -4,7 +4,7 @@ keywords: Servicios de Experience Cloud
 solution: Experience Cloud
 title: Actualizaciones de documentación
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 'Atributos del cliente '
+feature: Atributos del cliente
 topic: Administración
 role: Administrator
 level: Experienced
