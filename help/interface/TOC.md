@@ -7,7 +7,7 @@ index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
       + [Crear una audiencia](t-audience-create.md)
       + [Publicación de un segmento de audiencia de Analytics](t-publish-audience-segment.md)
    + Atributos del cliente de Experience Cloud {#customer-attributes}
-      + [Atributos del cliente  sobre validación](attributes.md)
+      + [Atributos del cliente sobre validación](attributes.md)
       + [Preguntas frecuentes acerca de Atributos del cliente](faq-crs.md)
       + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](crs-data-file.md)
       + [Crear un origen de Atributo del cliente y cargar el archivo de datos](t-crs-usecase.md)
@@ -36,7 +36,7 @@ ht-degree: 78%
       + [Consideraciones de privacidad sobre atributos de cliente](privacy-mac.md)
    + Activation de Experience Cloud {#activation}
       + [Información general de Activation](activation.md)
-      + [Guía del usuario de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Guía del usuario de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es)
       + [Triggers](triggers.md)
    + Recursos de Experience Cloud {#assets}
       + [Descripción general de los activos de Experience Cloud](experience-cloud-assets.md)
@@ -64,9 +64,9 @@ ht-degree: 78%
       + [Cookies de [!UICONTROL Data Workbench]](cookies-insight.md)
       + [Cookies de Experience Cloud](cookies-mc.md)
       + [Cookies de Advertising Cloud](cookies-advertising-cloud.md)
-      + [[!DNL Scene7]Cookies de ](cookies-s7.md)
-      + [[!DNL Search and Promote]Cookies de ](cookies-snp.md)
-      + [[!DNL Target]Cookies de ](cookies-target.md)
+      + [Cookies de [!DNL Scene7]](cookies-s7.md)
+      + [Cookies de [!DNL Search and Promote]](cookies-snp.md)
+      + [Cookies de [!DNL Target]](cookies-target.md)
       + [Habilitación de la configuración de privacidad para las cookies de navegador](browser-cookie-settings.md)
       + [Efecto de los cambios en el soporte para las cookies de terceros en los clientes ](cookies-thirdparty.md)
 + Notas de la versión de la interfaz de usuario del Experience Cloud {#release-notes}
