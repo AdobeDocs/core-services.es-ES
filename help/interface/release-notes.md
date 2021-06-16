@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
-ht-degree: 88%
+source-wordcount: '4199'
+ht-degree: 89%
 
 ---
 
@@ -29,14 +29,16 @@ Para ver las notas de la versión de todas las soluciones, consulte las [Notas d
 | Función | Fecha | Descripción |
 | ------- | ------- | ------- |
 | Compatibilidad con inicio de sesión único para Federated ID de Adobe | 17 de junio de 2021 | Si utiliza Federated ID, puede iniciar sesión en el Experience Cloud sin tener que introducir una dirección de correo electrónico o contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL del Experience Cloud. <br>Por ejemplo, suponga que es el propietario del dominio  `adobecustomer.com` y que desea iniciar sesión en Adobe Analytics. La dirección URL sería: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Búsqueda en Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) y utilice el campo **[!UICONTROL Search]** para localizar tutoriales, documentación, cursos y más. |
+| Búsqueda de Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación del Experience League. Vaya a [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) y utilice el campo **[!UICONTROL Buscar]** para localizar tutoriales, documentación, cursos y más. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Mayo de 2021
 
 | Función | Fecha | Descripción |
 | ------- | ------- | ------- |
-| Encabezado y navegación de Experience Cloud | 20 de mayo de 2021 | Las actualizaciones de Adobe Experience Cloud incluyen un cambio en el tema claro del encabezado, con la capacidad de volver fácilmente al tema oscuro y el vínculo para controlar las preferencias adicionales de su avatar de usuario en el encabezado del Experience Cloud. Aunque no todas las aplicaciones de Experience Cloud admiten el cambio de tema, esta función desbloquea la compatibilidad con temas futuros. |
-| Búsqueda global de Experience Cloud | 20 de mayo de 2021 | Con esta versión, la búsqueda global de Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto comercial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
+| Encabezado y navegación de Experience Cloud | 20 de mayo de 2021 | Las actualizaciones de Adobe Experience Cloud incluyen un cambio del encabezado en el tema claro, con la capacidad de volver fácilmente al tema oscuro y un vínculo para controlar las preferencias adicionales de su avatar de usuario en el encabezado de Experience Cloud. Aunque no todas las aplicaciones de Experience Cloud admiten temas, esta función desbloquea la futura compatibilidad con temas. |
+| Búsqueda global en Experience Cloud | 20 de mayo de 2021 | Con esta versión, la búsqueda global en Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto empresarial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
 | Preferencias de idioma de Experience Cloud | 20 de mayo de 2021 | Esta actualización incluye la posibilidad de establecer sus idiomas preferidos en las [Preferencias](https://experience.adobe.com/preferences) de Experience Cloud. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -46,6 +48,8 @@ Para ver las notas de la versión de todas las soluciones, consulte las [Notas d
 | Función | Descripción |
 | -----------| ---------- |
 | Herramienta de administrador: políticas | Esta página muestra la lista completa de las directivas de Experience Cloud en su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas. Consulte la ayuda de la [herramienta de administración de Experience Cloud](admin-tool-experience-cloud.md) para obtener más información. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Abril de 2020
 
@@ -57,6 +61,8 @@ Para ver las notas de la versión de todas las soluciones, consulte las [Notas d
 | Función | Descripción |
 | -----------| ---------- |
 | Herramienta de administración: ver detalles del usuario | Los administradores pueden ver una lista de los usuarios de Experience Cloud que pueden ordenar y filtrar, y sus detalles en la nueva herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Consulte la ayuda de la [herramienta de administración de Experience Cloud](admin-tool-experience-cloud.md) para obtener más información. |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Correcciones**
 
@@ -218,7 +224,7 @@ No hay información disponible.
 </table>
 
 * Se ha corregido un problema que impedía que los atributos del cliente se sincronizaran para algunos clientes.
-* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) se mostrara en japonés.
+* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) se mostrara en japonés.
 * Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud]el.
 
 ## Versión 15.4.1: 8 de abril de 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
