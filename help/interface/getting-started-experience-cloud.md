@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 82%
+source-wordcount: '939'
+ht-degree: 83%
 
 ---
 
@@ -44,6 +44,8 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 | [Gestionar usuarios de Creative Cloud](t-admin-add-cc-user.md) | Recursos de Experience Cloud permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante el Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
 | [Asignar grupos de informes](core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que [activa Analytics para servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [ID de organización](organizations.md) | El *ID de organización* se encuentra en la parte inferior de la página Administración. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Inicio de sesión en Experience Cloud (usuarios) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -113,7 +115,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
 1. Inicie sesión en Experience Cloud.
 
-1. En el Experience Cloud, haga clic en la imagen de perfil.
+1. En Experience Cloud, haga clic en la imagen de perfil.
 
    ![](assets/edit-profile.png)
 1. Haga clic en **[!UICONTROL Editar perfil]**.
@@ -150,3 +152,5 @@ URL de ejemplo:
 | `tenantId` | Nombre del inquilino en el que el usuario debe iniciar sesión. | aem62tenant | Opcional |
 | `destURL` | Dirección URL completa del lugar al que se debe llevar al usuario. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Opcional |
 | `solutionname` | Nombre de la solución MAC que posee el parámetro `destURL`. Se utiliza para verificar que el usuario tiene acceso a la solución que posee la dirección URL.  Es responsabilidad de las soluciones asegurarse de que `solutionname` esté sincronizado con el parámetro `destURL`.  Por ejemplo: Si la dirección URL contiene `solutionname` como social y el `destURL` proporcionado es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. MAC NO verifica si el propietario del `destURL` está sincronizado con el nombre de la solución. | analytics | Requerido si se utiliza el parámetro `destURL`. |
+
+{style=&quot;table-layout:auto&quot;}
