@@ -4,15 +4,15 @@ keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
 title: 'Crear un origen de Atributo del cliente y cargar el archivo de datos '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 'Atributos del cliente '
+feature: Atributos del cliente
 topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -82,11 +82,11 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
 
-   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de Atributos del cliente, como un sistema CRM específico, por ejemplo. Se utiliza un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo ID de alias para un origen de atributo de cliente en la interfaz de usuario del Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la administración dinámica de etiquetas o JavaScript del SDK móvil).
+   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de Atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL El ] ID de alias es un ID único que se utiliza en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL Alias ID] para un origen de atributos del cliente en el Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea a través de la recopilación de datos (Launch), Dynamic Tag Management o JavaScript del SDK móvil).
 
       El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en).
+      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=es).
 
       * **API de Visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) adicionales que pueden asociar con cada visitante.
 
