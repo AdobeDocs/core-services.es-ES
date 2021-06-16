@@ -7,7 +7,7 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Esta sección contiene sugerencias para ayudarle a seleccionar la organización 
 
 ### ¿Qué organización debo elegir?
 
-Si el servicio de ID de Experience Cloud está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) para encontrar el ID de organización que utiliza el servicio de ID de visitante.
+Si el servicio de ID de Experience Cloud está implementado en el grupo de informes, asegúrese de que la organización seleccionada en la herramienta Report Suite Mapping sea la misma especificada en el archivo [!DNL visitorAPI.js] de su sitio web. Puede utilizar las instrucciones de [Comprobación y verificación del Servicio de Experience Cloud ID](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) para encontrar el ID de organización que utiliza el servicio de ID de visitante.
 
 Asegúrese de que la implementación coincida con la organización elegida en la herramienta Report Suite Mapping .
 
