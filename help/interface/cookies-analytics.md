@@ -9,9 +9,9 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 | Ubicación | Solo clientes CNAME. No aplicable a escenarios de terceros. La cookie se almacena en su dominio, el mismo dominio utilizado por CNAME y su solicitud de imagen de Analytics. |
 | Tamaño | 45 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nombre de la cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Atributo | Descripción |
@@ -52,6 +54,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
 | Tamaño | 4 bytes |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Nombre de la cookie: s_sq  {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
 | Tamaño | Varía según el tamaño de la dirección URL de la página, pero normalmente de 100 a 200 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nombre de la cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Atributo | Descripción |
@@ -72,6 +78,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 | Uso | Esta cookie se usa para identificar a un visitante único. |
 | Ubicación | Esta cookie se almacena en el dominio de la solicitud de imagen, por lo general un subdominio específico del cliente bajo 2o7.net u omtrdc.net si utiliza cookies de terceros o si su dominio utiliza cookies de origen |
 | Tamaño | 44 bytes |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 | Ubicación | Esta cookie se almacena en su dominio como una cookie de origen. |
 | Tamaño | 33 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Indicadores de cookie
 
 En la tabla siguiente se describen los indicadores de las cookies de Analytics:
@@ -98,6 +108,8 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 | s_fid (Javascript) | No | No | Sin configurar |
 | s_cc (Javascript) | No | No | Sin configurar |
 | s_sq (Javascript) | No | No | Sin configurar |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
