@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo Adobe Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imágenes y sesiones de explorador.
-keywords: cookies,privacidad
+keywords: cookies;privacidad
 solution: Experience Cloud,Analytics
 title: '"Cookies de origen "'
 index: y
@@ -10,25 +10,25 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 55%
+source-wordcount: '1579'
+ht-degree: 60%
 
 ---
 
 # Acerca de las cookies de origen
 
-Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, el Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
+Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las cookies utilizadas en la recopilación de datos [!DNL Analytics]. Para admitir el seguimiento de la forma en que los visitantes interactúan con el sitio web, debe configurar la recopilación de datos para que utilice cookies de origen:
+Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las cookies utilizadas en la recopilación de datos [!DNL Analytics]. Para admitir el seguimiento de cómo los visitantes interactúan con el sitio web, debe configurar la recopilación de datos para que utilice cookies de origen:
 
 Hay dos opciones disponibles para implementar cookies de origen:
 
 * Si utiliza el servicio de identidad de Experience Platform (servicio ECID), establece cookies automáticamente en el contexto de origen mediante JavaScript.
 * Si utiliza [!DNL Analytics] identificadores heredados (también conocidos como la cookie `s_vi` ), dependerá de cómo haya configurado el servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como propias. Si el servidor de recopilación no coincide con su dominio actual, las cookies se establecen como terceros. En este caso, si se bloquean las cookies de terceros, [!DNL Analytics] establece un [id de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie estándar &quot;s_vi&quot;.
 
-Para asegurarse de que el servidor de recopilación coincide con el dominio del sitio, puede utilizar una implementación CNAME en la que las cookies se puedan configurar en un contexto de origen. Esto implica cambios en la configuración DNS de su empresa para configurar un alias CNAME y señalar a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME esté establecido como terceros.
+Para asegurarse de que el servidor de recopilación coincide con el dominio del sitio, puede utilizar una implementación CNAME en la que las cookies se puedan configurar en un contexto de origen. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME esté establecido como terceros.
 
 >[!NOTE]
 >
@@ -83,6 +83,8 @@ Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir
 | **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, tiene derecho a solicitar que se revoque el certificado. Solo tendrá que abrir una incidencia con el Servicio de atención al cliente para completarlo. |
 | **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe trabajará con DigiCert para emitir un certificado SHA-2. |
 | **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Adobe Digital Experience sin coste adicional. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Creación de registros CNAME
 
