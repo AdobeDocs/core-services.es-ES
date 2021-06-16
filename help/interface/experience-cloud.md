@@ -8,10 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 31%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,14 +26,14 @@ Desde el encabezado del Experience Cloud, puede:
 * Acceso a sus aplicaciones y servicios
 * Busque documentación del producto, tutoriales y publicaciones de la comunidad
 * Buscar globalmente objetos empresariales usando una búsqueda global (solo usuarios Experience Platform)
-* Administrar las preferencias de la cuenta (alertas, notificaciones y suscripciones)
+* Administración de las preferencias de la cuenta (alertas, notificaciones y suscripciones)
 
 ## Inicie sesión en Experience Cloud
 
 Inicie sesión y verifique que se encuentra en la [organización](organizations.md) correcta.
 
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
-1. Haga clic en **[!UICONTROL Iniciar sesión con un Adobe ID]**.
+1. Haga clic en **[!UICONTROL Inicie sesión con su Adobe ID]**.
 1. En Adobe Experience Cloud, haga clic en su organización.
 
    ![](assets/organizations-menu.png)
@@ -56,10 +56,10 @@ La Ayuda unificada proporciona una ubicación dentro del producto para buscar y 
 
 El menú [!UICONTROL Ayuda] también le permite acceder a:
 
-* **[!UICONTROL Asistencia]:** cree un ticket de asistencia o póngase en contacto con el   soporte técnico mediante Twitter.
+* **[!UICONTROL Asistencia técnica]:** Cree un ticket de asistencia o póngase en contacto con el [!UICONTROL Soporte técnico] mediante Twitter.
 * **[!UICONTROL Comentarios]:** comparta comentarios sobre su experiencia de Experience Cloud. Los comentarios se utilizan para mejorar los productos y servicios de Adobe.
-* **[!UICONTROL Estado]:** vaya a  `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y  [!UICONTROL Administrar suscripciones].
-* **[!UICONTROL Developer Connection]:** Navegación hasta  `adobe.io` y búsqueda de documentación para desarrolladores.
+* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
+* **[!UICONTROL Developer Connection]:** Navegación hasta `adobe.io` y búsqueda de documentación para desarrolladores.
 
 ## Buscar globalmente objetos y entidades
 
@@ -72,7 +72,7 @@ La búsqueda global solo está disponible para usuarios Experience Platform.
 
 ## Administrar preferencias de cuenta {#preferences}
 
-Las preferencias del Experience Cloud incluyen notificaciones, suscripciones y alertas. En el menú de preferencias de cuenta, puede:
+Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y alertas. En el menú de preferencias de cuenta, puede hacer lo siguiente:
 
 * Especifique un tema oscuro (no todas las aplicaciones admiten este tema)
 * Buscar [Organizaciones](organizations.md)
@@ -83,15 +83,17 @@ Para administrar las preferencias, haga clic en **[!UICONTROL Preferencias]** en
 
 ![](assets/preferences-page.png)
 
-En [!UICONTROL preferencias del Experience Cloud], puede configurar las siguientes características:
+En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguientes funciones:
 
 | Función | Descripción |
 |--- |--- |
 | Organización [predeterminada](organizations.md) | Seleccione la organización que desea ver al iniciar Experience Cloud. |
-| [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notifications] y en el correo electrónico. |
-| [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con una etiqueta High y pueden configurarse para su envío como alertas. |
-| [!UICONTROL Alertas] | Seleccione las notificaciones para las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
+| [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notificaciones] y en el correo electrónico. |
+| [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con la etiqueta High y pueden configurarse para entregarlas como alertas. |
+| [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
 | Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Notificaciones y anuncios {#notifications}
 
@@ -113,7 +115,7 @@ Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y 
 * [Preguntas frecuentes](admin-getting-started.md)
 * [Organizaciones y vinculación de cuentas](organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
-* [Integración de Adobe Target con Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
+* [Integración de Adobe Target con Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
 * [Información general sobre seguridad y confidencialidad en Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Precarga de DNS](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -121,14 +123,14 @@ Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y 
 
 Las guías de Experience Cloud relacionadas incluyen:
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=es)
 * [Gráfico de cooperación Experience Platform](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 * [Recopilación/Launch de datos del Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=es)
 
 ## Tutoriales
 
