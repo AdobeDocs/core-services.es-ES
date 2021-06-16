@@ -9,9 +9,9 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 83%
 
 ---
@@ -33,6 +33,8 @@ Puede cambiar esta configuración si es necesario, excepto durante la duración 
 | Dominio del servidor | `clientcode.tt.omtrdc.net`, usando el código de cliente de su [!DNL Adobe Target] cuenta. |
 | Duración de la cookie | La cookie permanece en el explorador del visitante dos años después de su último inicio de sesión. No puede cambiar la duración de la cookie. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >Si alguno de los nombres de dominio incluye un código de país, como `mycompany.co.uk`, colabore con los servicios de cliente para configurar el `at.js` de modo que admita este código.
@@ -46,3 +48,4 @@ La cookie conserva algunos valores para administrar la forma en que los visitant
 | check | Un valor de prueba simple utilizado para determinar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
 | disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo at.js. De forma predeterminada, este tiempo de espera dura 1 hora. |
 
+{style=&quot;table-layout:auto&quot;}
