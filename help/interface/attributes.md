@@ -2,23 +2,23 @@
 title: Uso de atributos de cliente
 description: Obtenga información sobre el servicio de atributos del cliente en Adobe Experience Cloud. Descubra cómo cargar datos de Atributos del cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud
-feature: 'Atributos del cliente '
+feature: Atributos del cliente
 role: Administrator
 topic: Administración
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
-# Atributos del cliente  sobre validación
+# Atributos del cliente sobre validación
 
 >[!IMPORTANT]
 >
->[!UICONTROL Customer ] Attribution es un servicio heredado que ahora se encuentra en mantenimiento.
+>[!UICONTROL Los atributos del cliente son un servicio heredado, que ahora se encuentra en mantenimiento.]
 
 [!UICONTROL Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). ] Puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
@@ -62,3 +62,5 @@ Por ejemplo:
 |--- |--- |
 | Adobe Analytics | Los especialistas en marketing y analistas pueden comprender:<ul><li>Las campañas en línea más efectivas con sus clientes de nivel oro.</li><li>Los productos que buscan los clientes de nivel oro en comparación con los productos que buscan los clientes de nivel platino.</li><li>Si el rediseño del sitio está teniendo un impacto positivo en las tasas de conversión para los clientes más antiguos.</li><li>Los productos que los clientes con un valor de duración bajo tienden a buscar en mi sitio.</li></ul> |
 | Adobe Target | Los datos de atributos permiten a los usuarios de Adobe Target:<ul><li>Mostrar descuentos y ofertas especiales para miembros del club de fidelidad.</li><li>Recomendar productos más caros a sus clientes de lujo.</li><li>Para los clientes que ya reciben correos electrónicos, permite mostrar una oferta de “up-sell” en el espacio reservado normalmente para los registros por correo electrónico.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
