@@ -11,9 +11,9 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
    | La visita debe incluir<br>La visita no debe incluir<br>un Trigger sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar. Por ejemplo, las reglas para un déclencheur sencillo de abandono del carro de compras pueden ser:<ul><li>La visita debe incluir: [!UICONTROL Adición al carro] (métrica) y [!UICONTROL Existe]. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir:  [!UICONTROL Cierre de compra].</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>[!UICONTROL Incluir metadatos]: Permite agregar una  [!DNL Campaign] dimensión o variables específicas que sean relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar   [!UICONTROL Cualquiera],    Andor    Orlogic dentro de los contenedores o entre ellos, según los criterios que determine que son importantes para la regla. |
    | [!UICONTROL Contenedor] | [!UICONTROL Los contenedores se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. ] Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita. Por ejemplo, si tiene dos contenedores unidos por el operador AND, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. Haga clic en **[!UICONTROL Guardar]**.
 6. Utilice Triggers para [realizar remarketing en tiempo real](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) en [!DNL Adobe Campaign].
