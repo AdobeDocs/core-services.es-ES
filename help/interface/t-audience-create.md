@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 * Usuarios de Chrome y Safari derivados de un segmento de [!DNL Adobe Analytics] [publicado](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) en [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
+
+**Para crear una audiencia**
 
 1. En [!DNL Experience Cloud], en [!DNL Experience Platform], haga clic en **[!UICONTROL People]** > **[!UICONTROL Biblioteca de audiencias].**
 1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
