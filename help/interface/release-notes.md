@@ -9,7 +9,7 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -22,7 +22,7 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Para ver las notas de la versión de todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+Para ver las notas de la versión de todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ## Junio de 2021
 
