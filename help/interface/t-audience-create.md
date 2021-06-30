@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -45,8 +45,8 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 
 **Para crear una audiencia**
 
-1. En [!DNL Experience Cloud], en [!DNL Experience Platform], haga clic en **[!UICONTROL People]** > **[!UICONTROL Biblioteca de audiencias].**
-1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
+1. En [!DNL Experience Cloud], en [!DNL Experience Platform], seleccione **[!UICONTROL People]** > **[!UICONTROL Biblioteca de audiencias].**
+1. En la página [!UICONTROL Audiences], seleccione **[!UICONTROL New]**. ![](assets/add_icon_small.png)
 
    ![Resultado de los pasos](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 
    * **[!UICONTROL Experience Cloud:]** datos de atributos derivados a partir de los orígenes de [!DNL Experience Cloud]. Por ejemplo, pueden ser datos de segmentos de audiencia creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
-1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Guardar].**
+1. Defina las reglas de audiencia y, a continuación, seleccione **[!UICONTROL Guardar].**
 
 >[!NOTE]
 >
