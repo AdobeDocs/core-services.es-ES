@@ -7,10 +7,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -35,17 +35,17 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 1. Vaya a Grupos de informes para la administración de datos en [!DNL Analytics] > **[!UICONTROL Administración]** > **[!UICONTROL Gestión de datos]** (consulte [Ver/Administrar la configuración de la Gestión de datos del grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en))
 
-1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, haga clic en **[!UICONTROL Visible para empresas de inicio de sesión]**.
+1. Para ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, seleccione **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
    Esta vista pretende ayudarlo a tomar una decisión fundamentada acerca de la asignación.
 
-1. Haga clic en el menú desplegable en la columna **[!UICONTROL Organización asignada]** junto a un grupo de informes y seleccione la organización a la que desea asignar.
+1. Seleccione la lista desplegable en la columna **[!UICONTROL Organización asignada]** situada junto a un grupo de informes y seleccione la organización a la que desea asignar.
 
    Consulte la siguiente sección para obtener sugerencias sobre cómo seleccionar una organización de Experience Cloud.
 
 ## Asignar varios grupos de informes a una organización {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Haga clic en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Asignación de grupos de informes]**.
+1. Seleccione **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administración]** > **[!UICONTROL Asignación de grupos de informes]**.
 
 1. Seleccione los grupos de informes que desea asignar.
 
@@ -55,7 +55,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
    Consulte la siguiente sección para obtener sugerencias sobre cómo seleccionar una organización de Experience Cloud.
 
-1. Haga clic en **[!UICONTROL Guardar asignación]**.
+1. Seleccione **[!UICONTROL Guardar asignación]**.
 
 ## Sugerencias para seleccionar una organización de Experience Cloud {#mapping-tips}
 
