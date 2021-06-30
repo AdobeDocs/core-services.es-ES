@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 95%
+ht-degree: 62%
 
 ---
 
@@ -20,34 +20,34 @@ ht-degree: 95%
 
 Comparta una carpeta de recursos de Experience Cloud con usuarios de Creative Cloud.
 
-1. En una carpeta de recursos, haga clic en **[!UICONTROL Compartir en Creative Cloud]**.
+1. En una carpeta de recursos, seleccione **[!UICONTROL Compartir con el Creative Cloud]**.
 
    ![Resultado de los pasos](assets/asset-share-cc.png)
-1. En la página Compartir en Creative Cloud, seleccione un usuario y, a continuación, haga clic en **[!UICONTROL Añadir]**.
+1. En la página Compartir con el Creative Cloud , busque el usuario y seleccione **[!UICONTROL Agregar]**.
 
    ![](assets/asset-share-cc-page.png)
 
-1. Haga clic en **[!UICONTROL Compartir]**.
+1. Seleccione **[!UICONTROL Compartir]**.
 1. Inicie la versión local de [!DNL Creative Cloud] (o vaya a la página [!UICONTROL Creative Cloud Files] desde un explorador) y busque la notificación de solicitud.
 
    ![](assets/cc_share_request.png)
-1. Abra la solicitud y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
+1. Abra la solicitud y, a continuación, seleccione **[!UICONTROL Accept]**.
 
    ![Resultado de los pasos](assets/cc_share_accept.png)
-1. Para acceder a los contenidos de la carpeta, haga clic en **[!UICONTROL Abrir carpeta]** (o **[!UICONTROL Ver en la web]**).
+1. Para acceder al contenido de la carpeta, seleccione **[!UICONTROL Abrir carpeta]** (o **[!UICONTROL Ver en la Web]**).
 
    ![Resultado de los pasos](assets/creative_cloud_open_folder.png)
 1. Siga agregando comentarios en el recurso compartido:
 
-   En Creative Cloud, puede hacer clic en una imagen y, a continuación haga clic en **[!UICONTROL Actividad]** para agregar un comentario en la imagen. Los comentarios se sincronizan con los recursos en [!DNL Creative Cloud] y en [!DNL Experience Cloud].
+   En el Creative Cloud, puede seleccionar en una imagen y luego seleccionar **[!UICONTROL Actividad]** para agregar un comentario en la imagen. Los comentarios se sincronizan con los recursos en [!DNL Creative Cloud] y en [!DNL Experience Cloud].
 
    ![](assets/asset_comment_cc.png)
 
-   En Experience Cloud, haga clic en una imagen y, a continuación, haga clic en el icono de cronología para agregar un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y Experience Cloud.
+   En el Experience Cloud, seleccione en una imagen y, a continuación, seleccione el icono de línea temporal para agregar un comentario en la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y Experience Cloud.
 
    ![](assets/asset_comment_mac.png)
 
-1. Para dejar de compartir una carpeta, haga clic en **[!UICONTROL Compartir usando Creative Cloud]** (similar al [Paso 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), a continuación, elimine usuarios haciendo clic en la X, y por último, haga clic en **[!UICONTROL Compartir]**.
+1. Para dejar de compartir una carpeta, seleccione **[!UICONTROL Compartir usando el Creative Cloud]** (similar al [paso 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), luego elimine los usuarios seleccionando X y luego seleccione **[!UICONTROL Compartir]**.
 
 ![](assets/asset_remove_user.png)
 
