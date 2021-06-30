@@ -8,10 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 95%
 
 ---
 
@@ -40,10 +40,10 @@ Puede crear un perfil de producto y asignarlo a un grupo de permisos.
 
 Al invitar a un usuario a una organización, puede darle acceso a productos y perfiles de productos. También puede delegar permisos administrativos limitados en un usuario. Del mismo modo, puede crear grupos de usuarios y luego agregar el grupo a un perfil de productos para habilitar el acceso.
 
-1. En [Admin Console](https://adminconsole.adobe.com/enterprise/), haga clic en **[!UICONTROL Productos]**.
-1. Haga clic en el nombre de su organización.
-1. Haga clic en **[!UICONTROL Nuevo perfil]**.
-1. Configure los detalles del perfil y, después, haga clic en **[!UICONTROL Guardar]**.
+1. En el [Admin Console](https://adminconsole.adobe.com/enterprise/), seleccione **[!UICONTROL Productos]**.
+1. Seleccione el nombre de su organización.
+1. Seleccione **[!UICONTROL Nuevo perfil]**.
+1. Configure los detalles del perfil y seleccione **[!UICONTROL Guardar]**.
 
 Para obtener más información (y ayuda sobre la administración de productos de Creative Cloud y Document Cloud), consulte [Identidad](https://helpx.adobe.com/es/enterprise/admin-guide.html/es/enterprise/using/identity.ug.html) en la [Guía del usuario de administración](https://helpx.adobe.com/es/enterprise/admin-guide.html/es/enterprise/using/users.ug.html).
 
@@ -82,16 +82,16 @@ Por ejemplo, puede:
 
 Al utilizar estas funciones, puede delegar la administración a otros sin proporcionar más capacidad de la que necesitan.
 
-1. En Admin Console, haga clic en **[!UICONTROL Usuarios]** y, a continuación, haga clic en el nombre del usuario.
+1. En el Admin Console, seleccione **[!UICONTROL Users]** y, a continuación, seleccione el nombre del usuario.
 
    ![](assets/edit-admin-rights.png)
 
-1. Haga clic en **[!UICONTROL Editar derechos de administrador]**.
+1. Seleccione **[!UICONTROL Edit admin rights]**.
 
    ![](assets/edit-admin-rights-page.png)
 
 1. Especifique los derechos de administración del usuario.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
 ## Administración de usuarios y productos de Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Puede asignar permisos de acceso a informes de Analytics (grupos de informes, m�
 
 Por ejemplo, puede crear un perfil de producto que contenga varias herramientas de Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] y [!UICONTROL Report Builder]). Estos perfiles contienen permisos para métricas y dimensiones específicas (incluyendo eVars), así como funciones como la creación de segmentos o métricas calculadas.
 
-1. Inicie sesión en [Admin Console](https://adminconsole.adobe.com/enterprise) y haga clic en **[!UICONTROL Productos]**.
-1. En la página [!UICONTROL Productos], haga clic en su producto y después en **[!UICONTROL Permisos]** (disponible solo para administradores).
+1. Inicie sesión en el [Admin Console](https://adminconsole.adobe.com/enterprise) y seleccione **[!UICONTROL Productos]**.
+1. En la página [!UICONTROL Products], seleccione el producto y, a continuación, seleccione **[!UICONTROL Permissions]** (disponible solo para administradores).
 1. Configure los permisos del perfil:
 
 | Elemento | Descripción |
