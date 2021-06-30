@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,5 +20,5 @@ ht-degree: 100%
 
 1. Activar el uso compartido.
 1. Inicie la versión de escritorio de [!DNL Creative Cloud] y vaya a [!UICONTROL **Assets**].
-1. Haga clic en **[!UICONTROL Abrir carpeta].**
+1. Seleccione **[!UICONTROL Abrir carpeta].**
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.
