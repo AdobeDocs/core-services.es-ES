@@ -8,10 +8,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ Desde el encabezado del Experience Cloud, puede:
 Inicie sesión y verifique que se encuentra en la [organización](organizations.md) correcta.
 
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
-1. Haga clic en **[!UICONTROL Inicie sesión con su Adobe ID]**.
-1. En Adobe Experience Cloud, haga clic en su organización.
+1. Seleccione **[!UICONTROL Iniciar sesión con un Adobe ID]**.
+1. En Adobe Experience Cloud, seleccione su organización.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 
 Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a todas sus aplicaciones, servicios y organizaciones desde el encabezado unificado.
 
-Para acceder a los servicios de Experience Cloud que posee, haga clic en el selector de aplicaciones ![](assets/menu-icon.png).
+Para acceder a los servicios de Experience Cloud que posee, vaya al selector de aplicaciones ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y al
 * Cerrar sesión
 * Configurar las preferencias, notificaciones y suscripciones de la cuenta
 
-Para administrar las preferencias, haga clic en **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png).
+Para administrar las preferencias, seleccione **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 
 ## Notificaciones y anuncios {#notifications}
 
-Haga clic en **[!UICONTROL Notifications]** para recibir alertas sobre actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+Seleccione **[!UICONTROL Notifications]** para recibir alertas sobre actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,8 +142,8 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
-* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): Busque ayuda en Experience Cloud Learn &amp; Support
-* [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
+* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es): Busque ayuda en Experience Cloud Learn &amp; Support
+* [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
 * [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK) : Póngase en contacto con el Adobe para asegurarse de sacar el máximo partido de los productos de Adobe
