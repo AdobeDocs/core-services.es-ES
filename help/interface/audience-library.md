@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las soluci
 
 | Ayuda con | Recurso |
 |--- |--- |
-| ¿No puede encontrar Audiencias? | Compruebe que está aprovisionado. Consulte [Introducción: Habilite sus soluciones para los servicios principales](core-services.md).<br>Haga clic [aquí](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para solicitar acceso a Profiles &amp; Audiences (formulario de aprovisionamiento de integraciones). |
+| ¿No puede encontrar Audiencias? | Compruebe que está aprovisionado. Consulte [Introducción: Habilite sus soluciones para los servicios principales](core-services.md).<br>Vaya aquí  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para solicitar acceso a Profiles and Audiences (formulario de aprovisionamiento de integraciones). |
 | Casos de uso | Para obtener más información sobre la solución que se debe utilizar, vaya a [Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) en la Base de conocimiento. |
 | Foro | El [Foro de audiencias](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) es otro recurso para obtener ayuda con las audiencias. |
 
