@@ -7,14 +7,14 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 84%
 
 ---
 
-# Cookies de Advertising Cloud {#advertising-cloud-cookies}
+# Cookies de Advertising Cloud{#advertising-cloud-cookies}
 
 Advertising Cloud utiliza cookies para asignar eventos de participación de anuncios a eventos de conversión y, de manera potencial, utilizar esa información para optimizar las ofertas de anuncios.
 
@@ -30,7 +30,7 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>ID y marcas de tiempo (en formato aaaammdd) de clics en pantalla</p> </td> 
+   <td colname="col2"> <p>ID y marcas de tiempo (en formato aaammdd) de las selecciones de visualización</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
-   <td colname="col2"> <p>Una cookie de un tercero que se utiliza para determinar si un evento de clic en un anuncio en pantalla se aplica a una visita de Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>Una cookie de terceros que se usa para determinar si un evento de selección en una publicidad de visualización se aplica a una visita de Adobe Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ubicación </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>Las marcas de tiempo de la última visita del internauta al sitio web del anunciante, el último clic de búsqueda del internauta, y el ef_id que se creó cuando el usuario hizo clic en un anuncio.</p> </td> 
+   <td colname="col2"> <p>Las marcas de tiempo de la última visita del internauta al sitio web del anunciante y la última selección de búsqueda del internauta, así como el ef_id que se creó cuando el usuario seleccionó un anuncio</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
