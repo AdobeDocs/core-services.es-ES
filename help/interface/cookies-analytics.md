@@ -9,14 +9,14 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
-# Cookies de Analytics {#analytics-cookies}
+# Cookies de Analytics{#analytics-cookies}
 
 Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar información de navegación a registros de clientes.
 
@@ -33,7 +33,7 @@ Analytics usa cookies para definir de forma anónima a los nuevos visitantes, an
 
 Encontrará más información en la ayuda de Analytics sobre las cookies de [origen](cookies-first-party.md).
 
-## Nombre de cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
+## Nombre de cookie: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
 | Atributo | Descripción |
 |--- |--- |
@@ -57,11 +57,11 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 {style=&quot;table-layout:auto&quot;}
 
-## Nombre de la cookie: s_sq  {#section-8abfff3a302d494f81a3cfb91e3b09ff}
+## Nombre de la cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad ClickMap o la funcionalidad de Activity Map están habilitadas. Además, contiene información sobre el vínculo anterior en el que el usuario hizo clic |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad SelectMap o la funcionalidad del Activity Map están habilitadas; contiene información sobre el vínculo anterior seleccionado por el usuario |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
@@ -85,7 +85,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 >
 >Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
-## Nombre de la cookie: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Nombre de la cookie: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Atributo | Descripción |
 |--- |--- |
@@ -115,7 +115,7 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 >
 >Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda con el cambio de la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
-## Cookies establecidas por complementos  {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
