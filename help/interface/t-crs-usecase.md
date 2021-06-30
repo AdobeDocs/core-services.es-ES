@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 >
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los ID empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de Atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
-1. En [!DNL Experience Cloud], haga clic en el icono Menú ![](assets/menu-icon.png).
-1. En **[!DNL Experience Platform]**, haga clic en **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**.
+1. En [!DNL Experience Cloud], seleccione el icono Menú ![](assets/menu-icon.png).
+1. En **[!DNL Experience Platform]**, seleccione **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**.
 
    En la página [!UICONTROL Atributos del cliente] se gestionan y editan los orígenes de datos de atributos existentes.
 
    ![Resultado de los pasos](assets/03_crs_usecase.png)
-1. Haga clic en **[!UICONTROL Nuevo]**.
+1. Seleccione **[!UICONTROL Nuevo]**.
 
    ![Resultado de los pasos](assets/04_crs_usecase.png)
 1. En la página [!UICONTROL Editar origen de atributos del cliente], configure los siguientes campos:
@@ -153,7 +153,7 @@ Consulte [Configurar suscripciones](subscription.md#concept_ECA3C44FA6D540C89CC0
 
 **Para activar un origen de atributos**
 
-En la página [!UICONTROL Crear nuevo [o Editar] Atributos del cliente de origen], busque el encabezado [!UICONTROL Activar] y, a continuación, haga clic en **[!UICONTROL Activar]**.
+En la página [!UICONTROL Crear nuevo [o Editar] origen de atributos del cliente], busque el encabezado [!UICONTROL Activar] y, a continuación, seleccione **[!UICONTROL Activo]**.
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 
