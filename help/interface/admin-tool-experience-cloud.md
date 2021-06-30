@@ -9,10 +9,10 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
    ![](assets/admin-tool.png)
 
-1. En [!UICONTROL Acceso rápido], haga clic en **[!UICONTROL Herramienta de administrador.]**
+1. En [!UICONTROL Acceso rápido], seleccione **[!UICONTROL Herramienta de administración.]**
 
    (Como alternativa, en la URL de página de inicio puede reemplazar _inicio_ por _admin_).
 
@@ -42,7 +42,7 @@ Esta página muestra la lista completa de usuarios con acceso a Experience Cloud
 
 | Elemento | Descripción |
 |---|---|
-| [!UICONTROL Nombre] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a Z y de la Z a A. Haga clic en el nombre de un usuario para ver más detalles sobre el mismo. |
+| [!UICONTROL Nombre] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a la Z y de la Z a la A. Seleccione el nombre de un usuario para ver más detalles sobre él. |
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las soluciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la solución. |
@@ -54,7 +54,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista del usua
 
 * Busque usuarios por nombre o correo electrónico. Las búsquedas coinciden con la cadena de texto que escriba.
 * Ordene la columna por valores ascendentes o descendentes. Esta ordenación se aplica a las columnas [!UICONTROL Name,] [!UICONTROL Email,] y [!UICONTROL Last Login].
-* Para aplicar varios filtros a los usuarios de la lista con criterios específicos, haga clic en el icono **[!UICONTROL Filtrar por]**. Cuando se aplican varias categorías de filtro, las búsquedas contienen Dominio de correo electrónico `AND` TIPO DE ID `AND` Solución.
+* Para aplicar varios filtros a los usuarios de la lista con criterios específicos, seleccione el icono **[!UICONTROL Filtrar por]**. Cuando se aplican varias categorías de filtro, las búsquedas contienen Dominio de correo electrónico `AND` TIPO DE ID `AND` Solución.
 
 | Elemento | Descripción |
 |---------|----------|
@@ -64,7 +64,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista del usua
 
 ## Ver detalles del usuario
 
-En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, haga clic en el correo electrónico del usuario.
+En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, seleccione el correo electrónico del usuario.
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ Esta página muestra la lista completa de las directivas de Experience Cloud en 
 
 | Elemento | Descripción |
 |---|---|
-| [!UICONTROL Perfil del producto] | Nombre del perfil del producto. Las columnas se pueden ordenar de la A a la Z y de la Z a la A. Para ver más detalles sobre la directiva, haga clic en el nombre de un perfil de producto. |
+| [!UICONTROL Perfil del producto] | Nombre del perfil del producto. Las columnas se pueden ordenar de la A a la Z y de la Z a la A. Para ver más detalles sobre la directiva, seleccione el nombre de un perfil de producto. |
 | [!UICONTROL Producto] | Producto asociado con el perfil del producto. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Instancia] | La instancia (por ejemplo, inquilino o empresa de inicio de sesión) asociada al perfil del producto. Los productos que no tienen instancias únicas o inquilinos muestran un &quot; -&quot; para el valor. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Cantidad de usuarios] | Cantidad única de usuarios asociados al perfil del producto, incluida la asignación directa y la asignación de grupos. Las columnas pueden ordenarse de menor a mayor o de mayor a menor. |
@@ -118,7 +118,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de direc
 
 * Busque perfiles de producto por nombre. Las búsquedas coinciden con la cadena de texto que escriba.
 * Ordene la columna por valores ascendentes o descendentes. Esta clasificación se aplica a [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] y [!UICONTROL Number of Developers,] Columns.
-* Haga clic en el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de productos de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
+* Seleccione el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de producto de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
 
 | Elemento | Descripción |
 |---------|----------|
@@ -127,7 +127,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de direc
 
 ## Detalles de la directiva de vista
 
-En la página [!UICONTROL Directivas], para ver los detalles de una directiva, haga clic en el nombre del perfil del producto.
+En la página [!UICONTROL Directivas], para ver los detalles de una directiva, seleccione el nombre del perfil del producto.
 
 ![](assets/admin-tool-policy-detail.png)
 
