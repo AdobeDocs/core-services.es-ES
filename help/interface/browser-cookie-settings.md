@@ -9,21 +9,21 @@ topic: Administración
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
-# Habilitación de la configuración de privacidad para las cookies de navegador {#enable-privacy-settings-for-browser-cookies}
+# Habilitación de la configuración de privacidad para las cookies de navegador{#enable-privacy-settings-for-browser-cookies}
 
 Puede eliminar los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles. Esta función es una configuración de privacidad que excluye a los usuarios que optan por no recopilar datos, lo que le permite respetar la intención del usuario de detener el procesamiento de Analytics.
 
 **Para habilitar la configuración de privacidad para las cookies de navegador**
 
 1. Vaya a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Grupos de informes]**.
-1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Configuración de privacidad]**.
+1. Vaya a **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Configuración de privacidad]**.
 1. Habilite **[!UICONTROL Configuración de privacidad]** (para escritorio o móvil).
 
 >[!IMPORTANT]
