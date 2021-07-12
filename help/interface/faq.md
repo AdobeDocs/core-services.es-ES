@@ -6,13 +6,13 @@ title: 'Preguntas frecuentes sobre Experience Cloud '
 index: true
 feature: Admin Console
 topic: Administración
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ El aprovisionamiento de Experience Cloud significa que:
 
 * Las autorizaciones de usuario y la administración de productos se realizan en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 ## ¿Qué puedo hacer si alguien no puede iniciar sesión en la interfaz de Experience Cloud?
 
