@@ -5,10 +5,10 @@ title: documentación y ayuda sobre la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: '"Atributos del cliente"'
 topic: Administración
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 62%
@@ -128,7 +128,7 @@ Las guías de Experience Cloud relacionadas incluyen:
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 * [Recopilación/Launch de datos del Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
+* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=es)
 
