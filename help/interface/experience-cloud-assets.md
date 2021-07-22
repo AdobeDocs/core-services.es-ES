@@ -8,18 +8,14 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '334'
 ht-degree: 84%
 
 ---
 
 # Información general sobre Experience Cloud Assets
-
->[!NOTE]
->
->Los activos son un servicio principal heredado, que ahora se encuentra en fase de mantenimiento.
 
 Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un recurso es un documento digital, una imagen, un vídeo o un audio (o parte de ello) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un archivo de [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
