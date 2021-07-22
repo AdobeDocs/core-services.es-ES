@@ -9,10 +9,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 77%
+source-wordcount: '1378'
+ht-degree: 76%
 
 ---
 
@@ -70,10 +70,6 @@ Cree y gestione audiencias en la biblioteca de audiencias de Experience Cloud. L
 
 Ayuda: [Atributos del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Los atributos del cliente son un servicio heredado, que ahora se encuentra en mantenimiento.
-
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud. Una vez cargados, utilice los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
 **Soluciones o servicios aplicables**
@@ -84,10 +80,6 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Ayuda: [Compartir carpetas de Experience Cloud con Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Los activos son un servicio principal heredado, que ahora se encuentra en fase de mantenimiento.
 
 Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en soluciones de Experience Cloud como [!DNL Social] y [!DNL Target].
 
