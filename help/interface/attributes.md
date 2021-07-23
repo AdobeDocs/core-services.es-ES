@@ -7,7 +7,7 @@ role: Admin
 topic: Administración
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
+source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 74%
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 # Atributos del cliente sobre validación
 
-Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
+[!UICONTROL Los atributos de cliente de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). ] Puede cargar los datos en un origen de datos de Atributos del cliente en el Experience Cloud y, a continuación, utilizar los datos en Adobe Analytics y Adobe Target.
 
 Para localizar esta función, vaya a **[!DNL Experience Platform]** > **[!UICONTROL Personas]** > **[!UICONTROL Atributos de cliente]**
 
