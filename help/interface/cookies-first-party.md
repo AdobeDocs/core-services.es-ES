@@ -10,10 +10,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 60%
+source-wordcount: '1617'
+ht-degree: 45%
 
 ---
 
@@ -21,20 +21,18 @@ ht-degree: 60%
 
 Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros, incluidas las cookies utilizadas en la recopilación de datos [!DNL Analytics]. Para admitir el seguimiento de cómo los visitantes interactúan con el sitio web, debe configurar la recopilación de datos para que utilice cookies de origen:
+Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar aunque las cookies de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de ID de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocido como cookie s_vi):
 
-Hay dos opciones disponibles para implementar cookies de origen:
+* El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) configurará automáticamente las cookies de origen independientemente de si el dominio de recopilación coincide con el dominio del sitio. Si no coinciden, el servicio de identidad utilizará JavaScript para configurar las cookies en el dominio del sitio.
+* Si utiliza [Analytics heredados identifiers](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (también conocido como la cookie `s_vi`), dependerá de cómo haya configurado el servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como propias. Si el servidor de recopilación no coincide con su dominio actual, las cookies se establecen como terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un [id de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie estándar &quot;s_vi&quot;.
 
-* Si utiliza el servicio de identidad de Experience Platform (servicio ECID), establece cookies automáticamente en el contexto de origen mediante JavaScript.
-* Si utiliza [!DNL Analytics] identificadores heredados (también conocidos como la cookie `s_vi` ), dependerá de cómo haya configurado el servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como propias. Si el servidor de recopilación no coincide con su dominio actual, las cookies se establecen como terceros. En este caso, si se bloquean las cookies de terceros, [!DNL Analytics] establece un [id de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie estándar &quot;s_vi&quot;.
-
-Para asegurarse de que el servidor de recopilación coincide con el dominio del sitio, puede utilizar una implementación CNAME en la que las cookies se puedan configurar en un contexto de origen. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME esté establecido como terceros.
+Si desea asegurarse de que el servidor de recopilación coincide con el dominio de su sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su empresa para configurar un alias CNAME y señalar a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME esté establecido como terceros.
 
 >[!NOTE]
 >
->Para ambas opciones, el programa Intelligent Tracking Prevention (ITP) de Apple hace que las cookies de origen tengan una duración corta en los navegadores que se rigen por ITP, que incluyen Safari en macOS y todos los navegadores en iOS y iPadOS. A partir de noviembre de 2020, ambos tipos de cookies tienen una caducidad de siete días. Esta caducidad está sujeta a cambios.
+>Independientemente de si el dominio de recopilación coincide con el dominio del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple crea las cookies de origen configuradas por Adobe de corta duración en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos los exploradores en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las cookies configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
 
-En la segunda opción, si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL a fin de implementar cookies de origen. Adobe recomienda usar HTTPS exclusivamente para la recopilación de datos, ya que el Adobe dejará de admitir la recopilación de HTTP en el segundo semestre de 2020.
+Si desea establecer un CNAME para la recopilación de datos y si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL.
 
 El proceso de publicación de certificados SSL puede resultar confuso y requerir mucho tiempo. Como resultado, Adobe estableció una asociación con DigiCert, una autoridad certificadora (CA) líder del sector, y desarrolló un proceso integrado mediante el cual la compra y gestión de estos certificados es automatizada.
 
@@ -42,15 +40,15 @@ Con su permiso, trabajamos con CA para emitir, implementar y administrar un nuev
 
 ## Programa de certificados administrados por Adobe
 
-El programa de certificados administrados de Adobe es el proceso recomendado para implementar un nuevo certificado SSL de origen para cookies de origen.
+El programa de certificados administrados de Adobe es el proceso recomendado para configurar el certificado SSL de origen necesario para una implementación CNAME que garantiza que el servidor de recopilación de Adobe coincida con el dominio del sitio.
 
-El programa de certificados administrados le permite implementar un nuevo certificado SSL de origen para cookies de origen sin coste adicional (para sus primeros 100 CNAME). Si actualmente tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe sobre la migración al Programa de certificados administrados por el Adobe.
+El programa de certificados administrados de Adobe le permite implementar un nuevo certificado SSL de origen sin coste adicional (para sus primeros 100 CNAME). Si actualmente tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe sobre la migración al Programa de certificados administrados por el Adobe.
 
 ### Implementación
 
-Así se implementa un nuevo certificado SSL de origen para cookies de origen:
+Así se implementa un nuevo certificado SSL de origen para la recopilación de datos de origen:
 
-1. Complete el [Formulario de solicitud de cookies de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra un ticket con el Servicio de atención al cliente solicitando la configuración de cookies de origen en el programa administrado por Adobe. Cada campo se describe dentro del documento con ejemplos.
+1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra un ticket con el Servicio de atención al cliente solicitando configurar la recopilación de datos de origen en el programa administrado por Adobe. Cada campo se describe dentro del documento con ejemplos.
 
 2. Cree registros CNAME (consulte las instrucciones más abajo).
 
@@ -103,10 +101,6 @@ El especialista de FPC le proporciona los nombres de host configurados y los CNA
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
->[!NOTE]
->
->El servicio ID de visitante de Experience Cloud proporciona una alternativa para configurar un CNAME para habilitar cookies de origen.
-
 ## Validar reenvío de nombre de host {#validate}
 
 Los siguientes métodos están disponibles para la validación:
@@ -157,7 +151,7 @@ Address: 54.187.216.46
 
 ## Actualización del código de implementación {#update}
 
-Antes de editar el código del sitio para usar cookies de origen, complete estos requisitos previos:
+Antes de editar el código del sitio para utilizar la recopilación de datos de origen, complete estos requisitos previos:
 
 * Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementar* del [Programa de certificados administrados por Adobe](#adobe-managed-certificate-program).
 * Cree registros CNAME (consultar más arriba).
@@ -166,12 +160,12 @@ Antes de editar el código del sitio para usar cookies de origen, complete estos
 Después de comprobar que sus nombres de host responden y redirigen a servidores de recopilación de datos de Adobe, puede modificar su implementación para que apunte a sus propios nombres de host de recopilación de datos.
 
 1. Abra su archivo principal de JavaScript (`s_code.js/AppMeasurement.js`).
-1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con las cookies de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O**, si desea actualizar el código solo correspondiente a la recopilación de datos de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Cargue en su sitio el archivo principal de JavaScript actualizado.
 
-1. Si está migrando a cookies de origen desde una implementación antigua, o cambiando a un nombre de host de recopilación de origen diferente, Adobe recomienda migrar los visitantes del dominio anterior al nuevo dominio.
+1. Si va a pasar a la recopilación de datos de origen desde una implementación antigua, o cambia a un nombre de host de recopilación de origen diferente, Adobe recomienda migrar los visitantes del dominio anterior al nuevo dominio.
 
 Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) en la Guía de implementación de Analytics.
 
-Después de haber cargado el archivo de JavaScript, ya estará todo configurado para la recopilación de datos de cookies de origen. Adobe recomienda supervisar los informes de Analytics durante las siguientes horas para garantizar que la recopilación de datos continúe con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
+Una vez cargado el archivo JavaScript, todo está configurado para la recopilación de datos de origen. Adobe recomienda supervisar los informes de Analytics durante las siguientes horas para garantizar que la recopilación de datos continúe con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
