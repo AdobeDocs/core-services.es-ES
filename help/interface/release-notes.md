@@ -9,10 +9,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 88%
+source-wordcount: '4279'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,12 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión de todas las soluciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Agosto de 2021
+
+| Función | Fecha | Descripción |
+| ------- | ------- | -------|
+| [!UICONTROL Actualizaciones unificadas] : compatibilidad ampliada para objetos de negocios a los que se ha accedido recientemente | 10 de agosto de 2021 | [!UICONTROL La ] actualización unificada se amplía a objetos comerciales adicionales en Journey Optimizer y Experience Platform. Los clientes de Journey Optimizer pueden encontrar los objetos a los que han accedido recientemente (mensajes, Recorridos, segmentos, esquemas, conjuntos de datos, fuentes de datos, eventos, acciones, fuentes y destinos) desde la página principal de Adobe Journey Optimizer. |
 
 ## Julio de 2021
 
