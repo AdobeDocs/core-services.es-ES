@@ -9,10 +9,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
+source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -39,7 +39,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | Función | Fecha | Descripción |
 | ------- | ------- | ------- |
 | Compatibilidad con inicio de sesión único para Federated ID de Adobe | 17 de junio de 2021 | Si utiliza Federated ID, puede iniciar sesión en Experience Cloud sin tener que indicar una dirección de correo electrónico o contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL del Experience Cloud. <br>Por ejemplo, suponga que es el propietario del dominio `adobecustomer.com` y que desea iniciar sesión en Adobe Analytics. La dirección URL sería: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Búsqueda en Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) y utilice el campo **[!UICONTROL Búsqueda]** para encontrar tutoriales, documentación, cursos y más. |
+| Búsqueda en Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.adobe.com/docs/?lang=es) y utilice el campo **[!UICONTROL Búsqueda]** para encontrar tutoriales, documentación, cursos y más. |
 
 {style=&quot;table-layout:auto&quot;}
 
