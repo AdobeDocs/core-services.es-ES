@@ -9,10 +9,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 73%
+source-wordcount: '1151'
+ht-degree: 72%
 
 ---
 
@@ -86,7 +86,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=es).
+      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
 
       * **API de Visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) adicionales que pueden asociar con cada visitante.
 
