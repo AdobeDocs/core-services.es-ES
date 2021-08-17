@@ -11,7 +11,7 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 60%
@@ -26,7 +26,7 @@ Activation incluye el último producto de administración de etiquetas llamado E
 
 Implemente y administre las etiquetas de análisis, marketing y publicidad necesarias para lograr experiencias de cliente relevantes.
 
-Consulte [Guía de inicio rápido del Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
+Consulte [Guía de inicio rápido del Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 
 ## Experience Cloud [!UICONTROL Déclencheur] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
