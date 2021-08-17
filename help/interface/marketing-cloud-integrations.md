@@ -9,10 +9,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 76%
+source-wordcount: '1425'
+ht-degree: 69%
 
 ---
 
@@ -64,7 +64,7 @@ Cree y gestione audiencias en la biblioteca de audiencias de Experience Cloud. L
 
 * [Actividades en Adobe Target](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=es)
 * [Segmentación](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=es) en Audience Manager
-* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (se requiere inicio de sesión)
+* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (se requiere inicio de sesión)
 
 ## Atributos del cliente {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -115,11 +115,11 @@ Trabaje con datos de soluciones de Experience Cloud u otros sistemas externos en
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
-Ayuda: [Introducción](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=es#get-started)
+Ayuda: [Introducción](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 
 Utilice las soluciones de Activation de Experience Cloud para configurar y depurar sus soluciones de Experience Cloud.
 
-1. Utilice [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es) para insertar código que active las aplicaciones Experience Cloud en sus páginas.
+1. Utilice [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) para insertar código que active las aplicaciones Experience Cloud en sus páginas.
 1. Utilizar [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=es) para probar las implementaciones.
 
 Utilice la extensión de Adobe Experience Cloud Debugger para depurar los problemas que ha encontrado Auditor o examinar otra información sobre las implementaciones.
@@ -127,11 +127,11 @@ Utilice la extensión de Adobe Experience Cloud Debugger para depurar los proble
 **Soluciones o servicios aplicables**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es)
-* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
-* [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=es)
-* [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=es)
-* [Servicio de ID de MAC](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=es)
-* [Seguimiento de Nielsen](https://experienceleague.adobe.com/docs/dtm/using/tools/nielsen.html?lang=es)
+* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
+* [Media Optimizer](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Servicio de ID de MAC](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Seguimiento de Nielsen](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -144,7 +144,7 @@ Integre Adobe Target con Adobe Analytics y otras soluciones de Experience Cloud 
 * Atributos del cliente: Configurar la [suscripción](subscription.md) de Adobe Target en los Atributos del cliente
 * Audiencias de Experience Cloud: [Biblioteca de audiencias de Experience Cloud](audience-library.md)
 * Analytics: [Adobe Analytics como fuente de informes para Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
-* Dynamic Tag Management: [Prácticas recomendadas para implementar Adobe Target mediante DTM](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=es)
+* Dynamic Tag Management: [Prácticas recomendadas para implementar Adobe Target mediante DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager: [Integración de datos de Adobe Target con Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campaign: [Integración de Adobe Target con Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=es)
 
@@ -181,16 +181,16 @@ Sincronice sus recursos en Adobe Experience Manager (AEM) Assets con Adobe Creat
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Ayuda (se requiere inicio de sesión): [Integración con las soluciones y servicios de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+Ayuda (se requiere inicio de sesión): [Integración con las soluciones y servicios de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 **Soluciones o servicios aplicables**
 
 **Analytics:** Puede enviar datos de participación y conversión de forma diaria a [!DNL Adobe Advertising], donde los datos están disponibles para la creación de informes y la optimización de anuncios. Además, [!DNL Advertising] puede enviar datos sobre el tráfico en las redes sociales y los motores de búsqueda a Analytics, donde los datos estarán disponibles para crear informes en las funciones de Reports &amp; Analytics, Report Builder y Ad Hoc Analysis.
 
-**Administrador dinámico de etiquetas:** puede  [utilizar el Administrador dinámico de etiquetas para crear etiquetas](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en) de seguimiento de conversión basadas en píxeles y de terceros de publicidad de publicidad para sus páginas de aterrizaje de búsqueda, medios sociales y anuncios en pantalla. (También puede crear etiquetas de [!DNL Advertising] directamente en [!DNL Advertising].)
+**Administrador dinámico de etiquetas:** puede  [utilizar el Administrador dinámico de etiquetas para crear etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) de seguimiento de conversión basadas en píxeles y de terceros de publicidad de publicidad para sus páginas de aterrizaje de búsqueda, medios sociales y anuncios en pantalla. (También puede crear etiquetas de [!DNL Advertising] directamente en [!DNL Advertising].)
 
 **Experience Cloud Audiences:** (Anunciantes con administración de pantalla) puede usar cualquiera de las [audiencias de Adobe Experience Cloud](audience-library.md) como destinatarios para los anuncios en pantalla. Puede utilizar automáticamente las audiencias que haya creado en Experience Cloud y las audiencias de Analytics que haya publicado en Adobe Experience Cloud. También puede utilizar Audiencias de Audience Manager cuando la cuenta [!DNL Adobe Advertising] esté configurada para permitirlo. Póngase en contacto con su administrador de cuentas para obtener más información sobre el acceso a Adobe Experience Cloud y Perfiles y Audiencias, así como sobre la configuración inicial entre las audiencias de [!DNL Adobe Advertising] y de Adobe Experience Cloud. **Nota:** Si también utiliza Adobe Target, cualquiera de las audiencias que ha publicado en Adobe Experience Cloud también estará disponible para las actividades en Adobe Target.
 
-**Experience Cloud Assets:** (anunciantes con administración en pantalla) se puede usar cualquiera de los recursos de Adobe Experience Cloud como material creativo para los anuncios en pantalla con la nueva vista Display Beta. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) para acceder a sus activos de Adobe Experience Cloud. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
+**Experience Cloud Assets:** (anunciantes con administración en pantalla) se puede usar cualquiera de los recursos de Adobe Experience Cloud como material creativo para los anuncios en pantalla con la nueva vista Display Beta. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) para acceder a sus activos de Adobe Experience Cloud. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
 
-**Notificaciones a los Experience Cloud:** en el vínculo de notificaciones que hay en la parte superior de cada página, puede ver todas las alertas generadas a partir de las plantillas de alertas beta de búsqueda. También puede obtener actualizaciones del sistema, publicaciones, menciones y recursos compartidos de Experience Cloud. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) para acceder a sus notificaciones. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
+**Notificaciones a los Experience Cloud:** en el vínculo de notificaciones que hay en la parte superior de cada página, puede ver todas las alertas generadas a partir de las plantillas de alertas beta de búsqueda. También puede obtener actualizaciones del sistema, publicaciones, menciones y recursos compartidos de Experience Cloud. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) para acceder a sus notificaciones. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
