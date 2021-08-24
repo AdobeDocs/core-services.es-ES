@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo usan cookies las soluciones y los 
 title: 'Uso de cookies en Experience Cloud '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ Las cookies se proporcionan para mantener la información durante las visitas a 
 
 >[!NOTE]
 >
->Las leyes, regulaciones y principios de autorregulación requieren que obtenga el consentimiento de los visitantes antes de poder almacenar o recuperar información en un equipo u otro dispositivo conectado a la Web. El Adobe sugiere que revise con su asesor legal qué leyes, regulaciones y principios controlan su uso de cookies.
+>Las leyes, regulaciones y principios de autorregulación le obligan a obtener el consentimiento de los visitantes para poder almacenar o recuperar información en un ordenador u otro dispositivo conectado a Internet. Adobe le sugiere que revise con su asesor legal qué leyes, regulaciones y principios controlan su uso de cookies.
 
 Esta documentación describe las cookies utilizadas por el grupo y se ha preparado para ayudarle a comprender sus obligaciones de consentimiento.
