@@ -12,7 +12,7 @@ exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Analytics Premium le ofrece:
 >
 >No es necesario realizar ninguna migración al actualizar, pero hay que tener en cuenta algunas consideraciones:
 >
->* Las eVars 76-250 y 100-250 (Standard) están visibles en las Herramientas de administración, pero no están habilitadas.
->* Adobe activa el Análisis de contribución. No cambia la ubicación (aún está disponible en la página Detección de anomalías), pero automáticamente comienza a analizar todos los puntos de datos.
+>* Las eVars 76-250 y 100-250 (Standard) están visibles en las herramientas de administración, pero no están habilitadas.
+>* Adobe activa el Análisis de contribución. No cambia la ubicación (aún está disponible en la página Detección de anomalías), pero empieza a analizar automáticamente todos los puntos de datos.
 
 
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
@@ -44,7 +44,7 @@ En Analytics Premium Complete, obtiene todas las funciones de [Analytics Premium
 
 | Producto | Actualizaciones |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[Atributos del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (hasta 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=es)</li><li>[Atributos del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (hasta 200)</li></ul> |
 | Data Workbench | <ul><li>Atribución algorítmica</li><li>Espacios de trabajo creados previamente</li></ul> |
 | Plataforma de Analytics | [Transmisión en directo](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (datos sin procesar, paneles, activadores) |
 
@@ -82,13 +82,13 @@ La Atribución avanzada permite disfrutar de [Analytics Premium](upgrade-to-anal
 
 Los usuarios con asistencia técnica pueden solicitar que todas las licencias de cliente se actualicen para que reflejen el software Premium enviando `dwb@adobe.com` por correo electrónico. Esta actualización habilita características como Atribución algorítmica.
 
-TechOps revisa su compromiso contractual y determina la infraestructura administrada adecuada, aumentando o reduciendo la capacidad, y luego se coordinan con usted, a través del Administrador de cuentas o consultor, para implementar cualquier cambio.
+TechOps revisa el compromiso de su contrato y determinará la infraestructura administrada adecuada, aumentando o reduciendo la capacidad, y luego se coordina con usted, a través del administrador de cuentas o consultor, para implementar cualquier cambio.
 
-Cualquier software que se ejecute on-premise debe desactivarse. Este software incluye sensores, lo que significa que debe garantizar un seguimiento adecuado mediante etiquetas [!DNL Analytics].
+Cualquier software que se ejecute on-premise debe desactivarse. Este software incluye sensores, lo que significa que debe garantizar un seguimiento adecuado mediante etiquetas de [!DNL Analytics].
 
 ## Experience Cloud: Administración de usuarios y productos {#section_6471C54454024301B2E0B687F79F6738}
 
-Los servicios principales y de Experience Cloud están disponibles para los usuarios de Analytics Standard y Premium si ha seguido la modernización de la implementación descrita en [Introducción: habilite sus soluciones para servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
+Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus soluciones para utilizar los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
 
 Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experience.adobe.com] y comenzar a usar los servicios principales, incluidos los Atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
 
@@ -96,7 +96,7 @@ Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Clou
 
 La administración de usuarios se realiza en [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) (vínculo del producto).
 
-Puede configurar una asignación individual entre un grupo creado en Adobe Admin Console y un grupo de soluciones (como Adobe Analytics). A continuación, un nuevo usuario agregado al grupo de Admin Console asignado tiene una cuenta de solución de Analytics creada automáticamente y vinculada al Adobe ID del usuario. (Los usuarios existentes deben vincular manualmente sus credenciales de cuenta de la solución para acceder a las soluciones mediante el inicio de sesión de Experience Cloud).
+Puede configurar una asignación individual entre un grupo creado en Adobe Admin Console y un grupo de soluciones (como Adobe Analytics). A partir de entonces, un nuevo usuario agregado al grupo de Admin Console asignado tiene una cuenta de la solución Analytics creada automáticamente y vinculada al Adobe ID del usuario. (Los usuarios existentes deben vincular manualmente sus credenciales de cuenta de la solución para acceder a las soluciones mediante el inicio de sesión de Experience Cloud).
 
 >[!NOTE]
 >
