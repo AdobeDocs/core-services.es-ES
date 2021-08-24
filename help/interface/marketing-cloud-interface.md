@@ -9,7 +9,7 @@ uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Correcciones y mejoras para la versión de agosto de 2018.
 
 ## 19 de julio de 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
-Correcciones y mejoras para julio de 2018.
+Correcciones y mejoras para la versión de julio de 2018.
 
 * Se ha implementado una capacidad back-end para controlar el uso compartido de recursos entre Experience Cloud y AEM, y Experience Cloud y Creative Cloud. (CORE-14386)
 * Se ha corregido un problema que bloqueaba el aprovisionamiento de nuevos inquilinos en algunos entornos. (CORE-15509)
@@ -38,14 +38,14 @@ Correcciones y mejoras para julio de 2018.
 
 ## 14 de junio de 2018 {#section_7ABC327992CB46B0B8E4A631B8B68899}
 
-Correcciones y mejoras para junio de 2018.
+Correcciones y mejoras para la versión de junio de 2018.
 
 * Se habilitó un vínculo al acceso de RGPD para administradores. (CORE-11731)
 * Se ha actualizado la función de comentarios beta para restringir los tipos de archivo que se pueden adjuntar a los comentarios. (CORE-10474)
 * Se ha corregido un problema con la eliminación de audiencias de la biblioteca de audiencias. (CORE-12792)
 * Se ha solucionado un problema que provocaba la aparición de una pantalla en blanco al acceder a enlaces de Workspace con Federated ID. (CORE-11620)
 
-## 10 de mayo de 2018  {#section_498AF78DA17C4720AA0F32B51493E550}
+## 10 de mayo de 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 Nuevas características y correcciones de la interfaz de [!DNL Adobe Experience Cloud].
 
@@ -66,13 +66,13 @@ Nuevas características y correcciones de la interfaz de [!DNL Adobe Experience 
 
 Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento programado o las actualizaciones de productos no aparecen en el resumen de notificaciones por correo electrónico. Estamos trabajando para garantizar que todas las notificaciones de mantenimiento se incluyan en el compendio de correo electrónico.
 
-## 8 de agosto de 2017  {#section_2313A875454044F490B418506DD24593}
+## 8 de agosto de 2017 {#section_2313A875454044F490B418506DD24593}
 
 | Función | Descripción |
 |--- |--- |
 | Notificaciones: Configuración granular | Puede activar notificaciones para eventos y actividades de productos y soluciones, incluida la notificación de la actividad de carga de [Atributos de cliente](attributes.md). |
 | Notificaciones: Notificaciones de mantenimiento | En la configuración de Notificaciones, puede activar las notificaciones de mantenimiento para productos y soluciones. |
-| Admin Console para soluciones de Experience Cloud | Los nuevos clientes de Experience Cloud pueden empezar a utilizar Admin Console, una ubicación central para administrar las autorizaciones de Adobe en toda la organización.<br>La migración a Admin Console para la administración de usuarios se realizará en oleadas. Adobe se pone en contacto con usted (administradores del sistema) cuando es hora de migrar.<br>Los administradores de Analytics pueden consultar [Migración de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es). |
+| Admin Console para soluciones de Experience Cloud | Los nuevos clientes de Experience Cloud pueden empezar a utilizar Admin Console, una ubicación central para administrar las autorizaciones de Adobe en toda la organización.<br>La migración a Admin Console para la administración de usuarios se realizará en oleadas. Adobe se pone en contacto (con los administradores del sistema) cuando es el momento de la migración.<br>Los administradores de Analytics pueden consultar [Migración de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,12 +80,12 @@ Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento 
 
 | Función | Descripción |
 |--- |--- |
-| Asignación de grupos de informes en lotes | En  Administración  >  Report Suite Mapping, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>[Asignar grupos de informes](core-services.md) a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre soluciones. |
+| Asignación de grupos de informes en lotes | En Administración > Asignación de grupos de informes, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>[Asignar grupos de informes](core-services.md) a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre soluciones. |
 | Actualizaciones en las audiencias de Experience Cloud | **Aplicación de conjuntos de informes**<br> Ahora puede aplicar un grupo de informes a todas sus [reglas de audiencia](t-audience-create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla). <br>**Props y variables**<br> Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en las audiencias en tiempo real. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 8 de noviembre de 2016: 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 8 de noviembre de 2016 (16.11.1) {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Función | Descripción |
 |--- |--- |
