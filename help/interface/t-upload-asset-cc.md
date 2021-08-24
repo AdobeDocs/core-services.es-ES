@@ -12,13 +12,13 @@ exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
 # Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud
 
-Consulte [https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html) para obtener ayuda del Creative Cloud.
+Consulte [https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html) para consultar la ayuda de Creative Cloud.
 
 1. Abra el explorador de [!DNL Creative Cloud] y vaya a [!UICONTROL Creative Cloud Files].
 1. Abra la carpeta compartida.
