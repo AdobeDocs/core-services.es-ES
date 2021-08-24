@@ -12,7 +12,7 @@ exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 1. En la página [!UICONTROL Crear audiencia], especifique un título y una descripción.
 1. Dentro de [!UICONTROL Reglas], seleccione una fuente de atributos:
 
-   * **[!UICONTROL Datos de Real-Time Analytics:]**  (o datos sin procesar) son datos de atributos derivados de solicitudes de imagen de Real-Time Analytics, e incluyen datos como eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
+   * **[!UICONTROL Datos de Real-Time Analytics:]** datos de atributo derivados de solicitudes de imagen de Real-Time Analytics; incluyen datos tales como eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
    >[!NOTE]
    >
    >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
