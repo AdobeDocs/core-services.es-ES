@@ -1,7 +1,7 @@
 ---
 title: 'Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California '
 description: Conozca el cumplimiento de atributos del cliente con la Ley de privacidad del consumidor de California.
-feature: 'Atributos del cliente '
+feature: Atributos del cliente
 topic: Administración
 role: Admin
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Esta página describe la compatibilidad de los [!UICONTROL Atributos del cliente
 >
 >El contenido de este documento no constituye asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Consulte con su asesor jurídico para obtener asesoramiento sobre la CCPA.
 
-La CCPA es la nueva ley de privacidad de California que entró en vigor el 1 de enero de 2020. La CCPA otorga a los residentes de California nuevos derechos con respecto a su información personal e impone responsabilidades de protección de datos a ciertas entidades que hacen negocios en California. La CCPA otorga a los consumidores el derecho de acceder a su información personal y eliminarla, así como el derecho de exclusión de determinadas actividades que pueden considerarse &quot;vendedoras&quot; de información personal a terceros.
+La CCPA es la nueva ley de privacidad de California que entró en vigor el 1 de enero de 2020. La CCPA otorga a los residentes de California nuevos derechos con respecto a su información personal e impone responsabilidades de protección de datos a ciertas entidades que hacen negocios en California. La CCPA otorga a los consumidores el derecho de acceder a sus datos personales y suprimirlos, así como el derecho de exclusión de determinadas actividades que pueden considerarse “vendedoras” de información personal a terceros.
 
-Como empresa, usted determina los datos personales que Adobe Experience Cloud procesa y almacena en su nombre.
+Como empresa, determina los datos personales que Adobe Experience Cloud procesa y almacena en su nombre.
 
-Como proveedor de servicios, Adobe Experience Cloud proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone la CCPA y que son aplicables al uso de productos y servicios de Experience Cloud. Esta compatibilidad incluye la administración de solicitudes de acceso y eliminación de información personal.
+Como proveedor de servicio, Adobe Experience Cloud proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de Experience Cloud. Esta compatibilidad incluye la administración de solicitudes de acceso y la eliminación de información personal.
 
-En este documento se describe cómo [!UICONTROL Customer Attributes] admite los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU del Privacy Service.
+Este documento describe cómo los [!UICONTROL Atributos del cliente] admiten los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
 Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
 ## Configuración necesaria para enviar solicitudes de [!UICONTROL Atributos del cliente]
 
-Para realizar solicitudes de acceso y eliminación de datos para [!UICONTROL Atributos del cliente], debe:
+Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL Atributos del cliente], deberá:
 
 1. Identificar lo siguiente:
 
