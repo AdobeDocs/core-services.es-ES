@@ -11,7 +11,7 @@ exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
 Cuando crea actividades en [!DNL Adobe Target], puede utilizar un recurso de imagen compartida al intercambiar imágenes en la [!UICONTROL Biblioteca de ofertas].
 
-Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) en la ayuda de [!DNL Target].
+Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en la ayuda de [!DNL Target].
