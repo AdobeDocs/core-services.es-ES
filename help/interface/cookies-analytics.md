@@ -12,15 +12,15 @@ exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 # Cookies de Analytics{#analytics-cookies}
 
-Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar información de navegación a registros de clientes.
+Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
 
-Analytics usa cookies para definir de forma anónima a los nuevos visitantes, analizar los datos del flujo de navegación y realizar un seguimiento de la actividad histórica en el sitio web, como la respuesta a ciertas campañas en particular o la duración del ciclo de ventas.
+Analytics utiliza cookies para definir de forma anónima nuevos visitantes, analizar los datos del flujo de navegación y realizar un seguimiento de la actividad histórica en el sitio web, como la respuesta a campañas concretas o la duración del ciclo de ventas.
 
 * [Nombre de cookie: s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nombre de la cookie: AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -49,7 +49,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie para determinar si las cookies están habilitadas (configuradas como &quot;True&quot;) |
+| Información almacenada | JavaScript se encarga de configurar y leer esta cookie para determinar si las cookies están habilitadas (si tienen el valor “True”) |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
@@ -113,10 +113,10 @@ En la tabla siguiente se describen los indicadores de las cookies de Analytics:
 
 >[!NOTE]
 >
->Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda con el cambio de la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
+>Si se utiliza un solo CNAME para realizar el seguimiento en varios dominios o propiedades, se debe configurar SameSite como “None” para `s_vi`. Para obtener ayuda para cambiar la configuración de cookies de Analytics, póngase en contacto con el Servicio de atención al cliente.
 
 ## Cookies establecidas por complementos {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Se pueden configurar cookies adicionales en función del uso de complementos de Analytics. Estas cookies son fragmentos de código disponibles para el cliente para su uso en diversas circunstancias. Estas circunstancias incluyen: recuperar valores de la dirección URL; concatenar valores para pasarlos a Analytics; capturar el abandono de formularios, etc. Para obtener información concreta sobre las cookies establecidas por cada complemento, póngase en contacto con ClientCare. Un ejemplo sería la cookie [!DNL s_vh], que se usa con los complementos *Configurar una vez por* y *Configurar y obtener el último valor*.
 
-Las variables de conversión (eVarX) pasadas en una solicitud de imagen sin JavaScript (como el código colocado en un correo electrónico) solo se atribuyen correctamente si el cliente de correo electrónico y el explorador web comparten espacio de cookie.
+Las variables de conversión (eVarX) pasadas en una petición de imagen sin JavaScript (como, por ejemplo, un código ubicado en un correo electrónico) solo se atribuirán correctamente si el cliente de correo electrónico y el navegador Web comparten el espacio de cookie.
