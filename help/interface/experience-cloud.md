@@ -8,10 +8,10 @@ topic: Administración
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '1306'
+ht-degree: 63%
 
 ---
 
@@ -28,29 +28,68 @@ En el encabezado de Experience Cloud encuentra las siguientes funciones:
 * Búsqueda general de objetos empresariales mediante una búsqueda global (solo usuarios de Experience Platform)
 * Administración de las preferencias de la cuenta (alertas, notificaciones y suscripciones)
 
-## Inicie sesión en Experience Cloud
+## Inicie sesión en Experience Cloud {#signin}
 
 Inicie sesión y verifique que se encuentra en la [organización](organizations.md) correcta.
 
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
 1. Seleccione **[!UICONTROL Iniciar sesión con un Adobe ID]**.
-1. En Adobe Experience Cloud, seleccione su organización.
+1. Compruebe que se encuentra en la organización correcta.
 
    ![](assets/organizations-menu.png)
 
-   Su administrador puede ayudarle a verificar que se encuentra en la organización [correcta](organizations.md).
+   **Verifique su organización**
+
+   Para comprobar que ha iniciado sesión en su organización [a1/> correcta, haga clic en el avatar de perfil para ver el nombre de la organización. ](organizations.md) Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
+
+   Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de introducir su dirección de correo electrónico y contraseña. Para ello, añada `#/sso:@domain` a la dirección URL del Experience Cloud (`https://experience.adobe.com`).
+
+   Por ejemplo, para una organización con Federated IDs y el dominio `adobecustomer.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@adobecustomer.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`).
 
 ## Acceso a aplicaciones de Experience Cloud {#navigation}
 
 Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a todas sus aplicaciones, servicios y organizaciones desde el encabezado unificado.
 
-Para acceder a los servicios de Experience Cloud que posee, vaya al selector de aplicaciones ![](assets/menu-icon.png).
+Para acceder a las aplicaciones y servicios Experience Cloud proporcionados por usted dentro de su organización, vaya al selector de aplicaciones ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
-## Obtener ayuda y asistencia {#search}
+## Compatibilidad con exploradores en Experience Cloud {#browser}
 
-La ayuda unificada proporciona una ubicación dentro del producto para buscar y acceder al contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home). También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Para obtener el mejor rendimiento, Experience Cloud está optimizado para los navegadores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Si el explorador no aparece en la lista, puede que sea compatible, pero se recomienda que utilice uno de los exploradores enumerados.
+
+>[!NOTE]
+>
+>No todas las aplicaciones que se ejecutan en el dominio del Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de una aplicación específica.
+
+## Compatibilidad de idiomas en el Experience Cloud {#languages}
+
+Experience Cloud admite los idiomas preferidos para cada usuario, tal como se establecen en las preferencias de cuenta de usuario de Adobe. Actualmente se admiten los siguientes idiomas:
+
+* Chino
+* Inglés
+* Francés
+* Alemán
+* Italiano
+* Japonés
+* Coreano
+* Portugués
+* Español
+* Taiwanés
+
+Aunque todos los equipos de aplicaciones están comprometidos con el soporte de idiomas global, no todas las aplicaciones se ofrecen en todos los idiomas mencionados anteriormente. Si el idioma principal no es compatible con una aplicación de Experience Cloud, también puede establecer un idioma secundario en de forma predeterminada a cuando corresponda. Esto se puede hacer en [preferencias de usuario del Experience Cloud](https://experience.adobe.com/preferences).
+
+## Obtener ayuda y asistencia {#support}
+
+Acceda a aprendizaje y ayuda mediante el icono de Ayuda (![asset](assets\help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![](assets/search-menu.png)
 
@@ -61,7 +100,7 @@ El menú [!UICONTROL Ayuda] también le permite acceder a:
 * **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
 * **[!UICONTROL Developer Connection]:** Navegación hasta `adobe.io` y búsqueda de documentación para desarrolladores.
 
-## Buscar globalmente objetos y entidades
+## Buscar globalmente objetos y entidades {#search}
 
 La búsqueda global le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
 
@@ -69,9 +108,12 @@ La búsqueda global le permite encontrar objetos o entidades empresariales en lo
 
 >[!NOTE]
 >
->La búsqueda global solo está disponible para Experience Platform, Journey Optimizer, Ofertas y Experience League.
+>La búsqueda global no está disponible en todas las aplicaciones de Experience Cloud, pero a medida que se indexa más contenido, se añade a las aplicaciones relevantes. Disponibilidad a partir de julio de 2021:
 
-## Administrar preferencias de cuenta {#preferences}
+* Experience Platform
+* Journey Optimizer
+
+## Perfil de usuario y preferencias de cuenta {#preferences}
 
 Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y alertas. En el menú de preferencias de cuenta, puede hacer lo siguiente:
 
@@ -101,6 +143,17 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 Seleccione **[!UICONTROL Notifications]** para recibir alertas sobre actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![](assets/notifications-menu-small.png)
+
+## dominios de Experience Cloud {#domains}
+
+Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejorar el rendimiento y la experiencia del producto. Adobe recomienda añadir estos dominios a la lista de permitidos del cortafuegos para una experiencia óptima. También pueden estar en uso dominios adicionales para aplicaciones de Experience Cloud específicas, como Adobe Analytics. Consulte la documentación de esas aplicaciones para obtener más información.
+
+| Tecnología | Dominios |
+|--- |--- |
+| Dominios de Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
+| Servicio Identity Management de Adobe (IMS) | `adobelogin.com` |
+| fuentes Experience Cloud | `typekit.net` |
+| Gainsight (para obtener ayuda y orientación sobre el producto) | `esp.aptrinsic.com` |
 
 ## Obtener ayuda sobre administración y servicios entre aplicaciones
 
