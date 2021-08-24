@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Estructura de la guía reorganizada, tabla de contenido.
 
 **Actualizado: 1/6/2021**
 
-Se ha actualizado [página de aterrizaje](experience-cloud.md) con nueva ayuda para acceder al Experience Cloud, la búsqueda global, las preferencias y las notificaciones.
+Se ha actualizado la [página de aterrizaje](experience-cloud.md) con nueva ayuda para acceder a Experience Cloud, la búsqueda global, las preferencias y las notificaciones.
 
 **Actualizado: 19/8/2020**
 
@@ -38,7 +38,7 @@ Se ha actualizado [Ver detalles del usuario de Experience Cloud (herramienta de 
 
 **Actualizado: 19/5/2020**
 
-Documentación de Administración de ofertas obsoleta.
+Documentación detallada de la administración de Ofertas.
 
 **Actualizado: 15/05/2020**
 
@@ -57,7 +57,7 @@ Se ha añadido la opción [Ver detalles del usuario de Experience Cloud (Herrami
 
 **Actualizado: 5/09/2018**
 
-Se ha añadido la forma de eliminar un atributo de cliente. Consulte [(Opcional) Actualizar el esquema (elimina atributos)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Se agregó cómo eliminar un atributo del cliente. Consulte [(Opcional) Actualizar el esquema (elimina atributos)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Actualizado: 8/6/20118**
 
