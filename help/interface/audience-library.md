@@ -12,11 +12,11 @@ exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
-# audiencias de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Audiencias de Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Las Audiencias son recopilaciones de visitantes (una lista de ID de visitantes). La biblioteca de audiencias de Adobe administra la traducción de datos sobre visitantes en la segmentación de audiencia. Como tal, crear y administrar audiencias es similar a crear y utilizar segmentos. También puede compartir el segmento de audiencia con productos y servicios de [!DNL Experience Cloud].
 
@@ -28,11 +28,11 @@ Las audiencias pueden crearse o derivarse desde distintos orígenes como:
 * Segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
-**Audiencias en tiempo real o históricas**
+**Audiencias en tiempo real vs. audiencias históricas**
 
 Todas las audiencias, independientemente de su origen, son accesibles para los casos de uso de segmentación en tiempo real. Sin embargo, las audiencias compartidas desde Analytics en Audience Manager no se pueden utilizar para los procesos de segmentación en tiempo real. El sistema evalúa las audiencias de dos maneras:
 
-* Las audiencias históricas de Analytics se evalúan cada cuatro horas. El tiempo total para procesar y compartir tarda hasta ocho horas. Las audiencias históricas siempre incluyen visitantes de retorno.
+* Las audiencias históricas de Analytics se evalúan cada cuatro horas. El tiempo total para procesar y compartir puede llevar hasta ocho horas. Las audiencias históricas siempre incluyen visitantes de retorno.
 * Estas audiencias provienen de Audiencias de Experience Cloud y se evalúan en tiempo real.
 
 ## Cómo utilizan las soluciones las audiencias {#concept_01EB9345C5344597BC94A864EDD38EE1}
@@ -41,8 +41,8 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las soluci
 
 | Solución | Descripción |
 |--- |--- |
-| Audiencias de Experience Cloud | Cree, administre y comparta audiencias de forma nativa con la interfaz de [Biblioteca de audiencias](audience-library.md). Puede:<ul><li>Usar audiencias en tiempo real mediante atributos de análisis sin procesar</li><li>Combinar audiencias para crear composiciones, uniendo datos históricos y en tiempo real</li><li>Ver vistas gráficas del tamaño estimado de audiencias</li></ul><br>Para obtener sugerencias sobre el tipo de audiencia que desea crear, consulte: [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en). |
-| Analytics | En la segmentación puede crear un segmento, combinarlo con un grupo de informes y, a continuación, publicarlo en Experience Cloud. Al publicar el segmento, aparece en Experience Cloud en la página [!UICONTROL Biblioteca de Audiencias]. (Consulte [Publicar segmentos en Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en) en la ayuda de Analytics para obtener más información). La audiencia también está disponible como audiencia de destino para una experiencia de campaña suministrada por Adobe Target y en Audience Manager. Después de compartir una audiencia de Adobe Analytics y seleccionarla para usarla en una campaña activa, los perfiles de visitantes que cumplen los criterios de definición de segmento de los últimos 90 días se envían a [!UICONTROL Audience Services]. El límite de audiencias compartidas se ha aumentado a 75. Las audiencias compartidas en Experience Cloud desde Analytics no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud. |
+| Audiencias de Experience Cloud | Cree, administre y comparta audiencias de forma nativa con la interfaz de [Biblioteca de audiencias](audience-library.md). Puede:<ul><li>Usar audiencias en tiempo real mediante atributos de análisis sin procesar</li><li>Combinar audiencias para crear composiciones, uniendo datos históricos y en tiempo real</li><li>Ver vistas gráficas del tamaño estimado de audiencias</li></ul><br>Para obtener sugerencias sobre el tipo de audiencia que desea crear, consulte: [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es). |
+| Analytics | En la segmentación puede crear un segmento, combinarlo con un grupo de informes y, a continuación, publicarlo en Experience Cloud. Al publicar el segmento, aparece en Experience Cloud en la página [!UICONTROL Biblioteca de Audiencias]. (Consulte [Publicar segmentos en Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es) en la ayuda de Analytics para obtener más información). La audiencia también está disponible como audiencia de destino para una experiencia de campaña suministrada por Adobe Target y en Audience Manager. Después de compartir una audiencia de Adobe Analytics y seleccionarla para usarla en una campaña activa, los perfiles de visitantes que cumplen los criterios de definición de segmento de los últimos 90 días se envían a [!UICONTROL Audience Services]. El límite de audiencias compartidas se ha aumentado a 75. Las audiencias compartidas en Experience Cloud desde Analytics no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud. |
 | Mobile Services | Analice el tráfico móvil mediante la visualización radial en el informe [!UICONTROL Tipos de dispositivos]. |
 | [!DNL Target] | El [servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Marcar la casilla [Publicar en Experience Cloud](audience-library.md) durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para actividades en [!DNL Target]. Por ejemplo, puede crear actividades de campaña basadas en [!DNL Analytics] métricas de conversión de y segmentos de audiencias creados en [!DNL Analytics]. |
 | Audience Manager | Las audiencias compartidas están disponibles en la segmentación de Audience Manager. Todas las audiencias de Experience Cloud están disponibles de forma nativa en Audience Manager, que proporciona lo siguiente:<ul><li>Automatización integrada sobre cómo se comparten y consumen los flujos de trabajo de la solución</li><li>Destinos fuera del sitio</li><li>Modelado similar</li></ul> |
