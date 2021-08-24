@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Si su implementación no se ha aprovisionado para servicios principales, consult
 
 1. [Únase a Experience Cloud y conviértase en administrador](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementar el Servicio de Experience Cloud ID con Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
-1. [Asignación de grupos de informes a una organización de Experience Cloud](core-services.md#concept_apg_zq2_rw)
+1. [Asigne grupos de informes a una organización de Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo para Adobe Target) Modernizar la implementación de Adobe Target](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verificar la implementación](core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
@@ -49,7 +49,7 @@ No. Experience Cloud se incluye sin coste adicional. Sin embargo, algunos servic
 
 ## ¿Por qué debe mi empresa iniciar sesión a través de la interfaz de Experience Cloud?
 
-La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nuevo valor a su negocio. También es la ruta estándar para acceder a las soluciones a partir de ahora y, con el tiempo, sustituye otros flujos de inicio de sesión de soluciones individuales. El inicio de sesión mediante el Experience Cloud facilita una transición más fluida posteriormente.
+La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nuevo valor a su negocio. También es la ruta estándar para acceder a las soluciones a partir de ahora y, con el tiempo, reemplazará otros flujos de inicio de sesión de soluciones individuales. El inicio de sesión a través de Experience Cloud facilita una transición más fluida posteriormente.
 
 ## ¿Cómo puedo resolver mis dudas acerca de la migración de mi empresa?
 
@@ -68,7 +68,7 @@ El aprovisionamiento de Experience Cloud significa que:
 
 * Consulte la [Guía del usuario de Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html) para obtener ayuda.
 
-* Las autorizaciones de usuario y la administración de productos se realizan en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
+* La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
 * **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
@@ -98,13 +98,13 @@ Consulte [Búsqueda del ID de organización](organizations.md).
 
 El ID de organización se muestra en la página de inicio de Experience Cloud y en [la página de inicio de Admin Console](https://adminconsole.adobe.com).
 
-Los administradores también pueden iniciar sesión en el Admin Console (Vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) de una organización específica, en cuya URL podrán ver el identificador de su organización de IMS.
+Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) para una organización específica, en cuya URL puede ver el identificador de su organización de IMS.
 
 Por ejemplo, en la siguiente dirección URL:
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-El ID es:
+El identificador es:
 
 `C538193582390300A495CC9@AdobeOrg`
 
