@@ -12,11 +12,11 @@ exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Cookies de Scene7{#scene-cookies}
+# Cookies de Scene7 {#scene-cookies}
 
 Scene7 usa cookies para almacenar información útil que se puede usar para la presentar medios dinámicos en el navegador.
 
@@ -24,13 +24,13 @@ Scene7 almacena información localmente para algunos visores basados en Flash AS
 
 Para los visores AS2, las cookies:
 
-* Rastree el estado de la sesión de un usuario, como la página actual y la imagen vista, el nivel de zoom actual, etc.
+* Rastrean el estado de la sesión de un usuario, como la página actual y la imagen vista, el nivel de zoom actual, etc.
 * Determinan cuánto tiempo ha transcurrido desde la sesión anterior del usuario. El visor utiliza esta información para decidir si desea continuar con una sesión anterior o iniciar una nueva. Esta información también se envía a los servidores de Scene7, pero no se utiliza.
 
 Para el visor de catálogos electrónicos AS2 Flash, las cookies:
 
 * Almacenan el contenido generado por el usuario (especialmente el contenido introducido por el usuario en la función “notas adhesivas” del visor eCatalog). Este contenido se restaura cuando el usuario reanuda una sesión.
-* Cuando el usuario inicia un correo electrónico para compartir el catálogo electrónico con otro usuario, el contenido de las notas adhesivas de la segunda viñeta del visor AS2 se copia en los servidores de Adobe para proporcionárselo al destinatario. Cuando el destinatario inicia la sesión del visor, el contenido de las notas adhesivas se recupera del servidor y se copia en una cookie. Esta función no se utiliza mucho, por lo que no caduca y el contenido antiguo no se elimina. Actualmente persiste en los servidores indefinidamente.
+* Cuando el usuario inicia un correo electrónico para compartir el catálogo electrónico con otro usuario, el contenido de las notas adhesivas de la segunda viñeta del visor AS2 se copia en los servidores de Adobe para proporcionárselo al destinatario. Cuando el destinatario inicia la sesión del visor, el contenido de las notas adhesivas se recupera del servidor y se copia en una cookie. Esta función no se utiliza mucho, por lo que no caduca y el contenido antiguo no se elimina. Actualmente se mantiene en los servidores indefinidamente.
 
 Los nuevos visores AS3 no implementan la persistencia de la sesión.
 
