@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo se almacena y utiliza el servicio de ID en todas las aplicaciones de Experience Cloud.
+description: Descubra cómo se almacenan y utilizan los servicios de ID en las aplicaciones de Experience Cloud.
 keywords: cookies,privacidad
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies de Experience Cloud '
@@ -12,13 +12,13 @@ exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Cookies de Experience Cloud{#experience-cloud-cookies}
 
-Adobe Experience Cloud usa cookies para almacenar un ID de visitante que se utiliza en todas las aplicaciones de Experience Cloud.
+Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de Experience Cloud.
 
 **Nombre de cookie: s_ecid**
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante que se util
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Las cookies con esta configuración solo se envían cuando el dominio que aparece en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva predeterminada para las cookies en Chrome.</p> </td> 
+   <td colname="col2"> <p>Las cookies con esta configuración solo se envían cuando el dominio que aparece en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante que se util
 
 El [Servicio de Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) utiliza JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
+Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,7 +93,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>No se ha agregado ningún valor. El valor predeterminado de Chrome es Lax. </p> </td> 
-   <td colname="col2"> <p> Las cookies con esta configuración solo se envían cuando el dominio mostrado en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva predeterminada para las cookies en Chrome. </p> </td> 
+   <td colname="col2"> <p> Las cookies con esta configuración solo se envían cuando el dominio que aparece en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
