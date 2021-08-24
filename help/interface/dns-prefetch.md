@@ -11,7 +11,7 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Sin embargo, puede implementar manualmente la precarga de DNS con sus soluciones
 
 ## Ejemplos de código de precarga de DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realice llamadas a distintas soluciones y servicios de [!DNL Experience Cloud]. Algunas llamadas de precarga requieren el identificador de su organización de [!DNL Adobe] o el seguimiento de información de servidores. En estos ejemplos, el código en *cursiva* representa un marcador de posición de variable. Dicho código se sustituye por su propio [!DNL Adobe] ID de socio, su código de cliente o su información de servidor de seguimiento, entre otros.
+Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realice llamadas a distintas soluciones y servicios de [!DNL Experience Cloud]. Algunas llamadas de precarga requieren el identificador de su organización de [!DNL Adobe] o el seguimiento de información de servidores. En estos ejemplos, el código en *cursiva* representa un marcador de posición de variable. Dicho código se sustituye con su propio ID de socio de [!DNL Adobe], su código de cliente o su información de servidor de seguimiento, etcétera.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
