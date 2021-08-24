@@ -12,13 +12,13 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 74%
+ht-degree: 90%
 
 ---
 
 # Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 
-Iniciar sesión en Experience Cloud (en lugar de iniciar sesión en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios que posea. Esta página de ayuda describe cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
+Iniciar sesión en Experience Cloud (y no en una única solución) habilita el inicio de sesión único en todas las soluciones y servicios que posea. Esta página de ayuda describe cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 | [Configurar identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con el que se autenticarán los usuarios finales. |
 | [Administración de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
 | [Iniciar Admin Console](admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo](https://adminconsole.adobe.com). |
-| [Gestionar usuarios de Creative Cloud](t-admin-add-cc-user.md) | Recursos de Experience Cloud permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante el Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
+| [Gestionar usuarios de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
 | [Asignar grupos de informes](core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que [activa Analytics para servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [ID de organización](organizations.md) | El *ID de organización* se encuentra en la parte inferior de la página Administración. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
 
@@ -151,6 +151,6 @@ URL de ejemplo:
 |--- |--- |--- |--- |
 | `tenantId` | Nombre del inquilino en el que el usuario debe iniciar sesión. | aem62tenant | Opcional |
 | `destURL` | Dirección URL completa del lugar al que se debe llevar al usuario. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Opcional |
-| `solutionname` | Nombre de la solución MAC que posee el parámetro `destURL`. Se utiliza para verificar que el usuario tiene acceso a la solución que posee la dirección URL.  Es responsabilidad de las soluciones asegurarse de que `solutionname` esté sincronizado con el parámetro `destURL`.  Por ejemplo: Si la dirección URL contiene `solutionname` como social y el `destURL` proporcionado es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. MAC NO verifica si el propietario del `destURL` está sincronizado con el nombre de la solución. | analytics | Requerido si se utiliza el parámetro `destURL`. |
+| `solutionname` | Nombre de la solución MAC que es el propietario del parámetro `destURL`. Se utiliza para verificar que el usuario tiene acceso a la solución que posee la dirección URL.  Es responsabilidad de las soluciones asegurarse de que `solutionname` está en sincronía con el parámetro `destURL`.  Por ejemplo: Si la dirección URL contiene `solutionname` como social y la `destURL` proporcionada es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. MAC no verifica si el propietario de `destURL` está sincronizado con el nombre de la solución. | Analytics | Obligatorio si se utiliza el parámetro `destURL`. |
 
 {style=&quot;table-layout:auto&quot;}
