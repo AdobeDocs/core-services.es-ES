@@ -1,8 +1,8 @@
 ---
-description: Obtenga información sobre cómo cargar datos de Atributos del cliente a través de FTP al Experience Cloud.
+description: Aprenda a cargar datos de atributos del cliente a Experience Cloud a través de FTP.
 keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
-title: 'Cargar el archivo de datos de Atributos del cliente a través de FTP '
+title: 'Carga del archivo de datos de atributos del cliente mediante FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: Atributos del cliente
 topic: Administración
@@ -12,15 +12,15 @@ exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
 # Opcional: cargar el archivo de datos a través de FTP
 
-Si no carga mediante arrastrar y soltar, puede cargar los datos del atributo del cliente mediante FTP al Experience Cloud.
+Si no carga mediante arrastrar y soltar, puede cargar datos de atributo del cliente mediante FTP a Experience Cloud.
 
-Puede cargar los datos después de crear un origen de Atributo del cliente y una cuenta FTP en el Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv` , con un segundo archivo `.fin` para indicar que la carga ha finalizado.
+Puede cargar los datos una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv`, con un segundo archivo `.fin` para indicar que la carga ha finalizado.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Puede cargar los datos después de crear un origen de Atributo del cliente y una
 Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=es).
 
 **Para cargar el archivo de datos a través de FTP**
 
