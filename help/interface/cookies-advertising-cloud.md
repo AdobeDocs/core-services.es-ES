@@ -10,7 +10,7 @@ exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -135,11 +135,11 @@ Advertising Cloud utiliza cookies para asignar eventos de participación de anun
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p>La fecha en la que se realiza la sincronización, con el formato aaammdd </p> </td> 
+   <td colname="col2"> <p>La fecha en la que se realiza la sincronización con el formato aaaammdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vencimiento </p> </td> 
-   <td colname="col2"> <p>La fecha en la que se realiza la sincronización, con el formato aaammdd </p> </td> 
+   <td colname="col2"> <p>La fecha en la que se realiza la sincronización con el formato aaaammdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso </p> </td> 
