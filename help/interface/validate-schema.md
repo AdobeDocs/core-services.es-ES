@@ -1,8 +1,8 @@
 ---
-description: Obtenga información sobre cómo validar el esquema de Atributos del cliente en Adobe Experience Cloud.
+description: Obtenga información sobre cómo validar el esquema de atributos del cliente en Adobe Experience Cloud.
 keywords: Atributos del cliente;servicios de Experience Cloud
 solution: Experience Cloud
-title: 'Validación del esquema de Atributos del cliente '
+title: 'Validación del esquema de atributos del cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Atributos del cliente
 topic: Administración
@@ -12,7 +12,7 @@ exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Muestra si utiliza una prop o una eVar para cargar los CID. Si estos ID se pasan a Experience Cloud, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.
 
-También puede cargar los datos mediante FTP después de crear un origen de Atributo del cliente y una cuenta FTP en el Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv` , con un segundo archivo `.fin` para indicar que la carga ha finalizado.
+También puede cargar los datos mediante FTP una vez que haya creado un origen de atributos del cliente y una cuenta FTP en Experience Cloud. Puede crear una cuenta FTP por cada origen de atributos. Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv`, con un segundo archivo `.fin` para indicar que la carga ha finalizado.
 
-Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics]. 
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics].
 
 * **[!UICONTROL Atributo:]** Lectura de datos de atributo desde un archivo cargado `.csv`.
 
@@ -60,6 +60,6 @@ Los nombres que aplique a las cadenas, números enteros y números se utilizan p
 
    * **Números:** Pueden tener hasta dos decimales.
 
-* **[!UICONTROL Mostrar nombre:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo *página del cliente* a *Cliente desde*.
+* **[!UICONTROL Mostrar nombre:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo de *Edad del cliente* a *Cliente desde*.
 
 * **[!UICONTROL Descripción:]** Una descripción del atributo.
