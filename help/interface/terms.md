@@ -1,19 +1,19 @@
 ---
 description: Obtenga información sobre los términos de Adobe Experience Cloud y en qué se diferencian de los de Creative Cloud.
 keywords: uso compartido de recursos;servicios de audiencia;Creative Cloud;servicios principales
-seo-description: 'null'
-seo-title: Terminología
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: 'Terminología '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Atributos del cliente"'
-topic: Administración
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1453'
 ht-degree: 98%
 
 ---
@@ -40,7 +40,7 @@ Una referencia terminológica para los usuarios de Experience Cloud y cómo se u
 | [!UICONTROL Servicio de identidad de Experience Platform] | No tiene un uso especial. | El servicio que vincula identidades. Es el servicio de vinculación de dispositivos para la administración de experiencias individualizadas. |
 | Vinculación | No tiene un uso especial. La Vinculación hace referencia a la navegación mediante hipervínculos y la de elementos como fuentes, propiedades, capas y demás. | En Experience Cloud, la vinculación suele referirse a la vinculación de cuentas de distintas soluciones con la interfaz.<br>Consulte [Organizaciones y vinculación de cuentas](organizations.md).<br>La vinculación también hace referencia a URL estándar para informes de Analytics enviados a otros usuarios. |
 | Ubicaciones | En Creative Cloud, la ubicación hace referencia a ubicaciones de archivos o a una ubicación en una imagen o documento abierto. | En Experience Cloud, las ubicaciones son los lugares desde donde las audiencias pueden visualizar el contenido e interactuar con él. La asociación entre Ubicaciones y Contenido puede ser más o menos estática, o puede administrarse dinámicamente según las reglas de una campaña. Una ubicación siempre pertenece a un Canal específico que determina cómo se puede entregar el contenido y cómo se pueden recopilar las métricas.<br>Algunos ejemplos son:<ul><li>Sitios</li><li>Propiedades (Social)</li><li>Mostrar inventario</li><li>Páginas de aterrizaje</li><li>Aplicaciones móviles</li><li>Ranuras (vídeo)</li></ul> |
-| Métricas | No se usa en Creative Cloud. | Agregar números sobre objetivos y conceptos clave. En Analytics, las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos e ingresos. Consulte [Descripciones de métricas](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=es). |
+| Métricas | No se usa en Creative Cloud. | Agregar números sobre objetivos y conceptos clave. En Analytics, las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos e ingresos. |
 | Organización | No se usa en Creative Cloud. | Una organización es la entidad de Experience Cloud que permite a un administrador configurar usuarios y productos, así como controlar el inicio de sesión único en Experience Cloud. La mayoría de las veces, la organización es la compañía de facturación. |
 | Portafolio | Conjunto de varios archivos o recursos. | Un contenedor de campañas. |
 | Perfil del producto | Consulte [Administración de productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products.html). | Para que un usuario tenga derecho a utilizar un producto o servicio, debe formar parte de un perfil de productos. El administrador de productos asigna licencias a un perfil de productos asociándolo a un plan que ha adquirido.<br>Un usuario puede pertenecer a distintos perfiles de producto que le otorguen diversas licencias. La aceptación final de un usuario es la unión de todas las licencias otorgadas por cada perfil de producto a ese usuario. |
