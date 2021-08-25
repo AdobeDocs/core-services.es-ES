@@ -5,20 +5,20 @@ solution: Experience Cloud
 title: 'Organizaciones y vinculación de cuentas '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 67%
+source-wordcount: '506'
+ht-degree: 64%
 
 ---
 
-# Organizaciones y vinculación de cuentas
+# Organizaciones en Experience Cloud
 
-Obtenga más información sobre la gestión de organizaciones y la vinculación de cuentas de solución a Experience Cloud.
+Obtenga información sobre la administración y el cambio de organizaciones en Experience Cloud.
 
 ## Identificación de la organización {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
