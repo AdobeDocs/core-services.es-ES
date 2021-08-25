@@ -6,14 +6,14 @@ title: '"Cookies de origen "'
 index: y
 snippet: y
 feature: Cookies
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 70%
+source-wordcount: '1614'
+ht-degree: 69%
 
 ---
 
@@ -166,6 +166,6 @@ Después de comprobar que sus nombres de host responden y redirigen a los servid
 
 1. Si va a pasar a la recopilación de datos de origen desde una implementación antigua, o cambia a un nombre de host de recopilación de origen diferente, Adobe recomienda migrar los visitantes del dominio anterior al nuevo dominio.
 
-Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=es) en la Guía de implementación de Analytics.
+Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) en la Guía de implementación de Analytics.
 
 Una vez cargado el archivo JavaScript, todo está configurado para la recopilación de datos de origen. Adobe le recomienda que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
