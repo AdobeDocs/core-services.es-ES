@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Preguntas frecuentes sobre Experience Cloud '
 index: true
 feature: Admin Console
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -98,7 +98,7 @@ Consulte [Búsqueda del ID de organización](organizations.md).
 
 El ID de organización se muestra en la página de inicio de Experience Cloud y en [la página de inicio de Admin Console](https://adminconsole.adobe.com).
 
-Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) para una organización específica, en cuya URL puede ver el identificador de su organización de IMS.
+Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) para una organización específica, en cuya URL puede ver el identificador de su organización de IMS.
 
 Por ejemplo, en la siguiente dirección URL:
 
