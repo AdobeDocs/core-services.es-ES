@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Habilitación de la configuración de privacidad para las cookies de navegador{#enable-privacy-settings-for-browser-cookies}
+# Habilitación de la configuración de privacidad para las cookies de navegador {#enable-privacy-settings-for-browser-cookies}
 
 Puede eliminar los usuarios que bloquearon todas las cookies en el escritorio y en los navegadores móviles. Esta funcionalidad es una configuración de privacidad que excluye a los usuarios que exclusión de la recopilación de datos, lo que le permite respetar la intención del usuario de detener el procesamiento de Analytics.
 
