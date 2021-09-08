@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. En el Experience Cloud, seleccione ![](assets/menu-icon.png) y luego seleccione **[!UICONTROL Recopilación de datos/Launch]**.
-2. En la tarjeta [!UICONTROL Déclencheur], seleccione **[!UICONTROL Administrar Déclencheur]**.
-3. Seleccione **[!UICONTROL Nuevo Déclencheur]** y luego especifique el tipo de déclencheur:
+1. En Experience Cloud, seleccione ![](assets/menu-icon.png) y, a continuación, **[!UICONTROL Recopilación de datos/Launch]**.
+2. En la tarjeta [!UICONTROL Triggers], seleccione **[!UICONTROL Administrar Triggers]**.
+3. Seleccione **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 
    ![Resultado de los pasos](assets/add-trigger.png)
 
