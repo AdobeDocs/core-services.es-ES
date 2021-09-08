@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
 1. En [!DNL Experience Cloud], seleccione el icono Menú ![](assets/menu-icon.png).
-1. En **[!DNL Experience Platform]**, seleccione **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**.
+1. En **[!DNL Experience Platform]**, seleccione **[!UICONTROL Personas]** > **[!UICONTROL Atributos del cliente]**.
 
    En la página [!UICONTROL Atributos del cliente] se gestionan y editan los orígenes de datos de atributos existentes.
 
@@ -82,11 +82,11 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
 
-   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL El ] ID de alias es un ID único que se utiliza en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL Alias ID] para un origen de atributos del cliente en el Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea a través de la recopilación de datos (Launch), Dynamic Tag Management o JavaScript del SDK móvil).
+   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. El [!UICONTROL ID de alias] es un ID único en su código de origen de atributos del cliente. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL ID de alias] para un origen de atributos del cliente en Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante Recopilación de datos (Launch), Dynamic Tag Management o JavaScript del SDK móvil).
 
       El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
+      * **Dynamic Tag Management:** El ID de alias corresponde al valor del *código de integración* en [!UICONTROL Configuración de cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
       * **API de Visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que pueden asociar con cada visitante.
 
@@ -153,7 +153,7 @@ Consulte [Configurar suscripciones](subscription.md#concept_ECA3C44FA6D540C89CC0
 
 **Para activar un origen de atributos**
 
-En la página [!UICONTROL Crear nuevo [o Editar] origen de atributos del cliente], busque el encabezado [!UICONTROL Activar] y, a continuación, seleccione **[!UICONTROL Activo]**.
+En la página [!UICONTROL Crear nuevo [o Editar] origen de atributos del cliente], busque el encabezado [!UICONTROL Activar] y luego haga clic en **[!UICONTROL Activo]**.
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 
