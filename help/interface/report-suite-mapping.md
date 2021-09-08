@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 1. Vaya a Grupos de informes para la administración de datos en [!DNL Analytics] > **[!UICONTROL Administración]** > **[!UICONTROL Gestión de datos]** (consulte [Ver/Administrar la configuración de la Gestión de datos del grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=es))
 
-1. Para ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, seleccione **[!UICONTROL Visible para empresas de inicio de sesión]**.
+1. Si desea ver las empresas de inicio de sesión que tienen acceso a cada grupo de informes, seleccione **[!UICONTROL Visible para empresas de inicio de sesión]**.
 
    Esta vista pretende ayudarlo a tomar una decisión fundamentada acerca de la asignación.
 
-1. Seleccione la lista desplegable en la columna **[!UICONTROL Organización asignada]** situada junto a un grupo de informes y seleccione la organización a la que desea asignar.
+1. Seleccione el menú desplegable en la columna **[!UICONTROL Organización asignada]** junto a un grupo de informes y la organización a la que desea asignar.
 
    Consulte la siguiente sección para obtener sugerencias sobre cómo seleccionar una organización de Experience Cloud.
 
