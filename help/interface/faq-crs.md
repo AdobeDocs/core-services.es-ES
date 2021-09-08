@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Directrices y limitaciones al usar los [!UICONTROL Atributos del cliente].
 | **(Solo Adobe Target)** ¿En qué se diferencia la funcionalidad de [!UICONTROL atributos del cliente] de la API de perfil en bloque de Adobe Target? | La API de perfil en bloque permite actualizar los perfiles de Adobe Target directamente mediante la API, para un perfil individual o en bloque. La capacidad es similar a los Atributos del cliente, con las siguientes diferencias clave:<ul><li>La API de perfil es una llamada a la API de REST y los Atributos del cliente utilizan un FTP.</li><li>La API de perfil de Adobe Target solo envía datos a Adobe Target en lugar de a todo Experience Cloud.</li><li>Los atributos del cliente proporcionan una interfaz sencilla para crear y administrar estos datos externos.</li></ul> |
 | **(Solo Adobe Target)** ¿La carga de datos de atributos del cliente a Adobe Target amplía la duración del perfil del visitante de Adobe Target? | Sí. Consulte [Duración del perfil del visitante](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=es) en la ayuda de Adobe Target. |
 | **(Solo Adobe Target)** ¿Puedo segmentar los datos cargados en los Atributos del cliente inmediatamente después de que el ID del cliente identifique el visitante? | Sí. En la llamada del servidor a Adobe Target, que incluye el ID de terceros de mbox, están disponibles todos los datos de atributos del cliente. |
-| **(Solo Adobe Target)** ¿Qué representa la columna **[!UICONTROL Estado de sincronización]** para los archivos cargados en el origen de atributos del cliente? | Para ver el número de registros publicados y sincronizados por Adobe Target, seleccione el icono Estado de sincronización con un archivo de atributos específico. `Sync %` es una métrica en tiempo real que especifica el % de perfiles que se han sincronizado en Adobe Target.<br> **Nota:** Los atributos pueden tardar hasta 24 horas en sincronizarse con Adobe Target. |
+| **(Solo Adobe Target)** ¿Qué representa la columna **[!UICONTROL Estado de sincronización]** para los archivos cargados en el origen de atributos del cliente? | Para ver el número de registros publicados y sincronizados por Adobe Target, haga clic en el icono Estado de sincronización respecto a un archivo de atributos específico. `Sync %` es una métrica en tiempo real que especifica el % de perfiles que se han sincronizado en Adobe Target.<br> **Nota:** Los atributos pueden tardar hasta 24 horas en sincronizarse con Adobe Target. |
 | ¿Qué representan las métricas de carga de archivos en la fuente de atributos del cliente? | Puede comprobar el estado de los atributos cargados en Atributos del cliente con la ayuda de las siguientes métricas: <ul><li>Registros: Número de registros en el archivo de atributos.</li><li>**Nuevos registros:** Número de registros nuevos presentes en el archivo de atributos.</li> <li>**Registros actualizados:** Número de registros que existen en Atributos del cliente con valores actualizados en el archivo.</li><li>**Todos los datos (registros):** Número total de registros cargados correctamente en Atributos del cliente.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
