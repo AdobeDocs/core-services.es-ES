@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,5 +22,5 @@ Consulte [https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-fil
 
 1. Abra el explorador de [!DNL Creative Cloud] y vaya a [!UICONTROL Creative Cloud Files].
 1. Abra la carpeta compartida.
-1. Seleccione **[!UICONTROL Actions]** > **[!UICONTROL Upload]**.
+1. Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Cargar]**.
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.
