@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 Esta documentación se aplica a funciones del encabezado unificado de Experience Cloud, como el servicio [!UICONTROL People] (audiencias y atributos del cliente), la administración de usuarios y productos para Experience Cloud, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a estos servicios en el Experience Cloud, seleccione **[!UICONTROL Application Selector]**
+Para acceder a estos servicios en Experience Cloud, escoja el **[!UICONTROL Selector de aplicaciones]**
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
