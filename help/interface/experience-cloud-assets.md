@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ En [!UICONTROL Experience Cloud Assets], puede:
 
 ## Acceder a la barra de herramientas {#section_EC2E401D225148818F3753248556BE6B}
 
-Vaya a un recurso (o a un directorio de recursos) y, a continuación, seleccione **[!UICONTROL Seleccionar]**.
+Vaya a un recurso (o a un directorio de recursos) y escoja **[!UICONTROL Seleccionar]**.
 
 La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
 
@@ -73,7 +73,7 @@ Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación,
 
 ## Anotar recursos {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Seleccione **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
+Seleccione **[!UICONTROL Anotar]** al dibujar círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
 
 ![](assets/assets-annotate.png)
 
