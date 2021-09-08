@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Cookies de Analytics{#analytics-cookies}
+# Cookies de Analytics {#analytics-cookies}
 
 Adobe Analytics utiliza cookies para diferenciar las solicitudes de distintos navegadores y almacenar información útil que una aplicación puede utilizar posteriormente. También se pueden utilizar para asociar la información de navegación a los registros de clientes.
 
@@ -61,7 +61,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad SelectMap o la funcionalidad del Activity Map están habilitadas; contiene información sobre el vínculo anterior seleccionado por el usuario |
+| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad SelectMap o Activity Map están habilitadas. Además, contiene información sobre el vínculo anterior que el usuario seleccionó |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
