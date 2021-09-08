@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4279'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Para ver las notas de la versión de todas las soluciones, consulte las [Notas d
 
 | Función | Fecha | Descripción |
 | ------- | ------- | -------|
-| [!UICONTROL Actualizaciones unificadas] : compatibilidad ampliada para objetos de negocios a los que se ha accedido recientemente | 10 de agosto de 2021 | [!UICONTROL La ] actualización unificada se amplía a objetos comerciales adicionales en Journey Optimizer y Experience Platform. Los clientes de Journey Optimizer pueden encontrar los objetos a los que han accedido recientemente (mensajes, Recorridos, segmentos, esquemas, conjuntos de datos, fuentes de datos, eventos, acciones, fuentes y destinos) desde la página principal de Adobe Journey Optimizer. |
+| [!UICONTROL Recientes unificados]: compatibilidad ampliada para objetos de empresa a los que se ha accedido recientemente | 10 de agosto de 2021 | [!UICONTROL Recientes unificados] se amplía a objetos de empresa adicionales en Journey Optimizer y Experience Platform. Los clientes de Journey Optimizer pueden encontrar los objetos a los que han accedido recientemente (mensajes, recorridos, segmentos, esquemas, conjuntos de datos, fuentes de datos, eventos, acciones, fuentes y destinos) desde la página de inicio de Adobe Journey Optimizer. |
 
 ## Julio de 2021
 
-La búsqueda unificada se ha actualizado para que esté disponible para Journey Optimizer, Ofertas y Experience League. Anteriormente, esta función solo estaba disponible para usuarios Experience Platform.
+La búsqueda unificada se ha actualizado para que esté disponible para Journey Optimizer, Ofertas y Experience League. Anteriormente, esta función solo estaba disponible para usuarios de Experience Platform.
 
 ## Junio de 2021
 
@@ -304,7 +304,7 @@ No hay información disponible.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> ahora aparece en la sección de navegación izquierda de <span class="keyword">Experience Cloud</span>. <span class="wintitle"> </span> Activationes un servicio de  <span class="keyword"> Experience </span> Cloud que actualmente consta de la tecnología de administración dinámica de etiquetas y le dirige allí cuando está seleccionado. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> ahora aparece en la sección de navegación izquierda de <span class="keyword">Experience Cloud</span>. <span class="wintitle">Activación</span> es un servicio de <span class="keyword">Experience Cloud</span> que actualmente consta de la tecnología de administración dinámica de etiquetas y le dirige ahí cuando se selecciona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actualizaciones de documentación: Servicios principales </p> </td> 
@@ -392,7 +392,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
    <td colname="col1"> <p>Editar permisos de usuario </p> </td> 
    <td colname="col2"> <p>Los propietarios de un tablero ahora pueden editar los permisos de usuario en el tablero. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">En el tablero, seleccione <span class="uicontrol"> Configuración</span>. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">En el tablero, seleccione <span class="uicontrol">Configuración</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Junto a cada propietario, especifique <span class="uicontrol">Propietario</span>, <span class="uicontrol">Visualizador</span> o <span class="uicontrol">Editor</span>. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -590,9 +590,9 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
    <td colname="col1"> <p>Creación de tarjetas a partir de temas de ayuda </p> </td> 
    <td colname="col2"> <p>Después de habilitar la función Compartir con Adobe Experience Cloud en la barra de herramientas Marcadores del explorador, ahora puede compartir páginas de ayuda desde la dirección URL del micrositio. </p> <p> <b>Para compartir un tema de ayuda</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>En el <span class="keyword"> Experience Cloud</span>, seleccione <span class="uicontrol"> Administración</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>En <span class="keyword"> Experience Cloud</span>, seleccione <span class="uicontrol"> Administración</span>. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Arrastre el botón <span class="uicontrol">Compartir en Adobe Experience Cloud</span> a la barra de herramientas de Marcadores. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navegue a una página de ayuda (o permanezca en esta) y luego seleccione <span class="uicontrol"> Compartir con Adobe Experience Cloud</span> en la barra de herramientas de Marcadores del explorador. </p> <p>Este paso crea una tarjeta, que puede visualizar en <span class="wintitle">Experience Cloud</span>. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navegue a una página de ayuda (o permanezca en esta) y luego seleccione <span class="uicontrol"> Compartir en Adobe Experience Cloud</span> en la barra de herramientas de Marcadores de su explorador. </p> <p>Este paso crea una tarjeta, que puede visualizar en <span class="wintitle">Experience Cloud</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -683,5 +683,5 @@ La versión 14.3.1 es una versión de mantenimiento que se centra en la velocida
 
 * Se ha corregido un problema que impedía que los informes compartidos de [!DNL Analytics] aplicaran filtros de segmento.
 * Se ha corregido un problema que provocaba que las soluciones se mostraran como vinculadas en la página [!UICONTROL Soluciones de Experience Cloud] aunque las cuentas de las soluciones no estuvieran vinculadas.
-* Se ha corregido un problema que impedía que los clientes de [!DNL Adobe Target] de Asia pudieran seleccionar el botón **[!UICONTROL Continuar al Experience Cloud]** en la página de vinculación.
+* Se ha corregido un problema que impedía a los clientes de [!DNL Adobe Target] de Asia seleccionar el botón **[!UICONTROL Continuar a Experience Cloud]** de la página de vinculación.
 * Se ha corregido un problema que impedía compartir vídeos de YouTube.
