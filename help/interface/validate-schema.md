@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ En la página [!UICONTROL Validar esquema], cada fila del esquema representa una
 
 * **[!UICONTROL Ver/Editar Esquema:]** Asigna nombres para mostrar en los datos de atributo, como se describe en el siguiente paso.
 
-* **[!UICONTROL Configuración de FTP:]**[ Cargue los datos a través de un FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL Configuración de FTP:]** [ Cargue los datos a través de un FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 * **[!UICONTROL Búsqueda de ID:]** Introduzca un ID de cliente (CID) de su `.csv` para buscar información sobre ese ID en Experience Cloud. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
 
