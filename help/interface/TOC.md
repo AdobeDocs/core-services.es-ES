@@ -5,9 +5,9 @@ breadcrumb-title: Componentes de la interfaz central de Experience Cloud
 user-guide-description: Obtenga información sobre la interfaz de Experience Cloud, configure las preferencias, busque ayuda y objetos empresariales. Obtenga ayuda sobre la administración de usuarios y productos, los atributos del cliente, la biblioteca de audiencias, las cookies y los activos de Experience Cloud.
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
       + [Consideraciones de privacidad sobre atributos de cliente](privacy-mac.md)
    + Activation de Experience Cloud {#activation}
       + [Información general de Activation](activation.md)
-      + [Guía del usuario de Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+      + [Guía del usuario de Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
       + [Triggers](triggers.md)
    + Recursos de Experience Cloud {#assets}
       + [Descripción general de los activos de Experience Cloud](experience-cloud-assets.md)
