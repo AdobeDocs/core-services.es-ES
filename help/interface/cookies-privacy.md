@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
 
-# Acerca de las cookies y la privacidad{#about-cookies-and-privacy}
+# Acerca de las cookies y la privacidad {#about-cookies-and-privacy}
 
 El mantenimiento de la privacidad del cliente y la seguridad de los datos son prioridades esenciales en Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los reguladores de privacidad y los principios de autorregulación. Esta cooperación incluye el programa AdChoices de Digital Advertising Alliance para proporcionar a los clientes información sobre cómo se utiliza su información y las opciones sobre su uso.
 
