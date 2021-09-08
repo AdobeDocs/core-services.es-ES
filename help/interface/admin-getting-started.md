@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Puede crear un perfil de producto y asignarlo a un grupo de permisos.
 
 Al invitar a un usuario a una organización, puede darle acceso a productos y perfiles de productos. También puede delegar permisos administrativos limitados en un usuario. Del mismo modo, puede crear grupos de usuarios y luego agregar el grupo a un perfil de productos para habilitar el acceso.
 
-1. En el [Admin Console](https://adminconsole.adobe.com/enterprise/), seleccione **[!UICONTROL Productos]**.
+1. En [Admin Console](https://adminconsole.adobe.com/enterprise/), seleccione **[!UICONTROL Productos]**.
 1. Seleccione el nombre de su organización.
 1. Seleccione **[!UICONTROL Nuevo perfil]**.
 1. Configure los detalles del perfil y seleccione **[!UICONTROL Guardar]**.
@@ -82,11 +82,11 @@ Por ejemplo, puede:
 
 Al utilizar estas funciones, puede delegar la administración a otros sin proporcionar más capacidad de la que necesitan.
 
-1. En el Admin Console, seleccione **[!UICONTROL Users]** y, a continuación, seleccione el nombre del usuario.
+1. En Admin Console, seleccione **[!UICONTROL Usuarios]** y luego el nombre del usuario.
 
    ![](assets/edit-admin-rights.png)
 
-1. Seleccione **[!UICONTROL Edit admin rights]**.
+1. Seleccione **[!UICONTROL Editar derechos de administrador]**.
 
    ![](assets/edit-admin-rights-page.png)
 
@@ -99,8 +99,8 @@ Puede asignar permisos de acceso a informes de Analytics (grupos de informes, m�
 
 Por ejemplo, puede crear un perfil de producto que contenga varias herramientas de Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] y [!UICONTROL Report Builder]). Estos perfiles contienen permisos para métricas y dimensiones específicas (incluyendo eVars), así como funciones como la creación de segmentos o métricas calculadas.
 
-1. Inicie sesión en el [Admin Console](https://adminconsole.adobe.com/enterprise) y seleccione **[!UICONTROL Productos]**.
-1. En la página [!UICONTROL Products], seleccione el producto y, a continuación, seleccione **[!UICONTROL Permissions]** (disponible solo para administradores).
+1. Inicie sesión en [Admin Console](https://adminconsole.adobe.com/enterprise) y seleccione **[!UICONTROL Productos]**.
+1. En la página [!UICONTROL Productos], seleccione su producto y después **[!UICONTROL Permisos]** (disponible solo para administradores).
 1. Configure los permisos del perfil:
 
 | Elemento | Descripción |
@@ -129,9 +129,9 @@ En Adobe Target, un espacio de trabajo es un perfil de producto. Permite que una
 
 Consulte:
 
-* [Permisos de usuario de Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Permisos de usuario de Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=es)
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/admin-guide.html/es/enterprise/using/manage-products.ug.html)
+* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/es/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Administración de perfiles de producto, inquilinos y grupos de seguridad de Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -147,7 +147,7 @@ La [!UICONTROL recopilación de datos] de Experience Platform ([!UICONTROL Launc
 
 Invite a los usuarios a [!UICONTROL Platform Launch], y asigne funciones y derechos de usuario.
 
-Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) para obtener información sobre los permisos de usuario en Admin Console y configurar opciones específicas de Launch, incluida la asignación de derechos a perfiles.
+Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es) para obtener información sobre los permisos de usuario en Admin Console y configurar opciones específicas de Launch, incluida la asignación de derechos a perfiles.
 
 ## Experience Manager as a Cloud Service
 
@@ -173,6 +173,6 @@ Consulte [Administración](https://experienceleague.adobe.com/docs/audience-mana
 
 ### Soluciones y requisitos del producto
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=es)
 * [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=es)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=es)
