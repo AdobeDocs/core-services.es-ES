@@ -1,8 +1,8 @@
 ---
 source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
@@ -21,7 +21,7 @@ La manera en que contribuye depende de quién es usted y del tipo de cambios con
 
 ### Cambios menores
 
-Si aporta actualizaciones menores de la bondad de su corazón, visite el artículo y seleccione el enlace **Edit** en el artículo que va al origen de GitHub para el artículo. A continuación, utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
+Si está aportando actualizaciones menores porque quiere hacerlo, visite el artículo y seleccione el vínculo **Editar** que va a la fuente de GitHub correspondiente. A continuación, utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
 
 Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
