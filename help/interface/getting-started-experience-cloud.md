@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Iniciar sesión en Experience Cloud (y no en una única solución) habilita el i
 
 Inicie sesión y verifique que se encuentra en la [organización](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) correcta.
 
-1. Seleccione el menú Experience Cloud ( ![](assets/menu-icon.png)) y, a continuación, seleccione **[!UICONTROL Administración]**.
+1. Seleccione el menú Experience Cloud (![](assets/menu-icon.png)) y luego **[!UICONTROL Administración]**.
 
    Si no se muestra el vínculo **[!UICONTROL Administration]**, no es administrador de Experience Cloud para la [organización](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) que se muestra. Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
-1. Seleccione **[!UICONTROL Administration]**.
+1. Seleccione **[!UICONTROL Administración]**.
 
-1. A continuación, seleccione uno de los siguientes vínculos:
+1. A continuación, seleccione uno de estos vínculos:
 
 | Elemento | Descripción |
 |--- |--- |
@@ -60,7 +60,7 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
 
-1. En la página de aterrizaje, seleccione el icono de selector ![](assets/menu-icon.png) para acceder al menú desplegable.
+1. En la página de aterrizaje, escoja el icono del selector ![](assets/menu-icon.png) para acceder al menú desplegable.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -70,19 +70,19 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
 Puede editar los detalles personales y especificar una [organización](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) y una página de aterrizaje predeterminadas que se mostrarán tras iniciar sesión en Experience Cloud.
 
-1. Inicie sesión en el Experience Cloud y, a continuación, seleccione su icono de perfil.
+1. Inicie sesión en Experience Cloud y, a continuación, seleccione su icono de perfil.
 
    ![](assets/edit-profile.png)
 1. Seleccione **[!UICONTROL Editar perfil]**.
 
    ![](assets/default-organization.png)
-1. Siga configurando y editando la información personal y, a continuación, seleccione **[!UICONTROL Guardar cambios]**.
+1. Siga configurando y modificando la información personal y, cuando acabe, seleccione **[!UICONTROL Guardar cambios]**.
 
 ## Habilitar notificaciones {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las soluciones para los que desea recibir notificaciones, incluido el estado de carga de los Atributos del cliente.
 
-Para ir a Notificaciones, seleccione el icono **[!UICONTROL Notifications]** ![](assets/notifications-icon.png) y, a continuación, seleccione el icono **[!UICONTROL Settings]** ![](assets/icon_edit_board.png).
+Para ir a Notificaciones, seleccione el icono **[!UICONTROL Notificaciones]** ![](assets/notifications-icon.png) y, a continuación, el icono **[!UICONTROL Configuración]** ![](assets/icon_edit_board.png).
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
@@ -115,7 +115,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
 1. Inicie sesión en Experience Cloud.
 
-1. En el Experience Cloud, seleccione la imagen de perfil.
+1. En Experience Cloud, seleccione su imagen de perfil.
 
    ![](assets/edit-profile.png)
 1. Seleccione **[!UICONTROL Editar perfil]**.
@@ -125,7 +125,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 ## Recuperación de la contraseña {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navegue a la página de inicio de sesión de su solución.
-1. Seleccione **[!UICONTROL Contraseña olvidada]**.
+1. Seleccione **[!UICONTROL Olvidé la contraseña]**.
 
    Restablecer la contraseña de una solución debería resolver los problemas de vinculación de contraseña de Experience Cloud.
 
