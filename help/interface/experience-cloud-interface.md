@@ -2,14 +2,14 @@
 description: 'Obtenga información sobre cómo iniciar sesión y los componentes de la interfaz central en Experience Cloud. Obtenga información sobre la búsqueda global, las preferencias de su cuenta y cómo navegar por la interfaz y obtener ayuda. '
 solution: Experience Cloud
 title: 'Componentes de la IU central de Experience Cloud '
-feature: “Componentes de la interfaz central”
-topic: Administración
+feature: Central Interface Components
+topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 50%
+source-wordcount: '714'
+ht-degree: 56%
 
 ---
 
@@ -122,7 +122,7 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 
 ## Notificaciones y anuncios {#notifications}
 
-Seleccione **[!UICONTROL Notifications]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
+Seleccione **[!UICONTROL Notificaciones]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
 
 ![](assets/notifications-menu-small.png)
 

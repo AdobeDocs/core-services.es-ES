@@ -4,15 +4,15 @@ keywords: Servicios de Experience Cloud
 solution: Experience Cloud
 title: Actualizaciones de documentación
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Atributos del cliente
-topic: Administración
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 Información acerca de actualizaciones en la documentación de Experience Cloud.
 
-**Actualizado el 24/08/2021**
+**Actualizado: 24/8/2021**
 
 Se ha actualizado la página [Componentes centrales](experience-cloud.md) (página de aterrizaje de esta guía). Se ha agregado compatibilidad con navegadores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
 
-**Actualizado el 6/8/2021**
+**Actualizado: 6/8/2021**
 
-Se ha actualizado [Cookies de origen](cookies-first-party.md).
+Se han actualizado las [Cookies de origen](cookies-first-party.md).
 
 **Actualizado: 4/6/2021**
 

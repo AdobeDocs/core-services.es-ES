@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo Adobe Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imágenes y sesiones de explorador.
-keywords: cookies;privacidad
+keywords: cookies,privacidad
 solution: Experience Cloud,Analytics
 title: '"Cookies de origen "'
 index: y
@@ -13,7 +13,7 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 69%
+ht-degree: 99%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 69%
 
 Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos navegadores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar aunque las cookies de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de ID de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocido como cookie s_vi):
+Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar, aunque las de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocidos como cookie s_vi):
 
-* El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) configurará automáticamente las cookies de origen independientemente de si el dominio de recopilación coincide con el dominio del sitio. Si no coinciden, el servicio de identidad utilizará JavaScript para configurar las cookies en el dominio del sitio.
-* Si utiliza [Analytics heredados identifiers](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (también conocido como la cookie `s_vi`), dependerá de cómo haya configurado el servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de colección no coincide con su dominio actual, las cookies se configuran como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un [id de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie estándar &quot;s_vi&quot;.
+* El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) configurará automáticamente las cookies de origen independientemente de si el dominio de recopilación coincide con el del sitio. Si no coinciden, el servicio de identidad utilizará JavaScript para configurar las cookies en el dominio del sitio.
+* Si utiliza [identificadores heredados de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=es) (también conocidos como cookie `s_vi`), depende de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de colección no coincide con su dominio actual, las cookies se configuran como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un [identificador de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie “s_vi” estándar.
 
-Si desea asegurarse de que el servidor de recopilación coincide con el dominio de su sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su empresa para configurar un alias CNAME y señalar a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establece como de terceros.
+Si desea asegurarse de que el servidor de recopilación coincida con el dominio de su sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establece como de terceros.
 
 >[!NOTE]
 >
->Independientemente de si el dominio de recopilación coincide con el dominio del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple crea las cookies de origen configuradas por Adobe de corta duración en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos los exploradores en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las cookies configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
+>Independientemente de si el dominio de recopilación coincide con el del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple crea las cookies de origen configuradas por Adobe de corta duración en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
 
 Si desea establecer un CNAME para la recopilación de datos y si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL.
 
@@ -42,13 +42,13 @@ Con su permiso, trabajamos con nuestra AC para emitir, implementar y administrar
 
 El programa de certificados administrados de Adobe es el proceso recomendado para configurar el certificado SSL de origen necesario para una implementación CNAME que garantiza que el servidor de recopilación de Adobe coincida con el dominio del sitio.
 
-El programa de certificados administrados de Adobe le permite implementar un nuevo certificado SSL de origen sin coste adicional (para sus primeros 100 CNAME). Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
+El programa de certificados administrados por Adobe le permite implementar un nuevo certificado SSL de origen sin coste adicional (para sus primeros 100 CNAME). Si tiene su propio certificado SSL administrado por el cliente, hable con el Servicio de atención al cliente de Adobe acerca de la migración al programa de Certificados administrados de Adobe.
 
 ### Implementación
 
 Así se implementa un nuevo certificado SSL de origen para la recopilación de datos de origen:
 
-1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra un ticket con el Servicio de atención al cliente solicitando configurar la recopilación de datos de origen en el programa administrado por Adobe. Cada campo se describe dentro del documento con ejemplos.
+1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente al solicitar la configuración de recopilación de datos de origen en el programa administrado por Adobe. Cada campo se describe dentro del documento con ejemplos.
 
 2. Cree registros CNAME (consulte las instrucciones más abajo).
 
@@ -151,7 +151,7 @@ Address: 54.187.216.46
 
 ## Actualización del código de implementación {#update}
 
-Antes de editar el código del sitio para utilizar la recopilación de datos de origen, complete estos requisitos previos:
+Antes de editar el código del sitio para utilizar recopilación de datos de origen, complete estos requisitos previos:
 
 * Solicite un certificado SSL siguiendo los pasos descritos anteriormente en la sección *Implementación* del [Programa de certificados administrados de Adobe](#adobe-managed-certificate-program).
 * Cree registros CNAME (consultar más arriba).
@@ -160,12 +160,12 @@ Antes de editar el código del sitio para utilizar la recopilación de datos de 
 Después de comprobar que sus nombres de host responden y redirigen a los servidores de recopilación de datos, puede modificar su implementación de modo que señale a sus propios nombres de host de recopilación de datos.
 
 1. Abra su archivo principal de JavaScript (`s_code.js/AppMeasurement.js`).
-1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O**, si desea actualizar el código solo correspondiente a la recopilación de datos de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y agréguelas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con la recopilación de datos de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y diríjalas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Cargue en su sitio el archivo principal de JavaScript actualizado.
 
-1. Si va a pasar a la recopilación de datos de origen desde una implementación antigua, o cambia a un nombre de host de recopilación de origen diferente, Adobe recomienda migrar los visitantes del dominio anterior al nuevo dominio.
+1. Si está migrando a recopilación de datos de origen desde una implementación antigua, o cambiando a otro nombre de host de recopilación de origen, Adobe le recomienda migrar a los visitantes del dominio anterior al nuevo dominio.
 
 Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) en la Guía de implementación de Analytics.
 
-Una vez cargado el archivo JavaScript, todo está configurado para la recopilación de datos de origen. Adobe le recomienda que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
+Después de haber cargado el archivo de JavaScript, ya estará todo configurado para la recopilación de datos de origen. Adobe le recomienda que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.

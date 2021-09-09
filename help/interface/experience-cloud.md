@@ -3,15 +3,15 @@ description: Obtenga información sobre los componentes de la interfaz central e
 solution: Experience Cloud
 title: Documentación y temas de ayuda sobre la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Atributos del cliente"'
-topic: Administración
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 63%
+source-wordcount: '1303'
+ht-degree: 66%
 
 ---
 
@@ -140,7 +140,7 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 
 ## Notificaciones y anuncios {#notifications}
 
-Seleccione **[!UICONTROL Notifications]** para recibir alertas sobre actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+Seleccione **[!UICONTROL Notificaciones]** para recibir alertas acerca de actualizaciones relevantes y disponibles, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![](assets/notifications-menu-small.png)
 
@@ -184,7 +184,7 @@ Las guías de Experience Cloud relacionadas incluyen:
 * [Recopilación de datos de Experience Platform/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es)
 * [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
 
 ## Tutoriales
 
@@ -196,7 +196,7 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
-* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): Busque ayuda en Experience Cloud Learn &amp; Support
+* [Documentación del producto para todas las soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es): Busque ayuda en Experience Cloud Learn &amp; Support
 * [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
 * [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
