@@ -11,9 +11,9 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Respuesta: `SUCCESS`
 
 ### Validar mediante [!DNL nslookup]
 
-Puede utilizar `nslookup` para la validación. Con `smetrics.adobe.com` a modo de ejemplo, abra un símbolo del sistema y escriba `nslookup smetrics.adobe.com`
+Puede utilizar `nslookup` para la validación. Con `smetrics.adobe.com`a modo de ejemplo, abra un símbolo del sistema y escriba `nslookup smetrics.adobe.com`
 
 Si todo está configurado correctamente, verá un resultado similar al siguiente:
 
@@ -166,6 +166,6 @@ Después de comprobar que sus nombres de host responden y redirigen a los servid
 
 1. Si está migrando a recopilación de datos de origen desde una implementación antigua, o cambiando a otro nombre de host de recopilación de origen, Adobe le recomienda migrar a los visitantes del dominio anterior al nuevo dominio.
 
-Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) en la Guía de implementación de Analytics.
+Consulte [Migración de visitantes](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=es) en la Guía de implementación de Analytics.
 
 Después de haber cargado el archivo de JavaScript, ya estará todo configurado para la recopilación de datos de origen. Adobe le recomienda que monitorice los informes de Analytics durante las siguientes horas para asegurarse de que la recopilación de datos continúa con normalidad. Si no es así, compruebe que se han realizado todos los pasos anteriores e indique a uno de los usuarios admitidos en su organización que contacte con el servicio de atención al cliente.
