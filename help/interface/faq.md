@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nue
 
 ## ¿Cómo puedo resolver mis dudas acerca de la migración de mi empresa?
 
-[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
 
 ## ¿Qué es el _aprovisionamiento?_
 
@@ -76,7 +76,7 @@ El aprovisionamiento de Experience Cloud significa que:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General#support) para verificar que su empresa esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support) para verificar que su empresa esté plenamente aprovisionada.
 
 ## ¿Dónde puede ir un usuario para administrar la vinculación de cuentas?
 
