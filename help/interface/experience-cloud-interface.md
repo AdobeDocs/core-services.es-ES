@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Los componentes de la interfaz central de Experience Cloud incluyen funciones qu
 
 ## Compatibilidad con exploradores en Experience Cloud {#browser}
 
-Para obtener el mejor rendimiento, Experience Cloud está optimizado para los navegadores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
+Para obtener el mejor rendimiento, Experience Cloud está optimizado para los exploradores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
 
 * Chrome
 * Edge
@@ -35,9 +35,9 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio del Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de una aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio de Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
-## Compatibilidad de idiomas en el Experience Cloud {#languages}
+## Compatibilidad de idiomas en Experience Cloud {#languages}
 
 Experience Cloud admite los idiomas preferidos para cada usuario, tal como se establecen en las preferencias de cuenta de usuario de Adobe. Actualmente se admiten los siguientes idiomas:
 
@@ -52,7 +52,7 @@ Experience Cloud admite los idiomas preferidos para cada usuario, tal como se es
 * Español
 * Taiwanés
 
-Aunque todos los equipos de aplicaciones están comprometidos con el soporte de idiomas global, no todas las aplicaciones se ofrecen en todos los idiomas mencionados anteriormente. Si el idioma principal no es compatible con una aplicación de Experience Cloud, también puede establecer un idioma secundario en de forma predeterminada a cuando corresponda. Esto se puede hacer en [preferencias de usuario del Experience Cloud](https://experience.adobe.com/preferences).
+Aunque todos los equipos de aplicaciones están comprometidos con el soporte de idiomas global, no todas las aplicaciones se ofrecen en todos los idiomas mencionados anteriormente. Si el idioma principal no es compatible con una aplicación de Experience Cloud, también puede establecer un idioma secundario de forma predeterminada cuando corresponda. Esto se puede hacer en [preferencias de usuario de Experience Cloud](https://experience.adobe.com/preferences).
 
 ## Inicie sesión en Experience Cloud {#signin}
 
@@ -64,9 +64,9 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 
    ![](assets/organizations-menu.png)
 
-   Para comprobar que ha iniciado sesión en su organización [a1/> correcta, haga clic en el avatar de perfil para ver el nombre de la organización. ](organizations.md) Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
+   Para comprobar que ha iniciado sesión en su organización [correcta, haga clic en el avatar de perfil para ver el nombre de la organización. ](organizations.md) Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
 
-   Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de introducir su dirección de correo electrónico y contraseña. Para ello, añada `#/sso:@domain` a la dirección URL del Experience Cloud (`https://experience.adobe.com`).
+   Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`).
 
    Por ejemplo, para una organización con Federated IDs y el dominio `adobecustomer.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@adobecustomer.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`).
 
