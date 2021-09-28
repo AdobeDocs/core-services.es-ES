@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Una *organización* es la entidad que permite a un administrador configurar grup
 
 Para comprobar que ha iniciado sesión en su organización correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
 
-Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de introducir su dirección de correo electrónico y contraseña. Para ello, añada `#/sso:@domain` a la dirección URL del Experience Cloud (`https://experience.adobe.com`).
+Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`).
 
 Por ejemplo, para una organización con Federated IDs y el dominio `adobecustomer.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@adobecustomer.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`).
 
@@ -34,7 +34,7 @@ Por ejemplo, para una organización con Federated IDs y el dominio `adobecustome
 
 ## Búsqueda del identificador de organización {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Es posible que deba localizar su ID de organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
+Además, es posible que deba localizar el ID de su organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
 
 El **identificador de organización** es el ID asociado con la empresa que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse).
 
