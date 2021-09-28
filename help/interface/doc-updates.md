@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Información acerca de actualizaciones en la documentación de Experience Cloud.
 
 **Actualizado: 24/8/2021**
 
-Se ha actualizado la página [Componentes centrales](experience-cloud.md) (página de aterrizaje de esta guía). Se ha agregado compatibilidad con navegadores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
+Se ha actualizado la página [Componentes centrales](experience-cloud.md) (página de aterrizaje de esta guía). Se ha agregado compatibilidad con exploradores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
 
 **Actualizado: 6/8/2021**
 
