@@ -1,26 +1,26 @@
 ---
 description: Descubra cómo configurar Experience Cloud Triggers.
 keywords: integraciones;Triggers
-seo-description: Configuración de Triggers en Experience Cloud.
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Información general sobre Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] en Experience Cloud le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias soluciones para volver a atraer visitantes.
+[!UICONTROL Déclencheur] en Experience Cloud le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre aplicaciones para volver a atraer visitantes.
 
 ## Información general sobre Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Puede usar Triggers en las decisiones en tiempo real y la personalización. Por 
 * Formularios y aplicaciones incompletos
 * Cualquier acción o secuencia de acciones en el sitio
 
-![](assets/trigger-abandonment-2.png)
+![ejemplo de déclencheur](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Ejemplos de Triggers de Experience Cloud:
 
 Por ejemplo, en la siguiente página se muestran reglas que podría usar para un Trigger de [!UICONTROL abandono del carro de compras] en función de los productos que se han visto durante una visita.
 
-![](assets/abandonment-trigger.png)
+![Déclencheur de abandono del carro de compras](assets/abandonment-trigger.png)
 
 #### Trigger referente
 
 El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
-![](assets/fb-boots-promo.png)
+![Déclencheur del referente](assets/fb-boots-promo.png)

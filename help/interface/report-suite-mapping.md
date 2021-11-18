@@ -3,13 +3,13 @@ description: Obtenga información sobre cómo asignar uno o varios grupos de inf
 title: 'Asignación de grupos de informes a una organización '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1119'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Las organizaciones aparecen en gris si se carece de permisos de administrador de
 
 1. Seleccione los grupos de informes que desea asignar.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![Seleccione los grupos de informes que desea asignar](assets/rs-mapping-multiple.png)
 
 1. Seleccione la organización (Outdoors Inc, en este ejemplo) y, a continuación, haga clic en **[!UICONTROL Seleccionar]**.
 
@@ -71,7 +71,7 @@ Asegúrese de que la implementación coincida con la organización elegida en la
 
 Que una organización esté atenuada indica que no tiene suficientes privilegios para asignar al grupo de informes atenuado. Consideremos el siguiente ejemplo:
 
-![](assets/rs-mapping.png)
+![¿Por qué algunas organizaciones están atenuadas?](assets/rs-mapping.png)
 
 En este diagrama, la llave azul indica privilegios de administrador. Las líneas grises indican visibilidad.
 

@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Comportamiento de archivos compartidos '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '569'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Reglas sobre cómo se comportan las carpetas compartidas cuando se mueven, elimi
 
 Si mueve una carpeta no compartida a una carpeta compartida:
 
-![](assets/01_assets_move.png)
+![Carpeta no compartida en una carpeta compartida](assets/01_assets_move.png)
 
 **Resultado**: Ambas carpetas se comparten.
 
@@ -36,7 +36,7 @@ Si mueve una carpeta no compartida a una carpeta compartida:
 
 Si mueve una carpeta compartida a una carpeta no compartida.
 
-![](assets/02_assets_move.png)
+![Carpeta compartida en una carpeta no compartida](assets/02_assets_move.png)
 
 **Resultado**: La carpeta no compartida permanece sin compartir. La carpeta compartida permanece compartida.
 
@@ -44,7 +44,7 @@ Si mueve una carpeta compartida a una carpeta no compartida.
 
 El contenido de una carpeta no compartida se mueve a una carpeta compartida.
 
-![](assets/03_assets_move.png)
+![Contenido de una carpeta no compartida a una carpeta compartida](assets/03_assets_move.png)
 
 **Resultado:** El contenido ahora se comparte y todos los colaboradores pueden verlo. El almacenamiento aumenta según el tamaño del contenido.
 
@@ -52,7 +52,7 @@ El contenido de una carpeta no compartida se mueve a una carpeta compartida.
 
 El contenido que reside en una carpeta compartida se archiva o elimina.
 
-![](assets/04_assets_move.png)
+![Contenido compartido archivado y eliminado](assets/04_assets_move.png)
 
 **Resultado:** El contenido se archiva para el propietario de la carpeta. Los colaboradores que no son propietarios del contenido ya no pueden acceder a él.
 
@@ -60,7 +60,7 @@ El contenido que reside en una carpeta compartida se archiva o elimina.
 
 El contenido de una carpeta compartida suya se mueve a una carpeta no compartida.
 
-![](assets/05_assets_move.png)
+![Contenido compartido propio a una carpeta no compartida](assets/05_assets_move.png)
 
 **Resultado:** El contenido ya no se comparte. Los colaboradores de la carpeta compartida ya no tendrán acceso al contenido.
 
@@ -68,7 +68,7 @@ El contenido de una carpeta compartida suya se mueve a una carpeta no compartida
 
 El contenido de una carpeta compartida de otra persona se mueve a una carpeta no compartida.
 
-![](assets/06_assets_move.png)
+![Contenido que no es de su propiedad a una carpeta no compartida](assets/06_assets_move.png)
 
 **Resultado:** El contenido aparece en la carpeta no compartida y se elimina de la carpeta compartida. Los colaboradores de la carpeta compartida ya no tendrán acceso al contenido. El contenido se archiva para el propietario de la carpeta compartida.
 
@@ -78,7 +78,7 @@ Los propietarios y editores pueden mover el contenido que no es de su propiedad,
 
 Puede archivar (a través de la Web) o eliminar (a través del escritorio) una carpeta compartida suya.
 
-![](assets/07_assets_move.png)
+![Carpeta propia archivada o eliminada](assets/07_assets_move.png)
 
 **Resultado:** La carpeta no se comparte y, a continuación, se archiva. Los colaboradores ya no tienen acceso a la carpeta.
 
@@ -86,7 +86,7 @@ Puede archivar (a través de la Web) o eliminar (a través del escritorio) una c
 
 Una carpeta compartida suya se mueve a otra carpeta compartida suya o de otra persona.
 
-![](assets/09_assets_move.png)
+![Carpeta compartida en otra carpeta compartida](assets/09_assets_move.png)
 
 **Resultado:** A medida que la carpeta se mueve a la carpeta 2, esta se comparte con los nuevos colaboradores.
 
@@ -94,7 +94,7 @@ Una carpeta compartida suya se mueve a otra carpeta compartida suya o de otra pe
 
 El contenido de una carpeta compartida se mueve a otra carpeta compartida.
 
-![](assets/11_assets_move.png)
+![Contenido compartido en otra carpeta compartida](assets/11_assets_move.png)
 
 **Resultado:** El contenido aparece en la carpeta 2 y ahora se comparte con los nuevos colaboradores. El contenido se elimina de la carpeta 1 y el propietario lo ve como archivado, mientras que los demás colaboradores ya no tienen acceso a él.
 
@@ -102,6 +102,6 @@ El contenido de una carpeta compartida se mueve a otra carpeta compartida.
 
 Se restaura el contenido de un archivo que pertenecía a una carpeta compartida. El contenido era suyo en el momento en que se archivó.
 
-![](assets/12_assets_move.png)
+![Contenido restaurado del archivo](assets/12_assets_move.png)
 
 **Resultado:** el contenido se restaura a la carpeta compartida y todos los colaboradores pueden acceder a él de nuevo. Si la carpeta compartida ya no existe, el contenido se coloca en una copia no compartida de sus carpetas principales originales.

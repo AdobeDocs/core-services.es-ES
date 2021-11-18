@@ -1,15 +1,15 @@
 ---
 description: Información general sobre nuevas funciones y actualizaciones de Experience Cloud.
 keywords: servicios principales
-seo-description: Información general sobre nuevas funciones y actualizaciones de Experience Cloud.
-seo-title: Novedades de Experience Cloud
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Novedades de Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ Nuevas características y correcciones de la interfaz de [!DNL Adobe Experience 
 
 | Función | Descripción |
 |--- |--- |
-| Nueva página de aterrizaje de administración | Al iniciar sesión en Experience Cloud y navegar a la página Administración, hay una nueva interfaz intuitiva que le ayudará a acceder rápidamente a sus soluciones de Experience Cloud y a los servicios principales. |
+| Nueva página de aterrizaje de administración | Al iniciar sesión en el Experience Cloud y navegar a la página Administración, hay una nueva interfaz intuitiva disponible para ayudarle a acceder rápidamente a las aplicaciones Experience Cloud y a los servicios principales. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,8 +70,8 @@ Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento 
 
 | Función | Descripción |
 |--- |--- |
-| Notificaciones: Configuración granular | Puede activar notificaciones para eventos y actividades de productos y soluciones, incluida la notificación de la actividad de carga de [Atributos de cliente](attributes.md). |
-| Notificaciones: Notificaciones de mantenimiento | En la configuración de Notificaciones, puede activar las notificaciones de mantenimiento para productos y soluciones. |
+| Notificaciones: Configuración granular | Puede activar notificaciones para eventos y actividades de productos y aplicaciones, incluidas notificaciones sobre [Atributos del cliente](attributes.md) actividad de carga. |
+| Notificaciones: Notificaciones de mantenimiento | En la configuración de Notificaciones, puede activar las notificaciones de mantenimiento para productos y aplicaciones. |
 | Admin Console para soluciones de Experience Cloud | Los nuevos clientes de Experience Cloud pueden empezar a utilizar Admin Console, una ubicación central para administrar las autorizaciones de Adobe en toda la organización.<br>La migración a Admin Console para la administración de usuarios se realizará en oleadas. Adobe se pone en contacto (con los administradores del sistema) cuando es el momento de la migración.<br>Los administradores de Analytics pueden consultar [Migración de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,7 +80,7 @@ Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento 
 
 | Función | Descripción |
 |--- |--- |
-| Asignación de grupos de informes en lotes | En Administración > Asignación de grupos de informes, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>[Asignar grupos de informes](core-services.md) a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre soluciones. |
+| Asignación de grupos de informes en lotes | En Administración > Asignación de grupos de informes, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>[Asignación de grupos de informes](core-services.md) a una sola organización ayuda a habilitar en el Experience Cloud funciones y servicios entre aplicaciones. |
 | Actualizaciones en las audiencias de Experience Cloud | **Aplicación de conjuntos de informes**<br> Ahora puede aplicar un grupo de informes a todas sus [reglas de audiencia](t-audience-create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla). <br>**Props y variables**<br> Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en las audiencias en tiempo real. |
 
 {style=&quot;table-layout:auto&quot;}

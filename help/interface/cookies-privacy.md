@@ -5,14 +5,14 @@ solution: Experience Cloud,Analytics,Target
 title: 'Cookies y privacidad '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookies
-topic: Administración
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 95%
 
 ---
 
@@ -30,8 +30,8 @@ Por ejemplo, los datos contenidos en las cookies configuradas desde el sitio web
 
 El diagrama siguiente ilustra el uso de cookies para una solicitud de imagen estándar:
 
-![](assets/CookiesProcessGraphic-01.png)
+![Uso de cookies para una solicitud de imagen estándar](assets/CookiesProcessGraphic-01.png)
 
 El diagrama siguiente ilustra el uso de cookies para una solicitud de imagen habitual (utilizado en situaciones en las que no se carga un archivo JS):
 
-![](assets/CookiesProcessGraphic2.png)
+![Uso de cookies para una solicitud de imagen recta](assets/CookiesProcessGraphic2.png)

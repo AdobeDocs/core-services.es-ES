@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,9 +62,9 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 1. Seleccione **[!UICONTROL Iniciar sesión con un Adobe ID]**.
 1. Compruebe que se encuentra en la organización correcta.
 
-   ![](assets/organizations-menu.png)
+   ![Verifique su organización](assets/organizations-menu.png)
 
-   Para comprobar que ha iniciado sesión en su organización [correcta, haga clic en el avatar de perfil para ver el nombre de la organización. ](organizations.md) Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
+   Para comprobar que ha iniciado sesión en la [organización](organizations.md) correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
 
    Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`).
 
@@ -76,13 +76,13 @@ Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a to
 
 Seleccione el selector de aplicaciones ![](assets/menu-icon.png) para acceder a los servicios de Experience Cloud que posee.
 
-![](assets/platform-core-services.png)
+![Acceso a aplicaciones de Experience Cloud](assets/platform-core-services.png)
 
 ## Búsqueda y asistencia en Experience Cloud {#search}
 
 La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
-![](assets/search-menu.png)
+![Búsqueda y asistencia en Experience Cloud](assets/search-menu.png)
 
 El menú [!UICONTROL Ayuda] también le permite acceder a:
 
@@ -106,7 +106,7 @@ Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y al
 
 Seleccione **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png) para administrar las preferencias.
 
-![](assets/preferences-page.png)
+![Administrar Experience Cloud](assets/preferences-page.png)
 
 En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguientes funciones:
 
@@ -124,6 +124,6 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 
 Seleccione **[!UICONTROL Notificaciones]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
 
-![](assets/notifications-menu-small.png)
+![Notificaciones y anuncios](assets/notifications-menu-small.png)
 
 Puede configurar las notificaciones en [preferencias de Experience Cloud](#preferences).

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Información acerca de actualizaciones en la documentación de Experience Cloud.
 
 | Función | Descripción |
 | ------- | ------- |
-| Página principal | La información del pie de página principal de Experience Cloud se ha movido a la tarjeta de perfil del usuario, incluidos los Avisos legales y la selección de idiomas en Preferencias. |
+| Página principal | La información del pie de la página de inicio de Experience Cloud se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
 | Tableros de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada la selección de datos (actualmente una selección de datos de una sola variable), helios recomienda una visualización adecuada para acompañar esa selección de datos. |
-| Tableros de AEP | [!DNL Instory] proporciona una narración escrita basada en ML y subtítulos para los gráficos. Decora gráficos en la página Tableros de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
+| Tableros de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Tableros de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
 
 **Actualizado el 13/10/2021**
 
@@ -118,7 +118,7 @@ Se ha añadido [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5
 
 **Actualizado: 02/03/2015**
 
-Se ha añadido [Activación de las soluciones en los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Se ha añadido [Habilitar las aplicaciones para los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Actualizado: 15/01/2015**
 
