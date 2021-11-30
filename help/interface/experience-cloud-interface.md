@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y al
 
 Seleccione **[!UICONTROL Preferencias]** en el menú de la cuenta ![](assets/preferences-icon-sm.png) para administrar las preferencias.
 
-![Administrar Experience Cloud](assets/preferences-page.png)
+![Administración de Experience Cloud](assets/preferences-page.png)
 
 En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguientes funciones:
 
