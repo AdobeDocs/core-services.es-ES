@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Los *Visitantes de Chrome y Safari* son un segmento de audiencia compartido desd
 
 ![Visitantes de Chrome y Safari](assets/chrome_safari.png)
 
-Para comparar, podría agregar una regla *OR* para ver todos los visitantes de una sección del sitio como Patio y muebles.
+Para comparar, podría añadir una regla *OR* para ver todos los visitantes de una sección del sitio como Patio y muebles.
 
 ![Regla OR para una audiencia](assets/audiences_rule_patio.png)
 
