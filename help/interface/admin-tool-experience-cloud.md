@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1270'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
 1. Iniciar sesión en `https://experience.adobe.com/.`
 
-   ![Acceso al Admin Console](assets/admin-tool.png)
+   ![Acceso a Admin Console](assets/admin-tool.png)
 
 1. En [!UICONTROL Acceso rápido], seleccione **[!UICONTROL Herramienta de administrador.]**
 
@@ -36,16 +36,16 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
 ## Página Usuarios
 
-Esta página muestra la lista completa de usuarios con acceso a Experience Cloud en su organización. Proporciona información sobre la asignación de derechos de aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
+Esta página muestra la lista completa de usuarios con acceso a Experience Cloud en su organización. Proporciona información acerca de la asignación de derechos de la aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
 
-![Página Usuarios del Admin Console](assets/admin-tool-users.png)
+![Página de usuarios de Admin Console](assets/admin-tool-users.png)
 
 | Elemento | Descripción |
 |---|---|
 | [!UICONTROL Nombre] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a la Z y de la Z a la A. Seleccione el nombre de un usuario para ver más detalles acerca de este. |
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
-| [!UICONTROL Soluciones] | Resumen de las aplicaciones Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de usuarios con acceso específico a la aplicación. |
+| [!UICONTROL Soluciones] | Resumen de las aplicaciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
 | [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista del usuario
@@ -66,9 +66,9 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista del usua
 
 En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, seleccione su correo electrónico.
 
-![Ver detalles del usuario en el Admin Console](assets/admin-tool-user-details.png)
+![Ver detalles del usuario en Admin Console](assets/admin-tool-user-details.png)
 
-Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto y la información de acceso más reciente.
+Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto, y la información de acceso más reciente.
 
 ## Información sobre esta sección
 
@@ -78,7 +78,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Nombre
 * Correo electrónico
 * Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
-* [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Tipo de ID](https://helpx.adobe.com/es/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
 
@@ -102,7 +102,7 @@ Esta sección muestra una lista completa de todos los miembros de perfiles de pr
 
 Esta página muestra la lista completa de las directivas de Experience Cloud en su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas.
 
-![Página Directivas en el Admin Console](assets/admin-tool-policies.png)
+![Página Políticas en Admin Console](assets/admin-tool-policies.png)
 
 | Elemento | Descripción |
 |---|---|
@@ -123,13 +123,13 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de direc
 | Elemento | Descripción |
 |---------|----------|
 | Filtro de [!UICONTROL instancia] | Busque cadenas de caracteres en la columna de instancia para reducir los resultados a una o varias instancias. Añada varios filtros pulsando Intro después de cada término de búsqueda. |
-| Filtro [!UICONTROL Solución] | Elija entre las aplicaciones disponibles. Varios filtros de aplicación buscan resultados que contengan Solución 1 `OR` Solución 2. |
+| Filtro [!UICONTROL Solución] | Elija entre las aplicaciones disponibles. Varios filtros de aplicaciones buscan resultados que contengan Solución 1 `OR` Solución 2. |
 
-## Detalles de la directiva de vista
+## Ver detalles de la política
 
 En la página [!UICONTROL Directivas], para ver los detalles de una directiva, seleccione el nombre del perfil del producto.
 
-![Ver detalles de directivas en el Admin Console](assets/admin-tool-policy-detail.png)
+![Ver detalles de la política en Admin Console](assets/admin-tool-policy-detail.png)
 
 Una vista detallada de cada perfil de producto muestra información importante sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos activados por el perfil del producto.
 
