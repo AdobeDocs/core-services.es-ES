@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Si mueve una carpeta no compartida a una carpeta compartida:
 
 ![Carpeta no compartida en una carpeta compartida](assets/01_assets_move.png)
 
-**Resultado**: Ambas carpetas se comparten.
+**Resultado**: ambas carpetas se comparten.
 
 ## Carpeta compartida en una carpeta no compartida {#section_8BA83001DCEC4CF084B980C4A660F59A}
 
@@ -88,7 +88,7 @@ Una carpeta compartida suya se mueve a otra carpeta compartida suya o de otra pe
 
 ![Carpeta compartida en otra carpeta compartida](assets/09_assets_move.png)
 
-**Resultado:** A medida que la carpeta se mueve a la carpeta 2, esta se comparte con los nuevos colaboradores.
+**Resultado:** a medida que la carpeta se mueve a la carpeta 2, esta se comparte con los nuevos colaboradores.
 
 ## Contenido compartido en otra carpeta compartida {#section_69F6C312792A4CD2831BD14A340F850E}
 
