@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Obtenga información sobre la administración y el cambio de organizaciones en E
 
 ## Identificación de la organización {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones del Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
 Para comprobar que ha iniciado sesión en su organización correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
 
@@ -42,22 +42,22 @@ Para ver el identificador de su organización, vaya a la página de aterrizaje d
 
 ![](assets/administration-page.png)
 
-## Vinculación de una cuenta de aplicación a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+## Vinculación de una cuenta de aplicaciones a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, es posible que deba vincular las credenciales de la aplicación a una Adobe ID.
+Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, es posible que deba vincular las credenciales de la aplicación a un Adobe ID.
 
 1. Siga los pasos de la invitación del correo electrónico para utilizar Experience Cloud.
 1. Inicie sesión con su Adobe ID o Enterprise ID.
-1. Seleccione el selector de aplicaciones. ( ![](assets/menu-icon.png)).
+1. Seleccione el selector de aplicaciones. (![](assets/menu-icon.png)).
 
-   ![Vinculación de una cuenta de aplicación a un Adobe ID](assets/solutions-active.png)
+   ![Vinculación de una cuenta de aplicaciones a un Adobe ID](assets/solutions-active.png)
 
    Las aplicaciones a las que tiene acceso se muestran coloreadas.
-1. Seleccione la aplicación que desee.
+1. Seleccione la aplicación que desee:
 
    ![Seleccione la aplicación que desee](assets/analytics-link-accounts.png)
 
-   Este tipo de mensaje se muestra si forma parte del grupo correspondiente (y tiene permiso para acceder a la aplicación) pero aún no ha vinculado las credenciales de la cuenta a su Adobe ID.
+   Este tipo de mensaje se muestra si es parte del grupo apropiado (y tiene permisos para la aplicación), pero todavía no ha vinculado sus credenciales de cuenta a su Adobe ID.
 1. Seleccione **[!UICONTROL Vincular cuenta]**, luego proporcione las credenciales.
 
 ## Especificación de una organización y una página de aterrizaje predeterminadas {#concept_6A191B42A9874A9780882903BA18F071}
@@ -68,7 +68,7 @@ En su perfil, seleccione **[!UICONTROL Editar perfil]**.
 
 ![Editar perfil](assets/edit-profile.png)
 
-En Organización y la página de aterrizaje predeterminadas, puede personalizar la forma de iniciar sesión.
+En la organización y la página de aterrizaje predeterminadas, puede personalizar la forma de iniciar sesión.
 
 ![Organización y página de aterrizaje predeterminadas](assets/default-organization.png)
 
@@ -79,4 +79,4 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
 * [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
-* Acceda a su aplicación utilizando el inicio de sesión estándar mientras el problema se soluciona.
+* Acceder a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
