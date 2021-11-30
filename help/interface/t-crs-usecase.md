@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Una vez que la fuente de datos esté activa, podrá hacer lo siguiente:
 >
 >Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *Atributos del cliente* se muestra como uno de los [!UICONTROL Perfiles de producto], está listo para empezar. Los usuarios que se agregan al grupo Atributos del cliente ven el menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 >
->Para utilizar la función Atributos del cliente , los usuarios también deben pertenecer a grupos de nivel de aplicación (Analytics o [!DNL Target]).
+>Para usar la función Atributos del cliente, los usuarios también deben pertenecer a grupos de nivel de aplicación (Analytics o [!DNL Target]).
 
 Consulte [Administración de usuarios y productos de Experience Cloud](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -146,7 +146,7 @@ Eliminar y reemplazar atributos en el esquema.
 
 ## Configurar suscripciones y activar el origen de atributos {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configuración de una suscripción configura el flujo de datos entre el Experience Cloud y las aplicaciones. La activación del origen de atributos permite que los datos fluyan a las aplicaciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
+La configuración de una suscripción configura el flujo de datos entre Experience Cloud y las aplicaciones. La activación del origen de atributos permite que los datos fluyan a las aplicaciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
 
 Consulte [Configurar suscripciones](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -158,7 +158,7 @@ En la página [!UICONTROL Crear nuevo [o Editar] origen de atributos del cliente
 
 ## Uso de los Atributos del cliente en Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Ahora que los datos están disponibles en aplicaciones como Adobe Analytics, puede crear informes de los datos, analizarlos y tomar las medidas adecuadas en sus campañas de marketing.
+Ahora que los datos están disponibles en aplicaciones como Adobe Analytics, puede informar sobre los datos, analizarlos y tomar las medidas adecuadas en sus campañas de marketing.
 
 El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atributos cargados. El segmento muestra los suscriptores de [!DNL Photoshop Lightroom] cuyo producto más utilizado sea Photoshop.
 
