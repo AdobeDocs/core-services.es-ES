@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Inicio de sesión y administración de la configuración de perfil de Experience Cloud
 
-Iniciar sesión en Experience Cloud (en lugar de iniciar sesión en una sola aplicación) habilita el inicio de sesión único en todas las aplicaciones y servicios que posea. Esta página de ayuda describe cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
+Iniciar sesión en Experience Cloud (y no en una única aplicación) habilita el inicio de sesión único en todas las aplicaciones y servicios que posea. Esta página de ayuda describe cómo iniciar sesión en Experience Cloud, administrar las contraseñas y las notificaciones, y especificar una página de aterrizaje predeterminada.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 
 | Elemento | Descripción |
 |--- |--- |
-| [Conceptos básicos de Admin Console](experience-cloud.md) | Obtenga información sobre los pasos iniciales que debe seguir para empezar a utilizar las aplicaciones de Experience Cloud. |
+| [Conceptos básicos de Admin Console](experience-cloud.md) | Obtenga información acerca de los pasos iniciales que debe seguir para empezar a utilizar las aplicaciones de Experience Cloud. |
 | [Configurar identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | Defina y configure un sistema de identidad con el que se autenticarán los usuarios finales. |
 | [Administración de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios y perfiles de producto en Experience Cloud. |
 | [Iniciar Admin Console](admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo](https://adminconsole.adobe.com). |
@@ -75,7 +75,7 @@ Puede editar los detalles personales y especificar una [organización](admin-get
    ![Seleccione el icono de perfil](assets/edit-profile.png)
 1. Seleccione **[!UICONTROL Editar perfil]**.
 
-   ![Organización y página de aterrizaje predeterminadas en el Experience Cloud](assets/default-organization.png)
+   ![Organización y página de aterrizaje predeterminadas en Experience Cloud](assets/default-organization.png)
 1. Siga configurando y modificando la información personal y, cuando acabe, seleccione **[!UICONTROL Guardar cambios]**.
 
 ## Habilitar notificaciones {#concept_0105453AD71847B8BFCAF4A40915F157}
@@ -89,7 +89,7 @@ Puede ordenar la aparición de notificaciones según los tipos de mensajes que c
 * Ordenar por los tipos de mensajes que sean importantes para usted.
 * Buscar notificaciones.
 
-![Notificaciones al Experience Cloud](assets/notifications-admin.png)
+![Notificaciones de Experience Cloud](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ Entre otras cosas, puede editar su perfil de Experience Cloud y especificar una 
 
 1. En Experience Cloud, seleccione su imagen de perfil.
 
-   ![Editar el perfil del Experience Cloud](assets/edit-profile.png)
+   ![Edite su perfil de Experience Cloud](assets/edit-profile.png)
 1. Seleccione **[!UICONTROL Editar perfil]**.
 
    En la página Perfil y contraseñas, complete los campos y las opciones en Detalles personales.
@@ -151,6 +151,6 @@ URL de ejemplo:
 |--- |--- |--- |--- |
 | `tenantId` | Nombre del inquilino en el que el usuario debe iniciar sesión. | aem62tenant | Opcional |
 | `destURL` | Dirección URL completa del lugar al que se debe llevar al usuario. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Opcional |
-| `solutionname` | Nombre de la solución MAC que es el propietario del parámetro `destURL`. Se utiliza para verificar que el usuario tiene acceso a la aplicación que posee la URL.  Es responsabilidad de las aplicaciones asegurarse de que la variable `applicationname` está sincronizado con la variable `destURL` parámetro.  Por ejemplo: Si la dirección URL contiene `solutionname` como social y la `destURL` proporcionada es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. Mac NO verifica si el propietario del `destURL` está sincronizado con el nombre de la aplicación. | Analytics | Obligatorio si se utiliza el parámetro `destURL`. |
+| `solutionname` | Nombre de la solución MAC que es el propietario del parámetro `destURL`. Se utiliza para verificar que el usuario tiene acceso a la aplicación que posee la dirección URL.  Es responsabilidad de las aplicaciones asegurarse de que `applicationname` está en sincronía con el parámetro `destURL`.  Por ejemplo: Si la dirección URL contiene `solutionname` como social y la `destURL` proporcionada es una dirección URL de análisis, se redirigirá al usuario a la dirección URL aunque no tenga acceso a Analytics. MAC no verifica si el propietario de `destURL` está sincronizado con el nombre de la aplicación. | Analytics | Obligatorio si se utiliza el parámetro `destURL`. |
 
 {style=&quot;table-layout:auto&quot;}
