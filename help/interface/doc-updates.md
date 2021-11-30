@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Se ha añadido [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5
 
 **Actualizado: 02/03/2015**
 
-Se ha añadido [Habilitar las aplicaciones para los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Se ha añadido [Activación de las aplicaciones en los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Actualizado: 15/01/2015**
 
