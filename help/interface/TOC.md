@@ -5,9 +5,9 @@ breadcrumb-title: Componentes de la interfaz central de Experience Cloud
 user-guide-description: Obtenga información sobre la interfaz de Experience Cloud, configure las preferencias, busque ayuda y objetos empresariales. Obtenga ayuda sobre la administración de usuarios y productos, los atributos del cliente, la biblioteca de audiencias, las cookies y los activos de Experience Cloud.
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
