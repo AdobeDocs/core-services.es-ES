@@ -12,15 +12,15 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Déclencheur] en Experience Cloud le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre aplicaciones para volver a atraer visitantes.
+[!UICONTROL Triggers] en Experience Cloud le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes.
 
 ## Información general sobre Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Puede usar Triggers en las decisiones en tiempo real y la personalización. Por 
 * Formularios y aplicaciones incompletos
 * Cualquier acción o secuencia de acciones en el sitio
 
-![ejemplo de déclencheur](assets/trigger-abandonment-2.png)
+![Ejemplo de activador](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Ejemplos de Triggers de Experience Cloud:
 
 Por ejemplo, en la siguiente página se muestran reglas que podría usar para un Trigger de [!UICONTROL abandono del carro de compras] en función de los productos que se han visto durante una visita.
 
-![Déclencheur de abandono del carro de compras](assets/abandonment-trigger.png)
+![Activador de abandono del carro de compras](assets/abandonment-trigger.png)
 
 #### Trigger referente
 
 El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
-![Déclencheur del referente](assets/fb-boots-promo.png)
+![Activador de remitente del reenvío](assets/fb-boots-promo.png)
