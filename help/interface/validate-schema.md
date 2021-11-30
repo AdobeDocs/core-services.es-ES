@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ El proceso de validación le permite asignar nombres para mostrar y descripcione
 
 ![Edición de un esquema](assets/view_edit_schema.png)
 
-En la página [!UICONTROL Validar esquema], cada fila del esquema representa una columna del archivo CSV cargado.
+En la página [!UICONTROL Validación de un esquema], cada fila del esquema representa una columna del archivo CSV cargado.
 
-![Validar página de esquema en el Experience Cloud](assets/06_crs_usecase.png)
+![Validación de una página de esquema en Experience Cloud](assets/06_crs_usecase.png)
 
 * **[!UICONTROL Añadir datos:]** Le permite cargar datos de atributo nuevos a esta fuente de datos.
 
 * **[!UICONTROL Ver/Editar Esquema:]** Asigna nombres para mostrar en los datos de atributo, como se describe en el siguiente paso.
 
-* **[!UICONTROL Configuración de FTP:]** [ Cargue los datos a través de un FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL Configuración de FTP:]** [Cargue los datos a través de un FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 * **[!UICONTROL Búsqueda de ID:]** Introduzca un ID de cliente (CID) de su `.csv` para buscar información sobre ese ID en Experience Cloud. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
 
