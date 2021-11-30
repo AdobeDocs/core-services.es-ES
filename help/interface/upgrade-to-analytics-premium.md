@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ La actualización a Predictive Intelligence habilita [Analytics Premium](upgrade
 
 | Producto | Actualizaciones |
 |---|---|
-| Informes y análisis | [Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=es) |
 | Data Workbench | Espacios de trabajo creados previamente para cualificaciones de audiencia y marketing predictivo. |
 | Plataforma de Analytics | Reproducción en directo (tableros y Triggers) |
 
@@ -88,7 +88,7 @@ Cualquier software que se ejecute on-premise debe desactivarse. Este software in
 
 ## Experience Cloud: Administración de usuarios y productos {#section_6471C54454024301B2E0B687F79F6738}
 
-Los servicios principales y de Experience Cloud están disponibles para los usuarios de Analytics Standard y Premium si ha realizado la modernización de la implementación descrita en [Introducción: Habilite las aplicaciones para los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
+Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus aplicaciones para utilizar los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
 
 Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experience.adobe.com] y comenzar a usar los servicios principales, incluidos los Atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
 
@@ -96,8 +96,8 @@ Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Clou
 
 La administración de usuarios se realiza en [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) (vínculo del producto).
 
-Puede configurar una asignación individual entre un grupo creado en Adobe Admin Console y un grupo de soluciones (como Adobe Analytics). A continuación, un nuevo usuario agregado al grupo de Admin Console asignado tiene una cuenta de aplicación de Analytics creada automáticamente y vinculada al Adobe ID del usuario. (Los usuarios existentes deben vincular manualmente sus credenciales de cuenta de la aplicación para acceder a las aplicaciones mediante el inicio de sesión del Experience Cloud).
+Puede configurar una asignación individual entre un grupo creado en Adobe Admin Console y un grupo de soluciones (como Adobe Analytics). A partir de entonces, un nuevo usuario añadido al grupo de Admin Console asignado tiene una cuenta de aplicaciones de Analytics creada automáticamente y vinculada al Adobe ID del usuario. (Los usuarios existentes deben vincular manualmente sus credenciales de cuenta de la aplicación para acceder a las aplicaciones mediante el inicio de sesión de Experience Cloud).
 
 >[!NOTE]
 >
->Puede asignar varios grupos de aplicaciones a un grupo de Admin Console. Sin embargo, Adobe recomienda la asignación individual. Al asignar los grupos con antelación, puede invitar, crear, autorizar y agregar varios usuarios cargando un CSV.
+>Se pueden asignar varios grupos de aplicaciones a un grupo de Admin Console. Sin embargo, Adobe recomienda la asignación individual. Al asignar los grupos con antelación, puede invitar, crear, autorizar y agregar varios usuarios cargando un CSV.
