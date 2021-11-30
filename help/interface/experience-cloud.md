@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejor
 
 ## Obtener ayuda sobre administración y servicios entre aplicaciones
 
-Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y productos Experience Cloud en el Admin Console, lo que permite las aplicaciones para los servicios de plataforma. También puede acceder a la ayuda de la Biblioteca de audiencias, atributos del cliente, activos de Experience Cloud y mucho más:
+Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y productos de Experience Cloud en Admin Console, lo que permite crear aplicaciones para los servicios de plataforma. También puede acceder a la ayuda de la Biblioteca de audiencias, atributos del cliente, activos de Experience Cloud y mucho más:
 
 * [[!UICONTROL Biblioteca de audiencias]](audience-library.md)
 * [[!UICONTROL Atributos del cliente]](attributes.md)
@@ -165,7 +165,7 @@ Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y 
 * [[!UICONTROL Recursos] de Experience Cloud](experience-cloud-assets.md)
 * [Cookies de Experience Cloud](cookies-privacy.md)
 * [Administración de usuarios y productos](admin-getting-started.md) (Admin Console)
-* [Habilitar las aplicaciones para los servicios principales](core-services.md)
+* [Activación de las aplicaciones para los servicios principales](core-services.md)
 * [Preguntas frecuentes](admin-getting-started.md)
 * [Organizaciones y vinculación de cuentas](organizations.md)
 * [Integraciones](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
-* [Documentación del producto para todas las aplicaciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es) - Busque ayuda en Información y asistencia para Experience Cloud .
+* [Documentación del producto para todas las aplicaciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es): busque ayuda en Aprendizaje y asistencia de Experience Cloud
 * [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
-* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
+* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=es): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK): Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de sus productos
 * [Blog de la experiencia del cliente](https://blog.adobe.com/es/topics/digital-transformation.html): Lea el blog de Experience Cloud
