@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '774'
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+workflow-type: tm+mt
+source-wordcount: '773'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nue
 
 ## ¿Cómo puedo resolver mis dudas acerca de la migración de mi empresa?
 
-[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
+[Póngase en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## ¿Qué es el _aprovisionamiento?_
 
@@ -70,13 +70,13 @@ El aprovisionamiento de Experience Cloud significa que:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 ## ¿Qué puedo hacer si alguien no puede iniciar sesión en la interfaz de Experience Cloud?
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support) para verificar que su empresa esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General#support) para verificar que su empresa esté plenamente aprovisionada.
 
 ## ¿Dónde puede ir un usuario para administrar la vinculación de cuentas?
 
@@ -90,7 +90,7 @@ Consulte [Administración de cuentas de usuario](organizations.md#topic_C31CB834
 
 ## ¿Qué es una organización?
 
-Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+Una *organización* es la entidad que permite a un administrador configurar grupos y usuarios, así como controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
 ## ¿Dónde puedo encontrar mi ID de organización de IMS?
 
