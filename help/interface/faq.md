@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nue
 
 [Póngase en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
-## ¿Cómo se puede [!DNL Adobe Support] acceda a mi entorno de nube de Adobe para solucionar un problema .
+## ¿Cómo se puede [!DNL Adobe Support] acceder a mi entorno de nube de Adobe para solucionar un problema?
 
-[!DNL Adobe Support] puede enviar una solicitud de suplantación para la que reciba un correo electrónico de marca Adobe (ejemplo abajo) en el que solicite su autorización explícita. El acceso se concede por un tiempo limitado. Una vez concedido, usted puede revocar el acceso en cualquier momento. Adobe registra todas las acciones realizadas por los representantes del Adobe.
+[!DNL Adobe Support] puede enviar una solicitud de suplantación para la que recibirá un correo electrónico de marca Adobe (ejemplo abajo) en el que solicite su autorización explícita. El acceso se concede por tiempo limitado. Una vez concedido, usted puede revocarlo en cualquier momento. Adobe registra todas las acciones realizadas por los representantes de Adobe.
 
 ![](/help/interface/admin-getting-started/assets/support-email.png)
 
