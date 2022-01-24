@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 * Se ha actualizado el conmutador de aplicación para incluir Marketo en el paquete de aplicaciones de Experience Cloud y se han añadido actualizaciones de marca en Experience Platform. (MCUI-6529)
 * Se ha actualizado Experience Cloud Home para incluir vínculos de navegación a las páginas de Fuentes y Administración. (MCUI-6682)
-* Se ha corregido un problema en la definición [!UICONTROL de activador] para el uso correcto de la cláusula &quot;like&quot;. (MCUI-6611)
+* Se ha corregido un problema en la definición de [!UICONTROL activador] para el uso correcto de la cláusula &quot;like&quot;. (MCUI-6611)
 * Se han mejorado los Atributos del cliente para un mejor inicio de sesión en el servicio de Suscripción. (MCUI-6519)
 
 ## Versión 19.1.1: 17 de enero de 2019
@@ -256,7 +256,7 @@ No hay información disponible.
 
 * Se ha corregido un problema que impedía que los atributos del cliente se sincronizaran para algunos clientes.
 * Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) se mostrara en japonés.
-* Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud]el.
+* Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud] el.
 
 ## Versión 15.4.1: 8 de abril de 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
