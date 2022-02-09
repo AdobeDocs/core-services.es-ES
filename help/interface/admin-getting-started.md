@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
+source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1557'
 ht-degree: 69%
 
 ---
@@ -33,10 +33,10 @@ Consulte [Tipos de identidad en Adobe Admin Console](https://helpx.adobe.com/es/
 
 ### Proceso de migración
 
-Cuando sea el momento de la migración, los administradores de la organización recibirán un mensaje de correo electrónico de notificación 30 días antes de la migración. Este correo electrónico incluirá la fecha de migración.
+Cuando sea el momento de la migración, los administradores de la organización recibirán un mensaje de correo electrónico de notificación 30 días antes de la migración.
 
 * La migración se programará entre las 22:00. - 6 a.m., según la zona horaria principal de la organización o el fin de semana.
-* Durante la migración, es posible que la aplicación de Experience Cloud no sea accesible durante un máximo de 15 minutos y que el Admin Console esté inaccesible durante un máximo de 30 minutos. De lo contrario, esta migración se realizará sin problemas.
+* Durante la migración, la aplicación de Experience Cloud puede estar inaccesible durante aproximadamente 15 minutos y el Admin Console puede estar inaccesible hasta 30 minutos. De lo contrario, esta migración se realizará sin problemas.
 
 ### Cambios después de la migración
 
