@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: ht
-source-wordcount: '4525'
-ht-degree: 100%
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+workflow-type: tm+mt
+source-wordcount: '4606'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,14 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Febrero de 2022
+
+| Función | Descripción |
+| ------- |-------|
+| Métodos abreviados (**[!UICONTROL Recientes]**) se ha agregado a [Experience Cloud](https://experience.adobe.com/home) home | Puede acceder a los accesos directos a su trabajo más reciente de Journey Optimizer y Experience Platform en la sección _Recientes_ en la página de aterrizaje. Esta actualización también incluye mejoras generales de diseño y capacidad de respuesta. |
+| **[!UICONTROL Sandboxes]** se ha movido a la barra de encabezado | El indicador Sandboxes ahora está integrado en el encabezado para todas las aplicaciones de interfaz de Experience Platform. Consulte [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) en Experience Platform para obtener más información. |
+
 
 ## Noviembre de 2021
 
