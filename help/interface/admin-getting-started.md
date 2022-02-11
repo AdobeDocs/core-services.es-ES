@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1567'
 ht-degree: 69%
 
 ---
@@ -141,7 +141,8 @@ Tras la migración, los usuarios iniciarán sesión con su Adobe ID (o Enterpris
 
 **Ayuda relacionada**
 
-Para obtener más información, consulte [Migración de ID de usuario de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es).
+* [Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Migración de ID de usuario de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es)
 
 ## Administrar Adobe Target: Perfiles de producto vs. Espacios de trabajo {#section_3860AF177C9E4C7E9C390D36A414F353}
 

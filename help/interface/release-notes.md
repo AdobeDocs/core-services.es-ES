@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 98%
@@ -30,7 +30,6 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 | ------- |-------|
 | Métodos abreviados (**[!UICONTROL Recientes]**) se ha agregado a [Experience Cloud](https://experience.adobe.com/home) home | Puede acceder a los accesos directos a su trabajo más reciente de Journey Optimizer y Experience Platform en la sección _Recientes_ en la página de aterrizaje. Esta actualización también incluye mejoras generales de diseño y capacidad de respuesta. |
 | **[!UICONTROL Sandboxes]** se ha movido a la barra de encabezado | El indicador Sandboxes ahora está integrado en el encabezado para todas las aplicaciones de interfaz de Experience Platform. Consulte [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) en Experience Platform para obtener más información. |
-
 
 ## Noviembre de 2021
 
