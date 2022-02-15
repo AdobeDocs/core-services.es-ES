@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 98%
+source-wordcount: '1541'
+ht-degree: 82%
 
 ---
 
@@ -105,18 +105,59 @@ El menú [!UICONTROL Ayuda] también le permite acceder a:
 * **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
 * **[!UICONTROL Developer Connection]:** Navegación hasta `adobe.io` y búsqueda de documentación para desarrolladores.
 
-## Buscar globalmente objetos y entidades {#globally-search}
+## [!UICONTROL Búsqueda unificada] para objetos y entidades {#globally-search}
 
-La búsqueda global le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
+La variable [!UICONTROL Búsqueda unificada] search permite encontrar objetos o entidades empresariales que se pueden buscar en una experiencia de un solo clic, uniforme y sin fisuras. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
 
 ![Buscar globalmente objetos y entidades](assets/platform-search.png)
 
->[!NOTE]
->
->La búsqueda global no está disponible en todas las aplicaciones de Experience Cloud, pero a medida que se indexa más contenido, se añade a las aplicaciones relevantes. Disponibilidad a partir de julio de 2021:
+### Disponibilidad
 
-* Experience Platform
-* Journey Optimizer
+La búsqueda unificada se muestra en la parte superior de la página (en el encabezado del Experience Cloud) y siempre es visible para los productos compatibles, que actualmente son:
+
+* Experience Platform (AEP)
+* Journey Optimizer (AJO)
+
+A medida que se indexa más contenido, esta función se añadirá a las aplicaciones relevantes.
+
+### Objetos y campos que se pueden buscar
+
+A medida que escribe, los resultados principales coincidentes de los Objetos a los que tiene acceso para mostrar.
+
+![Búsqueda unificada en el Experience Cloud](assets/unified-search-results.png)
+
+Los objetos empresariales que se pueden buscar incluyen:
+
+* Segmentos (Nombre, Descripción)
+* Esquema (nombre, descripción)
+* Conjuntos de datos (nombre, descripción)
+* Fuentes (nombre, descripción)
+* Destinos (Nombre, Descripción)
+* Consultas (Nombre, Descripción)
+* Mensajes (nombre, descripción)
+* Ofertas (Nombre, Descripción)
+* Componentes (nombre, descripción)
+* Recorridos (Nombre, Descripción)
+
+Si una palabra clave coincide con una página de navegación, puede obtener un vínculo de acceso rápido a los conjuntos de datos de ejemplo de la página de navegación.
+
+También puede encontrar los artículos de ayuda de Experience League y Comunidades. Se admiten consultas de lenguajes naturales.
+
+Por ejemplo, _Cómo crear un esquema_ produce resultados del Experience League en _[!UICONTROL Aprendizaje]_:
+
+![Búsqueda unificada en la ayuda del Experience Cloud](assets/unified-search-learning.png)
+
+Los algoritmos de búsqueda muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
+
+* Permisos de usuario para acceder a objetos
+* Porcentaje de coincidencia
+* Coincidencias exactas
+* La variable _[!UICONTROL Resultados principales]_ muestra los 30 resultados principales.
+
+Para restringir la búsqueda, haga clic en una de las siguientes opciones:
+
+* **[!UICONTROL Todo el aprendizaje]**: Abre la búsqueda en el Experience League
+* **[!UICONTROL Mostrar todo...]**: Permite refinar y filtrar más los resultados
 
 ## Perfil de usuario y preferencias de cuenta {#preferences}
 
