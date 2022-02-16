@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 82%
@@ -156,8 +156,8 @@ Los algoritmos de búsqueda muestran primero los registros más relevantes. El o
 
 Para restringir la búsqueda, haga clic en una de las siguientes opciones:
 
-* **[!UICONTROL Todo el aprendizaje]**: Abre la búsqueda en el Experience League
-* **[!UICONTROL Mostrar todo...]**: Permite refinar y filtrar más los resultados
+* **[!UICONTROL Todo el aprendizaje]**: Abre la búsqueda en Experience League.
+* **[!UICONTROL Mostrar todo...]**: Permite refinar y filtrar aún más los resultados.
 
 ## Perfil de usuario y preferencias de cuenta {#preferences}
 
