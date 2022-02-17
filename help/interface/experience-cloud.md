@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 82%
+source-wordcount: '1540'
+ht-degree: 81%
 
 ---
 
@@ -35,9 +35,9 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
 1. Escriba la dirección de correo electrónico del Adobe y seleccione **[!UICONTROL Continuar]**.
 
-   Los administradores pueden consultar [autenticación de usuario del Experience Cloud](admin-getting-started.md#migration) para actualizaciones importantes de los tipos de identidad (ID empresarial).
+   Administrators, see [Experience Cloud user authentication](admin-getting-started.md#migration) for important updates to identity types (Business ID).
 
-1. Seleccione una cuenta.
+1. Select an account.
 1. Escriba la contraseña.
 1. Compruebe que se encuentra en la organización correcta.
 
@@ -113,12 +113,12 @@ La variable [!UICONTROL Búsqueda unificada] search permite encontrar objetos o 
 
 ### Disponibilidad
 
-La búsqueda unificada se muestra en la parte superior de la página (en el encabezado del Experience Cloud) y siempre es visible para los productos compatibles, que actualmente son:
+Unified search displays at the top of the page (in the Experience Cloud header) and is always visible for supported products, which currently are:
 
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-A medida que se indexa más contenido, esta función se añadirá a las aplicaciones relevantes.
+A medida que se indexa más contenido, esta función se añade a las aplicaciones relevantes.
 
 ### Objetos y campos que se pueden buscar
 
@@ -130,11 +130,11 @@ Los objetos empresariales que se pueden buscar incluyen:
 
 * Segmentos (Nombre, Descripción)
 * Esquema (nombre, descripción)
-* Conjuntos de datos (nombre, descripción)
+* Datasets (Name, Description)
 * Fuentes (nombre, descripción)
 * Destinos (Nombre, Descripción)
 * Consultas (Nombre, Descripción)
-* Mensajes (nombre, descripción)
+* Messages (Name, Description)
 * Ofertas (Nombre, Descripción)
 * Componentes (nombre, descripción)
 * Recorridos (Nombre, Descripción)
@@ -150,14 +150,14 @@ Por ejemplo, _Cómo crear un esquema_ produce resultados del Experience League e
 Los algoritmos de búsqueda muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
 
 * Permisos de usuario para acceder a objetos
-* Porcentaje de coincidencia
-* Coincidencias exactas
-* La variable _[!UICONTROL Resultados principales]_ muestra los 30 resultados principales.
+* Matching percentage
+* Exact matches
+* The _[!UICONTROL Top Results]_ section shows the Top 30 results.
 
-Para restringir la búsqueda, haga clic en una de las siguientes opciones:
+To refine your search, click one of the following:
 
 * **[!UICONTROL Todo el aprendizaje]**: Abre la búsqueda en Experience League.
-* **[!UICONTROL Mostrar todo...]**: Permite refinar y filtrar aún más los resultados.
+* **[!UICONTROL Show all...]**: Lets you further refine and filter results.
 
 ## Perfil de usuario y preferencias de cuenta {#preferences}
 
@@ -229,7 +229,7 @@ Las guías de Experience Cloud relacionadas incluyen:
 * [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 * [Recopilación de datos de Experience Platform/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es)
-* [API del Reglamento General de Protección de Datos (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [API del Reglamento General de Protección de Datos (RGPD)](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
 
 ## Tutoriales
@@ -237,15 +237,15 @@ Las guías de Experience Cloud relacionadas incluyen:
 Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience League:
 
 * [Todos los tutoriales de Experience League](https://experienceleague.adobe.com/?lang=es#quick-how-tos)
-* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=es)
+* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [Plataforma de datos de clientes en tiempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
 
 * [Documentación del producto para todas las aplicaciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es): busque ayuda en Aprendizaje y asistencia de Experience Cloud
 * [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
-* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
+* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK): Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de sus productos
-* [Blog de la experiencia del cliente](https://blog.adobe.com/es/topics/digital-transformation.html): Lea el blog de Experience Cloud
+* [Blog de la experiencia del cliente](https://blog.adobe.com/en/topics/digital-transformation): Lea el blog de Experience Cloud
 * [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support): Póngase en contacto con el Servicio de atención al cliente de Adobe
