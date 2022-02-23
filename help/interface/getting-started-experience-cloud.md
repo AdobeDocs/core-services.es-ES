@@ -12,7 +12,7 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 | [Iniciar Admin Console](admin-getting-started.md) | Admin Console es la ubicación central para administrar los usuarios de Adobe y las autorizaciones de productos en toda la organización.<br>También puede iniciar sesión en Admin Console utilizando un [enlace directo](https://adminconsole.adobe.com). |
 | [Gestionar usuarios de Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets permite a los especialistas en marketing compartir, sincronizar y colaborar en carpetas con diseñadores y otros recursos creativos mediante Creative Cloud. Aquí puede administrar los usuarios de Creative Cloud aprobados para colaborar con su organización. |
 | [Asignar grupos de informes](core-services.md) | (Solo Analytics) Los servicios principales de Experience Cloud están asociados a una organización en lugar de a un grupo de informes individual. Para garantizar que estos servicios funcionen correctamente, cada grupo de informes de Analytics debe asignarse a una organización. (Esta tarea es parte de un flujo de trabajo más amplio que [activa Analytics para servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [ID de organización](organizations.md) | La variable *ID de organización* se encuentra en la dirección URL cuando se encuentra en el Admin Console . También puede verlo en el [!UICONTROL Depurador de datos de usuario] elemento emergente (`ctrl+i` o `cmd+i`) desde cualquier página de `https://experience.adobe.com`. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+| [ID de organización](organizations.md) | El *ID de organización* se encuentra en la dirección URL en Admin Console. También puede verlo en el elemento emergente [!UICONTROL Depurador de datos de usuario] (`ctrl+i` o `cmd+i`) desde cualquier página de `https://experience.adobe.com`. Este ID es el ID asociado a la compañía de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
 
 {style=&quot;table-layout:auto&quot;}
 

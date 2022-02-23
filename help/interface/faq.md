@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un nue
 
 [!DNL Adobe Support] puede enviar una solicitud de suplantación para la que recibirá un correo electrónico de marca Adobe (ejemplo abajo) en el que solicite su autorización explícita. El acceso se concede por tiempo limitado. Una vez concedido, usted puede revocarlo en cualquier momento. Adobe registra todas las acciones realizadas por los representantes de Adobe.
 
-![Caso de compatibilidad con Adobe](assets/support-email.png)
+![Caso de soporte de Adobe](assets/support-email.png)
 
 ## ¿Qué es el _aprovisionamiento?_
 
