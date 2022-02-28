@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -92,14 +92,14 @@ Las siguientes funciones están disponibles en Búsqueda unificada.
 
 {style=&quot;table-layout:auto&quot;}
 
-## ¿No encuentra el resultado esperado o obtiene demasiados resultados?
+## ¿No lo encuentra?
 
 Pruebe estas sugerencias:
 
 * Escriba un término de búsqueda más específico
 * Revisar la ortografía
 * Intente escribir el término de búsqueda completo
-* Asegúrese de que tiene los permisos para el objeto que está buscando
+* Asegúrese de que tiene los permisos para los objetos que busca
 
 
 
