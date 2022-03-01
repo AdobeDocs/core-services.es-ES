@@ -7,17 +7,17 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
 
 # [!UICONTROL Búsqueda unificada] para objetos y entidades {#globally-search}
 
-La variable [!UICONTROL Búsqueda unificada] search permite encontrar objetos o entidades empresariales que se pueden buscar en una experiencia de un solo clic, uniforme y sin fisuras. Esta búsqueda muestra los objetos a los que ha accedido recientemente.
+La variable [!UICONTROL Búsqueda unificada] search permite encontrar objetos o entidades empresariales que se pueden buscar en una experiencia de un solo clic, uniforme y sin fisuras. Esta búsqueda también muestra los objetos a los que ha accedido recientemente.
 
 ![Buscar globalmente objetos y entidades](assets/platform-search.png)
 
@@ -44,16 +44,16 @@ Su capacidad y permisos de objeto Coincidencia porcentaje Si hay una coincidenci
 
 Los objetos empresariales que se pueden buscar incluyen:
 
-* Segmentos (Nombre, Descripción)
-* Esquema (nombre, descripción)
-* Conjuntos de datos (nombre, descripción)
-* Fuentes (nombre, descripción)
-* Destinos (Nombre, Descripción)
-* Consultas (Nombre, Descripción)
-* Mensajes (nombre, descripción)
-* Ofertas (Nombre, Descripción)
-* Componentes (nombre, descripción)
-* Recorridos (Nombre, Descripción)
+* Segmentos (nombre, descripción, ID)
+* Esquema (nombre, descripción, ID)
+* Conjuntos de datos (nombre, descripción, ID)
+* Fuentes (nombre, descripción, ID)
+* Destinos (nombre, descripción, ID)
+* Consultas (nombre, descripción, ID)
+* Mensajes (nombre, descripción, ID)
+* Ofertas (nombre, descripción, ID)
+* Componentes (nombre, descripción, ID)
+* Recorridos (nombre, descripción, ID)
 
 Si una palabra clave coincide con una página de navegación, puede obtener un vínculo de acceso rápido a los conjuntos de datos de ejemplo de la página de navegación. La sección de resultados principales muestra los 30 resultados principales.
 
