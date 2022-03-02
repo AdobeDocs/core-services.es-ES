@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 96%
 
 Información acerca de actualizaciones en la documentación de Experience Cloud.
 
-**Actualizado el 28/02/2022**
+**Actualizado: 28/2/2022**
 
 Se ha añadido una página para [Búsqueda unificada](search-experience-cloud.md)
 
-**Actualizado el 8/02/2022**
+**Actualizado: 8/2/2022**
 
 Actualizaciones sobre cómo encontrar su [ID de organización](organizations.md).
 

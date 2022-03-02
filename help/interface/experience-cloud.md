@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ Las guías de Experience Cloud relacionadas incluyen:
 Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience League:
 
 * [Todos los tutoriales de Experience League](https://experienceleague.adobe.com/?lang=es#quick-how-tos)
-* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Tutoriales de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=es)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 
 ## Notas de la versión y ayuda relacionada con Experience Cloud
@@ -193,5 +193,5 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 * [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK): Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de sus productos
-* [Blog de la experiencia del cliente](https://blog.adobe.com/en/topics/digital-transformation): Lea el blog de Experience Cloud
+* [Blog de la experiencia del cliente](https://blog.adobe.com/es/topics/digital-transformation): Lea el blog de Experience Cloud
 * [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support): Póngase en contacto con el Servicio de atención al cliente de Adobe
