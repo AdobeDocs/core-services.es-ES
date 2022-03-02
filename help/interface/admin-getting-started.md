@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Obtenga información acerca del inicio de sesión en Admin Console, y la adminis
 
 Puede ver una lista, que puede ordenarse y filtrarse, de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de los usuarios de Experience Cloud en la herramienta de administración](admin-tool-experience-cloud.md).
 
-## Autenticación de usuarios de Experience Cloud (migración planificada){#migration}
+## Autenticación de usuarios de Experience Cloud (migración planificada) {#migration}
 
 A partir de febrero de 2022, Adobe actualiza su sistema de administración de perfiles para permitir a las organizaciones administrar mejor los derechos empresariales a perfiles individuales. Como tal, todos los usuarios con un perfil personal, que corresponde a un Adobe ID individual (Type1), se migrarán a un nuevo perfil comercial. Este perfil corresponde a un _ID empresarial_ (Type2e).
 
@@ -33,10 +33,10 @@ Consulte [Tipos de identidad en Adobe Admin Console](https://helpx.adobe.com/es/
 
 ### Proceso de migración
 
-Cuando sea el momento de migrar, los administradores de la organización recibirán un mensaje de correo electrónico de notificación 30 días antes de la migración.
+Cuando sea el momento de migrar, los administradores de la organización recibirán un mensaje de correo electrónico como notificación 30 días antes de la migración.
 
-* La migración se programará entre las 22:00 - 6:00, según la zona horaria principal de la organización, o en fin de semana.
-* Durante la migración, la aplicación de Experience Cloud puede estar inaccesible durante aproximadamente 15 minutos y el Admin Console puede estar inaccesible hasta 30 minutos. Por lo demás, esta migración se realizará sin problemas.
+* La migración se programará entre las 22:00 y las 6:00, según la zona horaria principal de la organización, o en fin de semana.
+* Durante la migración, es posible que la aplicación Experience Cloud no sea accesible durante unos 15 minutos y Admin Console, durante un máximo de 30 minutos. Por lo demás, esta migración se realizará sin problemas.
 
 ### Cambios después de la migración
 
@@ -141,7 +141,7 @@ Tras la migración, los usuarios iniciarán sesión con su Adobe ID (o Enterpris
 
 **Ayuda relacionada**
 
-* [Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es)
 * [Migración de ID de usuario de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es)
 
 ## Administración de Adobe Target: perfiles de producto frente a espacios de trabajo {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -150,9 +150,9 @@ En Adobe Target, un espacio de trabajo es un perfil de producto. Permite que una
 
 Consulte:
 
-* [Permisos de usuario de Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Administrar productos y perfiles](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Permisos de usuario de Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=es)
+* [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/admin-guide.html/es/enterprise/using/manage-products.ug.html)
+* Vídeo: [Configurar espacios de trabajo de Adobe Target en Adobe Admin Console](https://helpx.adobe.com/es/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Administración de perfiles de producto, inquilinos y grupos de seguridad de Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -194,6 +194,6 @@ Consulte [Administración](https://experienceleague.adobe.com/docs/audience-mana
 
 ### Soluciones y requisitos del producto
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=es)
 * [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=es)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=es)
