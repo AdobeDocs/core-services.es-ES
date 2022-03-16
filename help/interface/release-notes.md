@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: ht
-source-wordcount: '4606'
-ht-degree: 100%
+source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+workflow-type: tm+mt
+source-wordcount: '4640'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Marzo de 2022
+
+| Función | Descripción |
+| ------- |-------|
+| Acceso [!UICONTROL Recientes] en Experience Platform y Journey Optimizer a través de la barra de búsqueda | Los usuarios ahora pueden acceder a los objetos a los que se ha accedido recientemente desde todas las páginas de AEP y AJO a través de la barra de búsqueda unificada. |
 
 ## Febrero - 2022
 
