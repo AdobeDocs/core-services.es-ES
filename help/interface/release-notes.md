@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
 ht-degree: 99%
@@ -294,7 +294,7 @@ No hay información disponible.
 
 **Correcciones**
 
-* Se ha corregido un problema que impedía el inicio de sesión único entre [!DNL Experience Cloud] y [!DNL Media Optimizer].
+* Se ha corregido un problema que impedía el inicio de sesión único entre [!DNL Experience Cloud] y [!DNL Advertising Cloud].
 
 **Problemas conocidos**
 
@@ -386,7 +386,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los usuarios no pueden compartir archivos de PowerPoint en tableros.
 * Los cambios en grupos y autorizaciones realizados en Administración de usuarios no se aplican hasta después de volver a iniciar sesión.
 * Algunos usuarios pueden tener problemas al cargar tipos de archivos de tamaño grande a los recursos de Experience Cloud.
-* Los usuarios pueden echar en falta enlaces en sus tarjetas de Experience Cloud procedentes de Media Optimizer.
+* Es posible que los usuarios no tengan vínculos en sus tarjetas de Experience Cloud de Advertising Cloud.
 * Algunos usuarios administrativos pueden tener problemas al enlazar sus cuentas después de aceptar una invitación para unirse a Experience Cloud.
 * El rendimiento de la interfaz de Experience Cloud se puede reducir cuando varios usuarios la utilizan en paralelo.
 * Algunos usuarios pueden eliminar un recurso que no esté actualizado en lugar de recibir una notificación de error.
@@ -595,7 +595,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 **Correcciones**
 
 * [!DNL Experience Cloud] no se estaba vinculando a [!DNL Adobe Target]. Este problema ocurría si el inicio de sesión en [!DNL Adobe Target] se puede usar en varios servidores de [!DNL Target].
-* [!DNL Adobe Media Optimizer] no creaba usuarios automáticamente cuando estos se habían creado en [!DNL Experience Cloud].
+* [!DNL Adobe Advertising Cloud] no creaba usuarios automáticamente cuando estos se habían creado en [!DNL Experience Cloud].
 * Las opciones en los cuadros combinados utilizados para agregar nuevos usuarios de forma temporal desaparecían al escribir.
 * El vínculo Comentarios en la vista de tarjetas de recursos no se podía seleccionar.
 * Después de agregar una etiqueta personalizada a un recurso, no se mantenían otros cambios en los metadatos.
@@ -643,12 +643,12 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * El vínculo Comentarios en la vista de tarjetas de recursos no se puede seleccionar.
 * Las opciones en los cuadros combinados para agregar nuevos usuarios de forma temporal desaparecen al escribir.
 * El inicio de sesión en [!DNL Experience Cloud] tarda más de un segundo.
-* Los datos compartidos de [!DNL Media Optimizer] no se representan correctamente en [!DNL Experience Cloud].
-* Adobe [!DNL Media Optimizer] no crea usuarios automáticamente cuando el usuario ha sido creado en [!DNL Experience Cloud].
+* Los datos compartidos de [!DNL Advertising Cloud] no se representan correctamente en [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] no crea usuarios automáticamente cuando el usuario ha sido creado en [!DNL Experience Cloud].
 * [!DNL Experience Cloud] no se puede vincular a [!DNL Adobe Target] si las credenciales de [!DNL Adobe Target] se pueden usar en varios servidores de [!DNL Target].
 * La interfaz de [!DNL Experience Cloud] se puede ralentizar cuando la usan en paralelo varios usuarios.
 * Los vínculos de [!DNL Search&Promote] no están disponibles en la página [!UICONTROL Organización y acceso a productos].
-* Las tarjetas de simulación de [!DNL Adobe Media Optimizer] no se representan correctamente.
+* Las tarjetas de simulación de [!DNL Adobe Advertising Cloud] no se representan correctamente.
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
 * Los filtros aplicados en los informes de tendencias de Analytics no se aplican a las tarjetas en Experience Cloud.
 * Algunos archivos CSV o de Excel no pueden cargarse en un tablero.
@@ -664,7 +664,7 @@ La versión 14.3.1 es una versión de mantenimiento que se centra en la velocida
 **Correcciones**
 
 * Se añadió la capacidad de eliminar la imagen del avatar.
-* Se ha corregido un problema impedía desvincular cuentas de [!DNL Adobe Media Optimizer].
+* Se ha corregido un problema impedía desvincular cuentas de [!DNL Adobe Advertising Cloud].
 
 **Problemas conocidos**
 
@@ -678,16 +678,16 @@ La versión 14.3.1 es una versión de mantenimiento que se centra en la velocida
 * Experience Cloud no se puede vincular a [!DNL Adobe Target] si las credenciales de [!DNL Adobe Target] se pueden usar en varios servidores de Target.
 * El inicio de sesión en Experience Cloud tarda más de un segundo.
 * Después de agregar una etiqueta personalizada a un recurso, no se pueden mantener otros cambios en los metadatos.
-* [!DNL Adobe Media Optimizer] no crea usuarios automáticamente cuando el usuario ha sido creado en Experience Cloud.
+* [!DNL Adobe Advertising Cloud] no crea usuarios automáticamente cuando el usuario ha sido creado en Experience Cloud.
 * Las opciones en los cuadros combinados para agregar nuevos usuarios de forma temporal desaparecen al escribir.
-* Los datos compartidos de [!DNL Media Optimizer] no se representan correctamente en Experience Cloud.
+* Los datos compartidos de [!DNL Advertising Cloud] no se representan correctamente en Experience Cloud.
 * Se producen errores al compartir imágenes de Flickr.
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en Experience Cloud.
 * Los cambios en grupos y autorizaciones realizados en administración de usuarios no se aplican hasta después de volver a iniciar sesión.
 * Los vínculos de [!DNL Search&Promote] no están disponibles en [!UICONTROL Acceso de organizaciones y productos].
 * Los usuarios deben actualizar el tablero para que las tarjetas eliminadas desaparezcan de la vista.
 * Algunos archivos CSV o de Excel no pueden cargarse en un tablero.
-* Las tarjetas de simulación de [!DNL Adobe Media Optimizer] no se representan correctamente.
+* Las tarjetas de simulación de [!DNL Adobe Advertising Cloud] no se representan correctamente.
 * Algunos archivos PNG no se pueden representar en una tarjeta.
 * No se puede enviar el comentario de la versión beta.
 
