@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,8 @@ Vaya a un recurso (o a un directorio de recursos) y escoja **[!UICONTROL Selecci
 La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
 
 ![Acceso a la barra de herramientas](assets/asset-tools.png)
+
+! Tenga en cuenta que para eliminar los recursos que se utilizaron o se están utilizando en Target, deberá eliminar todos los usos de dicho recurso.
 
 ## Edición de recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
