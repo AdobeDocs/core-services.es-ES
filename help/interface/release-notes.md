@@ -28,7 +28,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Función | Descripción |
 | ------- |-------|
-| Acceso [!UICONTROL Recientes] en Experience Platform y Journey Optimizer a través de la barra de búsqueda | Los usuarios ahora pueden acceder a los objetos a los que se ha accedido recientemente desde todas las páginas de AEP y AJO a través de la barra de búsqueda unificada. |
+| Acceda a [!UICONTROL Recientes] en Experience Platform y Journey Optimizer a través de la barra de búsqueda | Los usuarios ahora pueden acceder a los objetos a los que se ha accedido recientemente desde todas las páginas de AEP y AJO a través de la barra de búsqueda unificada. |
 
 ## Febrero - 2022
 
