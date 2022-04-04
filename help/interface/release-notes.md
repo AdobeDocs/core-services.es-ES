@@ -12,7 +12,7 @@ exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los usuarios no pueden compartir archivos de PowerPoint en tableros.
 * Los cambios en grupos y autorizaciones realizados en Administración de usuarios no se aplican hasta después de volver a iniciar sesión.
 * Algunos usuarios pueden tener problemas al cargar tipos de archivos de tamaño grande a los recursos de Experience Cloud.
-* Es posible que los usuarios no tengan vínculos en sus tarjetas de Experience Cloud de Advertising Cloud.
+* Los usuarios pueden echar en falta vínculos en sus tarjetas de Experience Cloud procedentes de Advertising Cloud.
 * Algunos usuarios administrativos pueden tener problemas al enlazar sus cuentas después de aceptar una invitación para unirse a Experience Cloud.
 * El rendimiento de la interfaz de Experience Cloud se puede reducir cuando varios usuarios la utilizan en paralelo.
 * Algunos usuarios pueden eliminar un recurso que no esté actualizado en lugar de recibir una notificación de error.
