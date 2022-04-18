@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
 workflow-type: tm+mt
-source-wordcount: '4640'
-ht-degree: 100%
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Abril de 2022
+
+| Función | Descripción |
+| ------- |-------|
+| Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de ayuda, a través de una sola interfaz a través de la búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Marzo de 2022
 
