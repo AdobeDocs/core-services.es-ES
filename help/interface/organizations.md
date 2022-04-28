@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 85%
 
 ---
 
@@ -32,25 +32,35 @@ Por ejemplo, para una organización con Federated IDs y el dominio `adobecustome
 
 ![Resultado de los pasos](assets/organization-switch.png)
 
-## Búsqueda del ID de organización {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Ver el ID de organización {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Además, es posible que deba localizar el ID de su organización con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
+Es posible que deba localizar el identificador de organización asignado con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
 
 El identificador de organización es el ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
 
-Puede ver su ID de organización, junto con otra información de la cuenta, mediante el método abreviado de teclado **Ctrl + i** desde cualquier página en `https://experience.adobe.com`. A continuación, haga clic en la pestaña **[!UICONTROL Organizaciones asignadas]** en el cuadro de diálogo.
+Puede ver su ID de organización, junto con otra información de la cuenta, mediante el método abreviado de teclado **Ctrl + i** desde cualquier página en `https://experience.adobe.com`.
 
-![ID de organización asignado](assets/assigned-organization.png)
+**Para ver su ID de organización**
 
-Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y ver su ID de organización de IMS en la URL.
+1. En [Experience Cloud](https://experience.adobe.com.), pulse **Ctrl + i** en el teclado.
 
-Por ejemplo, en la siguiente dirección URL:
+   ![ID de organización asignado](assets/assigned-organization.png)
 
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+1. Haga clic en el **[!UICONTROL Organizaciones asignadas]** en el cuadro de diálogo.
 
-El identificador es:
+1. Haga clic en el nombre de su organización.
 
-`C538193582390300A495CC9@AdobeOrg`
+1. Buscar **[!UICONTROL ID]**.
+
+   Los administradores también pueden iniciar sesión en el Admin Console (Vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y ver su ID de organización en la dirección URL.
+
+   Por ejemplo, en la siguiente dirección URL:
+
+   `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+   El identificador es:
+
+   `C538193582390300A495CC9@AdobeOrg`
 
 ## Vinculación de una cuenta de aplicaciones a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 

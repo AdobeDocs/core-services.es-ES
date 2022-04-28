@@ -1,15 +1,15 @@
 ---
 title: 'Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California '
 description: Conozca el cumplimiento de atributos del cliente con la Ley de privacidad del consumidor de California.
-feature: Atributos del cliente
-topic: Administración
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
@@ -37,11 +37,11 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
 
 1. Identificar lo siguiente:
 
-   * ID de organización IMS
+   * [ID de organización](#organizations.md)
    * ID de alias de la fuente de datos de CRS en la que desea actuar
    * ID de CRM del perfil en el que desea actuar
 
-   Un ID de organización de IMS es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de organización de IMS de su organización, póngase en contacto con el servicio de atención al cliente de Adobe a la dirección gdprsupport@adobe.com. Necesitará el ID de organización de IMS para enviar solicitudes a la API de privacidad.
+   Su [ID de organización](#organizations.md) es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Necesita el ID de la organización para enviar solicitudes a la API de privacidad. Póngase en contacto con el servicio de atención al cliente de Adobe en `gdprsupport@adobe.com` si no encuentra el ID.
 
 1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los Atributos del cliente y comprobar el estado de las solicitudes existentes.
 
@@ -50,7 +50,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
 &quot;contexto de compañía&quot;:
 
 * &quot;área de nombres&quot;: **imsOrgID**
-* &quot;valor&quot;: &lt;*su valor de ID de organización de IMS*>
+* &quot;valor&quot;: &lt;*su valor de ID de organización*>
 
 &quot;usuarios&quot;:
 
