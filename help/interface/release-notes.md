@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Función | Descripción |
 | ------- |-------|
-| Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de ayuda, a través de una sola interfaz a través de la búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
+| Búsqueda en lenguaje natural | Obtenga respuestas instantáneas a todas sus preguntas de asistencia a través de una sola interfaz mediante búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
