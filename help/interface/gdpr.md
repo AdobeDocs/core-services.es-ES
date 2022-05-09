@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud actúa como procesador de datos para cualquier dato perso
 
 Este documento describe cómo los [!UICONTROL Atributos del cliente] admiten los derechos de acceso y eliminación de datos del RGPD de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
-Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y Su empresa](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y Su empresa](https://business.adobe.com/es/privacy/general-data-protection-regulation.html).
 
 ## Configuración necesaria para enviar solicitudes de [!UICONTROL Atributos del cliente]
 
@@ -39,7 +39,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
    * ID de alias de la fuente de datos de CRS en la que desea actuar
    * ID de CRM del perfil en el que desea actuar
 
-   Su [ID de organización](#organizations.md) es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Necesita el ID de la organización para enviar solicitudes a la API de privacidad. Póngase en contacto con el servicio de atención al cliente de Adobe en `gdprsupport@adobe.com` si no encuentra el ID.
+   Su [ID de organización](#organizations.md) es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Necesita el ID de organización para enviar solicitudes a la API de Privacidad. Póngase en contacto con el servicio de atención al cliente de Adobe en `gdprsupport@adobe.com` si no encuentra el ID.
 
 1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los Atributos del cliente y comprobar el estado de las solicitudes existentes.
 
