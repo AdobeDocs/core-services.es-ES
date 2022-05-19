@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Si desea asegurarse de que el servidor de recopilación coincida con el dominio 
 
 >[!NOTE]
 >
->Independientemente de si el dominio de recopilación coincide con el del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple crea las cookies de origen configuradas por Adobe de corta duración en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
+>Independientemente de si el dominio de recopilación coincide con el dominio del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple establece cookies de origen configuradas por Adobe en navegadores que se rigen por ITP, que incluyen Safari en macOS y todos los navegadores en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
 
 Si desea establecer un CNAME para la recopilación de datos y si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL.
 
