@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +24,21 @@ Para obtener una lista de actualizaciones de documentación, consulte [Experienc
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
+## Julio de 2022
+
+Versión planificada: **11 de julio de 2022**
+
+| Función | Descripción |
+| ------- | ------- |
+| Inicio unificado: Utilidad de acceso rápido | **Navegar más rápido:** Ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva función de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Acceso rápido]. <br>**Manténgase informado con el posicionamiento inteligente:** Sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un _Nuevo_ distintivo y autoanclaje a [!UICONTROL Acceso rápido]. |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## Abril de 2022
 
 | Función | Descripción |
 | ------- |-------|
-| Búsqueda en lenguaje natural | Obtenga respuestas instantáneas a todas sus preguntas de asistencia a través de una sola interfaz mediante búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
+| Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de asistencia a través de una sola interfaz mediante búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
