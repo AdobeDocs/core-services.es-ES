@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Versión planificada: **11 de julio de 2022**
 
 | Función | Descripción |
 | ------- | ------- |
-| Inicio unificado: Utilidad de acceso rápido | **Navegar más rápido:** Ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva función de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Acceso rápido]. <br>**Manténgase informado con el posicionamiento inteligente:** Sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un _Nuevo_ distintivo y autoanclaje a [!UICONTROL Acceso rápido]. |
+| Inicio unificado: widget de Acceso rápido | **Navegue más rápido:** ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva función de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Acceso rápido]. <br>**Manténgase informado con el anclaje inteligente:** sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un distintivo de _Nuevo_ y se autoanclan a [!UICONTROL Acceso rápido]. |
 
 {style=&quot;table-layout:auto&quot;}
 
