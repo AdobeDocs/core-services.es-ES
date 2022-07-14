@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a Experience Cloud.
+description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a Experience Cloud.
 keywords: Servicios de Adobe Experience Cloud
 solution: Experience Cloud
 title: 'Organizaciones y vinculación de cuentas '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
+source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Puede ver su ID de organización, junto con otra información de la cuenta, medi
 
 **Para ver su ID de organización**
 
-1. En [Experience Cloud](https://experience.adobe.com.), pulse **Ctrl + i** en el teclado.
+1. En [Experience Cloud](https://experience.adobe.com), pulse **Ctrl + i** en el teclado.
 
    ![ID de organización asignado](assets/assigned-organization.png)
 
