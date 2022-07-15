@@ -7,7 +7,7 @@ index: true
 source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 + [Guía de componentes de la interfaz central de Experience Cloud](experience-cloud.md)
 + Servicios de Experience Cloud {#services}
    + [Servicios de Experience Cloud](core-services-landing.md)
-   + [Búsqueda unificada en el Experience Cloud](search-experience-cloud.md)
+   + [Búsqueda unificada en Experience Cloud](search-experience-cloud.md)
    + [Activación de la implementación para servicios entre aplicaciones](core-services.md)
    + Biblioteca de audiencias de Experience Cloud {#audiences}
       + [Audiencias de Experience Cloud](audience-library.md)
