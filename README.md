@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 92%
 
 ---
 # Artículo sobre colaboración
@@ -27,7 +27,7 @@ Las correcciones o aclaraciones menores que envía para la documentación y los 
 
 ### Cambios importantes o nuevos artículos de miembros de la comunidad
 
-Si forma parte de la comunidad de Adobe y desea crear un artículo nuevo o enviar cambios importantes, utilice la pestaña Problemas del repositorio Git para enviar un problema e iniciar una conversación con el equipo de documentación. Una vez que haya establecido un plan, tendrá que trabajar con un empleado para ayudar a incorporar ese nuevo contenido a través de una combinación de trabajo en los repositorios públicos y privados.
+Si forma parte de la comunidad de Adobe y desea crear un artículo nuevo o enviar cambios importantes, utilice la pestaña Problemas del repositorio Git para enviar un problema e iniciar una conversación con el equipo de documentación. Una vez que haya aceptado un plan, puede trabajar con un empleado para ayudar a traer ese nuevo contenido a través de una combinación de trabajo en los repositorios públicos y privados.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -56,5 +56,5 @@ Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si n
 
 En el repositorio público, las etiquetas automatizadas se asignan a solicitudes de extracción para ayudarnos a administrar el flujo de trabajo de la solicitud de extracción y para saber qué sucede con su solicitud de extracción:
 
-* **Cambio enviado al autor**: se ha notificado al autor de la solicitud de extracción pendiente.
-* **preparado-para-fusionar**: listo para su revisión por nuestro equipo de revisión de solicitud de extracción.
+* **Change sent to author**: se ha notificado al autor de la solicitud de extracción pendiente.
+* **ready-to-merge**: listo para su revisión por nuestro equipo de revisión de solicitud de extracción.
