@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Contribución
@@ -22,11 +22,12 @@ Comience por enviar un problema. Los supervisores de este proyecto trabajan para
 ## Acuerdo de licencia de colaborador
 
 Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia
-para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](http://opensource.adobe.com/cla.html). Usted envía un CLA de Adobe solo una vez, así que si ha enviado uno anteriormente, está listo para irse!
+para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](http://opensource.adobe.com/cla.html). Envía un contrato de licencia de colaborador de Adobe solo una vez, por lo que, si ha enviado uno anteriormente, ya está listo para comenzar.
 
 ## Revisiones de código
 
-Todas las presentaciones deben presentarse en forma de solicitudes de extracción y deben ser revisadas por los comités de proyectos. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
+Todos los envíos deben ser solicitudes de extracción y deben ser revisados
+por los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
