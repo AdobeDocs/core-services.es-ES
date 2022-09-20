@@ -4,17 +4,17 @@ keywords: integraciones;Triggers
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: 'Información general sobre Triggers '
+title: Información general sobre Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. En Experience Cloud, seleccione ![](assets/menu-icon.png) y, a continuación, **[!UICONTROL Recopilación de datos/Launch]**.
+1. En el Experience Cloud , seleccione ![menú](assets/menu-icon.png)y, a continuación, seleccione **[!UICONTROL Recopilación/lanzamiento de datos]**.
 2. En la tarjeta [!UICONTROL Triggers], seleccione **[!UICONTROL Administrar Triggers]**.
 3. Seleccione **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 

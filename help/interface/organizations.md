@@ -2,17 +2,17 @@
 description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a Experience Cloud.
 keywords: Servicios de Adobe Experience Cloud
 solution: Experience Cloud
-title: 'Organizaciones y vinculación de cuentas '
+title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 78%
 
 ---
 
@@ -64,7 +64,7 @@ Normalmente, los administradores de Experience Cloud otorgan acceso a aplicacion
 
 1. Siga los pasos de la invitación del correo electrónico para utilizar Experience Cloud.
 1. Inicie sesión con su Adobe ID o Enterprise ID.
-1. Seleccione el selector de aplicaciones. (![](assets/menu-icon.png)).
+1. Seleccione el selector de aplicaciones. ( ![Todas las aplicaciones](assets/menu-icon.png)).
 
    ![Vinculación de una cuenta de aplicaciones a un Adobe ID](assets/solutions-active.png)
 

@@ -2,16 +2,16 @@
 description: Obtenga información sobre cómo utilizar las reglas de atributos para crear una audiencia y definir una audiencia compuesta en Adobe Experience Cloud.
 keywords: servicios principales
 solution: Experience Cloud
-title: 'Crear una audiencia '
+title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta
 **Para crear una audiencia**
 
 1. En [!DNL Experience Cloud], en [!DNL Experience Platform], seleccione **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de audiencias].**
-1. En la página [!UICONTROL Audiencias], seleccione **[!UICONTROL Nuevo]**. ![](assets/add_icon_small.png)
+1. En la página [!UICONTROL Audiencias], seleccione **[!UICONTROL Nuevo]**. ![Agregue](assets/add_icon_small.png)
 
    ![Resultado de los pasos](assets/audience_create_new.png)
 

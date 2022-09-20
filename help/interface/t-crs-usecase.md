@@ -2,17 +2,17 @@
 description: Obtenga información sobre cómo crear el origen de atributos del cliente y cargarlo en Adobe Experience Cloud.
 keywords: Atributos del cliente;servicios principales
 solution: Experience Cloud
-title: 'Crear un origen de Atributo del cliente y cargar el archivo de datos '
+title: Crear un origen de Atributo del cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 >
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
-1. En [!DNL Experience Cloud], seleccione el icono Menú ![](assets/menu-icon.png).
+1. En el [!DNL Experience Cloud], seleccione el menú  ![menú](assets/menu-icon.png) icono.
 1. En **[!DNL Experience Platform]**, seleccione **[!UICONTROL Personas]** > **[!UICONTROL Atributos del cliente]**.
 
    En la página [!UICONTROL Atributos del cliente] se gestionan y editan los orígenes de datos de atributos existentes.
@@ -120,7 +120,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       **Gráfico de carga de archivos**
 
-      ![](assets/file_upload_attributes.png)
+      ![attributes](assets/file_upload_attributes.png)
 
    * **[!UICONTROL ID de cliente único:]** Muestra cuántos ID únicos ha cargado en este origen de atributos.
 
