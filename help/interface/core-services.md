@@ -1,6 +1,5 @@
 ---
 description: Modernice sus aplicaciones de Adobe Analytics y Adobe Target para servicios entre aplicaciones. Empiece a utilizar los servicios de Experience Cloud.
-keywords: servicios principales;atributos del cliente
 solution: Experience Cloud
 title: Habilitar las aplicaciones para los servicios entre aplicaciones
 index: true
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2377'
 ht-degree: 96%
 
 ---

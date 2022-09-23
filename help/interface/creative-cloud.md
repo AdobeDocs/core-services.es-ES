@@ -1,16 +1,15 @@
 ---
-description: 'Obtenga información sobre cómo compartir carpetas y recursos entre Experience Cloud y Creative Cloud. '
-keywords: compartir recursos;Creative Cloud;servicios principales
+description: Obtenga información sobre cómo compartir carpetas y recursos entre Experience Cloud y Creative Cloud.
 solution: Experience Cloud
-title: 'Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud '
+title: Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '178'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

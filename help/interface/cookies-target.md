@@ -1,18 +1,17 @@
 ---
 description: Obtenga información sobre cómo Adobe Target usa cookies para ofrecer a los administradores del sitio web la capacidad de probar cuáles son las ofertas y el contenido en línea más relevantes para los visitantes.
-keywords: cookies,privacidad
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Cookies de Adobe Target '
+title: Cookies de Adobe Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: f787840475b2ac1dd585b1bd9cf21589ea077717
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 96%
+source-wordcount: '448'
+ht-degree: 92%
 
 ---
 
@@ -43,7 +42,7 @@ La cookie conserva unos valores para administrar la forma en que los visitantes 
 
 | Valor | Definición |
 | --- | --- |
-| session ID | Un identificador único para una sesión de usuario. De forma predeterminada, la sesión caduca tras 30 minutos de inactividad. Si está generando sessionId (por ejemplo, para implementaciones del lado del servidor), asegúrese de lo siguiente:<ul><li>El ID de sesión puede ser cualquier cadena imprimible, excepto un espacio, un signo de interrogación (? ) o una barra diagonal (/).</li><li>El ID de sesión debe tener entre 1 y 128 caracteres de longitud.</li><li>Para una sesión en particular, su valor debe ser el mismo en varias solicitudes</li><li>Nunca debe tener sesiones paralelas (sessionIds distintos) para un visitante determinado en ningún momento.</li></ul>El enrutamiento a un nodo en particular del clúster perimetral se realiza mediante el ID de sesión.<ul><li>La sesión está activa durante 30 minutos en el servidor. Por lo tanto, no debe utilizar un ID de sesión diferente para un `tntId/thirdPartyId` en particular en los 30 minutos posteriores a la última solicitud realizada con el `tntId/thirdPartyId`. De lo contrario, los cambios en el perfil podrían ser incoherentes e impredecibles.</li><li>Se debe utilizar un nuevo ID de sesión tras treinta minutos de inactividad de un visitante.</li><li>El uso del mismo ID de sesión con varios `tntIds/thirdPartyIds` puede provocar cambios impredecibles en los perfiles identificados por el `tntId/thirdPartyIDs`.</li></ul>**Nota**: Consulte el [límite en el número de solicitudes simultáneas](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=es#content-delivery) para un ID de sesión determinado. |
+| session ID | Un identificador único para una sesión de usuario. De forma predeterminada, la sesión caduca tras 30 minutos de inactividad. Si está generando sessionId (por ejemplo, para implementaciones del lado del servidor), asegúrese de lo siguiente:<ul><li>El ID de sesión puede ser cualquier cadena imprimible, excepto un espacio, un signo de interrogación (? ) o una barra diagonal (/).</li><li>El ID de sesión debe tener entre 1 y 128 caracteres de longitud.</li><li>Para una sesión en particular, su valor debe ser el mismo en varias solicitudes</li><li>Nunca debe tener sesiones paralelas (sessionIds distintos) para un visitante determinado en ningún momento.</li></ul>El enrutamiento a un nodo en particular del clúster perimetral se realiza mediante el ID de sesión.<ul><li>La sesión está activa durante 30 minutos en el servidor. Por lo tanto, no debe usar un ID de sesión diferente para un `tntId/thirdPartyId` en los 30 minutos siguientes a la última solicitud realizada con la variable `tntId/thirdPartyId`. De lo contrario, los cambios en el perfil podrían ser incoherentes e impredecibles.</li><li>Se debe utilizar un nuevo ID de sesión tras treinta minutos de inactividad de un visitante.</li><li>El uso del mismo ID de sesión con varios `tntIds/thirdPartyIds` puede provocar cambios impredecibles en los perfiles identificados por el `tntId/thirdPartyIDs`.</li></ul>**Nota**: Consulte el [límite en el número de solicitudes simultáneas](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=es#content-delivery) para un ID de sesión determinado. |
 | pc ID | Un ID semipermanente para el explorador de un visitante. Dura hasta que las cookies se eliminan manualmente. |
 | check | Un valor de prueba simple utilizado para determinar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
 | disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo at.js. De manera predeterminada, tiene una duración de 1 hora. |

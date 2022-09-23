@@ -1,6 +1,6 @@
 ---
 title: Administración de usuarios y productos
-description: Obtenga información sobre cómo iniciar sesión en Admin Console y administrar los permisos de usuario y perfiles de producto de Experience Cloud. Obtenga información acerca de la delegación de derechos administrativos a usuarios de Experience Cloud y sobre la compatibilidad del explorador con Experience Cloud.
+description: Inicie sesión en el Admin Console y administre los permisos y productos de usuario de Experience Cloud (perfiles de producto). Obtenga información acerca de la delegación de derechos administrativos a usuarios de Experience Cloud y sobre la compatibilidad del explorador con Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 99%
+source-wordcount: '1891'
+ht-degree: 98%
 
 ---
 

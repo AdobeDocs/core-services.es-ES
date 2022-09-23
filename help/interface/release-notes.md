@@ -1,18 +1,17 @@
 ---
-description: '''Últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como atributos del cliente, audiencias y administración de usuarios.'''
-keywords: servicios principales
+description: Obtenga información sobre las últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como Atributos del cliente, Audiencias y administración de usuarios.
 solution: Experience Cloud
-title: 'Notas de versión acumuladas '
+title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: ht
-source-wordcount: '4767'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '4768'
+ht-degree: 99%
 
 ---
 
@@ -150,7 +149,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 * Se ha actualizado el conmutador de aplicación para incluir Marketo en el paquete de aplicaciones de Experience Cloud y se han añadido actualizaciones de marca en Experience Platform. (MCUI-6529)
 * Se ha actualizado Experience Cloud Home para incluir vínculos de navegación a las páginas de Fuentes y Administración. (MCUI-6682)
-* Se ha corregido un problema en la definición de [!UICONTROL activador] para el uso correcto de la cláusula &quot;like&quot;. (MCUI-6611)
+* Se ha corregido un problema en la variable [!UICONTROL Déclencheur] definición del uso correcto de la cláusula &quot;like&quot;. (MCUI-6611)
 * Se han mejorado los Atributos del cliente para un mejor inicio de sesión en el servicio de Suscripción. (MCUI-6519)
 
 ## Versión 19.1.1: 17 de enero de 2019

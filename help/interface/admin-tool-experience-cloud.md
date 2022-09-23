@@ -1,18 +1,17 @@
 ---
 description: Descubra la herramienta de administración de Experience Cloud para ver una lista ordenable y filtrable de todos los usuarios y las políticas de Experience Cloud.
-keywords: servicios principales
 application: Experience Cloud
-title: 'Vea los usuarios de Experience Cloud y sus detalles '
+title: Vea los usuarios de Experience Cloud y sus detalles
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
@@ -68,7 +67,7 @@ En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, selecc
 
 ![Ver detalles del usuario en Admin Console](assets/admin-tool-user-details.png)
 
-Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto, y la información de acceso más reciente.
+Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto y la información a la que accedió por última vez.
 
 ## Información sobre esta sección
 
@@ -78,7 +77,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Nombre
 * Correo electrónico
 * Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
-* [Tipo de ID](https://helpx.adobe.com/es/enterprise/using/identity.html)
+* [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
 
@@ -131,7 +130,7 @@ En la página [!UICONTROL Directivas], para ver los detalles de una directiva, s
 
 ![Ver detalles de la política en Admin Console](assets/admin-tool-policy-detail.png)
 
-Una vista detallada de cada perfil de producto muestra información importante sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos activados por el perfil del producto.
+Una vista detallada de cada perfil de producto muestra detalles importantes sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos activados por el perfil del producto.
 
 Los detalles del perfil del producto se pueden exportar a archivos CSV. La opción [!UICONTROL Exportar CSV] genera dos archivos CSV:
 

@@ -1,6 +1,5 @@
 ---
 description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a Experience Cloud.
-keywords: Servicios de Adobe Experience Cloud
 solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -9,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 78%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 

@@ -1,17 +1,16 @@
 ---
 description: Obtenga más información acerca de las fuentes de datos de soluciones y de la configuración de suscripciones. Las suscripciones habilitan el flujo de datos de atributos del cliente entre Experience Cloud y las aplicaciones (Analytics y Target).
-keywords: Atributos del cliente;servicios principales
-application: Experience Cloud
-title: 'Configuración de suscripciones '
+solution: Experience Cloud
+title: Configuración de suscripciones
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '391'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

@@ -1,20 +1,21 @@
 ---
 audience: administrator
-user-guide-title: 'Componentes de la interfaz central de Experience Cloud '
+user-guide-title: Componentes de la interfaz central de Experience Cloud
 breadcrumb-title: Componentes de la interfaz central de Experience Cloud
-user-guide-description: Obtenga información sobre la interfaz de Experience Cloud, configure las preferencias, busque ayuda y objetos empresariales. Obtenga ayuda sobre la administración de usuarios y productos, los atributos del cliente, la biblioteca de audiencias, las cookies y los activos de Experience Cloud.
+title: Guía de administración e interfaz de Experience Cloud
+description: Obtenga más información sobre la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de audiencias, las cookies y los recursos del Experience Cloud compartidos.
 index: true
-source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
 
 # Componentes de la interfaz central de Experience Cloud {#interface}
 
-+ [Guía de componentes de la interfaz central de Experience Cloud](experience-cloud.md)
++ [Componentes de la interfaz central de Experience Cloud guía](experience-cloud.md)
 + Servicios de Experience Cloud {#services}
    + [Servicios de Experience Cloud](core-services-landing.md)
    + [Búsqueda unificada en Experience Cloud](search-experience-cloud.md)
