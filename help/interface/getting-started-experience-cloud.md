@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Iniciar sesión en Experience Cloud (y no en una única aplicación) habilita el
 
 Inicie sesión y verifique que se encuentra en la [organización](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) correcta.
 
-1. Seleccione el menú Experience Cloud ( ![preferencias](assets/menu-icon.png)) y, a continuación, seleccione **[!UICONTROL Administración]**.
+1. Seleccione el menú Experience Cloud ( ![preferencias](assets/menu-icon.png)) y luego seleccione **[!UICONTROL Administración]**.
 
    Si no se muestra el vínculo **[!UICONTROL Administration]**, no es administrador de Experience Cloud para la [organización](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) que se muestra. Si necesita ayuda asistencia para hacerse administrador, póngase en contacto con el servicio de atención al cliente o con un administrador de Experience Cloud de su empresa.
 1. Seleccione **[!UICONTROL Administración]**.
@@ -59,9 +59,9 @@ Ayuda para usuarios no administradores que inician sesión en Experience Cloud.
 
    Su administrador de Experience Cloud puede ayudarlo a determinar el tipo de cuenta (Adobe ID o Enterprise ID).
 
-1. En la página de aterrizaje, seleccione el icono de selector  ![menú](assets/menu-icon.png) para acceder al menú desplegable.
+1. En la página de aterrizaje, seleccione el icono del selector de ![menú](assets/menu-icon.png) para acceder al menú desplegable.
 
-   ![Todas las aplicaciones](assets/experience-cloud-core-services.png)
+   ![menú](assets/experience-cloud-core-services.png)
 
    Las aplicaciones y servicios que se muestran en este menú dependen de los privilegios de su aplicación, definidos por el [administrador](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -81,7 +81,7 @@ Puede editar los detalles personales y especificar una [organización](admin-get
 
 Reciba notificaciones (por correo electrónico o en el producto) sobre actualizaciones del sistema, avisos de mantenimiento, publicaciones, menciones y recursos compartidos. También puede especificar los productos y las aplicaciones para los que desea recibir notificaciones, incluido el estado de carga de los Atributos del cliente.
 
-Para ir a Notificaciones, seleccione la opción **[!UICONTROL Notificaciones]** icono  ![notificaciones](assets/notifications-icon.png)y, a continuación, seleccione **[!UICONTROL Configuración]** icono  ![editar](assets/icon_edit_board.png).
+Para ir a Notificaciones, seleccione el icono **[!UICONTROL Notificaciones]** ![notificaciones](assets/notifications-icon.png) y, a continuación, seleccione el icono **[!UICONTROL Configuración]** ![editar](assets/icon_edit_board.png).
 
 Puede ordenar la aparición de notificaciones según los tipos de mensajes que considere importantes y buscar notificaciones. También puede:
 
