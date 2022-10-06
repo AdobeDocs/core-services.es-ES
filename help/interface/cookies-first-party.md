@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 85%
+source-wordcount: '1615'
+ht-degree: 79%
 
 ---
 
@@ -47,28 +47,32 @@ El programa de certificados administrados por Adobe le permite implementar un nu
 
 Así se implementa un nuevo certificado SSL de origen para la recopilación de datos de origen:
 
-1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente al solicitar la configuración de recopilación de datos de origen en el programa administrado por Adobe. Cada campo se describe dentro del documento con ejemplos.
+1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente al solicitar la configuración de recopilación de datos de origen en el programa administrado por Adobe.
 
-2. Cree registros CNAME (consulte las instrucciones más abajo).
+   Cada campo se describe dentro del documento con ejemplos.
+
+1. Cree registros CNAME (consulte las instrucciones más abajo).
 
    Una vez recibida la incidencia, un especialista del Servicio de atención al cliente le proporcionará un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAME presentan un aspecto similar al siguiente:
 
    **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.adobedc.net`.
 
->[!NOTE]
-> En el pasado, Adobe recomendó que los clientes configuraran dos CNAME, uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico y que la mayoría de los navegadores desaconsejan enormemente HTTP, ya no se recomienda configurar un CNAME para HTTP. Póngase en contacto con el Servicio de atención al cliente de Adobe para configurar su CNAME para HTTP.
+   >[!NOTE]
+   > En el pasado, Adobe recomendó que los clientes configuraran dos CNAME, uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico, y que la mayoría de los navegadores desaconsejan fuertemente HTTP, ya no se recomienda configurar un CNAME para HTTP. Póngase en contacto con el Servicio de atención al cliente de Adobe para configurar su CNAME para HTTP.
 
 1. Cuando se establezca el CNAME, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
 
    Si tiene una implementación existente, debe considerar la migración de visitantes para mantener a los existentes. Una vez que el certificado se haya insertado en el entorno de producción de Adobe, puede actualizar las variables del servidor de seguimiento a los nuevos nombres de host. Es decir, si el sitio no es seguro (HTTP), actualice el `s.trackingServer`. Si el sitio es seguro (HTTPS), actualice ambos `s.trackingServer` y las variables de `s.trackingServerSecure`.
 
-2. [Valide el reenvío de nombres de host](#validate) (como aparece más abajo).
+1. [Valide el reenvío de nombres de host](#validate) (como aparece más abajo).
 
-3. [Actualizar código de implementación](#update) (como aparece más abajo).
+1. [Actualizar código de implementación](#update) (como aparece más abajo).
 
 ### Mantenimiento y renovaciones
 
-Los certificados SSL expiran cada año, lo que significa que Adobe debe adquirir un certificado nuevo para cada implementación por año. Todos los usuarios admitidos de su organización reciben una notificación por correo electrónico cada vez que una implementación esté cerca de expirar. Para que Adobe renueve su nombre de host, un usuario admitido deberá responder al correo electrónico de Adobe e indicar que desea continuar utilizando el nombre de host expirado para la recopilación de datos. En ese momento, Adobe compra e instala automáticamente un nuevo certificado.
+Treinta días antes de que caduque su certificado de origen, Adobe valida si el CNAME sigue siendo válido y en uso. Si es así, Adobe supone que desea continuar utilizando el servicio y renueva automáticamente el certificado en su nombre.
+
+En este momento, si el CNAME se ha eliminado y ya no es válido, el Adobe no renueva el certificado y la entrada en nuestro sistema se marca para su eliminación. Si se ha eliminado el CNAME, el Adobe sabe que el seguimiento no ha estado ocurriendo con esa dirección URL y, por lo tanto, es seguro eliminarlo.
 
 ### Preguntas frecuentes
 
