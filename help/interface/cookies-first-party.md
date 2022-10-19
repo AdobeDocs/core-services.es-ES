@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Así se implementa un nuevo certificado SSL de origen para la recopilación de d
 
 Treinta días antes de que caduque su certificado de origen, Adobe valida si el CNAME sigue siendo válido y en uso. Si es así, Adobe supone que desea continuar utilizando el servicio y renueva automáticamente el certificado en su nombre.
 
-En este momento, si el CNAME se ha eliminado y ya no es válido, el Adobe no renueva el certificado y la entrada en nuestro sistema se marca para su eliminación. Si se ha eliminado el CNAME, el Adobe sabe que el seguimiento no ha estado ocurriendo con esa dirección URL y, por lo tanto, es seguro eliminarlo.
+>[!NOTE]
+> Si el CNAME se ha eliminado y/o ya no es válido (no se asigna al nombre de host SSL de Adobe proporcionado), el Adobe no podrá renovar el certificado y la entrada en nuestro sistema se marcará para su eliminación sin más comunicación.
 
 ### Preguntas frecuentes
 
