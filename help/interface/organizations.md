@@ -63,7 +63,7 @@ Normalmente, los administradores de Experience Cloud otorgan acceso a aplicacion
 
 1. Siga los pasos de la invitación del correo electrónico para utilizar Experience Cloud.
 1. Inicie sesión con su Adobe ID o Enterprise ID.
-1. Seleccione el selector de aplicaciones. ( ![Todas las aplicaciones](assets/menu-icon.png)).
+1. Seleccione el selector de aplicaciones. ( ![menú](assets/menu-icon.png)).
 
    ![Vinculación de una cuenta de aplicaciones a un Adobe ID](assets/solutions-active.png)
 
