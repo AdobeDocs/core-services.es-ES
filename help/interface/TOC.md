@@ -5,10 +5,10 @@ breadcrumb-title: Componentes de la interfaz central de Experience Cloud
 title: Interfaz de Experience Cloud y Guía de administración
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de audiencias, las cookies y comparta los recursos de Experience Cloud.
 index: true
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [Servicios de Experience Cloud](core-services-landing.md)
    + [Búsqueda unificada en Experience Cloud](search-experience-cloud.md)
    + [Activación de la implementación para servicios entre aplicaciones](core-services.md)
+   + [Preferencias de aprendizaje personalizadas del Experience Cloud](personalized-learning-preferences.md)
    + Biblioteca de audiencias de Experience Cloud {#audiences}
       + [Audiencias de Experience Cloud](audience-library.md)
       + [Crear una audiencia](t-audience-create.md)
