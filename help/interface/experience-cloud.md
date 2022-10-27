@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -123,8 +123,8 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 | Función | Descripción |
 |--- |--- |
 | Organización [predeterminada](organizations.md) | Seleccione la organización que desea ver al iniciar Experience Cloud. |
-| [!UICONTROL Recopilación de datos del producto] | Seleccione qué tecnologías puede utilizar el Adobe para recopilar datos sobre cómo utilizar los productos de Adobe. |
-| [!UICONTROL Recomendaciones y promociones de aprendizaje personalizadas] | Seleccione dónde desea recibir ayuda personalizada para sus productos de Adobe. Esta ayuda está disponible por correo electrónico, en el producto y en las comunidades de Experience League. [Más información.](personalized-learning-preferences.md) |
+| [!UICONTROL Recopilación de datos del producto] | Seleccione qué tecnologías puede utilizar Adobe para recopilar datos sobre cómo aprovechar sus productos. |
+| [!UICONTROL Recomendaciones y promociones de formación personalizadas] | Seleccione dónde desea recibir ayuda personalizada para sus productos de Adobe. Esta ayuda está disponible por correo electrónico, en el producto y en las comunidades de Experience League. [Más información.](personalized-learning-preferences.md) |
 | [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notificaciones] y en el correo electrónico. |
 | [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con la etiqueta High y pueden configurarse para entregarlas como alertas. |
 | [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
