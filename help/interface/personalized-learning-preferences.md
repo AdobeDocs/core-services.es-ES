@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Preferencias de aprendizaje personalizadas de Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 96%
+source-wordcount: '410'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Puede elegir permitirnos proporcionarle contenido útil que se adapte a sus nece
 * Funciones que probablemente utilizará
 * ¡Y mucho más!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Puede actualizar sus selecciones en cualquier momento en [Configuración de preferencias de usuario](https://experience.adobe.com/preferences/).
@@ -37,8 +37,6 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 <tbody>
   <tr>
     <td colspan="3">Reciba prácticas recomendadas, consejos y trucos relevantes, información útil y mucho más en función de su uso de los productos de Adobe de cada una de estas tres formas...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>En sus productos de Adobe...<br></td>
@@ -51,7 +49,7 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
   </tr>
   <tr>
     <td>En el correo electrónico, Adobe le envía...</td>
-    <td>Ver contenido de aprendizaje relacionado con su trabajo en sus productos</td>
+    <td>Ver contenido de formación relacionado con su trabajo en sus productos.</td>
   </tr>
   <tr>
     <td>En las comunidades de Experience League..</td>
@@ -72,8 +70,6 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 <tbody>
   <tr>
     <td colspan="3">Reciba oportunidades personalizadas para eventos de formación, sesiones de investigación e integraciones basadas en su trabajo de cada una de estas tres maneras...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>En sus productos de Adobe...<br></td>
@@ -97,6 +93,9 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Vea ejemplos de qué aspecto podría tener esta información de aprendizaje personalizada.
 
 
@@ -111,3 +110,5 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 ### En las comunidades de Experience League
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
