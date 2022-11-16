@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Preferencias de aprendizaje personalizadas de Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '390'
 ht-degree: 100%
 
 ---
@@ -26,18 +26,15 @@ Puede elegir permitirnos proporcionarle contenido útil que se adapte a sus nece
 Puede actualizar sus selecciones en cualquier momento en [Configuración de preferencias de usuario](https://experience.adobe.com/preferences/).
 
 
+
+
+
 ## Aprendizaje personalizado y recomendaciones de asistencia para sus productos y servicios de Adobe
 
+Reciba prácticas recomendadas, consejos y trucos relevantes, información útil y mucho más en función de su uso de los productos de Adobe de cada una de estas tres formas...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Aprendizaje personalizado y recomendaciones de asistencia para sus productos y servicios de Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Reciba prácticas recomendadas, consejos y trucos relevantes, información útil y mucho más en función de su uso de los productos de Adobe de cada una de estas tres formas...</td>
-  </tr>
   <tr>
     <td>En sus productos de Adobe...<br></td>
     <td>Consulte ventanas emergentes y consejos sobre herramientas para obtener ayuda en tiempo real.</td>
@@ -59,18 +56,13 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 </table>
 
 
+
 ## Información personalizada acerca de productos, servicios, eventos y promociones de Adobe
 
+Reciba oportunidades personalizadas para eventos de formación, sesiones de investigación e integraciones basadas en su trabajo de cada una de estas tres maneras...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Información personalizada acerca de productos, servicios, eventos y promociones de Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Reciba oportunidades personalizadas para eventos de formación, sesiones de investigación e integraciones basadas en su trabajo de cada una de estas tres maneras...</td>
-  </tr>
   <tr>
     <td>En sus productos de Adobe...<br></td>
     <td>Vea ventanas emergentes e información de herramientas para conseguir invitaciones y oportunidades relevantes para usted.</td>
@@ -96,6 +88,9 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## Vea ejemplos de qué aspecto podría tener esta información de aprendizaje personalizada.
 
 
@@ -103,9 +98,13 @@ Puede actualizar sus selecciones en cualquier momento en [Configuración de pref
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### En el correo electrónico que le envía Adobe
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### En las comunidades de Experience League
 
