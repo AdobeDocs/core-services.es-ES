@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Preferencias de aprendizaje personalizadas de Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Puede elegir permitirnos proporcionarle contenido útil que se adapte a sus nece
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Puede actualizar sus selecciones en cualquier momento en [Configuración de preferencias de usuario](https://experience.adobe.com/preferences/).
+Puede actualizar sus selecciones en cualquier momento en la sección Uso de datos del producto y Recopilación de la sección [Configuración de preferencias de usuario](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ Reciba prácticas recomendadas, consejos y trucos relevantes, información útil
   <tr>
     <td>En sus productos de Adobe...<br></td>
     <td>Consulte ventanas emergentes y consejos sobre herramientas para obtener ayuda en tiempo real.</td>
-    <td rowspan="3">Esto podría incluir... <ul><li>Guías paso a paso y sugerencias útiles de los expertos de Adobe</li> 
+    <td rowspan="3">Esto podría incluir... <ul><li>Guías paso a paso y sugerencias útiles de los expertos en Adobe</li> 
     <li>Tutoriales en vídeo y tutoriales informativos</li> 
     <li>Aprendizaje y educación a fondo</li> 
     <li>Recomendaciones para vídeos y anuncios</li>
