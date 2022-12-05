@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Así se implementa un nuevo certificado SSL de origen para la recopilación de d
 
    Una vez recibida la incidencia, un especialista del Servicio de atención al cliente le proporcionará un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAME presentan un aspecto similar al siguiente:
 
-   **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `example.com.adobedc.net`.
+   **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > En el pasado, Adobe recomendó que los clientes configuraran dos CNAME, uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico, y que la mayoría de los navegadores desaconsejan fuertemente HTTP, ya no se recomienda configurar un CNAME para HTTP. Ahora se considera una práctica recomendada establecer ambas `trackingServer` y `trackingServerSecure` con el mismo CNAME. Por ejemplo, ambas `trackingServer` y `trackingServerSecure` se configura como `smetrics.example.com`. HTTP solo está permitido para nombres de host de terceros.
@@ -94,12 +94,12 @@ El equipo de operaciones de red de su organización debe configurar los servidor
 El especialista de FPC le proporciona los nombres de host configurados y los CNAME a los que se va a señalar. Por ejemplo:
 
 * **Nombre del host SSL**: `smetrics.mysite.com`
-* **CNAME de SSL**: `mysite.com.adobedc.net`
+* **CNAME de SSL**: `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Si sigue utilizando el método no seguro, el aspecto será este:
 > * **Nombre del host no SSL**: `metrics.mysite.com`
-> * **CNAME no de SSL**: `mysite.com.adobedc.net`
+> * **CNAME no de SSL**: `[random-10-character-string].data.adobedc.net`
 
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
