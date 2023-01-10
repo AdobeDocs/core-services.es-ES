@@ -60,7 +60,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 | Ayuda con | Recurso |
 |--- |--- |
 | ¿No puede encontrar Audiencias? | Compruebe que está aprovisionado. Consulte [Introducción: Habilite sus aplicaciones para los servicios principales](core-services.md).<br>Vaya [aquí](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para solicitar acceso a Perfiles y Audiencias (formulario de aprovisionamiento de integraciones). |
-| Casos de uso | Para obtener más información sobre la aplicación que se debe utilizar, vaya a [Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) en la Base de conocimiento. |
+| Casos de uso | Para obtener más información sobre la aplicación que se debe utilizar, vaya a [Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es) en la Base de conocimiento. |
 | Foro | El [Foro de audiencias](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) es otro recurso para obtener ayuda con las audiencias. |
 
 {style=&quot;table-layout:auto&quot;}
