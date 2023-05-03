@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 | Campaign | <ul><li>Importación de audiencias compartidas de diferentes aplicaciones de Adobe Experience Cloud en Adobe Campaign.</li><li>Exportación de listas de destinatarios como audiencias compartidas. Estas audiencias compartidas pueden utilizarse con las diferentes aplicaciones de Adobe Experience Cloud que use.</li></ul> |
 | Advertising Cloud | Utilice la audiencia como destinatarios. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 | Casos de uso | Para obtener más información sobre la aplicación que se debe utilizar, vaya a [Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es) en la Base de conocimiento. |
 | Foro | El [Foro de audiencias](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) es otro recurso para obtener ayuda con las audiencias. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Elementos de la interfaz de la biblioteca de audiencias {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 | Tamaño actual | El tamaño de audiencia actual. |
 | Activo | El estado activo del segmento. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
