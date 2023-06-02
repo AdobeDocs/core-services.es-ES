@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 En el encabezado de Experience Cloud encuentra las siguientes funciones:
 
 * Acceso a sus aplicaciones y servicios
-* Búsqueda documentación del producto, tutoriales y publicaciones de la comunidad
-* Búsqueda general de objetos empresariales mediante una búsqueda global (solo usuarios de Experience Platform)
+* En el menú Ayuda, busque documentación del producto, tutoriales y publicaciones de la comunidad. Ver resultados en Experience League.
+* Busque globalmente objetos de negocio mediante una búsqueda global (solo usuarios de Experience Platform) en el campo Buscar.
 * Administración de las preferencias de la cuenta (alertas, notificaciones y suscripciones)
 
 ## Inicie sesión en Experience Cloud {#signin}
@@ -130,7 +130,7 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 | [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
 | Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Notificaciones y anuncios {#notifications}
 
@@ -192,7 +192,7 @@ Aproveche los tutoriales de autoayuda y los consejos rápidos de Experience Leag
 
 * [Documentación del producto para todas las aplicaciones de Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=es): Busque ayuda en Aprendizaje y asistencia de Experience Cloud
 * [Notas de la versión y actualizaciones de productos](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es): Descubra las novedades de Experience Cloud y suscríbase para obtener actualizaciones
-* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): Explore vídeos y tutoriales sobre servicios principales
+* [Tutoriales para implementar servicios principales](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=es): Explore vídeos y tutoriales sobre servicios principales
 * [Ayuda de expertos en Experience League](https://experienceleague.adobe.com/?lang=es): Descubra todo lo que tiene que saber sobre nuestras soluciones gracias a nuestros expertos y a nuestra comunidad
 * [Educación y formación](https://helpx.adobe.com/es/learning.html?promoid=KAUDK): Póngase en contacto con Adobe para asegurarse de sacar el máximo partido de sus productos
 * [Blog de la experiencia del cliente](https://blog.adobe.com/es/topics/digital-transformation): Lea el blog de Experience Cloud
