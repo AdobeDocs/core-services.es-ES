@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,28 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## De julio a agosto de 2023
+
+Versión: **Del 20 de julio al 31 de agosto de 2023**
+
+El Adobe está actualizando su aprovisionamiento para proporcionar todos los [!DNL Experience Cloud] acceso de los clientes a las funcionalidades básicas que ayudan a la interoperabilidad entre [!DNL Experience Cloud] productos. Los usuarios tendrán [!DNL Experience Platform] como un nuevo derecho añadido a su [!DNL Experience Cloud] organizaciones, con [Recopilación de datos](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) como servicio incluido. [!DNL Experience Platform] [!UICONTROL Recopilación de datos] incluye etiquetas para una administración universal de etiquetas simplificada y ofrece una infraestructura de datos de flujo fiable, sólida y completa. Esta actualización simplifica la recopilación de datos de experiencias y optimiza la entrega de experiencias.
+
+Con esta actualización, los administradores pueden ver cambios o adiciones en el Admin Console:
+
+* El Adobe [!DNL Experience Platform] la tarjeta de producto del Admin Console incluirá lo siguiente: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=es), [Área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es), [Zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es), [Modelo de datos de experiencia](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es), [Esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es), y [ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es).
+
+   * Para organizaciones que actualmente no utilizan [!DNL Experience Platform], ahora verá el [!DNL Experience Platform] producto en la [!UICONTROL Admin Console], incluidas las funcionalidades enumeradas anteriormente.
+
+   * Para organizaciones que utilizan actualmente [!DNL Experience Platform], [!UICONTROL Places] se consolidará en la [!DNL Experience Platform] Tarjeta de.
+
+* Adobe [!DNL Experience Platform] [Recopilación de datos](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) (anteriormente [!DNL Launch]) y [Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) seguirán apareciendo como sus propias tarjetas de producto, separadas de las demás [!DNL Experience Platform] funcionalidades
+
+## Mayo de 2023
+
+Versión: **25 de mayo de 2023**
+
+* En el menú [!DNL Experience Cloud] **[!UICONTROL Ayuda]**, la búsqueda de contenido se ha actualizado para filtrar por aplicación en los resultados de búsqueda de [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ## Julio de 2022
 
@@ -35,7 +57,7 @@ Lanzamiento previsto: **11 de julio de 2022**
 | ------- | ------- |
 | Inicio unificado: Widget de acceso rápido | **Navegar más rápido:** ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva función de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Acceso rápido]. <br>**No se pierda nada con el posicionamiento inteligente:** sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un _Nuevo_ distintivo y autoanclaje a [!UICONTROL Acceso rápido]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Abril de 2022
 
@@ -43,7 +65,7 @@ Lanzamiento previsto: **11 de julio de 2022**
 | ------- |-------|
 | Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de asistencia a través de una sola interfaz mediante búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Marzo de 2022
 
@@ -66,7 +88,7 @@ Lanzamiento previsto: **11 de julio de 2022**
 | Tableros de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada una selección de datos (actualmente selección de datos de variable única), [!DNL Helios] recomienda una visualización adecuada para acompañar esa selección de datos. |
 | Tableros de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Paneles de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Octubre de 2021
 
@@ -77,7 +99,7 @@ Lanzamiento previsto: **11 de julio de 2022**
 | Navegación por los [!UICONTROL Triggers] de Experience Cloud | Los [Triggers de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=es) están disponibles para la navegación directa desde el conmutador de aplicaciones en la cabecera para los usuarios aprovisionados. |
 | **Aviso:** Actualización prevista de la interfaz de navegación | En noviembre de 2021, la función de navegación _[!UICONTROL Ir a Launch / Recopilación de datos]_ se eliminará de <https://experience.adobe.com/implement>. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Agosto de 2021
 
@@ -94,9 +116,9 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | Función | Fecha | Descripción |
 | ------- | ------- | ------- |
 | Compatibilidad con inicio de sesión único para Federated ID de Adobe | 17 de junio de 2021 | Si utiliza Federated ID, puede iniciar sesión en Experience Cloud sin tener que especificar una dirección de correo electrónico o contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL de Experience Cloud. <br>Por ejemplo, suponga que es el propietario del dominio `adobecustomer.com` y que desea iniciar sesión en Adobe Analytics. La dirección URL sería: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Búsqueda de Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.adobe.com/docs/?lang=es) y utilice el campo **[!UICONTROL Búsqueda]** para encontrar tutoriales, documentación, cursos y más. |
+| Búsqueda de Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.adobe.com/docs/?lang=es) y utilice el campo **[!UICONTROL Buscar]** para localizar tutoriales, documentación, cursos y más. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mayo de 2021
 
@@ -106,7 +128,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | Búsqueda global en Experience Cloud | 20 de mayo de 2021 | Con esta versión, la búsqueda global en Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto empresarial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
 | Preferencias de idioma de Experience Cloud | 20 de mayo de 2021 | Esta actualización incluye la posibilidad de establecer sus idiomas preferidos en las [Preferencias](https://experience.adobe.com/preferences) de Experience Cloud. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Agosto de 2020
 
@@ -114,7 +136,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | -----------| ---------- |
 | Herramienta de administrador: políticas | Esta página muestra la lista completa de las directivas de Experience Cloud en su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas. Consulte la ayuda de la [herramienta de administración de Experience Cloud](admin-tool-experience-cloud.md) para obtener más información. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Abril de 2020
 
@@ -127,7 +149,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | -----------| ---------- |
 | Herramienta de administración: ver detalles del usuario | Los administradores pueden ver una lista de los usuarios de Experience Cloud que pueden ordenar y filtrar, y sus detalles en la nueva herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Consulte la ayuda de la [herramienta de administración de Experience Cloud](admin-tool-experience-cloud.md) para obtener más información. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correcciones**
 
