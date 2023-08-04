@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '735'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Encontrará más información en la ayuda de Analytics sobre las cookies de [ori
 
 | Atributo | Descripción |
 |--- |--- |
-| Información almacenada | El código JavaScript establece y lee esta cookie cuando la funcionalidad SelectMap o Activity Map están habilitadas. Además, contiene información sobre el vínculo anterior que el usuario seleccionó |
+| Información almacenada | JavaScript se encarga de configurar y leer esta cookie cuando la funcionalidad ClickMap o Activity Map está habilitada. Además, contiene información sobre el vínculo anterior que el usuario seleccionó |
 | Vencimiento | Esta cookie es una cookie de sesión y caduca cuando se cierra el explorador |
 | Uso | Solo una cookie para todas las cuentas |
 | Ubicación | Esta cookie se almacena en el dominio de la página. |
