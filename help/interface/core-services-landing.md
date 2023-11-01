@@ -1,15 +1,15 @@
 ---
 description: Obtenga información sobre la administración de usuarios y productos de Adobe Experience Cloud, People (Audiencias y Atributos del cliente), Journey Orchestration, Ofertas, Places, Experience Platform Launch y Mobile Services.
 solution: Experience Cloud
-title: 'Información general sobre los servicios de Experience Cloud '
-feature: Customer Attributes
+title: Información general sobre los servicios de Experience Cloud
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---
@@ -37,8 +37,8 @@ Esta ayuda describe los siguientes productos y servicios:
 | [Administración](admin-getting-started.md) | Obtenga más información sobre el inicio de sesión en Admin Console y la administración de permisos de usuarios, perfiles de producto y compatibilidad de exploradores en Experience Cloud. |
 | [Cookies](cookies-privacy.md) | El mantenimiento de la privacidad del cliente y la seguridad de los datos son prioridades esenciales en Adobe. Adobe participa en varias organizaciones de privacidad y coopera con los reguladores de privacidad y los principios de autorregulación. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentación del producto de Experience Platform se encuentra [aquí](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es). Documentación técnica para [!UICONTROL Experience Platform] desarrolladores se encuentran en [Desarrollador de Adobe](https://developer.adobe.com/apis).
+>La documentación del producto de Experience Platform se encuentra [aquí](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es). Documentación técnica para [!UICONTROL Experience Platform] desarrolladores de se encuentra en [Adobe Developer](https://developer.adobe.com/apis).
