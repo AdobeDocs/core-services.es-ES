@@ -1,17 +1,16 @@
 ---
 description: Aprenda a implementar la búsqueda previa de DNS para ayudar a reducir los tiempos de carga de la página con diferentes aplicaciones y servicios en Experience Cloud.
 solution: Experience Cloud
-title: 'Uso de la precarga de DNS con diferentes aplicaciones y servicios '
+title: Uso de la precarga de DNS con diferentes aplicaciones y servicios
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ Los navegadores utilizan la precarga de DNS para resolver automáticamente los n
 
 ## Precarga de DNS y aplicaciones de Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con diferentes aplicaciones y servicios de [!UICONTROL Experience Cloud] porque:
+La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con dominios diferentes [!UICONTROL Experience Cloud] aplicaciones y servicios porque:
 
 * Cada aplicación o servicio de Experience Cloud genera llamadas DNS de forma dinámica a medida que se carga la página.
 * El explorador no puede resolver nombres de dominio en direcciones IP antes de realizar estas llamadas.
@@ -38,7 +37,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   Agregue una etiqueta separada para cada nombre DNS si utiliza servidores de seguimiento seguros y no seguros.
+  Agregue una etiqueta separada para cada nombre DNS si utiliza servidores de seguimiento seguros y no seguros.
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 >[!MORELIKETHIS]
 >
 >* [Precarga de DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
-
