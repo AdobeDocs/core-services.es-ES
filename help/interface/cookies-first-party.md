@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
+source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1616'
 ht-degree: 79%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 79%
 
 Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar, aunque las de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de ID de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocido como cookie s_vi):
+Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar, aunque las de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocidos como cookie s_vi):
 
 * El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) configurará automáticamente las cookies de origen independientemente de si el dominio de recopilación coincide con el del sitio. Si no coinciden, el servicio de identidad utilizará JavaScript para configurar las cookies en el dominio del sitio.
 * Si utiliza [identificadores heredados de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=es) (también conocidos como cookie `s_vi`), depende de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de colección no coincide con su dominio actual, las cookies se configuran como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un [identificador de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie “s_vi” estándar.
 
-Si desea asegurarse de que el servidor de recopilación coincide con el dominio de su sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establece como de terceros.
+Si desea asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establece como de terceros.
 
 >[!NOTE]
 >
->Independientemente de si el dominio de recopilación coincide con el dominio del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple establece cookies de origen configuradas por Adobe de duración corta en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos los exploradores en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
+>Independientemente de si el dominio de recopilación coincide con el del sitio, el programa Intelligent Tracking Prevention (ITP) de Apple crea las cookies de origen configuradas por el Adobe de corta duración en exploradores que se rigen por ITP, que incluyen Safari en macOS y todos en iOS y iPadOS. A partir de noviembre de 2020, las cookies configuradas mediante CNAME también tienen la misma caducidad que las configuradas mediante JavaScript. Esta caducidad está sujeta a cambios.
 
 Si desea establecer un CNAME para la recopilación de datos y si el sitio tiene páginas seguras mediante el protocolo HTTPS, puede trabajar con Adobe para obtener un certificado SSL.
 
@@ -58,7 +58,7 @@ Así se implementa un nuevo certificado SSL de origen para la recopilación de d
    **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
-   > En el pasado, Adobe recomendó que los clientes configuraran dos CNAME, uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico, y que la mayoría de los navegadores desaconsejan fuertemente HTTP, ya no se recomienda configurar un CNAME para HTTP. Ahora se considera una práctica recomendada establecer ambas `trackingServer` y `trackingServerSecure` con el mismo CNAME. Por ejemplo, ambas `trackingServer` y `trackingServerSecure` se configura como `smetrics.example.com`. HTTP solo está permitido para nombres de host de terceros.
+   > En el pasado, Adobe recomendaba a los clientes configurar dos CNAME, uno para HTTPS y otro para HTTP. Dado que es una práctica recomendada encriptar el tráfico y que la mayoría de los exploradores desaconsejan enormemente la función HTTP, ya no se recomienda configurar un CNAME para HTTP. Ahora se considera una práctica recomendada configurar ambos `trackingServer` y `trackingServerSecure` con el mismo CNAME. Por ejemplo, ambas `trackingServer` y `trackingServerSecure` se establecería en `smetrics.example.com`. HTTP solo se permite para nombres de host de terceros.
 
 1. Cuando se establezca el CNAME, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
 
@@ -70,10 +70,10 @@ Así se implementa un nuevo certificado SSL de origen para la recopilación de d
 
 ### Mantenimiento y renovaciones
 
-Treinta días antes de que caduque su certificado de origen, Adobe valida si el CNAME sigue siendo válido y en uso. Si es así, Adobe supone que desea continuar utilizando el servicio y renueva automáticamente el certificado en su nombre.
+Treinta días antes de que caduque el certificado de origen, el Adobe valida si el CNAME sigue siendo válido y está en uso. Si es así, Adobe supone que desea seguir utilizando el servicio y renueva automáticamente el certificado en su nombre.
 
 >[!NOTE]
-> Si el CNAME se ha eliminado y/o ya no es válido (no se asigna al nombre de host SSL de Adobe proporcionado), el Adobe no podrá renovar el certificado y la entrada en nuestro sistema se marcará para su eliminación sin más comunicación.
+> Si el CNAME se ha eliminado o ya no es válido (no se asigna al nombre de host SSL de Adobe proporcionado), el Adobe no puede renovar el certificado y la entrada en nuestro sistema se marca para su eliminación sin más comunicación.
 
 ### Preguntas frecuentes
 
@@ -81,11 +81,11 @@ Treinta días antes de que caduque su certificado de origen, Adobe valida si el 
 |---|---|
 | **¿Es seguro este proceso?** | Sí, el programa administrado de Adobe es más seguro que nuestro método heredado, ya que ningún certificado o clave privada se transfiere fuera de Adobe y la autoridad emisora de certificados. |
 | **¿Cómo puede adquirir Adobe un certificado para nuestro dominio?** | El certificado solo se puede adquirir si ha señalado el nombre de host especificado (por ejemplo, `telemetry.example.com`) a un nombre de host de Adobe. Básicamente, delega este nombre de host a Adobe y permite que Adobe compre el certificado en su nombre. |
-| **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, puede solicitar que se revoque el certificado. Abra un ticket con el Servicio de atención al cliente para que se complete. |
-| **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe trabaja con DigiCert para emitir un certificado SHA-2. |
+| **¿Puedo solicitar que se revoque el certificado?** | Sí, como propietario del dominio, tiene derecho a solicitar que se revoque el certificado. Abra un ticket con el Servicio de atención al cliente para completarlo. |
+| **¿Utilizará este certificado el cifrado SHA-2?** | Sí, Adobe funciona con DigiCert para emitir un certificado SHA-2. |
 | **¿Supone un costo adicional?** | No, Adobe ofrece este servicio a todos los clientes actuales de Adobe Digital Experience sin coste adicional. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Creación de registros CNAME
 
@@ -93,14 +93,14 @@ El equipo de operaciones de red de su organización debe configurar los servidor
 
 El especialista de FPC le proporciona los nombres de host configurados y los CNAME a los que se va a señalar. Por ejemplo:
 
-* **Nombre del host SSL**: `smetrics.mysite.com`
+* **Nombre del host SSL**: `smetrics.example.com`
 * **CNAME de SSL**: `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Si sigue utilizando el método no seguro, el aspecto será este:
-> * **Nombre del host no SSL**: `metrics.mysite.com`
+>
+> * **Nombre del host no SSL**: `metrics.example.com`
 > * **CNAME no de SSL**: `[random-10-character-string].data.adobedc.net`
-
 
 Mientras no se modifique el código de implementación, este paso no afectará a la recopilación de datos y se puede llevar a cabo en cualquier momento después de la implementación del código.
 
@@ -163,7 +163,12 @@ Antes de editar el código del sitio para utilizar recopilación de datos de ori
 Después de comprobar que sus nombres de host responden y redirigen a los servidores de recopilación de datos, puede modificar su implementación de modo que señale a sus propios nombres de host de recopilación de datos.
 
 1. Abra su archivo principal de JavaScript (`s_code.js/AppMeasurement.js`).
-1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con la recopilación de datos de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y diríjalas a los nuevos nombres de host de recopilación de datos. Uso de mysite.com como ejemplo:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Si desea actualizar su versión del código, sustituya todo el archivo `s_code.js/AppMeasurement.js` por la versión más reciente y reemplace todos los plugins o personalizaciones (si hay). **O bien**, si desea actualizar el código en relación con la recopilación de datos de origen, busque las variables s.trackingServer y s.trackingServerSecure (si utiliza SSL) y diríjalas a los nuevos nombres de host de recopilación de datos. Por ejemplo:
+
+   ```js
+   s.trackingServer = "metrics.example.com";
+   s.trackingServerSecure = "smetrics.example.com";
+   ```
 
 1. Cargue en su sitio el archivo principal de JavaScript actualizado.
 
