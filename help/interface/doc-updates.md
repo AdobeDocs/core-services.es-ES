@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 96%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -44,8 +44,6 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 | ------- | ------- |
 | Búsqueda unificada | La búsqueda unificada sigue añadiendo tipos de objetos al índice de búsqueda. En esta actualización, la búsqueda global ahora busca en el contenido de Experience League y en los siguientes tipos de objetos de Journey Optimizer: <ul><li>Conjuntos de datos</li><li>Destinos</li><li>Consultas</li><li>Esquemas</li><li>Segmentos</li><li>Fuentes</li><li>Ofertas</li><li>Componentes</li><li>Mensajes</li><li>Recorridos</li></ul> |
 | Consentimiento de los datos de uso del producto | Tras el inicio de sesión, se le pide que envíe sus preferencias sobre cómo Adobe puede proporcionarle contenido útil y personalizado, como tutoriales, guías, consejos rápidos, recomendaciones, vídeos de aprendizaje y mucho más, basándose en sus datos de uso del producto Experience Cloud. Esta solicitud también incluye una actualización de sus preferencias para la recopilación y el uso de estos datos en <https://experience.adobe.com/preferences>. |
-| Navegación por los [!UICONTROL Triggers] de Experience Cloud | Los [Triggers de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=es) están disponibles para la navegación directa desde el conmutador de aplicaciones en la cabecera para los usuarios aprovisionados. |
-| **Aviso:** Actualización prevista de la interfaz de navegación | En noviembre de 2021, la variable _[!UICONTROL Ir a Recopilación de datos]_ La función de navegación se eliminará de <https://experience.adobe.com/implement>. |
 
 **Actualizado: 24/8/2021**
 
@@ -109,10 +107,6 @@ Se ha revisado la guía para la última versión.
 **Actualizado: 15/3/2017**
 
 Se ha actualizado la definición de Datos sin procesar de Analytics en [Crear un público](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
-
-**Actualizado: 23/2/2017**
-
-Se ha añadido [Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Actualizado: 1/2/2017**
 
