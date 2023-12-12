@@ -1,5 +1,5 @@
 ---
-description: Conozca las últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como atributos del cliente, audiencias y administración de usuarios.
+description: Conozca las últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como atributos del cliente, públicos y administración de usuarios.
 solution: Experience Cloud
 title: Notas de versión acumuladas
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
-ht-degree: 100%
+source-wordcount: '4743'
+ht-degree: 99%
 
 ---
 
@@ -99,8 +99,6 @@ Lanzamiento previsto: **11 de julio de 2022**
 | ------- | ------- |
 | Búsqueda unificada | La búsqueda unificada sigue añadiendo tipos de objetos al índice de búsqueda. En esta actualización, la búsqueda global ahora busca en el contenido de Experience League y en los siguientes tipos de objetos de Journey Optimizer: <ul><li>Conjuntos de datos</li><li>Destinos</li><li>Consultas</li><li>Esquemas</li><li>Segmentos</li><li>Fuentes</li><li>Ofertas</li><li>Componentes</li><li>Mensajes</li><li>Recorridos</li></ul> |
 | Consentimiento de los datos de uso del producto | Tras el inicio de sesión, se le pide que envíe sus preferencias sobre cómo Adobe puede proporcionarle contenido útil y personalizado, como tutoriales, guías, consejos rápidos, recomendaciones, vídeos de aprendizaje y mucho más, basándose en sus datos de uso del producto Experience Cloud. Esta solicitud también incluye una actualización de sus preferencias para la recopilación y el uso de estos datos en <https://experience.adobe.com/preferences>. |
-| Navegación por los [!UICONTROL Triggers] de Experience Cloud | Los [Triggers de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=es) están disponibles para la navegación directa desde el conmutador de aplicaciones en la cabecera para los usuarios aprovisionados. |
-| **Aviso:** Actualización prevista de la interfaz de navegación | En noviembre de 2021, la función de navegación _[!UICONTROL Ir a Launch / Recopilación de datos]_ se eliminará de <https://experience.adobe.com/implement>. |
 
 {style="table-layout:auto"}
 
@@ -236,10 +234,6 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 * Se ha corregido un problema que impedía la vinculación y SSO para Analytics. Este problema mostraba el mensaje “Notificación: Mensaje de error: ERROR IMS SSO: No se puede encontrar la compañía vinculada”.
 
-**Problema conocido**
-
-Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]**, pero su cuenta de Dynamic Tag Management no está vinculada a Experience Cloud (Adobe ID), no podrá iniciar sesión en Dynamic Tag Management. Para evitar este problema, acceda directamente a la página `dtm.adobe.com` en una nueva pestaña del navegador.
-
 ## Versión 16.1: 21 de enero de 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
 <table id="table_4223658257DA41C999AC710A10D26771"> 
@@ -251,8 +245,8 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Mensajes de la biblioteca de audiencias </td> 
-   <td colname="col2"> <p> Hemos mejorado la biblioteca de audiencias para incluir mensajes útiles al crear audiencias o en caso de tiempos de espera. </p> <p>Por ejemplo, cuando se agregan más de cinco reglas, aparece un mensaje que indica que se ha superado el máximo permitido de reglas. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col1"> Mensajes de la biblioteca de públicos </td> 
+   <td colname="col2"> <p> Hemos mejorado la biblioteca de públicos para incluir mensajes útiles al crear públicos o en caso de tiempos de espera. </p> <p>Por ejemplo, cuando se agregan más de cinco reglas, aparece un mensaje que indica que se ha superado el máximo permitido de reglas. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,15 +266,15 @@ Si accede a Dynamic Tag Management a través de la interfaz de **[!UICONTROL Exp
 
 * Se ha corregido un problema de rendimiento de la API de Audience Manager que provocaba agotamientos intermitentes del tiempo de espera al cargar datos de los Atributos del cliente. (MAC-26305)
 * Se ha corregido un problema que impedía a los usuarios añadir un máximo de 200 Atributos del cliente a una suscripción. (MAC-26188)
-* Se ha corregido un problema con la biblioteca de audiencias que impedía compartir audiencias desde la segmentación de Analytics. Este problema hacía que se mostrara “Recopilación de datos” (0 audiencias). Para evitar este problema, Adobe recomienda mantener el tamaño de los segmentos por debajo de los 50 000 miembros de la audiencia por segmento. (MAC-25788)
+* Se ha corregido un problema con la biblioteca de públicos que impedía compartir públicos desde la segmentación de Analytics. Este problema hacía que se mostrara “Recopilación de datos” (0 públicos). Para evitar este problema, Adobe recomienda mantener el tamaño de los segmentos por debajo de los 50 000 miembros del público por segmento. (MAC-25788)
 * Se ha corregido un problema ya conocido en la página Atributos del cliente: Editar esquema que daba lugar a la aparición de un error Según el contenido al cambiar un nombre para mostrar. (MAC-25589, AN-103834)
 
 ## Versión 15.7: 22 de julio de 2015 {#section_2683A152176944E48EF6C943892975B7}
 
 * Se ha corregido un problema que impedía que las descripciones de atributos especificadas en la página Vista/Editar esquema (en atributos del cliente) se actualizaran en los informes de Analytics. (MAC-25985)
 * Se ha corregido un problema que impedía que se representaran las miniaturas de los recursos cargados. (MAC-25863)
-* Se ha corregido un problema que impedía que los nuevos segmentos creados en Reports &amp; Analytics estuvieran disponibles en Experience Cloud Audiences. (MAC-25817)
-* Se ha corregido un problema que impedía compartir audiencias desde Analytics cuando se utiliza el servicio de ID de visitante. (MAC-25788, MAC-25747)
+* Se ha corregido un problema que impedía que los nuevos segmentos creados en Reports &amp; Analytics estuvieran disponibles en Públicos de Experience Cloud. (MAC-25817)
+* Se ha corregido un problema que impedía compartir públicos desde Analytics cuando se utiliza el servicio de ID de visitante. (MAC-25788, MAC-25747)
 * Ahora se admiten caracteres multibyte en los Atributos del cliente. (MAC-25552)
 
 **Problema conocido**
@@ -305,7 +299,7 @@ No hay información disponible.
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>Los menús de navegación de la izquierda se han actualizado y organizado para proporcionar acceso a todos los servicios y aplicaciones principales. Los cambios más destacables incluyen: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las selecciones de menú<span class="term"> Biblioteca de audiencias </span> y <span class="term"> Atributos del cliente </span> ahora se encuentran en <span class="term">Audiencias</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">El <span class="term"> Biblioteca de audiencias</span> y <span class="term"> Atributos del cliente</span> las selecciones de menú ahora se encuentran en <span class="term"> Audiencias</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selección de menú <span class="term"> Exchange </span> se ha trasladado del menú desplegable Ayuda al carril de navegación izquierdo. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado <span class="term">Soluciones</span>. Podrá iniciar todas las aplicaciones desde la mitad inferior del carril de navegación. </li> 
     </ul> </td> 
@@ -345,7 +339,7 @@ No hay información disponible.
 **Problemas conocidos**
 
 * Vincular y desvincular la organización de Dynamic Tag Management con Experience Cloud no funciona para las organizaciones de Experience Cloud recién creadas. Adobe está trabajando para corregir esto y restaurar la funcionalidad normal con la versión de mayo. Si tiene problemas al intentar realizar el inicio de sesión único en la Dynamic Tag Management por medio de Experience Cloud, use el inicio de sesión preexistente en [!DNL dtm.adobe.com].
-* Un problema recurrente impide el uso compartido de audiencias de grupos de informes que no son propiedad de la cuenta de Analytics vinculada. Se están tomando medidas correctivas
+* Un problema recurrente impide el uso compartido de públicos de grupos de informes que no son propiedad de la cuenta de Analytics vinculada. Se están tomando medidas correctivas
 
 ## Versión 15.3.2: 19 de marzo de 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -359,7 +353,7 @@ No hay información disponible.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Atributos del cliente </p> </td> 
-   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de audiencia en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos del cliente</a>. </p> <p> Para obtener información acerca de la modernización de las aplicaciones para los servicios principales, consulte <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las aplicaciones para los servicios principales</a>. </p> </td> 
+   <td colname="col2"> <p>Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados los datos, puede ejecutar los informes de <span class="uicontrol">Perfil del visitante</span> &gt; <span class="uicontrol">Atributos del cliente</span> en Analytics. </p> <p>También puede utilizar los datos cargados como un segmento de público en <span class="keyword">Adobe Target</span>. </p> <p>Consulte la documentación del producto <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Atributos del cliente</a>. </p> <p> Para obtener información acerca de la modernización de las aplicaciones para los servicios principales, consulte <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las aplicaciones para los servicios principales</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -382,11 +376,7 @@ No hay información disponible.
    <td colname="col1"> <p>Asignación de uno a varios </p> </td> 
    <td colname="col2"> <p>Al vincular cuentas de aplicaciones en Experience Cloud, si cuenta con varias aplicaciones y organizaciones, ahora puede asignar varios productos y servicios a una única organización. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> ahora aparece en la sección de navegación izquierda de <span class="keyword">Experience Cloud</span>. <span class="wintitle">Activation</span> es un servicio de <span class="keyword">Experience Cloud</span> que actualmente consta de la tecnología de administración dinámica de etiquetas y le dirige ahí cuando se selecciona. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Actualizaciones de documentación: Servicios principales </p> </td> 
    <td colname="col2"> <p>Se ha añadido el tema <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Activación de las aplicaciones en los servicios principales</a> para ayudarle en la implementación de los servicios principales. </p> </td> 
   </tr> 
@@ -399,8 +389,8 @@ Correcciones:
 
 * Se ha mejorado el flujo de trabajo de invitación de correo electrónico del usuario para el aprovisionamiento de cuentas.
 * Se ha corregido un problema de carpeta de recursos que impedía [!DNL Experience Cloud] que [!DNL Adobe Campaign] se mostraran jerarquías de carpeta idénticas.
-* Se ha corregido un problema que impedía eliminar audiencias que formaban parte de las actividades de [!DNL Target] desactivadas.
-* Se ha corregido un problema que impedía que el icono Agregar (más) se mostrase en [!UICONTROL Reglas] en la página [!UICONTROL Crear nueva audiencia].
+* Se ha corregido un problema que impedía eliminar públicos que formaban parte de las actividades de [!DNL Target] desactivadas.
+* Se ha corregido un problema que impedía que el icono Agregar (más) se mostrase en [!UICONTROL Reglas] en la página [!UICONTROL Crear nuevo público].
 * Se ha mejorado la compatibilidad de la interfaz de Experience Cloud con Internet Explorer 9.
 
 ## Versión 15.1.1: 15 de enero de 2015 {#section_F1A352E928AF432E94CC0A289C345184}
@@ -440,7 +430,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Puede ser que algunos usuarios no puedan añadir de nuevo un usuario de Creative Cloud a una carpeta compartida después de que se haya eliminado el usuario de Creative Cloud.
 * Algunos usuarios pueden experimentar un retraso en la notificación que se produce cuando una carpeta se comparte desde Experience Cloud en Creative Cloud.
 * Algunos usuarios pueden tener problemas al compartir una carpeta entre Experience Cloud y Creative Cloud.
-* Algunos usuarios pueden tener problemas para crear una audiencia dentro de un grupo de informes de Analytics después de habilitar las audiencias compartidas.
+* Algunos usuarios pueden tener problemas para crear un público dentro de un grupo de informes de Analytics después de habilitar los públicos compartidos.
 * Es posible que algunos usuarios tengan problemas al cargar recursos en un tablero.
 
 ## Versión 14.11.1: 13 de noviembre de 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -584,8 +574,8 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Botón <span class="wintitle">Guardar</span> en Audiences </p> </td> 
-   <td colname="col2"> <p>Cuando crea una audiencia, el botón <span class="wintitle">Guardar</span> en la página <span class="wintitle">Crear audiencia nueva</span> ahora está desactivado hasta que se cumplimenten los campos obligatorios. 
+   <td colname="col1"> <p> Botón <span class="wintitle">Guardar</span> en Públicos </p> </td> 
+   <td colname="col2"> <p>Cuando crea un público, el botón <span class="wintitle">Guardar</span> en la página <span class="wintitle">Crear público nuevo</span> ahora está desactivado hasta que se cumplimenten los campos obligatorios. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -597,7 +587,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * La carga de archivos permite más tipos de archivo que el método de arrastrar y soltar. Para obtener los mejores resultados, realice la carga mediante Assets.
 * Los vínculos de [!DNL Search&Promote] no están disponibles en la página [!UICONTROL Organización y acceso a productos].
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
-* Algunos usuarios no pueden vincular su cuenta de gestión de audiencia con su cuenta de [!DNL Experience Cloud].
+* Algunos usuarios no pueden vincular su cuenta de gestión de público con su cuenta de [!DNL Experience Cloud].
 * Su sesión se cerrará tras 15 minutos de inactividad. Además, cuando se cierre la sesión en una ubicación, también se cierra la sesión de Experience Cloud.
 * Puede que algunos usuarios de Exchange encuentren sus nombres en los comentarios como un ID de cadena largo en lugar de sus nombres.
 
@@ -620,8 +610,8 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Ayuda</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. </p> <p>Las aplicaciones incluyen Data Connectors, configuraciones personalizadas al producto central de Adobe, aplicaciones de otros fabricantes, informes y tarjetas de <span class="keyword">Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Audiencias de Experience Cloud </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Audiencias</span></p> <p> En <span class="wintitle">Audiencias</span> es donde se crean, editan y administran audiencias, de forma parecida a como se trabaja con segmentos. Por ejemplo, puede crear un segmento en Reports &amp; Analytics, y luego compartirlo en <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Audiences</span>. Una vez que se crea, la audiencia queda disponible en <span class="keyword">Adobe Target</span> para actividades de campaña y en Adobe Audience Manager para la segmentación. </p> <p> <p>Nota: Para solicitar la habilitación en Target, visite <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col1"> <p>Públicos de Experience Cloud </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Públicos</span></p> <p> En <span class="wintitle">Públicos</span> es donde se crean, editan y administran públicos, de forma parecida a como se trabaja con segmentos. Por ejemplo, puede crear un segmento en Reports &amp; Analytics, y luego compartirlo en <span class="wintitle"> Públicos de Experience Cloud</span><span class="wintitle"></span>. Una vez que se crea, la audiencia queda disponible en <span class="keyword">Adobe Target</span> para actividades de campaña y en Adobe Audience Manager para la segmentación. </p> <p> <p>Nota: Para solicitar la habilitación en Target, visite <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -698,7 +688,7 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los filtros aplicados en los informes de tendencias de [!DNL Analytics] no se aplican a las tarjetas en [!DNL Experience Cloud].
 * Los filtros aplicados en los informes de tendencias de Analytics no se aplican a las tarjetas en Experience Cloud.
 * Algunos archivos CSV o de Excel no pueden cargarse en un tablero.
-* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de audiencia con su [!DNL Experience Cloud].
+* Es probable que algunos usuarios no puedan vincular su cuenta de gestión de público con su [!DNL Experience Cloud].
 * Algunos usuarios experimentan un error al compartir segmentos de [!DNL Analytics] en [!DNL Experience Cloud].
 * Es probable que algunos usuarios no puedan explorar las subcarpetas del [!UICONTROL Selector de recursos].
 * Algunos usuarios no pueden compartir sus gadgets de AdLens en [!DNL Experience Cloud].
