@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Obtenga información sobre la compatibilidad del explorador y las preguntas frec
 Si su implementación no se ha aprovisionado para servicios principales, consulte [Habilitación de las aplicaciones para servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), que describe cómo:
 
 1. [Únase a Experience Cloud y conviértase en administrador](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementar el Servicio de Experience Cloud ID con Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=es).
+1. [Implementación del servicio de ID de Experience Cloud mediante etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=es).
 1. [Asigne grupos de informes a una organización de Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizar el código AppMeasurement de Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo para Adobe Target) Modernizar la implementación de Adobe Target](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -89,7 +89,7 @@ Es posible que algunos usuarios deban vincular su cuenta de aplicaciones (Analyt
 
 Consulte [Vinculación de una cuenta de aplicaciones a un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
-## ¿Cómo administro los perfiles y organizaciones de las cuentas de los usuarios?
+## ¿Cómo administro los perfiles y las organizaciones de las cuentas de usuario?
 
 Consulte [Administración de cuentas de usuario](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 

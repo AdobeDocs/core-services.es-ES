@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 98%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 Información acerca de actualizaciones en la documentación de Experience Cloud.
 
-**Actualizado: 28/2/2022**
+**Actualizado: 28/02/2022**
 
 Se ha añadido una página para [Búsqueda unificada](search-experience-cloud.md)
 
@@ -45,7 +45,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 | Búsqueda unificada | La búsqueda unificada sigue añadiendo tipos de objetos al índice de búsqueda. En esta actualización, la búsqueda global ahora busca en el contenido de Experience League y en los siguientes tipos de objetos de Journey Optimizer: <ul><li>Conjuntos de datos</li><li>Destinos</li><li>Consultas</li><li>Esquemas</li><li>Segmentos</li><li>Fuentes</li><li>Ofertas</li><li>Componentes</li><li>Mensajes</li><li>Recorridos</li></ul> |
 | Consentimiento de los datos de uso del producto | Tras el inicio de sesión, se le pide que envíe sus preferencias sobre cómo Adobe puede proporcionarle contenido útil y personalizado, como tutoriales, guías, consejos rápidos, recomendaciones, vídeos de aprendizaje y mucho más, basándose en sus datos de uso del producto Experience Cloud. Esta solicitud también incluye una actualización de sus preferencias para la recopilación y el uso de estos datos en <https://experience.adobe.com/preferences>. |
 | Navegación por los [!UICONTROL Triggers] de Experience Cloud | Los [Triggers de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=es) están disponibles para la navegación directa desde el conmutador de aplicaciones en la cabecera para los usuarios aprovisionados. |
-| **Aviso:** Actualización prevista de la interfaz de navegación | En noviembre de 2021, la función de navegación _[!UICONTROL Ir a Launch / Recopilación de datos]_ se eliminará de <https://experience.adobe.com/implement>. |
+| **Aviso:** Actualización prevista de la interfaz de navegación | En noviembre de 2021, la variable _[!UICONTROL Ir a Recopilación de datos]_ La función de navegación se eliminará de <https://experience.adobe.com/implement>. |
 
 **Actualizado: 24/8/2021**
 
@@ -108,7 +108,7 @@ Se ha revisado la guía para la última versión.
 
 **Actualizado: 15/3/2017**
 
-Se ha actualizado la definición de Datos sin procesar de Analytics en [Crear una audiencia](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
+Se ha actualizado la definición de Datos sin procesar de Analytics en [Crear un público](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
 
 **Actualizado: 23/2/2017**
 
@@ -140,6 +140,6 @@ Se ha añadido [Preguntas frecuentes sobre Experience Cloud](faq.md#concept_1321
 
 **Actualizado: 22/5/2014**
 
-Se ha agregado documentación para Audiencias.
+Se ha agregado documentación para Públicos.
 
-Consulte [Audiencias](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
+Consulte [Públicos](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).

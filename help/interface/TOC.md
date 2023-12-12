@@ -3,28 +3,28 @@ role: User,Admin
 user-guide-title: Componentes de la interfaz central de Experience Cloud
 breadcrumb-title: Componentes de la interfaz central de Experience Cloud
 title: Interfaz de Experience Cloud y Guía de administración
-description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de audiencias, las cookies y comparta los recursos de Experience Cloud.
+description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 98%
 
 ---
 
 
 # Componentes de la interfaz central de Experience Cloud {#interface}
 
-+ [Componentes de la interfaz central de Experience Cloud guía](experience-cloud.md)
++ [Guía de componentes de la interfaz central de Experience Cloud](experience-cloud.md)
 + Servicios de Experience Cloud {#services}
    + [Servicios de Experience Cloud](core-services-landing.md)
    + [Búsqueda unificada en Experience Cloud](search-experience-cloud.md)
    + [Activación de la implementación para servicios entre aplicaciones](core-services.md)
    + [Preferencias de aprendizaje personalizadas de Experience Cloud](personalized-learning-preferences.md)
-   + Biblioteca de audiencias de Experience Cloud {#audiences}
-      + [Audiencias de Experience Cloud](audience-library.md)
-      + [Crear una audiencia](t-audience-create.md)
-      + [Publicación de un segmento de audiencia de Analytics](t-publish-audience-segment.md)
+   + Biblioteca de públicos de Experience Cloud {#audiences}
+      + [Públicos de Experience Cloud](audience-library.md)
+      + [Crear un público](t-audience-create.md)
+      + [Publicación de un segmento de público de Analytics](t-publish-audience-segment.md)
    + Atributos del cliente de Experience Cloud {#customer-attributes}
       + [Atributos del cliente en Experience Cloud](attributes.md)
       + [Preguntas frecuentes acerca de Atributos del cliente](faq-crs.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [Cumplimiento del Reglamento General de Protección de Datos](gdpr.md)
       + [Cumplimiento de la Ley de Privacidad del Consumidor de California](ccpa.md)
       + [Consideraciones de privacidad sobre atributos de cliente](privacy-mac.md)
-   + Activation de Experience Cloud {#activation}
-      + [Información general de Activation](activation.md)
-      + [Guía del usuario de Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-      + [Triggers](triggers.md)
    + Recursos de Experience Cloud {#assets}
       + [Descripción general de los activos de Experience Cloud](experience-cloud-assets.md)
       + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](creative-cloud.md)

@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. La ayuda incluye la administración de usuarios y productos en Admin Console, lo que permite crear aplicaciones para los servicios de Experience Cloud y recibir ayuda en la biblioteca de audiencias, los atributos del cliente, los activos de Experience Cloud, etc.
+description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. La ayuda incluye la administración de usuarios y productos en Admin Console, lo que permite crear aplicaciones para los servicios de Experience Cloud y recibir ayuda en la biblioteca de públicos, los atributos del cliente, los activos de Experience Cloud, etc.
 title: Documentación y temas de ayuda sobre la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -151,9 +151,9 @@ Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejor
 
 ## Obtener ayuda sobre administración y servicios entre aplicaciones
 
-Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y productos de Experience Cloud en Admin Console, lo que permite crear aplicaciones para los servicios de plataforma. También puede acceder a la ayuda de la Biblioteca de audiencias, atributos del cliente, activos de Experience Cloud y mucho más:
+Esta guía proporciona acceso a la ayuda sobre la administración de usuarios y productos de Experience Cloud en Admin Console, lo que permite crear aplicaciones para los servicios de plataforma. También puede acceder a la ayuda de la Biblioteca de públicos, atributos del cliente, activos de Experience Cloud y mucho más:
 
-* [[!UICONTROL Biblioteca de audiencias]](audience-library.md)
+* [[!UICONTROL Biblioteca de públicos]](audience-library.md)
 * [[!UICONTROL Atributos del cliente]](attributes.md)
 * [[!UICONTROL Triggers]](triggers.md)
 * [[!UICONTROL Recursos] de Experience Cloud](experience-cloud-assets.md)
@@ -175,9 +175,8 @@ Las guías de Experience Cloud relacionadas incluyen:
 * [Gráfico de cooperación Experience Platform](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=es)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
-* [Recopilación de datos de Experience Platform/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
+* [Etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/tags.html?lang=es)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
 
 ## Tutoriales
 
