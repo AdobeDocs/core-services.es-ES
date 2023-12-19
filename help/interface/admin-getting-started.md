@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Obtenga información acerca del inicio de sesión en Admin Console, y la adminis
 
 Puede ver una lista, que puede ordenarse y filtrarse, de todos los usuarios de Experience Cloud y sus detalles en la herramienta de administración. Consulte [Vista de los usuarios de Experience Cloud en la herramienta de administración](admin-tool-experience-cloud.md).
 
-## Aviso de actualización de aprovisionamiento {#provisioning}
+## Aviso de actualización de aprovisionamiento{#provisioning}
 
 Actualizado el **20 de julio de 2022**
 
@@ -71,7 +71,7 @@ Para obtener más información sobre las nuevas funciones, visite sus páginas r
 * [ID de visitante](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=es#section_3C9F6DF37C654D939625BB4D485E4354)
 * [Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
 
-## Autenticación de usuarios de Experience Cloud (migración planificada) {#migration}
+## Autenticación de usuarios de Experience Cloud (migración planificada){#migration}
 
 A partir de febrero de 2022, Adobe actualiza su sistema de administración de perfiles para permitir a las organizaciones administrar mejor los derechos empresariales a perfiles individuales. Como tal, todos los usuarios con un perfil personal, que corresponde a un Adobe ID individual (Type1), se migrarán a un nuevo perfil comercial. Este perfil corresponde a un _ID empresarial_ (Type2e).
 
@@ -208,13 +208,13 @@ El *grupo de seguridad* se muestra como un perfil de producto.
 
 Consulte [Administración de grupos y usuarios](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=es) para obtener información acerca de los grupos de seguridad y la asignación de usuarios a los grupos de seguridad.
 
-## Administrar recopilación de datos de Experience Platform {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Gestionar recopilación de datos de Experience Platform {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Recopilación de datos] se muestra en la [!UICONTROL Productos] página en la [!UICONTROL Admin Console]. Puede incluir otras aplicaciones y servicios en un perfil de producto de recopilación de datos.
+La [!UICONTROL recopilación de datos] de Experience Platform se muestra en la página [!UICONTROL Productos] en [!UICONTROL Admin Console]. Puede incluir otras aplicaciones y servicios en un perfil de productos de recopilación de datos.
 
-Invitar a usuarios a [!UICONTROL Recopilación de datos de Platform] y asigne funciones y derechos de usuario.
+Invite a los usuarios a [!UICONTROL Recopilación de datos de Platform], y asigne funciones y derechos de usuario.
 
-Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es) para obtener información sobre los permisos de usuario en el Admin Console y sobre la configuración de derechos en los perfiles.
+Consulte [Permisos de usuario](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es) para obtener información sobre los permisos de usuario en Admin Console y configurar la asignación de derechos a perfiles.
 
 ## Experience Manager as a Cloud Service
 
