@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ No hay información disponible.
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>Los menús de navegación de la izquierda se han actualizado y organizado para proporcionar acceso a todos los servicios y aplicaciones principales. Los cambios más destacables incluyen: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">El <span class="term"> Biblioteca de audiencias</span> y <span class="term"> Atributos del cliente</span> las selecciones de menú ahora se encuentran en <span class="term"> Audiencias</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Las selecciones de menú <span class="term">Biblioteca de públicos</span> y <span class="term">Atributos del cliente</span> ahora se encuentran en <span class="term">Públicos</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selección de menú <span class="term"> Exchange </span> se ha trasladado del menú desplegable Ayuda al carril de navegación izquierdo. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> Se ha eliminado <span class="term">Soluciones</span>. Podrá iniciar todas las aplicaciones desde la mitad inferior del carril de navegación. </li> 
     </ul> </td> 
