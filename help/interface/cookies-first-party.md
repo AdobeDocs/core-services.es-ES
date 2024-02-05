@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 79%
+source-wordcount: '1594'
+ht-degree: 72%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 79%
 
 Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imagen y sesiones del navegador. Si es posible, Adobe utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. Adobe garantiza que las cookies siempre se puedan configurar, aunque las de terceros estén bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocidos como cookie s_vi):
+Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. El Adobe garantiza que las cookies siempre se puedan configurar, incluso si las de terceros están bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (también conocidos como cookie s_vi):
 
 * El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) configurará automáticamente las cookies de origen independientemente de si el dominio de recopilación coincide con el del sitio. Si no coinciden, el servicio de identidad utilizará JavaScript para configurar las cookies en el dominio del sitio.
 * Si utiliza [identificadores heredados de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=es) (también conocidos como cookie `s_vi`), depende de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de colección no coincide con su dominio actual, las cookies se configuran como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un [identificador de reserva (s_fid)](cookies-analytics.md) de origen en lugar de la cookie “s_vi” estándar.
 
-Si desea asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establece como de terceros.
+Si desea asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede utilizar una implementación CNAME que habilitará el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esto implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establecen como de terceros.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Si desea establecer un CNAME para la recopilación de datos y si el sitio tiene 
 
 El proceso de publicación de certificados SSL puede resultar confuso y requerir mucho tiempo. Por ello, Adobe estableció una sociedad con DigiCert, una autoridad certificadora (AC) líder en su sector, y desarrolló un proceso integrado por el cual la compra y administración de estos certificados está automatizada.
 
-Con su permiso, trabajamos con nuestra AC para emitir, implementar y administrar un nuevo certificado SHA-2 SSL para usted. Adobe sigue administrando este certificado y asegurándose de que el problema de caducidad, revocación o seguridad no afecte a la disponibilidad de la colección de las organizaciones.
+Con su permiso, trabajamos con una CA para emitir, implementar y administrar un nuevo certificado SHA-2 SSL para usted. Adobe sigue administrando este certificado y asegurándose de que el problema de caducidad, revocación o seguridad no afecte a la disponibilidad de la colección de las organizaciones.
 
 ## Programa de certificados administrados por Adobe
 
@@ -47,13 +47,13 @@ El programa de certificados administrados por Adobe le permite implementar un nu
 
 Así se implementa un nuevo certificado SSL de origen para la recopilación de datos de origen:
 
-1. Complete el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente al solicitar la configuración de recopilación de datos de origen en el programa administrado por Adobe.
+1. Rellene el [Formulario de solicitud de dominio de origen](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) y abra una incidencia con el Servicio de atención al cliente solicitando la configuración de la recopilación de datos de origen en el programa administrado por el Adobe.
 
    Cada campo se describe dentro del documento con ejemplos.
 
 1. Cree registros CNAME (consulte las instrucciones más abajo).
 
-   Una vez recibida la incidencia, un especialista del Servicio de atención al cliente le proporcionará un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAME presentan un aspecto similar al siguiente:
+   Una vez recibida la incidencia, un especialista de atención al cliente le proporcionará un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Los CNAME presentan un aspecto similar al siguiente:
 
    **Seguro**: Por ejemplo, el nombre de host `smetrics.example.com` señala a `[random-10-character-string].data.adobedc.net`.
 
