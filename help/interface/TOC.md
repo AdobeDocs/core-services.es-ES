@@ -6,7 +6,7 @@ title: Guía de componentes de la interfaz central de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
 source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
