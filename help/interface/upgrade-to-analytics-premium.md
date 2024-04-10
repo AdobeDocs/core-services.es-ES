@@ -8,10 +8,10 @@ feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,6 @@ Analytics Premium le ofrece:
 >* Las eVars 76-250 y 100-250 (Standard) están visibles en las herramientas de administración, pero no están habilitadas.
 >* Adobe activa el Análisis de contribución. No cambia la ubicación (aún está disponible en la página Detección de anomalías), pero empieza a analizar automáticamente todos los puntos de datos.
 
-
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 En Analytics Premium Complete, obtiene todas las funciones de [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), además de las siguientes mejoras:
@@ -47,7 +46,7 @@ En Analytics Premium Complete, obtiene todas las funciones de [Analytics Premium
 | Data Workbench | <ul><li>Atribución algorítmica</li><li>Espacios de trabajo creados previamente</li></ul> |
 | Plataforma de Analytics | [Transmisión en directo](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (datos sin procesar, paneles, activadores) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ La actualización a Predictive Intelligence habilita [Analytics Premium](upgrade
 
 | Producto | Actualizaciones |
 |---|---|
-| Informes y análisis | [Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
-| Data Workbench | Espacios de trabajo creados previamente para cualificaciones de audiencia y marketing predictivo. |
+| Reports &amp; Analytics | [Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=es) |
+| Data Workbench | Espacios de trabajo creados previamente para cualificaciones de público y marketing predictivo. |
 | Plataforma de Analytics | Reproducción en directo (tableros y Triggers) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -68,10 +67,10 @@ La actualización a Customer 360 incluye [Analytics Premium](upgrade-to-analytic
 | Producto | Actualizaciones |
 |--- |--- |
 | [Atributos del cliente](attributes.md) | Atributos del cliente (uso compartido de análisis y segmentos) |
-| Data Workbench | <ul><li>Atributos del cliente derivados</li><li>Espacios de trabajo creados previamente para la detección de audiencias</li></ul> |
+| Data Workbench | <ul><li>Atributos del cliente derivados</li><li>Espacios de trabajo creados previamente para la detección de públicos</li></ul> |
 | Plataforma de Analytics | [Atributos del cliente](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Atribución avanzada {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -87,9 +86,9 @@ Cualquier software que se ejecute on-premise debe desactivarse. Este software in
 
 ## Experience Cloud: Administración de usuarios y productos {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus aplicaciones para utilizar los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Este proceso le ayuda a modernizar las implementaciones y le permite convertirse en administrador en Experience Cloud).
+Experience Cloud y los servicios principales están disponibles para los usuarios de Analytics Standard y Premium, siempre y cuando hayan realizado la modernización de la implementación descrita en [Introducción: habilite sus aplicaciones para utilizar los servicios principales](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Ese proceso le ayuda a modernizar la implementación y le permite convertirse en administrador en Experience Cloud).
 
-Una vez que se una a Experience Cloud, podrá iniciar sesión en Experience Cloud en [!DNL experience.adobe.com] y comenzar a usar los servicios principales, incluidos los Atributos del cliente, las audiencias y los análisis de aplicaciones móviles.
+Una vez que se una a Experience Cloud, podrá iniciar sesión con su Experience Cloud en [!DNL experience.adobe.com] y empiecen a utilizar los servicios principales (incluidos los atributos del cliente, las audiencias y los análisis de aplicaciones móviles).
 
 ### Administrar usuarios y grupos
 

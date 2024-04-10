@@ -1,23 +1,23 @@
 ---
-description: Descubra la herramienta de administración de Experience Cloud para ver una lista ordenable y filtrable de todos los usuarios y las políticas de Experience Cloud.
+title: Ver usuarios y detalles del usuario
+description: Obtenga información sobre la herramienta de administración en Experience Cloud. Ver una lista ordenable y filtrable de todos los usuarios y las directivas de Experience Cloud.
 application: Experience Cloud
-title: Vea los usuarios de Experience Cloud y sus detalles
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 94%
+source-wordcount: '1270'
+ht-degree: 83%
 
 ---
 
-# Vea los usuarios y las directivas de Experience Cloud en la herramienta de administración
+# Ver usuarios y directivas de Experience Cloud en [!UICONTROL Herramienta de administración]
 
-Los administradores pueden ver una lista de los usuarios y las directivas de Experience Cloud que pueden ordenar y filtrar y sus detalles en la herramienta de administración. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
+Los administradores pueden ver una lista de los usuarios y las directivas del Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Herramienta de administración]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
    ![Acceso a Admin Console](assets/admin-tool.png)
 
-1. En [!UICONTROL Acceso rápido], seleccione **[!UICONTROL Herramienta de administrador.]**
+1. En [!UICONTROL Acceso rápido], haga clic en **[!UICONTROL Herramienta de administración]**.
 
    (Como alternativa, en la URL de página de inicio puede reemplazar _inicio_ por _admin_).
 
@@ -45,7 +45,7 @@ Esta página muestra la lista completa de usuarios con acceso a Experience Cloud
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las aplicaciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
-| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
+| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario al Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista del usuario
 
@@ -67,7 +67,7 @@ En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, selecc
 
 ![Ver detalles del usuario en Admin Console](assets/admin-tool-user-details.png)
 
-Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto y la información a la que accedió por última vez.
+Una vista detallada de cada usuario muestra detalles importantes sobre el acceso a la aplicación del usuario, las funciones de administración y del producto, y la información de acceso más reciente.
 
 ## Información sobre esta sección
 
@@ -77,7 +77,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 * Nombre
 * Correo electrónico
 * Nombre de usuario (es posible que las cuentas de Federated ID tengan nombres de usuario diferentes de las direcciones de correo electrónico)
-* [Tipo de ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Tipo de ID](https://helpx.adobe.com/es/enterprise/using/identity.html)
 * País
 * Último inicio de sesión
 
@@ -116,7 +116,7 @@ Esta página muestra la lista completa de las directivas de Experience Cloud en 
 Puede buscar, ordenar o filtrar las columnas para personalizar la lista de directivas.
 
 * Busque perfiles de producto por nombre. Las búsquedas coinciden con la cadena de texto que escriba.
-* Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a [!UICONTROL Perfil de productos], [!UICONTROL Producto], [!UICONTROL Instancia], [!UICONTROL Cantidad de usuarios], y [!UICONTROL Cantidad de programadores], y Columnas.
+* Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a [!UICONTROL perfil de producto,] [!UICONTROL Producto,] [!UICONTROL Instancia,] [!UICONTROL Número de usuarios,] y [!UICONTROL Cantidad de desarrolladores,] Columnas.
 * Seleccione el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de productos de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
 
 | Elemento | Descripción |
@@ -163,3 +163,7 @@ Esta sección muestra una lista completa de todos los usuarios, grupos de usuari
 ## Listas detalladas de permisos y recursos
 
 Esta sección muestra una lista completa de los permisos y recursos disponibles para el perfil del producto. Los permisos y recursos que se han incluido en el perfil del producto se han marcado con &quot;✔&quot;. Las listas de permisos y recursos se han clasificado en fichas y columnas para facilitar la visualización. Las fichas y las columnas muestran la lista de las secciones que se aplican al producto actual.
+
+## Información relacionada
+
+* [Administrar usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) en el [!DNL Admin Console]

@@ -1,15 +1,15 @@
 ---
 description: Cargue un recurso a una carpeta compartida desde el explorador del Creative Cloud al Experience Cloud.
-title: Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud
+title: Cargar un recurso a una carpeta compartida desde el explorador del Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 81%
+source-wordcount: '73'
+ht-degree: 63%
 
 ---
 

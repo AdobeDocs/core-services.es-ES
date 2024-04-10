@@ -1,19 +1,19 @@
 ---
 role: User,Admin
-user-guide-title: Guía de componentes de la interfaz central de Experience Cloud
-breadcrumb-title: Guía de componentes de la interfaz central de Experience Cloud
-title: Guía de componentes de la interfaz central de Experience Cloud
+user-guide-title: interfaz de Experience Cloud y guía de administración
+breadcrumb-title: interfaz de Experience Cloud y guía de administración
+title: Interfaz de Experience Cloud y Guía de administración
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
-source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
+source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Guía de componentes de la interfaz central de Experience Cloud {#interface}
+# interfaz de Experience Cloud y guía de administración {#interface}
 
 + [Guía de componentes de la interfaz central de Experience Cloud](experience-cloud.md)
 + Servicios de Experience Cloud {#services}

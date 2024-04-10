@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: '677'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. En el Experience Cloud , seleccione ![menú](assets/menu-icon.png)y, a continuación, seleccione **[!UICONTROL Recopilación/lanzamiento de datos]**.
+1. En Experience Cloud, seleccione ![menú](assets/menu-icon.png), luego seleccione **[!UICONTROL Recopilación de datos/Launch]**.
 2. En la tarjeta [!UICONTROL Triggers], seleccione **[!UICONTROL Administrar Triggers]**.
 3. Seleccione **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 
@@ -66,7 +66,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
    | [!UICONTROL Contenedor] | [!UICONTROL Los contenedores] se encuentran en el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un Trigger. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita. Por ejemplo, si tiene dos contenedores unidos por el operador AND, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicie una nueva sesión después | Cree un Trigger para los eventos de inicio y fin de sesión. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. Seleccione **[!UICONTROL Guardar]**.
 6. Utilice Triggers para [realizar remarketing en tiempo real](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=es) en [!DNL Adobe Campaign].
@@ -83,6 +83,6 @@ Por ejemplo, en la siguiente página se muestran reglas que podría usar para un
 
 #### Trigger referente
 
-El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*productos* y *remitente del reenvío*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
+El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*products* y *referrer*) para que se evalúen en la misma visita, deben agregarse al mismo contenedor.
 
 ![Activador de remitente del reenvío](assets/fb-boots-promo.png)

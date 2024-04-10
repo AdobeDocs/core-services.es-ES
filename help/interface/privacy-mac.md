@@ -8,20 +8,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
-# Consideraciones de privacidad sobre atributos de cliente
+# Consideraciones de privacidad para [!DNL Customer Attributes]
 
 Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
 
 * Nombre y apellidos
 * Domicilio u otra dirección física
-* Correo electrónico Dirección
+* Correo electrónico
 * Número de teléfono
 * Número de seguridad social
 * Otro identificador que permite el contacto físico o en línea de un individuo. (Varía por ubicación. Verifique y cumpla con las leyes y regulaciones locales relacionadas con la privacidad y PII para todos los lugares donde usted lleve a cabo su actividad comercial).

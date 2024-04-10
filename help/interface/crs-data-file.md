@@ -1,27 +1,27 @@
 ---
-description: Conozca los requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
+description: Obtenga información sobre los requisitos de archivos de datos y varios orígenes de datos para la carga [!DNL Customer Attributes] al Experience Cloud.
 solution: Experience Cloud
-title: Obtenga información sobre los archivos de datos y las fuentes de datos de atributos de cliente
+title: Archivo de datos y fuentes de datos
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 98%
+source-wordcount: '1186'
+ht-degree: 90%
 
 ---
 
-# Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente
+# Acerca del archivo de datos y las fuentes de datos para [!DNL Customer Attributes]
 
-Requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
+Requisitos de archivos de datos y varios orígenes de datos para la carga [!DNL Customer Attributes] al Experience Cloud.
 
-Necesita acceso a CRM o datos similares de su empresa. Los datos que cargue en Experience Cloud deben estar en un archivo `.csv`. Si carga a través de un FTP o sFTP, también debe subir un archivo `.fin`.
+Necesita acceso a CRM o datos similares de su empresa. Los datos que cargue en Experience Cloud deben ser `.csv` archivo. Si carga a través de un FTP o sFTP, también debe subir un archivo `.fin`.
 
-Los Atributos del cliente están diseñados para gestionar algunos archivos cada día. Para reducir el problema de la demora en el procesamiento de muchos archivos pequeños, los archivos enviados en los 30 minutos siguientes a un lote anterior desde la misma organización se redirigirán a una cola de prioridad inferior.
+[!DNL Customer Attributes] está diseñado para gestionar algunos archivos al día. Para reducir el problema de la demora en el procesamiento de muchos archivos pequeños, los archivos enviados en los 30 minutos siguientes a un lote anterior desde la misma organización se redirigirán a una cola de prioridad inferior.
 
 ## Tipos de archivos permitidos y requisitos de nombre {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -76,7 +76,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Columna ID del cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, el valor setCustomerID. (Consulte <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Adobe Target: Sincronización del ID de cliente</a>) </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. El<a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">ID de cliente y estados de autenticación</a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, el valor setCustomerID. (Consulte <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics y Adobe Target: Sincronización del ID de cliente</a>) </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este ID se establece utilizando la llamada de <span class="codeph">setCustomerIDs</span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en el Experience Cloud. El<a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (mediante setCustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener información sobre <span class="codeph">setCustomerIDs</span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external">ID de cliente y estados de autenticación</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas posteriores </p> </td> 
@@ -84,7 +84,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Límites de atributos </p> </td> 
-   <td colname="col2"> <p>En Experience Cloud, puede cargar cientos de columnas <span class="filepath">.csv</span> en el servicio de atributos del cliente. Sin embargo, al configurar suscripciones y seleccionar atributos, se aplican los límites siguientes según las aplicaciones que tenga: </p> <p> 
+   <td colname="col2"> <p>Puede cargar cientos de <span class="filepath"> .csv </span> columnas al servicio de atributos del cliente en Experience Cloud. Sin embargo, al configurar suscripciones y seleccionar atributos, se aplican los límites siguientes según las aplicaciones que tenga: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 en total </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 por grupo de informes </li> 
@@ -116,7 +116,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Requisitos de archivo </p> </td> 
-   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contienen un salto de línea, comillas dobles o comas deben estar entre comillas. </p> <p> Los caracteres de comillas dobles de un campo deben tener un carácter de escape mediante una barra invertida (\). </p> <p> Las columnas en blanco se almacenan como <span class="term">null</span>. </p> </td> 
+   <td colname="col2"> <p> Cada origen de atributo debe contener el mismo número de campos separados por comas. </p> <p> Los campos que contienen un salto de línea, comillas dobles o comas deben estar entre comillas. </p> <p> Los caracteres de comillas dobles de un campo deben tener un carácter de escape mediante una barra invertida (\). </p> <p> Las columnas en blanco se almacenan como <span class="term"> null </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios archivos </p> </td> 
@@ -128,7 +128,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Datos históricos </p> </td> 
-   <td colname="col2"> <p> Los atributos del cliente están vinculados al perfil del visitante subyacente en [!DNL Analytics]. Como tal, los [!UICONTROL Atributos del cliente] se asocian con el visitante durante toda la vida de ese perfil del visitante en [!DNL Analytics]. Este perfil incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno de Data Warehouse, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> <p> Tenga en cuenta que el método de relleno de Data Warehouse dejará de estar disponible a partir de octubre de 2022. </td> 
+   <td colname="col2"> <p> Los atributos del cliente están vinculados al perfil del visitante subyacente en [!DNL Analytics]. Como tal, los [!UICONTROL Atributos del cliente] se asocian con el visitante durante toda la vida de ese perfil del visitante en [!DNL Analytics]. Este perfil incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno de Data Warehouse, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> <p> Tenga en cuenta que el método de relleno de Data Warehouse ya no estará disponible a partir de octubre de 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos </p> </td> 

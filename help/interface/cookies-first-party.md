@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre cómo Adobe Analytics utiliza cookies para ofrecer información sobre variables y componentes que no se mantienen entre solicitudes de imágenes y sesiones de explorador.
 solution: Experience Cloud,Analytics
-title: "Cookies de origen "
+title: Cookies de origen
 index: y
 snippet: y
 feature: Cookies
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 

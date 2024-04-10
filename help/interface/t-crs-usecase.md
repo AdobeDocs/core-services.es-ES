@@ -1,17 +1,17 @@
 ---
 description: Cree un origen de Atributo del cliente y cárguelo en Adobe Experience Cloud.
 solution: Experience Cloud
-title: Crear un origen de Atributo del cliente y cargar el archivo de datos
+title: Crear un origen de atributos del cliente y cargar el archivo de datos
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Una vez que la fuente de datos esté activa, podrá hacer lo siguiente:
 
 >[!IMPORTANT]
 >
->Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *Atributos del cliente* se muestra como uno de los [!UICONTROL Perfiles de producto], está listo para empezar. Los usuarios que se agregan al grupo Atributos del cliente ven el menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
+>Para acceder a esta función, los usuarios deben estar asignados al perfil de producto Atributos del cliente (Atributos del cliente: Acceso predeterminado. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. If *Atributos del cliente* se muestra como una de las [!UICONTROL perfiles de producto], está listo para empezar. Los usuarios que se agregan al grupo Atributos del cliente ven el menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 >
 >Para usar la función Atributos del cliente, los usuarios también deben pertenecer a grupos de nivel de aplicación (Analytics o [!DNL Target]).
 
@@ -145,7 +145,7 @@ Eliminar y reemplazar atributos en el esquema.
 
 ## Configurar suscripciones y activar el origen de atributos {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configuración de una suscripción configura el flujo de datos entre Experience Cloud y las aplicaciones. La activación del origen de atributos permite que los datos fluyan a las aplicaciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
+La configuración de una suscripción configura el flujo de datos entre el Experience Cloud y las aplicaciones. La activación del origen de atributos permite que los datos fluyan a las aplicaciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
 
 Consulte [Configurar suscripciones](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -163,7 +163,7 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 ![Segmento de Analytics basado en los atributos cargados](assets/08_crs_usecase.png)
 
-Cuando publica un segmento en Experience Cloud, pasa a estar disponible en las Audiencias de Experience Cloud y en Audience Manager.
+Cuando publica un segmento en Experience Cloud, pasa a estar disponible en Audiencias de Experience Cloud y en Audience Manager.
 
 ## Uso de los Atributos del cliente en Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

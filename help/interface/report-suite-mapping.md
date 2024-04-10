@@ -1,16 +1,16 @@
 ---
 description: Obtenga información sobre cómo asignar uno o varios grupos de informes a una organización en Experience Cloud.
-title: 'Asignación de grupos de informes a una organización '
+title: Asignación de grupos de informes a una organización
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -95,13 +95,13 @@ Algunos de los grupos de informes podrían estar visibles en una compañía de i
 
 ### ¿Qué sucede si no reconozco algunas de las organizaciones enumeradas en la lista desplegable de uno de mis grupos de informes?
 
-La lista muestra todas las organizaciones *posibles* a las que podría asignarse el grupo de informes, aunque carezca de permiso para asignar a todos estos grupos de informes. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte con un administrador de Experience Cloud de su organización para determinar cuál es la mejor opción.
+La lista muestra todos los *posible* organizaciones a las que se podría asignar el grupo de informes, aunque carezca de permiso para asignar a todos esos grupos de informes. Si no está seguro de si el grupo de informes debe asignarse a uno de los grupos de informes en gris de la lista, consulte con un administrador de Experience Cloud de su organización para determinar cuál es la mejor opción.
 
-### ¿Qué sucede si no reconozco algunas de las Compañías de inicio de sesión enumeradas para un grupo de informes en la columna “Visible para Compañías de inicio de sesión”?
+### ¿Qué sucede si no reconozco algunas de las Compañías de inicio de sesión enumeradas para un grupo de informes en la columna &quot;Visible para Compañías de inicio de sesión&quot;?
 
 En algún momento, este grupo de informes se compartió con otra compañía de inicio de sesión que puede formar parte de una organización diferente de Experience Cloud.
 
-### ¿Qué es este error de “Posible conflicto” acerca de un grupo de informes generado a la vez en otra organización? ¿Por qué importa eso?
+### ¿Qué es este error de &quot;Posible conflicto&quot; acerca de un grupo de informes generado por otra organización? ¿Por qué importa eso?
 
 Esta notificación le ayuda a tomar una decisión informada sobre la asignación de grupos de informes. Queremos que sea consciente de que el grupo de informes se creó originalmente bajo una organización diferente en caso de que esa organización sea más apropiada para este grupo de informes.
 
@@ -113,6 +113,6 @@ Los grupos de informes asignados se muestran en un formato no editable. Si debe 
 
 Puede encontrar el nombre de su organización en [Organizaciones y Configuración de cuenta](organizations.md).
 
-### Veo una fecha en la columna “Fecha de asignación”. ¿Quién hizo esa asignación?
+### Veo una fecha en la columna &quot;Fecha de asignación&quot;. ¿Quién hizo esa asignación?
 
-Puede consultar el Registro de cambios del grupo de informes en la interfaz de Analytics para comprobar el ID de usuario que realizó el cambio. Busque el evento “Grupo asociado a la organización IMS”.
+Puede consultar el Registro de cambios del grupo de informes en la interfaz de Analytics para comprobar el ID de usuario que realizó el cambio. Busque el evento &quot;Grupo asociado a la organización IMS&quot;.

@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo utilizar las reglas de atributos para crear una audiencia y definir una audiencia compuesta en Adobe Experience Cloud.
+description: Obtenga información sobre cómo utilizar las reglas de atributos para crear un público y definir un público compuesto en Adobe Experience Cloud.
 solution: Experience Cloud
 title: Crear una audiencia
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
@@ -8,62 +8,62 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
-# Crear una audiencia
+# Crear un público
 
-Obtenga información sobre cómo utilizar las reglas de atributos para crear una audiencia y definir una audiencia compuesta en Experience Cloud.
+Obtenga información sobre cómo utilizar las reglas de atributos para crear un público y definir un público compuesto en Experience Cloud.
 
 Este artículo le ayuda a lo siguiente:
 
-* Crear una audiencia
+* Crear un público
 * Crear una regla
-* Usar reglas para definir una audiencia compuesta
+* Usar reglas para definir un público compuesto
 
-El siguiente gráfico representa dos reglas en una audiencia compuesta.
+El siguiente gráfico representa dos reglas en un público compuesto.
 
-![Dos reglas en una audiencia compuesta](assets/audience_sharing.png)
+![Dos reglas en un público compuesto](assets/audience_sharing.png)
 
-Cada círculo representa una regla que define la pertenencia a la audiencia. Los Visitantes que se califican como miembros en ambas reglas de audiencia se superponen para convertirse en la audiencia compuesta y definida.
+Cada círculo representa una regla que define la pertenencia al público. Los Visitantes que se califican como miembros en ambas reglas de público se superponen para convertirse en el público compuesto y definido.
 
 >[!NOTE]
 >
->La audiencia está completamente definida tras la recopilación de datos una vez completado el periodo especificado.
+>El público está completamente definido tras la recopilación de datos una vez completado el periodo especificado.
 
-El siguiente ejemplo muestra cómo crear las reglas para una audiencia compuesta. Esta audiencia está compuesta por:
+El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
 * Usuarios de Chrome y Safari derivados de un segmento de [!DNL Adobe Analytics] [publicado](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) en [!DNL Experience Cloud].
 
-   ![Creación de reglas para una audiencia compuesta](assets/audience_create.png)
+  ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
-**Para crear una audiencia**
+**Para crear un público**
 
-1. En [!DNL Experience Cloud], en [!DNL Experience Platform], seleccione **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de audiencias].**
-1. En la página [!UICONTROL Audiencias], seleccione **[!UICONTROL Nuevo]**. ![Agregue](assets/add_icon_small.png)
+1. En [!DNL Experience Cloud], en [!DNL Experience Platform], seleccione **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de públicos].**
+1. En el [!UICONTROL Audiencias] página, seleccione **[!UICONTROL Nuevo]**. ![añadir](assets/add_icon_small.png)
 
    ![Resultado de los pasos](assets/audience_create_new.png)
 
-1. En la página [!UICONTROL Crear audiencia], especifique un título y una descripción.
+1. En la página [!UICONTROL Crear público], especifique un título y una descripción.
 1. Dentro de [!UICONTROL Reglas], seleccione una fuente de atributos:
 
    * **[!UICONTROL Datos de Real-Time Analytics:]** datos de atributo derivados de solicitudes de imagen de Real-Time Analytics; incluyen datos tales como eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
    >[!NOTE]
    >
-   >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
+   >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
 
-   * **[!UICONTROL Experience Cloud:]** datos de atributos derivados a partir de los orígenes de [!DNL Experience Cloud]. Por ejemplo, pueden ser datos de segmentos de audiencia creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** datos de atributos derivados a partir de los orígenes de [!DNL Experience Cloud]. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
-1. Defina las reglas de audiencia y seleccione **[!UICONTROL Guardar].**
+1. Defina las reglas de público y seleccione **[!UICONTROL Guardar].**
 
 >[!NOTE]
 >
->Le recomendamos que se informe sobre las variables de implementación para definir reglas de audiencia.
+>Le recomendamos que se informe sobre las variables de implementación para definir reglas de público.
 
 En [!UICONTROL Reglas], defina las selecciones de atributos de *`Home & Garden`*:
 
@@ -71,9 +71,9 @@ En [!UICONTROL Reglas], defina las selecciones de atributos de *`Home & Garden`*
 * **[!UICONTROL Grupo de informes:]** Grupo de informes 31
 * Dimensión = **[!UICONTROL Tienda (Merch) (v6)]** > **[!UICONTROL igual a]** > **[!UICONTROL Hogar y jardín]**
 
-![Selecciones de atributos en la biblioteca de audiencias](assets/home_garden.png)
+![Selecciones de atributos en la biblioteca de públicos](assets/home_garden.png)
 
-Los *Visitantes de Chrome y Safari* son un segmento de audiencia compartido desde Analytics:
+Los *Visitantes de Chrome y Safari* son un segmento de público compartido desde Analytics:
 
 * **[!UICONTROL Fuente de atributos:]** Experience Cloud
 * **[!UICONTROL Dimensión:]** Visitantes de Chrome y Safari
@@ -82,15 +82,15 @@ Los *Visitantes de Chrome y Safari* son un segmento de audiencia compartido desd
 
 Para comparar, podría añadir una regla *OR* para ver todos los visitantes de una sección del sitio como Patio y muebles.
 
-![Regla OR para una audiencia](assets/audiences_rule_patio.png)
+![Regla OR para un público](assets/audiences_rule_patio.png)
 
-La regla resultante es una audiencia definida que incluye a los usuarios de Chrome y Safari que visitaron la sección Hogar y jardín. El segmento Patio y muebles proporciona una perspectiva adicional de todos los visitantes que visitan esa sección del sitio.
+La regla resultante es un público definido que incluye a los usuarios de Chrome y Safari que visitaron la sección Hogar y jardín. El segmento Patio y muebles proporciona una perspectiva adicional de todos los visitantes que visitan esa sección del sitio.
 
-![Audiencia definida en Experience Cloud](assets/defined_audience.png)
+![Público definido en Experience Cloud](assets/defined_audience.png)
 
 * **Estimación histórica:** (Círculo con puntos) Representa reglas creadas según datos de [!DNL Analytics].
 * **Audiencia real:** (Círculo sólido) cualquier regla creada que tenga 30 días de datos de Audience Manager. Cuando los datos de Audience Manager llegan a los 30 días, la línea se vuelve sólida y representa los números reales.
 
-Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar una audiencia definida.
+Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones. Por ejemplo, puede incluir una audiencia compartida en una actividad de Adobe Target.
+Una vez guardado el público, está disponible para otras aplicaciones. Por ejemplo, puede incluir un público compartido en una actividad de Adobe Target.

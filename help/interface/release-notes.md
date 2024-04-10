@@ -1,7 +1,7 @@
 ---
-description: Conozca las últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como atributos del cliente, públicos y administración de usuarios.
+description: Obtenga información sobre las últimas funciones, notas de la versión y problemas conocidos de los servicios de Experience Cloud, como atributos del cliente, audiencias y administración de usuarios.
 solution: Experience Cloud
-title: Notas de versión acumuladas
+title: Notas de la versión acumuladas para la interfaz de Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
-workflow-type: ht
-source-wordcount: '4743'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '4735'
+ht-degree: 94%
 
 ---
 
@@ -259,7 +259,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 **Problemas conocidos**
 
-* Los clientes no pueden iniciar sesión en el Report Builder si realizan un inicio de sesión único (SSO) en Analytics mediante Experience Cloud. Este problema no afecta a los clientes que utilizan credenciales de Analytics heredadas.
+* Los clientes no pueden iniciar sesión en el Report Builder si realizan un inicio de sesión único en Analytics mediante el Experience Cloud. Este problema no afecta a los clientes que utilizan credenciales de Analytics heredadas.
 * Problema conocido con la función “Vincular a informe” en Analytics. Los clientes que inician sesión en Analytics mediante Experience Cloud son dirigidos a una página de inicio de sesión que no es único para Analytics al intentar compartir un informe.
 
 ## Versión 15.9: 10 de septiembre de 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
@@ -338,7 +338,7 @@ No hay información disponible.
 
 **Problemas conocidos**
 
-* Vincular y desvincular la organización de Dynamic Tag Management con Experience Cloud no funciona para las organizaciones de Experience Cloud recién creadas. Adobe está trabajando para corregir esto y restaurar la funcionalidad normal con la versión de mayo. Si tiene problemas al intentar realizar el inicio de sesión único en la Dynamic Tag Management por medio de Experience Cloud, use el inicio de sesión preexistente en [!DNL dtm.adobe.com].
+* Vincular y desvincular la organización de Dynamic Tag Management con Experience Cloud no funciona para las organizaciones de Experience Cloud recién creadas. Adobe está trabajando para corregir esto y restaurar la funcionalidad normal con la versión de mayo. Si tiene problemas al intentar realizar el inicio de sesión único en la Dynamic Tag Management a través de Experience Cloud, utilice el inicio de sesión heredado en [!DNL dtm.adobe.com].
 * Un problema recurrente impide el uso compartido de públicos de grupos de informes que no son propiedad de la cuenta de Analytics vinculada. Se están tomando medidas correctivas
 
 ## Versión 15.3.2: 19 de marzo de 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -423,13 +423,13 @@ Nuevas funciones y correcciones en la interfaz de colaboración y uso compartido
 * Los cambios en grupos y autorizaciones realizados en Administración de usuarios no se aplican hasta después de volver a iniciar sesión.
 * Algunos usuarios pueden tener problemas al cargar tipos de archivos de tamaño grande a los recursos de Experience Cloud.
 * Los usuarios pueden echar en falta vínculos en sus tarjetas de Experience Cloud procedentes de Advertising Cloud.
-* Algunos usuarios administrativos pueden tener problemas al enlazar sus cuentas después de aceptar una invitación para unirse a Experience Cloud.
+* Algunos usuarios de administración pueden tener problemas al vincular sus cuentas después de aceptar una invitación para unirse a un Experience Cloud.
 * El rendimiento de la interfaz de Experience Cloud se puede reducir cuando varios usuarios la utilizan en paralelo.
 * Algunos usuarios pueden eliminar un recurso que no esté actualizado en lugar de recibir una notificación de error.
 * Algunos usuarios pueden tener problemas al iniciar sesión en dos exploradores con el mismo Adobe ID simultáneamente.
 * Puede ser que algunos usuarios no puedan añadir de nuevo un usuario de Creative Cloud a una carpeta compartida después de que se haya eliminado el usuario de Creative Cloud.
-* Algunos usuarios pueden experimentar un retraso en la notificación que se produce cuando una carpeta se comparte desde Experience Cloud en Creative Cloud.
-* Algunos usuarios pueden tener problemas al compartir una carpeta entre Experience Cloud y Creative Cloud.
+* Algunos usuarios pueden experimentar un retraso en la notificación que se produce cuando se comparte una carpeta de Experience Cloud a Creative Cloud.
+* Algunos usuarios pueden tener problemas al compartir una carpeta entre el Experience Cloud y el Creative Cloud.
 * Algunos usuarios pueden tener problemas para crear un público dentro de un grupo de informes de Analytics después de habilitar los públicos compartidos.
 * Es posible que algunos usuarios tengan problemas al cargar recursos en un tablero.
 

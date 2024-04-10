@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Describe cómo:
 * Permite que se convierta en administrador.
 * [Implementación del Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 * Modernice su [!DNL Analytics] y [!DNL Target] implementaciones mediante [!UICONTROL Recopilación de datos de Platform].
-* Comience a utilizar servicios de Experience Cloud como [!UICONTROL Atributos del cliente] y [!UICONTROL Audiencias].
+* Comience a utilizar servicios de Experience Cloud como [[!DNL Customer Attributes]](attributes.md) y [[!DNL Audience Library]](audience-library.md).
 
 Soluciones o servicios:
 
@@ -53,7 +53,7 @@ Consulte el [Servicio de Experience Cloud ID](https://experienceleague.adobe.com
 
 Ayuda: [Públicos](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Crear y administrar audiencias en el Experience Cloud [!UICONTROL Biblioteca de audiencias]. Los públicos pueden crearse o derivarse desde distintos orígenes como:
+Crear y administrar audiencias en Experience Cloud [!UICONTROL Biblioteca de audiencias]. Los públicos pueden crearse o derivarse desde distintos orígenes como:
 
 * Las nuevas se crean en [!DNL Experience Cloud].
 * A partir de segmentos de [!DNL Analytics] publicados en [!DNL Experience Cloud].
