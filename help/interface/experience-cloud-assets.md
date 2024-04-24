@@ -1,7 +1,7 @@
 ---
 description: Obtenga información acerca de Experience Cloud Assets que puede compartir entre distintas aplicaciones.
 solution: Experience Cloud
-title: Información general sobre Assets
+title: Información general sobre recursos
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 En [!UICONTROL Experience Cloud Assets], puede:
 
-* [Navegar a Experience Cloud Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [Vaya a Experience Cloud Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Acceso a la barra de herramientas](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Edición de recursos](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Buscar recursos](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -41,7 +41,7 @@ En [!UICONTROL Experience Cloud Assets], puede:
 * [Visualizar las propiedades de los recursos](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Ejecutar informes de uso](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 
-## Navegar a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Vaya a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![Navegar a Experience Cloud Assets ](assets/asset-nav.png)
 

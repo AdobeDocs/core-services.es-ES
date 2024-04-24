@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre la compatibilidad de exploradores, y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe Experience Cloud.
 solution: Experience Cloud
-title: Preguntas más frecuentes sobre Experience Cloud
+title: Preguntas frecuentes sobre Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes sobre Experience Cloud
 
-Obtenga información acerca de la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de Experience Cloud.
+Obtenga información sobre la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de Experience Cloud.
 
 ## ¿Qué exploradores son compatibles con Experience Cloud?
 
@@ -62,10 +62,10 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un val
 
 ## ¿Qué es el _aprovisionamiento?_
 
-El aprovisionamiento en Experience Cloud significa lo siguiente:
+El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 * Sus usuarios pueden empezar a iniciar sesión en [!DNL Experience Cloud] y a vincular aplicaciones.
-* Pueden empezar a utilizar las funciones disponibles a través de Experience Cloud, como Personas.
+* Pueden empezar a utilizar las funcionalidades disponibles a través de Experience Cloud, como People.
 * Puede prepararse para abandonar el proceso de inicio de sesión basado en cada aplicación.
 * Puede conservar el control de acceso a las distintas aplicaciones.
 
@@ -75,9 +75,9 @@ El aprovisionamiento en Experience Cloud significa lo siguiente:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** Los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
-## ¿Qué puedo hacer si alguien no puede iniciar sesión en Experience Cloud?
+## ¿Qué puedo hacer si alguien no puede iniciar sesión en la interfaz de Experience Cloud?
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
@@ -95,7 +95,7 @@ Consulte [Administración de cuentas de usuario](organizations.md#topic_C31CB834
 
 ## ¿Qué es una organización?
 
-Un [organización](organizations.md) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+Una [organización](organizations.md) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
 ## ¿Dónde puedo encontrar mi ID de organización de IMS?
 
@@ -103,7 +103,7 @@ Consulte [Visualización del ID de la organización](organizations.md) para obte
 
 ## ¿Qué debo hacer cuando uno de mis usuarios abandona la empresa?
 
-Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde el Experience Cloud ni a través del inicio de sesión directo. También debe eliminarlos en el nivel de Experience Cloud.
+Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde Experience Cloud ni a través del inicio de sesión directo. También debe eliminarlos en el nivel de Experience Cloud.
 
 ## ¿Qué es un Adobe ID?
 
