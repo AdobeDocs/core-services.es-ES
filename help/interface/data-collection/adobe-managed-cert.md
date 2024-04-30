@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,7 @@ Se sabe que los siguientes clientes no pueden conectarse con la seguridad de cif
 
 +++¿Qué tipos de certificados HTTPS son compatibles?
 
-El Adobe admite tipos de certificados RSA y ECC para satisfacer las distintas necesidades de los clientes. Los certificados RSA son más compatibles con los clientes, pero los certificados ECC utilizan menos procesamiento tanto en el servidor como en el lado del cliente. Para los certificados administrados por el Adobe, se proporcionan RSA y ECC. Para los certificados administrados por el cliente, se recomiendan tanto RSA como ECC. Los clientes modernos admiten RSA y ECC. Los siguientes clientes solo suelen admitir certificados RSA:
+El Adobe admite tipos de certificados RSA y ECC para satisfacer las distintas necesidades de los clientes. Los certificados RSA son más compatibles con los clientes, pero los certificados ECC utilizan menos procesamiento tanto en el servidor como en el lado del cliente. Para los certificados administrados por el Adobe, se proporcionan RSA y ECC. Para los certificados administrados por el cliente, se requiere RSA y se recomienda ECC. Los clientes modernos admiten RSA y ECC. Los siguientes clientes solo suelen admitir certificados RSA:
 
 * Windows Vista y versiones anteriores (última actualización en 2012)
 * Windows Phone 8.0 y versiones anteriores (última actualización en 2014)
