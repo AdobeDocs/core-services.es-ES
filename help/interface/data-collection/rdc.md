@@ -2,10 +2,10 @@
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 23%
+source-wordcount: '291'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 | Tipo de RDC | Centros de recopilación de datos |
 | --- | --- |
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
-| Global + China* | China*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
+| Global + China* | Pekín*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 | Solo América | Oregón, Virginia |
 | Solo Europa | Irlanda, París |
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
@@ -41,6 +41,7 @@ La recopilación de datos de terceros incluye dominios de cookies que no coincid
 
 | Tipo de RDC | Centros de recopilación de datos |
 | --- | --- |
-| Predeterminado | Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney, China* |
+| Predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
+| Predeterminado + China* | Pekín*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 
 {style="table-layout:auto"}
