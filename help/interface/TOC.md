@@ -5,10 +5,10 @@ breadcrumb-title: Interfaz de Experience Cloud y Guía de administración
 title: Interfaz de Experience Cloud y Guía de administración
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 85%
+source-wordcount: '227'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 85%
 
 + [Guía de componentes de la interfaz central de Experience Cloud](experience-cloud.md)
 
-+ Servicios de Experience Cloud {#services}
-   + [Servicios de Experience Cloud](services/overview.md)
-   + [Introducción](services/getting-started.md)
++ Servicios {#services}
+   + [Información general](services/overview.md)
+   + [Primeros pasos](services/getting-started.md)
    + Recursos {#assets}
-      + [Descripción general de los activos de Experience Cloud](services/assets/experience-cloud-assets.md)
-      + [Uso compartido de carpetas y recursos entre Experience Cloud y Creative Cloud](services/assets/creative-cloud.md)
+      + [Información general](services/assets/experience-cloud-assets.md)
+      + [Uso compartido de carpetas y recursos con Creative Cloud](services/assets/creative-cloud.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
-      + [Uso compartido de una carpeta de recursos de Experience Cloud](services/assets/share.md)
+      + [Compartir una carpeta de recursos](services/assets/share.md)
       + [Cargar un recurso a una carpeta compartida](services/assets/upload.md)
       + [Requisitos para compartir un archivo de recursos](services/assets/file-reqs.md)
       + [Comportamiento de archivos compartidos](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 85%
       + [Consideraciones de privacidad sobre atributos de cliente](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
 
-+ Funciones del Experience Cloud {#features}
++ Funciones {#features}
    + [Preferencias de cuenta](features/account-preferences.md)
    + [Búsqueda unificada](features/search.md)
    + [Aprendizaje personalizado](features/personalized-learning.md)
 
-+ Administración de Experience Cloud {#administration}
-   + [Ver los detalles del usuario de Experience Cloud (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
++ Administración {#administration}
+   + [Ver detalles del usuario (herramienta de administración)](administration/admin-tool-experience-cloud.md)
    + [Organizaciones y vinculación de cuentas](administration/organizations.md)
-   + [Integraciones de Experience Cloud](administration/integrations.md)
+   + [Integraciones](administration/integrations.md)
 
-+ recopilación de datos de Experience Cloud {#data-collection}
++ Recopilación de datos {#data-collection}
    + [programa de certificados administrado por Adobe](data-collection/adobe-managed-cert.md)
    + [Direcciones IP](data-collection/ip-addresses.md)
    + [Dominios](data-collection/domains.md)

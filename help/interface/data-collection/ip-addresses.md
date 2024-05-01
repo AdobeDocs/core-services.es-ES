@@ -1,26 +1,25 @@
 ---
-title: Direcciones IP de Adobe Experience Cloud
+title: Direcciones IP utilizadas por Adobe Experience Cloud
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# Direcciones IP y dominios de Adobe Experience Cloud
+# Direcciones IP utilizadas por Adobe Experience Cloud
 
 La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye sistemas entrantes (como la recopilación de datos) y salientes (como las fuentes de datos en Adobe Analytics) que utiliza Adobe.
 
 >[!IMPORTANT]
 >
->Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
+>Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicios de Internet deja de funcionar.
 
-Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe Experience Cloud individuales tienen sus propios dominios que utilizan:
+Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe Experience Cloud individuales tienen sus propias direcciones IP que utilizan:
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## Todos los bloques de direcciones IP de Adobe
@@ -48,7 +47,7 @@ Si su organización prefiere permitir intervalos de direcciones IP específicos,
 
 En la tabla anterior se incluyen todos los rangos de IP de esta sección.
 
-| Ubicación | Intervalo IP (Notación CIDR) |
+| Ubicación | Intervalo IP (notación CIDR) |
 | --- | --- |
 | Australia | `63.140.55.0/24` |
 | Australia | `63.140.56.0/23` |

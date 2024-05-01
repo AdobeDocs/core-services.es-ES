@@ -1,28 +1,31 @@
 ---
 description: Obtenga información acerca de los dominios utilizados por Experience Cloud.
-title: Dominios de Experience Cloud
+title: Dominios utilizados por Adobe Experience Cloud
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: f4833da7ff9e9a04338c632e4bb2bd742bafbf09
+exl-id: a15918f0-c03b-4d32-a254-47f46023b127
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 28%
+source-wordcount: '101'
+ht-degree: 17%
 
 ---
 
-# Dominios de Experience Cloud {#domains}
+# Dominios utilizados por Adobe Experience Cloud
 
-Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejorar el rendimiento y mejorar la experiencia del producto. Adobe recomienda permitir estos dominios a través de la red de su organización o del cortafuegos para una experiencia óptima. Otros productos y servicios de Experience Cloud utilizan sus propios dominios. Consulte la documentación de dichas aplicaciones para obtener más información.
+Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejorar el rendimiento y mejorar la experiencia del producto. Adobe recomienda permitir estos dominios a través de la red de su organización o del cortafuegos para una experiencia óptima.
+
+Además de los dominios enumerados a continuación, los productos de Adobe Experience Cloud individuales tienen sus propios dominios que utilizan:
 
 * Adobe Analytics
 * Customer Journey Analytics
 
 | Tecnología | Dominios |
 | --- | --- |
-| Dominios de Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
+| dominios de Adobe | `adobe.com`, `adobe.net`, `adobe.io` |
 | Servicio Identity Management de Adobe (IMS) | `adobelogin.com` |
-| Fuentes de Experience Cloud | `typekit.net` |
+| Fuentes | `typekit.net` |
 | Recopilación de datos (para rendimiento y uso del producto) | `adobedtm.com` |
 | Gainsight (para obtener ayuda y orientación sobre el producto) | `esp.aptrinsic.com` |
