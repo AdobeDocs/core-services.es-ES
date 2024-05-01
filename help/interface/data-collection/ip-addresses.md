@@ -2,9 +2,9 @@
 title: Direcciones IP utilizadas por Adobe Experience Cloud
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ La configuración de algunos cortafuegos bloquea las direcciones IP que se origi
 Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe Experience Cloud individuales tienen sus propias direcciones IP que utilizan:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* Customer Journey Analytics
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## Todos los bloques de direcciones IP de Adobe
 

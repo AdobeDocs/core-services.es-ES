@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 17%
 
 ---
@@ -19,8 +19,8 @@ Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejor
 
 Además de los dominios enumerados a continuación, los productos de Adobe Experience Cloud individuales tienen sus propios dominios que utilizan:
 
-* Adobe Analytics
-* Customer Journey Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
 
 | Tecnología | Dominios |
 | --- | --- |
