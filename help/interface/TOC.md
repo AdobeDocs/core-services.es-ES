@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 80%
 
 + Servicios {#services}
    + [Información general](services/overview.md)
-   + [Primeros pasos](services/getting-started.md)
+   + [Introducción](services/getting-started.md)
    + Recursos {#assets}
       + [Información general](services/assets/experience-cloud-assets.md)
       + [Uso compartido de carpetas y recursos con Creative Cloud](services/assets/creative-cloud.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
       + [Compartir una carpeta de recursos](services/assets/share.md)
-      + [Cargar un recurso a una carpeta compartida](services/assets/upload.md)
+      + [Cargar un recurso en una carpeta compartida](services/assets/upload.md)
       + [Requisitos para compartir un archivo de recursos](services/assets/file-reqs.md)
       + [Comportamiento de archivos compartidos](services/assets/behavior.md)
-   + Biblioteca de audiencias {#audiences}
+   + Biblioteca de públicos {#audiences}
       + [Información general](services/audiences/overview.md)
       + [Crear un público](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -57,19 +57,19 @@ ht-degree: 80%
    + [Integraciones](administration/integrations.md)
 
 + Recopilación de datos {#data-collection}
-   + [programa de certificados administrado por Adobe](data-collection/adobe-managed-cert.md)
+   + [Programa de certificados administrados por Adobe](data-collection/adobe-managed-cert.md)
    + [Direcciones IP](data-collection/ip-addresses.md)
    + [Dominios](data-collection/domains.md)
    + Cookies {#cookies}
-      + [Información general sobre cookies](data-collection/cookies/overview.md)
-      + [Cookies publicitarias](data-collection/cookies/advertising.md)
+      + [Información general de cookies](data-collection/cookies/overview.md)
+      + [Cookies de Advertising](data-collection/cookies/advertising.md)
       + [Cookies de Analytics](data-collection/cookies/analytics.md)
       + [Cookies de Audience Manager](data-collection/cookies/audience-manager.md)
       + [Cookies de Experience Cloud ](data-collection/cookies/experience-cloud.md)
       + [Cookies de Target](data-collection/cookies/target.md)
       + [Cookies de SDK web](data-collection/cookies/web-sdk.md)
    + [Recopilación de datos regionales](data-collection/rdc.md)
-   + [Usar precarga de DNS](data-collection/dns-prefetch.md)
+   + [Use la precarga de DNS](data-collection/dns-prefetch.md)
 
 + Más activos {#more-resources}
    + [Notas de la versión](more-resources/release-notes.md)
