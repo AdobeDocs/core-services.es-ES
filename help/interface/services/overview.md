@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
+source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Esta ayuda describe los siguientes productos y servicios:
 | Servicio principal | Descripción |
 |--- |--- |
 | [Componentes de la interfaz central](../experience-cloud.md) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
-| [People - [!DNL Audience Library]](audiences/overview.md) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). La [!DNL Audience Library] de Adobe administra la traducción de datos sobre visitantes en la segmentación de público. As |
+| [People - [!DNL Audience Library]](audiences/overview.md) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). Adobe [!DNL Audience Library] permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
 | [People (atributos del cliente)](customer-attributes/attributes.md) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado en Experience Platform. |
 | [Recursos](assets/experience-cloud-assets.md) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
 
@@ -36,4 +36,4 @@ Esta ayuda describe los siguientes productos y servicios:
 
 >[!NOTE]
 >
->La documentación del producto de Experience Platform se encuentra [aquí](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es). La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe Developer](https://developer.adobe.com/apis).
+>Documentación del producto para [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es) está disponible. La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe Developer](https://developer.adobe.com/apis).
