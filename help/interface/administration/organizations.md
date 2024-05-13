@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a Experience Cloud.
+description: Obtenga información sobre las organizaciones (ID de organización de IMS) y la vinculación de cuentas de soluciones a Experience Cloud.
 solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -45,7 +45,7 @@ Puede ver su ID de organización, junto con otra información de la cuenta, medi
 
    ![ID de organización asignado](../assets/assigned-organization.png)
 
-1. En **[!UICONTROL Información del usuario]**, busque **[!UICONTROL ID de organización actual]** y verá el ID de la organización.
+1. En **[!UICONTROL Información del usuario]**, busque **[!UICONTROL ID de organización actual]** y puede localizar el ID de la organización.
 
    Los administradores también pueden iniciar sesión en el Admin Console de (Vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y vea su ID de organización en la dirección URL.
 
@@ -87,7 +87,7 @@ En su perfil, seleccione **[!UICONTROL Editar perfil]**.
 
 ![Editar perfil](../assets/edit-profile.png)
 
-En la organización y la página de aterrizaje predeterminadas, puede personalizar la forma de iniciar sesión.
+En **[!UICONTROL Organización y página de aterrizaje predeterminadas]**, puede personalizar la forma de iniciar sesión.
 
 ![Organización y página de aterrizaje predeterminadas](../assets/default-organization.png)
 
