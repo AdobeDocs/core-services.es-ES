@@ -1,6 +1,6 @@
 ---
 title: Ver usuarios y detalles del usuario
-description: Obtenga información sobre la herramienta de administración en Experience Cloud. Ver una lista ordenable y filtrable de todos los usuarios y las directivas de Experience Cloud.
+description: Obtenga información sobre la herramienta de administración en Experience Cloud. Vea una lista ordenable y filtrable de todos los usuarios y las directivas de Experience Cloud.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
