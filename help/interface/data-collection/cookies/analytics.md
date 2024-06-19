@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics utiliza cookies para definir nuevos visitantes de forma anónima, anal
 | **`s_sq`** | Session | 100 a 200 bytes | Datos de origen | Utilizado por el Activity Map. Contiene información sobre el vínculo anterior en el que el visitante hizo clic. La establece JavaScript. |
 | **`s_vi`** | 2 años | 44 bytes | De origen, o `*.omtrdc.net` (terceros) | Almacena una ID de visitante y una marca de tiempo únicos. Establecido por respuesta HTTP. Cada ID de visitante está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se eliminan tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante. El `Secure` el indicador se establece cuando `SameSite` es &quot;None&quot; y la conexión es HTTPS. `SameSite` es &quot;Lax&quot; de forma predeterminada para las cookies de origen. `SameSite` es &quot;Ninguno&quot; cuando se usan cookies de terceros, como en `omtrdc.net` o `2o7.net`. Establecer `SameSite` a &quot;Ninguno&quot; cuando se utiliza un único CNAME para rastrear varios dominios o propiedades. |
 | **`s_fid`** | 2 años | 33 bytes | Datos de origen | Almacena el ID único de visitante de reserva y la marca de tiempo. La establece JavaScript si el estándar `s_vi` no se puede configurar la cookie debido a restricciones de cookies de terceros. No se utiliza en implementaciones de cookies de origen. |
+| **`s_ac`** | Inmediato | 1 byte | Datos de origen | Ayuda a determinar el dominio correcto para establecer cookies de AppMeasurement. Contiene el valor estático `"1"`. Una vez configurada esta cookie, se elimina inmediatamente. |
 
 {style="table-layout:auto"}
 
