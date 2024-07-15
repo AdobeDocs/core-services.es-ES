@@ -20,7 +20,7 @@ Información acerca de actualizaciones en la documentación del producto de Expe
 
 **26 de abril de 2024**
 
-Renovación completa de la arquitectura de la documentación. También se ha añadido [Direcciones IP de Adobe Experience Cloud](../data-collection/ip-addresses.md) y [Recopilación de datos regionales](../data-collection/rdc.md).
+Renovación completa de la arquitectura de la documentación. También se agregaron [direcciones IP de Adobe Experience Cloud](../data-collection/ip-addresses.md) y [recopilación de datos regionales](../data-collection/rdc.md).
 
 **9 de abril de 2024**
 
@@ -28,7 +28,7 @@ Actualizaciones generales.
 
 **28 de febrero de 2022**
 
-Se ha añadido una página para [Búsqueda unificada](../features/search.md)
+Se agregó una página para [Búsqueda unificada](../features/search.md)
 
 **8 de febrero de 2022**
 
@@ -134,4 +134,4 @@ Se ha añadido [Preguntas frecuentes sobre Experience Cloud](faq.md) para admini
 
 **22 de mayo de 2014**
 
-Documentación añadida para [Audiencias](../services/audiences/overview.md)
+Se agregó documentación para [Audiencias](../services/audiences/overview.md)

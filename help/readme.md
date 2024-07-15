@@ -1,9 +1,8 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '329'
-ht-degree: 98%
+source-wordcount: '326'
+ht-degree: 94%
 
 ---
 # Instrucciones
@@ -30,7 +29,7 @@ ht-degree: 98%
 + Los metadatos que describen la guía del usuario se almacenan en `TOC.md`. Esto incluye:
    + product: nombre de producto/capacidad.
    + cloud: nube a la que pertenece este producto.
-   + audience: audiencia o arquetipo a la que se dirige la guía.
+   + público: público o arquetipo al que se dirige la guía.
    + user-guide: nombre de la guía del usuario.
 
 ## Metadatos de nivel de página
@@ -51,4 +50,4 @@ ht-degree: 98%
 
 ## Más información
 
-Para obtener más instrucciones de publicación, guías de estilo, muestras y otros recursos, visite el [Repositorio de documentación de colaboración](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obtener más instrucciones de publicación, guías de estilo, ejemplos y otros recursos, visite [Repositorio de documentación de colaboración](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

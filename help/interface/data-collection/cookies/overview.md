@@ -2,13 +2,13 @@
 description: Obtenga información sobre cómo usan cookies las soluciones y los servicios de Adobe Experience Cloud.
 title: Uso de cookies en Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Cookies utilizadas en Experience Cloud
 
@@ -22,10 +22,10 @@ Las leyes, regulaciones y principios de autorregulación le obligan a obtener el
 
 Los servicios de Adobe Experience Cloud utilizan cookies para proporcionar información sobre variables y componentes que no persisten entre solicitudes de imagen y sesiones del explorador. Cuando es posible, el Adobe de utiliza cookies de origen para registrar las actividades del sitio. Para registrar la actividad en distintos sitios, como otros de sus dominios, se requieren cookies de terceros.
 
-Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. El Adobe garantiza que las cookies siempre se puedan configurar, incluso si las de terceros están bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (como el `s_vi` cookie):
+Muchos exploradores y aplicaciones antispyware están diseñados para rechazar y eliminar las cookies de terceros. El Adobe garantiza que las cookies siempre se puedan configurar, incluso si las de terceros están bloqueadas. El comportamiento específico varía en función de si utiliza el servicio de identidad de Experience Platform (servicio ECID) o los identificadores heredados de Analytics (como la cookie `s_vi`):
 
-* El [Servicio de identidad del Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) establece automáticamente cookies de origen independientemente de si el dominio de recopilación coincide con el del sitio. Si no coinciden, el servicio de identidad utiliza JavaScript para establecer las cookies en el dominio del sitio.
-* Si utiliza [Identificadores heredados de Analytics](analytics.md) (como el `s_vi` ), depende de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de recopilación no coincide con su dominio actual, las cookies se establecen como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un identificador de reserva (`s_fid`) en lugar del estándar `s_vi` cookie.
+* El [servicio de identidad de Experience Platform (servicio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es) establece automáticamente cookies de origen independientemente de si el dominio de recopilación coincide con el del sitio. Si no coinciden, el servicio de identidad utiliza JavaScript para establecer las cookies en el dominio del sitio.
+* Si usa [identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`), dependerá de cómo haya configurado su servidor de recopilación de datos. Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies se establecen como cookies de origen. Si el servidor de recopilación no coincide con su dominio actual, las cookies se establecen como de terceros. En este caso, si se bloquean las cookies de terceros, Analytics establece un identificador de reserva (`s_fid`) de origen en lugar de la cookie estándar `s_vi`.
 
 Si desea asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede utilizar una implementación CNAME que permita el reenvío de un dominio personalizado especificado en su implementación CNAME a los servidores de recopilación de Adobe. Esta tarea implica cambios en la configuración DNS de su compañía para configurar un alias CNAME que señale a un dominio alojado de Adobe. Tenga en cuenta que, aunque varios productos de Adobe admiten el uso de un CNAME, en todos los casos se utiliza el CNAME para crear un punto final de confianza para un cliente específico y es propiedad de dicho cliente. Si controla varios dominios, pueden utilizar un único extremo CNAME para rastrear a los usuarios en sus dominios, pero siempre que el dominio del sitio no coincida con las cookies de dominio CNAME se establecen como de terceros.
 

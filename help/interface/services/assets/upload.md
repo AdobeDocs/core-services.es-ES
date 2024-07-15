@@ -1,6 +1,6 @@
 ---
 description: Cargue un recurso a una carpeta compartida desde el explorador del Creative Cloud o desde el escritorio del Creative Cloud.
-title: Cargar un recurso a una carpeta compartida
+title: Cargar un recurso en una carpeta compartida
 feature: Assets
 topic: Administration
 role: Admin
@@ -9,11 +9,11 @@ exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: f4833da7ff9e9a04338c632e4bb2bd742bafbf09
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 64%
+ht-degree: 76%
 
 ---
 
-# Cargar un recurso a una carpeta compartida
+# Cargar un recurso en una carpeta compartida
 
 Puede cargar un recurso a través de Creative Cloud Desktop o del explorador del Creative Cloud.
 

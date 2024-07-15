@@ -68,12 +68,12 @@ En la tabla siguiente se describe cómo se utilizan los públicos en las aplicac
 | Nuevo | [Crear un público](create.md). |
 | Título y descripción | Un encabezado de columna que identifica y describe el público. |
 | Autor | La persona que creó el segmento de público. |
-| Fuente | Identifica dónde se creó el público.<ul><li>**Analytics:** Un segmento creado en Adobe Analytics y publicado en Experience Cloud.</li><li>**Experience Cloud:** público nuevo [creado en Públicos de Experience Cloud](create.md).</li><li>**Audience Manager:** los públicos creados en Audience Manager se muestran automáticamente en Públicos de Experience Cloud.</li></ul> |
+| Fuente | Identifica dónde se creó el público.<ul><li>**Analytics:** Un segmento creado en Adobe Analytics y publicado en el Experience Cloud.</li><li>**Experience Cloud:** público nuevo [creado en Públicos de Experience Cloud](create.md).</li><li>**Audience Manager:** los públicos creados en Audience Manager se muestran automáticamente en Públicos de Experience Cloud.</li></ul> |
 | Tamaño actual | El tamaño de público actual. |
 | Activo | El estado activo del segmento. |
 
 {style="table-layout:auto"}
 
-## Publicar audiencias desde Adobe Analytics
+## Audiencias de Publish de Adobe Analytics
 
-Consulte [Publicación de segmentos en el Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
+Consulte [Segmentos de Publish para el Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.

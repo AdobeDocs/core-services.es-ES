@@ -45,7 +45,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 **Para crear un público**
 
 1. En [!DNL Experience Cloud], en [!DNL Experience Platform], seleccione **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de públicos].**
-1. En el [!UICONTROL Audiencias] página, seleccione **[!UICONTROL Nuevo]**. ![añadir](assets/add_icon_small.png)
+1. En la página [!UICONTROL Audiencias], seleccione **[!UICONTROL Nuevo]**. ![agregar](assets/add_icon_small.png)
 
    ![Resultado de los pasos](assets/audience_create_new.png)
 

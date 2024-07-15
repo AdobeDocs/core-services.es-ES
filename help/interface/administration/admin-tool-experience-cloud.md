@@ -15,7 +15,7 @@ ht-degree: 85%
 
 ---
 
-# Ver usuarios y directivas de Experience Cloud en [!UICONTROL Herramienta de administración]
+# Ver usuarios y directivas del Experience Cloud en [!UICONTROL Herramienta de administración]
 
 Los administradores pueden ver una lista de los usuarios y las directivas del Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Herramienta de administración]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
 
@@ -112,7 +112,7 @@ Esta página muestra la lista completa de las directivas de Experience Cloud en 
 Puede buscar, ordenar o filtrar las columnas para personalizar la lista de directivas.
 
 * Busque perfiles de producto por nombre. Las búsquedas coinciden con la cadena de texto que escriba.
-* Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a [!UICONTROL perfil de producto,] [!UICONTROL Producto,] [!UICONTROL Instancia,] [!UICONTROL Número de usuarios,] y [!UICONTROL Cantidad de desarrolladores,] Columnas.
+* Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a [!UICONTROL perfil de producto,] [!UICONTROL producto,] [!UICONTROL instancia,] [!UICONTROL número de usuarios,] y [!UICONTROL número de desarrolladores,] columnas.
 * Seleccione el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de productos de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
 
 | Elemento | Descripción |
@@ -162,4 +162,4 @@ Esta sección muestra una lista completa de los permisos y recursos disponibles 
 
 ## Información relacionada
 
-* [Administrar usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) en el [!DNL Admin Console]
+* [Administrar usuarios](https://helpx.adobe.com/es/enterprise/using/users.html) en [!DNL Admin Console]

@@ -23,7 +23,7 @@ La [!UICONTROL Búsqueda unificada] le permite encontrar objetos o entidades emp
 
 ## Acceso a búsqueda unificada
 
-La búsqueda unificada está disponible en todas las páginas del encabezado del Experience Cloud, en la parte superior de la página. También puede utilizar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
+La búsqueda unificada está disponible en todas las páginas del encabezado del Experience Cloud, en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
 
 Esta función solo está disponible para productos compatibles, que actualmente son:
 
@@ -38,7 +38,9 @@ A medida que escribe, se muestran los resultados principales coincidentes de los
 
 Nuestros algoritmos muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
 
-Su capacidad y permisos de objetos Porcentaje de coincidencia Si hay una coincidencia exacta
+Su capacidad y permisos de objeto
+Porcentaje de coincidencia
+Si hay una coincidencia exacta
 
 ![Búsqueda unificada en Experience Cloud](../assets/unified-search-results.png)
 
@@ -85,10 +87,10 @@ Las siguientes funciones están disponibles en la búsqueda unificada.
 | Tipotolerancia | La búsqueda unificada proporciona una sólida tolerancia a errores tipográficos mediante algoritmos avanzados. Estos algoritmos calculan las ediciones y proporcionan los resultados adecuados. |
 | Resaltado | La respuesta de búsqueda resalta la palabra clave coincidente de la consulta de búsqueda para que pueda encontrar fácilmente la sección y las palabras que coinciden con la consulta. El resaltado también funciona para palabras mal escritas. |
 | Fragmentos | En la respuesta de búsqueda, puede ver un fragmento del resultado. Los fragmentos devuelven las palabras coincidentes y parte del contenido alrededor de las palabras clave coincidentes. |
-| Detener palabras | Algunas palabras comúnmente utilizadas en inglés se definen como _detener palabras_. Si se incluyen palabras de detención en la consulta de búsqueda, se les da menos peso. <br>Las palabras de detención incluyen: _a, y, son, como, en, ser, pero, por, porque, si, en, en, es, no, no, de, en, o, tal, que, el, su, entonces, allí, estos, ellos, esto, a, era, voluntad, con_. <br>Las palabras de detención no son compatibles con otros idiomas globales. |
+| Detener palabras | Algunas palabras de uso común en inglés se definen como _palabras de detención_. Si se incluyen palabras de detención en la consulta de búsqueda, se les da menos peso. <br>Las palabras de detención incluyen: _a, y, y, son, como, en, ser, pero, por, por, por, si, en, es, no, no, de, o, tal, que, su, entonces, allí, estos, ellos, esto, a, era, voluntad, con_. <br>No se admiten palabras de detención en otros idiomas globales. |
 | Consultas del lenguaje natural | Cuando busque un artículo de ayuda o una discusión en las Comunidades de Experience League, puede escribir la pregunta utilizando lenguaje natural y obtener la respuesta. Búsqueda de ejemplo: &quot;¿Cómo se crea un esquema?&quot; |
 | Búsqueda exacta entre comillas | Puede realizar una búsqueda exacta utilizando comillas en la consulta. No se realiza ninguna corrección de error tipográfico en las consultas de coincidencia exacta. Por ejemplo: &quot;Recorrido de Luma 2022&quot;. |
-| Filtros | Puede aplicar filtros como _Tipo de objeto_ y otros filtros específicos de objetos en la ventana emergente de resultados de búsqueda completa. Cuando pulse Intro después de vincular la consulta de búsqueda, se abrirá una ventana emergente de página completa que incluye los filtros. |
+| Filtros | Puede aplicar filtros como _Tipo de objeto_ y otros filtros específicos de objeto en la ventana emergente de resultados de búsqueda completa. Cuando pulse Intro después de vincular la consulta de búsqueda, se abrirá una ventana emergente de página completa que incluye los filtros. |
 
 {style="table-layout:auto"}
 

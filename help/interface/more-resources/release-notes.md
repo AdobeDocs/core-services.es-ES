@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Funciones, notas de la versión y problemas conocidos de los componentes de la interfaz central de Experience Cloud.
 
-Para ver una lista de actualizaciones de la documentación, consulte [Actualizaciones de documentación](doc-updates.md).
+Para obtener una lista de actualizaciones de documentación, consulte [Actualizaciones de documentación](doc-updates.md).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
@@ -191,7 +191,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 * Se ha implementado una capacidad back-end para controlar el uso compartido de recursos entre Experience Cloud y AEM, y Experience Cloud y Creative Cloud. (CORE-14386)
 * Se ha corregido un problema que bloqueaba el aprovisionamiento de nuevos inquilinos en algunos entornos. (CORE-15509)
-* Se ha corregido un problema que redireccionaba a los usuarios a `experiencecloud.adobe.com` usando `http` en lugar de `https`. (CORE-15587)
+* Se ha corregido un problema que redireccionaba a los usuarios a `experiencecloud.adobe.com` mediante `http` en lugar de `https`. (CORE-15587)
 * Se ha corregido un problema que bloqueaba las notificaciones de algunos inquilinos nuevos. (CORE-15240)
 
 ## Junio de 2018
@@ -216,7 +216,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 ## Octubre de 2017
 
-**Problema conocido**: Muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento programado o las actualizaciones de productos no aparecen en el resumen de notificaciones por correo electrónico. Estamos trabajando para garantizar que todas las notificaciones de mantenimiento se incluyan en el compendio de correo electrónico.
+**Problema conocido**: muchas de las notificaciones de mantenimiento relacionadas con el mantenimiento programado o las actualizaciones de productos no aparecen en el resumen de notificaciones por correo electrónico. Estamos trabajando para garantizar que todas las notificaciones de mantenimiento se incluyan en el compendio de correo electrónico.
 
 ## Agosto de 2017
 
@@ -343,7 +343,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 * Se ha corregido un problema que impedía compartir públicos desde Analytics cuando se utiliza el servicio de ID de visitante. (MAC-25788, MAC-25747)
 * Ahora se admiten caracteres multibyte en los Atributos del cliente. (MAC-25552)
 
-**Problema conocido**: un problema conocido provoca la creación de cuentas autogeneradas duplicadas en Audience Manager y su vinculación automática con la identidad de un Experience Cloud del usuario. Este problema se produce si intenta navegar a Audience Manager antes de vincular las cuentas. Adobe recomienda vincular las cuentas de Audience Manager a Experience Cloud antes de ir a Audience Manager. (MAC-25640)
+**Problema conocido**: un problema conocido provoca la creación de cuentas autogeneradas duplicadas en Audience Manager y su vinculación automática con la identidad de Experience Cloud de un usuario. Este problema se produce si intenta navegar a Audience Manager antes de vincular las cuentas. Adobe recomienda vincular las cuentas de Audience Manager a Experience Cloud antes de ir a Audience Manager. (MAC-25640)
 
 ## Mayo de 2015
 
@@ -368,7 +368,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 </table>
 
 * Se ha corregido un problema que impedía que los atributos del cliente se sincronizaran para algunos clientes.
-* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) se mostrara en japonés.
+* Se ha corregido un problema que impedía que [la página de documentación de producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) se mostrara en japonés.
 * Se ha corregido un problema que impedía el uso de texto en japonés en comentarios entre [!DNL Creative Cloud] el y [!DNL Experience Cloud] el.
 
 ## Abril de 2015

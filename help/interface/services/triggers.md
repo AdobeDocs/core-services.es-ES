@@ -49,7 +49,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 Triggers.
 
-1. En Experience Cloud, seleccione ![menú](../assets/menu-icon.png), luego seleccione **[!UICONTROL Recopilación de datos/Launch]**.
+1. En Experience Cloud, seleccione ![menú](../assets/menu-icon.png) y, a continuación, seleccione **[!UICONTROL Recopilación de datos/Launch]**.
 2. En la tarjeta [!UICONTROL Triggers], seleccione **[!UICONTROL Administrar Triggers]**.
 3. Seleccione **[!UICONTROL Nuevo Trigger]** y después especifique el tipo de Trigger:
 
@@ -83,6 +83,6 @@ Por ejemplo, en la siguiente página se muestran reglas que podría usar para un
 
 #### Trigger referente
 
-El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*products* y *referrer*) para que se evalúen en la misma visita, deben agregarse al mismo contenedor.
+El siguiente Trigger se dispara cuando se produce una visita con el producto Botas para hombres y el referente de Facebook. Para que los dos criterios (*productos* y *referente*) se evalúen en la misma visita, se deben agregar al mismo contenedor.
 
 ![Activador de remitente del reenvío](../assets/fb-boots-promo.png)

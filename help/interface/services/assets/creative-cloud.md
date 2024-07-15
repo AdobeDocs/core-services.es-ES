@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre cómo compartir carpetas y recursos entre Experience Cloud y Creative Cloud.
 solution: Experience Cloud
-title: Compartir carpetas y recursos de Experience Cloud con Creative Cloud
+title: Uso compartido de carpetas de Experience Cloud y Assets con Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin

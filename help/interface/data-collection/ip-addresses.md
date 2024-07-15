@@ -1,16 +1,17 @@
 ---
 title: Direcciones IP utilizadas por Adobe Experience Cloud
-description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en el Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 24%
+ht-degree: 5%
 
 ---
 
 # Direcciones IP utilizadas por Adobe Experience Cloud
 
-La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye sistemas entrantes (como la recopilación de datos) y salientes (como las fuentes de datos en Adobe Analytics) que utiliza Adobe.
+Algunas configuraciones de cortafuegos bloquean las direcciones IP procedentes de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye sistemas entrantes (como la recopilación de datos) y salientes (como las fuentes de datos en Adobe Analytics) que utiliza Adobe.
 
 >[!IMPORTANT]
 >
@@ -21,7 +22,7 @@ Además de los bloques de direcciones IP que se enumeran a continuación, los pr
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
-## Todos los bloques de direcciones IP de Adobe
+## Todos los bloqueos de direcciones IP de Adobe
 
 La siguiente tabla abarca todas las direcciones IP de propiedad del Adobe. Esta tabla incluye todas las oficinas de empleados de Adobe y los centros de datos que gestiona Adobe globalmente. No incluye servicios alojados en nubes públicas.
 

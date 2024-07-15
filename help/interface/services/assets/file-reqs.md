@@ -1,5 +1,5 @@
 ---
-title: Requisitos de archivo para uso compartido de recursos
+title: Requisitos de archivo para uso compartido de Assets
 description: Obtenga información sobre los tipos de archivo permitidos y las limitaciones de tamaño para el uso compartido de recursos entre Adobe Experience Cloud y Creative Cloud.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

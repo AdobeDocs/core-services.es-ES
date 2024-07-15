@@ -1,7 +1,7 @@
 ---
 description: Aprenda a implementar la búsqueda previa de DNS para ayudar a reducir los tiempos de carga de la página con diferentes aplicaciones y servicios en Experience Cloud.
 solution: Experience Cloud
-title: Usar precarga de DNS
+title: Use la precarga de DNS
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
@@ -10,11 +10,11 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# Usar precarga de DNS
+# Use la precarga de DNS
 
 Implemente la precarga de DNS para ayudar a reducir el tiempo de la carga de las páginas con distintas aplicaciones y servicios.
 
@@ -24,7 +24,7 @@ Los navegadores utilizan la precarga de DNS para resolver automáticamente los n
 
 ## Precarga de DNS y aplicaciones de Adobe Experience Cloud
 
-La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con dominios diferentes [!UICONTROL Experience Cloud] aplicaciones y servicios porque:
+La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con diferentes aplicaciones y servicios de [!UICONTROL Experience Cloud] porque:
 
 * Cada aplicación o servicio de Experience Cloud genera llamadas DNS de forma dinámica a medida que se carga la página.
 * El explorador no puede resolver nombres de dominio en direcciones IP antes de realizar estas llamadas.
@@ -52,4 +52,4 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 >[!MORELIKETHIS]
 >
->* [Precarga de DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) sobre cromo
+>* [Precarga de DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) en Chromium

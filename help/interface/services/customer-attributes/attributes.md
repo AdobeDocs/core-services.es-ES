@@ -28,7 +28,7 @@ Los [!DNL Customer Attributes] de Experience Cloud le permiten cargar los datos 
 
 ## Requisitos previos para la carga de [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Pertenencia a grupo:** Para cargar datos de atributos del cliente, los usuarios deben ser miembros del grupo Atributos del cliente. También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
+* **Pertenencia a un grupo:** Para cargar datos de atributos del cliente, los usuarios deben ser miembros del grupo Atributos del cliente. También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
 
   Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [Experience Cloud](https://experience.adobe.com). Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *[!DNL Customer Attributes]* se muestra como uno de los [!UICONTROL perfiles de producto], está listo para empezar.
 

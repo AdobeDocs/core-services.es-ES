@@ -28,7 +28,7 @@ Esta ayuda describe los siguientes productos y servicios:
 | Servicio principal | Descripción |
 |--- |--- |
 | [Componentes de la interfaz central](../experience-cloud.md) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
-| [People - [!DNL Audience Library]](audiences/overview.md) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). Adobe [!DNL Audience Library] permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
+| [People - [!DNL Audience Library]](audiences/overview.md) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). El [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
 | [People (atributos del cliente)](customer-attributes/attributes.md) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado en Experience Platform. |
 | [Recursos](assets/experience-cloud-assets.md) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
 
@@ -36,4 +36,4 @@ Esta ayuda describe los siguientes productos y servicios:
 
 >[!NOTE]
 >
->Documentación del producto para [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es) está disponible. La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe Developer](https://developer.adobe.com/apis).
+>La documentación del producto [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es) está disponible. La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe Developer](https://developer.adobe.com/apis).

@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
 
-Esta página describe [!UICONTROL Atributos del cliente]&#39; es compatible con la Ley de Privacidad del Consumidor de California (CCPA).
+Esta página describe la compatibilidad de [!UICONTROL Atributos del cliente] con la Ley de Privacidad del Consumidor de California (CCPA).
 
 >[!IMPORTANT]
 >

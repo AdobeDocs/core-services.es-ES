@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre cómo configurar certificados seguros para utilizarlos con cookies de origen de Adobe Experience Cloud.
 solution: Experience Cloud,Analytics
-title: programa de certificados administrado por Adobe
+title: Programa de certificados administrados por Adobe
 index: y
 snippet: y
 feature: Cookies
@@ -12,11 +12,11 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
-# programa de certificados administrado por Adobe
+# Programa de certificados administrados por Adobe
 
 El programa de certificados administrados por Adobe es el proceso recomendado para configurar los certificados de origen necesarios para una implementación CNAME. El programa está completamente automatizado una vez configurado. Renueva los certificados a tiempo para que la recopilación de datos no se vea afectada por los certificados caducados. El programa es gratuito para sus primeros 100 CNAME.
 
@@ -26,11 +26,11 @@ Si administra actualmente sus propios certificados, es responsable de comprar, m
 
 Siga estos pasos para implementar un nuevo certificado para la recopilación de datos de origen:
 
-1. Descargue y rellene el [Formulario de solicitud de dominio de origen](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Descargue y rellene el [formulario de solicitud de dominio de origen](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. Abra un ticket con el Servicio de atención al cliente de Adobe solicitando configurar la recopilación de datos de origen en el programa de certificados administrados de Adobe.
 
-1. Una vez recibida la incidencia, el representante del Adobe le proporcionará un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Por ejemplo, el nombre de host `data.example.com` apunta a `hiodsibxvip01.data.adobedc.net`.
+1. Una vez recibida la incidencia, el representante del Adobe le proporcionará un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Por ejemplo, el nombre de host `data.example.com` señala a `hiodsibxvip01.data.adobedc.net`.
 
 1. Cuando se establezca el registro CNAME en los servidores de su organización, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de recopilación de datos de Adobe.
 
@@ -40,11 +40,11 @@ Una vez que el Adobe ha instalado el certificado, puede utilizar uno de los sigu
 
 +++**Validación del explorador**
 
-Puede utilizar cualquier explorador para validar que un certificado está instalado correctamente. Escriba su CNAME con `_check` como la ruta a la barra de direcciones. Por ejemplo:
+Puede utilizar cualquier explorador para validar que un certificado está instalado correctamente. Escriba su CNAME con `_check` como ruta de acceso a la barra de direcciones. Por ejemplo:
 
 `data.example.com/_check`
 
-Si todo funciona, se muestra el explorador `SUCCESS`. Si el certificado no está instalado correctamente, recibirá una advertencia de seguridad.
+Si todo funciona, el explorador mostrará `SUCCESS`. Si el certificado no está instalado correctamente, recibirá una advertencia de seguridad.
 
 +++
 
@@ -58,11 +58,11 @@ Escriba lo siguiente en la línea de comandos:
 curl data.example.com/_check
 ```
 
-Si todo funciona correctamente, la consola vuelve `SUCCESS`.
+Si todo funciona correctamente, la consola devolverá `SUCCESS`.
 
 >[!TIP]
 >
->Puede usar el complemento `-k` Indicador para desactivar la advertencia de seguridad y ayudar a solucionar problemas.
+>Puede usar el indicador `-k` para deshabilitar la advertencia de seguridad y solucionar problemas.
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 Una vez que haya validado que el certificado funciona correctamente, puede actualizar la implementación de Adobe para utilizar estos valores.
 
-* Para implementaciones de AppMeasurement de Adobe Analytics, actualice el [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) variable de configuración. Si tiene una implementación existente, consulte [Migración de visitantes](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) para ver pasos adicionales sobre cómo evitar que los visitantes existentes se cuenten como visitantes nuevos.
-* Para implementaciones de SDK web, actualice el [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dentro de la propiedad [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) comando.
+* Para implementaciones de AppMeasurement de Adobe Analytics, actualice la variable de configuración [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver). Si tiene una implementación existente, consulte [Migración de visitantes](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) para ver pasos adicionales sobre cómo evitar que los visitantes existentes se cuenten como nuevos visitantes.
+* Para implementaciones de SDK web, actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dentro del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 ## Mantenimiento y renovaciones
 
@@ -141,15 +141,15 @@ No. Adobe ofrece este servicio a todos los clientes de Adobe Experience Cloud si
 
 Adobe ofrece dos niveles de seguridad de cifrado para satisfacer las distintas necesidades de seguridad de los clientes en la recopilación de datos de origen. Estos niveles determinan qué algoritmos de cifrado son compatibles con las conexiones HTTPS con servidores de Adobe. El Adobe de revisa y actualiza regularmente el conjunto de algoritmos admitidos en función de las prácticas de seguridad actuales. Si desea cambiar la configuración de seguridad de cifrado, póngase en contacto con el Servicio de atención al cliente.
 
-* **Standard** requiere TLS 1.2 o posterior y cifrado de al menos 128 bits. Está diseñado para proporcionar la mayor compatibilidad de dispositivos al tiempo que mantiene el cifrado seguro.
-* **Alta** el nivel de seguridad de cifrado requiere TLS 1.2 o posterior y elimina la compatibilidad con cifrados más débiles. Está diseñado para los clientes que desean el cifrado más potente y no les preocupa la compatibilidad con dispositivos más antiguos.
+* **Estándar** requiere TLS 1.2 o posterior y cifrado de al menos 128 bits. Está diseñado para proporcionar la mayor compatibilidad de dispositivos al tiempo que mantiene el cifrado seguro.
+* El nivel de seguridad de cifrado **High** requiere TLS 1.2 o posterior y elimina la compatibilidad con cifrados más débiles. Está diseñado para los clientes que desean el cifrado más potente y no les preocupa la compatibilidad con dispositivos más antiguos.
 
-Se sabe que los siguientes clientes no pueden conectarse con la seguridad de cifrado establecida en **Alta**:
+Se sabe que los siguientes clientes no pueden conectarse con la seguridad de cifrado establecida en **High**:
 
-* Windows 8.1 y versiones anteriores (última actualización en 2018)
-* Windows Phone 8.1 y versiones anteriores (última actualización en 2016)
-* OS X 10.10 y versiones anteriores (última actualización en 2017)
-* iOS 8.4 y versiones anteriores (última actualización en 2015)
+* Windows 8.1 y anteriores (última actualización en 2018)
+* Windows Phone 8.1 y anteriores (última actualización en 2016)
+* OS X 10.10 y anteriores (última actualización en 2017)
+* iOS 8.4 y anteriores (última actualización en 2015)
 
 +++
 
@@ -158,9 +158,9 @@ Se sabe que los siguientes clientes no pueden conectarse con la seguridad de cif
 El Adobe admite tipos de certificados RSA y ECC para satisfacer las distintas necesidades de los clientes. Los certificados RSA son más compatibles con los clientes, pero los certificados ECC utilizan menos procesamiento tanto en el servidor como en el lado del cliente. Para los certificados administrados por el Adobe, se proporcionan RSA y ECC. Para los certificados administrados por el cliente, se requiere RSA y se recomienda ECC. Los clientes modernos admiten RSA y ECC. Los siguientes clientes solo suelen admitir certificados RSA:
 
 * Windows Vista y versiones anteriores (última actualización en 2012)
-* Windows Phone 8.0 y versiones anteriores (última actualización en 2014)
-* OS X 10.8 y versiones anteriores (última actualización en 2013)
-* iOS 5.1 y versiones anteriores (última actualización en 2012)
+* Windows Phone 8.0 y anteriores (última actualización en 2014)
+* OS X 10.8 y anteriores (última actualización en 2013)
+* iOS 5.1 y anteriores (última actualización en 2012)
 * Android 4.3 y anteriores (última actualización en 2013)
 
 +++
