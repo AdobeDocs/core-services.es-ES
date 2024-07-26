@@ -1,16 +1,16 @@
 ---
 title: Preferencias y notificaciones de cuenta
-description: Obtenga información sobre los perfiles de usuario y las preferencias de cuenta en Experience Cloud. Suscribirse a las notificaciones de productos y recibir alertas de productos.
+description: Obtenga información sobre los perfiles de usuario y las preferencias de cuenta en Experience Cloud. Suscribirse a las notificaciones de productos y recibir alertas de productos. Obtenga información acerca de la compatibilidad con exploradores e idiomas.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 Seleccione **[!UICONTROL Notificaciones]** para recibir alertas acerca de actualizaciones relevantes y disponibles, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![Notificaciones y anuncios](../assets/notifications-menu-small.png)
+
+## Compatibilidad con exploradores en Experience Cloud {#browser}
+
+Para obtener el mejor rendimiento, Experience Cloud está optimizado para los exploradores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Si el explorador no aparece en la lista, puede que sea compatible, pero se recomienda que utilice uno de los exploradores enumerados.
+
+>[!NOTE]
+>
+>No todas las aplicaciones que se ejecutan en el dominio de Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 ## Compatibilidad de idiomas en Experience Cloud {#languages}
 
