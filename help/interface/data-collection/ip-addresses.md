@@ -2,9 +2,9 @@
 title: Direcciones IP utilizadas por Adobe Experience Cloud
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en el Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,7 @@ Además de los bloques de direcciones IP que se enumeran a continuación, los pr
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## Todos los bloqueos de direcciones IP de Adobe
 
