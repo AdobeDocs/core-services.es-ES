@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 81%
@@ -39,14 +39,40 @@ En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguiente
 | [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
 | Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
 
-{style="table-layout:auto"}
-
-## Notificaciones y anuncios {#notifications}
+## [!UICONTROL Notificaciones] y [!UICONTROL Anuncios] {#notifications}
 
 Seleccione **[!UICONTROL Notificaciones]** para recibir alertas acerca de actualizaciones relevantes y disponibles, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![Notificaciones y anuncios](../assets/notifications-menu-small.png)
 
+<!-- ## [!DNL Slack] notifications
+
+Releasing: **September 2, 2024**
+
+You can configure your account preferences to send Experience Cloud notifications to Slack.
+
+**Prerequisites**
+
+* You must have an Experience Cloud account
+* You must have a [!DNL Slack] account
+* You must be a part of at least one [!DNL Slack] workspace
+
+### To configure Slack notifications
+
+1. Sign in to Experience Cloud.
+
+1. Click your account icon, then click **[!UICONTROL Preferences]**.
+
+1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+
+1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+
+1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+
+   [Slack notifications](../assets/slack.png)
+
+1. Enable [!DNL Slack] notifications for your desired products and categories.
+ -->
 ## Compatibilidad con exploradores en Experience Cloud {#browser}
 
 Para obtener el mejor rendimiento, Experience Cloud está optimizado para los exploradores más populares, incluida la versión más reciente, además de las dos versiones anteriores.

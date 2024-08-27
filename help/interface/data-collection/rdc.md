@@ -1,11 +1,11 @@
 ---
 title: Recopilación de datos regionales
-description: Información sobre la recopilación de datos regionales
+description: Obtenga información acerca de la recopilación de datos regionales en Experience Cloud.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
