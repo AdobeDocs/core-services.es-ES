@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
 workflow-type: tm+mt
-source-wordcount: '5109'
+source-wordcount: '5104'
 ht-degree: 96%
 
 ---
@@ -29,8 +29,6 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 | Función | Descripción |
 | -----------| ---------- |
 | Notificaciones al Slack | Puede configurar las preferencias de su cuenta para enviar notificaciones al Experience Cloud a Slack. Consulte _Notificaciones al Slack_ en la ayuda de [Preferencias](../features/account-preferences.md) para obtener más información. |
-
-Ver [Herramienta de administración de Experience Cloud](../administration/admin-tool-experience-cloud.md)
 
 <!-- ## July - August 2023
 
