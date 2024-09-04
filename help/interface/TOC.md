@@ -5,10 +5,10 @@ breadcrumb-title: Interfaz de Experience Cloud y Guía de administración
 title: Interfaz de Experience Cloud y Guía de administración
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [Activadores](services/triggers.md)
 
 + Funciones {#features}
-   + [Preferencias de cuenta](features/account-preferences.md)
+   + [Notificaciones y preferencias de cuenta](features/account-preferences.md)
    + [Búsqueda unificada](features/search.md)
    + [Aprendizaje personalizado](features/personalized-learning.md)
+   + [Compatibilidad con exploradores e idiomas](browser-language.md)
 
 + Administración {#administration}
    + [Ver los detalles del usuario (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
    + [Organizaciones y vinculación de cuentas](administration/organizations.md)
-   + [Integraciones](administration/integrations.md)
+   + [Integraciones de Experience Cloud](administration/integrations.md)
 
 + Recopilación de datos {#data-collection}
    + [Programa de certificados administrados por Adobe](data-collection/adobe-managed-cert.md)
