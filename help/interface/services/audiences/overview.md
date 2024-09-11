@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: b257260bdbb7870dd6da807bceddfcddd2aef779
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 94%
@@ -62,6 +62,7 @@ En la tabla siguiente se describe cómo se utilizan los públicos en las aplicac
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Biblioteca de públicos]**
 
 ![Adición de un público en la biblioteca de públicos](assets/audience_library.png)
+
 
 | Elemento | Descripción |
 |--- |--- |
