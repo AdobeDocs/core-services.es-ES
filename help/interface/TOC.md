@@ -6,9 +6,9 @@ title: Interfaz de Experience Cloud y Guía de administración
 description: Obtenga más información acerca de la interfaz de Experience Cloud y las preferencias de cuenta de usuario. Obtenga información sobre cómo buscar objetos empresariales y administrar usuarios y productos. Configure los Atributos del cliente, la Biblioteca de públicos, las cookies y comparta los recursos de Experience Cloud.
 index: true
 source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
