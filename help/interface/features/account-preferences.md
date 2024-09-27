@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # Preferencias y notificaciones de cuenta {#preferences}
 
-Las [preferencias](https://experience.adobe.com/preferences) del Experience Cloud incluyen notificaciones (en la aplicación, correo electrónico y [!DNL Slack]), suscripciones y alertas.
+Para buscar las preferencias de Experience Cloud, haz clic en el icono **[!UICONTROL Cuenta de usuario]** ![preferencias](../assets/preferences-icon-sm.png) y, a continuación, haz clic en **[!UICONTROL Preferencias]**.
 
-En las preferencias, puede:
-
-* Buscar [Organizaciones](../administration/organizations.md)
-* Especifique un tema oscuro (no todas las aplicaciones admiten este tema).
-* Configure las preferencias, notificaciones y suscripciones de la cuenta para los usuarios.
-* Cerrar sesión de Experience Cloud.
-
-## Administrar preferencias
-
-Para administrar las preferencias, seleccione **[!UICONTROL Preferencias]** en el menú ![preferencias](../assets/preferences-icon-sm.png) de su cuenta.
-
-En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguientes funciones:
+En la página [!UICONTROL preferencias de Experience Cloud], puede administrar las siguientes características de la cuenta:
 
 | Función | Descripción |
 |--- |--- |
-| Organización [predeterminada](../administration/organizations.md) | Seleccione la organización que desea ver al iniciar Experience Cloud. |
+| Perfil | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre del perfil aparecen al iniciar sesión en Adobe.com, productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
+| General | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en Experience Cloud. |
 | [!UICONTROL Recopilación de datos del producto] | Seleccione qué tecnologías puede utilizar Adobe para recopilar datos sobre cómo aprovechar sus productos. |
-| [Notificaciones](#notifications-and-announcements) | Habilitar las notificaciones [!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications). |
+| Notificaciones | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
 | [!UICONTROL Recomendaciones y promociones de formación personalizadas] | Seleccione dónde desea recibir [ayuda personalizada](personalized-learning.md) para sus productos de Adobe. Esta ayuda está disponible por correo electrónico, en el producto y en las comunidades de Experience League. |
-| [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notificaciones] y en su correo electrónico. |
-| [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con la etiqueta [!UICONTROL High] y pueden configurarse para su envío como alertas. |
-| [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
-| Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
 
 ## Suscripción a notificaciones en Experience Cloud {#notifications}
 
