@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 85%
+source-wordcount: '508'
+ht-degree: 77%
 
 ---
 
@@ -41,7 +41,7 @@ Inicie sesión y verifique que se encuentra en la [organización](administration
 
    **Verifique su organización**
 
-   Para comprobar que ha iniciado sesión en la [organización](administration/organizations.md) correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
+   La [organización](administration/organizations.md) se muestra en el encabezado de la interfaz.
 
    Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Agregar `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`) para realizar esta tarea.
 
@@ -57,7 +57,7 @@ Para acceder a las aplicaciones y servicios de Experience Cloud proporcionados p
 
 ## Obtener ayuda y asistencia {#support}
 
-Acceda a aprendizaje y ayuda mediante el icono de Ayuda (![recurso](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de ayuda]** (![recurso](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) sobre [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ El menú [!UICONTROL Ayuda] también le permite acceder a:
 
 ## Administrar el perfil de usuario
 
-En el menú de perfil de usuario, puede:
+En el menú [!UICONTROL Perfil], puede:
 
 * Especifique un tema oscuro (no todas las aplicaciones admiten este tema)
 * Administrar [Preferencias](features/account-preferences.md) de Experience Cloud

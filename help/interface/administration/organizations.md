@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ La organización funciona como una empresa de inicio de sesión que abarca todos
 
 ![Organizaciones Experience Cloud](../assets/organizations-menu.png)
 
-Para comprobar que ha iniciado sesión en su organización correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
+Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Perfil]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ Por ejemplo, para una organización con Federated IDs y el dominio `adobecustome
 
 ## Ver su ID de organización {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Puede localizar el ID de organización asignado con fines de asistencia. Mediante el menú **[!UICONTROL Organización]** puede verificar que esté en la organización correcta o cambiar de una organización a otra.
+Puede localizar el ID de organización asignado con fines de asistencia. Puede comprobar que se encuentra en la organización correcta o cambiar de una organización a otra mediante el selector **[!UICONTROL Organización]** del encabezado.
 
 El identificador de organización es el ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
 
@@ -65,31 +65,30 @@ Normalmente, los administradores de Experience Cloud otorgan acceso a aplicacion
 
 1. Inicie sesión con su Adobe ID o Enterprise ID.
 
-1. Seleccione el selector de aplicaciones. (![menú](../assets/menu-icon.png)).
+1. Haga clic en **[!UICONTROL Selector de aplicación]**. (![menú](../assets/menu-icon.png)).
 
    ![Vinculación de una cuenta de aplicaciones a un Adobe ID](../assets/solutions-active.png)
 
    Las aplicaciones a las que tiene acceso se muestran coloreadas.
 
-1. Seleccione la aplicación que desee:
+1. Haga clic en la aplicación deseada.
 
-   ![Seleccione la aplicación que desee](../assets/analytics-link-accounts.png)
+   ![Haga clic en su aplicación](../assets/analytics-link-accounts.png)
 
    Este tipo de mensaje se muestra si es parte del grupo apropiado (y tiene permisos para la aplicación), pero todavía no ha vinculado sus credenciales de cuenta a su Adobe ID.
 
-1. Seleccione **[!UICONTROL Vincular cuenta]**, luego proporcione las credenciales.
+1. Haga clic en **[!UICONTROL Vincular cuenta]** y, a continuación, proporcione las credenciales.
 
-## Especificación de una organización y una página de aterrizaje predeterminadas {#concept_6A191B42A9874A9780882903BA18F071}
+## Especificar una organización predeterminada {#concept_6A191B42A9874A9780882903BA18F071}
 
-Puede especificar la organización y la página de aterrizaje predeterminadas que se pueden utilizar cuando inicia sesión.
+Puede especificar la organización predeterminada que se utilizará al iniciar sesión.
 
-En su perfil, seleccione **[!UICONTROL Editar perfil]**.
+1. En el encabezado, haga clic en **[!UICONTROL Perfil]** y, a continuación, haga clic en Preferencias.
+
+1. En [!UICONTROL General], seleccione una organización predeterminada.
+
 
 ![Editar perfil](../assets/edit-profile.png)
-
-En **[!UICONTROL Organización y página de aterrizaje predeterminadas]**, puede personalizar la forma de iniciar sesión.
-
-![Organización y página de aterrizaje predeterminadas](../assets/default-organization.png)
 
 ## Solución de problemas de vinculación de cuentas {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

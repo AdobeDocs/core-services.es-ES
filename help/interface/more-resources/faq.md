@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 69%
+source-wordcount: '700'
+ht-degree: 67%
 
 ---
 
@@ -87,7 +87,13 @@ El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 +++
 
-+++¿Cómo administro los usuarios y perfiles de producto?
++++¿Cómo administro las preferencias de usuario, las notificaciones y las alertas?
+
+* Ver [preferencias y notificaciones de la cuenta](/help/interface/features/account-preferences.md)
+
++++
+
++++¿Cómo administro los perfiles de producto y las credenciales de cuenta de usuario?
 
 * Consulte la [Guía del usuario de Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html) para obtener ayuda.
 

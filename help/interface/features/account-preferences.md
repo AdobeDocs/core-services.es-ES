@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '633'
 ht-degree: 8%
 
 ---
 
 # Preferencias y notificaciones de cuenta {#preferences}
 
-Para buscar las preferencias de Experience Cloud, haz clic en el icono **[!UICONTROL Cuenta de usuario]** ![preferencias](../assets/preferences-icon-sm.png) del encabezado y, a continuación, haz clic en **[!UICONTROL Preferencias]**.
+Para encontrar las preferencias de Experience Cloud, haz clic en **[!UICONTROL Perfil]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y luego haz clic en **[!UICONTROL Preferencias]**.
 
 ![preferencias](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 

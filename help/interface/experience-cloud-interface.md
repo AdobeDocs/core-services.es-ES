@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ca98d86c3559bf82c33c4fa3c7ec04bde26f1d8
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 96%
+source-wordcount: '724'
+ht-degree: 91%
 
 ---
 
@@ -64,7 +64,7 @@ Inicie sesión y verifique que se encuentra en la [organización](organizations.
 
    ![Verifique su organización](assets/organizations-menu.png)
 
-   Para comprobar que ha iniciado sesión en la [organización](organizations.md) correcta, haga clic en el avatar de perfil para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización directamente en la barra de encabezado.
+   Para comprobar que ha iniciado sesión en su [organización](organizations.md) correcta, haga clic en **[!UICONTROL Perfil]** para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra mediante el selector **[!UICONTROL Organización]**.
 
    Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Agregar `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`) para realizar esta tarea.
 
