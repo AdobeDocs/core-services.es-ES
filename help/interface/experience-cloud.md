@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ En el encabezado de Experience Cloud encuentra las siguientes funciones:
 * Acceda a todas las aplicaciones y servicios de Experience Cloud
 * En el menú Ayuda, busque documentación del producto, tutoriales y publicaciones de la comunidad. Ver resultados en Experience League.
 * Haga una búsqueda general de objetos empresariales mediante una búsqueda global (solo usuarios de Experience Platform) en el campo Búsqueda.
-* Administra tus [preferencias](features/account-preferences.md) de cuenta (alertas, notificaciones y suscripciones)
+* Administración de las [preferencias](features/account-preferences.md) de la cuenta (alertas, notificaciones y suscripciones)
 
 ## Inicie sesión en Experience Cloud {#signin}
 
@@ -81,7 +81,7 @@ En el menú [!UICONTROL Perfil], puede:
 
 ## Ver notificaciones y anuncios dentro del producto {#notifications}
 
-Haga clic en el icono de la campana para ver las notificaciones y los anuncios. Los anuncios pueden ser actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+Haga clic en el icono de la campana para ver las notificaciones y los anuncios. Los anuncios pueden ser actualizaciones relevantes y procesables, entre ellas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![Notificaciones y anuncios](assets/notifications-menu-small.png)
 
