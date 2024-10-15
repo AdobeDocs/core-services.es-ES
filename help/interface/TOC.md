@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interfaz de Experience Cloud y Guía de administración
 breadcrumb-title: Interfaz de Experience Cloud y Guía de administración
 title: Interfaz de Experience Cloud y Guía de administración
-description: Obtenga información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de audiencias. Comparta Experience Cloud Assets.
+description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
 source-git-commit: 009c387189d928d3807326939fa56461325011f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
