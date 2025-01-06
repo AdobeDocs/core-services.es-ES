@@ -1,103 +1,89 @@
 ---
-description: Obtenga información acerca de las preferencias de aprendizaje personalizadas en Experience Cloud. Esto permite a los clientes recibir ayuda y promociones personalizadas por correo electrónico, en sus productos de Adobe Experience Cloud y dentro de las comunidades de Adobe Experience League en función de sus datos de uso.
+description: Reciba ayuda y promociones personalizadas por correo electrónico, en sus productos de Experience Cloud y dentro de las comunidades de Experience League en función de sus datos de uso.
 solution: Experience Cloud
 title: Preferencias de aprendizaje personalizadas de Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 93%
+source-wordcount: '105'
+ht-degree: 23%
 
 ---
 
 # Recomendaciones y promociones de aprendizaje personalizadas
 
-Puede elegir permitir que el Adobe le proporcione contenido útil que se adapte a usted en función de su trabajo en productos de Adobe. Seleccione sus preferencias de entre las opciones siguientes y se le proporcionará información de aprendizaje relevante para:
+Adobe le proporciona contenido útil que se adapta a usted en función de su trabajo en sus productos de Adobe. Los datos de uso del producto informan de cómo adaptamos este contexto a usted. Puede optar por no compartir sus datos de uso del producto o adherirse a ellos en la página [preferencias de Experience Cloud](https://experience.adobe.com/preferences).
 
-* Su nivel de habilidad y función
-* Sus flujos de trabajo
-* Funciones que probablemente utilizará
-* ¡Y mucho más!
+<!-- ## Personalized training and support recommendations for your Adobe products and services
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-Puede actualizar su selección en cualquier momento en la sección Recopilación y uso de datos del producto en su [Configuración de preferencias de usuario](https://experience.adobe.com/preferences/).
-
-## Aprendizaje personalizado y recomendaciones de asistencia para sus productos y servicios de Adobe
-
-Reciba prácticas recomendadas, consejos y trucos relevantes, información útil y mucho más en función de su uso de los productos de Adobe de cada una de estas tres formas...
+Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>En sus productos de Adobe...<br></td>
-    <td>Consulte ventanas emergentes y consejos sobre herramientas para obtener ayuda en tiempo real.</td>
-    <td rowspan="3">Esto podría incluir... <ul><li>Guías paso a paso y sugerencias útiles de los expertos de Adobe</li> 
-    <li>Tutoriales en vídeo y tutoriales informativos</li> 
-    <li>Aprendizaje y educación a fondo</li> 
-    <li>Recomendaciones para vídeos y anuncios</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for real-time help.</td>
+    <td rowspan="3">This could include... <ul><li>Step-by-step guides and helpful tips from Adobe experts</li> 
+    <li>Video tutorials and informational walkthroughs</li> 
+    <li>In-depth training and education</li> 
+    <li>Recommendations for videos and posts</li>
     </ul></td>
   </tr>
   <tr>
-    <td>En el correo electrónico, Adobe le envía...</td>
-    <td>Ver contenido de formación relacionado con su trabajo en sus productos.</td>
+    <td>In email Adobe sends you...</td>
+    <td>Seeing learning content that relates to your work in your product(s).</td>
   </tr>
   <tr>
-    <td>En las comunidades de Experience League..</td>
-    <td>Vea recomendaciones personalizadas de publicaciones y artículos basadas en lo que está haciendo ahora.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for posts and articles based on what you're doing now.</td>
   </tr>
 </tbody>
 </table>
 
-## Información personalizada acerca de productos, servicios, eventos y promociones de Adobe
+## Personalized information about Adobe products, services, events, and promotions
 
-Reciba oportunidades personalizadas para eventos de formación, sesiones de investigación e integraciones basadas en su trabajo de cada una de estas tres maneras...
+Receive tailored opportunities for learning events, research sessions, and integrations based on your work in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>En sus productos de Adobe...<br></td>
-    <td>Vea ventanas emergentes e información de herramientas para conseguir invitaciones y oportunidades relevantes para usted.</td>
-    <td rowspan="3">Esto podría incluir... <ul>
-    <li>Invitaciones a seminarios web y eventos educativos</li> 
-    <li>Oportunidades de probar y dar información sobre futuras versiones de las funciones que usa</li>
-    <li>Sugerencias para utilizar integraciones entre productos que posee</li> 
-    <li>Aspectos destacados de las sesiones clave de la conferencia Adobe Summit en función de su trabajo</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for invitations and opportunities relevant to you.</td>
+    <td rowspan="3">This could include... <ul>
+    <li>Invitations to educational webinars and events</li> 
+    <li>Opportunities to test and give input on future releases of the features you use</li>
+    <li>Tips to use integrations between products you own</li> 
+    <li>Highlights for key sessions at the Adobe Summit conference based on your work</li>
     </ul></td>
   </tr>
   <tr>
-    <td>En el correo electrónico, Adobe le envía...</td>
-    <td>Obtenga información oportuna de Adobe acerca de oportunidades de aprendizaje adicionales.</td>
+    <td>In email Adobe sends you...</td>
+    <td>Get timely information from Adobe about additional learning opportunities.</td>
   </tr>
   <tr>
-    <td>En las comunidades de Experience League..</td>
-    <td>Vea recomendaciones personalizadas para eventos y servicios con el fin de mejorar su aprendizaje.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for events and services to enhance your learning.</td>
   </tr>
 </tbody>
 </table>
 
+ -->
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
 
-## Vea ejemplos de qué aspecto podría tener esta información de aprendizaje personalizada.
-
+## Ejemplos del aspecto que podría tener la información de aprendizaje personalizada
 
 ### En los productos de Adobe
 
 ![](../assets/personalized-learning-in-product.gif){width="800"}
 
-
-
 ### En el correo electrónico que le envía Adobe
 
 ![](../assets/personalized-learning-email.png){width="400"}
-
-
 
 ### En las comunidades de Experience League
 
 ![](../assets/personalized-learning-communities.png){width="800"}
 
 
-
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->

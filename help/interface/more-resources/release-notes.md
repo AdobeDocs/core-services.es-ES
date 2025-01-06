@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '5162'
-ht-degree: 95%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,15 @@ Para obtener una lista de actualizaciones de documentación, consulte [Actualiza
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
-## jueves, 02 de octubre de 2024
+## Noviembre de 2024
+
+Para facilitar el control de las preferencias de datos de uso de productos del Experience Cloud, hemos optimizado nuestra página de preferencias de Experience Cloud para eliminar opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y los clientes pueden actualizar sus preferencias en cualquier momento en [preferencias del Experience Cloud](https://experience.adobe.com/preferences).
+
+## 2 de octubre de 2024
 
 | Función | Descripción |
 | -----------| ---------- |
-| Inicio personalizable | En la página de aterrizaje del Experience Cloud, haga clic en **[!UICONTROL Editar]**. El modo [!UICONTROL Editar] le permite personalizar su página de inicio del Experience Cloud con acceso a una biblioteca de widgets y fondos personalizados. El modo [!UICONTROL Editar] proporciona controles intuitivos y sin problemas para mover, cambiar de tamaño y administrar widgets, incluidas acciones masivas y ajustes de diseño, lo que ofrece una experiencia más estética y adaptada. |
+| Inicio personalizable | En la página de aterrizaje de Experience Cloud, haga clic en **[!UICONTROL Editar]**. El modo [!UICONTROL Editar] le permite personalizar la página de inicio de Experience Cloud con acceso a una biblioteca de widgets y fondos personalizados. El modo [!UICONTROL Editar] proporciona controles intuitivos y sin problemas para mover, cambiar de tamaño y administrar widgets, incluidas acciones masivas y ajustes de diseño, lo que ofrece una experiencia más estética y adaptada. |
 
 ## miércoles, 10 de septiembre de 2024
 
@@ -244,8 +248,8 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 | Función | Descripción |
 |--- |--- |
-| Asignación de grupos de informes en lotes | En Administración > Asignación de grupos de informes, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que hacerlo de forma individual).  <br>Asignar grupos de informes a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre aplicaciones. |
-| Actualizaciones en los públicos de Experience Cloud | **Aplicación de conjuntos de informes**<br> Ahora puede aplicar un grupo de informes a todas sus [reglas de público](../services/audiences/create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla). <br>**Props y variables**<br> Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en los públicos en tiempo real. |
+| Asignación de grupos de informes en lotes | En Administración > Asignación de grupos de informes, ahora es posible seleccionar varios grupos de informes y asignarlos a una organización. (Anteriormente, había que asignarlos individualmente). <br>Asignar grupos de informes a una sola organización ayuda a habilitar en Experience Cloud funciones y servicios entre aplicaciones. |
+| Actualizaciones en los públicos de Experience Cloud | **Aplicación de conjuntos de informes**<br> Ahora puede aplicar un grupo de informes a todas sus [reglas de público](../services/audiences/create.md). (Anteriormente, había que especificar un grupo de informes en cada definición de regla). <br>**Props y variables**<br> Ahora puede incluir props y variables predeterminadas de Analytics (además de eVars y eventos) en las audiencias en tiempo real. |
 
 {style="table-layout:auto"}
 

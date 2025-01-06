@@ -1,16 +1,16 @@
 ---
 title: Preferencias y notificaciones de cuenta
-description: Obtenga información sobre los perfiles de usuario y las preferencias de cuenta en Experience Cloud. Suscríbase a las notificaciones de productos para correo electrónico y  [!DNL Slack], y configure alertas de productos.
+description: Obtenga información acerca de los perfiles de usuario, las preferencias de cuenta y los datos de uso del producto en Experience Cloud. Suscríbase a las notificaciones de productos para correo electrónico y  [!DNL Slack], y configure alertas de productos.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,23 @@ En la página [!UICONTROL preferencias de Experience Cloud], puede administrar l
 
 | Función | Descripción |
 |--- |--- |
-| Perfil | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre del perfil aparecen al iniciar sesión en Adobe.com, productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
-| General | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en Experience Cloud. |
-| [!UICONTROL Recopilación de datos del producto] | Seleccione qué tecnologías puede utilizar Adobe para recopilar datos sobre cómo aprovechar sus productos. |
-| Notificaciones | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
-| [!UICONTROL Recomendaciones y promociones de formación personalizadas] | Seleccione dónde desea recibir [ayuda personalizada](personalized-learning.md) para sus productos de Adobe. Esta ayuda está disponible por correo electrónico, en el producto y en las comunidades de Experience League. |
+| [!UICONTROL Perfil] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre del perfil aparecen al iniciar sesión en Adobe.com, productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
+| [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en Experience Cloud. |
+| [!UICONTROL Datos de uso del producto] | Puede controlar qué datos de uso del producto se comparten con el Adobe al utilizar aplicaciones de Experience Cloud. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
+| [!UICONTROL Notificaciones] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
+
+## [!UICONTROL Datos de uso del producto] {#product-usage-data}
+
+Los datos de uso del producto que decide compartir con Adobe incluyen los siguientes tipos de información sobre cómo utiliza e interactúa con las aplicaciones de Adobe:
+
+* Información del explorador y del dispositivo, como el modelo del dispositivo y el sistema operativo, información de software y hardware, configuración del explorador y del dispositivo, identificadores únicos (como la dirección IP, el ID de cookie o el ID del dispositivo), cantidad de memoria instalada, configuración de idioma y resolución de pantalla.
+* Cómo interactúa con las aplicaciones de Adobe Experience Cloud, incluidas las funciones que utiliza y las opciones que selecciona;
+* información del producto de Adobe, como el número de versión;
+* Información sobre el contenido y los documentos, como el número de páginas y los identificadores únicos, pero no el contenido en sí;
+* Información de uso del contenido, como cuántas veces accede al contenido y cómo interactúa con el contenido dentro de la aplicación.
+* Registros de errores y bloqueos.
+
+Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle asistencia tanto en el producto como a través del servicio de atención al cliente, y para personalizar su experiencia y comunicaciones con nosotros. Más información sobre [experiencias personalizadas](personalized-learning.md).
 
 ## Suscripción a notificaciones en Experience Cloud {#notifications}
 
