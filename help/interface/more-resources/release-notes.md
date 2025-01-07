@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Para obtener una lista de actualizaciones de documentación, consulte [Actualiza
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
-## Noviembre de 2024
+## Enero de 2025
 
-Para facilitar el control de las preferencias de datos de uso de productos del Experience Cloud, hemos optimizado nuestra página de preferencias de Experience Cloud para eliminar opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y los clientes pueden actualizar sus preferencias en cualquier momento en [preferencias del Experience Cloud](https://experience.adobe.com/preferences).
+| Fecha | Función | Descripción |
+| -----------| -----------| ---------- |
+| Enero de 9 | Datos de uso del producto | Para facilitar el control de las preferencias de datos de uso de productos del Experience Cloud, hemos optimizado nuestra página de [Preferencias](../features/account-preferences.md#product-usage-data) del Experience Cloud para eliminar las opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y puedes actualizar tus preferencias en cualquier momento en [preferencias del Experience Cloud](https://experience.adobe.com/preferences). |
+| 30 de enero (fecha de lanzamiento planificada) | Espectro 2 | El marco de aplicación del Experience Cloud, que incluye la barra de encabezado y el componente a los que se accede desde la barra de encabezado, así como el carril de navegación izquierdo para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se vuelven a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
 
 ## 2 de octubre de 2024
 
