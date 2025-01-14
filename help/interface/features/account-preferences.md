@@ -10,11 +10,11 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Preferencias y notificaciones de cuenta {#preferences}
+# Preferencias y notificaciones de la cuenta {#preferences}
 
 Para encontrar las preferencias de Experience Cloud, haz clic en **[!UICONTROL Perfil]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y luego haz clic en **[!UICONTROL Preferencias]**.
 
