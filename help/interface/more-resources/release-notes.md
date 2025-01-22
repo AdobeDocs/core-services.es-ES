@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
+source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 | Fecha | Función | Descripción |
 | -----------| -----------| ---------- |
 | Enero de 9 | Datos de uso del producto | Para facilitar el control de las preferencias de datos de uso de productos del Experience Cloud, hemos optimizado nuestra página de [Preferencias](../features/account-preferences.md#product-usage-data) del Experience Cloud para eliminar las opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y puedes actualizar tus preferencias en cualquier momento en [preferencias del Experience Cloud](https://experience.adobe.com/preferences). |
-| 30 de enero (fecha de lanzamiento planificada) | Espectro 2 | El marco de aplicación del Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde la barra de encabezado, así como el carril de navegación izquierdo para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se vuelven a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+| 5 de febrero (fecha de lanzamiento prevista) | Espectro 2 | El marco de aplicación del Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde la barra de encabezado, así como el carril de navegación izquierdo para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se vuelven a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
 
 ## 2 de octubre de 2024
 
