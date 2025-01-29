@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ Siga estos pasos en la página Crear nuevo atributo de cliente: Source de Experi
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el servicio de atención al cliente o con la consultoría de Audience Manager para obtener derechos administrativos.
 
 1. En [!DNL Experience Cloud], seleccione el icono ![menú](assets/menu-icon.png) del menú.
-1. En **[!DNL Experience Platform]**, seleccione **[!UICONTROL Personas]** > **[!UICONTROL Atributos del cliente]**.
+1. En **[!DNL Experience Platform]**, haga clic en **[!UICONTROL People]** > **[!UICONTROL Atributos del cliente]**.
 
    En la página [!UICONTROL Atributos del cliente] se gestionan y editan los orígenes de datos de atributos existentes.
 
    ![Resultado de los pasos](assets/03_crs_usecase.png)
 
-1. Seleccione **[!UICONTROL Nuevo]**.
+1. Haga clic en **[!UICONTROL Nuevo]**.
 
    ![Resultado de los pasos](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ Siga estos pasos en la página Crear nuevo atributo de cliente: Source de Experi
 
    * **[!UICONTROL Descripción:]** (Opcional) Descripción del origen del atributo de datos.
 
-   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL ID de alias] es un ID único que se usa en su código de [!UICONTROL Source de atributos del cliente]. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL ID de alias] para un origen de atributos del cliente en Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la recopilación de datos de Platform o JavaScript del SDK móvil).
+   * **[!UICONTROL ID de alias:]** Representa una fuente de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL ID de alias] es un ID único que se usa en su código de [!UICONTROL Source de atributos del cliente]. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL ID de alias] para un origen de atributos del cliente en Experience Cloud debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la recopilación de datos de Platform o JavaScript de Mobile SDK).
 
      >[!IMPORTANT]
      >
@@ -144,7 +144,7 @@ Consulte [Configurar suscripciones](subscription.md).
 
 **Para activar un origen de atributos**
 
-En la página [!UICONTROL Crear nuevo o editar atributo del cliente Source], busque el encabezado [!UICONTROL Activar] y, a continuación, seleccione **[!UICONTROL Activo]**.
+En la página [!UICONTROL Crear nuevo o editar atributo del cliente Source], busque el encabezado [!UICONTROL Activar] y, a continuación, haga clic en **[!UICONTROL Activo]**.
 
 ![Resultado de los pasos](assets/activate_attribute_source.png)
 

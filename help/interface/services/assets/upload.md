@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 70%
@@ -23,12 +23,12 @@ Consulte [https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-fil
 
 1. Abra el explorador de [!DNL Creative Cloud] y vaya a [!UICONTROL Creative Cloud Files].
 1. Abra la carpeta compartida.
-1. Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Cargar]**.
+1. Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Cargar]**.
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.
 
 ## Cargar un recurso a una carpeta compartida desde Creative Cloud local
 
 1. Activar el uso compartido.
 1. Inicie la versión de escritorio de [!DNL Creative Cloud] y vaya a [!UICONTROL **Assets**].
-1. Seleccione **[!UICONTROL Abrir carpeta].**
+1. Haga clic en **[!UICONTROL Abrir carpeta].**
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.

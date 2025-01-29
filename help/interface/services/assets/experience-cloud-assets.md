@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -37,7 +37,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 ## Acceso a la barra de herramientas {#section_EC2E401D225148818F3753248556BE6B}
 
-Vaya a un recurso (o a un directorio de recursos) y escoja **[!UICONTROL Seleccionar]**.
+Vaya a un recurso (o a un directorio de recursos) y, a continuación, haga clic en **[!UICONTROL Seleccionar]**.
 
 La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
 
@@ -65,13 +65,13 @@ Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación,
 
 ## Anotación de recursos {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Seleccione **[!UICONTROL Anotar]** al dibujar círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
+Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
 
 ![Anotación de recursos](../../assets/assets-annotate.png)
 
 ## Visualizar recursos en pantalla completa y hacer zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Seleccione **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y activar el zoom.
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y activar el zoom.
 
 ![Visualización de recursos de pantalla completa](../../assets/asset-zoom.png)
 
@@ -79,7 +79,7 @@ Seleccione **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen 
 
 Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
 
-Seleccione **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
 
 ![Visualización de las propiedades de los recursos](../../assets/asset-properties.png)
 
@@ -87,6 +87,6 @@ Seleccione **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las p
 
 Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
 
-Seleccione **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
 
 ![Ejecución de informes de uso](../../assets/assets-usage-report.png)

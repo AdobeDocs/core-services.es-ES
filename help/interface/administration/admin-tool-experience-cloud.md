@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 85%
+source-wordcount: '1258'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,7 @@ Esta página muestra la lista completa de usuarios con acceso a Experience Cloud
 
 | Elemento | Descripción |
 |---|---|
-| [!UICONTROL Nombre] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a la Z y de la Z a la A. Seleccione el nombre de un usuario para ver más detalles acerca de este. |
+| [!UICONTROL Nombre] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a la Z y de la Z a la A. Haga clic en el nombre de un usuario para ver más detalles sobre el mismo. |
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las aplicaciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
@@ -49,7 +49,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista del usua
 
 * Busque usuarios por nombre o correo electrónico. Las búsquedas coinciden con la cadena de texto que escriba.
 * Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a las columnas [!UICONTROL Nombre], [!UICONTROL Correo electrónico] y [!UICONTROL Último inicio de sesión].
-* Para aplicar varios filtros a los usuarios de la lista con criterios específicos, seleccione el icono **[!UICONTROL Filtrar por]**. Cuando se aplican varias categorías de filtro, las búsquedas contienen Dominio de correo electrónico `AND` TIPO DE ID `AND` Solución.
+* Para aplicar varios filtros a los usuarios de la lista con criterios específicos, haga clic en **[!UICONTROL Filtrar por]**. Cuando se aplican varias categorías de filtro, las búsquedas contienen Dominio de correo electrónico `AND` TIPO DE ID `AND` Solución.
 
 | Elemento | Descripción |
 |---------|----------|
@@ -59,7 +59,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista del usua
 
 ## Ver detalles del usuario
 
-En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, seleccione su correo electrónico.
+En la página [!UICONTROL Usuarios], para ver los detalles de un usuario, haga clic en el correo electrónico del usuario.
 
 ![Ver detalles del usuario en Admin Console](../assets/admin-tool-user-details.png)
 
@@ -113,7 +113,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de direc
 
 * Busque perfiles de producto por nombre. Las búsquedas coinciden con la cadena de texto que escriba.
 * Ordene la columna por valores ascendentes o descendentes. Este orden se aplica a [!UICONTROL perfil de producto,] [!UICONTROL producto,] [!UICONTROL instancia,] [!UICONTROL número de usuarios,] y [!UICONTROL número de desarrolladores,] columnas.
-* Seleccione el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de productos de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
+* Haga clic en el icono **[!UICONTROL Filtrar por]** para aplicar varios filtros a los perfiles de productos de la lista con criterios específicos. Cuando se aplican varias categorías de filtro, las búsquedas contienen Grupos asociados a la solución `AND`Instancia `AND`.
 
 | Elemento | Descripción |
 |---------|----------|

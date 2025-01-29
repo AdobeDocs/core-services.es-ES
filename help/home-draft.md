@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -25,14 +25,14 @@ En el encabezado de Experience Cloud encuentra las siguientes funciones:
 * Acceda a todas las aplicaciones y servicios de Experience Cloud
 * En el menú Ayuda, busque documentación del producto, tutoriales y publicaciones de la comunidad. Ver resultados en Experience League.
 * Haga una búsqueda general de objetos empresariales mediante una búsqueda global (solo usuarios de Experience Platform) en el campo Búsqueda.
-* Administra tus [preferencias](features/account-preferences.md) de cuenta (alertas, notificaciones y suscripciones)
+* Administración de las [preferencias](features/account-preferences.md) de la cuenta (alertas, notificaciones y suscripciones)
 
 ## Inicie sesión en Experience Cloud {#signin}
 
 Inicie sesión y verifique que se encuentra en la [organización](administration/organizations.md) correcta.
 
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
-1. Escriba su dirección de correo electrónico de Adobe y seleccione **[!UICONTROL Continuar]**.
+1. Escriba su dirección de correo electrónico de Adobe y haga clic en **[!UICONTROL Continuar]**.
 1. Seleccione una cuenta.
 1. Escriba la contraseña.
 1. Compruebe que se encuentra en la organización correcta.
@@ -57,7 +57,7 @@ Para acceder a las aplicaciones y servicios de Experience Cloud proporcionados p
 
 ## Obtener ayuda y asistencia {#support}
 
-Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de ayuda]** (![recurso](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) sobre [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de Ayuda]** (![activo](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ El menú [!UICONTROL Ayuda] también le permite acceder a:
 
 ## Administrar el perfil de usuario
 
-En el menú [!UICONTROL Perfil], puede:
+En el menú [!UICONTROL Perfil] puede hacer lo siguiente:
 
 * Especifique un tema oscuro (no todas las aplicaciones admiten este tema)
 * Administrar [Preferencias](features/account-preferences.md) de Experience Cloud
@@ -81,7 +81,7 @@ En el menú [!UICONTROL Perfil], puede:
 
 ## Ver notificaciones y anuncios dentro del producto {#notifications}
 
-Haga clic en el icono de la campana para ver las notificaciones y los anuncios. Los anuncios pueden ser actualizaciones relevantes y procesables, incluidas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+Haga clic en el icono de la campana para ver las notificaciones y los anuncios. Los anuncios pueden ser actualizaciones relevantes y procesables, entre ellas versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 
 ![Notificaciones y anuncios](assets/notifications-menu-small.png)
 
@@ -181,7 +181,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Recursos para desarrolladores</strong><br/><a href="dev/datamodel.md">Modelo de datos de la versión 8 de Campaign</a> - <a href="dev/schemas.md">Esquemas</a> - <a href="dev/api.md">API</a>
+      <strong>Recursos para desarrolladores</strong><br/><a href="dev/datamodel.md">Modelo de datos de Campaign v8</a> - <a href="dev/schemas.md">Esquemas</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>
