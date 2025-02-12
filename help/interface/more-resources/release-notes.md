@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 86%
+source-wordcount: '1200'
+ht-degree: 90%
 
 ---
 
@@ -24,12 +24,17 @@ Para obtener una lista de actualizaciones de documentación, consulte [Actualiza
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
+## Febrero de 2025
+
+| Fecha | Función | Descripción |
+| -----------| -----------| ---------- |
+| 13 de febrero (fecha de lanzamiento prevista) | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+
 ## Enero de 2025
 
 | Fecha | Función | Descripción |
 | -----------| -----------| ---------- |
-| Enero de 9 | Datos de uso del producto | Para facilitar el control de las preferencias de datos de uso de productos del Experience Cloud, hemos optimizado nuestra página de [Preferencias](../features/account-preferences.md#product-usage-data) del Experience Cloud para eliminar las opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y puedes actualizar tus preferencias en cualquier momento en [preferencias del Experience Cloud](https://experience.adobe.com/preferences). |
-| 5 de febrero (fecha de lanzamiento prevista) | Espectro 2 | El marco de aplicación del Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde la barra de encabezado, así como el carril de navegación izquierdo para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se vuelven a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+| Enero de 9 | Datos de uso del producto | Para facilitar el control de las preferencias de datos de uso del producto Experience Cloud, hemos optimizado nuestra página [Preferencias](../features/account-preferences.md#product-usage-data) de Experience Cloud para eliminar las opciones duplicadas. Con esta simplificación, hemos conservado las preferencias actuales del usuario, y se pueden actualizar las preferencias en cualquier momento en las [preferencias de Experience Cloud](https://experience.adobe.com/preferences). |
 
 ## 2 de octubre de 2024
 
@@ -37,11 +42,11 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 | -----------| ---------- |
 | Inicio personalizable | En la página de aterrizaje de Experience Cloud, haga clic en **[!UICONTROL Editar]**. El modo [!UICONTROL Editar] le permite personalizar la página de inicio de Experience Cloud con acceso a una biblioteca de widgets y fondos personalizados. El modo [!UICONTROL Editar] proporciona controles intuitivos y sin problemas para mover, cambiar de tamaño y administrar widgets, incluidas acciones masivas y ajustes de diseño, lo que ofrece una experiencia más estética y adaptada. |
 
-## miércoles, 10 de septiembre de 2024
+## 10 de septiembre de 2024
 
 | Función | Descripción |
 | -----------| ---------- |
-| Notificaciones de Slack | Puede configurar las preferencias de su cuenta para enviar notificaciones de Experience Cloud a Slack. Consulte _Notificaciones al Slack_ en la ayuda de [Preferencias](../features/account-preferences.md) para obtener más información. |
+| Notificaciones de Slack | Puede configurar las preferencias de su cuenta para enviar notificaciones de Experience Cloud a Slack. Consulte _Notificaciones de Slack_ en la ayuda de [Preferencias](../features/account-preferences.md) para obtener más información. |
 
 <!-- ## July - August 2023
 
