@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 55%
@@ -17,11 +17,11 @@ ht-degree: 55%
 
 # Organizaciones en Experience Cloud
 
-Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en el Experience Cloud.
+Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud.
 
 La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-![Organizaciones Experience Cloud](../assets/organizations-menu.png)
+![Organizaciones de Experience Cloud](../assets/organizations-menu.png)
 
 Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Perfil]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
 
@@ -47,7 +47,7 @@ Puede ver su identificador de organización, junto con otra información de la c
 
 1. En **[!UICONTROL Información de usuario]**, busque **[!UICONTROL Id. de organización actual]** y podrá encontrar el Id. de organización.
 
-   Los administradores también pueden iniciar sesión en el Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y ver su identificador de organización en la dirección URL.
+   Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y ver su identificador de organización en la dirección URL.
 
    Por ejemplo, en la siguiente dirección URL:
 
@@ -61,11 +61,11 @@ Puede ver su identificador de organización, junto con otra información de la c
 
 Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, puede vincular las credenciales de la aplicación a una Adobe ID.
 
-1. Siga los pasos de la invitación del correo electrónico al Experience Cloud.
+1. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
 
 1. Inicie sesión con su Adobe ID o Enterprise ID.
 
-1. Haga clic en **[!UICONTROL Selector de aplicación]**. (![menú](../assets/menu-icon.png)).
+1. Haga clic en **[!UICONTROL Selector de aplicación]**. (![menú](../assets/apps-icon.png)).
 
    ![Vinculación de una cuenta de aplicaciones a un Adobe ID](../assets/solutions-active.png)
 
