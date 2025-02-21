@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 72%
+source-wordcount: '605'
+ht-degree: 69%
 
 ---
 
 # Actualizaciones de documentación para Experience Cloud
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de Experience Cloud.
+
+**Febrero de 2025**
+
+Se agregaron [Administrar usuarios y productos en Experience Cloud](../administration/admin-console.md). Esta página ayuda a los administradores a localizar la ayuda de administración de usuarios y productos (Admin Console) para todas las aplicaciones.
 
 **Noviembre de 2024**
 
