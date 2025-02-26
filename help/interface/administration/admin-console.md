@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,43 @@ Esta página proporciona información específica para administradores de Experi
 Para obtener ayuda general sobre la administración de identidades aplicable a todas las aplicaciones de Adobe, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
 Las secciones siguientes proporcionan vínculos a recursos de la ayuda de Admin Console.
+
+## Funciones administrativas en Admin Console
+
+Admin Console proporciona tres funciones administrativas principales, cada una con niveles específicos de acceso y responsabilidad:
+
+**Administrador del sistema:** Acceso completo: administra todos los aspectos de la consola.
+
+Responsabilidades clave:
+
+* Agregar, quitar y administrar usuarios.
+* Asignar y revocar licencias de productos.
+* Configure las opciones de identidad y autenticación.
+* Ver y administrar la información de facturación.
+* Configure administradores y funciones delegadas adicionales.
+
+  **Ideal para:** administradores de TI o jefes de equipo que supervisan el entorno de Adobe de toda la organización.
+
+**Administrador de productos:** Administración específica de productos: controla el acceso y los permisos para productos específicos de Adobe.
+
+Responsabilidades clave:
+
+* Asigne y administre licencias para un producto específico.
+* Crear y administrar perfiles de producto.
+* Agregar o quitar usuarios de los productos asignados.
+
+  **Ideal para:** equipos o usuarios que administran software específico como Marketo Engage o Adobe Creative Cloud.
+
+**Administrador de perfil de producto:** Administración de funciones granular: se centra en administrar grupos de usuarios y permisos dentro de un producto.
+
+* Responsabilidades clave:
+* Crear y administrar perfiles de producto.
+* Asigne permisos y acceso a funciones dentro de los perfiles.
+* Agregar o quitar usuarios dentro de perfiles.
+
+  **Ideal para:** Directores de departamento o gerentes de equipo que supervisan grupos más pequeños con necesidades especializadas
+
+  Los administradores pueden combinar funciones para obtener una mayor flexibilidad, según los requisitos de la organización.
 
 ## Configuración de Admin Console
 
