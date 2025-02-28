@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
+source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 | Vínculo de ayuda | Descripción |
 | ------- | ------- |
-| [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Configuración]** <br>Aprenda a configurar las cuentas de los usuarios con diferentes tipos de ID con o sin inicio de sesión único (SSO). Configure SSO para el software de Adobe, la configuración de SAML y revise las preguntas y los errores más comunes. |
+| [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Configuración]** <br> Aprenda a configurar las cuentas de los usuarios con diferentes tipos de ID con o sin inicio de sesión único (SSO). Configure SSO para el software de Adobe, la configuración de SAML y revise las preguntas y los errores más comunes. |
 | [Configurar la organización mediante confianza de directorio](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Autentique a los usuarios con un dominio que ya reclame otra organización. Para obtener información sobre cómo buscar y cambiar de organización, consulte [Organizaciones en Experience Cloud](organizations.md). |
 | [Configuración de autenticación (empresarial)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console admite varios niveles y políticas de protección de contraseña para garantizar la seguridad. Puede especificar el uso de un nivel de protección de contraseña para aplicarlo a todos los usuarios de su organización. |
 | [Contactos de privacidad y seguridad](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Proteja los datos de su organización y de los usuarios. Si se produce un incidente de seguridad relacionado con nuestras soluciones de software, las notificaciones se envían a los responsables de cumplimiento correspondientes. Las empresas tienen personal cuya función es específica para la protección de datos, la integridad y otras cuestiones de cumplimiento. Por lo tanto, la información de contacto de dicho personal es fundamental para garantizar una notificación rápida en caso de un incidente de seguridad. |
