@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Fecha | Actualización | Descripción |
 | -----------| -----------| ---------- |
-| viernes, 06 de marzo de 2025 | Opciones de menú del botón derecho | Corrección del marco de la aplicación de Experience Cloud para las pestañas de navegación del encabezado para permitir las funciones de menú desplegable del explorador al hacer clic con el botón derecho. Esto corrige un problema introducido en la versión de febrero del sistema de diseño Spectrum 2. |
+| viernes, 06 de marzo de 2025 | Corrección de opciones del menú del botón derecho | Las pestañas de navegación de encabezado de Experience Cloud ahora permiten funciones de menú desplegable del explorador y hacer clic con el botón derecho. Esto corrige un problema introducido en la versión de febrero del sistema de diseño Spectrum 2. |
 
 ## Febrero de 2025
 
