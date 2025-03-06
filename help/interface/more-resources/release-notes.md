@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,17 @@ Para obtener una lista de actualizaciones de documentación, consulte [Actualiza
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
+## Marzo de 2025
+
+| Fecha | Actualización | Descripción |
+| -----------| -----------| ---------- |
+| viernes, 06 de marzo de 2025 | Opciones de menú del botón derecho | Corrección del marco de la aplicación de Experience Cloud para las pestañas de navegación del encabezado para permitir las funciones de menú desplegable del explorador al hacer clic con el botón derecho. Esto corrige un problema introducido en la versión de febrero del sistema de diseño Spectrum 2. |
+
 ## Febrero de 2025
 
 | Fecha | Función | Descripción |
 | -----------| -----------| ---------- |
-| 13 de febrero (fecha de lanzamiento prevista) | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+| 13 de febrero | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
 
 ## Enero de 2025
 
