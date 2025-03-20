@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 7%
 
 ---
 
 # Administración de usuarios y licencias de productos
 
-Esta página proporciona información específica para administradores de Experience Cloud, con vínculos a documentación común de administración de usuarios y productos.
+Puede administrar usuarios y licencias de productos en Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/). Para obtener ayuda general sobre la administración de identidades aplicable a todas las aplicaciones de Adobe, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
-Para obtener ayuda general sobre la administración de identidades aplicable a todas las aplicaciones de Adobe, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/admin-guide.html).
+Esta página proporciona información específicamente útil para los administradores de Experience Cloud, define funciones y proporciona vínculos a temas comunes de administración de usuarios y productos en la guía empresarial.
 
 ## Funciones administrativas en Admin Console
 
