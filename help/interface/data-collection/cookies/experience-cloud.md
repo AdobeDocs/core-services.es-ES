@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 91%
@@ -76,7 +76,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p> 2 años </p> </td> 
+   <td colname="col2"> <p> 13 meses </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Uso </p> </td> 
