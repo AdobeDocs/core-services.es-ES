@@ -8,7 +8,7 @@ index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 97%
 
 + [Interfaz y administración de Experience Cloud](experience-cloud.md)
 
-+ Servicios {#services}
++ Servicios
    + [Información general](services/overview.md)
-   + [Introducción](services/getting-started.md)
-   + Recursos {#assets}
+   + [Primeros pasos](services/getting-started.md)
+   + Recursos
       + [Información general](services/assets/experience-cloud-assets.md)
       + [Compartir carpetas y recursos con Creative Cloud](services/assets/creative-cloud.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
@@ -28,11 +28,11 @@ ht-degree: 97%
       + [Cargar un recurso en una carpeta compartida](services/assets/upload.md)
       + [Requisitos para compartir un archivo de recursos](services/assets/file-reqs.md)
       + [Comportamiento de archivos compartidos](services/assets/behavior.md)
-   + Biblioteca de públicos {#audiences}
+   + Biblioteca de públicos
       + [Información general](services/audiences/overview.md)
       + [Crear un público](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Atributos del cliente {#customer-attributes}
+   + Atributos del cliente
       + [Información general](services/customer-attributes/attributes.md)
       + [Preguntas frecuentes acerca de Atributos del cliente](services/customer-attributes/faq-crs.md)
       + [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](services/customer-attributes/crs-data-file.md)
@@ -46,24 +46,24 @@ ht-degree: 97%
       + [Consideraciones de privacidad sobre atributos de cliente](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
 
-+ Funciones {#features}
++ Funcionalidades
    + [Preferencias y notificaciones de la cuenta](features/account-preferences.md)
    + [IA en aplicaciones de Experience Cloud](features/generative-ai.md)
    + [Búsqueda unificada](features/search.md)
    + [Aprendizaje personalizado](features/personalized-learning.md)
    + [Compatibilidad con exploradores e idiomas](browser-language.md)
 
-+ Administración {#administration}
++ Administración
    + [Administración de usuarios y licencias de productos](administration/admin-console.md)
    + [Ver los detalles del usuario (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
    + [Organizaciones y vinculación de cuentas](administration/organizations.md)
    + [Integraciones de Experience Cloud](administration/integrations.md)
 
-+ Recopilación de datos {#data-collection}
++ Recopilación de datos
    + [Programa de certificados administrados por Adobe](data-collection/adobe-managed-cert.md)
    + [Direcciones IP](data-collection/ip-addresses.md)
    + [Dominios](data-collection/domains.md)
-   + Cookies {#cookies}
+   + Cookies
       + [Información general de cookies](data-collection/cookies/overview.md)
       + [Cookies de Advertising](data-collection/cookies/advertising.md)
       + [Cookies de Analytics](data-collection/cookies/analytics.md)
@@ -74,7 +74,7 @@ ht-degree: 97%
    + [Recopilación de datos regionales](data-collection/rdc.md)
    + [Use la precarga de DNS](data-collection/dns-prefetch.md)
 
-+ Más activos {#more-resources}
++ Más recursos
    + [Notas de la versión](more-resources/release-notes.md)
    + [Actualizaciones de documentación](more-resources/doc-updates.md)
    + [Preguntas frecuentes](more-resources/faq.md)
