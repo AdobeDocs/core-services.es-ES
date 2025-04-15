@@ -6,7 +6,7 @@ title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 + Servicios {#services}
    + [Información general](services/overview.md)
-   + [Introducción](services/getting-started.md)
+   + [Primeros pasos](services/getting-started.md)
    + Recursos {#assets}
       + [Información general](services/assets/experience-cloud-assets.md)
       + [Compartir carpetas y recursos con Creative Cloud](services/assets/creative-cloud.md)
@@ -46,7 +46,7 @@ ht-degree: 100%
       + [Consideraciones de privacidad sobre atributos de cliente](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
 
-+ Funciones {#features}
++ Funcionalidades {#features}
    + [Preferencias y notificaciones de la cuenta](features/account-preferences.md)
    + [IA en aplicaciones de Experience Cloud](features/generative-ai.md)
    + [Búsqueda unificada](features/search.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [Recopilación de datos regionales](data-collection/rdc.md)
    + [Use la precarga de DNS](data-collection/dns-prefetch.md)
 
-+ Más activos {#more-resources}
++ Más recursos {#more-resources}
    + [Notas de la versión](more-resources/release-notes.md)
    + [Actualizaciones de documentación](more-resources/doc-updates.md)
    + [Preguntas frecuentes](more-resources/faq.md)
