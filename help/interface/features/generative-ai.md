@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Compatibilidad con Adobe Firefly: **No**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-Los subtítulos inteligentes de [!DNL Customer Journey Analytics] proporcionan información en lenguaje natural sobre las visualizaciones de Workspace que se usan con más frecuencia. Los subtítulos inteligentes son ideales para los analistas que necesitan narrativas y contexto para compartirlos con otros usuarios. Los usuarios empresariales pueden utilizarla para descubrir rápidamente los conocimientos básicos de alto nivel.
+Puede usar _Subtítulos inteligentes_ en [!DNL Customer Journey Analytics] para obtener información en lenguaje natural de las visualizaciones de Workspace que se usan con más frecuencia. Los subtítulos inteligentes son ideales para los analistas que necesitan narrativas y contexto para compartirlos con otros usuarios. Los usuarios empresariales pueden utilizarla para descubrir rápidamente los conocimientos básicos de alto nivel.
+
+Por ejemplo:
+
+* **Entrada:** En CJA, ejecute una visualización compatible (que incluye líneas, áreas, gráficos de barras, flujos o visitas en el orden previsto) y, a continuación, haga clic en **[!UICONTROL Subtítulos inteligentes]**.
+
+* **Salida:** vea subtítulos en lenguaje natural generados automáticamente que muestran el contexto y las claves que se obtienen. A continuación, puede realizar acciones en los datos generados, como revisarlos, copiarlos y compartirlos con su organización. [Ver cómo](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
