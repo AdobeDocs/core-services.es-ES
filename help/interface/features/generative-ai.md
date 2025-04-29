@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
 
-# IA en productos de Experience Cloud
+# IA generativa en productos de Experience Cloud
 
 Esta página le ayuda a conocer qué productos admiten IA generativa, [!DNL AI Assistant], y si Adobe Firefly es compatible. También puede encontrar vínculos a información sobre cómo utilizar la IA en aplicaciones de Experience Cloud.
 
@@ -57,7 +57,6 @@ Descubra cómo las siguientes aplicaciones de Experience Cloud admiten IA genera
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Compatibilidad con Adobe Firefly: **Sí**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics usa [!DNL AI Assistant] para ayudarle a descubrir el conocimiento y la información del producto de Experience League.
+Customer Journey Analytics ofrece [!DNL AI Assistant] para obtener conocimientos y perspectivas del producto y [!UICONTROL Subtítulos inteligentes] en las visualizaciones de Workspace.
 
-Si es un usuario nuevo, aprenda rápidamente los conceptos de Customer Journey Analytics e incorpore productos y funciones. Por ejemplo:
+**Asistente de IA**
+
+Descubra el conocimiento y las perspectivas del producto desde Experience League. Si es un usuario nuevo, aprenda rápidamente los conceptos de Customer Journey Analytics e incorpore productos y funciones. Por ejemplo:
 
 * _¿Cómo envío un correo electrónico en un recorrido de cuenta?_
 
@@ -163,9 +164,7 @@ Los usuarios con experiencia obtienen casos de uso avanzados o aprenden estrateg
 
 [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Compatibilidad con Adobe Firefly: **No**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**Subtítulos inteligentes**
 
 Puede usar _Subtítulos inteligentes_ en [!DNL Customer Journey Analytics] para obtener información en lenguaje natural de las visualizaciones de Workspace que se usan con más frecuencia. Los subtítulos inteligentes son ideales para los analistas que necesitan narrativas y contexto para compartirlos con otros usuarios. Los usuarios empresariales pueden utilizarla para descubrir rápidamente los conocimientos básicos de alto nivel.
 
