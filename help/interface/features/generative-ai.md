@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 3%
 
 ---
 
 # IA en productos de Experience Cloud
 
-Esta página le ayuda a conocer qué productos admiten IA generativa, [!DNL AI Assistant], y si Adobe Firefly es compatible. También puede encontrar vínculos a recursos de ayuda específicos del producto sobre cómo utilizar la IA en Experience Cloud.
+Esta página le ayuda a conocer qué productos admiten IA generativa, [!DNL AI Assistant], y si Adobe Firefly es compatible. También puede encontrar vínculos a información sobre cómo utilizar la IA en aplicaciones de Experience Cloud.
 
 **Acerca de la IA generativa**
 
@@ -28,11 +28,11 @@ La IA generativa es un tipo de inteligencia artificial que hace más que simplem
 
 **¿Qué es [!DNL AI Assistant]?**
 
-[!DNL AI Assistant] es una herramienta de conversación compatible con Experience Platform y aplicaciones relacionadas. Utilícelo para obtener rápidamente _conocimiento del producto_ y, en las aplicaciones compatibles, obtener _información operativa_ casi de inmediato.
+[!DNL AI Assistant] es una herramienta de conversación compatible con Experience Platform y aplicaciones relacionadas. Utilícelo para obtener rápidamente _conocimiento del producto_ y, en productos compatibles, _información operativa_ casi de inmediato.
 
-* **Conocimiento del producto:** El conocimiento del producto hace referencia a conceptos y temas basados en la documentación de Experience League. Las respuestas de Experience League son verificables y se citan con vínculos. Obtenga información acerca de los tipos de [mensajes basados en objetivos](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) para aprovechar al máximo [!DNL AI Assistant].
+* **Conocimiento del producto:** El conocimiento del producto hace referencia a conceptos y temas basados en la documentación de Experience League. Aprenda a crear [mensajes efectivos basados en objetivos](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) para aprovechar al máximo [!DNL AI Assistant]. Todas las respuestas de Experience League son verificables y se citan con vínculos.
 
-* **Perspectivas operativas:** Las perspectivas operativas se refieren a respuestas que genera AI Assistant sobre los objetos de metadatos (atributos, audiencias, flujos de datos, conjuntos de datos, destinos, recorridos, esquemas y fuentes), incluidos recuentos, búsquedas y el impacto en el linaje. Con el Asistente de IA, puede descubrir perspectivas operativas en segundos en lugar de horas.
+* **Perspectivas operativas:** [Perspectivas operativas](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) se refieren a respuestas generadas sobre objetos de metadatos (atributos, audiencias, flujos de datos, conjuntos de datos, etc.). Con el asistente de IA, puede lograr en segundos lo que de lo contrario podría tardar horas o días.
 
 [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## Disponibilidad de IA en productos de Experience Cloud
 
-Obtenga información acerca de la compatibilidad con IA generativa o [!DNL AI Assistant] en productos de Experience Cloud. También se indica la compatibilidad con Adobe Firefly.
+Descubra cómo las siguientes aplicaciones de Experience Cloud admiten IA generativa o [!DNL AI Assistant]. También se indica la compatibilidad con Adobe Firefly.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -90,9 +90,10 @@ Los campos de entrada incluyen:
 
 La salida es contenido generado o copia de mercado.
 
+Compatibilidad con Adobe Firefly: **Sí**
+
 [Más información acerca de Generar variaciones](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-Compatibilidad con Adobe Firefly: **Sí**
 
 ## Adobe[!DNL Journey Optimizer] {#journey-optimizer}
 
