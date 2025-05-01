@@ -1,22 +1,22 @@
 ---
 title: IA en aplicaciones de Experience Cloud
-description: Obtenga información acerca de IA generativa y cómo las aplicaciones de Experience Cloud utilizan genAI y  [!DNL AI Assistant].
+description: Obtenga información acerca de la IA generativa (GenAI) y cómo las aplicaciones de Experience Cloud utilizan GenAI y  [!DNL AI Assistant].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1421'
 ht-degree: 3%
 
 ---
 
 # IA generativa en productos de Experience Cloud
 
-Esta página le ayuda a conocer qué productos admiten IA generativa, [!DNL AI Assistant], y si Adobe Firefly es compatible. También puede encontrar vínculos a información sobre cómo utilizar la IA en aplicaciones de Experience Cloud.
+Esta página le ayuda a conocer qué productos admiten IA generativa (GenAI), [!DNL AI Assistant] y si Adobe Firefly es compatible. También puede encontrar vínculos a información sobre las distintas formas de utilizar la IA en las aplicaciones de Experience Cloud.
 
 **Acerca de la IA generativa**
 
@@ -34,7 +34,7 @@ La IA generativa es un tipo de inteligencia artificial que hace más que simplem
 
 * **Perspectivas operativas:** [Perspectivas operativas](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) se refieren a respuestas generadas sobre objetos de metadatos (atributos, audiencias, flujos de datos, conjuntos de datos, etc.). Con el asistente de IA, puede lograr en segundos lo que de lo contrario podría tardar horas o días.
 
-[Más información](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[Más información sobre el Asistente de IA](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 Descubra cómo las siguientes aplicaciones de Experience Cloud admiten IA generativa o [!DNL AI Assistant]. También se indica la compatibilidad con Adobe Firefly.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
@@ -71,7 +71,11 @@ También puede entrenar a GenStudio for Performance Marketing en su marca median
 
 Compatibilidad con Adobe Firefly: **Sí**
 
-## Adobe[!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+En las secciones siguientes se describe brevemente la IA generativa en aplicaciones de AEM.
+
+### Experience Manager Sites
 
 En AEM Sites, puede usar _[!UICONTROL Generar variaciones]_. Esta función utiliza inteligencia artificial generativa para crear variaciones de contenido basadas en los mensajes de entrada. Adobe proporciona los indicadores o usted los crea y administra.
 
@@ -93,8 +97,17 @@ Compatibilidad con Adobe Firefly: **Sí**
 
 [Más información acerca de Generar variaciones](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
 
-## Adobe[!DNL Journey Optimizer] {#journey-optimizer}
+[!UICONTROL Content Hub] está disponible como parte de [!DNL Experience Manager Assets as a Cloud Service] para democratizar el acceso al contenido de la marca para las organizaciones y sus socios comerciales. Se centra en la distribución de recursos para su activación a escala y la creación de variantes de contenido en la marca para mejorar la agilidad del marketing.
+
+En Content Hub, puede crear contenido con Adobe Express (si tiene derechos de Adobe Express). Puede editar el contenido existente con herramientas sencillas, producir variaciones de marca con plantillas y elementos de marca y crear contenido con las capacidades más recientes de GenAI de [!DNL Adobe Firefly].
+
+[Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Compatibilidad con Adobe Firefly: **Sí**
+
+## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
 En [!DNL Journey Optimizer] (AJO), puede usar [Asistente de IA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) para obtener _conocimiento del producto_ y _información operativa_ (beta).
 
@@ -152,7 +165,11 @@ Compatibilidad con Adobe Firefly: **Sí**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics ofrece [!DNL AI Assistant] para obtener conocimientos y perspectivas del producto y [!UICONTROL Subtítulos inteligentes] en las visualizaciones de Workspace.
+Customer Journey Analytics permite utilizar IA generativa de las siguientes maneras:
+
+* [!DNL AI Assistant] para obtener conocimientos y perspectivas del producto
+* [!UICONTROL Subtítulos inteligentes] en visualizaciones de Workspace
+* AI y GenAI para asignar automáticamente los metadatos de cada recurso en [!DNL Content Analytics]
 
 **Asistente de IA**
 
@@ -176,6 +193,12 @@ Por ejemplo:
 
 [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analytics utiliza IA y GenAI para asignar automáticamente los metadatos de cada recurso, como temas, escenas, colores de primer plano, etc. Un atributo es una etiqueta de metadatos asignada por IA que describe lo que hay en un recurso o experiencia.
+
+Por ejemplo: el primer plano `color: red` es un atributo asignado automáticamente. Las visualizaciones le ayudan a identificar qué atributos de sus recursos contribuyen en mayor medida a la conversión. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 Compatibilidad con Adobe Firefly: **No**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
@@ -189,6 +212,21 @@ Por ejemplo, si realiza una consulta sobre una audiencia, [!DNL AI Assistant] pu
 Compatibilidad con Adobe Firefly: **No**
 
 ## [!DNL Marketo] {#marketo}
+
+En Marketo, la IA generativa está disponible en los seminarios web interactivos y en Dynamic Chat.
+
+**Seminarios Web Interactivos**
+
+Genere automáticamente capítulos y resúmenes para sus seminarios web grabados, lo que los hace más accesibles y fáciles de navegar para su audiencia. Las funciones incluyen:
+
+* Generación automática de capítulos
+* Resumen de texto generado por IA
+* Contenido editable: modificar capítulos y resúmenes generados
+* Fácil integración: añada capítulos y resúmenes a sus páginas de destino copiando el código HTML en el editor de páginas web que elija
+
+[Más información](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Las funciones generativas impulsadas por IA de Adobe Dynamic Chat le permiten optimizar la productividad de sus agentes de ventas, obtener información sobre las intenciones de los visitantes de su sitio web y responder a las preguntas de los visitantes de forma segura. Puede aprobar previamente las preguntas, respuestas y el resumen de la conversación.
 
