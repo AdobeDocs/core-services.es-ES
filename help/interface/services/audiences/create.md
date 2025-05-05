@@ -53,6 +53,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 1. Dentro de [!UICONTROL Reglas], seleccione una fuente de atributos:
 
    * **[!UICONTROL Datos de Real-Time Analytics:]** datos de atributo derivados de solicitudes de imagen de Real-Time Analytics; incluyen datos tales como eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
+
    >[!NOTE]
    >
    >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
