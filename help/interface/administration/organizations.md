@@ -100,5 +100,5 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support).
 * Acceder a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.

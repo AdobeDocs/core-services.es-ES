@@ -32,4 +32,4 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
 Cuando crea actividades en [!DNL Adobe Target], puede utilizar un recurso de imagen compartida al intercambiar imágenes en la [!UICONTROL Biblioteca de ofertas].
 
-Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) en la ayuda de [!DNL Target].
+Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en la ayuda de [!DNL Target].

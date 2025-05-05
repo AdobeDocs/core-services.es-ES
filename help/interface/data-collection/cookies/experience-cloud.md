@@ -60,7 +60,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
 
 El [Servicio de Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) utiliza JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

@@ -31,7 +31,7 @@ Puede usar Triggers en las decisiones en tiempo real y la personalización. Por 
 
 >[!NOTE]
 >
->Encontrará más información sobre el uso de [!UICONTROL Triggers] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
+>Encontrará más información sobre el uso de [!UICONTROL Triggers] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
 
 ### Tipos de Triggers
 
