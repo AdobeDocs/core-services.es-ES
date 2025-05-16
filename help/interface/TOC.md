@@ -6,9 +6,9 @@ title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
 source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
