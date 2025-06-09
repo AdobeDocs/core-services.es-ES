@@ -32,13 +32,13 @@ La IA generativa es un tipo de IA que puede crear contenido original. Por ejempl
 
 * **Conocimiento del producto:** El conocimiento del producto hace referencia a conceptos y temas basados en la documentación de Experience League. Aprenda a crear [indicadores eficaces basados en objetivos](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) para sacar el máximo partido a [!UICONTROL AI Assistant]. Todas las respuestas de Experience League son verificables y se citan con vínculos.
 
-* **Perspectivas operativas:** [Perspectivas operativas](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) se refieren a respuestas generadas sobre objetos de metadatos (atributos, audiencias, flujos de datos, conjuntos de datos, etc.). Con [!UICONTROL Asistente de IA], puede lograr en segundos lo que de otra manera podría tomar horas o días.
+* **Perspectivas operativas:** [Perspectivas operativas](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/questions#objects-questions) se refieren a respuestas generadas sobre objetos de metadatos (atributos, audiencias, flujos de datos, conjuntos de datos, etc.). Con [!UICONTROL Asistente de IA], puede lograr en segundos lo que de otra manera podría tomar horas o días.
 
 El Asistente para IA también incluye características de IA del agente de conversación (conocidas como _IA auténtica_) en las aplicaciones compatibles:
 
-* **Soporte técnico del producto:** El [Agente de soporte técnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) es una capacidad de depuración y solución de problemas de autoservicio del [!UICONTROL Asistente de IA] que puede usar para las características y aplicaciones de Experience Platform. Solucione los problemas de soporte sin salir de sus flujos de trabajo, cree vales de soporte al cliente y rastree el progreso de los casos con el Asistente de IA.
+* **Soporte técnico del producto:** El [Agente de soporte técnico](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) es una capacidad de depuración y solución de problemas de autoservicio del [!UICONTROL Asistente de IA] que puede usar para las características y aplicaciones de Experience Platform. Solucione los problemas de soporte sin salir de sus flujos de trabajo, cree vales de soporte al cliente y rastree el progreso de los casos con el Asistente de IA.
 
-[Más información sobre el Asistente de IA](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[Más información sobre el Asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/landing)
 
 ## Disponibilidad de GenAI en productos de Experience Cloud {#products}
 
@@ -90,11 +90,11 @@ La salida es contenido generado o copia de mercado.
 
 Compatibilidad con Adobe Firefly: **Sí**
 
-[Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Sites Optimizer {#sites-optimizer}
 
-AEM Sites Optimizer utiliza IA generativa para analizar y mejorar el rendimiento y la eficacia de las experiencias web. Estas perspectivas se agrupan en áreas de oportunidades clave: Participación, Adquisición de tráfico, Postura de seguridad y Estado del sitio. Cada categoría destaca formas específicas de mejorar el sitio, ya sea aumentando la interacción del visitante, mejorando la capacidad de detección, reforzando la seguridad o manteniendo la estabilidad del sitio. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
+AEM Sites Optimizer utiliza IA generativa para analizar y mejorar el rendimiento y la eficacia de las experiencias web. Estas perspectivas se agrupan en áreas de oportunidades clave: Participación, Adquisición de tráfico, Postura de seguridad y Estado del sitio. Cada categoría destaca formas específicas de mejorar el sitio, ya sea aumentando la interacción del visitante, mejorando la capacidad de detección, reforzando la seguridad o manteniendo la estabilidad del sitio. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
 
 ### Experience Manager Assets {#aem-assets}
 
@@ -106,17 +106,17 @@ Compatibilidad con Adobe Firefly: **Sí**
 
 [!UICONTROL Content Hub] está disponible como parte de [!DNL Experience Manager Assets as a Cloud Service] para democratizar el acceso al contenido de la marca para las organizaciones y sus socios comerciales. Se centra en la distribución de recursos para su activación a escala y la creación de variantes de contenido en la marca para mejorar la agilidad del marketing.
 
-En Content Hub, puede crear contenido con Adobe Express (si tiene derechos de Adobe Express). Puede editar el contenido existente con herramientas sencillas, producir variaciones de marca con plantillas y elementos de marca y crear contenido con las capacidades más recientes de GenAI de [!DNL Adobe Firefly]. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+En Content Hub, puede crear contenido con Adobe Express (si tiene derechos de Adobe Express). Puede editar el contenido existente con herramientas sencillas, producir variaciones de marca con plantillas y elementos de marca y crear contenido con las capacidades más recientes de GenAI de [!DNL Adobe Firefly]. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 **Etiquetas inteligentes**
 
 En lugar de depender de la entrada manual, la IA puede asignar automáticamente etiquetas descriptivas a los recursos digitales. Estas etiquetas generadas por IA mejoran la calidad de los metadatos, lo que facilita la búsqueda, la categorización y la recomendación de recursos.
 
-Por ejemplo, si el recurso es una imagen, la IA puede identificar objetos, escenas, emociones o incluso logotipos de marca. Puede generar etiquetas relevantes como _puesta de sol_, _playa_, _vacaciones_ o _sonriendo_. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
+Por ejemplo, si el recurso es una imagen, la IA puede identificar objetos, escenas, emociones o incluso logotipos de marca. Puede generar etiquetas relevantes como _puesta de sol_, _playa_, _vacaciones_ o _sonriendo_. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-En [!DNL Journey Optimizer] (AJO), puede usar [Asistente de IA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) para obtener _conocimiento del producto_ y _información operativa_ (beta).
+En [!DNL Journey Optimizer] (AJO), puede usar [Asistente de IA](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/ai-assistant) para obtener _conocimiento del producto_ y _información operativa_ (beta).
 
 ### Ejemplos del uso del Asistente de IA en AJO
 
@@ -132,17 +132,17 @@ A continuación se muestra un ejemplo de entrada para perspectivas operativas:
 
   Para los resultados, el asistente de IA consulta un almacén de datos específico del cliente. El almacén de datos contiene datos operativos centralizados sobre [!UICONTROL Recorridos]. Esta función no depende del cliente y extrae metadatos solo de objetos empresariales. No accede a los datos de su zona protegida.
 
-[Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
+[Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/ai-assistant)
 
 Compatibilidad con Adobe Firefly: **No**
 
 ### Asistente de IA para la generación de contenido (AJO Prime y Ultimate) {#ajo-prime}
 
-En AJO _Prime_ y _Ultimate_, puede usar [generación de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) para generar contenido y así ofrecer sugerencias de variación de contenido proactivas para texto e imágenes.
+En AJO _Prime_ y _Ultimate_, puede usar [generación de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) para generar contenido y así ofrecer sugerencias de variación de contenido proactivas para texto e imágenes.
 
 Esta función está disponible para correo electrónico, notificaciones push, página web, contenido y canales SMS. Proporciona texto basado en mensajes y generación de imágenes. La salida de la generación de contenido en AJO Prime y Ultimate está indemnizada.
 
-[Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 Compatibilidad con Adobe Firefly: **Sí**
 
@@ -156,7 +156,7 @@ Entrada de ejemplo:
 
   La salida de conocimientos del producto se extrae de Experience League.
 
-[Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 Compatibilidad con Adobe Firefly: **No**
 
@@ -166,7 +166,7 @@ Campaign Managed Cloud Services usa [!UICONTROL Asistente de IA] para la generac
 
 **Nota:** La salida de la generación de contenido en Cloud Services administrados de Campaign está indemnizada.
 
-[Más información](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[Más información](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 Compatibilidad con Adobe Firefly: **Sí**
 
@@ -174,11 +174,11 @@ Compatibilidad con Adobe Firefly: **Sí**
 
 Customer Journey Analytics permite utilizar la IA generativa o el AI Assistant de las siguientes maneras:
 
-* [Ayudante de IA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) para obtener información sobre el producto.
-* [Agente de soporte técnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) para crear tickets de soporte al cliente, con detalles de contexto y sesión de sus interacciones con el Asistente de IA.
-* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) para obtener respuestas a preguntas sobre tus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
-* [Subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) para proporcionar información clave sobre las visualizaciones de Workspace que se usan con más frecuencia en lenguaje natural.
-* [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template) para asignar los metadatos de cada recurso automáticamente.
+* [Ayudante de IA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) para obtener información sobre el producto.
+* [Agente de soporte técnico](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) para crear tickets de soporte al cliente, con detalles de contexto y sesión de sus interacciones con el Asistente de IA.
+* [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) para obtener respuestas a preguntas sobre tus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
+* [Subtítulos inteligentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) para proporcionar información clave sobre las visualizaciones de Workspace que se usan con más frecuencia en lenguaje natural.
+* [Content Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/report/report#template) para asignar los metadatos de cada recurso automáticamente.
 
 Compatibilidad con Adobe Firefly: **No**
 
@@ -190,7 +190,7 @@ Descubra el conocimiento del producto de Experience League. Si es un usuario nue
 
 Los usuarios con experiencia obtienen casos de uso avanzados o aprenden estrategias para realizar tareas a un ritmo rápido. Puede comprender rápidamente los conceptos, solucionar problemas o buscar información.
 
-[Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **Subtítulos inteligentes**
 
@@ -202,13 +202,13 @@ Por ejemplo:
 
 * **Salida:** vea subtítulos en lenguaje natural generados automáticamente que muestran el contexto y las claves que se obtienen. A continuación, puede realizar acciones en los datos generados, como revisarlos, copiarlos y compartirlos con su organización. [Ver cómo](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics utiliza IA y GenAI para asignar automáticamente los metadatos de cada recurso, como temas, escenas, colores de primer plano, etc. Un atributo es una etiqueta de metadatos asignada por IA que describe lo que hay en un recurso o experiencia.
 
-Por ejemplo: el primer plano `color: red` es un atributo asignado automáticamente. Las visualizaciones le ayudan a identificar qué atributos de sus recursos contribuyen en mayor medida a la conversión. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+Por ejemplo: el primer plano `color: red` es un atributo asignado automáticamente. Las visualizaciones le ayudan a identificar qué atributos de sus recursos contribuyen en mayor medida a la conversión. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/report/report#template)
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -233,13 +233,13 @@ Genere automáticamente capítulos y resúmenes para sus seminarios web grabados
 * Contenido editable: modificar capítulos y resúmenes generados
 * Fácil integración: añada capítulos y resúmenes a sus páginas de destino copiando el código HTML en el editor de páginas web que elija
 
-[Más información](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[Más información](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Las funciones generativas impulsadas por IA de Adobe Dynamic Chat le permiten optimizar la productividad de sus agentes de ventas, obtener información sobre las intenciones de los visitantes de su sitio web y responder a las preguntas de los visitantes de forma segura. Puede aprobar previamente las preguntas, respuestas y el resumen de la conversación. Dynamic Chat incluye una versión gratuita y una versión premium.
 
-[Más información](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[Más información](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 Compatibilidad con Adobe Firefly: **No**
 
@@ -252,7 +252,7 @@ Compatibilidad con Adobe Firefly: **No**
 * Obtenga fórmulas generadas en función de sus peticiones de datos. También puede resolver errores en las expresiones personalizadas no válidas en los campos calculados.
 * Busque proyectos, tareas y problemas.
 
-[Más información](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[Más información](https://experienceleague.adobe.com/es/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
 Compatibilidad con Adobe Firefly: **No**
 
