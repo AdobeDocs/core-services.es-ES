@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -34,8 +34,8 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
    <td colname="col2"> <p> Contiene una copia del Experience Cloud ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
-   <td colname="col2"> <p>2 años </p> </td> 
+   <td colname="col1"> <p> Caducidad </p> </td> 
+   <td colname="col2"> <p>2 años, aunque la mayoría de los navegadores modernos se truncan a 13 meses</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Uso </p> </td> 
@@ -60,7 +60,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
 
 El [Servicio de Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) utiliza JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
+Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -75,7 +75,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
    <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Vencimiento </p> </td> 
+   <td colname="col1"> <p> Caducidad </p> </td> 
    <td colname="col2"> <p> 13 meses </p> </td> 
   </tr> 
   <tr> 
