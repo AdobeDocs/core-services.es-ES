@@ -23,7 +23,7 @@ ht-degree: 8%
 >
 >La información de este artículo se aplica solo a la biblioteca JavaScript [[!DNL Target] at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 >
->Para obtener información acerca de las cookies utilizadas en una implementación de [!DNL Target] que usa [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}, consulte &quot;¿Usa cookies [!DNL Adobe Experience Platform Web SDK]? En caso afirmativo, ¿qué cookies utiliza?&quot; en [Preguntas más frecuentes en la guía de información general de DNL Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Para obtener información acerca de las cookies utilizadas en una implementación de [!DNL Target] que usa [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}, consulte &quot;¿Usa cookies [!DNL Adobe Experience Platform Web SDK]? En caso afirmativo, ¿qué cookies utiliza?&quot; en [[!DNL Preguntas más frecuentes en la guía de información general de Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >Puede cambiar la configuración que se describe en este artículo si es necesario, excepto durante la duración de la cookie. [Consulte a su representante de cuentas](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} al cambiar la configuración de las cookies.
 >
