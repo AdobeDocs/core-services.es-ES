@@ -1,21 +1,21 @@
 ---
-title: “Cumplimiento del Reglamento general de protección de datos de [!DNL Customer Attributes]”
-description: Obtenga información sobre la compatibilidad con atributos de cliente con el Reglamento general de protección de datos
+title: '[!DNL Customer attributes] Compatibilidad con el Reglamento General de Protección de Datos'
+description: Obtenga información sobre la compatibilidad de atributos del cliente con el Reglamento General de Protección de Datos
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Cumplimiento del Reglamento general de protección de datos de [!DNL Customer Attributes]
+# Cumplimiento del Reglamento general de protección de datos de [!DNL Customer attributes]
 
-Esta página describe cómo los [!DNL Customer Attributes] cumplen con el Reglamento general de protección de datos (RGPD).
+Esta página describe cómo los [!DNL customer attributes] cumplen con el Reglamento general de protección de datos (RGPD).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ El [Reglamento General de Protección de Datos](https://business.adobe.com/es/pr
 
 Adobe Experience Cloud actúa como procesador de datos para cualquier dato personal que reciba y almacene en nombre de sus clientes. Como responsable del tratamiento de datos, determinará qué datos personales Adobe Experience Cloud trata y almacena en su nombre.
 
-Este documento describe cómo los [!DNL Customer Attributes] admiten los derechos de acceso y eliminación de datos del RGPD de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
+Este documento describe cómo los [!DNL customer attributes] admiten los derechos de acceso y eliminación de datos del RGPD de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
 Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y Su empresa](https://business.adobe.com/es/privacy/general-data-protection-regulation.html).
 
-## Configuración necesaria para enviar solicitudes de [!DNL Customer Attributes]
+## Configuración necesaria para enviar solicitudes de [!DNL customer attributes]
 
-Para realizar solicitudes de acceso y eliminación de datos para los [!DNL Customer Attributes], deberá hacer lo siguiente:
+Para realizar solicitudes de acceso y eliminación de datos para los [!DNL customer attributes], deberá hacer lo siguiente:
 
 1. Identificar lo siguiente:
 
@@ -41,9 +41,9 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!DNL Custo
 
    Su [ID de organización](../../administration/organizations.md) es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Necesita el ID de organización para enviar solicitudes a la API de Privacidad. Póngase en contacto con el servicio de atención al cliente de Adobe en `gdprsupport@adobe.com` si no encuentra el ID.
 
-1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los [!DNL Customer Attributes] y comprobar el estado de las solicitudes existentes.
+1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los [!DNL customer attributes] y comprobar el estado de las solicitudes existentes.
 
-## Valores de campo requeridos en solicitudes JSON de [!DNL Customer Attributes]
+## Valores de campo requeridos en solicitudes JSON de [!DNL customer attributes]
 
 &quot;contexto de compañía&quot;:
 
@@ -59,7 +59,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!DNL Custo
    * &quot;tipo&quot;: **integrationCode**
    * &quot;valor&quot;: &lt;*ID de CRM*>
 * &quot;incluir&quot;: **CRS** (que es el producto de Adobe que se aplica a la solicitud)
-* &quot;regulación&quot;: **gdpr** (que es la norma de privacidad que se aplica a la solicitud)
+* &quot;regulación&quot;: **rgpd** (que es la norma de privacidad que se aplica a la solicitud)
 
 ## Ejemplo de solicitud JSON
 

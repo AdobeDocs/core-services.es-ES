@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -56,7 +56,7 @@ Aunque los equipos de aplicaciones están comprometidos con el soporte de idioma
 
 +++
 
-+++¿El Adobe cobra a mi empresa por el acceso a Adobe Experience Cloud?
++++¿Adobe cobra a mi empresa por el acceso a Adobe Experience Cloud?
 
 No. El Adobe Experience Cloud está incluido sin coste adicional. Sin embargo, algunos servicios básicos podrían conllevar costes adicionales.
 
@@ -68,7 +68,7 @@ La funcionalidad proporcionada por la interfaz de Experience Cloud añade un val
 
 +++
 
-+++¿Cómo puede el Adobe acceder a mi entorno de nube de Adobe para solucionar un problema?
++++¿Cómo puede Adobe acceder a mi entorno de nube de Adobe para solucionar un problema?
 
 El Servicio de atención al cliente de Adobe puede enviar una solicitud de suplantación para la que recibirá un correo electrónico de marca Adobe (ejemplo abajo) en el que solicite su autorización explícita. El acceso se concede por tiempo limitado. Una vez concedido, usted puede revocarlo en cualquier momento. Adobe registra todas las acciones realizadas por los representantes de Adobe.
 
@@ -80,8 +80,8 @@ El Servicio de atención al cliente de Adobe puede enviar una solicitud de supla
 
 El aprovisionamiento de Experience Cloud significa lo siguiente:
 
-* Los usuarios pueden empezar a iniciar sesión en el Experience Cloud y a vincular aplicaciones.
-* Pueden empezar a utilizar las funcionalidades disponibles a través de Experience Cloud, como People.
+* Sus usuarios pueden empezar a iniciar sesión en Experience Cloud y a vincular aplicaciones.
+* Pueden empezar a utilizar las funciones disponibles a través de Experience Cloud.
 * Puede prepararse para abandonar el proceso de inicio de sesión basado en cada aplicación.
 * Puede conservar el control de acceso a las distintas aplicaciones.
 
@@ -99,7 +99,7 @@ El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 

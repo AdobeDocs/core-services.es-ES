@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de Experience Cloud. Obtenga ayuda sobre la Biblioteca de públicos, Atributos del cliente, Recursos de Experience Cloud y mucho más.
+description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de Experience Cloud. Obtenga ayuda sobre la biblioteca de audiencias, los atributos del cliente, Experience Cloud Assets y mucho más.
 title: Documentación de la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -179,7 +179,7 @@ Para acceder a las aplicaciones y servicios de Experience Cloud proporcionados p
 
 ## Obtener ayuda y asistencia {#support}
 
-Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de Ayuda]** (![activo](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de Ayuda]** (![activo](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ Obtenga información sobre las mejoras más recientes de los componentes de la i
 
 Puede configurar las preferencias de su cuenta para enviar notificaciones de Experience Cloud a un canal [!DNL Slack].
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#notifications" tooltip="Más información sobre Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Más información sobre Slack"}
 
 
 >[!TAB Nueva interfaz de usuario web de Campaign]
@@ -310,5 +310,5 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
 
 ## Recursos adicionales
 
-[Descripción del producto Adobe Campaign v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=es){target="_blank"} - [[!DNL Adobe Campaign] Guía de automatización](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es){target="_blank"} - [Panel de control de Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
+[Descripción del producto Adobe Campaign, versión 8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=es){target="_blank"} - [[!DNL Adobe Campaign] Guía de automatización](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es){target="_blank"} - [Panel de control de la versión 8 Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
 

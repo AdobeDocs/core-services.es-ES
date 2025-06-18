@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
@@ -22,16 +22,16 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 
 >[!IMPORTANT]
 >
->Compruebe los [Requisitos de archivos de datos para cargar los Atributos del cliente](crs-data-file.md) antes de cargar el archivo.
+>Compruebe los [Requisitos de archivos de datos para cargar atributos del cliente](crs-data-file.md) antes de cargar el archivo.
 
-Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar mediante FTP o SFTP:
+Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=es).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Para cargar el archivo de datos a través de FTP**
 
-1. [Crear un origen de Atributo del cliente y cargar el archivo de datos...](t-crs-usecase.md).
+1. [Creación de un origen de atributos del cliente y carga del archivo de datos...](t-crs-usecase.md).
 
    Asegúrese de haber iniciado sesión en su sitio FTP en `ftp.adobe.com/<sftpname>`.
 
@@ -43,4 +43,4 @@ Las cargas de archivos al sitio FTP de Atributos del cliente se pueden realizar 
 
    Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta denominada **Procesados**.
 
-   Consulte [Requisitos del archivo de datos para la carga de Atributos del cliente](crs-data-file.md) para obtener información importante acerca de los nombres y la estructura de los archivos.
+   Consulte [Requisitos del archivo de datos para la carga de atributos de cliente](crs-data-file.md) para obtener información importante acerca de los nombres y estructura de los archivos.

@@ -1,21 +1,20 @@
 ---
 description: Aprenda las consideraciones y prácticas recomendadas con respecto a la información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
 solution: Experience Cloud
-title: Consideraciones sobre la privacidad de atributos de cliente
-uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+title: Consideraciones de privacidad sobre atributos de cliente
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Consideraciones de privacidad sobre [!DNL Customer Attributes]
+# Consideraciones de privacidad sobre [!DNL customer attributes]
 
 Consideraciones y prácticas recomendadas con respecto a información de identificación personal (PII) cargada y utilizada en Adobe Experience Cloud.
 

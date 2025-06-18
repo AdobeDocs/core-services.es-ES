@@ -1,21 +1,21 @@
 ---
-title: Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
-description: Conozca el cumplimiento de atributos del cliente con la Ley de privacidad del consumidor de California.
+title: Compatibilidad de atributos del cliente con la Ley de Privacidad del Consumidor de California
+description: Obtenga información sobre la compatibilidad de atributos del cliente con la Ley de privacidad del consumidor de California
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 82%
+ht-degree: 57%
 
 ---
 
-# Cumplimiento de atributos del cliente con la Ley de Privacidad del Consumidor de California
+# Compatibilidad de atributos del cliente con la Ley de Privacidad del Consumidor de California
 
-Esta página describe la compatibilidad de [!UICONTROL Atributos del cliente] con la Ley de Privacidad del Consumidor de California (CCPA).
+Esta página describe la compatibilidad de [!UICONTROL atributos del cliente] con la Ley de Privacidad del Consumidor de California (CCPA).
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ Como empresa, determina los datos personales que Adobe Experience Cloud procesa 
 
 Como proveedor de servicio, Adobe Experience Cloud proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de Experience Cloud. Esta compatibilidad incluye la administración de solicitudes de acceso y la eliminación de información personal.
 
-Este documento describe cómo los [!UICONTROL Atributos del cliente] admiten los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
+En este documento se describe cómo [!UICONTROL atributos del cliente] admite los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
 Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Configuración necesaria para enviar solicitudes de [!UICONTROL Atributos del cliente]
+## Configuración necesaria para enviar solicitudes de [!UICONTROL atributos del cliente]
 
-Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL Atributos del cliente], deberá:
+Para realizar solicitudes de acceso y eliminación de datos para [!UICONTROL atributos del cliente], debe:
 
 1. Identificar lo siguiente:
 
@@ -43,9 +43,9 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!UICONTROL
 
    Su ID de organización es una cadena alfanumérica de 24 caracteres anexada a @AdobeOrg. Necesita el ID de organización para enviar solicitudes a la API de Privacidad. Póngase en contacto con el servicio de atención al cliente de Adobe en `gdprsupport@adobe.com` si no encuentra el ID.
 
-1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a los Atributos del cliente y comprobar el estado de las solicitudes existentes.
+1. En [!UICONTROL Privacy Service], puede enviar solicitudes de acceso y eliminación a atributos del cliente y comprobar el estado de las solicitudes existentes.
 
-## Valores de campo requeridos en solicitudes JSON de [!UICONTROL Atributos del cliente]
+## Valores de campo requeridos en [!UICONTROL atributos del cliente] solicitudes JSON
 
 &quot;contexto de compañía&quot;:
 

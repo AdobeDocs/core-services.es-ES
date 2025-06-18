@@ -1,56 +1,56 @@
 ---
-title: “[!DNL Customer Attributes]”
-description: Más información acerca de  [!DNL Customer Attributes]  en Experience Cloud. Descubra cómo cargar los datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
+title: '[!DNL Customer attributes]'
+description: Más información acerca de  [!DNL customer attributes]  en Experience Cloud. Descubra cómo cargar los datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 78%
 
 ---
 
-# [!DNL Customer Attributes] en Experience Cloud
+# [!DNL Customer attributes] en Experience Cloud
 
-Los [!DNL Customer Attributes] de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
+Los [!DNL Customer attributes] de Experience Cloud le permiten cargar los datos empresariales recogidos desde una base de datos de administración de la relación con los clientes (CRM). Puede cargar los datos en una fuente de datos de atributos de cliente de Experience Cloud y, a continuación, utilizar los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
-## Busque la función [!DNL Customer Attributes]
+## Busque la función [!DNL customer attributes]
 
-1. Inicie sesión en Experience Cloud.
+1. Inicie sesión en [!DNL Experience Cloud] y seleccione el icono ![menú](assets/menu-icon.png).
 
-1. Vaya a **[!DNL Experience Platform]** > **[!UICONTROL Usuarios]** > **[!UICONTROL Atributos del cliente]**.
+1. Seleccione **[!UICONTROL Atributos del cliente]**.
 
 ![Información general sobre Atributos del cliente](assets/custom_reports.png)
 
-## Requisitos previos para la carga de [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Requisitos previos para la carga de [!DNL customer attributes] {#prerequisites}
 
-* **Pertenencia a un grupo:** Para cargar datos de atributos del cliente, los usuarios deben ser miembros del grupo Atributos del cliente. También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
+* **Pertenencia a un grupo:** Para cargar datos de atributos de cliente, los usuarios deben ser miembros del grupo Atributos de cliente. También debe pertenecer a un grupo de Adobe Analytics o de Adobe Target.
 
-  Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud]debe iniciar sesión en [Experience Cloud](https://experience.adobe.com). Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *[!DNL Customer Attributes]* se muestra como uno de los [!UICONTROL perfiles de producto], está listo para empezar.
+  Para saber si su empresa tiene acceso a los atributos del cliente, su administrador de [!DNL Experience Cloud] debe iniciar sesión en [Experience Cloud](https://experience.adobe.com). Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *[!DNL Customer Attributes]* se muestra como uno de los [!UICONTROL perfiles de producto], está listo para empezar.
 
   Los usuarios que se agregan a [!DNL Customer Attributes] pueden ver el elemento de menú [!UICONTROL Atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
 
-* Se requiere **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los Atributos del cliente.
+* Se requiere el de **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los atributos del cliente.
 
-  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es)
+  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)
 
-## ¿Qué son los datos del cliente empresariales? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## ¿Qué son los datos del cliente empresariales? {#enterprise_data}
 
-Los datos empresariales residen en otros sistemas. Puede ser complejo y significar cosas diferentes para diferentes personas. Estos datos pueden incluir información como suscripciones, nivel de lealtad, edad, sexo, productos propios, intereses y valor a largo plazo.
+Los datos empresariales residen en otros sistemas. Puede ser complejo y significar cosas diferentes para diferentes personas. Estos datos pueden incluir información como suscripciones, nivel de lealtad, edad, género, productos propios, intereses y valor a largo plazo.
 
 La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos del suscriptor de productos, incluidos los ID de miembro, los productos con derechos, los productos más utilizados, etc.
 
 ![¿Qué son los datos del cliente empresariales?](assets/01_crs_usecase.png)
 
-Tras crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Atributos del cliente]**.
+Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Atributos del cliente]**.
 
-Consulte [Carga de datos del atributo del cliente](t-crs-usecase.md) para obtener información sobre este flujo de trabajo.
+Consulte [Cargar datos de atributos del cliente](t-crs-usecase.md) para conocer este flujo de trabajo.
 
-## Ejemplos de atributos del cliente de Analytics y Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Ejemplos de atributos del cliente en Analytics y Target {#examples}
 
 Una vez que los datos se encuentren en Experience Cloud, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
 

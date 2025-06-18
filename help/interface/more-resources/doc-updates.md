@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 69%
@@ -108,11 +108,11 @@ Se ha añadido la opción [Ver detalles del usuario de Experience Cloud (Herrami
 
 **Actualizado: 5/9/2018**
 
-Se agregó cómo eliminar un atributo del cliente. Consulte [(Opcional) Actualizar el esquema (elimina atributos)](../services/customer-attributes/t-crs-usecase.md).
+Se agregó cómo eliminar un atributo de cliente. Consulte [(Opcional) Actualizar el esquema (elimina atributos)](../services/customer-attributes/t-crs-usecase.md).
 
 **8 de junio de 2018**
 
-Se actualizó [Sobre el archivo de datos y las fuentes de datos para los Atributos del cliente](../services/customer-attributes/crs-data-file.md) con información sobre la carga de varios archivos.
+Se actualizó [Sobre el archivo de datos y las fuentes de datos para los atributos del cliente](../services/customer-attributes/crs-data-file.md) con información sobre la carga de varios archivos.
 
 **6 de junio de 2018**
 
