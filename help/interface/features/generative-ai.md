@@ -225,7 +225,7 @@ Por ejemplo:
 
 * **Entrada:** En CJA, ejecute una visualización compatible (que incluye líneas, áreas, gráficos de barras, flujos o visitas en el orden previsto) y, a continuación, haga clic en **[!UICONTROL Subtítulos inteligentes]**.
 
-* **Salida:** vea subtítulos en lenguaje natural generados automáticamente que muestran el contexto y las claves que se obtienen. A continuación, puede realizar acciones en los datos generados, como revisarlos, copiarlos y compartirlos con su organización. [Ver cómo](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
+* **Salida:** vea subtítulos en lenguaje natural generados automáticamente que muestran el contexto y las claves que se obtienen. A continuación, puede realizar acciones en los datos generados, como revisarlos, copiarlos y compartirlos con su organización. [Ver cómo](https://video.tv.adobe.com/v/3443141/?quality=12&learn=on#_blank&captions=spa)
 
 [!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="Más información sobre los Subtítulos inteligentes"}
 
