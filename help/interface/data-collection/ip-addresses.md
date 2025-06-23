@@ -2,9 +2,9 @@
 title: Direcciones IP utilizadas por Experience Cloud
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
+source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 11%
 
 ---
@@ -19,9 +19,10 @@ Algunas configuraciones de cortafuegos bloquean las direcciones IP procedentes d
 
 Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe Experience Cloud individuales tienen sus propias direcciones IP que utilizan:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Todos los bloqueos de direcciones IP de Adobe
 
