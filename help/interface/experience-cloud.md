@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
-workflow-type: ht
+source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Para acceder a las aplicaciones y servicios de Experience Cloud proporcionados p
 
 ## Obtener ayuda y asistencia {#support}
 
-Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de Ayuda]** (![activo](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de Ayuda]** (![activo](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
@@ -86,3 +86,4 @@ Haga clic en el icono de la campana para ver las notificaciones y los anuncios. 
 ![Notificaciones y anuncios](assets/notifications-menu-small.png)
 
 Para administrar notificaciones y alertas, consulte [Preferencias y notificaciones de la cuenta](features/account-preferences.md)
+
