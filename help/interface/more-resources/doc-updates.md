@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 69%
+source-wordcount: '614'
+ht-degree: 68%
 
 ---
 
 # Actualizaciones de documentación para Experience Cloud
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de Experience Cloud.
+
+**Agosto de 2025**
+
+Se ha agregado información sobre [restablecer tu Adobe ID](../features/account-preferences.md).
 
 **Febrero de 2025**
 
@@ -69,7 +73,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 
 **24 de agosto de 2021**
 
-Se ha actualizado la página [Componentes centrales](../experience-cloud.md) (página de aterrizaje de esta guía). Se ha agregado compatibilidad con exploradores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
+Se ha actualizado la página [Componentes centrales](../experience-cloud.md) (página de destino de esta guía). Se ha agregado compatibilidad con exploradores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
 
 **6 de agosto de 2021**
 
@@ -81,7 +85,7 @@ Estructura de la guía reorganizada, tabla de contenido.
 
 **1 de junio de 2021**
 
-Se ha actualizado la [página de aterrizaje](../experience-cloud.md) con nueva ayuda para acceder a Experience Cloud, la búsqueda global, las preferencias y las notificaciones.
+Se ha actualizado la [página de destino](../experience-cloud.md) con nueva ayuda para acceder a Experience Cloud, la búsqueda global, las preferencias y las notificaciones.
 
 **19 de agosto de 2020**
 
@@ -89,7 +93,7 @@ Se ha actualizado [Ver detalles del usuario de Experience Cloud (herramienta de 
 
 **19 de mayo de 2020**
 
-Documentación detallada de la administración de Ofertas.
+Documentación detallada de la gestión de ofertas.
 
 **15 de mayo de 2020**
 
