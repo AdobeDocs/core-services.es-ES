@@ -97,4 +97,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
