@@ -81,7 +81,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL Configuración del cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
-      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
+      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que puede asociar con cada visitante.
 
         Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -103,7 +103,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
         Consulte [Aprovechamiento de varias fuentes de datos](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) para obtener información adicional sobre el procesamiento de datos con respecto al campo ID de alias e ID de clientes.
 
-   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
+   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
 
 ## Cargar archivo {#upload}
 
@@ -170,4 +170,4 @@ En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UIC
 
 ![Utilizar los atributos de cliente en Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulte [Creación de un nuevo público](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) en la ayuda de [!DNL Target].
+Consulte [Creación de un nuevo público](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=es) en la ayuda de [!DNL Target].

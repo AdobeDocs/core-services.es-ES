@@ -77,4 +77,4 @@ En la tabla siguiente se describe cómo se utilizan los públicos en las aplicac
 
 ## Publicar audiencias desde Adobe Analytics
 
-Consulte [Publicar segmentos en Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
+Consulte [Publicar segmentos en Experience Cloud](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
