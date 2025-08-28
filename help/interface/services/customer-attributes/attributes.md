@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Customer Attributes]'
+title: Acerca de  [!DNL Customer Attributes]
 description: Más información acerca de  [!DNL Customer Attributes]  en Experience Cloud. Descubra cómo cargar los datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 73%
 
 ---
@@ -36,7 +36,7 @@ Los [!DNL Customer Attributes] de Experience Cloud le permiten cargar los datos 
 
 * Se requiere el de **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los atributos del cliente.
 
-  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es)
+  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)
 
 ## ¿Qué son los datos del cliente empresariales? {#enterprise_data}
 

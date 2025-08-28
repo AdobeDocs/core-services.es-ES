@@ -1,28 +1,28 @@
 ---
-description: Obtenga información sobre cómo configurar suscripciones de atributos del cliente a Analytics y Target y activar una fuente de datos.
+description: Obtenga información sobre cómo configurar suscripciones en  [!DNL Customer Attributes]  para Analytics y Target y activar una fuente de datos.
 solution: Experience Cloud
-title: Configuración de suscripciones
+title: Configurar suscripciones en  [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # Configurar suscripciones y activar la fuente de datos
 
-Las suscripciones habilitan el flujo de datos de atributos del cliente entre Experience Cloud y las aplicaciones ([!DNL Analytics] y [!DNL Target]).
+[!DNL Customer Attributes] suscripciones habilitan el flujo de datos de atributos del cliente entre Experience Cloud y las aplicaciones ([!DNL Analytics] y [!DNL Target]).
 
-Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos en los informes. Si usa Adobe Target, puede cargar atributos del cliente para el direccionamiento y la segmentación.
+Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos en los informes. Si usa [!DNL Adobe Target], puede cargar atributos del cliente para el direccionamiento y la segmentación.
 
 **Para configurar suscripciones y activar el origen de datos**
 
-1. Busque el origen de atributos del cliente para editarlo:
+1. Busque el origen de datos en [!DNL Customer Attributes] para su edición:
 
    En [!DNL Experience Cloud], haga clic en **[!UICONTROL Aplicaciones]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 

@@ -1,20 +1,20 @@
 ---
 description: Obtenga información sobre cómo cargar datos de atributos del cliente a Experience Cloud a través de FTP.
 solution: Experience Cloud
-title: Carga del archivo de datos de atributos del cliente mediante FTP
+title: Cargar archivo de datos de atributos del cliente mediante FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '378'
+ht-degree: 67%
 
 ---
 
-# Opcional: cargar el archivo de datos a través de FTP
+# Cargar el archivo de datos mediante FTP (opcional)
 
 Si no carga mediante arrastrar y soltar, puede cargar datos de atributos del cliente mediante FTP a Experience Cloud.
 
@@ -27,7 +27,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=es).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Para cargar el archivo de datos a través de FTP**
 
@@ -44,3 +44,29 @@ Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar 
    Si la carga se realiza correctamente, ambos archivos se mueven a una carpeta denominada **Procesados**.
 
    Consulte [Requisitos del archivo de datos para la carga de atributos de cliente](crs-data-file.md) para obtener información importante acerca de los nombres y estructura de los archivos.
+
+## Configuración de una cuenta de FTP
+
+Configure una cuenta FTP por cada origen de atributos.
+
+En la página [!UICONTROL Carga de archivos y validación de esquemas], haga clic en **[!UICONTROL Configuración de FTP]**.
+
+![Edición de un esquema](assets/ftp-account.png)
+
+Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos deben tener el formato `.csv`, con un segundo archivo `.fin` para indicar que la carga ha finalizado.
+
+Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics].
+
+* **[!UICONTROL atributo:]** datos de atributo leídos del archivo subido `.csv`.
+
+* **[!UICONTROL Tipo:]** El tipo de datos, como por ejemplo:
+
+   * **Cadena:** Secuencia de caracteres.
+
+   * **Enteros:** Números enteros.
+
+   * **Números:** Pueden tener hasta dos decimales.
+
+* **[!UICONTROL Nombre para mostrar:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo *customer age* a *customer Since*.
+
+* **[!UICONTROL Descripción:]** Una descripción del atributo.

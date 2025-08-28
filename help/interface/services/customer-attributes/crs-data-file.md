@@ -1,15 +1,15 @@
 ---
-description: Obtenga información sobre los requisitos de archivos de datos y varios orígenes de datos para cargar atributos del cliente en Experience Cloud.
+description: Obtenga información acerca de los requisitos de archivos de datos y varios orígenes de datos para cargar datos en  [!DNL Customer Attributes]  a Experience Cloud.
 solution: Experience Cloud
-title: Archivo de datos y fuentes de datos
+title: Archivo de datos de atributos del cliente y fuentes de datos
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 64%
 
 ---
@@ -59,7 +59,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>columna de ID de cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas posteriores </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) para obtener más información).
+(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) para obtener más información).
 
 En **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 

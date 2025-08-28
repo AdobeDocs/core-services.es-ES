@@ -1,19 +1,19 @@
 ---
-title: Compatibilidad de atributos del cliente con la Ley de Privacidad del Consumidor de California
-description: Obtenga información sobre la compatibilidad de atributos del cliente con la Ley de privacidad del consumidor de California
+title: '[!DNL Customer Attributes] Cumplimiento de la Ley de Privacidad del Consumidor de California'
+description: Más información sobre [!DNL Customer Attributes] compatibilidad con la Ley de privacidad del consumidor de California
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 63%
+source-wordcount: '399'
+ht-degree: 64%
 
 ---
 
-# Compatibilidad de atributos del cliente con la Ley de Privacidad del Consumidor de California
+# Compatibilidad de [!DNL Customer Attributes] con la Ley de Privacidad del Consumidor de California
 
 Esta página describe la compatibilidad de [!DNL Customer Attributes] con la Ley de Privacidad del Consumidor de California (CCPA).
 
