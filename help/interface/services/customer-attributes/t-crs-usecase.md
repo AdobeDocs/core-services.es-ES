@@ -1,33 +1,35 @@
 ---
-description: Cree un origen de atributos del cliente y cárguelo en Adobe Experience Cloud.
+description: Obtenga información sobre cómo crear un origen de atributos del cliente y cargarlo en Adobe Experience Cloud.
 solution: Experience Cloud
-title: Crear un atributo de cliente de Source y cargar el archivo de datos
+title: Crear y cargar un archivo de Source de datos de atributos del cliente
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1110'
 ht-degree: 49%
 
 ---
 
 # Crear un origen de atributo del cliente y cargar el archivo de datos
 
-Cree el origen de atributos del cliente (`.csv` y `.fin` archivos) y cargue los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que esté listo el origen de los datos, comparta los datos del atributo con Analytics y Target.
+Cree el origen de atributos del cliente (`.csv` y `.fin` archivos) y cargue los datos. Puede activar el origen de los datos cuando esté preparado. Una vez que el origen de datos esté activo, comparta los datos del atributo con [!DNL Analytics] y [!DNL Target].
 
-## flujo de trabajo atributos del cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**Flujo de trabajo de atributos del cliente**
 
 ![flujo de trabajo de atributos del cliente](assets/crs.png)
 
->[!IMPORTANT]
->
->Para acceder a esta función, los usuarios deben estar asignados al perfil de producto atributos del cliente (atributos del cliente - Acceso predeterminado). Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *atributos del cliente* se muestra como uno de los [!UICONTROL perfiles de producto], está listo para empezar. Los usuarios que se agregan al grupo atributos del cliente ven el menú [!UICONTROL atributos del cliente] a la izquierda de la interfaz de Experience Cloud.
->
->Para usar la característica Atributos del cliente, los usuarios también deben pertenecer a grupos de nivel de aplicación (Adobe Analytics o [!DNL Target]).
+## Requisitos previos
+
+**Acceso al producto:** Para tener acceso a [!DNL Customer Attributes], los usuarios deben estar asignados al perfil de producto Atributos del cliente (**[!UICONTROL Atributos del cliente - Acceso predeterminado]**) en Admin Console (`adminconsole.adobe.com`).
+
+Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos]**. Si *Atributos del cliente* se muestra como uno de los productos (un [!UICONTROL perfil de producto]), está listo para empezar. Los usuarios que se agregan al perfil de producto de atributos del cliente ven **[!DNL Customer Attributes]** en el selector **[!UICONTROL Aplicaciones]**. (![flujo de trabajo de atributos del cliente](assets/menu-icon.png))
+
+**Grupos de aplicaciones:** Para usar la característica **[!DNL Customer Attributes]**, los usuarios también deben pertenecer a grupos de nivel de aplicación (Adobe [!DNL Analytics] o [!DNL Adobe Target]).
 
 ## Crear un archivo de datos {#create-data}
 
@@ -44,7 +46,7 @@ Estos datos son datos de clientes empresariales de su CRM. Los datos pueden incl
    ![Archivo de datos de cliente empresarial de muestra](assets/01_crs_usecase.png)
 
 1. Antes de continuar, revise la información relevante en los [Requisitos del archivo de datos](crs-data-file.md) antes de cargar el archivo.
-1. [Cree un origen de atributo de cliente y cargue los datos](t-crs-usecase.md), como se describe a continuación.
+1. [Cree un origen de atributo de cliente y cargue los datos](t-crs-usecase.md#create-source), como se describe a continuación.
 
 ## Crear un origen de atributos y cargar el archivo de datos {#create-source}
 
@@ -54,18 +56,15 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 >
 >Al crear, modificar o eliminar orígenes de atributos del cliente, se produce un retraso de hasta una hora antes de que los identificadores empiecen a sincronizarse con la nueva fuente de datos. Debe tener derechos administrativos en Audience Manager para crear o modificar orígenes de atributos del cliente. Póngase en contacto con el Servicio de atención al cliente de Audience Manager o con su asesor para obtener derechos administrativos.
 
-1. En [!DNL Experience Cloud], seleccione el icono ![menú](assets/menu-icon.png) del menú.
-1. Seleccione **[!UICONTROL atributos del cliente]**.
+1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Aplicaciones]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-   En la página [!UICONTROL atributos del cliente] es donde puede administrar y editar los orígenes de datos de atributos existentes.
-
-   ![pantalla principal de atributos del cliente](assets/cust-attr.png)
+   ![Página Atributos del cliente](assets/cust-attr.png)
 
 1. Haga clic en **[!UICONTROL Nuevo]**.
 
-   ![Resultado de los pasos](assets/04_crs_usecase.png)
+   ![Resultado de los pasos](assets/new-customer-attribute-source.png)
 
-1. En la página [!UICONTROL Crear atributo de cliente Source], configure los campos siguientes:
+1. En la página [!UICONTROL Crear Source de atributos del cliente], configure los siguientes campos:
 
    * **[!UICONTROL Nombre:]** Un nombre descriptivo para el origen de atributos de datos. Para [!DNL Adobe Target], los nombres de atributos no pueden incluir espacios. Si pasa un atributo con un espacio, [!DNL Target] lo ignorará. Otros caracteres que no se admiten son: `< , >, ', "`.
 
@@ -81,7 +80,7 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
       * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL Configuración del cliente], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
-      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que puede asociar con cada visitante.
+      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
 
         Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -103,21 +102,27 @@ Siga estos pasos en la página Crear nuevo origen de atributos del cliente en Ex
 
         Consulte [Aprovechamiento de varias fuentes de datos](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) para obtener información adicional sobre el procesamiento de datos con respecto al campo ID de alias e ID de clientes.
 
-   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
+   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Cargar archivo {#upload}
 
+Se crea el registro de atributos del cliente y puede cargar el archivo editando el atributo del cliente.
 
-1. Haga clic en Cargar archivo.
+1. En la página [!DNL Customer Attributes], haga clic en el origen del atributo.
 
-2. Arrastre y suelte el archivo de datos `.csv`, `.zip` o `.gzip` en la ventana de arrastrar y soltar.
+1. En la página [!UICONTROL Editar datos del cliente: Source], haga clic en **[!UICONTROL Cargar archivos]**.
+
+   ![Validación de esquema y carga de archivos](assets/file-upload-schema-validation.png)
+
+1. Arrastre y suelte el archivo de datos `.csv`, `.zip` o `.gzip` en la ventana de arrastrar y soltar.
 
 >[!IMPORTANT]
 >
 >Existen requisitos específicos para los archivos de datos. Consulte los [Requisitos de archivos de datos](crs-data-file.md) para obtener más información.
 
 Después de cargar el archivo, los datos de la tabla se muestran en el encabezado [!UICONTROL Carga de archivos] de esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
-
 
 ![atributos](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ Para eliminar atributos, consulte [(Opcional) Actualizar el esquema (elimina los
 
 Eliminar y reemplazar atributos en el esquema.
 
-1. En la página [!UICONTROL Editar atributo de cliente Source], quite la suscripción de **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (en [!UICONTROL Configurar suscripciones]).
+1. En la página [!UICONTROL Editar origen de atributos del cliente], elimine la suscripción de **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (en **[!UICONTROL Configurar suscripciones]**).
+
 1. [Cargue un nuevo archivo de datos con campos actualizados](t-crs-usecase.md).
 
 ## Configurar suscripciones y activar el origen de atributos {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 La configuración de una suscripción configura el flujo de datos entre Experience Cloud y las aplicaciones. La activación del origen de atributos permite que los datos fluyan a las aplicaciones suscritas. Los registros de cliente que ha cargado coinciden con las señales de ID entrantes de su sitio web o aplicación.
 
-Consulte [Configurar suscripciones](subscription.md).
-
-**Para activar un origen de atributos**
-
-En la página [!UICONTROL Crear nuevo o editar atributo de cliente Source], busque el encabezado [!UICONTROL Activar] y, a continuación, haga clic en **[!UICONTROL Activo]**.
-
-![Resultado de los pasos](assets/activate_attribute_source.png)
+Consulte [Configurar suscripciones y activar el origen de datos](subscription.md).
 
 ## Uso de atributos del cliente en Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UIC
 
 ![Utilizar los atributos de cliente en Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulte [Creación de un nuevo público](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=es) en la ayuda de [!DNL Target].
+Consulte [Creación de un nuevo público](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) en la ayuda de [!DNL Target].
