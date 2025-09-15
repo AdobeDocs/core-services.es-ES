@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 68%
@@ -61,8 +61,8 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 | Función | Descripción |
 | ------- | ------- |
 | Página principal | La información del pie de la página de inicio de Experience Cloud se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
-| Tableros de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada la selección de datos (actualmente una selección de datos de una sola variable), helios recomienda una visualización adecuada para acompañar esa selección de datos. |
-| Tableros de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Paneles de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
+| Paneles de control de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada la selección de datos (actualmente una selección de datos de una sola variable), helios recomienda una visualización adecuada para acompañar esa selección de datos. |
+| Paneles de control de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Paneles de control de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
 
 **13 de octubre de 2021**
 
@@ -144,7 +144,7 @@ Se ha añadido [Experience Cloud Assets](../services/assets/experience-cloud-ass
 
 **15 de enero de 2015**
 
-Los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](../services/assets/creative-cloud.md).
+Los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](../services/assets/share.md).
 
 **17 de julio de 2014**
 
