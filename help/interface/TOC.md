@@ -5,10 +5,10 @@ breadcrumb-title: Interfaz y administración de Experience Cloud
 title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 + Servicios {#services}
    + [Información general](services/overview.md)
-   + [Primeros pasos](services/getting-started.md)
+   + [Introducción ](services/getting-started.md)
    + Recursos {#assets}
       + [Información general](services/assets/experience-cloud-assets.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
@@ -33,16 +33,16 @@ ht-degree: 100%
    + [Exchange](services/exchange.md)
    + Atributos del cliente {#customer-attributes}
       + [Información general](services/customer-attributes/attributes.md)
-      + [Preguntas frecuentes acerca de los atributos del cliente](services/customer-attributes/faq-crs.md)
-      + [Acerca del archivo y las fuentes de datos para los atributos del cliente](services/customer-attributes/crs-data-file.md)
-      + [Crear un origen de atributo del cliente y cargar el archivo de datos](services/customer-attributes/t-crs-usecase.md)
-      + [Opcional: cargar el archivo de datos a través de FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Preguntas frecuentes](services/customer-attributes/faq-crs.md)
+      + [Acerca del archivo de datos y las fuentes de datos](services/customer-attributes/crs-data-file.md)
+      + [Creación y carga del archivo de datos](services/customer-attributes/t-crs-usecase.md)
+      + [Opcional: carga a través de FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validar el esquema](services/customer-attributes/validate-schema.md)
       + [Configurar suscripciones y activar el origen de datos](services/customer-attributes/subscription.md)
       + [Actualizar el esquema](services/customer-attributes/t-update-schema.md)
-      + [Cumplimiento del Reglamento General de Protección de Datos](services/customer-attributes/gdpr.md)
-      + [Cumplimiento de la Ley de Privacidad del Consumidor de California](services/customer-attributes/ccpa.md)
-      + [Consideraciones de privacidad sobre atributos de cliente](services/customer-attributes/privacy-mac.md)
+      + [Compatibilidad con el RGPD](services/customer-attributes/gdpr.md)
+      + [Compatibilidad con la CCPA](services/customer-attributes/ccpa.md)
+      + [Consideraciones de privacidad](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
 
 + Funcionalidades {#features}
@@ -56,7 +56,7 @@ ht-degree: 100%
 + Administración {#administration}
    + [Administración de usuarios y licencias de productos](administration/admin-console.md)
    + [Ver los detalles del usuario (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
-   + [Organizaciones y vinculación de cuentas](administration/organizations.md)
+   + [Organizaciones](administration/organizations.md)
    + [Integraciones de Experience Cloud](administration/integrations.md)
 
 + Recopilación de datos {#data-collection}
