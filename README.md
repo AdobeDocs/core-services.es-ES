@@ -1,8 +1,8 @@
 ---
 source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
@@ -57,4 +57,4 @@ Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si n
 En el repositorio público, las etiquetas automatizadas se asignan a solicitudes de extracción para ayudarnos a administrar el flujo de trabajo de la solicitud de extracción y para saber qué sucede con su solicitud de extracción:
 
 * **Change sent to author**: se ha notificado al autor de la solicitud de extracción pendiente.
-* Listo para combinar: listo para que el equipo de revisión de solicitudes de extracción lo revise.**&#x200B;**
+* **Listo para combinar**: listo para que el equipo de revisión de solicitudes de extracción lo revise.
