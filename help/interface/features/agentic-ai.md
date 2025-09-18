@@ -29,16 +29,16 @@ Los agentes de IA (&quot;IA auténtica&quot;) de [!DNL Experience Cloud] le ayud
 | Nombre del agente | Disponibilidad | Aplicaciones compatibles | Competencias |
 |---|----------|------------|----------|
 | **Audience Agent** | Próximamente | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Cree y optimice audiencias con las indicaciones en lenguaje natural. |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
+| [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
 | **Agente de experimentación** | Próximamente | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatice el análisis para identificar experimentos y oportunidades de crecimiento. |
 | **Journey Agent** | Próximamente | <ul><li>Adobe Journey Optimizer</li></ul> | Cree, analice y optimice recorridos de clientes a escala. |
-| [Agente de soporte técnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
+| [Agente de soporte técnico](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
 
 [!BADGE Más información en Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Vaya a Business.adobe.com"}
 
 <!-- 
-* [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
-* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
+* [Product Support Agent](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
+* [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
 
 
 
