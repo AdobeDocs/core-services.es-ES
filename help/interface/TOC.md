@@ -6,9 +6,9 @@ title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
    + Atributos del cliente {#customer-attributes}
       + [Información general](services/customer-attributes/attributes.md)
       + [Preguntas frecuentes](services/customer-attributes/faq-crs.md)
-      + [Acerca del archivo de datos y las fuentes de datos](services/customer-attributes/crs-data-file.md)
+      + [Acerca del archivo de datos y de las fuentes de datos](services/customer-attributes/crs-data-file.md)
       + [Creación y carga del archivo de datos](services/customer-attributes/t-crs-usecase.md)
       + [Opcional: carga a través de FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validar el esquema](services/customer-attributes/validate-schema.md)
@@ -42,7 +42,7 @@ ht-degree: 88%
       + [Actualizar el esquema](services/customer-attributes/t-update-schema.md)
       + [Compatibilidad con el RGPD](services/customer-attributes/gdpr.md)
       + [Compatibilidad con la CCPA](services/customer-attributes/ccpa.md)
-      + [Consideraciones de privacidad](services/customer-attributes/privacy-mac.md)
+      + [Consideraciones acerca de la privacidad](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
 
 + Funcionalidades {#features}
