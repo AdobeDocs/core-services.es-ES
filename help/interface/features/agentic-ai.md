@@ -7,14 +7,14 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 5a63e42c555d40c2676f37f951e32f904c568e32
+source-git-commit: 4ce6b7ae75b8fdad478384fbd6d3400c4b852bf3
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 13%
+source-wordcount: '284'
+ht-degree: 12%
 
 ---
 
-# Inteligencia artificial aplicada a la agencia en Experience Cloud
+# Agentes de Experience Platform en Experience Cloud
 
 Adobe Experience Platform Agent Orchestrator y los agentes de plataforma habilitan funciones agénticas en nuestras soluciones. Puede obtener acceso a las funciones de AEP Agent Orchestrator y los agentes de AEP mediante lo siguiente:
 
@@ -28,12 +28,12 @@ Obtenga información acerca de la disponibilidad de IA magnética y las aplicaci
 
 | Nombre del agente | Disponibilidad | Aplicaciones compatibles | Competencias |
 |---|----------|------------|----------|
-| [Agente de soporte técnico](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
+| [Agente de soporte técnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
 | [Site Optimization Agent](https://experienceleague.adobe.com/es/docs/experience-manager-sites-optimizer/content/home) <b>*</b> | Disponible | <ul><li>AEM Sites Optimizer</li></ul> | Utiliza IA generativa para buscar e iniciar mejoras en el sitio web que impulsen el tráfico, la participación y los resultados empresariales generales. |
-| [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
-| **Audience Agent** | Próximamente | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Cree y optimice audiencias con las indicaciones en lenguaje natural. |
-| **Agente de experimentación** <b>*</b> | Próximamente | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatice el análisis para identificar experimentos y oportunidades de crecimiento. |
-| **Journey Agent** | Próximamente | <ul><li>Adobe Journey Optimizer</li></ul> | Cree, analice y optimice recorridos de clientes a escala. |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
+| [Audience Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Disponible | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Cree y optimice audiencias con las indicaciones en lenguaje natural. |
+| [Journey Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Disponible | <ul><li>Adobe Journey Optimizer</li></ul> | Cree, analice y optimice recorridos de clientes a escala. |
+| [Agente de experimentación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Disponible | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatice el análisis para identificar experimentos y oportunidades de crecimiento. |
 
 [!BADGE Más información en Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Vaya a Business.adobe.com"}
 
