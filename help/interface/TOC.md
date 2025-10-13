@@ -19,7 +19,7 @@ ht-degree: 100%
 
 + Servicios {#services}
    + [Información general](services/overview.md)
-   + [Introducción ](services/getting-started.md)
+   + [Introducción](services/getting-started.md)
    + Recursos {#assets}
       + [Información general](services/assets/experience-cloud-assets.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
@@ -68,7 +68,7 @@ ht-degree: 100%
       + [Cookies de Advertising](data-collection/cookies/advertising.md)
       + [Cookies de Analytics](data-collection/cookies/analytics.md)
       + [Cookies de Audience Manager](data-collection/cookies/audience-manager.md)
-      + [Cookies de Experience Cloud ](data-collection/cookies/experience-cloud.md)
+      + [Cookies de Experience Cloud](data-collection/cookies/experience-cloud.md)
       + [Cookies de Target](data-collection/cookies/target.md)
       + [Cookies de SDK web](data-collection/cookies/web-sdk.md)
    + [Recopilación de datos regionales](data-collection/rdc.md)
