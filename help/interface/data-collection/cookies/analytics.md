@@ -32,13 +32,13 @@ Analytics utiliza cookies para definir nuevos visitantes de forma anónima, anal
 
 ## Cookies establecidas por complementos
 
-Algunas implementaciones utilizan complementos, que son fragmentos de código que proporcionan funcionalidad adicional para Analytics. Estos complementos pueden configurar cookies que no se han enumerado anteriormente. Consulte la [descripción general de los complementos de Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) para obtener una lista de los complementos disponibles y las cookies que configuran.
+Algunas implementaciones utilizan complementos, que son fragmentos de código que proporcionan funcionalidad adicional para Analytics. Estos complementos pueden configurar cookies que no se han enumerado anteriormente. Consulte la [descripción general de los complementos de Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/plugins/impl-plugins) para obtener una lista de los complementos disponibles y las cookies que configuran.
 
 ## Consecuencias de la eliminación de cookies de Analytics
 
 Si un visitante elimina sus cookies de Analytics, tenga en cuenta lo siguiente:
 
-* **Se ha perdido la identificación del visitante:** Cuando se eliminan las cookies, Adobe Analytics no puede reconocer a los visitantes que regresan. La próxima vez que el usuario visite el sitio, se contará como un visitante nuevo. [Análisis entre dispositivos](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) puede ayudar a mitigar este impacto.
+* **Se ha perdido la identificación del visitante:** Cuando se eliminan las cookies, Adobe Analytics no puede reconocer a los visitantes que regresan. La próxima vez que el usuario visite el sitio, se contará como un visitante nuevo. [Análisis entre dispositivos](https://experienceleague.adobe.com/es/docs/analytics/components/cda/overview) puede ayudar a mitigar este impacto.
 * **Se ha interrumpido la continuidad de la sesión:** Cualquier análisis basado en sesión o de varias visitas (como el seguimiento de atribución o conversión) se interrumpe. El mismo usuario no puede vincular los eventos y las conversiones que se produzcan tras la eliminación de una cookie a actividades anteriores.
 * **Personalization y la segmentación se ven afectados:** Los segmentos o experiencias personalizadas basadas en el historial o el comportamiento del visitante se restablecen, ya que los datos anteriores ya no están asociados con su visita actual.
 * **Se ha interrumpido el seguimiento entre dominios:** Para las cookies de terceros, eliminarlas impide que Adobe Analytics vincule la actividad del usuario entre varios de sus dominios.
