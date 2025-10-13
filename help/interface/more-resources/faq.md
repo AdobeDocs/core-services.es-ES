@@ -11,7 +11,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
@@ -62,7 +62,7 @@ No. El Adobe Experience Cloud está incluido sin coste adicional. Sin embargo, a
 
 +++
 
-+++¿Por qué mi empresa debe iniciar sesión a través de la interfaz de Experience Cloud?
++++¿Por qué mi compañía debe iniciar sesión a través de la interfaz de Experience Cloud?
 
 La funcionalidad proporcionada por la interfaz de Experience Cloud añade un valor nuevo a su empresa. También es la ruta estándar para acceder a las aplicaciones a partir de ahora y, con el tiempo, reemplazará otros flujos de inicio de sesión de aplicaciones individuales. El inicio de sesión a través de Experience Cloud facilita una transición más fluida posteriormente.
 
@@ -99,7 +99,7 @@ El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ El aprovisionamiento de Experience Cloud significa lo siguiente:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 
@@ -119,7 +119,7 @@ Consulte [Vinculación de una cuenta de aplicaciones a un Adobe ID](../administr
 
 +++
 
-+++¿Cómo administro los perfiles y organizaciones de las cuentas de los usuarios?
++++¿Cómo administro los perfiles y las organizaciones de las cuentas de usuario?
 
 Consulte [Administración de cuentas de usuario](../administration/organizations.md).
 
@@ -149,7 +149,7 @@ Consulte [Tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identi
 
 +++
 
-+++¿Puedo vincular cuentas de aplicaciones para mis usuarios?
++++¿Puedo vincular cuentas de aplicación para mis usuarios?
 
 No. Los usuarios deben vincular sus propias aplicaciones con sus nombres de usuario y contraseñas.
 

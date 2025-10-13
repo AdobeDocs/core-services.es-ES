@@ -10,14 +10,14 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
-# Ver usuarios y directivas del Experience Cloud en [!UICONTROL Herramienta de administración]
+# Ver usuarios y directivas de Experience Cloud en [!UICONTROL Herramienta de administración]
 
-Los administradores pueden ver una lista de los usuarios y las directivas del Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Herramienta de administración]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
+Los administradores pueden ver una lista de los usuarios y las directivas de Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Herramienta de administración]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
 
 1. Iniciar sesión en `https://experience.adobe.com/.`
 
@@ -41,7 +41,7 @@ Esta página muestra la lista completa de usuarios con acceso a Experience Cloud
 | [!UICONTROL Correo electrónico] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL Tipo de ID] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
 | [!UICONTROL Soluciones] | Resumen de las aplicaciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
-| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario al Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
+| [!UICONTROL Último inicio de sesión] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista del usuario
 
@@ -126,7 +126,7 @@ En la página [!UICONTROL Directivas], para ver los detalles de una directiva, s
 
 ![Ver detalles de la política en Admin Console](../assets/admin-tool-policy-detail.png)
 
-Una vista detallada de cada perfil de producto muestra detalles importantes sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos activados por el perfil del producto.
+Una vista detallada de cada perfil de producto muestra detalles importantes sobre los temas del perfil del producto (usuarios, grupos, etc.). También muestra los permisos y recursos habilitados por el perfil del producto.
 
 Los detalles del perfil del producto se pueden exportar a archivos CSV. La opción [!UICONTROL Exportar CSV] genera dos archivos CSV:
 

@@ -1,5 +1,5 @@
 ---
-description: Cargue un recurso a una carpeta compartida desde el explorador del Creative Cloud o desde el escritorio del Creative Cloud.
+description: Cargue un recurso a una carpeta compartida desde el explorador de Creative Cloud o el escritorio de Creative Cloud.
 title: Cargar un recurso a una carpeta compartida
 feature: Assets
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Cargar un recurso en una carpeta compartida
 
-Puede cargar un recurso a través de Creative Cloud Desktop o del explorador del Creative Cloud.
+Puede cargar un recurso a través de Creative Cloud Desktop o del explorador Creative Cloud.
 
 ## Cargar un recurso a una carpeta compartida desde el explorador de Creative Cloud
 
@@ -28,7 +28,7 @@ Consulte [https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-fil
 
 ## Cargar un recurso a una carpeta compartida desde Creative Cloud local
 
-1. Activar el uso compartido.
+1. Habilitar el uso compartido.
 1. Inicie la versión de escritorio de [!DNL Creative Cloud] y vaya a [!UICONTROL **Assets**].
 1. Haga clic en **[!UICONTROL Abrir carpeta].**
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.

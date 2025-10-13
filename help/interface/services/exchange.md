@@ -31,7 +31,7 @@ Exchange Marketplace es un destino único en el que puede buscar, examinar, sele
 
 * Rechace o apruebe aplicaciones.
 
-* Publish en Experience Cloud.
+* Publique en Experience Cloud.
 
 * Busque y filtre por categoría, compañía, tipo, usuario y más.
 

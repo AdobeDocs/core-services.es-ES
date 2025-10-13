@@ -10,7 +10,7 @@ exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
 source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 
 ## Compatibilidad de idiomas en Experience Cloud {#languages}
 
-La interfaz de usuario del Experience Cloud está disponible en los siguientes idiomas:
+La interfaz de usuario de Experience Cloud está disponible en los siguientes idiomas:
 
 * Inglés (Estados Unidos)
 * Francés (Francia)
@@ -45,7 +45,7 @@ La interfaz de usuario del Experience Cloud está disponible en los siguientes i
 * Chino tradicional
 * Chino simplificado
 
-Además, el formato específico de la configuración regional (como fechas, horas, calendarios, números) también puede estar disponible en variantes de los idiomas admitidos por la interfaz de usuario:
+Además, el formato específico de la configuración regional (como fechas, horas, calendarios, números) también puede estar disponible en las variantes de los idiomas admitidos por la interfaz de usuario:
 
 * Inglés (Israel)
 * Inglés (Reino Unido)
@@ -55,7 +55,7 @@ Además, el formato específico de la configuración regional (como fechas, hora
 
 **Para especificar un idioma predeterminado**
 
-1. En el Experience Cloud, haga clic en **[!UICONTROL Perfil]** > [Preferencias](https://experience.adobe.com/preferences).
+1. En Experience Cloud, haga clic en **[!UICONTROL Perfil]** > [Preferencias](https://experience.adobe.com/preferences).
 
 1. En **[!UICONTROL Perfil]**, haga clic en el vínculo de idioma.
 

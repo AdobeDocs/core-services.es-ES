@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Preferencias y notificaciones de la cuenta {#preferences}
 
-Para encontrar las preferencias de Experience Cloud, haz clic en **[!UICONTROL Perfil]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y luego haz clic en **[!UICONTROL Preferencias]**.
+Para buscar las preferencias de Experience Cloud, haz clic en **[!UICONTROL Perfil]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y, a continuación, haz clic en **[!UICONTROL Preferencias]**.
 
 ![preferencias](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
@@ -24,9 +24,9 @@ En la página [!UICONTROL preferencias de Experience Cloud], puede administrar l
 
 | Función | Descripción |
 |--- |--- |
-| [!UICONTROL Perfil] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre del perfil aparecen al iniciar sesión en Adobe.com, productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
-| [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en Experience Cloud. |
-| [!UICONTROL Datos de uso del producto] | Puede controlar qué datos de uso del producto se comparten con el Adobe al utilizar aplicaciones de Experience Cloud. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
+| [!UICONTROL Perfil] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre de su perfil aparecen al iniciar sesión en Adobe.com, en los productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
+| [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se usa al iniciar sesión en Experience Cloud. |
+| [!UICONTROL Datos de uso del producto] | Puede controlar qué datos de uso del producto se comparten con Adobe al utilizar aplicaciones de Experience Cloud. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
 | [!UICONTROL Notificaciones] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
 
 ## [!UICONTROL Datos de uso del producto] {#product-usage-data}
@@ -42,15 +42,15 @@ Los datos de uso del producto que decide compartir con Adobe incluyen los siguie
 
 Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle asistencia tanto en el producto como a través del servicio de atención al cliente, y para personalizar su experiencia y comunicaciones con nosotros. Más información sobre [experiencias personalizadas](personalized-learning.md).
 
-## Suscripción a notificaciones en Experience Cloud {#notifications}
+## Suscripción a las notificaciones en Experience Cloud {#notifications}
 
 Puede seleccionar los productos y las categorías a los que desea suscribirse. Las notificaciones aparecen en la ventana emergente [!UICONTROL Notificaciones] (en la aplicación), en tu correo electrónico o en [Slack](#slack-notifications) (según tus suscripciones).
 
-Las notificaciones por correo electrónico y al Slack son útiles en situaciones en las que no ha iniciado sesión en Experience Cloud.
+Las notificaciones por correo electrónico y Slack son útiles en situaciones en las que no ha iniciado sesión en Experience Cloud.
 
 ### Suscripción a notificaciones en la aplicación y por correo electrónico
 
-1. Vaya al Experience Cloud [preferencias](https://experience.adobe.com/preferences).
+1. Vaya a Experience Cloud [preferencias](https://experience.adobe.com/preferences).
 
 1. En **[!UICONTROL Notificaciones]**, habilite **[!UICONTROL En la aplicación]** o **[!UICONTROL Correo electrónico]**.
 
@@ -58,21 +58,21 @@ Las notificaciones por correo electrónico y al Slack son útiles en situaciones
 
 ### Suscribirse a [!DNL Slack] notificaciones {#slack}
 
-Puede configurar las preferencias de su cuenta para enviar notificaciones al Experience Cloud a un canal [!DNL Slack].
+Puede configurar las preferencias de su cuenta para enviar notificaciones de Experience Cloud a un canal [!DNL Slack].
 
 **Requisitos previos**
 
 * Debe tener una cuenta de Experience Cloud.
-* Debe tener una cuenta de [!DNL Slack]. El administrador de [!DNL Slack] habilita la integración del Experience Cloud con [!DNL Slack].
+* Debe tener una cuenta de [!DNL Slack]. El administrador de [!DNL Slack] habilita la integración de Experience Cloud con [!DNL Slack].
 * Debe formar parte de al menos un espacio de trabajo de [!DNL Slack].
 
 **Para suscribirse a [!DNL Slack] notificaciones**
 
-1. Vaya al Experience Cloud [Preferencias](https://experience.adobe.com/preferences).
+1. Vaya a Experience Cloud [Preferencias](https://experience.adobe.com/preferences).
 
-1. Busque [!DNL Slack] y haga clic en **[!UICONTROL Agregar al Slack]**.
+1. Busque [!DNL Slack] y haga clic en **[!UICONTROL Agregar a Slack]**.
 
-   ![Agregar al Slack](../assets/add-to-slack.png)
+   ![Agregar a Slack](../assets/add-to-slack.png)
 
    Si [!DNL Slack] está instalado, la aplicación se abrirá y aparecerá un mensaje de solicitud de permiso. Si Slack no está instalado, debe [solicitar permiso](#slack-troubleshoot).
 
@@ -80,17 +80,17 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones al Exp
 
 1. En **[!UICONTROL Notificaciones]**, habilite [!DNL Slack] notificaciones para los productos y categorías que desee.
 
-   ![Notificaciones al Slack](../assets/slack.png)
+   ![Notificaciones de Slack](../assets/slack.png)
 
    Las actualizaciones de las notificaciones se guardan automáticamente.
 
 ### Solicitar permiso en [!DNL Slack] (solución de problemas) {#slack-troubleshoot}
 
-Si [!DNL Slack] no está instalado, aparece el mensaje _[!UICONTROL Solicitud de instalación]_ cuando el Slack se abre después de hacer clic en **[!UICONTROL Agregar al Slack]**. Por ejemplo:
+Si [!DNL Slack] no está instalado, aparecerá el mensaje _[!UICONTROL Solicitud de instalación]_ cuando Slack se abra después de hacer clic en **[!UICONTROL Agregar a Slack]**. Por ejemplo:
 
 ![Solicitar integración de Slack](../assets/slack-workspace.png)
 
-**Para solicitar permisos en el Slack**
+**Para solicitar permisos en Slack**
 
 1. En [!DNL Slack], seleccione el área de trabajo en el menú **[!UICONTROL Workspace]** (esquina superior derecha).
 
@@ -98,18 +98,18 @@ Si [!DNL Slack] no está instalado, aparece el mensaje _[!UICONTROL Solicitud de
 
 1. Recibirá una notificación en [!DNL Slack] después de que se apruebe la solicitud de la aplicación.
 
-1. Una vez que reciba la aprobación de [!DNL Slack], regrese al Experience Cloud **[!UICONTROL Notificaciones]** y siga los pasos para [suscribirse al Slack](#slack-notifications) (descritos anteriormente).
+1. Una vez que reciba la aprobación de [!DNL Slack], regrese a Experience Cloud **[!UICONTROL Notificaciones]** y siga los pasos para [suscribirse a Slack](#slack-notifications) (descritos anteriormente).
 
 ### Lo que verá en [!DNL Slack]
 
 Después de integrar correctamente [!DNL Slack], las notificaciones de [!DNL Slack] muestran la siguiente información:
 
 * El mensaje personal se recibirá del nombre de la aplicación _Adobe[!DNL Experience Cloud]_.
-* El mensaje incluye el logotipo del producto para la aplicación en particular, como el Adobe [!DNL Experience Platform], el Adobe [!DNL Experience Manager], etc.
-* Un vínculo para ver todas las notificaciones en el Experience Cloud.
-* Un vínculo para administrar las preferencias de notificación del Experience Cloud.
+* El mensaje incluye el logotipo del producto para la aplicación en particular, como Adobe [!DNL Experience Platform], Adobe [!DNL Experience Manager], etc.
+* Un vínculo para ver todas las notificaciones en Experience Cloud.
+* Un vínculo para administrar las preferencias de notificación en Experience Cloud.
 
-## Ver [!UICONTROL notificaciones] y anuncios en el Experience Cloud {#view-notifications}
+## Ver [!UICONTROL notificaciones] y anuncios en Experience Cloud {#view-notifications}
 
 En el encabezado [!DNL Experience Cloud], puede ver las notificaciones a las que se ha [suscrito](#notifications), así como los anuncios.
 

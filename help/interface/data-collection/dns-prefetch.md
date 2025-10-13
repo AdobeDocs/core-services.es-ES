@@ -41,7 +41,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servicio de ID de Experience Cloud:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Servicio de Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud:**
 

@@ -49,7 +49,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 
 ## Edición de recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
-La edición de un recurso activa funciones, entre las que se incluyen:
+La edición de un recurso habilita funciones, entre las que se incluyen:
 
 * Recortar
 * Rotar
@@ -71,7 +71,7 @@ Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen
 
 ## Visualizar recursos en pantalla completa y hacer zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y activar el zoom.
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y habilitar el zoom.
 
 ![Visualización de recursos de pantalla completa](../../assets/asset-zoom.png)
 

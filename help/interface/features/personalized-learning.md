@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # Recomendaciones y promociones de aprendizaje personalizadas
 
-Adobe le proporciona contenido útil que se adapta a usted en función de su trabajo en sus productos de Adobe. Los datos de uso del producto informan de cómo adaptamos este contexto a usted. Puede optar por no compartir sus datos de uso del producto o adherirse a ellos en la página [preferencias de Experience Cloud](https://experience.adobe.com/preferences).
+Adobe le proporciona contenido útil que se adapta a sus necesidades en función de su trabajo en productos de Adobe. Los datos de uso del producto informan de cómo adaptamos este contexto a usted. Puede optar por no compartir sus datos de uso del producto o adherirse a ellos en la página [preferencias de Experience Cloud](https://experience.adobe.com/preferences).
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

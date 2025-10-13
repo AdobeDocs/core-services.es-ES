@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Reglas sobre cómo se comportan las carpetas compartidas cuando se mueven, elimi
 
 >[!NOTE]
 >
->Las carpetas y recursos compartidos de Experience Cloud se ven reflejados en el escritorio Creative Cloud en una relación de 1:1. Si un usuario de Experience Cloud cambia una carpeta (elimina, añade o deja de compartir), la acción se refleja en las versiones de escritorio y web de Creative Cloud. De este modo, si se deja de compartir una carpeta, la carpeta y los recursos se eliminarán del equipo local. Una vez que se deja de compartir, la carpeta y sus contenidos se mueven a la papelera de su equipo local, donde puede restaurarlos en su equipo.
+>Las carpetas y recursos compartidos de Experience Cloud se reflejan en el escritorio de Creative Cloud en una relación de 1:1. Si un usuario de Experience Cloud cambia una carpeta (elimina, añade o deja de compartir), la acción se refleja en las versiones de escritorio y web de Creative Cloud. De este modo, si se deja de compartir una carpeta, la carpeta y los recursos se eliminarán del equipo local. Una vez que se deja de compartir, la carpeta y sus contenidos se mueven a la papelera de su equipo local, donde puede restaurarlos en su equipo.
 
 ## Carpeta no compartida en una carpeta compartida {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

@@ -58,9 +58,9 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
 
 **Nombre de la cookie: AMCV_###@AdobeOrg**
 
-El [Servicio de Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) utiliza JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+El [Servicio de Experience Platform ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) utiliza JavaScript para almacenar un ID de visitante único en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
+Consulte también la información relativa a las [Cookies y el servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -72,7 +72,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> Los ID de visitante único utilizados por las soluciones de Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 
