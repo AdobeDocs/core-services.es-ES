@@ -7,20 +7,22 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: f4c142e995e1fa9ac2b3e15c5fa7c830cd6bfa56
+source-git-commit: ab39a22191955ce427f3f3f438401a1a7b9cdeca
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '298'
 ht-degree: 12%
 
 ---
 
 # Agentes de Experience Platform en Experience Cloud
 
-Adobe Experience Platform Agent Orchestrator y los agentes de plataforma habilitan funciones agénticas en nuestras soluciones. Puede obtener acceso a las funciones de AEP Agent Orchestrator y los agentes de AEP mediante lo siguiente:
+Adobe Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/home) y los agentes de plataforma habilitan capacidades agénticas en nuestras soluciones. Puede obtener acceso a las funciones de AEP Agent Orchestrator y de los agentes de AEP mediante lo siguiente:
 
 * **Aplicaciones [!DNL Experience Cloud] existentes:** Estas aplicaciones funcionan por sí solas, pero agregar [!DNL AEP Agents] le proporciona un poder y un impacto adicionales. Si tiene una licencia para [!DNL Platform Agent Orchestrator], puede usar [!DNL Platform Agents] para las aplicaciones para las que está autorizado.
 
-* **Aplicaciones de Experience Cloud con IA en primer lugar:** Estas aplicaciones están creadas con IA en el núcleo. Utilizan IA generativa o agéntica para tareas clave, y las funciones agénticas ya están incluidas en la licencia de aplicación sin requerir el complemento de Agent Orchestrator. Las aplicaciones con prioridad de IA están marcadas con <b>*</b>.
+* **Aplicaciones de Experience Cloud con IA en primer lugar:** Estas aplicaciones están creadas con IA en el núcleo. Utilizan IA generativa o agéntica para tareas clave, y las funciones agénticas ya están incluidas en la licencia de aplicación sin requerir el complemento de Agent Orchestrator.
+
+  Las aplicaciones con prioridad de IA están marcadas con <b>*</b>.
 
 ## Disponibilidad y aplicaciones compatibles
 
@@ -28,12 +30,16 @@ Obtenga información acerca de la disponibilidad de los agentes de IA y las apli
 
 | Nombre del agente | Disponibilidad | Aplicaciones compatibles | Competencias |
 |---|----------|------------|----------|
-| [Agente de soporte técnico](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
-| [Site Optimization Agent](https://experienceleague.adobe.com/es/docs/experience-manager-sites-optimizer/content/home) | Disponible | <ul><li>AEM Sites Optimizer</li></ul> | Utiliza IA generativa para buscar e iniciar mejoras en el sitio web que impulsen el tráfico, la participación y los resultados empresariales generales. |
-| [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
+| [Agente de soporte técnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Disponible | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Solucione problemas, cree vales de soporte y realice un seguimiento del progreso con el asistente de IA. |
+| [Site Optimization Agent](https://experienceleague.adobe.com/es/docs/experience-manager-sites-optimizer/content/home)<b>*</b> | Disponible | <ul><li>AEM Sites Optimizer</li></ul> | Utiliza IA generativa para buscar e iniciar mejoras en el sitio web que impulsen el tráfico, la participación y los resultados empresariales generales. |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Disponible | <ul><li>Customer Journey Analytics</li></ul> | Responda a preguntas de datos y cree visualizaciones en Analysis Workspace. |
 | [Audience Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Disponible | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Cree y optimice audiencias con las indicaciones en lenguaje natural. |
 | [Journey Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Disponible | <ul><li>Adobe Journey Optimizer</li></ul> | Cree, analice y optimice recorridos de clientes a escala. |
-| [Agente de experimentación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Disponible | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatice el análisis para identificar experimentos y oportunidades de crecimiento. |
+| [Agente de experimentación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security)<b>*</b> | Disponible | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatice el análisis para identificar experimentos y oportunidades de crecimiento. |
+
+## Más ayuda sobre este tema
+
+* Inicio de la documentación de [AI en Experience Cloud](https://experienceleague.adobe.com/en/docs/ai)
 
 [!BADGE Más información en Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Vaya a Business.adobe.com"}
 
