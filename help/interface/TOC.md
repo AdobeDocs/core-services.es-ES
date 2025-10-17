@@ -5,7 +5,7 @@ breadcrumb-title: Interfaz y administración de Experience Cloud
 title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Interfaz y administración de Experience Cloud {#interface}
 
 + [Interfaz y administración de Experience Cloud](experience-cloud.md)
-
 + Servicios {#services}
    + [Información general](services/overview.md)
    + [Introducción](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [Compatibilidad con la CCPA](services/customer-attributes/ccpa.md)
       + [Consideraciones acerca de la privacidad](services/customer-attributes/privacy-mac.md)
    + [Activadores](services/triggers.md)
-
 + Funcionalidades {#features}
    + [Preferencias y notificaciones de la cuenta](features/account-preferences.md)
    + [IA generativa](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [Búsqueda unificada](features/search.md)
    + [Aprendizaje personalizado](features/personalized-learning.md)
    + [Compatibilidad con exploradores e idiomas](browser-language.md)
-
 + Administración {#administration}
    + [Administración de usuarios y licencias de productos](administration/admin-console.md)
    + [Ver los detalles del usuario (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
    + [Organizaciones](administration/organizations.md)
    + [Integraciones de Experience Cloud](administration/integrations.md)
-
 + Recopilación de datos {#data-collection}
    + [Programa de certificados administrados por Adobe](data-collection/adobe-managed-cert.md)
    + [Direcciones IP](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Cookies de SDK web](data-collection/cookies/web-sdk.md)
    + [Recopilación de datos regionales](data-collection/rdc.md)
    + [Use la precarga de DNS](data-collection/dns-prefetch.md)
-
 + Notas de la versión y recursos {#more-resources}
    + [Notas de la versión](more-resources/release-notes.md)
    + [Actualizaciones de documentación](more-resources/doc-updates.md)
    + [Preguntas frecuentes](more-resources/faq.md)
    + [Terminología](more-resources/terms.md)
-
