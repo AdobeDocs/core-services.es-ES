@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 91%
+source-wordcount: '697'
+ht-degree: 79%
 
 ---
 
@@ -56,15 +56,15 @@ Aunque todos los equipos de aplicaciones están comprometidos con el soporte de 
 
 ## Inicie sesión en Experience Cloud {#signin}
 
-Inicie sesión y verifique que se encuentra en la [organización](organizations.md) correcta.
+Inicie sesión y compruebe que se encuentra en la organización correcta.
 
 1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com).
-1. Haga clic en **[!UICONTROL Inicie sesión con su Adobe ID]**.
+1. Haga clic en **[!UICONTROL Sign in with an Adobe ID]**.
 1. Compruebe que se encuentra en la organización correcta.
 
    ![Verifique su organización](assets/organizations-menu.png)
 
-   Para comprobar que ha iniciado sesión en su [organización](organizations.md) correcta, haga clic en **[!UICONTROL Perfil]** para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra mediante el selector **[!UICONTROL Organización]**.
+   Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Profile]** para ver el nombre de la organización. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización mediante el selector **[!UICONTROL Organization]**.
 
    Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Agregar `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`) para realizar esta tarea.
 
@@ -80,49 +80,49 @@ Haga clic en el selector de aplicaciones ![menu](assets/menu-icon.png) para acce
 
 ## Búsqueda y asistencia en Experience Cloud {#search-support}
 
-La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ![Búsqueda y asistencia en Experience Cloud](assets/search-menu.png)
 
-El menú [!UICONTROL Ayuda] también le permite acceder a:
+El menú [!UICONTROL Help] también le da acceso a:
 
-* **[!UICONTROL Asistencia técnica]:** Cree un ticket de asistencia o póngase en contacto con el [!UICONTROL Soporte técnico] mediante Twitter.
-* **[!UICONTROL Comentarios]:** Póngase en contacto con Adobe para hacernos saber sus comentarios.
-* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
-* **[!UICONTROL Developer Connection]:** Navegación hasta `adobe.io` y búsqueda de documentación para desarrolladores.
+* **[!UICONTROL Support]:** Cree una incidencia de soporte técnico o un contacto [!UICONTROL Support] mediante Twitter.
+* **[!UICONTROL Feedback]:** Póngase en contacto con Adobe para hacernos saber sus comentarios.
+* **[!UICONTROL Status]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Developer Connection]:** Navegación a `adobe.io` y búsqueda de documentación para desarrolladores.
 
 ## Preferencias de cuenta {#account-menu}
 
 En el menú de preferencias de cuenta, puede hacer lo siguiente:
 
 * Especifique un tema oscuro (no todas las aplicaciones admiten este tema)
-* Buscar [Organizaciones](organizations.md)
+* Buscar organizaciones
 * Cerrar sesión
 * Configurar las [preferencias, notificaciones y suscripciones de la cuenta](#preferences)
 
-### Administrar [!UICONTROL Preferencias] de Experience Cloud {#preferences}
+### Administrar Experience Cloud [!UICONTROL Preferences] {#preferences}
 
 Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y alertas.
 
-* Haga clic en **[!UICONTROL Preferencias]** en el menú de la cuenta ![preferencias](assets/preferences-icon-sm.png) para administrar las preferencias.
+* Haga clic en **[!UICONTROL Preferences]** en el menú de su cuenta ![preferencias](assets/preferences-icon-sm.png) para administrar las preferencias.
 
 ![Administración de Experience Cloud](assets/preferences-page.png)
 
-En [!UICONTROL preferencias de Experience Cloud], puede configurar las siguientes funciones:
+En [!UICONTROL Experience Cloud preferences], puede configurar las siguientes características:
 
 | Función | Descripción |
 |--- |--- |
-| Organización [predeterminada](organizations.md) | Seleccione la organización que desea ver al iniciar Experience Cloud. |
-| [!UICONTROL Suscripciones] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notificaciones] y en el correo electrónico. |
-| [!UICONTROL Prioridad] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con la etiqueta High y pueden configurarse para entregarlas como alertas. |
-| [!UICONTROL Alertas] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
+| Organización predeterminada | Seleccione la organización que desea ver al iniciar Experience Cloud. |
+| [!UICONTROL Subscriptions] | Seleccione los productos y las categorías a los que desea suscribirse. Notificaciones en la ventana emergente [!UICONTROL Notifications] y en el correo electrónico. |
+| [!UICONTROL Priority] | Seleccione las categorías que desea que se consideren de alta prioridad. Estas categorías están marcadas con la etiqueta High y pueden configurarse para entregarlas como alertas. |
+| [!UICONTROL Alerts] | Seleccione las notificaciones de las que desea ver las alertas mostradas en el explorador. Las alertas aparecen en la esquina superior derecha de la ventana durante unos segundos. |
 | Correos electrónicos | Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal). |
 
 {style="table-layout:auto"}
 
 ## Notificaciones y anuncios {#notifications}
 
-Haga clic en **[!UICONTROL Notificaciones]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
+Haga clic en **[!UICONTROL Notifications]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
 
 ![Notificaciones y anuncios](assets/notifications-menu-small.png)
 

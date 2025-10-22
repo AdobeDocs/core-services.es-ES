@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e31b3e591a9342230f0f2a9287aedf715423fd60
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 4%
+source-wordcount: '1106'
+ht-degree: 3%
 
 ---
 
@@ -27,11 +27,8 @@ Si administra actualmente sus propios certificados, es responsable de adquirir, 
 Siga estos pasos para implementar un nuevo certificado para la recopilación de datos de origen:
 
 1. Descargue y rellene el [formulario de solicitud de dominio de origen](cookies/assets/First_Party_Domain_Request_Form.xlsx)
-
 1. Abra un ticket con el Servicio de atención al cliente de Adobe solicitando la configuración de recopilación de datos de origen en el programa de certificados administrados de Adobe.
-
 1. Una vez recibida la incidencia, el representante de Adobe le proporcionará un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda comprar el certificado en su nombre. Por ejemplo, el nombre de host `data.example.com` señala a `hiodsibxvip01.data.adobedc.net`.
-
 1. Cuando se establezca el registro CNAME en los servidores de su organización, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de recopilación de datos de Adobe.
 
 ## Validar reenvío de nombre de host {#validate}
@@ -94,8 +91,12 @@ Aliases: smetrics.example.com
 
 Una vez que haya validado que el certificado funciona correctamente, puede actualizar la implementación de Adobe para utilizar estos valores.
 
-* Para implementaciones de Adobe Analytics AppMeasurement, actualice la variable de configuración [`trackingServer`](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/config-vars/trackingserver). Si tiene una implementación existente, consulte [Migración de visitantes](https://experienceleague.adobe.com/es/docs/analytics/technotes/visitor-migration) para ver pasos adicionales sobre cómo evitar que los visitantes existentes se cuenten como nuevos visitantes.
-* Para implementaciones de Web SDK, actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/edgedomain) dentro del comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Extensión de etiqueta Web SDK**: actualice el campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) al configurar la extensión.
+* **Web SDK (aleación)**: actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) dentro del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Extensión de Adobe Analytics**: actualice el campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) al configurar la extensión. Asegúrese de tener también instalada la extensión de etiqueta [Servicio de ID de visitante](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Consulte [Identificación de visitante con la extensión de etiquetas de Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) para obtener más información.
+* **AppMeasurement**: Actualice la variable de configuración [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Asegúrese de que también ha implementado el [Servicio de identificación del visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) mediante `VisitorAPI.js`. Consulte [Identificación de visitante con AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) para obtener más información.
+
+Si su sitio utiliza varios métodos de implementación y no puede actualizarlos todos simultáneamente, considere la posibilidad de configurar un periodo de gracia. Consulte [Consideraciones sobre la migración del servicio de ID de visitante](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) para ver pasos adicionales sobre cómo evitar que los visitantes se contabilicen como nuevos visitantes en el sitio.
 
 ## Mantenimiento y renovaciones
 
@@ -163,4 +164,9 @@ Adobe admite tipos de certificados RSA y ECC para satisfacer las distintas neces
 * iOS 5.1 y anteriores (última actualización en 2012)
 * Android 4.3 y anteriores (última actualización en 2013)
 
++++
+
++++¿Puedo administrar mis propios certificados en su lugar?
+
+Sí. Sin embargo, si administra sus propios certificados, es responsabilidad suya renovar los suyos y proporcionárselos a Adobe cada vez que los renueve. Este proceso es menos seguro y puede causar pérdida de datos si su organización olvida renovar un certificado a tiempo. Adobe recomienda utilizar el programa de certificados administrados en lugar de administrar los certificados usted mismo, especialmente debido a las reducciones en la duración máxima del certificado TLS. Consulte [6.3.1 Archivo de claves públicas](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) en los Requisitos de línea de base del certificado del servidor de CA/Browser Forum para obtener más información.
 +++
