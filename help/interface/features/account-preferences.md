@@ -86,7 +86,7 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones de Exp
 
 ### Solicitar permiso en [!DNL Slack] (solución de problemas)
 
-Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
+Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_&#x200B;cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
 
 ![Solicitar integración de Slack](../assets/slack-workspace.png)
 
