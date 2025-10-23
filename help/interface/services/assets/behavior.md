@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -24,7 +24,7 @@ Reglas sobre cómo se comportan las carpetas compartidas cuando se mueven, elimi
 >
 >Las carpetas y recursos compartidos de Experience Cloud se reflejan en el escritorio de Creative Cloud en una relación de 1:1. Si un usuario de Experience Cloud cambia una carpeta (elimina, añade o deja de compartir), la acción se refleja en las versiones de escritorio y web de Creative Cloud. De este modo, si se deja de compartir una carpeta, la carpeta y los recursos se eliminarán del equipo local. Una vez que se deja de compartir, la carpeta y sus contenidos se mueven a la papelera de su equipo local, donde puede restaurarlos en su equipo.
 
-## Carpeta no compartida en una carpeta compartida {#section_A9BAC1A244A246A984AC62660E61E0C0}
+## Carpeta no compartida en una carpeta compartida
 
 Si mueve una carpeta no compartida a una carpeta compartida:
 
@@ -32,7 +32,7 @@ Si mueve una carpeta no compartida a una carpeta compartida:
 
 **Resultado**: ambas carpetas se comparten.
 
-## Carpeta compartida en una carpeta no compartida {#section_8BA83001DCEC4CF084B980C4A660F59A}
+## Carpeta compartida en una carpeta no compartida
 
 Si mueve una carpeta compartida a una carpeta no compartida.
 
@@ -40,7 +40,7 @@ Si mueve una carpeta compartida a una carpeta no compartida.
 
 **Resultado**: La carpeta no compartida permanece sin compartir. La carpeta compartida permanece compartida.
 
-## Contenido de una carpeta no compartida a una carpeta compartida {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
+## Contenido de una carpeta no compartida a una carpeta compartida
 
 El contenido de una carpeta no compartida se mueve a una carpeta compartida.
 
@@ -48,7 +48,7 @@ El contenido de una carpeta no compartida se mueve a una carpeta compartida.
 
 **Resultado:** El contenido ahora se comparte y todos los colaboradores pueden verlo. El almacenamiento aumenta según el tamaño del contenido.
 
-## Contenido compartido archivado y eliminado {#section_5210D5F4943A44D0BA675D8EB4EAE20F}
+## Contenido compartido archivado y eliminado
 
 El contenido que reside en una carpeta compartida se archiva o elimina.
 
@@ -56,7 +56,7 @@ El contenido que reside en una carpeta compartida se archiva o elimina.
 
 **Resultado:** El contenido se archiva para el propietario de la carpeta. Los colaboradores que no son propietarios del contenido ya no pueden acceder a él.
 
-## Contenido compartido propio a una carpeta no compartida {#section_3810A364B67E4B8C9CA244BC52BF91BB}
+## Contenido compartido propio a una carpeta no compartida
 
 El contenido de una carpeta compartida suya se mueve a una carpeta no compartida.
 
@@ -64,7 +64,7 @@ El contenido de una carpeta compartida suya se mueve a una carpeta no compartida
 
 **Resultado:** El contenido ya no se comparte. Los colaboradores de la carpeta compartida ya no tendrán acceso al contenido.
 
-## Contenido que no es de su propiedad a una carpeta no compartida {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
+## Contenido que no es de su propiedad a una carpeta no compartida
 
 El contenido de una carpeta compartida de otra persona se mueve a una carpeta no compartida.
 
@@ -74,7 +74,7 @@ El contenido de una carpeta compartida de otra persona se mueve a una carpeta no
 
 Los propietarios y editores pueden mover el contenido que no es de su propiedad, pero los visualizadores no pueden. Si los propietarios y editores mueven contenido, este no estará disponible en ninguna carpeta compartida para ningún usuario.
 
-## Carpeta propia archivada o eliminada {#section_B314B13512A5409C87C49DFDB7602E14}
+## Carpeta propia archivada o eliminada
 
 Puede archivar (a través de la Web) o eliminar (a través del escritorio) una carpeta compartida suya.
 
@@ -82,7 +82,7 @@ Puede archivar (a través de la Web) o eliminar (a través del escritorio) una c
 
 **Resultado:** La carpeta no se comparte y, a continuación, se archiva. Los colaboradores ya no tienen acceso a la carpeta.
 
-## Carpeta compartida en otra carpeta compartida {#section_0A3F203D048D4D1586E9850DC92C51E9}
+## Carpeta compartida en otra carpeta compartida
 
 Una carpeta compartida suya se mueve a otra carpeta compartida suya o de otra persona.
 
@@ -90,7 +90,7 @@ Una carpeta compartida suya se mueve a otra carpeta compartida suya o de otra pe
 
 **Resultado:** a medida que la carpeta se mueve a la carpeta 2, esta se comparte con los nuevos colaboradores.
 
-## Contenido compartido en otra carpeta compartida {#section_69F6C312792A4CD2831BD14A340F850E}
+## Contenido compartido en otra carpeta compartida
 
 El contenido de una carpeta compartida se mueve a otra carpeta compartida.
 
@@ -98,7 +98,7 @@ El contenido de una carpeta compartida se mueve a otra carpeta compartida.
 
 **Resultado:** El contenido aparece en la carpeta 2 y ahora se comparte con los nuevos colaboradores. El contenido se elimina de la carpeta 1 y el propietario lo ve como archivado, mientras que los demás colaboradores ya no tienen acceso a él.
 
-## Contenido restaurado del archivo {#section_DEA990B3581741F89FBB81D18C2AB449}
+## Contenido restaurado del archivo
 
 Se restaura el contenido de un archivo que pertenecía a una carpeta compartida. El contenido era suyo en el momento en que se archivó.
 

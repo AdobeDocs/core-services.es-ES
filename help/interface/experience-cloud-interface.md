@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Los componentes de la interfaz central de Experience Cloud incluyen funciones qu
 * Búsqueda de la ayuda del producto y los objetos empresariales mediante búsqueda global
 * Administración de las preferencias de la cuenta (alertas, notificaciones y suscripciones)
 
-## Compatibilidad con exploradores en Experience Cloud {#browser}
+## Compatibilidad con exploradores en Experience Cloud
 
 Para obtener el mejor rendimiento, Experience Cloud está optimizado para los exploradores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
 
@@ -37,7 +37,7 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 >
 >No todas las aplicaciones que se ejecutan en el dominio de Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
-## Compatibilidad de idiomas en Experience Cloud {#languages}
+## Compatibilidad de idiomas en Experience Cloud
 
 Experience Cloud admite los idiomas preferidos para cada usuario, tal como se establecen en las preferencias de cuenta de usuario de Adobe. Actualmente se admiten los siguientes idiomas:
 
@@ -54,7 +54,7 @@ Experience Cloud admite los idiomas preferidos para cada usuario, tal como se es
 
 Aunque todos los equipos de aplicaciones están comprometidos con el soporte de idiomas global, no todas las aplicaciones se ofrecen en todos los idiomas mencionados anteriormente. Si el idioma principal no es compatible con una aplicación de Experience Cloud, también puede establecer un idioma secundario de forma predeterminada cuando corresponda. Esto se puede hacer en [preferencias de usuario de Experience Cloud](https://experience.adobe.com/preferences).
 
-## Inicie sesión en Experience Cloud {#signin}
+## Inicie sesión en Experience Cloud
 
 Inicie sesión y compruebe que se encuentra en la organización correcta.
 
@@ -70,7 +70,7 @@ Inicie sesión y compruebe que se encuentra en la organización correcta.
 
    Por ejemplo, para una organización con Federated IDs y el dominio `adobecustomer.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@adobecustomer.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`).
 
-## Acceso a aplicaciones de Experience Cloud {#navigation}
+## Acceso a aplicaciones de Experience Cloud
 
 Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a todas sus aplicaciones, servicios y organizaciones desde el encabezado unificado.
 
@@ -78,9 +78,9 @@ Haga clic en el selector de aplicaciones ![menu](assets/menu-icon.png) para acce
 
 ![Acceso a aplicaciones de Experience Cloud](assets/platform-core-services.png)
 
-## Búsqueda y asistencia en Experience Cloud {#search-support}
+## Búsqueda y asistencia en Experience Cloud
 
-La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+La búsqueda de Experience Cloud le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ![Búsqueda y asistencia en Experience Cloud](assets/search-menu.png)
 
@@ -91,7 +91,7 @@ El menú [!UICONTROL Help] también le da acceso a:
 * **[!UICONTROL Status]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navegación a `adobe.io` y búsqueda de documentación para desarrolladores.
 
-## Preferencias de cuenta {#account-menu}
+## Preferencias de cuenta
 
 En el menú de preferencias de cuenta, puede hacer lo siguiente:
 
@@ -100,7 +100,7 @@ En el menú de preferencias de cuenta, puede hacer lo siguiente:
 * Cerrar sesión
 * Configurar las [preferencias, notificaciones y suscripciones de la cuenta](#preferences)
 
-### Administrar Experience Cloud [!UICONTROL Preferences] {#preferences}
+### Administrar Experience Cloud [!UICONTROL Preferences]
 
 Las preferencias de Experience Cloud incluyen notificaciones, suscripciones y alertas.
 
@@ -120,7 +120,7 @@ En [!UICONTROL Experience Cloud preferences], puede configurar las siguientes ca
 
 {style="table-layout:auto"}
 
-## Notificaciones y anuncios {#notifications}
+## Notificaciones y anuncios
 
 Haga clic en **[!UICONTROL Notifications]** para ver las notificaciones que son importantes para usted y los anuncios de Adobe.
 

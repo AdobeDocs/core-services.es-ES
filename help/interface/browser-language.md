@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 56%
 
 ---
 
-# Compatibilidad con exploradores en Experience Cloud {#browser}
+# Compatibilidad con exploradores en Experience Cloud
 
 Para obtener el mejor rendimiento, Experience Cloud está optimizado para los exploradores más populares, incluida la versión más reciente, además de las dos versiones anteriores.
 
@@ -30,7 +30,7 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 >
 >No todas las aplicaciones que se ejecutan en el dominio de Experience Cloud admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
-## Compatibilidad de idiomas en Experience Cloud {#languages}
+## Compatibilidad de idiomas en Experience Cloud
 
 La interfaz de usuario de Experience Cloud está disponible en los siguientes idiomas:
 
@@ -55,12 +55,12 @@ Además, el formato específico de la configuración regional (como fechas, hora
 
 **Para especificar un idioma predeterminado**
 
-1. En Experience Cloud, haga clic en **[!UICONTROL Perfil]** > [Preferencias](https://experience.adobe.com/preferences).
+1. En Experience Cloud, haga clic en **[!UICONTROL Profile]** > [Preferencias](https://experience.adobe.com/preferences).
 
-1. En **[!UICONTROL Perfil]**, haga clic en el vínculo de idioma.
+1. En **[!UICONTROL Profile]**, haga clic en el vínculo de idioma.
 
-1. En **[!UICONTROL Seleccionar idioma]**, seleccione un idioma en el menú **[!UICONTROL Primer idioma]**.
+1. En **[!UICONTROL Select language]**, seleccione un idioma en el menú **[!UICONTROL First language]**.
 
    Aunque todos los equipos de aplicaciones están comprometidos con la compatibilidad con idiomas globales, no todas las aplicaciones se ofrecen en todos los idiomas enumerados en la interfaz. Si el idioma principal no es compatible con una aplicación de Experience Cloud, puede establecer un idioma secundario predeterminado cuando corresponda.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.

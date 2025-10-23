@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -31,13 +31,13 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 * **[!DNL Adobe Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
 
 
-## Vaya a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Vaya a Experience Cloud Assets
 
 ![Navegar a Experience Cloud Assets ](../../assets/asset-nav.png)
 
-## Acceso a la barra de herramientas {#section_EC2E401D225148818F3753248556BE6B}
+## Acceso a la barra de herramientas
 
-Vaya a un recurso (o a un directorio de recursos) y, a continuación, haga clic en **[!UICONTROL Seleccionar]**.
+Vaya a un recurso (o a un directorio de recursos) y haga clic en **[!UICONTROL Select]**.
 
 La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
 
@@ -47,7 +47,7 @@ La barra de herramientas proporciona acceso rápido a las funciones, incluidas B
 >
 >Los recursos deben eliminarse de las actividades de Adobe Target para poder eliminarlos correctamente de [!DNL Target].
 
-## Edición de recursos {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Edición de recursos
 
 La edición de un recurso habilita funciones, entre las que se incluyen:
 
@@ -57,36 +57,36 @@ La edición de un recurso habilita funciones, entre las que se incluyen:
 
 ![Edición de recursos](../../assets/asset-edit.png)
 
-## Buscar recursos {#section_50FE049010B446FC9640AA6A30E5A730}
+## Buscar recursos
 
 Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación, estado de publicación, orientación y estilo.
 
 ![Búsqueda de recursos](../../assets/asset-search.png)
 
-## Anotación de recursos {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Anotación de recursos
 
-Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para su revisión por parte de sus colegas.
+Haga clic en **[!UICONTROL Annotate]** dibujando círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
 
 ![Anotación de recursos](../../assets/assets-annotate.png)
 
-## Visualizar recursos en pantalla completa y hacer zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Visualizar recursos en pantalla completa y hacer zoom
 
-Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y habilitar el zoom.
+Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Image]** para ver la imagen completa del recurso y habilitar el zoom.
 
 ![Visualización de recursos de pantalla completa](../../assets/asset-zoom.png)
 
-## Visualizar las propiedades de los recursos {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## Visualizar las propiedades de los recursos
 
 Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
 
-Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
+Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Properties]** para ver las propiedades de un recurso:
 
 ![Visualización de las propiedades de los recursos](../../assets/asset-properties.png)
 
-## Ejecutar informes de uso {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Ejecutar informes de uso
 
 Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
 
-Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
+Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Ejecución de informes de uso](../../assets/assets-usage-report.png)
