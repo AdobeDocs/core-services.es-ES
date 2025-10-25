@@ -30,7 +30,7 @@ Analytics utiliza cookies para definir nuevos visitantes de forma anónima, anal
 | **`s_fid`** | 2 años | 33 bytes | Datos de origen | Almacena el ID único de visitante de reserva y la marca de tiempo. La establece JavaScript si no se puede establecer la cookie estándar `s_vi` debido a restricciones de cookies de terceros. No se utiliza en implementaciones de cookies de origen. |
 | **`s_ac`** | Inmediato | 1 byte | Datos de origen | Ayuda a determinar el dominio correcto para establecer las cookies de AppMeasurement. Contiene el valor estático `"1"`. Una vez configurada esta cookie, se elimina inmediatamente. |
 
-Consulte [Identificación de visitantes en Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes que utilizan cookies.
+Consulte [Identificación de visitantes en Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/overview) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes que utilizan cookies.
 
 ## Cookies establecidas por complementos
 
