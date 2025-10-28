@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 99%
@@ -44,3 +44,4 @@ Dado que la legislación respecto a la privacidad de los consumidores sigue en c
 1. No sorprenda a sus consumidores.
 
 Teniendo en cuenta estas expectativas, Adobe recomienda que cuando un anunciante asocie actividades de exploración a PII, el proporcione avisos o mensajes personalizados que indiquen que el consumidor está autenticado. Un ejemplo de esto es incluir un saludo en el encabezado del sitio web. Adobe también recomienda que los anunciantes describan en su política de privacidad qué tipo de información de navegación asocia con PII y en qué circunstancias la información de navegación está asociada con PII. Por último, Adobe recomienda a los anunciantes que revisen las opciones de exclusión que proporcionan a sus clientes para saber si pueden utilizar la información de perfiles no autenticados después de su exclusión y cómo pueden hacerlo.
+

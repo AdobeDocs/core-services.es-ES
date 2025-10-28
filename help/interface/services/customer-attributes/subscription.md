@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 61%
+source-wordcount: '415'
+ht-degree: 63%
 
 ---
 
@@ -24,17 +24,17 @@ Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos e
 
 1. Busque el origen de datos en [!DNL Customer Attributes] para su edición:
 
-   En [!DNL Experience Cloud], haga clic en **[!UICONTROL Aplicaciones]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+   En [!DNL Experience Cloud], haga clic en **[!UICONTROL Apps]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-1. En [!UICONTROL Editar atributo del cliente Source], haga clic en **[!UICONTROL Cargar archivo]**.
+1. En [!UICONTROL Edit Customer Attribute Source], haga clic en **[!UICONTROL File Upload]**.
 
-1. Haga clic en **[!UICONTROL Configurar suscripciones]**.
+1. Haga clic en **[!UICONTROL Configure Subscriptions]**.
 
    ![Configuración de suscripciones en Experience Cloud](assets/configure-subscriptions.png)
 
-1. Para activar el origen de atributos del cliente, haga clic en **[!UICONTROL Activo]** y luego haga clic en **[!UICONTROL Guardar]**.
+1. Para activar el origen de atributos del cliente, haga clic en **[!UICONTROL Active]** y luego en **[!UICONTROL Save]**.
 
-1. Para configurar una suscripción a [!DNL Analytics] o [!DNL Target], haga clic en **[!UICONTROL Configurar]**.
+1. Para configurar una suscripción a [!DNL Analytics] o [!DNL Target], haga clic en **[!UICONTROL Configure]**.
 
    El ejemplo siguiente muestra una suscripción de [!DNL Target]:
 
@@ -46,4 +46,5 @@ Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos e
    | Grupo de informes (Adobe Analytics) | Los grupos de informes de Analytics.<br>Como máximo puede agregar un total de 10 grupos de informes en suscripciones de Analytics desde un único origen de atributos. Al elegir qué grupos de informes incluir, tenga en cuenta las siguientes sugerencias:<ul><li>Elija grupos de informes que tengan un conjunto común de clientes autenticados. Si los clientes autenticados en un grupo de informes no se superponen con los clientes autenticados en otro grupo de informes, separe estos grupos de informes en diferentes fuentes de atributos.</li><li>Si es posible, los grupos de informes incluidos en un origen de atributos deben tener un volumen de tráfico similar.</li></ul><br>Si tiene más de 10 grupos de informes que tienen un conjunto de clientes autenticados en común, puede configurar orígenes de atributos del cliente adicionales, cada uno con hasta 10 grupos de informes. |
    | Atributos para incluir (Analytics y [!DNL Target]) | Atributos que desea enviar a la aplicación. <br>Al configurar suscripciones y seleccionar atributos, aplican los límites siguientes _por grupos de informes,_ según las aplicaciones que tenga:<ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 en total</li><li>Premium: 200 por grupo de informes</li><li>[!DNL Target] Standard: 5</li><li>[!DNL Target] Premium: 200</li></ul><br>**Nota:** Cuando actualice a Analytics Premium, no podrá disponer de los atributos adicionales hasta haber transcurrido 24 horas. Durante este periodo, puede aparecer el error Máximas suscripciones a atributos. |
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
+

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 79%
+source-wordcount: '184'
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 
 Esta documentación se aplica a las funciones del encabezado unificado de Experience Cloud, como el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]), la administración de usuarios y productos para Experience Cloud, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a estos servicios en Experience Cloud, escoja **[!UICONTROL Selector de aplicaciones]**
+Para acceder a estos servicios en Experience Cloud, seleccione **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 ![Servicios de Experience Cloud](../assets/platform-core-services.png)
@@ -29,12 +29,11 @@ Esta ayuda describe los siguientes productos y servicios:
 |--- |--- |
 | [Componentes de la interfaz central](../experience-cloud.md) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
 | [Biblioteca de públicos](audiences/overview.md) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
-| [Atributos del cliente](customer-attributes/attributes.md) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado en Experience Platform. |
+| [Atributos del cliente](customer-attributes/attributes.md) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
 | [Recursos](assets/experience-cloud-assets.md) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentación del producto [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es) está disponible. La documentación técnica para los desarrolladores de [!UICONTROL Experience Platform] se encuentra en [Adobe Developer](https://developer.adobe.com/apis).
-
+>La documentación del producto [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es) está disponible. La documentación técnica de [!UICONTROL Experience Platform] desarrolladores se encuentra en [Adobe Developer](https://developer.adobe.com/apis).

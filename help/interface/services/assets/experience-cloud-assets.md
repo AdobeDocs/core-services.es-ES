@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 86%
@@ -33,7 +33,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 ## Vaya a Experience Cloud Assets
 
-![Navegar a Experience Cloud Assets &#x200B;](../../assets/asset-nav.png)
+![Navegar a Experience Cloud Assets ](../../assets/asset-nav.png)
 
 ## Acceso a la barra de herramientas
 
@@ -90,3 +90,4 @@ Consulte el número de usuarios, el almacenamiento utilizado y el total de los r
 Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Ejecución de informes de uso](../../assets/assets-usage-report.png)
+

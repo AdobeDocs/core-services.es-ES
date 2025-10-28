@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -105,3 +105,4 @@ Se restaura el contenido de un archivo que pertenecía a una carpeta compartida.
 ![Contenido restaurado del archivo](../../assets/12_assets_move.png)
 
 **Resultado:** el contenido se restaura a la carpeta compartida y todos los colaboradores pueden acceder a él de nuevo. Si la carpeta compartida ya no existe, el contenido se coloca en una copia no compartida de sus carpetas principales originales.
+

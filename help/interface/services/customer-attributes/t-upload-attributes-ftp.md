@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 67%
+source-wordcount: '363'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=es).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Para cargar el archivo de datos a través de FTP**
 
@@ -35,7 +35,7 @@ Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar 
 
    Asegúrese de haber iniciado sesión en su sitio FTP en `ftp.adobe.com/<sftpname>`.
 
-1. Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Carga de archivo]**.
+1. Haga clic en **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Cargue un archivo `.fin` para que su archivo se pueda recuperar.
 
@@ -49,7 +49,7 @@ Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar 
 
 Configure una cuenta FTP por cada origen de atributos.
 
-En la página [!UICONTROL Carga de archivos y validación de esquemas], haga clic en **[!UICONTROL Configuración de FTP]**.
+En la página [!UICONTROL File Upload and Schema Validation], haga clic en **[!UICONTROL FTP Setup]**.
 
 ![Edición de un esquema](assets/ftp-account.png)
 
@@ -57,9 +57,9 @@ Los archivos cargados se almacenan en la carpeta raíz de esa cuenta. Los datos 
 
 Los nombres que aplique a las cadenas, números enteros y números se utilizan para crear métricas de [!DNL Analytics].
 
-* **[!UICONTROL atributo:]** datos de atributo leídos del archivo subido `.csv`.
+* **[!UICONTROL attribute:]** datos de atributo leídos del archivo subido `.csv`.
 
-* **[!UICONTROL Tipo:]** El tipo de datos, como por ejemplo:
+* **[!UICONTROL Type:]** El tipo de datos, como:
 
    * **Cadena:** Secuencia de caracteres.
 
@@ -67,6 +67,6 @@ Los nombres que aplique a las cadenas, números enteros y números se utilizan p
 
    * **Números:** Pueden tener hasta dos decimales.
 
-* **[!UICONTROL Nombre para mostrar:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo *customer age* a *customer Since*.
+* **[!UICONTROL Display Name:]** Un nombre descriptivo para el atributo. Por ejemplo, puede cambiar un atributo *customer age* a *customer Since*.
 
-* **[!UICONTROL Descripción:]** Una descripción del atributo.
+* **[!UICONTROL Description:]** Una descripción del atributo.

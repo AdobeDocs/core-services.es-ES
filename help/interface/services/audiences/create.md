@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 65%
+source-wordcount: '507'
+ht-degree: 62%
 
 ---
 
 # Crear un público
 
-En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartir en aplicaciones de Experience Cloud.
+En [!UICONTROL Audience Library], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de Experience Cloud.
 
 Este artículo le ayuda a lo siguiente:
 
@@ -38,22 +38,22 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[ en ](overview.md).[!DNL Experience Cloud]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
 **Para crear un público**
 
-1. Haga clic en [!DNL Experience Cloud] aplicaciones (![Icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de audiencias].**
+1. Haga clic en [!DNL Experience Cloud] aplicaciones (![icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![Nueva audiencia](assets/add_icon_small.png)
+1. En la página [!UICONTROL Audiences], haga clic en **[!UICONTROL New]**. ![Nueva audiencia](assets/add_icon_small.png)
 
    ![Crear un público](assets/audience_create_new.png)
 
-1. En la página [!UICONTROL Crear nueva audiencia], complete los campos **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
-1. En [!UICONTROL Reglas], seleccione un grupo de informes de referencia y, a continuación, un origen de atributos:
+1. En la página [!UICONTROL Create New Audience], complete los campos **[!UICONTROL Title]** y **[!UICONTROL Description]**.
+1. En [!UICONTROL Rules], seleccione un grupo de informes de referencia y, a continuación, un origen de atributos:
 
-   * **[!UICONTROL Datos de Real-Time Analytics:]** (o datos sin procesar) Estos son datos de atributo derivados de solicitudes de imagen de Real-Time Analytics. Incluye eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
+   * **[!UICONTROL Real-Time Analytics Data:]** (o datos sin procesar) Son datos de atributo derivados de solicitudes de imagen de Real-Time Analytics. Incluye eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
    * **[!UICONTROL Experience Cloud:]** datos de atributo derivados de [!DNL Experience Cloud] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
-1. Defina las reglas de público y haga clic en **[!UICONTROL Guardar].**
+1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Save].**
 
 **Ejemplo: definir reglas para la audiencia compuesta**
 
@@ -69,18 +69,18 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 >
 >Le recomendamos que se informe sobre las variables de implementación para definir reglas de público.
 
-En [!UICONTROL Reglas], defina las selecciones de atributos de *`Home & Garden`*:
+En [!UICONTROL Rules], defina las selecciones de atributos *`Home & Garden`*:
 
-* **[!UICONTROL Fuente de atributos:]** Datos de Analytics sin procesar
-* **[!UICONTROL Grupo de informes:]** Grupo de informes 31
-* Dimensión = **[!UICONTROL Tienda (Merch) (v6)]** > **[!UICONTROL igual a]** > **[!UICONTROL Hogar y jardín]**
+* **[!UICONTROL Attribute Source:]** datos sin procesar de Analytics
+* **[!UICONTROL Report Suite:]** grupo de informes 31
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![Selecciones de atributos en la biblioteca de públicos](assets/home_garden.png)
 
 Los *Visitantes de Chrome y Safari* son un segmento de público compartido desde Analytics:
 
-* **[!UICONTROL Fuente de atributos:]** Experience Cloud
-* **[!UICONTROL Dimensión:]** Visitantes de Chrome y Safari
+* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Dimension:]** visitantes de Chrome y Safari
 
 ![Visitantes de Chrome y Safari](assets/chrome_safari.png)
 
@@ -97,4 +97,5 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.
+

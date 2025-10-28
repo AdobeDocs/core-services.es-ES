@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 74%
@@ -29,13 +29,13 @@ Por ejemplo:
 
 >[!NOTE]
 >
->Encontrará más información sobre el uso de [!UICONTROL Triggers] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
+>Encontrará más información sobre el uso de [!UICONTROL Triggers] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
 
 ## Tipos de déclencheur
 
 Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Este periodo varía según la implementación de la recopilación de datos, la carga en el canal, la configuración personalizada del activador definido y el flujo de trabajo en Adobe Campaign.
 
-* Abandono: puede crear un activador que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra.**&#x200B;**
+* Abandono: puede crear un activador que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra.****
 * **Acción:** puede crear activadores, por ejemplo, para que se desencadenen después de que los usuarios se suscriban a un boletín, de una suscripción por correo electrónico o cuando se soliciten tarjetas de crédito (confirmaciones). Si tiene un comercio minorista, puede crear un activador para visitantes que se suscriben a un programa de lealtad. Si se dedica al sector de los medios de comunicación y el entretenimiento, cree activadores para visitantes que vean un determinado programa y que podrían estar interesados en responder a una encuesta.
 * **Inicio y fin de sesión:** cree un activador para los eventos de inicio y fin de sesión.
 
@@ -48,12 +48,12 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >Actualmente, existe un límite técnico de 100 activadores.
 
 1. En Experience Cloud, haga clic en ![menú](../assets/menu-icon.png) y luego en **[!UICONTROL Data Collection/Launch]**.
-2. En la tarjeta [!UICONTROL Triggers], haga clic en **[!UICONTROL Manage Triggers]**.
-3. Haga clic en **[!UICONTROL New Trigger]** y luego especifique el tipo de déclencheur:
+1. En la tarjeta [!UICONTROL Triggers], haga clic en **[!UICONTROL Manage Triggers]**.
+1. Haga clic en **[!UICONTROL New Trigger]** y luego especifique el tipo de déclencheur:
 
    ![Resultado de los pasos](../assets/add-trigger.png)
 
-4. Configure el activador rellenando los siguientes campos y arrastrando métricas y dimensiones a los contenedores de la regla:
+1. Configure el activador rellenando los siguientes campos y arrastrando métricas y dimensiones a los contenedores de la regla:
 
    | Elemento | Descripción |
    |--- |--- |
@@ -66,8 +66,8 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
    {style="table-layout:auto"}
 
-5. Haga clic en **[!UICONTROL Save]**.
-6. Utilice Triggers para [realizar remarketing en tiempo real](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=es) en [!DNL Adobe Campaign].
+1. Haga clic en **[!UICONTROL Save]**.
+1. Utilice Triggers para [realizar remarketing en tiempo real](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=es) en [!DNL Adobe Campaign].
 
 ## Ejemplos de activadores
 
