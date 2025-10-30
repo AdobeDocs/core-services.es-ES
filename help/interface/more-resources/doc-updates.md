@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
+source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 68%
+source-wordcount: '636'
+ht-degree: 66%
 
 ---
 
 # Actualizaciones de documentación para Experience Cloud
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de Experience Cloud.
+
+**Octubre de 2025**
+
+Se ha actualizado [Compruebe su organización](../experience-cloud.md) con una nota sobre el mensaje de error si un administrador restringe el acceso a los productos de Adobe mediante direcciones IP.
 
 **Agosto de 2025**
 
