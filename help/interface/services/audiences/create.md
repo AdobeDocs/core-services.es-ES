@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -38,7 +38,7 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[ en ](overview.md).[!DNL Experience Cloud]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
@@ -97,5 +97,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
-
+Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.

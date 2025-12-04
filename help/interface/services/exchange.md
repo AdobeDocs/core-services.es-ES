@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 77e56cbe-92b6-4b18-ba13-e8178369e57c
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 93%
@@ -36,4 +36,3 @@ Exchange Marketplace es un destino único en el que puede buscar, examinar, sele
 * Busque y filtre por categoría, compañía, tipo, usuario y más.
 
 Consulte [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) para obtener más información.
-

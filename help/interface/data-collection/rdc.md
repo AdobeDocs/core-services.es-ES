@@ -2,7 +2,7 @@
 title: Recopilación de datos regionales
 description: Obtenga información acerca de la recopilación de datos regionales en Experience Cloud.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -45,3 +45,4 @@ La recopilación de datos de terceros incluye dominios de cookies que no coincid
 | Predeterminado + China* | Pekín*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 
 {style="table-layout:auto"}
+

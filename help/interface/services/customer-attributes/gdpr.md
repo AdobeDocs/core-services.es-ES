@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 91%
@@ -47,7 +47,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!DNL Custo
 
 &quot;contexto de compañía&quot;:
 
-* &quot;área de nombres&quot;: **imsOrgID**
+* &quot;espacio de nombres&quot;: **imsOrgID**
 * &quot;valor&quot;: &lt;*su valor de ID de organización de IMS*>
 
 &quot;usuarios&quot;:
@@ -55,7 +55,7 @@ Para realizar solicitudes de acceso y eliminación de datos para los [!DNL Custo
 * &quot;clave&quot;: &lt;*generalmente, el nombre del cliente*>
 * &quot;acción&quot;: ya sea **acceso** (access) o **eliminación** (delete)
 * &quot;ID de usuario&quot;:
-   * &quot;área de nombres&quot;: &lt;*ID de alias de la fuente de datos CRS*>
+   * &quot;espacio de nombres&quot;: &lt;*ID de alias de la fuente de datos CRS*>
    * &quot;tipo&quot;: **integrationCode**
    * &quot;valor&quot;: &lt;*ID de CRM*>
 * &quot;incluir&quot;: **CRS** (que es el producto de Adobe que se aplica a la solicitud)
@@ -103,4 +103,3 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
-

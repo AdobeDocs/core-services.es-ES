@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 6%
@@ -86,7 +86,7 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones de Exp
 
 ### Solicitar permiso en [!DNL Slack] (solución de problemas)
 
-Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_&#x200B;cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
+Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
 
 ![Solicitar integración de Slack](../assets/slack-workspace.png)
 
@@ -118,3 +118,4 @@ En el encabezado [!DNL Experience Cloud], puede ver las notificaciones a las que
 1. Haga clic **[!UICONTROL Notifications]** o **[!UICONTROL Announcements]**.
 
    En esta ubicación recibirá información importante sobre los productos, su colaboración con otros usuarios y otras actualizaciones relevantes. Las actualizaciones incluyen versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
+
