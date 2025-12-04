@@ -33,7 +33,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 ## Vaya a Experience Cloud Assets
 
-![Navegar a Experience Cloud Assets ](../../assets/asset-nav.png)
+![Navegar a Experience Cloud Assets &#x200B;](../../assets/asset-nav.png)
 
 ## Acceso a la barra de herramientas
 

@@ -38,7 +38,7 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[ en ](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
