@@ -37,7 +37,7 @@ En [!DNL Experience Cloud], haga clic en **[!UICONTROL Apps]** ![menú](assets/m
 
 * Se requiere el de **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los atributos del cliente.
 
-  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)
+  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es)
 
 ## Crear un archivo de datos
 
@@ -88,7 +88,7 @@ Siga estos pasos en la página [!UICONTROL Create Customer Attribute Source] de 
 
       * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL customer Settings], en la herramienta [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
-      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
+      * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que puede asociar con cada visitante.
 
         Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -178,4 +178,4 @@ En [!DNL Target], puede seleccionar un atributo del cliente en la sección [!UIC
 
 ![Uso de Atributos del cliente en Adobe Target](assets/crs-add-attribute-target.png)
 
-Ver [Crear una audiencia](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) en la ayuda de [!DNL Target].
+Ver [Crear una audiencia](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=es) en la ayuda de [!DNL Target].

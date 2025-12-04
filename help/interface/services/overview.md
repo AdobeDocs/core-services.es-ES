@@ -29,7 +29,7 @@ Esta ayuda describe los siguientes productos y servicios:
 |--- |--- |
 | [Componentes de la interfaz central](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
 | [Biblioteca de públicos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
-| [Atributos del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
+| [Atributos del cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
 | [Recursos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
 
 {style="table-layout:auto"}
