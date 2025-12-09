@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 50%
 
 ---
 
-# Organizaciones en Experience Cloud
+# Organizaciones y vinculación de cuentas
 
 Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud.
 
@@ -100,6 +100,6 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support).
 * Acceder a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
 

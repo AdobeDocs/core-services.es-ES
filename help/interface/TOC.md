@@ -5,10 +5,10 @@ breadcrumb-title: Interfaz y administración de Experience Cloud
 title: Interfaz y administración de Experience Cloud
 description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la biblioteca de públicos. Comparta Experience Cloud Assets.
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 88%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Interfaz y administración de Experience Cloud {#interface}
 
 + [Interfaz y administración de Experience Cloud](experience-cloud.md)
-+ [Página principal oculta](hidden-experience-cloud.md)
 + Servicios {#services}
-   + [Información general](services/overview.md)
+   + [Resumen de servicios](services/overview.md)
    + [Introducción](services/getting-started.md)
-   + [Información general oculta](services/hidden-overview.md)
-   + [Oculto: Introducción](services/hidden-getting-started.md)
    + Recursos {#assets}
-      + [Información general](services/assets/experience-cloud-assets.md)
+      + [Información general de Assets](services/assets/experience-cloud-assets.md)
       + [Gestionar usuarios de Creative Cloud](services/assets/manage-cc-users.md)
-      + [Compartir una carpeta de recursos](services/assets/share.md)
+      + [Compartir carpetas de recursos](services/assets/share.md)
       + [Cargar un recurso en una carpeta compartida](services/assets/upload.md)
       + [Requisitos para compartir un archivo de recursos](services/assets/file-reqs.md)
       + [Comportamiento de archivos compartidos](services/assets/behavior.md)
    + Biblioteca de públicos {#audiences}
-      + [Información general](services/audiences/overview.md)
+      + [Información general de los públicos](services/audiences/overview.md)
       + [Crear un público](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
+   + [Adobe Exchange](services/exchange.md)
    + Atributos del cliente {#customer-attributes}
-      + [Información general](services/customer-attributes/attributes.md)
+      + [Información general sobre Atributos del cliente](services/customer-attributes/attributes.md)
       + [Preguntas frecuentes](services/customer-attributes/faq-crs.md)
-      + [Acerca del archivo de datos y de las fuentes de datos](services/customer-attributes/crs-data-file.md)
-      + [Creación y carga del archivo de datos](services/customer-attributes/t-crs-usecase.md)
+      + [Archivos de datos y fuentes](services/customer-attributes/crs-data-file.md)
+      + [Creación y carga de datos](services/customer-attributes/t-crs-usecase.md)
       + [Opcional: carga a través de FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validar el esquema](services/customer-attributes/validate-schema.md)
-      + [Configurar suscripciones y activar el origen de datos](services/customer-attributes/subscription.md)
+      + [Configurar suscripciones](services/customer-attributes/subscription.md)
       + [Actualizar el esquema](services/customer-attributes/t-update-schema.md)
       + [Compatibilidad con el RGPD](services/customer-attributes/gdpr.md)
       + [Compatibilidad con la CCPA](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [IA generativa](features/generative-ai.md)
    + [IA agéntica](features/agentic-ai.md)
    + [Búsqueda unificada](features/search.md)
-   + [Aprendizaje personalizado](features/personalized-learning.md)
+   + [Preferencias de aprendizaje personalizadas](features/personalized-learning.md)
    + [Compatibilidad con exploradores e idiomas](browser-language.md)
 + Administración {#administration}
-   + [Administración de usuarios y licencias de productos](administration/admin-console.md)
-   + [Ver los detalles del usuario (Herramienta de administración)](administration/admin-tool-experience-cloud.md)
-   + [Organizaciones](administration/organizations.md)
-   + [Integraciones de Experience Cloud](administration/integrations.md)
+   + [Administración de usuarios y productos](administration/admin-console.md)
+   + [Herramienta de administración](administration/admin-tool-experience-cloud.md)
+   + [Organizaciones y vinculación de cuentas](administration/organizations.md)
+   + [Integraciones](administration/integrations.md)
 + Recopilación de datos {#data-collection}
    + [Programa de certificados administrados por Adobe](data-collection/adobe-managed-cert.md)
    + [Direcciones IP](data-collection/ip-addresses.md)

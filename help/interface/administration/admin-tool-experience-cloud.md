@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1178'
 ht-degree: 76%
 
 ---
 
-# Ver usuarios y directivas de Experience Cloud en [!UICONTROL Admin Tool]
+# Experience Cloud [!UICONTROL Admin Tool]
 
 Los administradores pueden ver una lista de los usuarios y las directivas de Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Admin Tool]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
 

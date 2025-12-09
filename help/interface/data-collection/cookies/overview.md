@@ -3,14 +3,14 @@ description: Obtenga información sobre cómo usan cookies las soluciones y los 
 title: Uso de cookies en Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 11%
 
 ---
 
-# Cookies utilizadas en Experience Cloud
+# Uso de cookies en Experience Cloud
 
 Adobe Experience Cloud usa cookies. Una cookie es un pequeño fragmento de datos que un sitio web envía a su explorador, que lo almacena para su uso posterior. Las cookies ayudan al sitio web a recordar cosas cuando usted visita de nuevo o se mueve entre páginas. Las cookies ayudan a rastrear las visitas y a diferenciar un dispositivo de otro.
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud usa cookies para rastrear información que no dura entre 
 
 Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si utiliza el servicio de identidad de Experience Platform (ECID) o cookies de Analytics más antiguas (como la cookie `s_vi`):
 
-* [Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio ECID siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
+* [Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): El servicio ECID siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
 
 * [Identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`): Depende de la configuración si las cookies son de origen o de terceros:
 
