@@ -70,7 +70,7 @@ Los algoritmos de búsqueda muestran primero los registros más relevantes. El o
 * Permisos de usuario para acceder a objetos
 * Porcentaje de coincidencia
 * Coincidencias exactas
-* La sección _[!UICONTROL Top Results]_muestra los 30 resultados principales.
+* La sección _[!UICONTROL Top Results]_&#x200B;muestra los 30 resultados principales.
 
 Para restringir la búsqueda, haga clic en una de las siguientes opciones:
 
