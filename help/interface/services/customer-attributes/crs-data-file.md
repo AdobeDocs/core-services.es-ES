@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 64%
 
 ---
 
-# Archivos y fuentes de datos de atributos del cliente
+# Fuentes y archivos de datos de Atributos del cliente
 
 Requisitos de archivos de datos y varios orígenes de datos para cargar datos de atributos del cliente en Experience Cloud.
 
@@ -27,7 +27,7 @@ Necesita acceso a CRM o datos similares de su empresa. Los datos que cargue en E
 | Tipo de archivo | Descripción |
 |--- |--- |
 | `.csv` | Archivo de valores separados por coma (como uno creado en Excel). Este archivo contiene los datos de atributos del cliente.   Requisitos de nomenclatura: Asegúrese de que las extensiones de nombre de archivo no contengan espacios en blanco. |
-| `.fin` | (Obligatorio) El archivo `.fin` indica al sistema que la carga de datos ha finalizado. El nombre del archivo `.fin` debe coincidir con el nombre del archivo `.csv`.  Adobe recomienda crear un archivo de texto vacío con la extensión `.fin`. Un archivo vacío ahorra espacio y tiempo de carga. **Nota:** No se permite cambiar el nombre de un archivo de `.fin` una vez que se ha cargado. El archivo de `.fin` debe cargarse por separado y no puede ser un archivo anteriormente cargado con un nombre diferente. Después de cargar el archivo `.fin` en el FTP de atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Esto difiere de otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). El archivo `.fin` no es necesario cuando se utiliza el método de carga de arrastrar y soltar. |
+| `.fin` | (Obligatorio) El archivo `.fin` indica al sistema que la carga de datos ha finalizado. El nombre del archivo `.fin` debe coincidir con el nombre del archivo `.csv`.  Adobe recomienda crear un archivo de texto vacío con la extensión `.fin`. Un archivo vacío ahorra espacio y tiempo de carga. **Nota:** No se permite cambiar el nombre de un archivo de `.fin` una vez que se ha cargado. El archivo de `.fin` debe cargarse por separado y no puede ser un archivo anteriormente cargado con un nombre diferente. Después de cargar el archivo `.fin` en el FTP de Atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Esto difiere de otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). El archivo `.fin` no es necesario cuando se utiliza el método de carga de arrastrar y soltar. |
 | `.gz` o `.zip` | `.gz` (gzip) o `.zip` - para archivos comprimidos. Un archivo `.zip` no puede contener más de un archivo en el archivo. Requisitos de nomenclatura: el nombre de `.zip` o `.gz` debe coincidir con el nombre del archivo `.csv` Por ejemplo, si el archivo de `.csv` es `crm_small.csv`, el archivo de `.zip` debe ser `crm_small.csv.zip` El archivo `.fin` debe coincidir con `.csv`. |
 
 
@@ -59,7 +59,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>columna de ID de cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al Servicio de Experience Cloud ID. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en Experience Cloud. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas posteriores </p> </td> 
@@ -111,11 +111,11 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Datos históricos </p> </td> 
-   <td colname="col2"> <p> los atributos del cliente están vinculados al perfil del visitante subyacente en [!DNL Analytics]. Como tal, [!DNL Customer Attributes] se asocian con el visitante durante toda la vida de ese perfil del visitante en [!DNL Analytics]. Este perfil incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno de Data Warehouse, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> <p> Tenga en cuenta que el método de relleno de Data Warehouse ya no estará disponible a partir de octubre de 2022. </td> 
+   <td colname="col2"> <p> Los atributos del cliente están vinculados al perfil del visitante subyacente en [!DNL Analytics]. Como tal, [!DNL Customer Attributes] se asocian con el visitante durante toda la vida de ese perfil del visitante en [!DNL Analytics]. Este perfil incluye el comportamiento que se produjo antes de que el cliente iniciara sesión por primera vez. </p> <p> Si utiliza el método de relleno de Data Warehouse, los datos se asocian a un post_visid_high/low basado en el ID de Analytics (AID). Si utiliza el Servicio de Experience Cloud ID, los datos se asocian a un post_visid_high/low basado en Experience Cloud ID (MID). </p> <p> Tenga en cuenta que el método de relleno de Data Warehouse ya no estará disponible a partir de octubre de 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos </p> </td> 
-   <td colname="col2"> <p>los atributos del cliente no están disponibles en las fuentes de datos. </p> </td> 
+   <td colname="col2"> <p>Los atributos del cliente no están disponibles en las fuentes de datos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) para obtener más información).
+(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) para obtener más información).
 
 En **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 
-Cree dos fuentes de atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente.
+Cree dos fuentes de Atributos del cliente utilizando ID con alias únicos que correspondan a los ID de cliente anteriores. El uso de este método permite enviar el mismo ID de referencia a varios orígenes de atributos del cliente.

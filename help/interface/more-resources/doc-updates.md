@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 65%
@@ -124,7 +124,7 @@ Se agregó cómo eliminar un atributo de cliente. Consulte [(Opcional) Actualiza
 
 **8 de junio de 2018**
 
-Se actualizó [Sobre el archivo de datos y las fuentes de datos para los atributos del cliente](../services/customer-attributes/crs-data-file.md) con información sobre la carga de varios archivos.
+Se actualizó [Sobre el archivo de datos y las fuentes de datos para los Atributos del cliente](../services/customer-attributes/crs-data-file.md) con información sobre la carga de varios archivos.
 
 **6 de junio de 2018**
 

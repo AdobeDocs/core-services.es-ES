@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -30,11 +30,11 @@ La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos d
 
 ![¿Qué son los datos del cliente empresariales?](assets/01_crs_usecase.png)
 
-Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]**.
+Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Consulte [Cargar datos de atributos del cliente](t-crs-usecase.md) para conocer este flujo de trabajo.
 
-## Ejemplos de atributos del cliente en Analytics y Target
+## Ejemplos de atributos del cliente de Analytics y Target
 
 Una vez que los datos se encuentren en Experience Cloud, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
 

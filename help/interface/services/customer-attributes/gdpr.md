@@ -1,12 +1,12 @@
 ---
-title: '[!DNL Customer attributes] Compatibilidad con el Reglamento General de Protección de Datos'
-description: Obtenga información sobre la compatibilidad de atributos del cliente con el Reglamento General de Protección de Datos
+title: '[!DNL Customer Attributes] Compatibilidad con el Reglamento General de Protección de Datos'
+description: Obtenga información sobre la compatibilidad de Atributos del cliente con el Reglamento General de Protección de Datos
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 91%

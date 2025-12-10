@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca la administración de usuarios y productos de Experience Cloud, Audiencias, atributos del cliente, Journey Orchestration, Ofertas, Places, Experience Platform y Mobile Services.
+description: Obtenga información sobre la administración de usuarios y productos de Experience Cloud, Audiencias, Atributos del cliente, Journey Orchestration, Ofertas, Places, Experience Platform y Mobile Services.
 solution: Experience Cloud
 title: Información general sobre los servicios de Experience Cloud
 feature: Central Interface Components
@@ -7,30 +7,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '278'
+ht-degree: 47%
 
 ---
 
-# Servicios de Experience Cloud
+# Información general sobre la interfaz Experience Cloud
 
-Esta documentación se aplica a las funciones del encabezado unificado de Experience Cloud, como el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]), la administración de usuarios y productos para Experience Cloud, las cookies, las preferencias de cuenta, las notificaciones, etc.
+Las características de la interfaz de Experience Cloud a veces se denominan _servicios principales_. Son las características del encabezado unificado, incluido el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]).
 
-Para acceder a estos servicios en Experience Cloud, seleccione **[!UICONTROL Application Selector]**
+Otras funciones compartidas incluyen administración (administración de usuarios y productos) para Experience Cloud, cookies, preferencias de cuenta, notificaciones, etc.
+
+Para acceder a los servicios y aplicaciones compartidos en Experience Cloud, haga clic en **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
+
+**Selector de aplicación**
 
 ![Servicios de Experience Cloud](../assets/platform-core-services.png)
 
-Esta ayuda describe los siguientes productos y servicios:
+Las páginas Servicios de esta guía describen los siguientes productos y servicios:
 
 | Servicio principal | Descripción |
 |--- |--- |
 | [Componentes de la interfaz central](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
 | [Biblioteca de públicos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
-| [Atributos del cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
+| [Atributos del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
 | [Recursos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
+| [Activadores](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Los déclencheur de Experience Cloud le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen conectores de datos, configuraciones personalizadas al producto central de Adobe, aplicaciones externas e informes. |
 
 {style="table-layout:auto"}
 

@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de Experience Cloud. Obtenga ayuda sobre la biblioteca de públicos, Atributos del cliente, Experience Cloud Assets y mucho más.
+description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de Experience Cloud. Obtenga ayuda sobre la Biblioteca de públicos, Atributos del cliente, Recursos de Experience Cloud y mucho más.
 title: Interfaz y administración de Experience Cloud
 hide: true
 hidefromtoc: true
@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -59,7 +59,7 @@ Para acceder a las aplicaciones y servicios de Experience Cloud proporcionados p
 
 ## Obtener ayuda y asistencia {#support}
 
-Acceda a aprendizaje y ayuda con el **[!UICONTROL Help center]** (![recurso](assets/help-icon.png)) en el encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda con el **[!UICONTROL Help center]** (![recurso](assets/help-icon.png)) en el encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
