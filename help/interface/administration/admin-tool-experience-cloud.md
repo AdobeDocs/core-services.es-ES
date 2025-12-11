@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 76%
+source-wordcount: '1182'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
 ## Página Usuarios
 
-Esta página muestra la lista completa de usuarios con acceso a Experience Cloud en su organización. Proporciona información acerca de la asignación de derechos de la aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
+Esta página muestra la lista completa de usuarios con acceso a Experience Cloud en su organización. Proporciona información sobre el derecho a la aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
 
 ![Página de usuarios de Admin Console](../assets/admin-tool-users.png)
 

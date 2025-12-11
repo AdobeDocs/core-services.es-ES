@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 84%
+ht-degree: 63%
 
 ---
 
@@ -22,11 +22,11 @@ Los [!DNL Customer Attributes] de Experience Cloud le permiten cargar los datos 
 
 ![Información general sobre Atributos del cliente](assets/custom_reports.png)
 
-## ¿Qué son los datos del cliente empresariales?
+## Acerca de los datos de clientes empresariales {#customer-data}
 
-Los datos empresariales residen en otros sistemas. Puede ser complejo y significar cosas diferentes para diferentes personas. Estos datos pueden incluir información como abonos, nivel de lealtad, edad, género, productos propios, intereses y valor a largo plazo.
+Los datos de clientes empresariales se refieren al conjunto de información de toda la organización recopilada acerca de clientes, clientes potenciales y socios. Residen en otros sistemas y pueden incluir información como suscripciones, nivel de lealtad, edad, sexo, productos propios, intereses y valor a largo plazo.
 
-La siguiente imagen es un ejemplo de un archivo de datos que muestra los datos del suscriptor de productos, incluidos los ID de miembro, los productos con derechos, los productos más utilizados, etc.
+La siguiente imagen es un ejemplo de un _archivo de datos_ que muestra los datos de suscriptores de productos, incluidos los ID de miembro, los productos destacados, los productos más utilizados, etc.
 
 ![¿Qué son los datos del cliente empresariales?](assets/01_crs_usecase.png)
 
