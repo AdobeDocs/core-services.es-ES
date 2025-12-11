@@ -54,7 +54,7 @@ Estos datos son datos de clientes empresariales de su CRM. Los datos pueden incl
 
 ## Crear un origen de atributos y cargar el archivo de datos
 
-Siga estos pasos en la página _[!UICONTROL Create Customer Attribute Source]_de Experience Cloud.
+Siga estos pasos en la página _[!UICONTROL Create Customer Attribute Source]_&#x200B;de Experience Cloud.
 
 >[!IMPORTANT]
 >
