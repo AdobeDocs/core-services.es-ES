@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,12 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Actualizaciones de documentación](doc-updates.md).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Enero de 2026
+
+| Fecha | Actualización | Descripción |
+| -----------| -----------| ---------- |
+| **viernes, 15 de enero de 2026** | Navegación izquierda personalizable | La navegación izquierda de Unified Shell en Experience Cloud ahora se puede personalizar. Puede reorganizar los elementos de navegación y acceder rápidamente a las funciones más importantes. Esta actualización mejora la eficacia al optimizar los flujos de trabajo, reducir la carga cognitiva y admitir la accesibilidad completa del teclado. Conserva un diseño coherente y moderno en todas las aplicaciones y permite una futura personalización. |
 
 ## Septiembre de 2025
 
@@ -40,7 +46,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Fecha | Función | Descripción |
 | -----------| -----------| ---------- |
-| 13 de febrero | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+| Febrero de 13 | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
 
 ## Enero de 2025
 
@@ -66,21 +72,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=es), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=es), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## Mayo de 2023
 
-* En el menú [!DNL Experience Cloud] **[!UICONTROL Help]**, la búsqueda de contenido se ha actualizado para filtrar por aplicación en los resultados de búsqueda [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+* En el menú [!DNL Experience Cloud] **[!UICONTROL Help]**, la búsqueda de contenido se ha actualizado para filtrar por aplicación en los resultados de búsqueda [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ## Julio de 2022
 
@@ -160,7 +166,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 | Función | Descripción |
 | ------- | ------- |
 | Encabezado y navegación de Experience Cloud | Las actualizaciones de Adobe Experience Cloud incluyen un cambio del encabezado en el tema claro, con la capacidad de volver fácilmente al tema oscuro y un vínculo para controlar las preferencias adicionales de su avatar de usuario en el encabezado de Experience Cloud. Aunque no todas las aplicaciones de Experience Cloud admiten temas, esta función desbloquea la futura compatibilidad con temas. |
-| Búsqueda global en Experience Cloud | Con esta versión, la búsqueda global en Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/es?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto comercial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
+| Búsqueda global en Experience Cloud | Con esta versión, la búsqueda global en Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto comercial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
 | Preferencias de idioma de Experience Cloud | Esta actualización incluye la posibilidad de establecer sus idiomas preferidos en las [Preferencias](https://experience.adobe.com/preferences) de Experience Cloud. |
 
 {style="table-layout:auto"}
@@ -260,7 +266,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 |--- |--- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=es).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -404,7 +410,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
