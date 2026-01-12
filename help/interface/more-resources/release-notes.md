@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,12 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Actualizaciones de documentación](doc-updates.md).
 
 Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Enero de 2026
+
+| Fecha | Actualización | Descripción |
+| -----------| -----------| ---------- |
+| **viernes, 15 de enero de 2026** | Navegación izquierda personalizable | La navegación izquierda de Unified Shell en Experience Cloud ahora se puede personalizar. Puede reorganizar los elementos de navegación y acceder rápidamente a las funciones más importantes. Esta actualización mejora la eficacia al optimizar los flujos de trabajo, reducir la carga cognitiva y admitir la accesibilidad completa del teclado. Conserva un diseño coherente y moderno en todas las aplicaciones y permite una futura personalización. |
 
 ## Septiembre de 2025
 
@@ -40,7 +46,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Fecha | Función | Descripción |
 | -----------| -----------| ---------- |
-| 13 de febrero | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
+| Febrero de 13 | Espectro 2 | El marco de aplicación de Experience Cloud, que incluye la barra de encabezado y los componentes a los que se accede desde ella, así como el carril izquierdo de navegación para determinadas aplicaciones, se actualizará a Spectrum 2, el sistema de diseño más reciente de Adobe. Este diseño actualizado incluye iconografía actualizada, pero la misma funcionalidad. Sin embargo, varios elementos del encabezado se han vuelto a colocar para alinearlos con otros sitios y aplicaciones de Adobe. |
 
 ## Enero de 2025
 
