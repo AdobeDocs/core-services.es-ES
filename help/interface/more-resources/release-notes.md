@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
+source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1337'
 ht-degree: 76%
 
 ---
@@ -26,9 +26,9 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 ## Enero de 2026
 
-| Fecha | Actualización | Descripción |
-| -----------| -----------| ---------- |
-| **viernes, 15 de enero de 2026** | Navegación izquierda personalizable | Ahora puede personalizar la navegación izquierda en Experience Cloud. Reordene los elementos de navegación y acceda rápidamente a las funciones que más importan. Esta actualización le ayuda a optimizar los flujos de trabajo, reducir la carga cognitiva y admite la accesibilidad completa del teclado. Conserva un diseño coherente y moderno en todas las aplicaciones y permite una futura personalización. |
+| Fecha | Actualización | Descripción | Productos aplicables |
+| -----------| -----------| ---------- | ---------- |
+| **jueves, 14 de enero de 2026** | Menú de navegación izquierdo personalizable | Ahora puede personalizar el menú de navegación izquierdo de una aplicación en Experience Cloud. Reordene los elementos de navegación y controle su visibilidad para acceder rápidamente a las funciones más importantes. Esta actualización le ayuda a optimizar los flujos de trabajo, reducir la carga cognitiva y admite la accesibilidad completa del teclado. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Edición B2B de Journey Optimizer</li><li>Dynamic Chat</li></ul> |
 
 ## Septiembre de 2025
 
