@@ -1,0 +1,62 @@
+---
+title: Trabajos de agente y consumo de crédito de IA
+description: Obtenga información acerca de los trabajos del agente y el consumo de crédito de IA en aplicaciones de Experience Cloud.
+solution: Experience Cloud
+landing-page-name: ai
+landing-page-breadcrumb-title: AI Documentation
+topic: Artificial Intelligence
+feature: Agentic AI, AI Tools
+role: Admin, User
+level: Intermediate
+source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 9%
+
+---
+
+
+## Trabajos de agente y consumo de crédito de IA
+
+### Trabajos del agente
+
+Un **trabajo del agente** es una serie de tareas y acciones que ejecuta un agente para lograr un resultado específico, tal como indican las entradas del cliente.
+
+Con indicadores de lenguaje natural a través del asistente de IA, los clientes pueden pedir a los agentes que realicen trabajos específicos. En función de estas entradas, Agent Orchestrator coordina los agentes adecuados para ejecutar cada paso dentro de las aplicaciones de Experience Cloud relevantes.
+
+### Créditos de IA
+
+Un **crédito de IA** es una métrica basada en el uso que cuantifica la ejecución de los trabajos del agente. Los créditos de IA no se aplican a las aplicaciones con prioridad de IA.
+
+### Consumo de crédito de IA
+
+El uso del crédito de IA puede variar según la complejidad y el valor del trabajo ejecutado:
+
+* Las tareas sencillas (a menudo de un solo paso) consumen menos créditos
+* Las tareas complejas (a menudo de varios pasos) consumen más créditos
+* Las tareas que implican razonamiento avanzado, validación, coordinación de varios agentes o integración consumen más créditos
+
+#### Tasas de consumo de crédito de IA estimadas
+
+| Agente | Trabajo | Aplicaciones compatibles | Créditos de IA estimados |
+|------|-----|------------------------|----------------------|
+| Audience Agent | Ideación de audiencia/cuenta | Real-Time CDP; Adobe Journey Optimizer | 50 |
+| Audience Agent | Creación de cuentas/audiencias basada en el conocimiento | Real-Time CDP; Adobe Journey Optimizer | 150 |
+| Audience Agent | Administración de audiencias y cuentas | Real-Time CDP; Adobe Journey Optimizer | 25 |
+| Audience Agent | Análisis de audiencia/cuenta | Real-Time CDP; Adobe Journey Optimizer | 25 |
+| Audience Agent | Ideación de grupo de compra | Adobe Journey Optimizer (B2B) | 25 |
+| Data Insights Agent | Análisis y visualización de datos | Customer Journey Analytics | 25 |
+| Data Insights Agent | Contar historias y compartir datos | Customer Journey Analytics | 100 |
+| Journey Agent | ideación de recorrido | Adobe Journey Optimizer (B2B) | 25 |
+| Journey Agent | creación de recorridos | Adobe Journey Optimizer (B2B, B2C) | 30 |
+| Journey Agent | análisis de recorrido | Adobe Journey Optimizer (B2B, B2C) | 50 |
+| Journey Agent | administración de recorrido | Adobe Journey Optimizer (B2B, B2C) | 25 |
+| Agente de soporte del producto | Solución de problemas basada en conocimientos | Varias aplicaciones de Experience Cloud | 0 |
+| Agente de soporte del producto | Creación y seguimiento de casos de soporte | Varias aplicaciones de Experience Cloud | 10 |
+| Agente del Asesor de contenido | Detección de contenido | Adobe Experience Manager Cloud Services | 5 |
+| Agente del Asesor de contenido | Actualización y optimización de contenido | Adobe Experience Manager Cloud Services | 10 |
+| Brand Experience Agent | Compatibilidad de implementación | Adobe Experience Manager Cloud Services | 5 |
+| Brand Experience Agent | Modernización del sitio | Adobe Experience Manager Cloud Services | 100 |
+
+**Nota:** El consumo real de crédito de IA puede variar según el número de pasos ejecutados y las iteraciones por paso.
+
