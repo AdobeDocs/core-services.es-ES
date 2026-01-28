@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
+source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -40,23 +40,23 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 | Agente | Trabajo | Aplicaciones compatibles | Créditos de IA estimados |
 |------|-----|------------------------|----------------------|
-| Audience Agent | Ideación de audiencia/cuenta | Real-Time CDP; Adobe Journey Optimizer | 50 |
-| Audience Agent | Creación de cuentas/audiencias basada en el conocimiento | Real-Time CDP; Adobe Journey Optimizer | 150 |
-| Audience Agent | Administración de audiencias y cuentas | Real-Time CDP; Adobe Journey Optimizer | 25 |
-| Audience Agent | Análisis de audiencia/cuenta | Real-Time CDP; Adobe Journey Optimizer | 25 |
-| Audience Agent | Ideación de grupo de compra | Adobe Journey Optimizer (B2B) | 25 |
-| Data Insights Agent | Análisis y visualización de datos | Customer Journey Analytics | 25 |
-| Data Insights Agent | Contar historias y compartir datos | Customer Journey Analytics | 100 |
-| Journey Agent | ideación de recorrido | Adobe Journey Optimizer (B2B) | 25 |
-| Journey Agent | creación de recorridos | Adobe Journey Optimizer (B2B, B2C) | 30 |
-| Journey Agent | análisis de recorrido | Adobe Journey Optimizer (B2B, B2C) | 50 |
-| Journey Agent | administración de recorrido | Adobe Journey Optimizer (B2B, B2C) | 25 |
-| Agente de soporte del producto | Solución de problemas basada en conocimientos | Varias aplicaciones de Experience Cloud | 0 |
-| Agente de soporte del producto | Creación y seguimiento de casos de soporte | Varias aplicaciones de Experience Cloud | 10 |
-| Agente del Asesor de contenido | Detección de contenido | Adobe Experience Manager Cloud Services | 5 |
-| Agente del Asesor de contenido | Actualización y optimización de contenido | Adobe Experience Manager Cloud Services | 10 |
-| Brand Experience Agent | Compatibilidad de implementación | Adobe Experience Manager Cloud Services | 5 |
-| Brand Experience Agent | Modernización del sitio | Adobe Experience Manager Cloud Services | 100 |
+| Audience Agent | Ideación de audiencia/cuenta | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
+| Audience Agent | Creación de cuentas/audiencias basada en el conocimiento | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
+| Audience Agent | Administración de audiencias y cuentas | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience Agent | Análisis de audiencia/cuenta | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience Agent | Ideación de grupo de compra | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Data Insights Agent | Análisis y visualización de datos | <ul><li>Customer Journey Analytics</li></ul> | 25 |
+| Data Insights Agent | Contar historias y compartir datos | <ul><li>Customer Journey Analytics</li></ul> | 100 |
+| Journey Agent | ideación de recorrido | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Journey Agent | creación de recorridos | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
+| Journey Agent | análisis de recorrido | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
+| Journey Agent | administración de recorrido | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 25 |
+| Agente de soporte del producto | Solución de problemas basada en conocimientos | <ul><li>Varias aplicaciones de Experience Cloud</li></ul> | 0 |
+| Agente de soporte del producto | Creación y seguimiento de casos de soporte | <ul><li>Varias aplicaciones de Experience Cloud</li></ul> | 10 |
+| Agente del Asesor de contenido | Detección de contenido | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
+| Agente del Asesor de contenido | Actualización y optimización de contenido | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 10 |
+| Brand Experience Agent | Compatibilidad de implementación | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
+| Brand Experience Agent | Modernización del sitio | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 100 |
 
 **Nota:** El consumo real de crédito de IA puede variar según el número de pasos ejecutados y las iteraciones por paso.
 
