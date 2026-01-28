@@ -2,21 +2,20 @@
 title: Trabajos de agente y consumo de crédito de IA
 description: Obtenga información acerca de los trabajos del agente y el consumo de crédito de IA en aplicaciones de Experience Cloud.
 solution: Experience Cloud
-landing-page-name: ai
-landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
+source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 14%
 
 ---
 
+# Trabajos del agente y consumo de crédito de IA
 
-# Trabajos de agente y consumo de crédito de IA
+Obtenga información acerca de los trabajos de IA auténticos y el consumo de crédito de IA en aplicaciones de Experience Cloud.
 
 ## Trabajos del agente
 
@@ -36,9 +35,9 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 * Las tareas complejas (a menudo de varios pasos) consumen más créditos
 * Las tareas que implican razonamiento avanzado, validación, coordinación de varios agentes o integración consumen más créditos
 
-### Tasas de consumo de crédito de IA estimadas
+### Tasas estimadas de consumo de crédito de IA
 
-| Agente | Trabajo | Aplicaciones compatibles | Créditos de IA estimados |
+| Agente | Trabajo | Aplicaciones compatibles | Créditos estimados de IA |
 |------|-----|------------------------|----------------------|
 | Audience Agent | Ideación de audiencia/cuenta | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
 | Audience Agent | Creación de cuentas/audiencias basada en el conocimiento | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
@@ -58,5 +57,6 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Brand Experience Agent | Compatibilidad de implementación | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
 | Brand Experience Agent | Modernización del sitio | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 100 |
 
-**Nota:** El consumo real de crédito de IA puede variar según el número de pasos ejecutados y las iteraciones por paso.
-
+>[!NOTE]
+>
+>El consumo real de crédito de IA puede variar según el número de pasos ejecutados y las iteraciones por paso.
