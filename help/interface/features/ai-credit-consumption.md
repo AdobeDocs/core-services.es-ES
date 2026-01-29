@@ -6,10 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 14%
+source-wordcount: '369'
+ht-degree: 13%
 
 ---
 
@@ -19,13 +21,13 @@ Obtenga información acerca de los trabajos de IA auténticos y el consumo de cr
 
 ## Trabajos del agente
 
-Un **trabajo del agente** es una serie de tareas y acciones que ejecuta un agente para lograr un resultado específico, tal como indican las entradas del cliente.
+Un _trabajo de agente_ es una serie de tareas y acciones que ejecuta un agente para lograr un resultado específico, tal como indican las entradas del cliente.
 
-Con indicadores de lenguaje natural a través del asistente de IA, los clientes pueden pedir a los agentes que realicen trabajos específicos. En función de estas entradas, Agent Orchestrator coordina los agentes adecuados para ejecutar cada paso dentro de las aplicaciones de Experience Cloud relevantes.
+Con las indicaciones en lenguaje natural a través del asistente de IA, puede pedir a los agentes que realicen trabajos específicos. En función de estas entradas, Agent Orchestrator coordina los agentes adecuados para ejecutar cada paso dentro de las aplicaciones de Experience Cloud relevantes.
 
 ## Créditos de IA
 
-Un **crédito de IA** es una métrica basada en el uso que cuantifica la ejecución de los trabajos del agente. Los créditos de IA no se aplican a las aplicaciones con prioridad de IA.
+Un _crédito de IA_ es una métrica basada en el uso que cuantifica la ejecución de trabajos del agente. Los créditos de IA no se aplican a [aplicaciones con prioridad de IA](/help/interface/features/agentic-ai.md).
 
 ## Consumo de crédito de IA
 
@@ -45,7 +47,6 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Audience Agent | Análisis de audiencia/cuenta | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Audience Agent | Ideación de grupo de compra | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | Análisis y visualización de datos | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | Contar historias y compartir datos | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | ideación de recorrido | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | creación de recorridos | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
 | Journey Agent | análisis de recorrido | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
