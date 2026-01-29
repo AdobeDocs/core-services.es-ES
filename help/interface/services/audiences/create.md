@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -38,7 +38,7 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[ en ](overview.md).[!DNL Experience Cloud]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
@@ -55,9 +55,9 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
    * **[!UICONTROL Real-Time Analytics Data:]** (o datos sin procesar) Son datos de atributo derivados de solicitudes de imagen de Real-Time Analytics. Incluye eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
 
-   >[!NOTE]
-   >
-   >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
+     >[!NOTE]
+     >
+     >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
 
    * **[!UICONTROL Experience Cloud:]** datos de atributo derivados de [!DNL Experience Cloud] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
@@ -97,4 +97,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.
