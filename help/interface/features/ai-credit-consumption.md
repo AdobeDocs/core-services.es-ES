@@ -1,21 +1,21 @@
 ---
 title: Trabajos de agente y consumo de crédito de IA
-description: Obtenga información acerca de los trabajos del agente y el consumo de crédito de IA en aplicaciones de Experience Cloud.
+description: Obtenga información acerca de los trabajos del agente y las tasas de consumo de crédito de IA en las aplicaciones de Experience Cloud.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 13%
+source-wordcount: '388'
+ht-degree: 12%
 
 ---
 
 # Trabajos del agente y consumo de crédito de IA
 
-Obtenga información acerca de los trabajos de IA auténticos y el consumo de crédito de IA en aplicaciones de Experience Cloud.
+Obtenga información acerca de los trabajos de IA auténticos y el consumo de crédito de IA en aplicaciones de Experience Cloud. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones de Experience Cloud existentes, consulte [IA agéntica en Experience Cloud](agentic-ai.md#existing-apps).
 
 ## Trabajos del agente
 
