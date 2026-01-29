@@ -11,9 +11,9 @@ level: Intermediate
 hidefromtoc: true
 index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da7a2a9e9aa8365288fa6e05afb6485e4c33ccb2
+source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ El acceso a los agentes de IA en Experience Cloud está disponible en:
 * [Aplicaciones de Experience Cloud existentes](#existing-apps)
 * [Aplicaciones de Experience Cloud con prioridad de IA](#ai-first-apps)
 
-Las secciones siguientes describen cómo se puede habilitar la IA auténtica en Experience Cloud.
+Las secciones siguientes describen estas dos formas de habilitar la IA auténtica en Experience Cloud.
 
 ## Aplicaciones de Experience Cloud existentes {#existing-apps}
 
@@ -39,11 +39,11 @@ En las aplicaciones existentes, puede usar lenguaje natural para instruir a los 
 
 Los agentes se pueden habilitar en aplicaciones de Experience Cloud existentes para clientes de una de las siguientes categorías:
 
-* Adquirió una licencia de créditos de IA de agentes de Adobe Experience Platform
-* Están incluidos en una prueba sujeta a uso (se proporcionan créditos de IA limitados)
-* Se ha realizado la transacción del SKU de promoción de Agent Orchestrator (licencia de prueba con tiempo limitado)
+* Ha adquirido una licencia de Adobe Experience Platform Agents AI Credit
+* Se le incluye en una prueba sujeta a uso (se proporcionan créditos de IA limitados)
+* Ha realizado transacciones con el SKU de promoción de Agent Orchestrator (licencia de prueba con tiempo limitado)
 
-A medida que usa agentes de IA para realizar _trabajos de agente_, consume créditos de IA. Obtenga información al respecto en [Trabajos de agente y consumo de crédito de IA](/help/interface/features/ai-credit-consumption.md).
+El uso de agentes de IA para realizar _trabajos de agente_ consume créditos de IA. Obtenga más información acerca de los trabajos del agente y los créditos de IA en _[Trabajos del agente y consumo de crédito de IA](/help/interface/features/ai-credit-consumption.md)_.
 
 Los agentes de IA siguen _sus_ entradas, supervisión y respetan los controles de acceso de nivel de producto. Solo puede realizar trabajos o acceder a datos que esté autorizado a utilizar en el producto de Experience Cloud subyacente.
 
