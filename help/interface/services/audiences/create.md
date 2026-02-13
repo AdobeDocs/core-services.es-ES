@@ -8,9 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 404d76931c8d315efba202536f032ddac223c530
+TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 507
 ht-degree: 62%
 
 ---
@@ -38,7 +44,7 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[ en ](overview.md).[!DNL Experience Cloud]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
@@ -97,4 +103,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.
