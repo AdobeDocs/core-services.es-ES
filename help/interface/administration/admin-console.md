@@ -73,7 +73,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 | Vínculo de ayuda | Descripción |
 | ------- |------- |
-| [Registro de auditoría](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Rastree todos los cambios realizados en Admin Console. |
+| [Registro de auditoría](https://helpx.adobe.com/es/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Rastree todos los cambios realizados en Admin Console. |
 
 
 ## Recursos específicos de la aplicación
