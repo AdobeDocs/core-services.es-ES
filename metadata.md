@@ -6,14 +6,14 @@ product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/es/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.es-ES
-source-git-commit: 4c879ad5a5392924950694e89bc94f8cc1e84aa3
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la guía del usuario de los archivos TOC.md en el repositorio. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo de TOC.md.
 
 | metadatos | qué hace |
-|--- |--- |
+| --- | --- |
 | solution-title | Se utiliza como vínculo en el encabezado del artículo |
 | solution-hub-url | Abrir la página helpx hub |
 | solution-icon | Muestra el icono de la solución junto al título de la solución. Aún no se ha implementado |
@@ -40,6 +40,6 @@ El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la 
 En el archivo TOC.md
 
 | metadatos | qué hace |
-|--- |--- |
+| --- | --- |
 | user-guide-title | Se utiliza como vínculo en el encabezado del artículo |
 | user-guide-url | Abrir la página helpx hub |
