@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
@@ -37,7 +46,7 @@ Una referencia terminológica para los usuarios de Experience Cloud y cómo se u
 | **Aplicación del uso de datos** | No tiene un uso especial. | Las políticas, el diseño del sistema, las prácticas y los procedimientos adoptados y definidos por un sistema (aplicaciones, servicios, SDK, API, etc.) para utilizar los metadatos de uso de datos y permitir el cumplimiento de las políticas de privacidad corporativas de Adobe, las consideraciones contractuales y los principios generales de privacidad. |
 | **Dispositivo** | No tiene un uso especial. | Un dispositivo de hardware, como una tableta, un teléfono o un equipo de escritorio, en el que se ejecutan las aplicaciones. |
 | **Cooperación entre dispositivos** | No tiene un uso especial. | Un grupo de marcas que han acordado compartir datos sobre los dispositivos que utilizan los consumidores para mejorar la identificación de un individuo en todos los dispositivos y ofrecer experiencias más significativas y coherentes. |
-| **[!UICONTROL Experience Cloud ID Service](ECID)** | No tiene un uso especial. | ID única y persistente asignada a un visitante del sitio. Es una entidad específica que puede usar el servicio de identidad de Experience Platform. [Más...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) |
+| **[!UICONTROL Experience Cloud ID Service] (ECID)** | No tiene un uso especial. | ID única y persistente asignada a un visitante del sitio. Es una entidad específica que puede usar el servicio de identidad de Experience Platform. [Más...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) |
 | **[!UICONTROL Experience Platform Identity Service]** | No tiene un uso especial. | El servicio que vincula identidades. Es el servicio de vinculación de dispositivos para la administración de experiencias individualizadas. |
 | **Vinculación** | No tiene un uso especial. La Vinculación hace referencia a la navegación mediante hipervínculos y la de elementos como fuentes, propiedades, capas y demás. | En Experience Cloud, la vinculación suele referirse a la vinculación de cuentas de distintas aplicaciones con la interfaz.<br>Consulte [Organizaciones y vinculación de cuentas](../administration/organizations.md).<br>La vinculación también hace referencia a URL estándar para informes de Analytics enviados a otros usuarios. |
 | **Ubicaciones** | En Creative Cloud, la ubicación hace referencia a ubicaciones de archivos o a una ubicación en una imagen o documento abierto. | En Experience Cloud, las ubicaciones son los lugares desde donde los públicos pueden visualizar el contenido e interactuar con él. La asociación entre Ubicaciones y Contenido puede ser más o menos estática, o puede administrarse dinámicamente según las reglas de una campaña. Una ubicación siempre pertenece a un Canal específico que determina cómo se puede entregar el contenido y cómo se pueden recopilar las métricas.<br>Algunos ejemplos son:<ul><li>Sitios</li><li>Propiedades (Social)</li><li>Mostrar inventario</li><li>Páginas de aterrizaje</li><li>Aplicaciones móviles</li><li>Ranuras (vídeo)</li></ul> |
