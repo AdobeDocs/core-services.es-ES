@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 95%
@@ -40,7 +40,7 @@ Los tipos de archivo que puede cargar incluyen la mayoría de imágenes, documen
 Las limitaciones de tamaño de archivo provienen del explorador y pueden variar de un explorador a otro:
 
 | Explorador | Cargar (tamaño total) | Descargar (por archivo) |
-|--- |--- |--- |
+| --- | --- | --- |
 | Internet Explorer 6 | 2 GB | 2 GB 4 GB para transferencias fraccionadas o con relación estrecha. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |

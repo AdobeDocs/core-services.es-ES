@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d4734c4b43defedb20b7eb65556f56987dce02ae
+source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 4%
@@ -55,7 +55,7 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Agente de soporte del producto | Creación y seguimiento de casos de soporte | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li>Adobe Journey Optimizer (Ediciones B2C y B2B)<li>Customer Journey Analytics (Ediciones B2C y B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Crear un nuevo ticket de soporte para mi trabajo de segmentación con errores_</li><li>_¿Cuál es el estado del ticket E-001772068?_</li></ul> |
 | Agente del Asesor de contenido | Detección de contenido | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Mostrar fragmentos de contenido para crear la campaña de ofertas WKND._</li><li>_Buscar imágenes PNG para empaquetar productos._</li><li>_Mostrar imágenes etiquetadas de Office en la carpeta WKND._</li><li>_¿Hay algún svg en la carpeta WKND?_</li><li>_Mostrarme todos los formularios de solicitud de préstamo._</li><li>_Busco formularios de incorporación de empleados._</li></ul> |
 | Agente del Asesor de contenido | <ul><li>Optimización de contenido</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Cree una representación de 2000 px como JPEG con una calidad del 80 %._</li><li>_Crear una representación para una historia de Instagram._</li><li>_Superponga la imagen con gráficos con un descuento del 30% sobre el titular promocional, situándola a 100 píxeles del centro._</li><li>_Cambiar el color de fondo del PNG a #ff8932._</li></ul> |
-| Brand Experience Agent | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Solucionar problemas de mi canalización con errores_</li><li>_Enumerar mis canalizaciones con errores para el programa principal._</li><li>_Analizar mi canalización con error llamada &quot;Canalización de desarrollo&quot;._</li><li>_Solucionar problemas de ejecución de canalización 1234567_</li></ul> |
+| Agente de control de marca | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Solucionar problemas de mi canalización con errores_</li><li>_Enumerar mis canalizaciones con errores para el programa principal._</li><li>_Analizar mi canalización con error llamada &quot;Canalización de desarrollo&quot;._</li><li>_Solucionar problemas de ejecución de canalización 1234567_</li></ul> |
 | Brand Experience Agent | Modernización del sitio | Adobe Experience Manager Cloud Services | 100 | <ul><li>_Migrar la página`https://wknd-trendsetters.site`_</li></ul> |
 
 >[!NOTE]

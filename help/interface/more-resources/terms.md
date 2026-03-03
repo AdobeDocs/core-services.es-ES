@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 96%
@@ -35,7 +35,7 @@ ht-degree: 96%
 Una referencia terminológica para los usuarios de Experience Cloud y cómo se utilizan esos términos en Creative Cloud (cuando corresponda).
 
 | Término | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **Recurso** | En Creative Cloud, un recurso suele ser un archivo de imagen.<br>Los recursos pueden ser capas en un archivo de Photoshop, diapositivas en un archivo de PowerPoint, páginas en un archivo PDF, archivos en un ZIP. | En Experience Cloud, un recurso es un documento digital, una imagen, un vídeo o un audio que puede tener varias representaciones y varios subrecursos. Algunos ejemplos son:<ul><li>Archivo</li><li>Documento</li><li>Imagen</li><li>Vídeo</li><li>Clip de audio</li><li>Presentación</li><li>Plantilla de imagen</li><li>Plantilla de vídeo</li></ul> |
 | **Atributo** | | Qué tienen en común las personas si cumplen los requisitos para un [segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es). (Similar a una [característica](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=es) de Audience Manager). |
 | **Públicos** | En Creative Cloud, un público puede ser la persona que visualiza un vídeo. | En Experience Cloud, los públicos son colecciones de personas que puede seleccionar como destino en actividades de campañas.<br>El abono a un público puede determinarse en función de un conjunto de reglas, operando desde el contexto del visitante, o en función de una lista fija. Por ejemplo, una lista de suscriptores de correo electrónicos o miembros de un grupo de Facebook.<br>En [Públicos de Experience Cloud](../services/audiences/overview.md), la creación y la administración de públicos son similares a la creación y el uso de segmentos, con la particularidad adicional de la capacidad de compartirlas en Experience Cloud.<br>**Adobe Target**<br> Los públicos antes se denominaban segmentos en Adobe Target.<br>**Adobe Analytics**<br> Los públicos pueden considerarse como visitantes de un sitio web en Analytics. Puede crear segmentos de público y publicar el público en Experience Cloud. |

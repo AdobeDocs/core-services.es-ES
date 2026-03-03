@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 646
 ht-degree: 74%
@@ -72,7 +72,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 1. Configure el activador rellenando los siguientes campos y arrastrando métricas y dimensiones a los contenedores de la regla:
 
    | Elemento | Descripción |
-   |--- |--- |
+   | --- | --- |
    | [!UICONTROL Name] | Nombre alternativo de este activador. |
    | [!UICONTROL Description] | Descripción de este activador, el uso que le dará, etc. |
    | [!UICONTROL Report Suite] | El [grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=es) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +43,7 @@ Para buscar las preferencias de Experience Cloud, haga clic en **[!UICONTROL Pro
 En la página [!UICONTROL Experience Cloud preferences], puede administrar las siguientes características de la cuenta:
 
 | Función | Descripción |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre de su perfil aparecen al iniciar sesión en Adobe.com, en los productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
 | [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se usa al iniciar sesión en Experience Cloud. |
 | [!UICONTROL Product usage data] | Puede controlar qué datos de uso del producto se comparten con Adobe al utilizar aplicaciones de Experience Cloud. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |

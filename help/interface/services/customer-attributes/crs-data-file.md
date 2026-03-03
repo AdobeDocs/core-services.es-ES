@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +37,7 @@ Necesita acceso a CRM o datos similares de su empresa. Los datos que cargue en E
 ## Tipos de archivos permitidos y requisitos de nombre
 
 | Tipo de archivo | Descripción |
-|--- |--- |
+| --- | --- |
 | `.csv` | Archivo de valores separados por coma (como uno creado en Excel). Este archivo contiene los datos de atributos del cliente.   Requisitos de nomenclatura: Asegúrese de que las extensiones de nombre de archivo no contengan espacios en blanco. |
 | `.fin` | (Obligatorio) El archivo `.fin` indica al sistema que la carga de datos ha finalizado. El nombre del archivo `.fin` debe coincidir con el nombre del archivo `.csv`.  Adobe recomienda crear un archivo de texto vacío con la extensión `.fin`. Un archivo vacío ahorra espacio y tiempo de carga. **Nota:** No se permite cambiar el nombre de un archivo de `.fin` una vez que se ha cargado. El archivo de `.fin` debe cargarse por separado y no puede ser un archivo anteriormente cargado con un nombre diferente. Después de cargar el archivo `.fin` en el FTP de Atributos del cliente, el sistema recupera los datos con rapidez (en un minuto). Esto difiere de otros sistemas basados en FTP de Adobe, que toman datos con menos frecuencia (alrededor de una vez por hora). El archivo `.fin` no es necesario cuando se utiliza el método de carga de arrastrar y soltar. |
 | `.gz` o `.zip` | `.gz` (gzip) o `.zip` - para archivos comprimidos. Un archivo `.zip` no puede contener más de un archivo en el archivo. Requisitos de nomenclatura: el nombre de `.zip` o `.gz` debe coincidir con el nombre del archivo `.csv` Por ejemplo, si el archivo de `.csv` es `crm_small.csv`, el archivo de `.zip` debe ser `crm_small.csv.zip` El archivo `.fin` debe coincidir con `.csv`. |

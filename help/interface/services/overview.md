@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 278
 ht-degree: 47%
@@ -46,7 +46,7 @@ Para acceder a los servicios y aplicaciones compartidos en Experience Cloud, hag
 Las páginas Servicios de esta guía describen los siguientes productos y servicios:
 
 | Servicio principal | Descripción |
-|--- |--- |
+| --- | --- |
 | [Componentes de la interfaz central](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
 | [Biblioteca de públicos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
 | [Atributos del cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
