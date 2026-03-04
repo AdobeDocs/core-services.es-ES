@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: ae927640b65458cb1c0df1a817207220f7dfe0ec
+source-git-commit: 9afed61de0d83cf56e5d2447af68ab6851e4a716
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1026'
 ht-degree: 4%
 
 ---
@@ -55,8 +55,9 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Agente de soporte del producto | Creación y seguimiento de casos de soporte | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li>Adobe Journey Optimizer (Ediciones B2C y B2B)<li>Customer Journey Analytics (Ediciones B2C y B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li><em>Crear un nuevo ticket de soporte para mi trabajo de segmentación con errores</em></li><li><em>¿Cuál es el estado del ticket E-001772068?</em></li></ul> |
 | Agente del Asesor de contenido | Detección de contenido | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li><em>Mostrar fragmentos de contenido para crear la campaña de ofertas WKND.</em></li><li><em>Buscar imágenes PNG para empaquetar productos.</em></li><li><em>Mostrar imágenes etiquetadas de Office en la carpeta WKND.</em></li><li><em>¿Hay algún svg en la carpeta WKND?</em></li><li><em>Mostrarme todos los formularios de solicitud de préstamo.</em></li><li><em>Busco formularios de incorporación de empleados.</em></li></ul> |
 | Agente del Asesor de contenido | <ul><li>Optimización de contenido</li></ul> | <ul><li>Adobe Experience Manager Assets y Dynamic Media</li></ul> | 10 | <ul><li><em>Cree una representación de 2000 px como JPEG con una calidad del 80 %.</em></li><li><em>Crear una representación para una historia de Instagram.</em></li><li><em>Superponga la imagen con gráficos con un descuento del 30% sobre el titular promocional, situándola a 100 píxeles del centro.</em></li><li><em>Cambiar el color de fondo del PNG a #ff8932.</em></li></ul> |
-| Agente de control de marca | <ul><li>Comprobaciones de directivas de marca</li></ul><ul><li>Permisos con Content Hub</li></ul><ul><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Sites (Políticas de marca)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>¿Esta página está alineada con mi marca? `https://www.website/en.html`</em></li><li><em>Mostrar todas las reglas ABAC de Content Hub existentes</em></li><li><em>¿Alguno de mis recursos caducará pronto?</em></li></ul> |
-| Brand Experience Agent | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>Crear un formulario de contacto con campos de nombre, correo electrónico y mensaje</em></li><li><em>Solucionar problemas de mi canalización con errores</em></li><li><em>Enumerar mis canalizaciones con errores para el programa principal.</em></li></ul> |
+| Agente de control de marca | <ul><li>Comprobaciones de directivas de marca</li></ul><ul><li>Permisos con Content Hub</li></ul><ul><li>Caducidad de recursos</li></ul> | <ul><li>Adobe Experience Manager Sites (Políticas de marca)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>¿Esta página está alineada con mi marca? `https://www.website/en.html`</em></li><li><em>Mostrar todas las reglas ABAC de Content Hub existentes</em></li><li><em>¿Alguno de mis recursos caducará pronto?</em></li></ul> |
+| Brand Experience Agent | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>El `URL`, actualice el titular a Hello world</em></li><li><em>Crear un formulario de contacto con campos de nombre, correo electrónico y mensaje</em></li><li><em>Solucionar problemas de mi canalización con errores</em></li><li><em>Enumerar mis canalizaciones con errores para el programa principal.</em></li></ul> |
+| Brand Experience Agent | Modernización del sitio | Adobe Experience Manager Cloud Services | 100 | <ul><li><em>Migrar la página `https://wknd-trendsetters.site`</em></li></ul> |
 
 >[!NOTE]
 >
@@ -66,4 +67,4 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 * [GenAI en Experience Cloud](/help/interface/features/generative-ai.md)
 * [Inteligencia artificial aplicada a la agencia en Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Prueba enlazada a uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada a uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
