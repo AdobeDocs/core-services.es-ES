@@ -6,16 +6,16 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
+source-git-commit: 1897e2162ba53ebc43a78877a61ebf4370127631
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1001'
 ht-degree: 4%
 
 ---
 
 # Trabajos de agente de Adobe Experience Platform y consumo de créditos de IA
 
-Actualización: **miércoles, 03 de marzo de 2026**
+Actualización: **jueves, 04 de marzo de 2026**
 
 Obtenga información acerca de los trabajos de IA auténticos y el consumo de crédito de IA en aplicaciones de Experience Cloud. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones de Experience Cloud existentes, consulte [IA agéntica en Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -53,10 +53,10 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Journey Agent | administración de recorrido | <ul><li>Adobe Journey Optimizer (Ediciones B2B y B2C)</li></ul> | 25 | <ul><li>_¿Cuántos recorridos activos tengo?_</li><li>_Enumerar todos los recorridos con la audiencia X._</li><li>_Enumerar todos los recorridos que se encuentran actualmente en modo de prueba_</li></ul> |
 | Agente de soporte del producto | Solución de problemas basada en conocimientos | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (Ediciones B2C y B2B)</li><li>Customer Journey Analytics (Ediciones B2C y B2B)</li></ul> | 0 | <ul><li>_¿Por qué difiere el recuento de perfiles en el Tablero de uso de licencias y en la página de inicio de Experience Platform?_</li><li>_¿Cuáles son las razones por las que no se activa un recorrido?_</li><li>_¿Cómo crea Adobe Experience Platform experiencias en tiempo real?_</li><li>_¿Cómo se configuran y utilizan las alertas en Adobe Experience Platform?_</li><li>_¿Cuál es el límite promedio de riqueza de perfiles en Adobe Experience Platform Activation?_</li></ul> |
 | Agente de soporte del producto | Creación y seguimiento de casos de soporte | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li>Adobe Journey Optimizer (Ediciones B2C y B2B)<li>Customer Journey Analytics (Ediciones B2C y B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Crear un nuevo ticket de soporte para mi trabajo de segmentación con errores_</li><li>_¿Cuál es el estado del ticket E-001772068?_</li></ul> |
-| Agente del Asesor de contenido | Detección de contenido | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Mostrar fragmentos de contenido para crear la campaña de ofertas WKND._</li><li>_Buscar imágenes PNG para empaquetar productos._</li><li>_Mostrar imágenes etiquetadas de Office en la carpeta WKND._</li><li>_¿Hay algún svg en la carpeta WKND?_</li><li>_Mostrarme todos los formularios de solicitud de préstamo._</li><li>_Busco formularios de incorporación de empleados._</li></ul> |
-| Agente del Asesor de contenido | <ul><li>Optimización de contenido</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Cree una representación de 2000 px como JPEG con una calidad del 80 %._</li><li>_Crear una representación para una historia de Instagram._</li><li>_Superponga la imagen con gráficos con un descuento del 30% sobre el titular promocional, situándola a 100 píxeles del centro._</li><li>_Cambiar el color de fondo del PNG a #ff8932._</li></ul> |
-| Agente de control de marca | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Solucionar problemas de mi canalización con errores_</li><li>_Enumerar mis canalizaciones con errores para el programa principal._</li><li>_Analizar mi canalización con error llamada &quot;Canalización de desarrollo&quot;._</li><li>_Solucionar problemas de ejecución de canalización 1234567_</li></ul> |
-| Brand Experience Agent | Modernización del sitio | Adobe Experience Manager Cloud Services | 100 | <ul><li>_Migrar la página`https://wknd-trendsetters.site`_</li></ul> |
+| Agente del Asesor de contenido | Detección de contenido | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li>_Mostrar fragmentos de contenido para crear la campaña de ofertas WKND._</li><li>_Buscar imágenes PNG para empaquetar productos._</li><li>_Mostrar imágenes etiquetadas de Office en la carpeta WKND._</li><li>_¿Hay algún svg en la carpeta WKND?_</li><li>_Mostrarme todos los formularios de solicitud de préstamo._</li><li>_Busco formularios de incorporación de empleados._</li></ul> |
+| Agente del Asesor de contenido | <ul><li>Optimización de contenido</li></ul> | <ul><li>Adobe Experience Manager Assets y Dynamic Media</li></ul> | 10 | <ul><li>_Cree una representación de 2000 px como JPEG con una calidad del 80 %._</li><li>_Crear una representación para una historia de Instagram._</li><li>_Superponga la imagen con gráficos con un descuento del 30% sobre el titular promocional, situándola a 100 píxeles del centro._</li><li>_Cambiar el color de fondo del PNG a #ff8932._</li></ul> |
+| Agente de control de marca | <ul><li>Comprobaciones de directivas de marca</li></ul><ul><li>Permisos con Content Hub</li></ul><ul><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Sites (Políticas de marca)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li>_¿Esta página está alineada con mi marca?`https://www.website/en.html`_</li><li>_Mostrar todas las reglas ABAC de Content Hub existentes_</li><li>_¿Alguno de mis recursos caducará pronto?_</li></ul> |
+| Brand Experience Agent | <ul><li>Actualización de contenido</li><li>Creación de Forms</li><li>Solución de problemas de canalización</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Crear un formulario de contacto con campos de nombre, correo electrónico y mensaje_</li><li>_Solucionar problemas de mi canalización con errores_</li><li>_Enumerar mis canalizaciones con errores para el programa principal._</li></ul> |
 
 >[!NOTE]
 >
