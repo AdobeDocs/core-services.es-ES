@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 4%
+source-wordcount: 892
+ht-degree: 5%
 
 ---
 
 # Inteligencia artificial aplicada a la agencia en Adobe Experience Cloud
 
-Actualización: **jueves, 04 de marzo de 2026**
+Actualización: **viernes, 05 de marzo de 2026**
 
 Los agentes de Adobe Experience Platform cuentan con la tecnología [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/home) para habilitar las capacidades de IA auténtica en las aplicaciones de Experience Cloud.
 
@@ -63,7 +63,7 @@ Los agentes se pueden habilitar en aplicaciones de Experience Cloud existentes p
 * Se le incluye en una prueba sujeta a uso (se proporcionan créditos de IA limitados)
 * Ha realizado transacciones con el SKU de promoción de Agent Orchestrator (licencia de prueba con tiempo limitado)
 
-El uso de agentes de IA para realizar _trabajos de agente_ consume créditos de IA. Obtenga más información acerca de los trabajos del agente y los créditos de IA en _[Trabajos del agente y consumo de crédito de IA](/help/interface/features/ai-credit-consumption.md)_.
+El uso de agentes de IA para realizar _trabajos de agente_ consume créditos de IA. Obtenga más información acerca de los trabajos del agente y los créditos de IA en [Trabajos del agente y consumo de crédito de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption).
 
 Los agentes de IA siguen _sus_ entradas, supervisión y respetan los controles de acceso de nivel de producto. Solo puede realizar trabajos o acceder a datos que esté autorizado a utilizar en la aplicación de Experience Cloud subyacente.
 
