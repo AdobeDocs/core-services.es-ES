@@ -20,9 +20,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 747
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 | Vínculo de ayuda | Descripción |
 | ------- | ------- |
-| [Restablecer tu Adobe ID](https://helpx.adobe.com/es/manage-account/kb/account-password-sign-help.html) | Cierre la sesión y haga clic en **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
+| [Restablecer tu Adobe ID](https://helpx.adobe.com/es/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Cierre la sesión y haga clic en **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
 | [Administrar varios usuarios](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Aprenda a administrar varios usuarios mediante la carga masiva de CSV a Admin Console. |
 | [Tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) | Los tipos de identidad permiten a la organización diferentes niveles de control sobre las cuentas y los datos de los usuarios. La elección del modelo de identidad afecta a la forma en que su organización almacena y comparte recursos. Aunque la organización crea y administra los modelos de Federated ID y Enterprise ID, el individuo crea y administra los Adobe ID. |
 | [Herramienta de sincronización de usuarios](https://helpx.adobe.com/es/enterprise/using/user-sync.html) (UST) | La herramienta de sincronización de usuarios de Adobe es una aplicación de escritorio que se utiliza para automatizar la sincronización de datos de usuario entre el sistema de administración de identidades de una organización (como Active Directory) y Adobe Admin Console. La herramienta permite a los administradores optimizar el aprovisionamiento de usuarios, las actualizaciones y la desactivación en todos los productos de Adobe. |
@@ -102,11 +102,11 @@ Estos vínculos le ayudan a encontrar información de administración para aplic
 
  -->
 
-* [Advertising Search, Social y Commerce](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/new-ui/user-administration)
+* [Advertising Search, Social y Commerce](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/target/user-administration)
 * [Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-console/home)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
 * [Audience Manager](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/features/administration/admin-console-migration)
-* [Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions)
+* [Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/gs-permissions)
 * [Campaign Standard](https://experienceleague.adobe.com/es/docs/campaign-web/acs-to-ac/user-management-acs)
 * [Commerce](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 * [Dynamic Media Classic](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
@@ -119,7 +119,6 @@ Estos vínculos le ayudan a encontrar información de administración para aplic
 * [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/es/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/es/docs/mix-modeler/using/data-governance/access-controls)
-* [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Target](https://experienceleague.adobe.com/es/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
