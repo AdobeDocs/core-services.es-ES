@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -84,7 +84,8 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 | -----------| ---------- |
 | Notificaciones de Slack | Puede configurar las preferencias de su cuenta para enviar notificaciones de Experience Cloud a Slack. Consulte _Notificaciones de Slack_ en la ayuda de [Preferencias](../features/account-preferences.md) para obtener más información. |
 
-<!-- ## July - August 2023
+<!--
+## July - August 2023
 
 NA - released July 2022
 
@@ -100,7 +101,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+-->
 
 ## Mayo de 2023
 
@@ -219,7 +221,8 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 * La página Fuente quedó obsoleta en diciembre de 2019. Busque un aviso de obsolescencia del producto. (MCUI-10039)
 
-<!-- ## August 2019
+<!--
+## August 2019
 
 * Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
 * Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)

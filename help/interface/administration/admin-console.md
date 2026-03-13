@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 747
 ht-degree: 7%
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 # Administración de usuarios y productos
 
-Puede administrar usuarios y licencias de productos en Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/). Para obtener ayuda general sobre la administración de identidades aplicable a todas las aplicaciones de Adobe, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/admin-guide.html).
+Puede administrar usuarios y licencias de productos en Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/). For general identity management help applicable to all Adobe applications, see the [Enterprise and teams admin guide](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
 Esta página proporciona información específicamente útil para los administradores de Experience Cloud, define funciones y proporciona vínculos a temas comunes de administración de usuarios y productos en la guía empresarial.
 
@@ -70,7 +70,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 ### Informes y registros
 
-| Vínculo de ayuda | Descripción |
+| Help link | Descripción |
 | ------- | ------- |
 | [Registro de auditoría](https://helpx.adobe.com/es/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Rastree todos los cambios realizados en Admin Console. |
 
@@ -79,7 +79,8 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 Estos vínculos le ayudan a encontrar información de administración para aplicaciones de Experience Cloud específicas.
 
-<!-- | Application | Link to resource|
+<!--
+| Application | Link to resource|
 | ------- | ------- |
 |  [!DNL Analytics] <p>Customer Journey Analytics| [Analytics in the Adobe Admin Console overview](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-console/home) <p>[Administration requirements](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace) |
 | [!DNL Audience Manager] | [Audience Manager user migration to Admin Console](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/features/administration/admin-console-migration) |
@@ -100,7 +101,7 @@ Estos vínculos le ayudan a encontrar información de administración para aplic
 | [!DNL Target] | [Administrator first steps](https://experienceleague.adobe.com/es/docs/target/using/administer/start-target) <p> [User management](https://experienceleague.adobe.com/es/docs/target/using/administer/manage-users/user-management) |
 | [!DNL Workfront] | [Manage users in the Adobe Admin Console](https://experienceleague.adobe.com/es/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console) |
 
- -->
+-->
 
 * [Advertising Search, Social y Commerce](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/target/user-administration)
 * [Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-console/home)
