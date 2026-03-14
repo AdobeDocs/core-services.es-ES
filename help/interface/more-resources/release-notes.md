@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
+source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
 workflow-type: tm+mt
-source-wordcount: 1337
-ht-degree: 80%
+source-wordcount: 1386
+ht-degree: 78%
 
 ---
 
@@ -76,7 +76,7 @@ Para ver las notas de la versión de todas las aplicaciones, consulte las [Notas
 
 | Función | Descripción |
 | -----------| ---------- |
-| Inicio personalizable | En la página de aterrizaje de Experience Cloud, haga clic en **[!UICONTROL Edit]**. El modo [!UICONTROL Edit] le permite personalizar su página principal de Experience Cloud con acceso a una biblioteca de widgets y fondos personalizados. El modo [!UICONTROL Edit] proporciona controles intuitivos y sin problemas para mover, cambiar el tamaño y administrar widgets, incluidas acciones masivas y ajustes de diseño, lo que ofrece una experiencia más estética y adaptada. |
+| Inicio personalizable | En la página de aterrizaje de Experience Cloud, haga clic en **[!UICONTROL Edit]**. [!UICONTROL Edit] Este modo permite personalizar la página principal de Experience Cloud con acceso a una biblioteca de widgets y fondos personalizados. [!UICONTROL Edit] El modo proporciona controles intuitivos y sin problemas para mover, cambiar el tamaño y administrar widgets, incluidas acciones masivas y ajustes de diseño, lo que ofrece una experiencia más estética y adaptada. |
 
 ## miércoles, 10 de septiembre de 2024
 
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Función | Descripción |
 | ------- | ------- |
-| Inicio unificado: Widget de acceso rápido | **Navegar más rápido:** ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva característica de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Quick Access]. <br>**No se pierda nada con el posicionamiento inteligente:** sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un distintivo _Nuevo_ y se anclan automáticamente a [!UICONTROL Quick Access]. |
+| Inicio unificado: Widget de acceso rápido | **Navegar más rápido:** ahora puede personalizar aún más su experiencia en casa y decidir qué aplicaciones están al alcance de su mano. Utilice la nueva característica de anclaje para seleccionar qué aplicaciones aparecen en primer plano y centradas en su [!UICONTROL Quick Access]. <br>**Manténgase informado con el anclaje inteligente:** Sus nuevas aplicaciones ahora son más fáciles de encontrar. Las aplicaciones recién asignadas muestran un distintivo _Nuevo_ y se anclan automáticamente a [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -120,7 +120,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Función | Descripción |
 | ------- | -------|
-| Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de asistencia a través de una sola interfaz mediante búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
+| Búsqueda de lenguajes naturales | Obtenga respuestas instantáneas a todas sus preguntas de ayuda, a través de una sola interfaz a través de la búsqueda unificada. Esta función siempre está disponible en todas las páginas de [!DNL Experience Platform] y [!DNL Journey Optimizer]. |
 
 {style="table-layout:auto"}
 
@@ -136,7 +136,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Función | Descripción |
 | ------- | -------|
-| Se agregaron accesos directos (**[!UICONTROL Recents]**) al inicio de [Experience Cloud](https://experience.adobe.com/home?lang=es) | Dispone de accesos directos a su trabajo más reciente de Journey Optimizer y Experience Platform en el encabezado _Recientes_ de la página de destino. Esta actualización también incluye mejoras generales de diseño y capacidad de respuesta. |
+| Se agregaron accesos directos (**[!UICONTROL Recents]**) al inicio de [Experience Cloud](https://experience.adobe.com/home) | Dispone de accesos directos a su trabajo más reciente de Journey Optimizer y Experience Platform en el encabezado _Recientes_ de la página de destino. Esta actualización también incluye mejoras generales de diseño y capacidad de respuesta. |
 | **[!UICONTROL Sandboxes]** se movió a la barra de encabezado | El indicador Zonas protegidas ahora está integrado en el encabezado para todas las aplicaciones de interfaz de Experience Platform. Consulte [Zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) en Experience Platform para obtener más información. |
 
 {style="table-layout:auto"}
@@ -176,8 +176,8 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 | Función | Fecha | Descripción |
 | ------- | ------- | ------- |
-| Compatibilidad con inicio de sesión único para Federated ID de Adobe | 17 de junio de 2021 | Si utiliza Federated ID, puede iniciar sesión en Experience Cloud sin tener que especificar una dirección de correo electrónico o contraseña. Para utilizar esta función, añada `#/sso:@domain` a la dirección URL de Experience Cloud. <br>Por ejemplo, suponga que es el propietario del dominio `example.com` y que desea iniciar sesión en Adobe Analytics. La dirección URL sería: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Búsqueda de Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.adobe.com/docs/?lang=es) y utilice el campo **[!UICONTROL Search]** para encontrar tutoriales, documentación, cursos y más. |
+| Compatibilidad con inicio de sesión único para Federated ID de Adobe | 17 de junio de 2021 | Si utiliza Federated ID, puede iniciar sesión en Experience Cloud sin tener que indicar una dirección de correo electrónico o contraseña. Para usar esta característica, agregue `#/sso:@domain` a la dirección URL de Experience Cloud. <br>Por ejemplo, suponga que es el propietario del dominio `example.com` y que desea iniciar sesión en Adobe Analytics. La dirección URL sería: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Búsqueda en Experience League | 1 de junio de 2021 | Se ha mejorado la búsqueda de documentación de Experience League. Vaya a [Experience League](https://experienceleague.adobe.com/docs/?lang=es) y utilice el campo **[!UICONTROL Search]** para encontrar tutoriales, documentación, cursos y más. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 | Función | Descripción |
 | ------- | ------- |
-| Encabezado y navegación de Experience Cloud | Las actualizaciones de Adobe Experience Cloud incluyen un cambio del encabezado en el tema claro, con la capacidad de volver fácilmente al tema oscuro y un vínculo para controlar las preferencias adicionales de su avatar de usuario en el encabezado de Experience Cloud. Aunque no todas las aplicaciones de Experience Cloud admiten temas, esta función desbloquea la futura compatibilidad con temas. |
+| Encabezado y navegación de Experience Cloud | Las actualizaciones de Adobe Experience Cloud incluyen un cambio del encabezado en el tema claro, con la capacidad de volver fácilmente al tema oscuro y un vínculo para controlar las preferencias adicionales de su avatar de usuario en el encabezado de Experience Cloud. Aunque no todas las aplicaciones de Experience Cloud admiten el cambio de tema, esta función desbloquea la compatibilidad con temas futuros. |
 | Búsqueda global en Experience Cloud | Con esta versión, la búsqueda global en Experience Cloud le permite buscar en cualquiera de los documentos, cursos y tutoriales de [Experience League](https://experienceleague.adobe.com/es?lang=es#home). (Actualmente, la búsqueda global solo está disponible para los usuarios de Experience Platform. La búsqueda global de [!UICONTROL Platform] le permite buscar cualquier objeto comercial en Experience Cloud, como segmentos, conjuntos de datos, esquemas, etc.). |
 | Preferencias de idioma de Experience Cloud | Esta actualización incluye la posibilidad de establecer sus idiomas preferidos en las [Preferencias](https://experience.adobe.com/preferences) de Experience Cloud. |
 
@@ -220,6 +220,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 ## Enero de 2020
 
 * La página Fuente quedó obsoleta en diciembre de 2019. Busque un aviso de obsolescencia del producto. (MCUI-10039)
+
 
 <!--
 ## August 2019
