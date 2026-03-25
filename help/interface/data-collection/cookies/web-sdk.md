@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 484
 ht-degree: 1%
 
 ---
@@ -32,8 +32,9 @@ ht-degree: 1%
 Adobe Experience Platform Web SDK utiliza cookies para almacenar valores específicos de la implementación.
 
 | Nombre | Edad máxima | Tamaño | Descripción |
-| ---| ---| ---| ---|
+| --- | --- | --- | --- |
 | **`AMCV_###@AdobeOrg`** | 34128000 (395 días) | 100 a 120 bytes (variable) | Presente cuando [`idMigrationEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) está habilitado. Ayuda al realizar la transición a Web SDK mientras algunas partes del sitio siguen utilizando `visitor.js`. Web SDK lee y escribe en esta cookie durante la migración. |
+| **`com.adobe.alloy.getTld`** | Ninguno (eliminado inmediatamente) | N/A | Cookie de ayuda temporal utilizada internamente por Web SDK para determinar el dominio de nivel superior del sitio actual. Una vez establecido el dominio de nivel superior, se elimina la cookie. No almacena datos de comportamiento o de perfil. |
 | **`demdex`** | 15552000 (180 días) | varía | Presente si la sincronización de Audience Manager ID está habilitada. Audience Manager establece esta cookie para asignar un ID único y admitir la sincronización, segmentación, modelado e informes de ID. Ver `demdex` en [cookies de Audience Manager](audience-manager.md). |
 | **`kndctr_<orgId>_identity`** | 34128000 (395 días) | 100 a 120 bytes (variable) | Almacena el ECID y otra información relacionada para ese dispositivo. |
 | **`kndctr_<orgId>_cluster`** | 1800 (30 minutos) | 3 a 5 bytes | Almacena la región de Edge Network (ubicación) que sirve las solicitudes del usuario actual. La región se utiliza en la ruta URL para que Edge Network pueda enrutar la solicitud a la región correcta. Si un usuario se conecta con una dirección IP diferente dentro de la duración de la cookie, la solicitud se vuelve a enrutar a la región más cercana. |
