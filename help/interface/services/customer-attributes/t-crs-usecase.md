@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
+source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1118
 ht-degree: 47%
 
 ---
@@ -47,7 +47,7 @@ Cree el origen de atributos del cliente (`.csv` y `.fin` archivos) y cargue los 
 
 * Se requiere **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los Atributos del cliente.
 
-  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es)
+  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/overview)
 
 ## Crear un archivo de datos
 
@@ -146,9 +146,9 @@ Después de cargar el archivo, los datos de la tabla se muestran bajo el encabez
 
 * **[!UICONTROL Unique customer ID:]** muestra cuántos ID únicos ha cargado en este origen de atributos.
 
-* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** muestra cuántos ID se han asociado a los ID de visitante de Experience Cloud.
+* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** muestra cuántos ID se han asociado a los ID de visitante de Experience Cloud.
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** muestra el recuento de los ID proporcionados por el cliente con 500 o más ID de visitante de Experience Cloud asociados. Es muy probable que estos ID proporcionados por el cliente no representen a individuos sino algún tipo de inicio de sesión compartido. El sistema distribuye los atributos asociados con estos ID a los 500 ID de visitante de Experience Cloud con alias creados más recientemente, hasta que el recuento alcanza los 10 000. En este momento, el sistema invalida el ID proporcionado por el cliente y ya no puede distribuir los atributos asociados. -->
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** muestra el recuento de los ID proporcionados por el cliente con 500 o más ID de visitante de Experience Cloud asociados. Es muy probable que estos ID proporcionados por el cliente no representen a individuos sino algún tipo de inicio de sesión compartido. El sistema distribuye los atributos asociados con estos ID a los 500 ID de visitante de Experience Cloud con alias creados más recientemente, hasta que el recuento alcanza los 10 000. En este momento, el sistema invalida el ID proporcionado por el cliente y ya no puede distribuir los atributos asociados.
 
 ## Validar el esquema {#validate-schema}
 
