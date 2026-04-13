@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 81%
+source-wordcount: '2092'
+ht-degree: 73%
 
 ---
 
@@ -33,7 +33,7 @@ Qué debe hacer para unirse a Experience Cloud:
 
    >[!NOTE]
    >
-   >Para [!DNL Target], migre a at.js desde `mbox.js`. Consulte [Actualización de at.js 1. x a at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=es).
+   >Para [!DNL Target], migre a at.js desde `mbox.js`. Ver [Actualización de at.js 1. x a at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=es).
 
 1. Administrar usuarios y productos en [!UICONTROL Admin Console].
 
@@ -70,9 +70,9 @@ Las siguientes secciones describen cómo modernizar la implementación. La moder
 
 [!UICONTROL Experience Cloud ID Service] proporciona un identificador común para la integración entre aplicaciones. Proporciona identificación de visitantes entre dominios y una ruta para la segmentación y personalización entre dispositivos y exploradores en función de los datos de CRM cargados a través de [!DNL Customer Attributes].
 
-El método más sencillo para habilitar los servicios principales de Experience Cloud es activarlo automáticamente para Analytics y Adobe Target mediante la [extensión del servicio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) en [!UICONTROL Experience Platform Launch].
+El método más sencillo para habilitar los servicios principales de Experience Cloud es activarlo automáticamente para Analytics y Adobe Target mediante la [extensión del servicio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) en [!UICONTROL Experience Platform Launch].
 
-Para obtener la ayuda completa del Servicio de Experience Cloud ID (anteriormente, ID de visitante), vaya [aquí](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es#intro).
+Para obtener la ayuda completa del Servicio de Experience Cloud ID (anteriormente, ID de visitante), vaya [aquí](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro).
 
 **¿No Usa [!UICONTROL Experience Platform tags]?**
 
@@ -80,14 +80,14 @@ Si no usa [!UICONTROL Experience Platform tags], implemente manualmente el servi
 
 | Tarea | Descripción |
 | -----------| ---------- |
-| [Implemente el Servicio de Experience Cloud ID para Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=es) | Adobe también recomienda configurar algunos [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales. Estos ID se asocian con cada visitante para habilitar las funciones actuales y futuras en Experience Cloud. |
-| Actualice el `s_code` existente a la versión H.27.3 o posterior, o su `AppMeasurement.js` existente a la versión 1.4 o posterior. | Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=es) de las herramientas de administración de Analytics. (La guía de [implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es#js) está disponible si necesita más información sobre `AppMeasurement.js`). |
+| [Implemente el Servicio de Experience Cloud ID para Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html) | Adobe también recomienda configurar algunos [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales. Estos ID se asocian con cada visitante para habilitar las funciones actuales y futuras en Experience Cloud. |
+| Actualice el `s_code` existente a la versión H.27.3 o posterior, o su `AppMeasurement.js` existente a la versión 1.4 o posterior. | Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html) de las herramientas de administración de Analytics. (La guía de [implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html#js) está disponible si necesita más información sobre `AppMeasurement.js`). |
 
 {style="table-layout:auto"}
 
 ### Analytics y Adobe Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) con Experience Cloud.
+Como parte de la configuración del Servicio de Experience Cloud ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 En Adobe Target, `mbox3rdpartyid` debe obtener el ID de cliente y enviárselo a [!DNL Target]. (Consulte [Uso de Atributos del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=es) en [!DNL Target]).
 
@@ -127,13 +127,13 @@ Los servicios de Experience Cloud (como el Servicio de Experience Cloud ID) est�
 
 Si utiliza cookies propias, consulte [CNAME y el servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=es) para obtener información sobre los CNAME de recopilación de datos y el seguimiento entre dominios.
 
-Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La manera más sencilla de lograrlo es añadir una [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) en la recopilación de datos de Experience Platform.
+Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La manera más sencilla de lograrlo es añadir una [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) en la recopilación de datos de Experience Platform.
 
 ## Actualice la implementación de Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Se recomienda agregar una [extensión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=es) en las etiquetas [!UICONTROL Experience Platform] para que la recuperación de la biblioteca sea automática. También puede configurar la [extensión del servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) para Adobe Target (y otras aplicaciones) con las etiquetas [!UICONTROL Experience Platform]. La actualización [!UICONTROL Experience Cloud ID Service] **es necesaria** para que Adobe Target use los servicios Personas.
-* Si no usas etiquetas [!UICONTROL Experience Platform], [actualiza tu biblioteca mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=es) manualmente.
-* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para [!DNL Adobe Target]. Los datos de [!DNL Target] y [!DNL Analytics] se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos aplicaciones. Consulte [Implementación de Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es).
+* Se recomienda agregar una [extensión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) en las etiquetas [!UICONTROL Experience Platform] para que la recuperación de la biblioteca sea automática. También puede configurar la [extensión del servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) para Adobe Target (y otras aplicaciones) con las etiquetas [!UICONTROL Experience Platform]. La actualización [!UICONTROL Experience Cloud ID Service] **es necesaria** para que Adobe Target use los servicios Personas.
+* Si no usas etiquetas [!UICONTROL Experience Platform], [actualiza tu biblioteca mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html) manualmente.
+* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para [!DNL Adobe Target]. Los datos de [!DNL Target] y [!DNL Analytics] se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos aplicaciones. Consulte [Implementación de Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
   >[!IMPORTANT]
   >
@@ -164,9 +164,9 @@ Experience Cloud ID en la solicitud de mbox:
 
 Una vez que haya implementado el Servicio de Experience Cloud ID, el servidor de recopilación de datos ya no asignará a los visitantes nuevos un ID de visitante de Analytics Experience Cloud. Si hay secciones de su sitio que todavía no hayan implementado el Servicio de ID, cuando los visitantes accedan a ellas, el Experience Cloud ID no se reconocerá y se asignará un ID de visitante de Analytics heredado a los visitantes. Esto puede causar problemas potenciales, como visitas duplicadas y atribución incorrecta.
 
-Por ejemplo: Si la sección de asistencia técnica de su sitio se administra en un CMS independiente, puede tener un archivo JavaScript de Analytics diferente para esta sección. Si implementa Experience Cloud ID en el sitio principal antes de implementar el servicio de ID en el sitio de asistencia, los nuevos visitantes recibirán un ID de Analytics heredado cuando visiten la sección de asistencia y las visitas que abarquen ambas secciones del sitio se registrarán como visitas diferentes.
+Por ejemplo: Si la sección de asistencia técnica de su sitio se administra en un CMS independiente, puede tener un archivo JavaScript de Analytics diferente para esta sección. Si implementa Experience Cloud ID en el sitio principal antes de implementar el servicio de ID en el sitio de asistencia, los nuevos visitantes recibirán un ID de Analytics heredado cuando visiten la sección de asistencia. Las visitas que abarcan ambas secciones del sitio se registran como visitas diferentes.
 
-La implementación del Servicio de Experience Cloud ID en sitios que utilicen varios archivos JavaScript u otras tecnologías (como Flash) puede causar problemas de coordinación. Estos problemas se producen porque debe habilitar el Servicio de Experience Cloud ID en todas las áreas del sitio al mismo tiempo. Si configura un período de gracia, se seguirá asignando un ID de visitante de Analytics a los nuevos visitantes, de manera que estos se puedan identificar de manera sistemática en las secciones del sitio que todavía no utilicen el servicio de ID de visitante.
+La implementación del Servicio de Experience Cloud ID en sitios que utilicen varios archivos JavaScript u otras tecnologías (como Flash) puede causar problemas de coordinación. Estos problemas se producen porque debe habilitar el Servicio de Experience Cloud ID en todas las áreas del sitio al mismo tiempo. Si configura un período de gracia, se seguirá asignando un ID de visitante de Analytics a los nuevos visitantes, a fin de que puedan continuar recibiéndolo desde el servicio de ID. Los visitantes se pueden identificar de forma consistente en las secciones del sitio que no se han actualizado para utilizar el servicio de ID de visitante.
 
 ## Administración de usuarios y productos {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
