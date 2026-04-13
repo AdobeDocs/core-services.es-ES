@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 67%
+source-wordcount: '195'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ ejemplo
 
 Esta documentación se aplica a las funciones del encabezado unificado de Experience Cloud, como el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]), la administración de usuarios y productos para Experience Cloud, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a estos servicios en Experience Cloud, seleccione **[!UICONTROL Application Selector]**
+Para acceder a estos servicios en Experience Cloud, seleccione la **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 ![Servicios de Experience Cloud](../assets/platform-core-services.png)
