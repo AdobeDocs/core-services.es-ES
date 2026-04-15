@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 656
 ht-degree: 66%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 66%
 # Actualizaciones de la documentación
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de Experience Cloud.
+
+**Marzo de 2026**
+
+Se agregó [consumo de trabajos y créditos de IA](../features/ai-credit-consumption.md)
 
 **Noviembre de 2025**
 
