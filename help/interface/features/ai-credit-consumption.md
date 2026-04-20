@@ -67,4 +67,4 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 * [GenAI en CX Enterprise](/help/interface/features/generative-ai.md)
 * [Inteligencia artificial aplicada a la agencia en CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
