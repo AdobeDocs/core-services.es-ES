@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la función Búsqueda unificada para determinadas aplicaciones en Experience Cloud.
+description: Obtenga información acerca de la función Búsqueda unificada para determinadas aplicaciones en CX Enterprise.
 solution: Experience Cloud
 title: Búsqueda unificada de Experience Cloud
 index: true
@@ -22,14 +22,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 639
 ht-degree: 18%
 
 ---
 
-# [!UICONTROL Unified Search] en Experience Cloud
+# [!UICONTROL Unified Search] en CX Enterprise
 
 La búsqueda [!UICONTROL Unified Search] le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda también muestra los objetos a los que ha accedido recientemente.
 
@@ -37,7 +37,7 @@ La búsqueda [!UICONTROL Unified Search] le permite encontrar objetos o entidade
 
 ## Acceso [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] está disponible en todas las páginas del encabezado de Experience Cloud en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
+[!UICONTROL Unified Search] está disponible en todas las páginas del encabezado de CX Enterprise en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
 
 Esta función solo está disponible para productos compatibles, que actualmente son:
 
@@ -56,7 +56,7 @@ Su capacidad y permisos de objeto
 Porcentaje de coincidencia
 Si hay una coincidencia exacta
 
-![[!UICONTROL Unified Search] en Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] en CX Enterprise](../assets/unified-search-results.png)
 
 Los objetos empresariales que se pueden buscar incluyen:
 
@@ -77,7 +77,7 @@ También puede encontrar los artículos de ayuda de Experience League y Communit
 
 Por ejemplo, _Cómo crear un esquema_ produce resultados de Experience League en _[!UICONTROL Learning]_:
 
-![[!UICONTROL Unified Search] en la Ayuda de Experience Cloud](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] en la Ayuda de CX Enterprise](../assets/unified-search-learning.png)
 
 Los algoritmos de búsqueda muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
 

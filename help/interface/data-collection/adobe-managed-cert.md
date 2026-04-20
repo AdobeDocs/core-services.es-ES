@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo configurar certificados seguros para utilizarlos con cookies de origen de Adobe Experience Cloud.
+description: Obtenga información sobre cómo configurar certificados seguros para utilizarlos con cookies de origen de Adobe CX Enterprise.
 solution: Experience Cloud,Analytics
 title: Programa de certificados administrados por Adobe
 index: true
@@ -32,10 +32,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 3%
+source-wordcount: 1234
+ht-degree: 4%
 
 ---
 
@@ -157,7 +157,7 @@ Adobe trabaja con DigiCert para emitir un certificado SHA-2.
 
 +++¿Este programa incurre en algún costo adicional?
 
-No. Adobe ofrece este servicio a todos los clientes de Adobe Experience Cloud sin coste adicional.
+No. Adobe ofrece este servicio a todos los clientes de Adobe CX Enterprise sin coste adicional.
 
 +++
 

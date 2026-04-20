@@ -1,6 +1,6 @@
 ---
 title: Requisitos de archivo para uso compartido de Assets
-description: Obtenga información sobre los tipos de archivo permitidos y las limitaciones de tamaño para el uso compartido de recursos entre Adobe Experience Cloud y Creative Cloud.
+description: Obtenga información sobre los tipos de archivo permitidos y las limitaciones de tamaño para el uso compartido de recursos entre Adobe CX Enterprise y Creative Cloud.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 122
-ht-degree: 95%
+source-wordcount: 142
+ht-degree: 73%
 
 ---
 
 # Requisitos de archivo para uso compartido de recursos
 
-Tipos de archivo permitidos y limitaciones de tamaño para el uso compartido de recursos entre Experience Cloud y Creative Cloud.
+Tipos de archivo permitidos y limitaciones de tamaño para el uso compartido de recursos entre CX Enterprise y Creative Cloud.
 
 ## Tipos de archivo permitidos para la carga
 
-Los tipos de archivo que puede cargar incluyen la mayoría de imágenes, documentos y multimedia. Consulte [Formatos admitidos](https://helpx.adobe.com/es/experience-manager/brand-portal/using/brand-portal-supported-formats.html) para obtener información sobre los formatos de archivo de [!DNL Experience Cloud] Assets.
+Los tipos de archivo que puede cargar incluyen la mayoría de imágenes, documentos y multimedia. Consulte [Formatos admitidos](https://helpx.adobe.com/es/experience-manager/brand-portal/using/brand-portal-supported-formats.html) para obtener información sobre los formatos de archivo de [!DNL CX Enterprise] Assets.
 
 ## Límites de tamaño de archivo
 

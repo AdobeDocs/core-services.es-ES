@@ -3,20 +3,19 @@ role: User,Admin
 user-guide-title: Interfaz y administración de Experience Cloud
 breadcrumb-title: Interfaz y administración de Experience Cloud
 title: Interfaz y administración de Experience Cloud
-description: Obtenga más información acerca de la interfaz de Experience Cloud, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de públicos. Comparta Experience Cloud Assets.
+description: Obtenga información acerca de la interfaz de CX Enterprise, las cookies y las preferencias de cuenta. Administre productos y configure el servicio People, incluidos los Atributos del cliente y la Biblioteca de públicos. Comparta CX Enterprise Assets.
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 84%
+ht-degree: 70%
 
 ---
 
+# Interfaz y administración de CX Enterprise {#interface}
 
-# Interfaz y administración de Experience Cloud {#interface}
-
-+ [Interfaz y administración de Experience Cloud](/help/interface/experience-cloud.md)
-+ IA en Experience Cloud {#features}
++ [Interfaz y administración de CX Enterprise](/help/interface/experience-cloud.md)
++ IA en CX Enterprise {#features}
    + [IA generativa](/help/interface/features/generative-ai.md)
    + [IA agéntica](features/agentic-ai.md)
    + {hide-from-toc}[Supervisión de IA](/help/interface/features/ai-monitoring.md)
@@ -66,7 +65,7 @@ ht-degree: 84%
       + [Cookies de Advertising](/help/interface/data-collection/cookies/advertising.md)
       + [Cookies de Analytics](/help/interface/data-collection/cookies/analytics.md)
       + [Cookies de Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Cookies de Experience Cloud](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [Cookies de CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Cookies de Target](/help/interface/data-collection/cookies/target.md)
       + [Cookies de SDK web](/help/interface/data-collection/cookies/web-sdk.md)
    + [Recopilación de datos regionales](/help/interface/data-collection/rdc.md)

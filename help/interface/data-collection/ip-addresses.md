@@ -11,14 +11,14 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 9%
+source-wordcount: 426
+ht-degree: 8%
 
 ---
 
-# Direcciones IP utilizadas por Experience Cloud
+# Direcciones IP utilizadas por CX Enterprise
 
 Algunas configuraciones de cortafuegos bloquean las direcciones IP procedentes de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye sistemas entrantes (como la recopilación de datos) y salientes (como las fuentes de datos en Adobe Analytics) que utiliza Adobe.
 
@@ -26,7 +26,7 @@ Algunas configuraciones de cortafuegos bloquean las direcciones IP procedentes d
 >
 >Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP de Adobe o un proveedor de servicio de Internet deja de funcionar.
 
-Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe Experience Cloud individuales tienen sus propias direcciones IP que utilizan:
+Además de los bloques de direcciones IP que se enumeran a continuación, los productos de Adobe CX Enterprise individuales tienen sus propias direcciones IP que utilizan:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/ip-addresses)
@@ -49,12 +49,12 @@ La siguiente tabla abarca todas las direcciones IP propiedad de Adobe. Esta tabl
 
 {style="table-layout:auto"}
 
-## Bloques de direcciones IP de FTP y recopilación de datos de Adobe Experience Cloud
+## Bloques de direcciones IP de FTP y recopilación de datos de Adobe CX Enterprise
 
 Si su organización prefiere permitir intervalos de direcciones IP específicos, puede hacer referencia a la siguiente tabla. Incluye:
 
-* Servidores de recopilación de datos para todos los productos de Experience Cloud
-* Servidores FTP para todos los productos de Experience Cloud
+* Servidores de recopilación de datos para todos los productos de CX Enterprise
+* Servidores FTP para todos los productos de CX Enterprise
 
 En la tabla anterior se incluyen todos los rangos de IP de esta sección.
 
@@ -92,7 +92,7 @@ En la tabla anterior se incluyen todos los rangos de IP de esta sección.
 
 {style="table-layout:auto"}
 
-Adobe Experience Cloud también admite IPv6 con capacidad limitada. Estos bloques de IP tienen fines de recopilación de datos similares a los de sus homólogos de IPv4 anteriores, pero no incluyen FTP.
+Adobe CX Enterprise también admite IPv6 con capacidad limitada. Estos bloques de IP tienen fines de recopilación de datos similares a los de sus homólogos de IPv4 anteriores, pero no incluyen FTP.
 
 | Ubicación | Host |
 | --- | --- |

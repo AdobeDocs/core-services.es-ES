@@ -1,5 +1,5 @@
 ---
-description: Encuentre las integraciones de aplicaciones disponibles en Adobe Experience Cloud.
+description: Encuentre las integraciones de aplicaciones disponibles en Adobe CX Enterprise.
 solution: Experience Cloud
 title: Integraciones de Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
@@ -30,39 +30,39 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 898
-ht-degree: 68%
+source-wordcount: 1111
+ht-degree: 31%
 
 ---
 
-# Integraciones de Experience Cloud
+# Integraciones de CX Enterprise
 
-En esta página se describen varias formas de empezar a integrar aplicaciones de Experience Cloud. Para obtener más información, examine nuestra biblioteca de [tutoriales de vídeo sobre integración](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Experience League.
+En esta página se describen varias formas de empezar a integrar aplicaciones de CX Enterprise. Para obtener más información, examine nuestra biblioteca de [tutoriales de vídeo sobre integración](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Experience League.
 
-## Habilitar las aplicaciones de Experience Cloud para los servicios de plataforma
+## Habilitar las aplicaciones de CX Enterprise para los servicios de plataforma
 
 Describe cómo:
 
-* Aprovisionar su compañía en Experience Cloud.
+* Aprovisionar su compañía en CX Enterprise.
 * Permite que se convierta en administrador.
-* [Implementación del Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+* [Implementar el servicio de CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 * Modernice sus implementaciones de [!DNL Analytics] y [!DNL Target] mediante [!UICONTROL Platform Data Collection].
-* Empiece a utilizar servicios de Experience Cloud como [Atributos del cliente](../services/customer-attributes/attributes.md) y [Biblioteca de audiencias](../services/audiences/overview.md).
+* Empiece a utilizar servicios de CX Enterprise como [Atributos del cliente](../services/customer-attributes/attributes.md) y [Biblioteca de audiencias](../services/audiences/overview.md).
 
 Soluciones o servicios:
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=es)
-* [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
+* [Servicio de CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 
-## Servicio de Experience Cloud ID
+## Servicio de CX Enterprise ID
 
-El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las aplicaciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Adobe Target, Video Heartbeat, y otras aplicaciones y productos de Experience Cloud.
+El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las aplicaciones de CX Enterprise. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Adobe Target, Video Heartbeat, y otras aplicaciones y productos de CX Enterprise.
 
-Consulte el [Servicio de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
+Ver [Servicio de CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 
 **Aplicaciones o servicios aplicables**
 
@@ -73,10 +73,10 @@ Consulte el [Servicio de Experience Cloud ID](https://experienceleague.adobe.com
 
 Ayuda: [Públicos](/help/interface/services/audiences/overview.md)
 
-Crear y administrar audiencias en Experience Cloud [!UICONTROL Audience Library]. Los públicos pueden crearse o derivarse desde distintos orígenes como:
+Crear y administrar audiencias en CX Enterprise [!UICONTROL Audience Library]. Los públicos pueden crearse o derivarse desde distintos orígenes como:
 
-* Las nuevas se crearon en [!DNL Experience Cloud].
-* De [!DNL Analytics] segmentos publicados a [!DNL Experience Cloud].
+* Las nuevas se crearon en [!DNL CX Enterprise].
+* De [!DNL Analytics] segmentos publicados a [!DNL CX Enterprise].
 * De [!DNL Audience Manager].
 
 **Soluciones o servicios aplicables**
@@ -89,22 +89,22 @@ Crear y administrar audiencias en Experience Cloud [!UICONTROL Audience Library]
 
 Ayuda: [Atributos del cliente](/help/interface/services/customer-attributes/attributes.md)
 
-Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez cargados, use los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
+Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en CX Enterprise. Una vez cargados, use los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
 **Soluciones o servicios aplicables**
 
 * Adobe Analytics: Informe de atributos del cliente
 * Adobe Target: configure la [suscripción](/help/interface/services/customer-attributes/subscription.md) de Adobe Target para que use los Atributos del cliente
 
-## Experience Cloud Assets
+## CX Enterprise Assets
 
-Ayuda: [Compartir carpetas de Experience Cloud con Creative Cloud](/help/interface/services/assets/share.md)
+Ayuda: [Compartir carpetas de CX Enterprise con Creative Cloud](/help/interface/services/assets/share.md)
 
-Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones de Experience Cloud como Adobe Target.
+Comparta carpetas y recursos entre CX Enterprise y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones de CX Enterprise como Adobe Target.
 
 **Aplicaciones o servicios aplicables**
 
-* Adobe Experience Cloud
+* Adobe CX Enterprise
 * Adobe Creative Cloud
 * Adobe Target
 
@@ -123,7 +123,7 @@ Permite que Analytics recopile impresiones y clics en recursos proporcionados po
 
 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=es)
 
-Use datos de aplicaciones de Experience Cloud u otros sistemas externos en Audience Manager.
+Trabaje con datos de aplicaciones de CX Enterprise u otros sistemas externos en Audience Manager.
 
 **Aplicaciones o servicios aplicables**
 
@@ -133,14 +133,14 @@ Use datos de aplicaciones de Experience Cloud u otros sistemas externos en Audie
 
 ## Adobe Target
 
-Ayuda: [Integración de Adobe Target con Experience Cloud](/help/interface/services/audiences/overview.md)
+Ayuda: [Integración de Adobe Target con CX Enterprise](/help/interface/services/audiences/overview.md)
 
-Integre Adobe Target con Adobe Analytics y otras aplicaciones de Experience Cloud para permitir el uso de los mismos datos, públicos, atributos y métricas en las dos aplicaciones.
+Integre Adobe Target con Adobe Analytics y otras aplicaciones de CX Enterprise para permitir el uso de los mismos datos, audiencias, atributos y métricas en las dos aplicaciones.
 
 **Aplicaciones o servicios aplicables**
 
 * Atributos del cliente: Configurar la [suscripción](/help/interface/services/customer-attributes/subscription.md) de Adobe Target a los atributos del cliente
-* Públicos de Experience Cloud: [Biblioteca de públicos de Experience Cloud](/help/interface/services/audiences/overview.md)
+* Audiencias de CX Enterprise: [Biblioteca de audiencias de CX Enterprise](/help/interface/services/audiences/overview.md)
 * Analytics: [Adobe Analytics como fuente de informes para Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
 * Audience Manager: [Integración de datos de Adobe Target con Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
 * Campaign: [Integración de Adobe Target con Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=es)
@@ -153,19 +153,19 @@ Integre Adobe Target con Adobe Analytics y otras aplicaciones de Experience Clou
 
 ## Experience Manager - Assets
 
-Ayuda: [Configuración de la integración de AEM Assets con Experience Cloud y Creative Cloud](https://experienceleague.adobe.com/docs/?lang=es)
+Ayuda: [Configuración de la integración de AEM Assets con CX Enterprise y Creative Cloud](https://experienceleague.adobe.com/docs/?lang=es)
 
-Sincronice sus recursos en Adobe Experience Manager (AEM) Assets con Adobe Creative Cloud y viceversa. También puede sincronizar sus recursos con Experience Cloud y viceversa. Puede configurar esta sincronización mediante Experience Cloud.
+Sincronice sus recursos en Adobe Experience Manager (AEM) Assets con Adobe Creative Cloud y viceversa. También puede sincronizar sus recursos con CX Enterprise y viceversa. Puede configurar esta sincronización mediante CX Enterprise.
 
 **Aplicaciones o servicios aplicables**
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
+* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=es)
 
 ## [!DNL Adobe Advertising]
 
-* Ayuda (se requiere inicio de sesión): [Integración con las soluciones y servicios de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* Ayuda (se requiere inicio de sesión): [Integración con soluciones y servicios de Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 * [Documentación de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html?lang=es) en Experience League
 
@@ -175,11 +175,11 @@ Sincronice sus recursos en Adobe Experience Manager (AEM) Assets con Adobe Creat
 
 **Etiquetas:** Puede usar las etiquetas de [Experience Platform para crear etiquetas de seguimiento de conversión basadas en píxeles de Advertising](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), y etiquetas de seguimiento de terceros, para sus páginas de aterrizaje de búsqueda, medios sociales y anuncios en pantalla. (También puede crear etiquetas de [!DNL Advertising] directamente en [!DNL Advertising].)
 
-Públicos de Experience Cloud: (Anunciantes con administración de pantalla) puede usar cualquiera de los públicos de Adobe Experience Cloud como destinatarios para los anuncios en pantalla.**&#x200B;**&#x200B;[&#128279;](../services/audiences/overview.md) Puede usar automáticamente audiencias que haya creado en Experience Cloud y audiencias de Analytics que haya publicado en Experience Cloud. También puede usar Audiencias de Audience Manager cuando la cuenta de [!DNL Adobe Advertising] esté configurada para permitirlo.
+**Audiencias de CX Enterprise:** (Anunciantes con administración de pantalla) Puede usar cualquiera de sus [Audiencias de Adobe CX Enterprise](../services/audiences/overview.md) como destinatarios para sus anuncios en pantalla. Puede usar automáticamente audiencias que haya creado en CX Enterprise y audiencias de Analytics que haya publicado en CX Enterprise. También puede usar Audiencias de Audience Manager cuando la cuenta de [!DNL Adobe Advertising] esté configurada para permitirlo.
 
-Póngase en contacto con su administrador de cuentas para obtener más información sobre el acceso a Adobe Experience Cloud y Perfiles y Públicos, así como sobre la configuración inicial entre los públicos de [!DNL Adobe Advertising] y de Adobe Experience Cloud. **Nota:** Si también utiliza Adobe Target, cualquiera de los públicos que ha publicado en Adobe Experience Cloud también estará disponible para las actividades en Adobe Target.
+Póngase en contacto con su administrador de cuentas para obtener más información sobre el acceso a Adobe CX Enterprise y los Perfiles y Audiencias, así como sobre la configuración inicial entre [!DNL Adobe Advertising] y las Audiencias de Adobe CX Enterprise. **Nota:** Si también usa Adobe Target, cualquiera de las audiencias que ha publicado en Adobe CX Enterprise también estará disponible para las actividades en Adobe Target.
 
-**Experience Cloud Assets:** (anunciantes con administración en pantalla) se puede usar cualquiera de los recursos de Adobe Experience Cloud como material creativo para los anuncios en pantalla con la nueva vista Display Beta. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) para acceder a sus recursos de Adobe Experience Cloud. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
+**CX Enterprise Assets:** (Anunciantes con administración de pantalla) Puede usar cualquiera de sus recursos de Adobe CX Enterprise como material creativo para sus anuncios en pantalla con la vista Nuevo Beta de pantalla. Debe [iniciar sesión en Adobe Advertising a través de Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard) para acceder a sus recursos de Adobe CX Enterprise. Póngase en contacto con su administrador de cuentas para obtener información sobre el acceso a Adobe CX Enterprise.
 
-**Notificaciones de Experience Cloud:** en el vínculo de notificaciones que hay en la parte superior de cada página, puede ver todas las alertas generadas a partir de las plantillas de alertas beta de búsqueda. También puede obtener actualizaciones del sistema, publicaciones, menciones y recursos compartidos de Experience Cloud. Debe [iniciar sesión en Adobe Advertising a través de Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) para acceder a sus notificaciones. Póngase en contacto con el administrador de cuentas para solicitar información sobre el acceso a Adobe Experience Cloud.
+**Notificaciones de CX Enterprise:** En el vínculo de notificaciones que hay en la parte superior de cada página, puede ver todas las alertas generadas a partir de las plantillas de alertas beta de búsqueda. También puede obtener actualizaciones del sistema, publicaciones, menciones y recursos compartidos de CX Enterprise. Debe [iniciar sesión en Adobe Advertising a través de Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard) para acceder a sus notificaciones. Póngase en contacto con su administrador de cuentas para obtener información sobre el acceso a Adobe CX Enterprise.
 

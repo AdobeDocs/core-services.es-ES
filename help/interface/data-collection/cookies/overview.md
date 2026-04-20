@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo usan cookies las soluciones y los servicios de Adobe Experience Cloud.
+description: Descubra cómo utilizan cookies las soluciones y los servicios de Adobe CX Enterprise.
 title: Uso de cookies en Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
@@ -15,26 +15,26 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 600
-ht-degree: 11%
+source-wordcount: 624
+ht-degree: 8%
 
 ---
 
-# Uso de cookies en Experience Cloud
+# Uso de cookies en CX Enterprise
 
-Adobe Experience Cloud usa cookies. Una cookie es un pequeño fragmento de datos que un sitio web envía a su explorador, que lo almacena para su uso posterior. Las cookies ayudan al sitio web a recordar cosas cuando usted visita de nuevo o se mueve entre páginas. Las cookies ayudan a rastrear las visitas y a diferenciar un dispositivo de otro.
+Adobe CX Enterprise usa cookies. Una cookie es un pequeño fragmento de datos que un sitio web envía a su explorador, que lo almacena para su uso posterior. Las cookies ayudan al sitio web a recordar cosas cuando usted visita de nuevo o se mueve entre páginas. Las cookies ayudan a rastrear las visitas y a diferenciar un dispositivo de otro.
 
 Las leyes a menudo requieren que obtenga permiso antes de almacenar o usar cookies en el dispositivo de alguien. Adobe recomienda consultar con su equipo legal para comprender las reglas que se aplican.
 
 ## Acerca de las cookies de origen
 
-Adobe Experience Cloud usa cookies para rastrear información que no dura entre vistas de página o sesiones del explorador. Cuando es posible, Adobe utiliza cookies de origen (vinculadas a su propio sitio web). Para rastrear la actividad en varios sitios o dominios de su propiedad, se necesitan cookies de terceros.
+Adobe CX Enterprise usa cookies para rastrear información que no dura entre vistas de página o sesiones del explorador. Cuando es posible, Adobe utiliza cookies de origen (vinculadas a su propio sitio web). Para rastrear la actividad en varios sitios o dominios de su propiedad, se necesitan cookies de terceros.
 
 Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si utiliza el servicio de identidad de Experience Platform (ECID) o cookies de Analytics más antiguas (como la cookie `s_vi`):
 
-* [Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio ECID siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
+* [Servicio de identidad de CX Enterprise](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio ECID siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
 
 * [Identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`): Depende de la configuración si las cookies son de origen o de terceros:
 
@@ -53,7 +53,7 @@ Esta es una versión simplificada del texto:
 
 Adobe se toma muy en serio la privacidad y la seguridad de los datos. Funciona con organizaciones de privacidad, reguladores y programas como AdChoices para dar a las personas control sobre cómo se utilizan sus datos.
 
-La mayoría de las cookies de Adobe Experience Cloud no almacenan información personal. Son seguros y solo los utiliza su empresa, para la creación de informes, contenido y publicidad. Adobe no comparte estos datos con otros clientes o terceros, excepto en informes anónimos de todo el sector (como los informes de Digital Marketing Insight).
+La mayoría de las cookies de Adobe CX Enterprise no almacenan información personal. Son seguros y solo los utiliza su empresa, para la creación de informes, contenido y publicidad. Adobe no comparte estos datos con otros clientes o terceros, excepto en informes anónimos de todo el sector (como los informes de Digital Marketing Insight).
 
 Adobe no combina los datos de los exploradores en empresas diferentes. Para proteger la privacidad, algunas herramientas de Adobe permiten que cada sitio web utilice su propio conjunto de cookies. Algunos también permiten el uso de su propio dominio para las cookies, lo que las hace de origen y más seguras.
 

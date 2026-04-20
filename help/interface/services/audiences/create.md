@@ -22,16 +22,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 62%
+source-wordcount: 515
+ht-degree: 60%
 
 ---
 
 # Crear un público
 
-En [!UICONTROL Audience Library], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de Experience Cloud.
+En [!UICONTROL Audience Library], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
 
 Este artículo le ayuda a lo siguiente:
 
@@ -52,13 +52,13 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
 
 * Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [!DNL Adobe Analytics]publicado[&#x200B; en &#x200B;](overview.md).[!DNL Experience Cloud]
+* Usuarios de Chrome y Safari derivados de un segmento [publicado](overview.md) en [!DNL CX Enterprise].[!DNL Adobe Analytics]
 
   ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
 **Para crear un público**
 
-1. Haga clic en [!DNL Experience Cloud] aplicaciones (![icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Haga clic en [!DNL CX Enterprise] aplicaciones (![icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
 1. En la página [!UICONTROL Audiences], haga clic en **[!UICONTROL New]**. ![Nueva audiencia](assets/add_icon_small.png)
 
@@ -71,9 +71,9 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
      >[!NOTE]
      >
-     >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
+     >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de CX Enterprise.
 
-   * **[!UICONTROL Experience Cloud:]** datos de atributo derivados de [!DNL Experience Cloud] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
+   * **[!UICONTROL CX Enterprise:]** datos de atributo derivados de [!DNL CX Enterprise] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
 1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Save].**
 
@@ -93,7 +93,7 @@ En [!UICONTROL Rules], defina las selecciones de atributos *`Home & Garden`*:
 
 Los *Visitantes de Chrome y Safari* son un segmento de público compartido desde Analytics:
 
-* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Attribute Source:]** CX Enterprise
 * **[!UICONTROL Dimension:]** visitantes de Chrome y Safari
 
 ![Visitantes de Chrome y Safari](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ Para comparar, podría añadir una regla *OR* para ver todos los visitantes de u
 
 La regla resultante es un público definido que incluye a los usuarios de Chrome y Safari que visitaron la sección Hogar y jardín. El segmento Patio y muebles proporciona una perspectiva adicional de todos los visitantes que visitan esa sección del sitio.
 
-![Público definido en Experience Cloud](assets/defined_audience.png)
+![Audiencia definida en CX Enterprise](assets/defined_audience.png)
 
 * **Estimación histórica:** (Círculo con puntos) Representa reglas creadas según datos de [!DNL Analytics].
 * **Audiencia real:** (Círculo sólido) cualquier regla creada que tenga 30 días de datos de Audience Manager. Cuando los datos de Audience Manager llegan a los 30 días, la línea se vuelve sólida y representa los números reales.
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de Experience Cloud. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.

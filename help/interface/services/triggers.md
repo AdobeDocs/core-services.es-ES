@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo configurar Experience Cloud Déclencheur.
+description: Obtenga información sobre cómo configurar CX Enterprise Déclencheur.
 solution: Experience Cloud
 title: Información general sobre Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 74%
+source-wordcount: 697
+ht-degree: 71%
 
 ---
 
-# Experience Cloud Triggers
+# CX Enterprise Déclencheur
 
-[!UICONTROL Triggers] en Experience Cloud le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+[!UICONTROL Triggers] en CX Enterprise le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
 
 Por ejemplo:
 
@@ -55,7 +55,7 @@ Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en inici
 * **Acción:** puede crear activadores, por ejemplo, para que se desencadenen después de que los usuarios se suscriban a un boletín, de una suscripción por correo electrónico o cuando se soliciten tarjetas de crédito (confirmaciones). Si tiene un comercio minorista, puede crear un activador para visitantes que se suscriben a un programa de lealtad. Si se dedica al sector de los medios de comunicación y el entretenimiento, cree activadores para visitantes que vean un determinado programa y que podrían estar interesados en responder a una encuesta.
 * **Inicio y fin de sesión:** cree un activador para los eventos de inicio y fin de sesión.
 
-## Crear un Trigger de Experience Cloud
+## Creación de un déclencheur de CX Enterprise
 
 Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un activador durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el activador.
 
@@ -63,7 +63,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 activadores.
 
-1. En Experience Cloud, haga clic en ![menú](../assets/menu-icon.png) y luego en **[!UICONTROL Data Collection/Launch]**.
+1. En CX Enterprise, haga clic en ![menú](../assets/menu-icon.png) y luego en **[!UICONTROL Data Collection/Launch]**.
 1. En la tarjeta [!UICONTROL Triggers], haga clic en **[!UICONTROL Manage Triggers]**.
 1. Haga clic en **[!UICONTROL New Trigger]** y luego especifique el tipo de déclencheur:
 
@@ -87,7 +87,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
 ## Ejemplos de activadores
 
-Ejemplos de Triggers de Experience Cloud:
+Ejemplos de Déclencheur de CX Enterprise:
 
 ### Déclencheur de abandono del carro
 

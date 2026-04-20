@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de los dominios utilizados por Experience Cloud.
+description: Obtenga información acerca de los dominios utilizados por CX Enterprise.
 title: Dominios utilizados por Experience Cloud
 feature: Central Interface Components
 topic: Administration
@@ -14,18 +14,18 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 102
-ht-degree: 17%
+source-wordcount: 129
+ht-degree: 15%
 
 ---
 
-# Dominios utilizados por Experience Cloud
+# Dominios utilizados por CX Enterprise
 
-Experience Cloud utiliza los siguientes hosts para ofrecer la aplicación, mejorar el rendimiento y mejorar la experiencia del producto. Adobe recomienda permitir estos dominios a través de la red de su organización o del cortafuegos para una experiencia óptima.
+CX Enterprise utiliza los siguientes hosts para ofrecer la aplicación, mejorar el rendimiento y mejorar la experiencia del producto. Adobe recomienda permitir estos dominios a través de la red de su organización o del cortafuegos para una experiencia óptima.
 
-Además de los dominios enumerados a continuación, los productos de Adobe Experience Cloud individuales tienen sus propios dominios que utilizan:
+Además de los dominios enumerados a continuación, los productos de Adobe CX Enterprise individuales tienen sus propios dominios que utilizan:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/domains)

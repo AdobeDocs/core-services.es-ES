@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de Experience Cloud Assets que puede compartir entre distintas aplicaciones.
+description: Obtenga información acerca de CX Enterprise Assets que puede compartir entre distintas aplicaciones.
 solution: Experience Cloud
 title: Información general sobre recursos
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -21,21 +21,21 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 86%
+source-wordcount: 320
+ht-degree: 69%
 
 ---
 
-# Información general sobre Experience Cloud Assets
+# Descripción general de CX Enterprise Assets
 
-Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
+CX Enterprise Assets proporciona un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
 Entre los servicios de recursos se incluyen:
 
 * Almacenamiento de recursos, interfaz de administración, interfaz de selección de incrustación (a través de las aplicaciones).
-* Integraciones con Creative Cloud, colaboración con Experience Cloud y aplicaciones de Experience Cloud.
+* Integraciones con Creative Cloud, colaboración con CX Enterprise y aplicaciones de CX Enterprise.
 
 El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce el tiempo de comercialización. Puede optimizar los flujos de trabajo en las aplicaciones:
 
@@ -44,9 +44,9 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 * **[!DNL Adobe Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
 
 
-## Vaya a Experience Cloud Assets
+## Vaya a CX Enterprise Assets
 
-![Navegar a Experience Cloud Assets &#x200B;](../../assets/asset-nav.png)
+![Vaya a CX Enterprise Assets](../../assets/asset-nav.png)
 
 ## Acceso a la barra de herramientas
 

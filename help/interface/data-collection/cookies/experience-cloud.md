@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo se almacenan y utilizan los servicios de ID en las aplicaciones de Experience Cloud.
+description: Descubra cómo se almacena y utiliza el servicio de ID en las aplicaciones de CX Enterprise.
 solution: Experience Cloud,Analytics,Target
 title: Cookies de Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,16 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 88%
+source-wordcount: 370
+ht-degree: 77%
 
 ---
 
-# Cookies de Experience Cloud
+# Cookies de CX Enterprise
 
-Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de Experience Cloud. Estas cookies se aplican específicamente para acceder a aplicaciones de Adobe Experience Cloud en [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de CX Enterprise. Estas cookies se aplican específicamente para acceder a aplicaciones de Adobe CX Enterprise en [experience.adobe.com](https://experience.adobe.com).
 
 **Nombre de cookie: s_ecid**
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud usa cookies para almacenar un ID de visitante utilizado e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Contiene una copia del Experience Cloud ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia del CX Enterprise ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 
@@ -86,7 +86,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Los ID de visitante único utilizados por las soluciones de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de CX Enterprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 
@@ -106,7 +106,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>No se ha agregado ningún valor. El valor predeterminado de Chrome es Lax. </p> </td> 
-   <td colname="col2"> <p> Las cookies con esta configuración solo se envían cuando el dominio que aparece en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome. </p> </td> 
+   <td colname="col2"> <p> Las cookies con esta configuración solo se envían cuando el dominio mostrado en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>

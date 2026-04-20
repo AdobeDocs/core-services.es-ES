@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre la administración de usuarios y productos de Experience Cloud, Audiencias, Atributos del cliente, Journey Orchestration, Ofertas, Places, Experience Platform y Mobile Services.
+description: Obtenga información sobre la administración de usuarios y productos de CX Enterprise, Audiencias, Atributos del cliente, Journey Orchestration, Ofertas, Places, Experience Platform y Mobile Services.
 solution: Experience Cloud
 title: Información general sobre los servicios de Experience Cloud
 feature: Central Interface Components
@@ -23,25 +23,25 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 278
-ht-degree: 47%
+source-wordcount: 346
+ht-degree: 43%
 
 ---
 
-# Información general sobre la interfaz Experience Cloud
+# Información general sobre la interfaz CX Enterprise
 
-Las características de la interfaz de Experience Cloud a veces se denominan _servicios principales_. Son las características del encabezado unificado, incluido el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]).
+Las características de la interfaz de CX Enterprise a veces se denominan _servicios principales_. Son las características del encabezado unificado, incluido el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]).
 
-Otras funciones compartidas incluyen administración (administración de usuarios y productos) para Experience Cloud, cookies, preferencias de cuenta, notificaciones, etc.
+Otras funciones compartidas incluyen administración (administración de usuarios y productos) para CX Enterprise, cookies, preferencias de cuenta, notificaciones, etc.
 
-Para acceder a los servicios y aplicaciones compartidos en Experience Cloud, haga clic en **[!UICONTROL Application Selector]**
+Para acceder a servicios y aplicaciones compartidos en CX Enterprise, haga clic en **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 **Selector de aplicación**
 
-![Servicios de Experience Cloud](../assets/platform-core-services.png)
+![Servicios de CX Enterprise](../assets/platform-core-services.png)
 
 Las páginas Servicios de esta guía describen los siguientes productos y servicios:
 
@@ -50,8 +50,8 @@ Las páginas Servicios de esta guía describen los siguientes productos y servic
 | [Componentes de la interfaz central](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud) | Acceda a las preferencias de cuenta, busque ayuda sobre un producto y acceda a aplicaciones y servicios. |
 | [Biblioteca de públicos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview) | Los públicos son recopilaciones de visitantes (una lista de ID de visitantes). [!DNL Audience Library] de Adobe le permite administrar la traducción de datos sobre visitantes en segmentación de audiencia. |
 | [Atributos del cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) | Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. [!UICONTROL Journey Orchestration] es un servicio de aplicaciones integrado con Experience Platform. |
-| [Recursos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets ofrece un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
-| [Activadores](https://experienceleague.adobe.com/es/docs/core-services/interface/services/triggers) | Los déclencheur de Experience Cloud le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. |
+| [Recursos](https://experienceleague.adobe.com/es/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets proporciona un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. |
+| [Activadores](https://experienceleague.adobe.com/es/docs/core-services/interface/services/triggers) | Los déclencheur de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. |
 | [Adobe Exchange Marketplace](https://experienceleague.adobe.com/es/docs/core-services/interface/services/exchange) | Exchange Marketplace es un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital mediante aplicaciones. Las aplicaciones incluyen conectores de datos, configuraciones personalizadas al producto central de Adobe, aplicaciones externas e informes. |
 
 {style="table-layout:auto"}

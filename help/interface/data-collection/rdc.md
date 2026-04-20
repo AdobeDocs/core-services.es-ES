@@ -1,6 +1,6 @@
 ---
 title: Recopilación de datos regionales
-description: Obtenga información acerca de la recopilación de datos regionales en Experience Cloud.
+description: Obtenga información acerca de la recopilación de datos regionales en CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
 # Recopilación de datos regionales
 
-Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y Adobe se produzcan lo más cerca posible de los visitantes. Los datos recopilados localmente en un sitio Edge se reenvían de forma segura a un sitio principal para su procesamiento. Una vez procesados, los datos están disponibles para los productos y servicios de Adobe Experience Cloud.
+Adobe CX Enterprise utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y Adobe se produzcan lo más cerca posible de los visitantes. Los datos recopilados localmente en un sitio Edge se reenvían de forma segura a un sitio principal para su procesamiento. Una vez procesados, los datos están disponibles para los productos y servicios de Adobe CX Enterprise.
 
 El flujo de trabajo de recopilación de datos regionales ofrece varias ventajas:
 
@@ -44,7 +44,7 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 {style="table-layout:auto"}
 
-_*La recopilación de datos regionales de China requiere el paquete de complementos de optimización del rendimiento de China y solo se aplica a Adobe Analytics que usa la recopilación de datos de AppMeasurement. No se admiten otros servicios de Experience Cloud ni la recopilación de datos de Web SDK. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información acerca del paquete de complementos para la optimización del rendimiento en China._
+_*La recopilación de datos regionales de China requiere el paquete de complementos de optimización del rendimiento de China y solo se aplica a Adobe Analytics que usa la recopilación de datos de AppMeasurement. No se admiten otros servicios de CX Enterprise ni la recopilación de datos de Web SDK. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información acerca del paquete de complementos para la optimización del rendimiento en China._
 
 ## Recopilación de datos de terceros
 
