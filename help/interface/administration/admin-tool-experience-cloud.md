@@ -1,6 +1,6 @@
 ---
 title: Ver usuarios y detalles del usuario
-description: Obtenga información sobre la herramienta de administración en Experience Cloud. Vea una lista ordenable y filtrable de todos los usuarios y las directivas de Experience Cloud.
+description: Obtenga información acerca de la herramienta de administración de CX Enterprise. Ver una lista ordenable y filtrable de todos los usuarios y las directivas de CX Enterprise.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -9,22 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# CX Enterprise [!UICONTROL Admin Tool]
 
-Los administradores pueden ver una lista de los usuarios y las directivas de Experience Cloud que pueden ordenar y filtrar y sus detalles en [!UICONTROL Admin Tool]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
+Los administradores pueden ver una lista de los usuarios y las directivas de CX Enterprise que pueden ordenar y filtrar y sus detalles en [!UICONTROL Admin Tool]. Los detalles del usuario incluyen el acceso al producto, las funciones y la información a la que accedió por última vez. Los detalles de la directiva incluyen la lista de usuario, grupo, desarrollador, integración y administrador de una directiva (perfil de producto), así como información detallada sobre sus permisos y recursos.
 
 1. Iniciar sesión en `https://experience.adobe.com/.`
 
@@ -38,7 +35,7 @@ Los administradores pueden ver una lista de los usuarios y las directivas de Exp
 
 ## Página Usuarios
 
-Esta página muestra la lista completa de usuarios con acceso a Experience Cloud en su organización. Proporciona información sobre el derecho a la aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
+Esta página muestra la lista completa de usuarios con acceso a CX Enterprise en su organización. Proporciona información sobre el derecho a la aplicación y el último inicio de sesión. Puede buscar, ordenar y filtrar vistas personalizadas de la lista del usuario.
 
 ![Página de usuarios de Admin Console](../assets/admin-tool-users.png)
 
@@ -47,8 +44,8 @@ Esta página muestra la lista completa de usuarios con acceso a Experience Cloud
 | [!UICONTROL Name] | Nombre y apellido del usuario. Puede ordenar esta columna de la A a la Z y de la Z a la A. Haga clic en el nombre de un usuario para ver más detalles sobre el mismo. |
 | [!UICONTROL Email] | La dirección de correo electrónico asociada al usuario. La columna puede ordenarse de la A a la Z y de la Z a la A. |
 | [!UICONTROL ID Type] | Tipo de identidad de la cuenta del usuario. El filtro se puede aplicar a tipos de ID específicos de la vista. Consulte [Administrar tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) para obtener más información. |
-| [!UICONTROL Solutions] | Resumen de las aplicaciones de Experience Cloud a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
-| [!UICONTROL Last Login] | Hora y fecha del inicio de sesión más reciente del usuario en Experience Cloud. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en Experience Cloud y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
+| [!UICONTROL Solutions] | Resumen de las aplicaciones de CX Enterprise a las que puede acceder el usuario. Puede aplicar filtros para reducir la lista de los usuarios con acceso específico a la aplicación. |
+| [!UICONTROL Last Login] | Hora y fecha del inicio de sesión más reciente del usuario en CX Enterprise. Esta columna se puede ordenar por fechas en orden ascendente o descendente. <br> **Importante:** A partir del 13 de enero de 2020, los datos de inicio de sesión de un usuario se conservarán durante 365 días. Esta información está pensada para mostrar la actividad de inicio de sesión actual en CX Enterprise y no para recomendar que se realicen acciones en cuentas inactivas antes del 13 de enero de 2020. |
 
 ## Personalización de la vista de lista del usuario
 
@@ -86,7 +83,7 @@ Esta sección muestra un resumen de la cuenta de usuario, que incluye:
 
 ## Resumen de soluciones
 
-Esta sección muestra un resumen de las aplicaciones de Experience Cloud a las que el usuario puede acceder. Incluye la función administrativa del producto cuando corresponde.
+Esta sección muestra un resumen de las aplicaciones de CX Enterprise a las que el usuario puede acceder. Incluye la función administrativa del producto cuando corresponde.
 
 ## Lista de acceso a productos detallados
 
@@ -102,7 +99,7 @@ Esta sección muestra una lista completa de todos los miembros de perfiles de pr
 
 ## Página Directivas
 
-Esta página muestra la lista completa de las directivas de Experience Cloud en su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas.
+Esta página muestra la lista completa de las directivas de CX Enterprise de su organización. Proporciona información sobre productos, instancias, usuarios y desarrolladores. Puede buscar, ordenar y filtrar vistas personalizadas de la lista de directivas.
 
 ![Página Políticas en Admin Console](../assets/admin-tool-policies.png)
 
@@ -125,7 +122,7 @@ Puede buscar, ordenar o filtrar las columnas para personalizar la lista de direc
 | Elemento | Descripción |
 | ---------| ----------|
 | [!UICONTROL Instance] filtro | Busque cadenas de caracteres en la columna de instancia para reducir los resultados a una o varias instancias. Añada varios filtros pulsando Intro después de cada término de búsqueda. |
-| [!UICONTROL Solution] filtro | Elija entre las aplicaciones disponibles. Varios filtros de aplicaciones buscan resultados que contengan Solución 1 `OR` Solución 2. |
+| [!UICONTROL Solution] filtro | Elija entre las aplicaciones disponibles. Varios filtros de aplicación buscan resultados que contengan Solución 1 `OR` Solución 2. |
 
 ## Ver detalles de la política
 

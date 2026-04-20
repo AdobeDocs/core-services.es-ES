@@ -1,5 +1,5 @@
 ---
-description: Descubra dónde se producen las actualizaciones de la documentación para los componentes comunes de la interfaz de Experience Cloud.
+description: Descubra dónde se producen las actualizaciones de la documentación para los componentes comunes de la interfaz de CX Enterprise.
 solution: Experience Cloud
 title: Actualizaciones de la documentación
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -8,31 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 66%
+ht-degree: 45%
 
 ---
 
 # Actualizaciones de la documentación
 
-Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de Experience Cloud.
+Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de CX Enterprise.
 
 **Marzo de 2026**
 
@@ -40,7 +30,7 @@ Se agregó [consumo de trabajos y créditos de IA](../features/ai-credit-consump
 
 **Noviembre de 2025**
 
-Actualizaciones a [Inteligencia artificial aplicada a agentes en Experience Cloud](../features/agentic-ai.md)
+Actualizaciones a [Inteligencia artificial aplicada a agentes en CX Enterprise](../features/agentic-ai.md)
 
 **Octubre de 2025**
 
@@ -52,7 +42,7 @@ Se ha agregado información sobre [restablecer tu Adobe ID](../features/account-
 
 **Febrero de 2025**
 
-Se agregaron [Administrar usuarios y productos en Experience Cloud](../administration/admin-console.md). Esta página ayuda a los administradores a localizar la ayuda de administración de usuarios y productos (Admin Console) para todas las aplicaciones.
+Se agregaron [Administrar usuarios y productos en CX Enterprise](../administration/admin-console.md). Esta página ayuda a los administradores a localizar la ayuda de administración de usuarios y productos (Admin Console) para todas las aplicaciones.
 
 **Noviembre de 2024**
 
@@ -66,7 +56,7 @@ Se han actualizado [preferencias de usuario](../features/account-preferences.md)
 
 **26 de abril de 2024**
 
-Renovación completa de la arquitectura de la documentación. También se agregaron [direcciones IP de Adobe Experience Cloud](../data-collection/ip-addresses.md) y [recopilación de datos regionales](../data-collection/rdc.md).
+Renovación completa de la arquitectura de la documentación. También se agregaron [direcciones IP de Adobe CX Enterprise](../data-collection/ip-addresses.md) y [recopilación de datos regionales](../data-collection/rdc.md).
 
 **9 de abril de 2024**
 
@@ -88,7 +78,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 
 | Función | Descripción |
 | ------- | ------- |
-| Página principal | La información del pie de la página de inicio de Experience Cloud se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
+| Página principal | La información del pie de la página de inicio de CX Enterprise se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
 | Paneles de control de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada la selección de datos (actualmente una selección de datos de una sola variable), helios recomienda una visualización adecuada para acompañar esa selección de datos. |
 | Paneles de control de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Paneles de control de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
 
@@ -97,7 +87,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 | Función | Descripción |
 | ------- | ------- |
 | Búsqueda unificada | La búsqueda unificada sigue añadiendo tipos de objetos al índice de búsqueda. En esta actualización, la búsqueda global ahora busca en el contenido de Experience League y en los siguientes tipos de objetos de Journey Optimizer: <ul><li>Conjuntos de datos</li><li>Destinos</li><li>Consultas</li><li>Esquemas</li><li>Segmentos</li><li>Fuentes</li><li>Ofertas</li><li>Componentes</li><li>Mensajes</li><li>Recorridos</li></ul> |
-| Consentimiento de los datos de uso del producto | Tras el inicio de sesión, se le pide que envíe sus preferencias sobre cómo Adobe puede proporcionarle contenido útil y personalizado, como tutoriales, guías, consejos rápidos, recomendaciones, vídeos de aprendizaje y mucho más, basándose en sus datos de uso del producto Experience Cloud. Esta solicitud también incluye una actualización de sus preferencias para la recopilación y el uso de estos datos en <https://experience.adobe.com/preferences>. |
+| Consentimiento de los datos de uso del producto | Tras el inicio de sesión, se le pide que envíe sus preferencias sobre cómo Adobe puede proporcionarle contenido útil y personalizado, como tutoriales, guías, consejos rápidos, recomendaciones, vídeos informativos y mucho más, basándose en sus datos de uso del producto CX Enterprise. Esta solicitud también incluye una actualización de sus preferencias para la recopilación y el uso de estos datos en <https://experience.adobe.com/preferences>. |
 
 **24 de agosto de 2021**
 
@@ -113,11 +103,11 @@ Estructura de la guía reorganizada, tabla de contenido.
 
 **1 de junio de 2021**
 
-Se ha actualizado la [página de destino](../experience-cloud.md) con nueva ayuda para acceder a Experience Cloud, la búsqueda global, las preferencias y las notificaciones.
+Se ha actualizado [la página de aterrizaje](../experience-cloud.md) con nueva ayuda para acceder a CX Enterprise, la búsqueda global, las preferencias y las notificaciones.
 
 **19 de agosto de 2020**
 
-Se ha actualizado [Ver detalles del usuario de Experience Cloud (herramienta de administrador)](../administration/admin-tool-experience-cloud.md) con información sobre directivas.
+Se ha actualizado [Ver detalles del usuario de CX Enterprise (Herramienta de administración)](../administration/admin-tool-experience-cloud.md) con información sobre directivas.
 
 **19 de mayo de 2020**
 
@@ -136,7 +126,7 @@ Se ha actualizado [Validar reenvío de nombres de host](../data-collection/adobe
 
 **20 de febrero de 2020**
 
-Se ha añadido la opción [Ver detalles del usuario de Experience Cloud (Herramienta de administración)](../administration/admin-tool-experience-cloud.md).
+Se agregó [Ver detalles del usuario de CX Enterprise (Herramienta de administración)](../administration/admin-tool-experience-cloud.md).
 
 **Actualizado: 5/9/2018**
 
@@ -164,19 +154,19 @@ Se ha actualizado la definición de Datos sin procesar de Analytics en [Crear un
 
 **9 de mayo de 2016**
 
-Se ha añadido [Integraciones de Experience Cloud](../administration/integrations.md), un resumen de la documentación sobre las integraciones.
+Se agregó [Integraciones de CX Enterprise](../administration/integrations.md), un resumen de la documentación sobre integraciones.
 
 **11 de febrero de 2016**
 
-Se ha añadido [Experience Cloud Assets](../services/assets/experience-cloud-assets.md).
+Se agregó [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
 
 **15 de enero de 2015**
 
-Los usuarios de Experience Cloud ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](../services/assets/share.md).
+Los usuarios de CX Enterprise ahora pueden compartir carpetas en Creative Cloud y sincronizar recursos y comentarios entre ambos servicios Cloud. Consulte [Uso compartido de recursos](../services/assets/share.md).
 
 **17 de julio de 2014**
 
-Se ha añadido [Preguntas frecuentes sobre Experience Cloud](faq.md) para administradores.
+Se agregaron [preguntas más frecuentes sobre CX Enterprise](faq.md) para administradores.
 
 **22 de mayo de 2014**
 

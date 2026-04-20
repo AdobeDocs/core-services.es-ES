@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo compartir una carpeta de recursos de Experience Cloud con usuarios de Creative Cloud.
+description: Descubra cómo compartir una carpeta de recursos de CX Enterprise con usuarios de Creative Cloud.
 solution: Experience Cloud
 title: Compartir una carpeta de recursos de Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -9,28 +9,21 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 51%
+source-wordcount: 451
+ht-degree: 39%
 
 ---
 
-# Uso compartido de una carpeta de recursos de Experience Cloud
+# Compartir una carpeta de recursos de CX Enterprise
 
-Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones de Experience Cloud como Adobe Target. La carpeta compartida debe proceder de Experience Cloud.
+Comparta carpetas y recursos entre CX Enterprise y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones de CX Enterprise como Adobe Target. La carpeta compartida debe proceder de CX Enterprise.
 
 **Ventajas de compartir**
 
@@ -40,9 +33,9 @@ Comparta carpetas y recursos entre Experience Cloud y Creative Cloud. Colabore, 
 * Disfrute de una mayor seguridad empresarial
 * Compartir, guardar y enviar archivos fácilmente entre creativos y especialistas en marketing
 
-Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben estar en la lista de permitidos de Experience Cloud. Consulte [Gestionar usuarios de Creative Cloud](manage-cc-users.md).
+Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben estar en la lista de permitidos de CX Enterprise. Consulte [Gestionar usuarios de Creative Cloud](manage-cc-users.md).
 
-**Para compartir una carpeta de recursos de Experience Cloud**
+**Para compartir una carpeta de recursos de CX Enterprise**
 
 1. En una carpeta de recursos, haga clic en **[!UICONTROL Share to Creative Cloud]**.
 
@@ -63,11 +56,11 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
    ![Ver en la Web](../../assets/creative_cloud_open_folder.png)
 1. Siga añadiendo comentarios en el recurso compartido:
 
-   En Creative Cloud, puede seleccionar en una imagen y luego hacer clic en **[!UICONTROL Activity]** para agregar un comentario en la imagen. Los comentarios se sincronizan con los recursos en [!DNL Creative Cloud] y en [!DNL Experience Cloud].
+   En Creative Cloud, puede seleccionar en una imagen y luego hacer clic en **[!UICONTROL Activity]** para agregar un comentario en la imagen. Los comentarios se sincronizan con los recursos en [!DNL Creative Cloud] y en [!DNL CX Enterprise].
 
    ![Adición de un comentario en la imagen](../../assets/asset_comment_cc.png)
 
-   En Experience Cloud, seleccione en una imagen y, a continuación, seleccione el icono de cronología para añadir un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y Experience Cloud.
+   En CX Enterprise, seleccione en una imagen y, a continuación, seleccione el icono de cronología para añadir un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y CX Enterprise.
 
    ![Adición de un comentario en la imagen](../../assets/asset_comment_mac.png)
 
@@ -77,7 +70,7 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
    Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja de compartirse y los usuarios de Creative Cloud ya no tendrán acceso a ella.
 
-Otras formas de usar un recurso compartido incluyen cargar o intercambiar recursos de la [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en Adobe Target por imágenes en las actividades.
+Otras formas de usar un recurso compartido incluyen cargar o intercambiar recursos de la [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) en Adobe Target por imágenes en las actividades.
 
 Después de compartir una carpeta con Creative Cloud, verá en ella el logotipo de Creative Cloud.
 
@@ -85,13 +78,13 @@ Después de compartir una carpeta con Creative Cloud, verá en ella el logotipo 
 
 Ayuda relacionada:
 
-* [Ayuda de Creative Cloud: Gestionar y sincronizar archivos](https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html)
+* [Ayuda de Creative Cloud: Administrar y sincronizar archivos](https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html)
 * [Ayuda de Creative Cloud: Colaborar con otros usuarios](https://helpx.adobe.com/es/creative-cloud/help/collaboration.html)
-* [Ayuda de Creative Cloud: Preguntas frecuentes sobre colaboración](https://helpx.adobe.com/es/creative-cloud/help/collaboration-faq.html)
+* [Ayuda de Creative Cloud: Preguntas frecuentes sobre Collaboration](https://helpx.adobe.com/es/creative-cloud/help/collaboration-faq.html)
 
 ## Acerca del uso compartido de recursos con Adobe Target
 
 Al crear actividades en [!DNL Adobe Target], puede utilizar un recurso de imagen compartida al intercambiar imágenes en [!UICONTROL Offers Library].
 
-Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en la ayuda de [!DNL Target].
+Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) en la ayuda de [!DNL Target].
 

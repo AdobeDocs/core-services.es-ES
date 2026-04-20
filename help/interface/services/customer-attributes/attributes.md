@@ -1,6 +1,6 @@
 ---
 title: Acerca de  [!DNL Customer Attributes]
-description: Más información sobre [!DNL Customer Attributes] en Adobe Experience Cloud. Descubra cómo cargar los datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
+description: Más información sobre [!DNL Customer Attributes] en Adobe CX Enterprise. Descubra cómo cargar los datos de atributos de cliente para utilizarlos en Adobe Analytics y Adobe Target.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -8,51 +8,41 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 TQID: https://experienceleague.adobe.com/yFspG9mP9PG9KTYJF4V52t15siqJb7a2-eAxU1T60G4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 55%
+source-wordcount: 313
+ht-degree: 47%
 
 ---
 
-# [!DNL Customer Attributes] en Experience Cloud
+# [!DNL Customer Attributes] en CX Enterprise
 
 **[!UICONTROL Apps]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-[!DNL Customer Attributes] en Adobe Experience Cloud le permite cargar los datos empresariales capturados desde una base de datos de administración de la relación con los clientes (CRM). Puede [cargar los datos](t-crs-usecase.md) en un origen de datos de [!DNL Customer Attributes] en Experience Cloud y, a continuación, usar los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
+[!DNL Customer Attributes] en Adobe CX Enterprise le permite cargar los datos empresariales capturados desde una base de datos de administración de la relación con los clientes (CRM). Puede [cargar los datos](t-crs-usecase.md) en un origen de datos de [!DNL Customer Attributes] en CX Enterprise y, a continuación, usar los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
 ![Información general sobre Atributos del cliente](assets/custom_reports.png)
 
 ## Acerca de los datos de clientes empresariales {#customer-data}
 
-Los datos de clientes empresariales se refieren al conjunto de información de toda la organización recopilada acerca de clientes, clientes potenciales y socios. Residen en otros sistemas y pueden incluir información como suscripciones, nivel de lealtad, edad, sexo, productos propios, intereses y valor a largo plazo.
+Los datos de clientes empresariales hacen referencia al conjunto de información recopilada en toda la organización sobre clientes, clientes potenciales y socios.Se encuentra en otros sistemas y puede incluir información como suscripciones, nivel de lealtad, edad, sexo, productos propios, intereses y valor a largo plazo.
 
 La siguiente imagen es un ejemplo de un _archivo de datos_ que muestra los datos de suscriptores de productos, incluidos los ID de miembro, los productos destacados, los productos más utilizados, etc.
 
 ![¿Qué son los datos del cliente empresariales?](assets/01_crs_usecase.png)
 
-Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]**.
 
 Consulte [Cargar datos de atributos del cliente](t-crs-usecase.md) para conocer este flujo de trabajo.
 
 ## Ejemplos de atributos del cliente de Analytics y Target
 
-Una vez que los datos se encuentren en Experience Cloud, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
+Una vez que los datos se encuentren en CX Enterprise, podrá personalizarlos y compartirlos con soluciones para la creación de informes, segmentación, actividades y campañas.
 
 Por ejemplo:
 

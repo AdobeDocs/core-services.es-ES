@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre los componentes de la interfaz central en Experience Cloud. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de Experience Cloud. Obtenga ayuda sobre la Biblioteca de públicos, Atributos del cliente, Recursos de Experience Cloud y mucho más.
+description: Obtenga información acerca de los componentes de la interfaz central para CX Enterprise. Obtenga ayuda sobre la administración de usuarios y productos en Admin Console y habilite aplicaciones para los servicios de CX Enterprise. Obtenga ayuda sobre la biblioteca de audiencias, los atributos del cliente, CX Enterprise Assets y mucho más.
 title: Documentación de la interfaz de Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,22 +7,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 60%
 
 ---
 
-# Información general de la interfaz central de Experience Cloud
+# Información general sobre la interfaz central de CX Enterprise
 
-[Experience Cloud](https://experience.adobe.com) es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde la intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
+[CX Enterprise](https://experience.adobe.com) es la familia integrada de aplicaciones, productos y servicios de mercadotecnia digital de Adobe. Desde la intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 <!--
-![Experience Cloud](assets/landing.png)
+![CX Enterprise](assets/landing.png)
 
-From Experience Cloud's header, you can:
+From CX Enterprise's header, you can:
 
-* Access all your Experience Cloud applications and services
+* Access all your CX Enterprise applications and services
 * From the Help menu, search for product documentation, tutorials, and community posts. View results in Experience League.
 * Globally search business objects using a global search (Experience Platform users only) in the Search field.
 * Manage your account [preferences](features/account-preferences.md) (alerts, notifications, and subscriptions)
@@ -149,11 +149,11 @@ Pulled from GSPM:
 
 
 
-## Sign in to Experience Cloud 
+## Sign in to CX Enterprise 
 
 Sign in and verify that you are in the right [organization](administration/organizations.md).
 
-1. Navigate to [Adobe Experience Cloud](https://experience.adobe.com).
+1. Navigate to [Adobe CX Enterprise](https://experience.adobe.com).
 1. Type your Adobe email address, then click **[!UICONTROL Continue]**.
 1. Select an account. 
 1. Type your password.
@@ -165,29 +165,29 @@ Sign in and verify that you are in the right [organization](administration/organ
 
     The [organization](administration/organizations.md) is displayed in the interface header.
 
-    If your organization uses Federated IDs, Experience Cloud allows you to sign in with your organization's single sign-on without being required to enter your email address and password. Add `#/sso:@domain` to the Experience Cloud URL (`https://experience.adobe.com`) to accomplish this task.
+    If your organization uses Federated IDs, CX Enterprise allows you to sign in with your organization's single sign-on without being required to enter your email address and password. Add `#/sso:@domain` to the CX Enterprise URL (`https://experience.adobe.com`) to accomplish this task.
     
     For example, for an organization with Federated IDs and the domain `example.com`, set your URL link to `https://experience.adobe.com/#/sso:@example.com`. You can also go directly to a specific application by bookmarking this URL, appended with the application path. (For example, for Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-## Access Experience Cloud applications 
+## Access CX Enterprise applications 
 
-After signing in to Experience Cloud, you can quickly access all your applications, services, and organizations from the unified header.
+After signing in to CX Enterprise, you can quickly access all your applications, services, and organizations from the unified header.
 
-To access Experience Cloud applications and services provisioned for you within your organization, go the application selector ![menu](assets/menu-icon.png).
+To access CX Enterprise applications and services provisioned for you within your organization, go the application selector ![menu](assets/menu-icon.png).
 
-![Access Experience Cloud applications](assets/platform-core-services.png)
+![Access CX Enterprise applications](assets/platform-core-services.png)
 
 ## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/es#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
 The [!UICONTROL Help] menu also gives you access to:
 
 * **[!UICONTROL Support]:** Create a support ticket or contact [!UICONTROL Support] using Twitter.
-* **[!UICONTROL Feedback]:** Share feedback about your Experience Cloud experience. Your feedback is used to improve Adobe's products and services.
-* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/es-es/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Feedback]:** Share feedback about your CX Enterprise experience. Your feedback is used to improve Adobe's products and services.
+* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigation to `adobe.io` and find developer documentation.
 
 ## Manage your user profile
@@ -195,7 +195,7 @@ The [!UICONTROL Help] menu also gives you access to:
 In the [!UICONTROL Profile] menu, you can:
 
 * Specify a dark theme (not all applications support this theme)
-* Manage Experience Cloud [Preferences](features/account-preferences.md)
+* Manage CX Enterprise [Preferences](features/account-preferences.md)
 * Select or search for an [Organization](administration/organizations.md)
 * View [!UICONTROL Legal Notices]
 * Sign out
@@ -212,15 +212,15 @@ To manage notifications and alerts, see [Account preferences and notifications](
 
 ## What's New
 
-Learn about the latest enhancements to Experience Cloud central interface components.
+Learn about the latest enhancements to CX Enterprise central interface components.
 
 >[!BEGINTABS]
 
->[!TAB Slack integration with Experience Cloud]
+>[!TAB Slack integration with CX Enterprise]
 
-You can configure your account preferences to send Experience Cloud notifications to a [!DNL Slack] channel. 
+You can configure your account preferences to send CX Enterprise notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 

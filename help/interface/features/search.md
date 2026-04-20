@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la función Búsqueda unificada para determinadas aplicaciones en Experience Cloud.
+description: Obtenga información acerca de la función Búsqueda unificada para determinadas aplicaciones en CX Enterprise.
 solution: Experience Cloud
 title: Búsqueda unificada de Experience Cloud
 index: true
@@ -9,27 +9,20 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 639
 ht-degree: 18%
 
 ---
 
-# [!UICONTROL Unified Search] en Experience Cloud
+# [!UICONTROL Unified Search] en CX Enterprise
 
 La búsqueda [!UICONTROL Unified Search] le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda también muestra los objetos a los que ha accedido recientemente.
 
@@ -37,7 +30,7 @@ La búsqueda [!UICONTROL Unified Search] le permite encontrar objetos o entidade
 
 ## Acceso [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] está disponible en todas las páginas del encabezado de Experience Cloud en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
+[!UICONTROL Unified Search] está disponible en todas las páginas del encabezado de CX Enterprise en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
 
 Esta función solo está disponible para productos compatibles, que actualmente son:
 
@@ -56,7 +49,7 @@ Su capacidad y permisos de objeto
 Porcentaje de coincidencia
 Si hay una coincidencia exacta
 
-![[!UICONTROL Unified Search] en Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] en CX Enterprise](../assets/unified-search-results.png)
 
 Los objetos empresariales que se pueden buscar incluyen:
 
@@ -77,14 +70,14 @@ También puede encontrar los artículos de ayuda de Experience League y Communit
 
 Por ejemplo, _Cómo crear un esquema_ produce resultados de Experience League en _[!UICONTROL Learning]_:
 
-![[!UICONTROL Unified Search] en la Ayuda de Experience Cloud](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] en la Ayuda de CX Enterprise](../assets/unified-search-learning.png)
 
 Los algoritmos de búsqueda muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
 
 * Permisos de usuario para acceder a objetos
 * Porcentaje de coincidencia
 * Coincidencias exactas
-* La sección _[!UICONTROL Top Results]_&#x200B;muestra los 30 resultados principales.
+* La sección _[!UICONTROL Top Results]_muestra los 30 resultados principales.
 
 Para restringir la búsqueda, haga clic en una de las siguientes opciones:
 

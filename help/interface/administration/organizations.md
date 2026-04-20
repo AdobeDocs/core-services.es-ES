@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre las organizaciones (ID de organización de IMS) y la vinculación de cuentas de soluciones a Experience Cloud.
+description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a CX Enterprise.
 solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -9,32 +9,25 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 48%
+source-wordcount: 585
+ht-degree: 33%
 
 ---
 
 # Organizaciones y vinculación de cuentas
 
-Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud.
+Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en CX Enterprise.
 
-La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de CX Enterprise. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-![Organizaciones de Experience Cloud](../assets/organizations-menu.png)
+![Organizaciones de CX Enterprise](../assets/organizations-menu.png)
 
 Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Profile]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
 
@@ -44,7 +37,7 @@ Para comprobar que ha iniciado sesión en su organización correcta, haga clic e
 
 ## Federated ID
 
-Si su organización utiliza Federated ID, Experience Cloud le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Agregar `#/sso:@domain` a la dirección URL de Experience Cloud (`https://experience.adobe.com`) para realizar esta tarea.
+Si su organización utiliza Federated ID, CX Enterprise le permite iniciar sesión con el inicio de sesión único de su organización sin necesidad de escribir su dirección de correo electrónico y contraseña. Agregue `#/sso:@domain` a la dirección URL de CX Enterprise (`https://experience.adobe.com`) para realizar esta tarea.
 
 Por ejemplo, para una organización con Federated IDs y el dominio `example.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@example.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`).
 
@@ -52,13 +45,13 @@ Por ejemplo, para una organización con Federated IDs y el dominio `example.com`
 
 Puede localizar el ID de organización asignado con fines de asistencia. Puede comprobar que se encuentra en la organización correcta o cambiar de una organización a otra mediante el selector **[!UICONTROL Organization]** del encabezado.
 
-El identificador de organización es el ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
+El ID de organización es el ID asociado con la empresa de CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
 
 Puede ver su identificador de organización, junto con otra información de la cuenta, mediante el método abreviado de teclado **Ctrl+i** desde cualquier página de `https://experience.adobe.com`.
 
 **Para ver el identificador de su organización**
 
-1. En [Experience Cloud](https://experience.adobe.com), presione **Ctrl+i** en el teclado.
+1. En [CX Enterprise](https://experience.adobe.com), presione **Ctrl+i** en el teclado.
 
    ![ID de organización asignado](../assets/assigned-organization.png)
 
@@ -76,9 +69,9 @@ Puede ver su identificador de organización, junto con otra información de la c
 
 ## Vinculación de una cuenta de aplicaciones a un Adobe ID
 
-Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, puede vincular las credenciales de la aplicación a una Adobe ID.
+Normalmente, los administradores de CX Enterprise otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, puede vincular las credenciales de la aplicación a una Adobe ID.
 
-1. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
+1. Siga los pasos de la invitación del correo electrónico a CX Enterprise.
 
 1. Inicie sesión con su Adobe ID o Enterprise ID.
 
@@ -113,6 +106,6 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support).
 * Acceda a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
 
