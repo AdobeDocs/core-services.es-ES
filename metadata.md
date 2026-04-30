@@ -1,5 +1,5 @@
 ---
-title: Componentes y servicios de la IU de Experience Cloud
+title: Administración e IU de CX Enterprise Central
 description: Obtenga información sobre los componentes de la interfaz de usuario, la administración de usuarios y productos en Adobe Admin Console, la biblioteca de audiencias, los atributos del cliente, CX Enterprise Assets y mucho más.
 cloud: Experience Cloud
 product: experience cloud
@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.es-ES
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 66%
