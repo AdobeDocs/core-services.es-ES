@@ -10,32 +10,15 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 TQID: https://experienceleague.adobe.com/LWbjh-jXKmY6mcl047uzA1ZkhZlAmeNpt9JRg3Ynt9E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: c8add8f2-4250-4fd9-9cde-9707036c567did: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e992d880-33bc-4949-a648-aa7d410276cdid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4689c365e96dd83d072c8fe6d1eb9e1dbb237f16
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 4%
+source-wordcount: 1243
+ht-degree: 2%
 
 ---
 
@@ -50,8 +33,8 @@ Si administra actualmente sus propios certificados, es responsable de adquirir, 
 Siga estos pasos para implementar un nuevo certificado para la recopilación de datos de origen:
 
 1. Descargue y rellene el [formulario de solicitud de dominio de origen](cookies/assets/First_Party_Domain_Request_Form.xlsx)
-1. Abra un ticket con el Servicio de atención al cliente de Adobe solicitando la configuración de recopilación de datos de origen en el programa de certificados administrados de Adobe.
-1. Una vez recibida la incidencia, el representante de Adobe le proporcionará un registro CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda comprar el certificado en su nombre. Por ejemplo, el nombre de host `data.example.com` señala a `hiodsibxvip01.data.adobedc.net`.
+1. Abra un ticket con el Servicio de atención al cliente de Adobe solicitando la configuración de recopilación de datos de origen en el programa de certificados administrados de Adobe. Si su organización tiene requisitos de conformidad o residencia de datos, especifique el [tipo de RDC](rdc.md) que desee en su solicitud.
+1. Una vez recibida la incidencia, el representante de Adobe le proporcionará un registro CNAME. Este registro debe configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre. Por ejemplo, el nombre de host `data.example.com` señala a `hiodsibxvip01.data.adobedc.net`.
 1. Cuando se establezca el registro CNAME en los servidores de su organización, Adobe colaborará con DigiCert para adquirir e instalar un certificado en los servidores de recopilación de datos de Adobe.
 
 ## Validar reenvío de nombre de host
@@ -105,21 +88,21 @@ Addresses: 63.140.37.126
     63.140.37.206
     63.140.36.51
     63.140.36.145
-Aliases: smetrics.example.com
+Aliases: data.example.com
 ```
 
 +++
 
 ## Actualización del código de implementación
 
-Una vez que haya validado que el certificado funciona correctamente, puede actualizar la implementación de Adobe para utilizar estos valores.
+Una vez validado que el certificado funciona correctamente, puede actualizar la implementación de Adobe para utilizar el nuevo nombre de host CNAME.
 
-* **Extensión de etiqueta Web SDK**: actualice el campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) al configurar la extensión.
-* **Web SDK (aleación)**: actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/edgedomain) dentro del comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview).
-* **Extensión de Adobe Analytics**: actualice el campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview) al configurar la extensión. Asegúrese de tener también instalada la extensión de etiqueta [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Consulte [Identificación de visitante con la extensión de etiquetas de Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/analytics-extension) para obtener más información.
-* **AppMeasurement**: Actualice la variable de configuración [`trackingServerSecure`](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/config-vars/trackingserversecure). Asegúrese de que también ha implementado el [Servicio de identificación del visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) mediante `VisitorAPI.js`. Consulte [Identificación de visitante con AppMeasurement](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/analytics-extension) para obtener más información.
+* **Extensión de etiqueta Web SDK**: actualice el campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) al configurar la extensión.
+* **Web SDK (aleación)**: actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) dentro del comando `configure`.
+* **Extensión de Adobe Analytics**: actualice el campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) al configurar la extensión. Asegúrese de tener también instalada la extensión de etiqueta [Servicio de ID de visitante](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Consulte [Identificación de visitante con la extensión de etiquetas de Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) para obtener más información.
+* **AppMeasurement**: Actualice la variable de configuración [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Asegúrese de que también ha implementado el [Servicio de identificación del visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) mediante `VisitorAPI.js`. Consulte [Identificación de visitante con AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement) para obtener más información.
 
-Si su sitio utiliza varios métodos de implementación y no puede actualizarlos todos simultáneamente, considere la posibilidad de configurar un periodo de gracia. Consulte [Consideraciones sobre la migración del servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) para ver pasos adicionales sobre cómo evitar que los visitantes se contabilicen como nuevos visitantes en el sitio.
+Si su sitio utiliza varios métodos de implementación y no puede actualizarlos todos simultáneamente, considere la posibilidad de configurar un periodo de gracia. Consulte [Consideraciones sobre la migración del servicio de ID de visitante](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) para ver pasos adicionales sobre cómo evitar que los visitantes se contabilicen como nuevos visitantes en el sitio.
 
 ## Mantenimiento y renovaciones
 
@@ -166,7 +149,7 @@ No. Adobe ofrece este servicio a todos los clientes de Adobe CX Enterprise sin c
 Adobe ofrece dos niveles de seguridad de cifrado para satisfacer las distintas necesidades de seguridad de los clientes en la recopilación de datos de origen. Estos niveles determinan qué algoritmos de cifrado son compatibles con las conexiones HTTPS con servidores de Adobe. Adobe revisa y actualiza regularmente el conjunto de algoritmos admitidos en función de las prácticas de seguridad actuales. Si desea cambiar la configuración de seguridad de cifrado, póngase en contacto con el Servicio de atención al cliente.
 
 * **Estándar** requiere TLS 1.2 o posterior y cifrado de al menos 128 bits. Está diseñado para proporcionar la mayor compatibilidad de dispositivos al tiempo que mantiene el cifrado seguro.
-* El nivel de seguridad de cifrado **High** requiere TLS 1.2 o posterior y elimina la compatibilidad con cifrados más débiles. Está diseñado para los clientes que desean el cifrado más potente y no les preocupa la compatibilidad con dispositivos más antiguos.
+* **Alta** requiere TLS 1.2 o posterior y elimina la compatibilidad con cifrados más débiles. Está diseñado para los clientes que desean el cifrado más potente y no les preocupa la compatibilidad con dispositivos más antiguos.
 
 Se sabe que los siguientes clientes no pueden conectarse con la seguridad de cifrado establecida en **High**:
 
@@ -191,6 +174,6 @@ Adobe admite tipos de certificados RSA y ECC para satisfacer las distintas neces
 
 +++¿Puedo administrar mis propios certificados en su lugar?
 
-Sí. Sin embargo, si administra sus propios certificados, es responsabilidad suya renovar los suyos y proporcionárselos a Adobe cada vez que los renueve. Este proceso es menos seguro y puede causar pérdida de datos si su organización olvida renovar un certificado a tiempo. Adobe recomienda utilizar el programa de certificados administrados en lugar de administrar los certificados usted mismo, especialmente debido a las reducciones en la duración máxima del certificado TLS. Consulte [6.3.1 Archivo de claves públicas](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) en los Requisitos de línea de base del certificado del servidor de CA/Browser Forum para obtener más información.
+Sí. Sin embargo, si administra sus propios certificados, es responsabilidad suya renovar los suyos y proporcionárselos a Adobe cada vez que los renueve. Este proceso es menos seguro y puede provocar lagunas en la recopilación de datos si su organización olvida renovar un certificado a tiempo. Adobe recomienda utilizar el programa de certificados administrados en lugar de administrar los certificados usted mismo, especialmente debido a las reducciones en la duración máxima del certificado TLS. Consulte [6.3.2 Períodos operativos del certificado y períodos de uso del par de claves](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) en los Requisitos de línea de base del certificado del servidor de CA/Browser Forum para obtener más información.
 +++
 
