@@ -13,25 +13,25 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 233d1554de9e37fccd5cf47fec2c4222d7a5e807
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: 361
 ht-degree: 0%
 
 ---
 
 # Recopilación de datos regionales
 
-Adobe CX Enterprise utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y Adobe se produzcan lo más cerca posible de los visitantes. Los datos recopilados localmente en un sitio Edge se reenvían de forma segura a un sitio principal para su procesamiento. Una vez procesados, los datos están disponibles para los productos y servicios de Adobe CX Enterprise.
+Adobe CX Enterprise utiliza la recopilación de datos regionales (RDC) para que las interacciones entre sus visitantes y Adobe se produzcan lo más cerca posible de sus visitantes. Los datos recopilados localmente en un sitio Edge se reenvían de forma segura a un sitio principal para su procesamiento. Una vez procesados, los datos están disponibles para los productos y servicios empresariales de Adobe CX.
 
 El flujo de trabajo de recopilación de datos regionales ofrece varias ventajas:
 
 * **Rendimiento**: con RDC, los visitantes se conectan al sitio Edge más cercano. Esta optimización proporciona el tiempo de respuesta más rápido, lo que da como resultado un seguimiento más preciso y tiempos de carga más rápidos.
 * **Redundancia**: si se interrumpe la comunicación entre cualquier sitio perimetral y el sitio principal, la infraestructura de Adobe guarda los datos localmente y los reenvía al sitio principal cuando se restauran las comunicaciones. Adobe también puede enrutar el tráfico a otros sitios Edge si una ubicación específica experimenta interrupciones.
 
-Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
-
 ## Recopilación de datos de origen
+
+La recopilación de datos de origen utiliza una implementación CNAME para enrutar datos a Adobe a través de su propio dominio. El tipo de RDC se ha seleccionado como parte del proceso de configuración del [Programa de certificados administrados por Adobe](adobe-managed-cert.md). Para comprobar o actualizar el tipo de RDC, póngase en contacto con el equipo de cuenta de Adobe. Están disponibles los siguientes tipos de RDC y centros de datos asociados:
 
 | Tipo de RDC | Centros de recopilación de datos |
 | --- | --- |
@@ -42,18 +42,15 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
 | Solo en China* | Pekín |
 
-{style="table-layout:auto"}
-
 _*La recopilación de datos regionales de China requiere el paquete de complementos de optimización del rendimiento de China y solo se aplica a Adobe Analytics que usa la recopilación de datos de AppMeasurement. No se admiten otros servicios de CX Enterprise ni la recopilación de datos de Web SDK. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información acerca del paquete de complementos para la optimización del rendimiento en China._
 
 ## Recopilación de datos de terceros
 
-La recopilación de datos de terceros incluye dominios de cookies que no coinciden con el dominio del sitio web. Algunos ejemplos son `adobedc.net`, `omtrdc.net` y `2o7.net`.
+La recopilación de datos de terceros utiliza dominios de cookies que no coinciden con el dominio del sitio web. Algunos ejemplos son `adobedc.net`, `omtrdc.net` y `2o7.net`.
 
 | Tipo de RDC | Centros de recopilación de datos |
 | --- | --- |
 | Predeterminado | Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 | Predeterminado + China* | Pekín*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 
-{style="table-layout:auto"}
-
+_*Requiere el paquete de complementos para la optimización del rendimiento en China. Consulte la sección de recopilación de datos de origen anterior para obtener más información._
