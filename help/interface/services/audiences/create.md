@@ -8,21 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/-zJW08nRR0XHxI8ink2lZt-R44irL2pMyWdqHsZQoUg'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +23,7 @@ ht-degree: 60%
 
 # Crear un público
 
-En [!UICONTROL Audience Library], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
+En [!UICONTROL Audience Library], puede utilizar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
 
 Este artículo le ayuda a lo siguiente:
 
@@ -71,7 +63,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
      >[!NOTE]
      >
-     >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de CX Enterprise.
+     >Debido al almacenamiento en caché, los grupos de informes eliminados en Analytics tardan 12 horas en desaparecer de CX Enterprise.
 
    * **[!UICONTROL CX Enterprise:]** datos de atributo derivados de [!DNL CX Enterprise] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
@@ -111,4 +103,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.

@@ -7,19 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-TQID: https://experienceleague.adobe.com/oAe81mw-qFetDM0zky2eS6DNf-XZ67H68Qw-Sa8mk0Y
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/uTXtbHEccwB-Nog-AJ282p59hHCppAsAyg5pgNRreR4'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -34,7 +28,7 @@ Implemente la precarga de DNS para ayudar a reducir el tiempo de la carga de las
 
 Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página web con sus correspondientes direcciones IP. El proceso de precarga comienza cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo que se puede seleccionar a `www.adobe.com`. Cuando un navegador carga esta página, utiliza el _sistema DNS_ para buscar el nombre de dominio vinculado y resolverlo en una dirección IP numérica correspondiente. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de precarga de DNS es transparente para los usuarios.
 
-## Precarga de DNS y aplicaciones de Adobe CX Enterprise
+## Precarga de DNS y aplicaciones empresariales de Adobe CX
 
 La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con diferentes aplicaciones y servicios de [!UICONTROL CX Enterprise] porque:
 
@@ -53,7 +47,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servicio de CX Enterprise ID:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Servicio Enterprise ID CX:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud:**
 

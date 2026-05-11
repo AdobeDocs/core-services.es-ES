@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la función Búsqueda unificada para determinadas aplicaciones en CX Enterprise.
+description: Obtenga información sobre la función de búsqueda unificada para determinadas aplicaciones en CX Enterprise.
 solution: Experience Cloud
 title: Búsqueda unificada de Experience Cloud
 index: true
@@ -8,21 +8,14 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/gMxoCIKGEqZIN-DwgvSVfh36iiYLFqB58dRBfsgamBc'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+level_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 18%
@@ -84,7 +77,7 @@ Los algoritmos de búsqueda muestran primero los registros más relevantes. El o
 * Permisos de usuario para acceder a objetos
 * Porcentaje de coincidencia
 * Coincidencias exactas
-* La sección _[!UICONTROL Top Results]_&#x200B;muestra los 30 resultados principales.
+* La sección _[!UICONTROL Top Results]_muestra los 30 resultados principales.
 
 Para restringir la búsqueda, haga clic en una de las siguientes opciones:
 

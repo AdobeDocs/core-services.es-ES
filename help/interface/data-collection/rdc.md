@@ -2,18 +2,11 @@
 title: Recopilación de datos regionales
 description: Obtenga información acerca de la recopilación de datos regionales en CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 233d1554de9e37fccd5cf47fec2c4222d7a5e807
+TQID: 'https://experienceleague.adobe.com/0thWRpu2KT2EFomB1hkgehjHfVrXMeKD-K0VN-fvfrM'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:id:
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 361
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la compatibilidad del explorador y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
+description: Obtenga información sobre la compatibilidad de exploradores y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
 solution: Experience Cloud
 title: Preguntas frecuentes sobre Experience Cloud
 index: true
@@ -8,21 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/UPPlaj8UOGygam8nRfGKE-c-Q-l8qtfaUWzPmXqBLJM'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -31,7 +23,7 @@ ht-degree: 47%
 
 # Preguntas frecuentes sobre CX Enterprise
 
-Obtenga información acerca de la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
+Obtenga información sobre la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
 
 +++¿Qué exploradores son compatibles con CX Enterprise?
 
@@ -47,7 +39,7 @@ El uso de otro navegador es posible, pero no se garantiza su compatibilidad.
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio de CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 +++
 
@@ -70,13 +62,13 @@ Aunque los equipos de aplicaciones están comprometidos con el soporte de idioma
 
 +++
 
-+++¿Adobe cobra a mi empresa por el acceso a Adobe CX Enterprise?
++++¿Cobra Adobe a mi empresa por el acceso Adobe CX Enterprise?
 
 No. Adobe CX Enterprise se incluye sin coste adicional. Sin embargo, algunos servicios básicos podrían conllevar costes adicionales.
 
 +++
 
-+++¿Por qué mi empresa debe iniciar sesión a través de la interfaz de CX Enterprise?
++++¿Por qué mi empresa debe iniciar sesión a través de la interfaz CX Enterprise?
 
 La funcionalidad proporcionada por la interfaz de CX Enterprise añade un nuevo valor a su negocio. También es la ruta estándar para acceder a las aplicaciones a partir de ahora y, con el tiempo, reemplazará otros flujos de inicio de sesión de aplicaciones individuales. El inicio de sesión a través de CX Enterprise facilita una transición más fluida posteriormente.
 
@@ -92,7 +84,7 @@ El Servicio de atención al cliente de Adobe puede enviar una solicitud de supla
 
 +++¿Qué es el &quot;aprovisionamiento&quot;?
 
-El aprovisionamiento en CX Enterprise significa lo siguiente:
+El aprovisionamiento en CX Enterprise significa:
 
 * Sus usuarios pueden empezar a iniciar sesión en CX Enterprise y a vincular aplicaciones.
 * Pueden empezar a utilizar las funciones disponibles a través de CX Enterprise.
@@ -113,7 +105,7 @@ El aprovisionamiento en CX Enterprise significa lo siguiente:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -121,7 +113,7 @@ El aprovisionamiento en CX Enterprise significa lo siguiente:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 
@@ -153,7 +145,7 @@ Consulte [Visualización del ID de la organización](../administration/organizat
 
 +++¿Qué debo hacer cuando uno de mis usuarios abandona la empresa?
 
-Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel de CX Enterprise.
+Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel empresarial de CX.
 
 +++
 
