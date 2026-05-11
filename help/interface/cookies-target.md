@@ -9,8 +9,11 @@ role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 TQID: 'https://experienceleague.adobe.com/y-WrcNEgQshJIIFFfol6-bjv2eMamVYhFOR7Y6tMgZo'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 753
@@ -26,7 +29,7 @@ ht-degree: 17%
 >
 >La información de este artículo se aplica solo a la biblioteca JavaScript [[!DNL Target] at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=es){target=_blank}.
 >
->Para obtener información acerca de las cookies utilizadas en una implementación de [!DNL Target] que usa [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target=_blank}, consulte &quot;¿Usa cookies [!DNL Adobe Experience Platform Web SDK]? En caso afirmativo, ¿qué cookies utiliza?&quot; en [Preguntas más frecuentes en la guía de información general de DNL Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Para obtener información acerca de las cookies utilizadas en una implementación de [!DNL Target] que usa [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target=_blank}, consulte &quot;¿Usa cookies [!DNL Adobe Experience Platform Web SDK]? En caso afirmativo, ¿qué cookies utiliza?&quot; en [[!DNL Preguntas más frecuentes en la guía de información general de Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >Puede cambiar la configuración que se describe en este artículo si es necesario, excepto durante la duración de la cookie. [Consulte a su representante de cuentas](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} al cambiar la configuración de las cookies.
 >

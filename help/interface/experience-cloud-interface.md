@@ -7,8 +7,11 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 TQID: 'https://experienceleague.adobe.com/oKqc9fwTJtHUAng0S4R1ACsYpmk-uF7O-dS4uo4rdWc'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 706

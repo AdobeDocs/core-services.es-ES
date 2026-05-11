@@ -9,12 +9,18 @@ level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 autotag-review: '2026-05-11T17:46:06.275Z'
 TQID: 'https://experienceleague.adobe.com/wn3EBV0rf2PLh649pY8KqLjIHjvpGwpBkDxX4Ib03uw'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:id:id:id:id:
 role_v2: id:
 level_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 802
@@ -94,7 +100,7 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones de CX 
 
 ### Solicitar permiso en [!DNL Slack] (solución de problemas)
 
-Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
+Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_&#x200B;cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
 
 ![Solicitar integración de Slack](../assets/slack-workspace.png)
 
