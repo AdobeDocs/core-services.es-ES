@@ -1,26 +1,15 @@
 ---
 title: Trabajos de agente y consumo de crédito de IA
-description: Obtenga información sobre los trabajos de los agentes y las tasas de consumo de crédito de IA en las aplicaciones de CX Enterprise.
+description: Obtenga información sobre los trabajos del agente y las tasas de consumo de crédito de IA en las aplicaciones de CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-TQID: 'https://experienceleague.adobe.com/REonDh6tRlMxB3iAryxC0BLXeVTTaUuwCu98DXyESVQ'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 4%
+source-wordcount: '1055'
+ht-degree: 5%
 
 ---
 
@@ -78,4 +67,4 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 * [GenAI en CX Enterprise](/help/interface/features/generative-ai.md)
 * [Inteligencia artificial aplicada a la agencia en CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
