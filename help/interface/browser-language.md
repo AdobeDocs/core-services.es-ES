@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con explorador e idioma
-description: Obtenga información sobre la compatibilidad de exploradores e idiomas para aplicaciones de CX Enterprise. Seleccione un idioma principal y secundario en el perfil de la cuenta.
+description: Obtenga información sobre la compatibilidad con exploradores e idiomas para las aplicaciones empresariales de CX. Seleccione un idioma principal y secundario en el perfil de la cuenta.
 solution: Experience Cloud
 feature: Account Preferences
 topic: Administration
@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 242
 ht-degree: 40%
@@ -42,7 +42,7 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio de CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 ## Compatibilidad de idiomas en CX Enterprise
 

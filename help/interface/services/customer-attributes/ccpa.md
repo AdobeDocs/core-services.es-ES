@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -33,7 +33,7 @@ La CCPA es la nueva ley de privacidad de California que entró en vigor el 1 de 
 
 Como empresa, determina los datos personales que Adobe CX Enterprise procesa y almacena en su nombre.
 
-Como proveedor de servicio, Adobe CX Enterprise proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de CX Enterprise. Esta compatibilidad incluye la administración de solicitudes de acceso y la eliminación de información personal.
+Como proveedor de servicios, Adobe CX Enterprise proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de CX Enterprise. Esta compatibilidad incluye la administración de solicitudes de acceso y la eliminación de información personal.
 
 Este documento describe cómo [!DNL Customer Attributes] admite los derechos de acceso y eliminación de datos de la CCPA de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 

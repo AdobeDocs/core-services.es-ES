@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo se almacena y utiliza el servicio de ID en las aplicaciones de CX Enterprise.
+description: Descubra cómo se almacena y utiliza el servicio de ID en las aplicaciones empresariales de CX.
 solution: Experience Cloud,Analytics,Target
 title: Cookies de Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
@@ -31,7 +31,7 @@ ht-degree: 77%
 
 # Cookies de CX Enterprise
 
-Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de CX Enterprise. Estas cookies se aplican específicamente para acceder a aplicaciones de Adobe CX Enterprise en [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de CX Enterprise. Estas cookies se aplican específicamente para acceder a las aplicaciones de Adobe CX Enterprise en [experience.adobe.com](https://experience.adobe.com).
 
 **Nombre de cookie: s_ecid**
 
@@ -45,7 +45,7 @@ Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en l
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Contiene una copia del CX Enterprise ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia de CX Enterprise ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 
@@ -65,7 +65,7 @@ Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en l
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Las cookies con esta configuración solo se envían cuando el dominio que aparece en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome.</p> </td> 
+   <td colname="col2"> <p>Las cookies con esta configuración solo se envían cuando el dominio mostrado en la dirección URL del explorador coincide con el dominio de la cookie. Esta configuración es la nueva opción predeterminada para las cookies en Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ID](h
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de CX Enterprise. </p> </td> 
+   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de CX para empresas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 

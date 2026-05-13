@@ -23,25 +23,25 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 43%
 
 ---
 
-# Información general sobre la interfaz CX Enterprise
+# Descripción general de la interfaz CX Enterprise
 
 Las características de la interfaz de CX Enterprise a veces se denominan _servicios principales_. Son las características del encabezado unificado, incluido el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]).
 
-Otras funciones compartidas incluyen administración (administración de usuarios y productos) para CX Enterprise, cookies, preferencias de cuenta, notificaciones, etc.
+Otras funciones compartidas incluyen la administración (administración de usuarios y productos) para CX Enterprise, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a servicios y aplicaciones compartidos en CX Enterprise, haga clic en **[!UICONTROL Application Selector]**
+Para acceder a los servicios y aplicaciones compartidos en CX Enterprise, haga clic en **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 **Selector de aplicación**
 
-![Servicios de CX Enterprise](../assets/platform-core-services.png)
+![Servicios empresariales de CX](../assets/platform-core-services.png)
 
 Las páginas Servicios de esta guía describen los siguientes productos y servicios:
 

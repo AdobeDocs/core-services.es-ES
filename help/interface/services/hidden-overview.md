@@ -8,14 +8,14 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%
 
 ---
 
-# Servicios de CX Enterprise {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Servicios empresariales de CX {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 ejemplo
 
@@ -24,7 +24,7 @@ Esta documentación se aplica a características del encabezado unificado en CX 
 Para acceder a estos servicios en CX Enterprise, seleccione la **[!UICONTROL Application Selector]**
 ![Selector de servicios](../assets/apps-icon.png).
 
-![Servicios de CX Enterprise](../assets/platform-core-services.png)
+![Servicios empresariales de CX](../assets/platform-core-services.png)
 
 Esta ayuda describe los siguientes productos y servicios:
 

@@ -20,7 +20,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 582
 ht-degree: 10%
@@ -35,7 +35,7 @@ Analytics utiliza cookies para definir nuevos visitantes de forma anónima, anal
 
 | Nombre de la cookie | Caducidad | Tamaño | Ubicación | Descripción |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 meses | 45 bytes | Datos de origen | Almacena el CX Enterprise ID (ECID) o MID. Establecido por respuesta HTTP. El MID se almacena en formato `s_ecid=MCMID`. Se establece después de que el cliente establezca la cookie AMCV. Permite el seguimiento continuado del ID de origen y se utiliza como ID de referencia si caduca la cookie de AMCV. `SameSite` está establecido en &quot;Lax&quot;. Si utiliza Web SDK para implementar Adobe Analytics, la caducidad de la cookie se establece en dos años; sin embargo, la mayoría de los exploradores modernos truncan la caducidad a trece meses. |
+| **`s_ecid`** | 13 meses | 45 bytes | Datos de origen | Almacena CX Enterprise ID (ECID) o MID. Establecido por respuesta HTTP. El MID se almacena en formato `s_ecid=MCMID`. Se establece después de que el cliente establezca la cookie AMCV. Permite el seguimiento continuado del ID de origen y se utiliza como ID de referencia si caduca la cookie de AMCV. `SameSite` está establecido en &quot;Lax&quot;. Si utiliza Web SDK para implementar Adobe Analytics, la caducidad de la cookie se establece en dos años; sin embargo, la mayoría de los exploradores modernos truncan la caducidad a trece meses. |
 | **`s_cc`** | Session | 4 bytes | Datos de origen | Determina si las cookies están habilitadas. La establece JavaScript. |
 | **`s_sq`** | Session | 100 a 200 bytes | Datos de origen | Utilizado por Activity Map. Contiene información sobre el vínculo anterior en el que el visitante hizo clic. La establece JavaScript. |
 | **`s_vi`** | 2 años | 44 bytes | De origen o `*.omtrdc.net` (de terceros) | Almacena una ID de visitante y una marca de tiempo únicos. Establecido por respuesta HTTP. Cada ID de visitante está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se eliminan tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante. El indicador `Secure` se establece cuando `SameSite` es &quot;None&quot; y la conexión es HTTPS. `SameSite` es &quot;Lax&quot; de forma predeterminada para las cookies de origen. `SameSite` es &quot;Ninguno&quot; cuando se usan cookies de terceros, como en `omtrdc.net` o `2o7.net`. Establezca `SameSite` como &quot;Ninguno&quot; cuando utilice un solo CNAME para rastrear varios dominios o propiedades. |

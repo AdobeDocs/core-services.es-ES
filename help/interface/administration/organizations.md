@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a CX Enterprise.
+description: Obtenga información sobre las organizaciones (ID de organización de IMS) y la vinculación de cuentas de solución a CX Enterprise.
 solution: Experience Cloud
 title: Organizaciones y vinculación de cuentas
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -30,11 +30,11 @@ ht-degree: 33%
 
 # Organizaciones y vinculación de cuentas
 
-Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en CX Enterprise.
+Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en CX Enterprise.
 
 La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de CX Enterprise. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-![Organizaciones de CX Enterprise](../assets/organizations-menu.png)
+![Organizaciones empresariales CX](../assets/organizations-menu.png)
 
 Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Profile]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
 
@@ -52,7 +52,7 @@ Por ejemplo, para una organización con Federated IDs y el dominio `example.com`
 
 Puede localizar el ID de organización asignado con fines de asistencia. Puede comprobar que se encuentra en la organización correcta o cambiar de una organización a otra mediante el selector **[!UICONTROL Organization]** del encabezado.
 
-El ID de organización es el ID asociado con la empresa de CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
+El ID de organización es el ID asociado con la empresa CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
 
 Puede ver su identificador de organización, junto con otra información de la cuenta, mediante el método abreviado de teclado **Ctrl+i** desde cualquier página de `https://experience.adobe.com`.
 
@@ -78,7 +78,7 @@ Puede ver su identificador de organización, junto con otra información de la c
 
 Normalmente, los administradores de CX Enterprise otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, puede vincular las credenciales de la aplicación a una Adobe ID.
 
-1. Siga los pasos de la invitación del correo electrónico a CX Enterprise.
+1. Siga los pasos de su invitación por correo electrónico a CX Enterprise.
 
 1. Inicie sesión con su Adobe ID o Enterprise ID.
 

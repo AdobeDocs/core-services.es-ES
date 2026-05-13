@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1118
 ht-degree: 43%
@@ -88,7 +88,7 @@ Siga estos pasos en la página _[!UICONTROL Create Customer Attribute Source]_&#
 
    * **[!UICONTROL Description:]** (opcional) una descripción del origen de atributos de datos.
 
-   * **[!UICONTROL Alias ID:]** representa un origen de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL Alias ID] es un identificador único que se usa en su código [!UICONTROL customer attribute Source]. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL Alias ID] para un origen de atributos del cliente en CX Enterprise debe coincidir con los valores que se pasan desde la implementación (ya sea a través de la recopilación de datos de Platform o JavaScript de Mobile SDK).
+   * **[!UICONTROL Alias ID:]** representa un origen de datos de atributos del cliente, como un sistema CRM específico, por ejemplo. [!UICONTROL Alias ID] es un identificador único que se usa en su código [!UICONTROL customer attribute Source]. El ID debe ser único, en minúsculas y sin espacios. El valor introducido en el campo [!UICONTROL Alias ID] para un origen de atributos del cliente en CX Enterprise debe coincidir con los valores que se pasan desde la implementación (ya sea mediante la recopilación de datos de Platform o JavaScript de Mobile SDK).
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ Siga estos pasos en la página _[!UICONTROL Create Customer Attribute Source]_&#
 
      El ID de alias corresponde a ciertas áreas en las que se configuran valores de ID de cliente adicionales. Por ejemplo:
 
-      * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL customer Settings], en la herramienta [Servicio de CX Enterprise ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
+      * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL customer Settings], en la herramienta [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
       * **API de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que puede asociar con cada visitante.
 
@@ -180,7 +180,7 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 ![Segmento de Analytics basado en los atributos cargados](assets/08_crs_usecase.png)
 
-Cuando publica un segmento en CX Enterprise, pasa a estar disponible en Audiencias de CX Enterprise y Audience Manager.
+Cuando publica un segmento en CX Enterprise, pasa a estar disponible en CX Enterprise Audiences y Audience Manager.
 
 ## Usar datos de [!DNL Customer Attributes] en Adobe Target
 

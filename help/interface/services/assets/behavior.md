@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 627
 ht-degree: 90%
@@ -34,7 +34,7 @@ Reglas sobre cómo se comportan las carpetas compartidas cuando se mueven, elimi
 
 >[!NOTE]
 >
->Las carpetas y recursos compartidos de CX Enterprise se reflejan en el escritorio de Creative Cloud en una relación de 1:1. Si un usuario de CX Enterprise cambia una carpeta (elimina, agrega o deja de compartir), la acción se refleja en el escritorio y en la web de Creative Cloud. De este modo, si se deja de compartir una carpeta, la carpeta y los recursos se eliminarán del equipo local. Una vez que se deja de compartir, la carpeta y sus contenidos se mueven a la papelera de su equipo local, donde puede restaurarlos en su equipo.
+>Las carpetas y recursos compartidos de CX Enterprise se reflejan en Creative Cloud Desktop en una relación de 1:1. Si un usuario de CX Enterprise cambia una carpeta (elimina, añade o deja de compartir), la acción se refleja en el escritorio y la web de Creative Cloud. De este modo, si se deja de compartir una carpeta, la carpeta y los recursos se eliminarán del equipo local. Una vez que se deja de compartir, la carpeta y sus contenidos se mueven a la papelera de su equipo local, donde puede restaurarlos en su equipo.
 
 ## Carpeta no compartida en una carpeta compartida
 

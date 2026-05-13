@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 45%
@@ -40,7 +40,7 @@ Se agregó [consumo de trabajos y créditos de IA](../features/ai-credit-consump
 
 **Noviembre de 2025**
 
-Actualizaciones a [Inteligencia artificial aplicada a agentes en CX Enterprise](../features/agentic-ai.md)
+Actualizaciones de [inteligencia artificial aplicada a la agencia en CX Enterprise](../features/agentic-ai.md)
 
 **Octubre de 2025**
 
@@ -52,7 +52,7 @@ Se ha agregado información sobre [restablecer tu Adobe ID](../features/account-
 
 **Febrero de 2025**
 
-Se agregaron [Administrar usuarios y productos en CX Enterprise](../administration/admin-console.md). Esta página ayuda a los administradores a localizar la ayuda de administración de usuarios y productos (Admin Console) para todas las aplicaciones.
+[Administrar usuarios y productos en CX Enterprise](../administration/admin-console.md). Esta página ayuda a los administradores a localizar la ayuda de administración de usuarios y productos (Admin Console) para todas las aplicaciones.
 
 **Noviembre de 2024**
 
@@ -66,7 +66,7 @@ Se han actualizado [preferencias de usuario](../features/account-preferences.md)
 
 **26 de abril de 2024**
 
-Renovación completa de la arquitectura de la documentación. También se agregaron [direcciones IP de Adobe CX Enterprise](../data-collection/ip-addresses.md) y [recopilación de datos regionales](../data-collection/rdc.md).
+Renovación completa de la arquitectura de la documentación. También se agregaron [direcciones IP empresariales de Adobe CX](../data-collection/ip-addresses.md) y [recopilación de datos regionales](../data-collection/rdc.md).
 
 **9 de abril de 2024**
 
@@ -88,7 +88,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 
 | Función | Descripción |
 | ------- | ------- |
-| Página principal | La información del pie de la página de inicio de CX Enterprise se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
+| Página principal | La información del pie de página de inicio de CX Enterprise se ha movido a la tarjeta de perfil del usuario, incluidos los avisos legales y la selección de idiomas en Preferencias. |
 | Paneles de control de AEP | [!DNL Helios Lite] proporciona recomendaciones de gráficos dentro del flujo de trabajo de creación de widgets de Experience Platform. Dada la selección de datos (actualmente una selección de datos de una sola variable), helios recomienda una visualización adecuada para acompañar esa selección de datos. |
 | Paneles de control de AEP | [!DNL Instory] proporciona narración escrita basada en ML y subtítulos para gráficos. Decora gráficos en la página Paneles de control de AEP con puntos de viñeta relevantes que señalan cambios e incidentes importantes en los datos graficados. |
 
@@ -164,7 +164,7 @@ Se ha actualizado la definición de Datos sin procesar de Analytics en [Crear un
 
 **9 de mayo de 2016**
 
-Se agregó [Integraciones de CX Enterprise](../administration/integrations.md), un resumen de la documentación sobre integraciones.
+Se agregó [Integraciones de CX Enterprise](../administration/integrations.md), un resumen de la documentación de integración.
 
 **11 de febrero de 2016**
 
@@ -176,7 +176,7 @@ Los usuarios de CX Enterprise ahora pueden compartir carpetas en Creative Cloud 
 
 **17 de julio de 2014**
 
-Se agregaron [preguntas más frecuentes sobre CX Enterprise](faq.md) para administradores.
+Se agregaron [Preguntas frecuentes sobre CX Enterprise](faq.md) para administradores.
 
 **22 de mayo de 2014**
 

@@ -1,6 +1,6 @@
 ---
 title: Administración de licencias de usuario y producto
-description: Administre licencias de usuario y de producto en Admin Console para aplicaciones de CX Enterprise.
+description: Administre licencias de usuarios y productos en las aplicaciones empresariales de Admin Console para CX.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1054
 ht-degree: 7%
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 Puede administrar usuarios y licencias de productos en Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/). Para obtener ayuda general sobre la administración de identidades aplicable a todas las aplicaciones de Adobe, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
-Esta página proporciona información específicamente útil para los administradores de CX Enterprise, define funciones y proporciona vínculos a temas comunes de administración de usuarios y productos en la guía empresarial.
+Esta página proporciona información específicamente útil para los administradores de CX Enterprise, define funciones y proporciona enlaces a temas comunes de administración de usuarios y productos en la guía de Enterprise.
 
 ## Funciones administrativas en Admin Console
 
@@ -45,7 +45,7 @@ Admin Console proporciona tres funciones administrativas principales, cada una c
 
 ## Admin Console para CX Enterprise
 
-Para administrar licencias de identidad y productos para aplicaciones de CX Enterprise, ve a [Admin Console](https://adminconsole.adobe.com/enterprise/).
+Para administrar licencias de identidad y productos para aplicaciones empresariales de CX, vaya a [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
 Estos son los recursos que puede necesitar al empezar a trabajar como administrador en Admin Console:
 
@@ -77,7 +77,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 ## Recursos específicos de la aplicación
 
-Estos vínculos le ayudan a encontrar información de administración para aplicaciones de CX Enterprise específicas.
+Estos vínculos le ayudan a encontrar información de administración para aplicaciones empresariales CX específicas.
 
 <!--
 | Application | Link to resource|
@@ -115,7 +115,7 @@ Estos vínculos le ayudan a encontrar información de administración para aplic
 * [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/overview) y [recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions)
 * [GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
 * [Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/permissions)
-* [Journey Optimizer B2B Edition](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management)
+* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management)
 * [Journey Orchestration](https://experienceleague.adobe.com/es/docs/journeys/using/starting-with-journeys/access-management)
 * [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/es/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)

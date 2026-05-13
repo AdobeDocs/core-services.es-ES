@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la compatibilidad del explorador y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
+description: Obtenga información sobre la compatibilidad de exploradores y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
 solution: Experience Cloud
 title: Preguntas frecuentes sobre Experience Cloud
 index: true
@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -31,7 +31,7 @@ ht-degree: 47%
 
 # Preguntas frecuentes sobre CX Enterprise
 
-Obtenga información acerca de la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
+Obtenga información sobre la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
 
 +++¿Qué exploradores son compatibles con CX Enterprise?
 
@@ -47,7 +47,7 @@ El uso de otro navegador es posible, pero no se garantiza su compatibilidad.
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio de CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 +++
 
@@ -70,13 +70,13 @@ Aunque los equipos de aplicaciones están comprometidos con el soporte de idioma
 
 +++
 
-+++¿Adobe cobra a mi empresa por el acceso a Adobe CX Enterprise?
++++¿Cobra Adobe a mi empresa por el acceso Adobe CX Enterprise?
 
 No. Adobe CX Enterprise se incluye sin coste adicional. Sin embargo, algunos servicios básicos podrían conllevar costes adicionales.
 
 +++
 
-+++¿Por qué mi empresa debe iniciar sesión a través de la interfaz de CX Enterprise?
++++¿Por qué mi empresa debe iniciar sesión a través de la interfaz CX Enterprise?
 
 La funcionalidad proporcionada por la interfaz de CX Enterprise añade un nuevo valor a su negocio. También es la ruta estándar para acceder a las aplicaciones a partir de ahora y, con el tiempo, reemplazará otros flujos de inicio de sesión de aplicaciones individuales. El inicio de sesión a través de CX Enterprise facilita una transición más fluida posteriormente.
 
@@ -92,7 +92,7 @@ El Servicio de atención al cliente de Adobe puede enviar una solicitud de supla
 
 +++¿Qué es el &quot;aprovisionamiento&quot;?
 
-El aprovisionamiento en CX Enterprise significa lo siguiente:
+El aprovisionamiento en CX Enterprise significa:
 
 * Sus usuarios pueden empezar a iniciar sesión en CX Enterprise y a vincular aplicaciones.
 * Pueden empezar a utilizar las funciones disponibles a través de CX Enterprise.
@@ -153,7 +153,7 @@ Consulte [Visualización del ID de la organización](../administration/organizat
 
 +++¿Qué debo hacer cuando uno de mis usuarios abandona la empresa?
 
-Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel de CX Enterprise.
+Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel empresarial de CX.
 
 +++
 

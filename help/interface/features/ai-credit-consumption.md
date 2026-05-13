@@ -1,15 +1,15 @@
 ---
 title: Trabajos de agente y consumo de crédito de IA
-description: Obtenga información acerca de los trabajos del agente y las tasas de consumo de crédito de IA en las aplicaciones de CX Enterprise.
+description: Obtenga información sobre los trabajos del agente y las tasas de consumo de crédito de IA en las aplicaciones de CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Actualizado: **5 de marzo de 2026**
 
-Obtenga información acerca de los trabajos de IA auténticos y el consumo de crédito de IA en aplicaciones de CX Enterprise. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones de CX Enterprise existentes, consulte [IA agéntica en CX Enterprise](agentic-ai.md#existing-apps).
+Obtenga información sobre los trabajos de IA agénticos y el consumo de crédito de IA en las aplicaciones de CX Enterprise. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones empresariales de CX existentes, consulte [IA agéntica en CX Enterprise](agentic-ai.md#existing-apps).
 
 ## Trabajos del agente
 

@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1429
 ht-degree: 52%
@@ -46,7 +46,7 @@ Para ver las notas de la versión que abarcan todas las aplicaciones, consulte [
 
 | Fecha | Actualización | Descripción |
 | ------- | ------- | ------- |
-| 20 de abril de 2026 | Actualización de la interfaz de Adobe CX Enterprise | Aspecto de la página principal actualizado en `https://experience.adobe.com/home`. Con esta nueva versión, todas las funcionalidades seguirán siendo las mismas, con la interfaz de usuario actualizada, compatibilidad con el _modo oscuro_ completo y accesibilidad mejorada. |
+| 20 de abril de 2026 | Actualización de la interfaz de Adobe CX Enterprise | Apariencia actualizada de la página principal en `https://experience.adobe.com/home`. Con esta nueva versión, todas las funcionalidades seguirán siendo las mismas, con la interfaz de usuario actualizada, compatibilidad con el _modo oscuro_ completo y accesibilidad mejorada. |
 
 ## Enero de 2026
 

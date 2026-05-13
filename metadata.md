@@ -15,7 +15,7 @@ getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.es-ES
-source-git-commit: 8fc5cb3ebabcb154aa766ecaec5b3ccc10b5aefc
+source-git-commit: d12bb03ede2e07daca465a198a67b81f0855e9b4
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 66%
