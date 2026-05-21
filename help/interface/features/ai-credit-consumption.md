@@ -6,16 +6,15 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+last-update: '2026-05-21T00:00:00.000Z'
+source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 5%
+source-wordcount: '935'
+ht-degree: 6%
 
 ---
 
 # Trabajos de agente de Adobe Experience Platform y consumo de créditos de IA
-
-Actualizado: **5 de marzo de 2026**
 
 Obtenga información sobre los trabajos de IA agénticos y el consumo de crédito de IA en las aplicaciones de CX Enterprise. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones empresariales de CX existentes, consulte [IA agéntica en CX Enterprise](agentic-ai.md#existing-apps).
 
@@ -42,13 +41,11 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 | Agente | Trabajo | Aplicaciones compatibles | Créditos estimados de IA | Ejemplos de peticiones de datos |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
 | Audience Agent | Audiencia/ideación de cuenta | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 50 | <ul><li><em>Mostrarme campos para compradores adinerados</em></li><li><em>Buscar todos los campos relacionados con las preferencias del cliente</em></li></ul> |
-| Audience Agent | Creación de cuentas/audiencias basada en el conocimiento | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 150 | <ul><li><em>Crear una audiencia compuesta por personas que viven en California</em></li><li><em>Genera una audiencia de miembros de VIP que gastaron más de $1000 este trimestre</em></li><li><em>Crea una audiencia de usuarios que compraron artículos de ropa pero que no compraron en los últimos 60 días</em></li></ul> |
 | Audience Agent | Administración de audiencias y cuentas | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>¿Tengo audiencias duplicadas?</em></li><li><em>Mostrarme las 5 audiencias más grandes.</em></li><li><em>Mostrar audiencias que no están activadas en ningún destino</em></li><li><em>Enumerar todas las audiencias utilizadas en recorridos activos</em></li></ul> |
 | Audience Agent | Análisis de audiencia/cuenta | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>¿Qué audiencias aumentaron en tamaño en más de un 20% en la última semana?</em></li><li><em>¿Cuánto ha cambiado la audiencia &quot;Platino fiel&quot; en comparación con el valor de hace 30 días?</em></li><li><em>¿Cuál es mi audiencia que crece más rápido?</em></li></ul> |
 | Audience Agent | Ideación de grupo de compra | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>¿Qué cuentas muestran intención para estos productos?</em></li><li><em>Mostrarme las personas principales por intención de producto para XYZ.</em></li><li><em>¿Qué grupos compradores tienen más de 5 miembros?</em></li></ul> |
 | Data Insights Agent | Análisis y visualización de datos | <ul><li>Customer Journey Analytics (Ediciones B2C y B2B)</li></ul> | 25 | <ul><li><em>Tendencia de pedidos en julio</em></li><li><em>Mostrar ingresos por región.</em></li><li><em>Mostrar pedidos por sexo, de marzo a junio.</em></li><li><em>Cuáles fueron mis 10 SKU principales por beneficio en junio</em></li><li><em>Proporción de compras por mes del año</em></li><li><em>Porcentaje de ingresos por categoría de producto</em></li></ul> |
 | Journey Agent | ideación de recorrido | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>Cree un recorrido para cuentas de espacio en blanco con intención de usar mi solución, centrándose en las personas que participan con contenido en el sitio web</em></li></ul> |
-| Journey Agent | creación de recorridos | <ul><li>Adobe Journey Optimizer (Ediciones B2B y B2C)</li></ul> | 30 | <ul><li><em>Genere un recorrido para enviar un recordatorio a los usuarios que no hayan completado su primera compra en los últimos 7 días</em></li><li><em>Cuando los usuarios completen su primera compra, envíenos una confirmación por SMS y una explicación de los beneficios de seguimiento por correo electrónico pasados 3 días</em></li></ul> |
 | Journey Agent | análisis de recorrido | <ul><li>Adobe Journey Optimizer (Ediciones B2B y B2C)</li></ul> | 50 | <ul><li><em>Quiero analizar las visitas en el orden previsto por nodo para la campaña del 4 de julio de recorrido.</em></li><li><em>Hay algún conflicto de programación para el recorrido X</em></li><li><em>Mostrarme conflictos de superposición de audiencia para el recorrido X</em></li></ul> |
 | Journey Agent | administración de recorrido | <ul><li>Adobe Journey Optimizer (Ediciones B2B y B2C)</li></ul> | 25 | <ul><li><em>¿Cuántos recorridos activos tengo?</em></li><li><em>Enumerar todos los recorridos con la audiencia X.</em></li><li><em>Enumerar todos los recorridos que se encuentran actualmente en modo de prueba</em></li></ul> |
 | Agente de soporte del producto | Solución de problemas basada en conocimientos | <ul><li>Real-Time CDP (Ediciones B2B, B2C y B2P)</li><li>Adobe Journey Optimizer (Ediciones B2C y B2B)</li><li>Customer Journey Analytics (Ediciones B2C y B2B)</li></ul> | 0 | <ul><li><em>¿Por qué difiere el recuento de perfiles en el Tablero de uso de licencias y en la página de inicio de Experience Platform?</em></li><li><em>¿Cuáles son las razones por las que no se activa un recorrido?</em></li><li><em>¿Cómo crea Adobe Experience Platform experiencias en tiempo real?</em></li><li><em>¿Cómo se configuran y utilizan las alertas en Adobe Experience Platform?</em></li><li><em>¿Cuál es el límite promedio de riqueza de perfiles en Adobe Experience Platform Activation?</em></li></ul> |
@@ -67,4 +64,4 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 * [GenAI en CX Enterprise](/help/interface/features/generative-ai.md)
 * [Inteligencia artificial aplicada a la agencia en CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
