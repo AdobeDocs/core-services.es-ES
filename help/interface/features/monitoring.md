@@ -1,94 +1,149 @@
 ---
-title: Monitorización
-description: Descubra cómo la monitorización de IA en Experience Platform le ayuda a rastrear la adopción del asistente de IA, revisar las conversaciones y los comentarios y administrar los créditos de IA para el uso, la calidad y la visibilidad de los costes.
+title: Monitorización del uso de IA agente
+description: Obtenga información sobre la monitorización del uso de IA en CX Enterprise. Rastree la adopción, revise las conversaciones y los comentarios y administre los créditos de IA para el uso, la calidad y la visibilidad de los costes.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+autotag-review: '2026-05-27T16:30:16.764Z'
+TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 948
+ht-degree: 2%
 
 ---
 
-# Supervisión de IA
+# Panel de monitorización del uso de IA agéntica
 
-Después de implementar [!UICONTROL AI Assistant], puede usar [!UICONTROL Monitoring] para obtener visibilidad sobre cómo se usa y funciona. Le permite comprender quién usa [!UICONTROL AI Assistant], qué tareas admite, dónde tiene éxito o dónde tiene problemas y cómo se vincula con la adopción, el coste y el impacto empresarial.
+CX Enterprise proporciona dos paneles para supervisar el uso de IA auténtica en las aplicaciones empresariales de CX existentes. Estos paneles le ayudan a comprender la adopción, la participación, la calidad de los comentarios y el consumo de crédito de IA para [!DNL Experience Platform Agents] a los que los usuarios acceden a través de [!DNL AI Assistant] y otras superficies conversacionales.
 
-La monitorización de IA se organiza en torno a tres áreas:
+Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
 
-* **Adopción y participación** en el panel [!UICONTROL Usage]
-* **Calidad y rendimiento** en [!UICONTROL Conversation Replay] y comentarios
-* **Costo y consumo** en el panel Créditos
+## Panel de control de uso de licencias
 
-Juntos, le ayudan a operar [!UICONTROL AI Assistant] con datos claros en lugar de conjeturas.
+El panel Uso de licencias de [!DNL Adobe Experience Platform] muestra la asignación de créditos de IA con licencia de su organización y el total de créditos de IA consumidos cuando los usuarios ejecutan [!DNL Experience Platform Agents].
 
-## Tablero de uso
+Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
 
-El panel de uso es el lugar central para la adopción y la participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Desde cualquier métrica del panel, puede explorar en profundidad conversaciones individuales para ver qué impulsa los números.
+## Panel de monitorización de IA agéntica
 
-**Lo que puedes revisar**
+El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Puede ver las tendencias de los períodos de 7 o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies de conversación (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents], qué hace en esas interacciones y el valor que recibe.
 
-* **Indicadores a lo largo del tiempo**: crecimiento general del uso y tendencias de adopción.
-* **Usuarios activos y conversaciones**: La amplitud con la que se adopta el asistente entre los usuarios.
-* **Promedio de mensajes por conversación**: Profundidad de la participación y si las interacciones son sustantivas.
-* **Comentarios (pulgar arriba / abajo)**: Señales tempranas sobre la calidad y la satisfacción del usuario.
+El tablero de monitorización de inteligencia artificial aplicada a la agencia incluye las siguientes vistas:
 
-## Reproducción de conversación con comentarios
+| Panel de control | Objetivo |
+| --- | --- |
+| **Información general** | Métricas agregadas entre usuarios, conversaciones, comentarios y consumo de crédito |
+| **Usuarios** | Frecuencia de uso, distribución y participación del usuario |
+| **Comentarios** | Señales sobre calidad de respuesta y satisfacción del usuario |
+| **Créditos de IA** | Tendencias del consumo de crédito y saldo restante |
 
-[!UICONTROL Conversation Replay] muestra interacciones de IA reales, no solo agregados. Se accede a él desde el panel Uso cuando necesita pasar de tendencias a intercambios específicos.
+En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
 
-**Lo que puedes revisar**
+## Panel de información general
 
-* **Historial de preguntas y respuestas**: La pregunta y las respuestas del usuario, tal como se entregaron.[!UICONTROL AI Assistant]
-* **Señales de comentarios**: Qué interacciones han marcado los usuarios de forma positiva o negativa para priorizar las mejoras.
-* **Patrones en el tiempo**: temas recurrentes en experiencias fuertes y débiles en muchas conversaciones.
+El panel Información general es el lugar central para las métricas de adopción y participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Desde cualquier métrica, puede profundizar en conversaciones individuales para ver qué impulsa los números.
 
-Esta vista le ayuda a ir más allá de los resúmenes para ver qué funciona, dónde golpean los usuarios la fricción y cómo mejorar la calidad de la respuesta a lo largo del tiempo. Las tendencias de uso responden _a lo que_ está sucediendo. La repetición de la conversación ayuda a explicar _por qué_.
+### Métricas en el tablero Información general
 
-## [!UICONTROL Credits] panel
+* **Indicadores a lo largo del tiempo:** Tendencias generales de crecimiento y adopción de uso.
+* **Usuarios activos y conversaciones:** Cantidad de usuarios que interactúan con [!DNL Experience Platform Agents].
+* **Promedio de mensajes por conversación:** Profundidad de participación por conversación.
+* **Comentarios:** Distribución de comentarios de usuarios con miniaturas hacia arriba y miniaturas hacia abajo (solo para [!DNL AI Assistant] interacciones).
 
-Una vez que comprenda el uso y la calidad, el panel Créditos responderá a cómo esa actividad se traduce en consumo y coste.
+### Reproducción de conversación
 
-**Lo que puedes revisar**
+La reproducción de la conversación muestra interacciones individuales, no solo acumulaciones. Puede analizar los patrones en muchas conversaciones y pasar de tendencias de alto nivel a una conversación específica.
 
-* **Créditos totales consumidos**: Uso general del Asistente de IA en términos de crédito.
-* **Tendencias diarias y mensuales**: Picos, caídas y cambios en los patrones de uso.
-* **Créditos restantes**: Lo que queda en su asignación para que pueda planificar antes de límites o excesos.
+* **Historial de mensajes y respuestas:** El mensaje del usuario y las respuestas entregadas.
+* **Señales de comentarios:** Interacciones que los usuarios marcaron con los pulgares hacia arriba o hacia abajo para identificar fricciones, bloqueadores o necesidades de habilitación. Esta información ayuda a su organización a mejorar la relevancia rápida y ayuda a Adobe a mejorar la calidad de la respuesta con el paso del tiempo.
 
-Utilice esta vista para prever el uso, alinearse con el presupuesto y asignar créditos entre equipos de forma más predecible.
+## Panel de usuarios
 
-## Panel de comentarios del usuario
+El panel Usuarios muestra cómo la adopción y la participación de los agentes varían entre los usuarios a lo largo del tiempo. Se puede ver quién usa activamente [!DNL Experience Platform Agents], qué superficie usa y con qué frecuencia interactúa. Los administradores y los miembros del COE pueden explorar en profundidad la actividad y las conversaciones de cada usuario para comprender los patrones de participación y el comportamiento de uso.
 
-El panel de comentarios del usuario ayuda a las organizaciones a revisar los comentarios detallados del usuario enviados para las interacciones del asistente de IA. Proporciona visibilidad sobre las conversaciones que los usuarios marcaron positiva o negativamente y permite a los administradores y centros de excelencia (COE) investigar los detalles de interacción detrás de los comentarios.
-A partir de los resúmenes de comentarios, los usuarios pueden explorar en profundidad conversaciones individuales para revisar los mensajes, las respuestas, los detalles de razonamiento y las notas de comentarios asociados con la interacción.
+### Métricas en el panel de usuarios
 
-Qué puede revisar
+* **Tendencias de adopción y participación con el paso del tiempo:** Rastree cómo cambian los segmentos de usuario durante el período seleccionado. Los usuarios se clasifican como:
+   * **Nuevo:** Primera actividad en el período seleccionado, sin actividad en los 12 meses anteriores.
+   * **Repetir:** Actividad tanto en el período seleccionado como en el período anterior.
+   * **Devolver:** Actividad en el período seleccionado, pero no en el período anterior.
+   * **Inactiva:** No hay actividad en el período seleccionado, sino actividad en el período anterior.
+* **Patrones de participación del usuario:** La frecuencia con la que los usuarios interactúan con los agentes y cómo cambia la participación con el paso del tiempo.
+* **Actividad de conversación:** Número de conversaciones y mensajes por usuario.
+* **Usuarios activos principales:** Usuarios y equipos altamente comprometidos que impulsan la adopción de agentes.
 
-**Tendencias de comentarios a lo largo del tiempo:** Comprenda cómo cambian los comentarios de los usuarios en los flujos de trabajo y los períodos de tiempo.
-**Pulgares arriba y abajo comentarios:** revisar las señales de interacción positivas y negativas enviadas por los usuarios.
-**Categorías de comentarios:** Comprenda los tipos de respuestas que los usuarios identificaron como útiles o problemáticas.
-**Desgloses en el nivel de conversación:** Pasar de resúmenes de comentarios a conversaciones individuales vinculadas a eventos de comentarios.
-**Historial de mensajes y respuestas:** revise los mensajes de usuario y las respuestas del Asistente de inteligencia artificial asociados a los comentarios enviados.
-**Detalles y notas de los comentarios:** revisa el contexto y los comentarios adicionales proporcionados por los usuarios durante el envío de los comentarios.
+## Tablero de comentarios
 
-Este tablero ayuda a las organizaciones a comprender mejor las experiencias de los usuarios, investigar problemas e identificar oportunidades para mejorar la calidad y la eficacia del asistente de IA a lo largo del tiempo.
+El panel de comentarios muestra los comentarios del usuario enviados para las interacciones del agente. Puede ver qué conversaciones marcaron positiva o negativamente los usuarios e investigar las interacciones detrás de los comentarios. En los resúmenes de comentarios, explore en profundidad las conversaciones individuales para revisar los mensajes, las respuestas, los detalles del razonamiento y las notas de los comentarios.
 
-## Panel de usuarios activos
+### Métricas en el panel de comentarios
 
-El panel Usuarios activos ayuda a las organizaciones a comprender cómo la adopción y la participación del Asistente de IA varían entre los usuarios a lo largo del tiempo. Proporciona visibilidad sobre quién utiliza el asistente de IA de forma activa, con qué frecuencia interactúan y qué flujos de trabajo impulsan la mayor actividad en la organización.
-Desde resúmenes de nivel de usuario, los administradores y los Centros de excelencia (COE) pueden explorar en profundidad la actividad y las conversaciones de los usuarios individuales para comprender mejor los patrones de participación y el comportamiento de uso.
+* **Los comentarios cambian con el tiempo:** Cómo cambian los comentarios de los usuarios con el paso del tiempo.
+* **Pulgares arriba y pulgares abajo comentarios:** Señales de interacción positivas y negativas.
+* **Categorías de comentarios:** Motivo detrás de cada pulgar hacia arriba y hacia abajo.
+* **Historial de mensajes y respuestas:** Mensajes de usuario y respuestas asociadas con los comentarios enviados.
+* **Notas y detalles de comentarios:** Contexto y comentarios adicionales de los usuarios durante el envío de comentarios.
 
-Qué puede revisar
+## Panel de créditos de IA
 
-* **Usuarios activos a lo largo del tiempo:** Rastree las tendencias de adopción y participación en toda la organización.
-* **Patrones de participación del usuario:** Comprenda con qué frecuencia interactúan los usuarios con el Asistente de IA y cómo cambia la participación con el paso del tiempo.
-* **Actividad de conversación:** Revise el número de conversaciones y mensajes generados por usuarios individuales.
-* **Usuarios activos principales:** Identifique a los usuarios y equipos altamente comprometidos que impulsan la adopción del Asistente para IA.
-* **Desgloses en el nivel de usuario:** Pásese de las métricas de participación agregadas a los detalles de conversación y actividad de usuario individual.
-* **Tendencias de uso por flujo de trabajo:** Comprenda qué flujos de trabajo y casos de uso generan la mayor participación entre los usuarios.
-* **Coherencia de la participación:** Identifique a los usuarios con patrones de participación recurrentes, así como a los usuarios con una actividad que disminuye con el tiempo.
+El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agents] por parte de su organización se traduce en consumo de créditos de IA.
 
-Este tablero ayuda a las organizaciones a medir la adopción, identificar las tendencias de participación y comprender mejor cómo se utiliza el asistente de IA en los equipos y flujos de trabajo.
+### Métricas en el panel Créditos de IA
+
+* **Créditos de IA totales consumidos:** Uso general del agente en créditos de IA.
+* **Tendencias diarias y mensuales:** picos, caídas y cambios en los patrones de consumo.
+* **Créditos de inteligencia artificial restantes:** Saldo restante para que pueda planificar de forma proactiva y evitar cargos adicionales.
+
+## Acceso y gobernanza
+
+Los paneles de monitorización del uso de IA agente exponen la actividad del asistente de IA, incluidos los patrones de uso, las perspectivas a nivel de conversación, las señales de comentarios y las métricas operativas. Parte de esta información puede incluir datos confidenciales de contexto empresarial, actividad de solicitud o interacción del usuario.
+
+El acceso se basa en permisos y está diseñado para administradores de COE autorizados y usuarios de gobernanza aprobados únicamente. En la siguiente sección se describe cómo conceder permisos de panel.
+
+## Habilitar permisos de tablero
+
+Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado.
+
+1. Vaya a [!DNL Experience Platform] **Administración** > **Permisos**.
+
+1. Abra el perfil de producto o la función que desee actualizar.
+
+   ![Habilitar permisos de tablero](../features/assets/dashboards-permissions.png)
+
+1. En permisos de **[!UICONTROL AI Assistant]**, haga clic en **[!UICONTROL Add Resource]** y luego habilite **[!UICONTROL View AI Assistant usage dashboard]**.
+
+   Este permiso concede acceso a los paneles de monitorización de uso de inteligencia artificial aplicada a la agencia.
+
+1. En **[!UICONTROL Dashboards]** permisos, configure el acceso al panel en función de las responsabilidades de cada usuario.
+
+   ![Habilitar permisos de tablero](../features/assets/dashboards-add-resource.png)
+
+   Permisos recomendados para usuarios de gobernanza autorizados:
+
+   * **[!UICONTROL View License Usage Dashboard]**
+   * **[!UICONTROL View Standard Dashboards]**
+   * **[!UICONTROL Export Dashboard Data]** (opcional, solo para usuarios de gobernanza aprobados)
+
+   Permisos adicionales que puede conceder cuando sea necesario:
+
+   * **[!UICONTROL Manage Custom Dashboards]**
+   * **[!UICONTROL View Custom Dashboards]**
+   * **[!UICONTROL Manage Standard Dashboards]**
+
+## Más ayuda sobre este tema
+
+* [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
+* [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)

@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 52%
+source-wordcount: 1501
+ht-degree: 50%
 
 ---
 
@@ -41,6 +41,12 @@ Funciones, notas de la versión y problemas conocidos de los componentes de la i
 Para obtener una lista de actualizaciones de documentación, consulte [Actualizaciones de documentación](doc-updates.md).
 
 Para ver las notas de la versión que abarcan todas las aplicaciones, consulte [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+
+## Junio de 2026
+
+| Fecha | Actualización | Descripción |
+| ------- | ------- | ------- |
+| 1 de junio de 2026 | Monitorización del uso de IA agéntica | CX Enterprise ahora proporciona paneles para monitorizar el uso de IA auténtica en las aplicaciones existentes. Rastree la adopción, revise las conversaciones y los comentarios y administre el consumo de crédito de IA para los agentes de Experience Platform a los que se accede a través del asistente de IA y otras superficies conversacionales. Las vistas Información general, Usuarios, Comentarios y Créditos de IA ayudan a las partes interesadas en la administración a guiar la adopción con datos. Consulte [Supervisión del uso de IA del agente](../features/monitoring.md) para obtener acceso al panel y permisos. |
 
 ## Abril de 2026
 

@@ -23,16 +23,21 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e86d1384fc183ebafdab2995ee3495f2184b0329
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 40%
+source-wordcount: 788
+ht-degree: 38%
 
 ---
 
 # Actualizaciones de la documentación
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de CX Enterprise.
+
+## Junio de 2026
+
+* Se ha publicado [supervisión del uso de inteligencia artificial aplicada al agente](../features/monitoring.md) con cobertura de los paneles de supervisión de uso de licencias y de inteligencia artificial aplicada al agente, incluidas las vistas Información general, Usuarios, Comentarios y Créditos de inteligencia artificial, reproducción de conversaciones y permisos para usuarios con funciones directivas.
+* Se agregaron [notas de la versión de junio de 2026](release-notes.md) para la monitorización del uso de IA auténtica.
 
 ## Mayo de 2026
 
@@ -41,7 +46,6 @@ Actualizaciones de abril y mayo para la guía de la interfaz central de CX Enter
 * Se ha cambiado la marca de la documentación de Experience Cloud a **CX Enterprise** en toda la guía, incluidas las descripciones, el texto del vínculo y los metadatos de etiquetas automáticas.
 * Se agregaron [notas de la versión de abril de 2026](release-notes.md) para la página principal actualizada a las `https://experience.adobe.com/home` (actualización de la interfaz de usuario, modo oscuro y mejoras de accesibilidad).
 * Se ha actualizado [Inteligencia artificial aplicada a la agencia en CX Enterprise](../features/agentic-ai.md): Adobe Marketing Agent for Microsoft 365 Copilot, se han revisado las capacidades del agente y una columna de **Datos de estado / preparados para HIPAA** en la tabla de agentes de aplicaciones existentes.
-<!-- * Published [Monitoring](../features/monitoring.md) with expanded coverage of Usage, Conversation Replay, Credits, User Feedback, and Active Users dashboards. -->
 * Actualizaciones menores de [recopilación de datos regionales](../data-collection/rdc.md), [Validar el reenvío de nombres de host](../data-collection/adobe-managed-cert.md) y [Terminología](terms.md).
 
 ## Marzo de 2026
