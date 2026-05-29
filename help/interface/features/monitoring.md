@@ -8,16 +8,11 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
@@ -34,7 +29,7 @@ Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de 
 
 El panel Uso de licencias de [!DNL Adobe Experience Platform] muestra la asignación de créditos de IA con licencia de su organización y el total de créditos de IA consumidos cuando los usuarios ejecutan [!DNL Experience Platform Agents].
 
-Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
+Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
 
 ## Panel de monitorización de IA agéntica
 
@@ -146,4 +141,4 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
