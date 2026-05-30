@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ Descubra dónde se producen las actualizaciones de la documentación para la int
 
 ## Junio de 2026
 
-* Se ha publicado [supervisión del uso de inteligencia artificial aplicada al agente](../features/monitoring.md) con cobertura de los paneles de supervisión de uso de licencias y de inteligencia artificial aplicada al agente, incluidas las vistas Información general, Usuarios, Comentarios y Créditos de inteligencia artificial, reproducción de conversaciones y permisos para usuarios con funciones directivas.
+* Se ha publicado la [supervisión de IA del agente](../features/monitoring.md) con cobertura de los paneles de supervisión de Uso de licencias y AI del agente, que incluye Información general, Usuarios, Comentarios y vistas de Créditos de IA, reproducción de conversaciones y permisos para usuarios con funciones de gobernanza.
 * Se agregaron [notas de la versión de junio de 2026](release-notes.md) para la monitorización del uso de IA auténtica.
 
 ## Mayo de 2026

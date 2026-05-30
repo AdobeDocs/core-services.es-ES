@@ -1,6 +1,6 @@
 ---
 title: Monitorización del uso de IA agente
-description: Obtenga información sobre la monitorización del uso de IA en CX Enterprise. Rastree la adopción, revise las conversaciones y los comentarios y administre los créditos de IA para el uso, la calidad y la visibilidad de los costes.
+description: Obtenga información sobre los paneles para la monitorización del uso de IA en CX Enterprise. Rastree la adopción, revise las conversaciones y los comentarios y administre los créditos de IA para el uso, la calidad y la visibilidad de los costes.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Panel de monitorización del uso de IA agéntica
+# Monitorización de IA agéntica
 
 CX Enterprise proporciona dos paneles para supervisar el uso de IA auténtica en las aplicaciones empresariales de CX existentes. Estos paneles le ayudan a comprender la adopción, la participación, la calidad de los comentarios y el consumo de crédito de IA para [!DNL Experience Platform Agents] a los que los usuarios acceden a través de [!DNL AI Assistant] y otras superficies conversacionales.
 
