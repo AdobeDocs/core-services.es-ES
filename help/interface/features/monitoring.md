@@ -34,7 +34,7 @@ Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de 
 
 El panel Uso de licencias de [!DNL Adobe Experience Platform] muestra la asignación de créditos de IA con licencia de su organización y el total de créditos de IA consumidos cuando los usuarios ejecutan [!DNL Experience Platform Agents].
 
-Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
+Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
 
 ## Panel de monitorización de IA agéntica
 
@@ -146,4 +146,4 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
-* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
