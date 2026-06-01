@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
-source-wordcount: 1501
+source-wordcount: 1500
 ht-degree: 50%
 
 ---
@@ -46,7 +46,7 @@ Para ver las notas de la versión que abarcan todas las aplicaciones, consulte [
 
 | Fecha | Actualización | Descripción |
 | ------- | ------- | ------- |
-| 1 de junio de 2026 | Monitorización del uso de IA agéntica | CX Enterprise ahora proporciona paneles para monitorizar el uso de IA auténtica en las aplicaciones existentes. Rastree la adopción, revise las conversaciones y los comentarios y administre el consumo de crédito de IA para los agentes de Experience Platform a los que se accede a través del asistente de IA y otras superficies conversacionales. Las vistas Información general, Usuarios, Comentarios y Créditos de IA ayudan a las partes interesadas en la administración a guiar la adopción con datos. Consulte [Supervisión del uso de IA del agente](../features/monitoring.md) para obtener acceso al panel y permisos. |
+| 1 de junio de 2026 | Monitorización del uso de IA agéntica | CX Enterprise ahora proporciona paneles para monitorizar el uso de IA auténtica en las aplicaciones existentes. Rastree la adopción, revise las conversaciones y los comentarios y administre el consumo de crédito de IA para los agentes de Experience Platform a los que se accede a través del asistente de IA y otras superficies conversacionales. Las vistas Información general, Usuarios, Comentarios y Créditos de IA ayudan a las partes interesadas en la administración a guiar la adopción con datos. Consulte [Supervisión de inteligencia artificial aplicada a la agencia](../features/monitoring.md) para obtener acceso al panel y permisos. |
 
 ## Abril de 2026
 
