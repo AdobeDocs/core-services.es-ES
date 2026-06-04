@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de 
 
 [Ver vídeo introductorio](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## Habilitación de permisos de tablero (administradores) {#permissions}
+## Habilitar permisos de tablero {#permissions}
 
 Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
 
@@ -73,7 +73,7 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 1. Para ver los paneles, vuelva al inicio de CX Enterprise y haga clic en **[!UICONTROL Supervisión]**.
 
-![Panel de monitorización de inteligencia artificial aplicada a la agencia](../features/assets/monitoring.png)
+   ![Panel de monitorización de inteligencia artificial aplicada a la agencia](../features/assets/monitoring.png)
 
 ## Panel de información general
 
