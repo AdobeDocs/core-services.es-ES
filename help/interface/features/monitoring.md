@@ -17,28 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
+source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 882
 ht-degree: 2%
 
 ---
 
-# Monitorización de IA agéntica
+# Paneles de monitorización de IA automática
 
-CX Enterprise proporciona dos paneles para supervisar el uso de IA auténtica en las aplicaciones empresariales de CX existentes. Estos paneles le ayudan a comprender la adopción, la participación, la calidad de los comentarios y el consumo de crédito de IA para [!DNL Experience Platform Agents] a los que los usuarios acceden a través de [!DNL AI Assistant] y otras superficies conversacionales.
-
-Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
-
-## Panel de control de uso de licencias
-
-El panel Uso de licencias de [!DNL Adobe Experience Platform] muestra la asignación de créditos de IA con licencia de su organización y el total de créditos de IA consumidos cuando los usuarios ejecutan [!DNL Experience Platform Agents].
-
-Los administradores utilizan este tablero para realizar un seguimiento del consumo de licencias respecto a las autorizaciones. Para acceder al tablero, consulte [Tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en la documentación de [!DNL Experience Platform].
-
-## Panel de monitorización de IA agéntica
-
-El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Puede ver las tendencias de los períodos de 7 o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies de conversación (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents], qué hace en esas interacciones y el valor que recibe.
+El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Puede ver las tendencias de los períodos de 7 o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies de conversación (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents], qué hace en esas interacciones y el valor que recibe. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
 
 El tablero de monitorización de inteligencia artificial aplicada a la agencia incluye las siguientes vistas:
 
@@ -49,7 +37,43 @@ El tablero de monitorización de inteligencia artificial aplicada a la agencia i
 | **Comentarios** | Señales sobre calidad de respuesta y satisfacción del usuario |
 | **Créditos de IA** | Tendencias del consumo de crédito y saldo restante |
 
-En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
+Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
+
+[Ver vídeo introductorio](https://video.tv.adobe.com/v/3491864?learn=on)
+
+## Habilitación de permisos de tablero (administradores) {#permissions}
+
+Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
+
+1. Vaya a [!DNL Experience Platform] **Administración** > **Permisos**.
+
+1. Abra el perfil de producto o la función que desee actualizar.
+
+   ![Habilitar permisos de tablero](../features/assets/dashboards-permissions.png)
+
+1. En los permisos de **[!UICONTROL Asistente de IA]**, haga clic en **[!UICONTROL Agregar recurso]** y, a continuación, habilite **[!UICONTROL Ver tablero de uso del Asistente de IA]**.
+
+   Este permiso concede acceso a los paneles de monitorización de uso de inteligencia artificial aplicada a la agencia.
+
+1. En **[!UICONTROL Permisos de paneles]**, configure el acceso a los paneles en función de las responsabilidades de cada usuario.
+
+   ![Habilitar permisos de tablero](../features/assets/dashboards-add-resource.png)
+
+   Permisos recomendados para usuarios de gobernanza autorizados:
+
+   * **[!UICONTROL Ver tablero de uso de licencias]**
+   * **[!UICONTROL Ver paneles estándar]**
+   * **[!UICONTROL Exportar datos de panel]** (opcional; solo para usuarios de administración aprobados)
+
+   Permisos adicionales que puede conceder cuando sea necesario:
+
+   * **[!UICONTROL Administrar paneles personalizados]**
+   * **[!UICONTROL Ver paneles personalizados]**
+   * **[!UICONTROL Administrar paneles estándar]**
+
+1. Para ver los paneles, vuelva al inicio de CX Enterprise y haga clic en **[!UICONTROL Supervisión]**.
+
+![Panel de monitorización de inteligencia artificial aplicada a la agencia](../features/assets/monitoring.png)
 
 ## Panel de información general
 
@@ -62,12 +86,16 @@ El panel Información general es el lugar central para las métricas de adopció
 * **Promedio de mensajes por conversación:** Profundidad de participación por conversación.
 * **Comentarios:** Distribución de comentarios de usuarios con miniaturas hacia arriba y miniaturas hacia abajo (solo para [!DNL AI Assistant] interacciones).
 
+[Ver vídeo](https://video.tv.adobe.com/v/3491865?learn=on)
+
 ### Reproducción de conversación
 
 La reproducción de la conversación muestra interacciones individuales, no solo acumulaciones. Puede analizar los patrones en muchas conversaciones y pasar de tendencias de alto nivel a una conversación específica.
 
 * **Historial de mensajes y respuestas:** El mensaje del usuario y las respuestas entregadas.
 * **Señales de comentarios:** Interacciones que los usuarios marcaron con los pulgares hacia arriba o hacia abajo para identificar fricciones, bloqueadores o necesidades de habilitación. Esta información ayuda a su organización a mejorar la relevancia rápida y ayuda a Adobe a mejorar la calidad de la respuesta con el paso del tiempo.
+
+[Ver vídeo](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Panel de usuarios
 
@@ -84,6 +112,8 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 * **Actividad de conversación:** Número de conversaciones y mensajes por usuario.
 * **Usuarios activos principales:** Usuarios y equipos altamente comprometidos que impulsan la adopción de agentes.
 
+[Ver vídeo](https://video.tv.adobe.com/v/3491868?learn=on)
+
 ## Tablero de comentarios
 
 El panel de comentarios muestra los comentarios del usuario enviados para las interacciones del agente. Puede ver qué conversaciones marcaron positiva o negativamente los usuarios e investigar las interacciones detrás de los comentarios. En los resúmenes de comentarios, explore en profundidad las conversaciones individuales para revisar los mensajes, las respuestas, los detalles del razonamiento y las notas de los comentarios.
@@ -96,6 +126,8 @@ El panel de comentarios muestra los comentarios del usuario enviados para las in
 * **Historial de mensajes y respuestas:** Mensajes de usuario y respuestas asociadas con los comentarios enviados.
 * **Notas y detalles de comentarios:** Contexto y comentarios adicionales de los usuarios durante el envío de comentarios.
 
+[Ver vídeo](https://video.tv.adobe.com/v/3491878?learn=on)
+
 ## Panel de créditos de IA
 
 El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agents] por parte de su organización se traduce en consumo de créditos de IA.
@@ -106,44 +138,11 @@ El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agent
 * **Tendencias diarias y mensuales:** picos, caídas y cambios en los patrones de consumo.
 * **Créditos de inteligencia artificial restantes:** Saldo restante para que pueda planificar de forma proactiva y evitar cargos adicionales.
 
-## Acceso y gobernanza
-
-Los paneles de monitorización del uso de IA agente exponen la actividad del asistente de IA, incluidos los patrones de uso, las perspectivas a nivel de conversación, las señales de comentarios y las métricas operativas. Parte de esta información puede incluir datos confidenciales de contexto empresarial, actividad de solicitud o interacción del usuario.
-
-El acceso se basa en permisos y está diseñado para administradores de COE autorizados y usuarios de gobernanza aprobados únicamente. En la siguiente sección se describe cómo conceder permisos de panel.
-
-## Habilitar permisos de tablero
-
-Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado.
-
-1. Vaya a [!DNL Experience Platform] **Administración** > **Permisos**.
-
-1. Abra el perfil de producto o la función que desee actualizar.
-
-   ![Habilitar permisos de tablero](../features/assets/dashboards-permissions.png)
-
-1. En permisos de **[!UICONTROL AI Assistant]**, haga clic en **[!UICONTROL Add Resource]** y luego habilite **[!UICONTROL View AI Assistant usage dashboard]**.
-
-   Este permiso concede acceso a los paneles de monitorización de uso de inteligencia artificial aplicada a la agencia.
-
-1. En **[!UICONTROL Dashboards]** permisos, configure el acceso al panel en función de las responsabilidades de cada usuario.
-
-   ![Habilitar permisos de tablero](../features/assets/dashboards-add-resource.png)
-
-   Permisos recomendados para usuarios de gobernanza autorizados:
-
-   * **[!UICONTROL View License Usage Dashboard]**
-   * **[!UICONTROL View Standard Dashboards]**
-   * **[!UICONTROL Export Dashboard Data]** (opcional, solo para usuarios de gobernanza aprobados)
-
-   Permisos adicionales que puede conceder cuando sea necesario:
-
-   * **[!UICONTROL Manage Custom Dashboards]**
-   * **[!UICONTROL View Custom Dashboards]**
-   * **[!UICONTROL Manage Standard Dashboards]**
+[Ver vídeo](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Más ayuda sobre este tema
 
+* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
 * [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
