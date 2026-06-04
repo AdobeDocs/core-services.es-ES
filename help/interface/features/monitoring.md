@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +36,7 @@ Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de 
 
 [Ver vídeo introductorio](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## Habilitación de permisos de tablero (administradores) {#permissions}
+## Habilitar permisos de tablero {#permissions}
 
 Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
 
@@ -73,7 +68,7 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 1. Para ver los paneles, vuelva al inicio de CX Enterprise y haga clic en **[!UICONTROL Supervisión]**.
 
-![Panel de monitorización de inteligencia artificial aplicada a la agencia](../features/assets/monitoring.png)
+   ![Panel de monitorización de inteligencia artificial aplicada a la agencia](../features/assets/monitoring.png)
 
 ## Panel de información general
 
@@ -142,7 +137,7 @@ El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agent
 
 ## Más ayuda sobre este tema
 
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
