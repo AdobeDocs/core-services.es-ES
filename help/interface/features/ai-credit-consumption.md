@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 6%
 # Trabajos de agente de Adobe Experience Platform y consumo de créditos de IA
 
 Obtenga información sobre los trabajos de IA agénticos y el consumo de crédito de IA en las aplicaciones de CX Enterprise. Para obtener información sobre cómo habilitar las capacidades de IA agéntica en aplicaciones empresariales de CX existentes, consulte [IA agéntica en CX Enterprise](agentic-ai.md#existing-apps).
+
+## Novedades
+
+| Función | Descripción |
+| --- | --- |
+| [Catálogo de funciones de inteligencia artificial aplicada a empresas CX](https://agentic-capability-explorer.entapp.adproto.com/) | Descubra qué trabajos de inteligencia artificial auténticos están disponibles en sus aplicaciones empresariales con licencia de CX. |
 
 ## Trabajos del agente
 
@@ -35,6 +41,8 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 * Las tareas sencillas (a menudo de un solo paso) consumen menos créditos
 * Las tareas complejas (a menudo de varios pasos) consumen más créditos
 * Las tareas que implican razonamiento avanzado, validación, coordinación de varios agentes o integración consumen más créditos
+
+**Nota:** El [Catálogo de capacidades de IA empresarial de CX](https://agentic-capability-explorer.entapp.adproto.com/) también está disponible para ayudarle a descubrir qué trabajos de IA auténtica están disponibles en sus aplicaciones empresariales de CX con licencia.
 
 ### Tasas estimadas de consumo de crédito de IA
 
@@ -64,4 +72,4 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 
 * [GenAI en CX Enterprise](/help/interface/features/generative-ai.md)
 * [Inteligencia artificial aplicada a la agencia en CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
