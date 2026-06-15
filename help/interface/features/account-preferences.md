@@ -9,12 +9,26 @@ level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 autotag-review: '2026-05-27T17:08:16.511Z'
 TQID: 'https://experienceleague.adobe.com/wn3EBV0rf2PLh649pY8KqLjIHjvpGwpBkDxX4Ib03uw'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: dc42f745-24d2-44a4-99c3-dece518fa4bcid: eaef3029-0844-43fe-9e1c-7666a24f4d03id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
+  - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
+  - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
 source-wordcount: 841
@@ -35,7 +49,7 @@ En la página [!UICONTROL Preferencias de CX Enterprise], puede administrar las 
 | [!UICONTROL Perfil] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre de su perfil aparecen al iniciar sesión en Adobe.com, en los productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
 | [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en CX Enterprise. |
 | [!UICONTROL Datos de uso del producto] | Puede controlar qué datos de uso del producto se comparten con Adobe al utilizar aplicaciones de CX Enterprise. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
-| [!UICONTROL  Notificaciones ] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
+| [!UICONTROL &#x200B; Notificaciones &#x200B;] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
 
 ## [!UICONTROL Datos de uso del producto]
 
