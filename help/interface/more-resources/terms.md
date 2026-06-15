@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo los términos de la interfaz y del producto de Adobe difieren entre CX Enterprise, las soluciones de Experience Cloud, Creative Cloud, Experience League y otras experiencias de soporte.
+description: Descubra cómo los términos de la interfaz y del producto de Adobe difieren entre CX Enterprise, las soluciones de Experience Cloud, Creative Cloud, Experience League y otras experiencias de asistencia.
 solution: Experience Cloud
 title: Terminología
 feature-set: Experience Cloud Services

@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre las herramientas administrativas para gestionar usuarios de Creative Cloud aprobados en CX Enterprise.
 solution: Experience Cloud
-title: Administrar usuarios de Creative Cloud en Experience Cloud
+title: Administración de usuarios de Creative Cloud en Experience Cloud
 feature: Assets
 topic: Administration
 role: Admin
@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 53%
+source-wordcount: 124
+ht-degree: 46%
 
 ---
 
@@ -34,8 +34,8 @@ CX Enterprise proporciona herramientas administrativas para gestionar usuarios a
 >
 >Debe ser administrador para llevar a cabo este procedimiento.
 
-1. En CX Enterprise, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
-1. Haga clic en **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Haga clic **[!UICONTROL Add New User]**.  ![agregar nuevo usuario](../../assets/mac_add_icon.png)
+1. En CX Enterprise, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Administrar colaboradores de Creative Cloud]**.
+1. Haga clic en **[!UICONTROL Uso compartido de recursos de Creative Cloud]**.
+1. Haga clic en **[!UICONTROL Agregar nuevo usuario]**.  ![agregar nuevo usuario](../../assets/mac_add_icon.png)
 1. Escriba un correo electrónico, el nombre para mostrar, el título y, opcionalmente, agregue un Avatar.
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Crear]**.

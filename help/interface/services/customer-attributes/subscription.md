@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 47%
+source-wordcount: 421
+ht-degree: 46%
 
 ---
 
@@ -36,17 +36,17 @@ Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos e
 
 1. Busque el origen de datos en [!DNL Customer Attributes] para su edición:
 
-   En [!DNL CX Enterprise], haga clic en **[!UICONTROL Apps]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+   En [!DNL CX Enterprise], haga clic en **[!UICONTROL Aplicaciones]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-1. En [!UICONTROL Edit Customer Attribute Source], haga clic en **[!UICONTROL File Upload]**.
+1. En [!UICONTROL Editar atributo del cliente Source], haga clic en **[!UICONTROL Cargar archivo]**.
 
-1. Haga clic en **[!UICONTROL Configure Subscriptions]**.
+1. Haga clic en **[!UICONTROL Configurar suscripciones]**.
 
    ![Configurar suscripciones en CX Enterprise](assets/configure-subscriptions.png)
 
-1. Para activar el origen de atributos del cliente, haga clic en **[!UICONTROL Active]** y luego en **[!UICONTROL Save]**.
+1. Para activar el origen de atributos del cliente, haga clic en **[!UICONTROL Activo]** y luego haga clic en **[!UICONTROL Guardar]**.
 
-1. Para configurar una suscripción a [!DNL Analytics] o [!DNL Target], haga clic en **[!UICONTROL Configure]**.
+1. Para configurar una suscripción a [!DNL Analytics] o [!DNL Target], haga clic en **[!UICONTROL Configurar]**.
 
    El ejemplo siguiente muestra una suscripción de [!DNL Target]:
 

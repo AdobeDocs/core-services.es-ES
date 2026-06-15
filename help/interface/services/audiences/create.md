@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # Crear un público
 
-En [!UICONTROL Audience Library], puede utilizar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
+En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
 
 Este artículo le ayuda a lo siguiente:
 
@@ -58,16 +58,16 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
 **Para crear un público**
 
-1. Haga clic en [!DNL CX Enterprise] aplicaciones (![icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Haga clic en [!DNL CX Enterprise] aplicaciones (![Icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de audiencias].**
 
-1. En la página [!UICONTROL Audiences], haga clic en **[!UICONTROL New]**. ![Nueva audiencia](assets/add_icon_small.png)
+1. En la página [!UICONTROL Audiencias], haga clic en **[!UICONTROL Nuevo]**. ![Nueva audiencia](assets/add_icon_small.png)
 
    ![Crear un público](assets/audience_create_new.png)
 
-1. En la página [!UICONTROL Create New Audience], complete los campos **[!UICONTROL Title]** y **[!UICONTROL Description]**.
-1. En [!UICONTROL Rules], seleccione un grupo de informes de referencia y, a continuación, un origen de atributos:
+1. En la página [!UICONTROL Crear nueva audiencia], complete los campos **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
+1. En [!UICONTROL Reglas], seleccione un grupo de informes de referencia y, a continuación, un origen de atributos:
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (o datos sin procesar) Son datos de atributo derivados de solicitudes de imagen de Real-Time Analytics. Incluye eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
+   * **[!UICONTROL Datos de Real-Time Analytics:]** (o datos sin procesar) Estos son datos de atributo derivados de solicitudes de imagen de Real-Time Analytics. Incluye eVars y eventos. Debe seleccionar un grupo de informes al utilizar este origen de atributos y definir la dimensión o el evento que se va a incluir. Esta selección de grupo de informes proporciona la estructura de variables utilizada por el grupo de informes.
 
      >[!NOTE]
      >
@@ -75,7 +75,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
    * **[!UICONTROL CX Enterprise:]** datos de atributo derivados de [!DNL CX Enterprise] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
-1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Save].**
+1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Guardar].**
 
 **Ejemplo: definir reglas para la audiencia compuesta**
 
@@ -83,17 +83,17 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 >
 >Le recomendamos que se informe sobre las variables de implementación para definir reglas de público.
 
-En [!UICONTROL Rules], defina las selecciones de atributos *`Home & Garden`*:
+En [!UICONTROL Reglas], defina las *`Home & Garden`* selecciones de atributos:
 
-* **[!UICONTROL Attribute Source:]** datos sin procesar de Analytics
-* **[!UICONTROL Report Suite:]** grupo de informes 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL Atributo Source:]** Datos Sin Procesar De Analytics
+* **[!UICONTROL Grupo de informes:]** Grupo de informes 31
+* Dimension = **[!UICONTROL Tienda (Merch) (v6)]** > **[!UICONTROL Igual a]** > **[!UICONTROL Hogar y jardín]**
 
 ![Selecciones de atributos en la biblioteca de públicos](assets/home_garden.png)
 
 Los *Visitantes de Chrome y Safari* son un segmento de público compartido desde Analytics:
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Atributo Source:]** CX Enterprise
 * **[!UICONTROL Dimension:]** visitantes de Chrome y Safari
 
 ![Visitantes de Chrome y Safari](assets/chrome_safari.png)

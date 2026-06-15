@@ -1,5 +1,5 @@
 ---
-title: Inteligencia artificial aplicada a la agencia en aplicaciones Experience Cloud
+title: IA agente en aplicaciones de Experience Cloud
 description: Descubra dónde está disponible la IA auténtica en las aplicaciones empresariales de CX.
 solution: Experience Cloud
 landing-page-name: ai

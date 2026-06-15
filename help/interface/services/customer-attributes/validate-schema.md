@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 43%
+source-wordcount: 345
+ht-degree: 39%
 
 ---
 
@@ -42,28 +42,28 @@ Se crea un esquema basado en esta configuración. El esquema se utiliza para val
 
 1. En [!DNL Customer Attributes], haga clic en el origen del atributo que desea editar.
 
-1. En **[!UICONTROL Edit Customer Attribute Source]**, haga clic en **[!UICONTROL File Upload]**.
+1. En **[!UICONTROL Editar atributo del cliente Source]**, haga clic en **[!UICONTROL Cargar archivo]**.
 
-1. En la página [!UICONTROL File Upload and Schema Validation], haga clic en **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
+1. En la página [!UICONTROL Carga de archivos y validación de esquemas], haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Ver o editar esquema]**
 
    ![Edición de un esquema](assets/actions.png)
 
-   En la página [!UICONTROL Edit Schema], cada fila del esquema representa una columna del archivo CSV cargado.
+   En la página [!UICONTROL Editar esquema], cada fila del esquema representa una columna del archivo CSV cargado.
 
    ![Editar página de esquema en CX Enterprise](assets/schema-edit.png)
 
 **Acciones**
 
-* **[!UICONTROL Add Data:]** Cargar nuevos datos de atributo en este origen de datos.
+* **[!UICONTROL Agregar datos:]** Cargar nuevos datos de atributo en este origen de datos.
 
-* **[!UICONTROL View/Edit Schema:]**: asigne nombres para mostrar a los datos de atributo, tal como se describe en el paso siguiente.
+* **[!UICONTROL Ver/Editar esquema:]** Asigne nombres para mostrar a los datos de atributo, tal como se describe en el paso siguiente.
 
-* **[!UICONTROL FTP Setup:]** Cree su cuenta de FTP para [cargar sus datos a través de FTP](t-upload-attributes-ftp.md) (opcional).
+* **[!UICONTROL Configuración de FTP:]** Cree su cuenta de FTP para [cargar los datos a través de FTP](t-upload-attributes-ftp.md) (opcional).
 
-* **[!UICONTROL ID Lookup:]** Escriba un ID de cliente (CID) de su `.csv` para buscar información de CX Enterprise sobre el ID. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
+* **[!UICONTROL Búsqueda de ID:]** Escriba un ID de cliente (CID) de su `.csv` para buscar información de CX Enterprise sobre el ID. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** muestra si está utilizando el servicio CX Enterprise ID más reciente. Si está en el servicio de ECID pero no hay ningún ID en la lista, CX Enterprise no ha recibido un alias para ese CID. Lo cual significa que el visitante no ha iniciado sesión o su implementación no ha pasado dicha ID.
+   * **[!UICONTROL ECID (CX Enterprise ID):]** Muestra si está usando el servicio CX Enterprise ID más reciente. Si está en el servicio de ECID pero no hay ningún ID en la lista, CX Enterprise no ha recibido un alias para ese CID. Lo cual significa que el visitante no ha iniciado sesión o su implementación no ha pasado dicha ID.
 
-   * **[!UICONTROL CID (customer ID):]** Los atributos asociados con este CID. Si utiliza una propiedad o eVar para cargar CID (AVID) y ve que se muestran atributos pero no hay AVID, esto indica que el visitante no ha iniciado sesión en su sitio.
+   * **[!UICONTROL CID (ID de cliente):]** Los atributos asociados con este CID. Si utiliza una propiedad o eVar para cargar CID (AVID) y ve que se muestran atributos pero no hay AVID, esto indica que el visitante no ha iniciado sesión en su sitio.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** muestra si usa una propiedad o un eVar para cargar CID. Si esos ID se pasan a CX Enterprise, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.
+   * **[!UICONTROL AVID (ID de visitante de Analytics):]** Muestra si usa una prop o eVar para cargar los CID. Si esos ID se pasan a CX Enterprise, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.

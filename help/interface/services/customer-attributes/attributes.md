@@ -25,14 +25,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 313
-ht-degree: 47%
+source-wordcount: 318
+ht-degree: 46%
 
 ---
 
 # [!DNL Customer Attributes] en CX Enterprise
 
-**[!UICONTROL Apps]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Aplicaciones]** ![menú](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
 [!DNL Customer Attributes] en Adobe CX Enterprise le permite cargar los datos empresariales capturados desde una base de datos de administración de la relación con los clientes (CRM). Puede [cargar los datos](t-crs-usecase.md) en un origen de datos de [!DNL Customer Attributes] en CX Enterprise y, a continuación, usar los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
@@ -46,7 +46,7 @@ La siguiente imagen es un ejemplo de un _archivo de datos_ que muestra los datos
 
 ![¿Qué son los datos del cliente empresariales?](assets/01_crs_usecase.png)
 
-Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]**.
+Después de crear el archivo de datos, puede cargarlo en el origen de atributos del cliente que cree en **[!UICONTROL CX Enterprise]** > **[!UICONTROL Atributos del cliente]**.
 
 Consulte [Cargar datos de atributos del cliente](t-crs-usecase.md) para conocer este flujo de trabajo.
 

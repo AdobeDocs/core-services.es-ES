@@ -34,7 +34,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: 1248
 ht-degree: 2%
 
 ---
@@ -114,9 +114,9 @@ Aliases: data.example.com
 
 Una vez validado que el certificado funciona correctamente, puede actualizar la implementación de Adobe para utilizar el nuevo nombre de host CNAME.
 
-* **Extensión de etiqueta Web SDK**: actualice el campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) al configurar la extensión.
+* **Extensión de etiquetas Web SDK**: actualice el campo [[!UICONTROL Dominio de Edge]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) al configurar la extensión.
 * **Web SDK (aleación)**: actualice la propiedad [`edgeDomain`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/edgedomain) dentro del comando `configure`.
-* **Extensión de Adobe Analytics**: actualice el campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview) al configurar la extensión. Asegúrese de tener también instalada la extensión de etiqueta [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Consulte [Identificación de visitante con la extensión de etiquetas de Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/analytics-extension) para obtener más información.
+* **Extensión de Adobe Analytics**: Actualice el campo [[!UICONTROL Servidor de seguimiento SSL]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview) al configurar la extensión. Asegúrese de tener también instalada la extensión de etiqueta [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Consulte [Identificación de visitante con la extensión de etiquetas de Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/analytics-extension) para obtener más información.
 * **AppMeasurement**: Actualice la variable de configuración [`trackingServerSecure`](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/config-vars/trackingserversecure). Asegúrese de que también ha implementado el [Servicio de identificación del visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) mediante `VisitorAPI.js`. Consulte [Identificación de visitante con AppMeasurement](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/appmeasurement) para obtener más información.
 
 Si su sitio utiliza varios métodos de implementación y no puede actualizarlos todos simultáneamente, considere la posibilidad de configurar un periodo de gracia. Consulte [Consideraciones sobre la migración del servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) para ver pasos adicionales sobre cómo evitar que los visitantes se contabilicen como nuevos visitantes en el sitio.

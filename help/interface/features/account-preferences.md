@@ -31,27 +31,27 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
-source-wordcount: 802
-ht-degree: 5%
+source-wordcount: 841
+ht-degree: 4%
 
 ---
 
 # Preferencias y notificaciones de la cuenta
 
-Para encontrar las preferencias de CX Enterprise, haga clic en **[!UICONTROL Profile]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y luego haga clic en **[!UICONTROL Preferences]**.
+Para encontrar las preferencias de CX Enterprise, haz clic en **[!UICONTROL Perfil]** ![preferencias](../assets/preferences-icon-sm.png) en el encabezado y luego haz clic en **[!UICONTROL Preferencias]**.
 
 ![preferencias](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-En la página [!UICONTROL CX Enterprise preferences], puede administrar las siguientes características de la cuenta:
+En la página [!UICONTROL Preferencias de CX Enterprise], puede administrar las siguientes características de la cuenta:
 
 | Función | Descripción |
 | --- | --- |
-| [!UICONTROL Profile] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre de su perfil aparecen al iniciar sesión en Adobe.com, en los productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
+| [!UICONTROL Perfil] | Actualice su [perfil de cuenta de Adobe](https://account.adobe.com/profile). <p>La fotografía y el nombre de su perfil aparecen al iniciar sesión en Adobe.com, en los productos y servicios de Adobe y en sitios públicos como [!DNL Behance]. |
 | [!UICONTROL General] | Seleccione una [organización](../administration/organizations.md).<p>Esta organización es la predeterminada que se utiliza al iniciar sesión en CX Enterprise. |
-| [!UICONTROL Product usage data] | Puede controlar qué datos de uso del producto se comparten con Adobe al utilizar aplicaciones de CX Enterprise. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
-| [!UICONTROL Notifications] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configurar el tipo de notificación ([!UICONTROL in-app], [!UICONTROL email] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
+| [!UICONTROL Datos de uso del producto] | Puede controlar qué datos de uso del producto se comparten con Adobe al utilizar aplicaciones de CX Enterprise. Se trata de datos sobre cómo utiliza nuestros productos, no del contenido de su organización ni de los propios datos. Adobe utiliza esta información para ayudar a mejorar nuestros productos, proporcionarle un soporte mejorado del producto y personalizar su experiencia y comunicaciones con nosotros. <p>Para obtener más información, consulte [Datos de uso del producto](#product-usage-data) (en esta página). |
+| [!UICONTROL &#x200B; Notificaciones &#x200B;] | Configure cómo y cuándo desea las [notificaciones](#subscribe-to-notifications-in-experience-cloud) y alertas del producto: <ul><li>Seleccione los productos a los que desea suscribirse para recibir alertas</li><li>Configure el tipo de notificación ([!UICONTROL en la aplicación], [!UICONTROL correo electrónico] o [Slack](#slack-notifications))</li><li>Especifique la frecuencia con la que desea recibir los correos electrónicos de notificación. (No enviado, instantáneo, diario o semanal).</li><li>Determine la prioridad de la alerta. Las alertas en la aplicación aparecen en la esquina superior derecha de la ventana durante unos segundos. O bien, puede especificar si las alertas deben mostrarse hasta que las descarte.</li></ul> |
 
-## [!UICONTROL Product usage data]
+## [!UICONTROL Datos de uso del producto]
 
 Los datos de uso del producto que decide compartir con Adobe incluyen los siguientes tipos de información sobre cómo utiliza e interactúa con las aplicaciones de Adobe:
 
@@ -66,7 +66,7 @@ Adobe utiliza esta información para ayudar a mejorar nuestros productos, propor
 
 ## Suscripción a notificaciones en CX Enterprise
 
-Puede seleccionar los productos y las categorías a los que desea suscribirse. Las notificaciones aparecen en la ventana emergente [!UICONTROL Notifications] (en la aplicación), en tu correo electrónico o en [Slack](#slack-notifications) (según tus suscripciones).
+Puede seleccionar los productos y las categorías a los que desea suscribirse. Las notificaciones aparecen en la ventana emergente [!UICONTROL Notificaciones] (en la aplicación), en tu correo electrónico o en [Slack](#slack-notifications) (según tus suscripciones).
 
 Las notificaciones por correo electrónico y Slack son útiles cuando no ha iniciado sesión en CX Enterprise.
 
@@ -74,7 +74,7 @@ Las notificaciones por correo electrónico y Slack son útiles cuando no ha inic
 
 1. Vaya a CX Enterprise [preferencias](https://experience.adobe.com/preferences).
 
-1. En **[!UICONTROL Notifications]**, habilite **[!UICONTROL In-app]** o **[!UICONTROL Email]**.
+1. En **[!UICONTROL Notificaciones]**, habilite **[!UICONTROL En la aplicación]** o **[!UICONTROL Correo electrónico]**.
 
    Los cambios en las notificaciones se guardan automáticamente.
 
@@ -92,15 +92,15 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones de CX 
 
 1. Vaya a [Preferencias](https://experience.adobe.com/preferences) de CX Enterprise.
 
-1. Busque [!DNL Slack] y haga clic en **[!UICONTROL Add to Slack]**.
+1. Busque [!DNL Slack] y haga clic en **[!UICONTROL Agregar a Slack]**.
 
    ![Agregar a Slack](../assets/add-to-slack.png)
 
    Si [!DNL Slack] está instalado, la aplicación se abrirá y aparecerá un mensaje de solicitud de permiso. Si Slack no está instalado, debe [solicitar permiso](#slack-troubleshoot).
 
-1. Haga clic en **[!UICONTROL Allow]**.
+1. Haga clic en **[!UICONTROL Permitir]**.
 
-1. En **[!UICONTROL Notifications]**, habilite [!DNL Slack] notificaciones para los productos y las categorías que desee.
+1. En **[!UICONTROL Notificaciones]**, habilite [!DNL Slack] notificaciones para los productos y categorías que desee.
 
    ![Notificaciones de Slack](../assets/slack.png)
 
@@ -108,7 +108,7 @@ Puede configurar las preferencias de su cuenta para enviar notificaciones de CX 
 
 ### Solicitar permiso en [!DNL Slack] (solución de problemas)
 
-Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request to install]_&#x200B;cuando Slack se abra después de hacer clic en **[!UICONTROL Add to Slack]**. Por ejemplo:
+Si [!DNL Slack] no está instalado, aparecerá el mensaje _[!UICONTROL Solicitud de instalación]_ cuando Slack se abra después de hacer clic en **[!UICONTROL Agregar a Slack]**. Por ejemplo:
 
 ![Solicitar integración de Slack](../assets/slack-workspace.png)
 
@@ -116,7 +116,7 @@ Si [!DNL Slack] no está instalado, aparecerá un mensaje _[!UICONTROL Request t
 
 1. En [!DNL Slack], seleccione el área de trabajo en el menú **[!UICONTROL Workspace]** (esquina superior derecha).
 
-1. Para solicitar la aprobación de la aplicación para el administrador de área de trabajo [!DNL Slack], haga clic en **[!UICONTROL Submit]**.
+1. Para solicitar la aprobación de la aplicación para el administrador de área de trabajo [!DNL Slack], haga clic en **[!UICONTROL Enviar]**.
 
 1. Recibirá una notificación en [!DNL Slack] después de que se apruebe la solicitud de la aplicación.
 
@@ -131,13 +131,13 @@ Después de integrar correctamente [!DNL Slack], las notificaciones de [!DNL Sla
 * Un enlace para ver todas las notificaciones en CX Enterprise.
 * Un vínculo para administrar las preferencias de notificación en CX Enterprise.
 
-## Ver [!UICONTROL notifications] y anuncios en CX Enterprise
+## Ver [!UICONTROL notificaciones] y anuncios en CX Enterprise
 
 En el encabezado [!DNL CX Enterprise], puede ver las notificaciones a las que se ha [suscrito](#notifications), así como los anuncios.
 
 1. Haga clic en el icono de campana del encabezado. ![Notificaciones y anuncios](../assets/bell-icon.png)
 
-1. Haga clic **[!UICONTROL Notifications]** o **[!UICONTROL Announcements]**.
+1. Haga clic en **[!UICONTROL Notificaciones]** o en **[!UICONTROL Anuncios]**.
 
    En esta ubicación recibirá información importante sobre los productos, su colaboración con otros usuarios y otras actualizaciones relevantes. Las actualizaciones incluyen versiones de productos, avisos de mantenimiento, elementos compartidos y solicitudes de aprobación.
 

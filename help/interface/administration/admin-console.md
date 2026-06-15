@@ -31,7 +31,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1073
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 | Vínculo de ayuda | Descripción |
 | ------- | ------ |
-| [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Settings]** <br> Aprenda a configurar las cuentas de los usuarios con diferentes tipos de ID con o sin inicio de sesión único (SSO). Configure SSO para el software de Adobe, la configuración de SAML y revise las preguntas y los errores más comunes. |
+| [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Configuración]** <br> Aprenda a configurar las cuentas de los usuarios con diferentes tipos de ID con o sin inicio de sesión único (SSO). Configure SSO para el software de Adobe, la configuración de SAML y revise las preguntas y los errores más comunes. |
 | [Configurar la organización mediante confianza de directorio](https://helpx.adobe.com/es/enterprise/using/directory-trust.html) | Autentique a los usuarios con un dominio que ya reclame otra organización. Para obtener información sobre cómo buscar y cambiar de organización, consulte [Organizaciones en CX Enterprise](organizations.md). |
 | [Configuración de autenticación (empresarial)](https://helpx.adobe.com/es/enterprise/using/authentication-settings.html) | Admin Console admite varios niveles y políticas de protección de contraseña para garantizar la seguridad. Puede especificar el uso de un nivel de protección de contraseña para aplicarlo a todos los usuarios de su organización. |
 | [Contactos de privacidad y seguridad](https://helpx.adobe.com/es/enterprise/using/security-contacts.html) | Proteja los datos de su organización y de los usuarios. Si se produce un incidente de seguridad relacionado con nuestras soluciones de software, las notificaciones se envían a los responsables de cumplimiento correspondientes. Las empresas tienen personal cuya función es específica para la protección de datos, la integridad y otras cuestiones de cumplimiento. Por lo tanto, la información de contacto de dicho personal es fundamental para garantizar una notificación rápida en caso de un incidente de seguridad. |
@@ -71,17 +71,17 @@ Estos son los recursos que puede necesitar al empezar a trabajar como administra
 
 | Vínculo de ayuda | Descripción |
 | ------- | ------- |
-| [Restablecer tu Adobe ID](https://helpx.adobe.com/es/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Cierre la sesión y haga clic en **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
-| [Administrar varios usuarios](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Aprenda a administrar varios usuarios mediante la carga masiva de CSV a Admin Console. |
+| [Restablecer tu Adobe ID](https://helpx.adobe.com/es/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Cierre la sesión y haga clic en **[!UICONTROL Obtener ayuda para iniciar sesión]** > **[!UICONTROL Restablecer la contraseña]**. |
+| [Administrar varios usuarios](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Usuarios]** <br>Aprenda a administrar varios usuarios mediante la carga masiva de CSV a Admin Console. |
 | [Tipos de identidad](https://helpx.adobe.com/es/enterprise/using/identity.html) | Los tipos de identidad permiten a la organización diferentes niveles de control sobre las cuentas y los datos de los usuarios. La elección del modelo de identidad afecta a la forma en que su organización almacena y comparte recursos. Aunque la organización crea y administra los modelos de Federated ID y Enterprise ID, el individuo crea y administra los Adobe ID. |
 | [Herramienta de sincronización de usuarios](https://helpx.adobe.com/es/enterprise/using/user-sync.html) (UST) | La herramienta de sincronización de usuarios de Adobe es una aplicación de escritorio que se utiliza para automatizar la sincronización de datos de usuario entre el sistema de administración de identidades de una organización (como Active Directory) y Adobe Admin Console. La herramienta permite a los administradores optimizar el aprovisionamiento de usuarios, las actualizaciones y la desactivación en todos los productos de Adobe. |
-| [Ver detalles del usuario (Herramienta de administración)](admin-tool-experience-cloud.md) | Ver una lista ordenable y filtrable de todos los usuarios y directivas de CX Enterprise con detalles en [!UICONTROL Admin Tool]. |
+| [Ver detalles del usuario (Herramienta de administración)](admin-tool-experience-cloud.md) | Vea una lista ordenable y filtrable de todos los usuarios y directivas de CX Enterprise con detalles en [!UICONTROL Herramienta de administración]. |
 
 ### Informes y registros
 
 | Vínculo de ayuda | Descripción |
 | ------- | ------- |
-| [Registro de auditoría](https://helpx.adobe.com/es/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Rastree todos los cambios realizados en Admin Console. |
+| [Registro de auditoría](https://helpx.adobe.com/es/enterprise/using/audit-logs.html) | **[!UICONTROL Información]** > **[!UICONTROL Registros]** > **[!UICONTROL Registro de auditoría]** <br> Rastrea todos los cambios realizados en Admin Console. |
 
 
 ## Recursos específicos de la aplicación

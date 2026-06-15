@@ -25,8 +25,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 43%
+source-wordcount: 352
+ht-degree: 40%
 
 ---
 
@@ -36,7 +36,7 @@ Las características de la interfaz de CX Enterprise a veces se denominan _servi
 
 Otras funciones compartidas incluyen la administración (administración de usuarios y productos) para CX Enterprise, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a los servicios y aplicaciones compartidos en CX Enterprise, haga clic en **[!UICONTROL Application Selector]**
+Para acceder a los servicios y aplicaciones compartidos en CX Enterprise, haga clic en el **[!UICONTROL Selector de aplicaciones]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 **Selector de aplicación**

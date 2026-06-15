@@ -26,14 +26,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 71%
+source-wordcount: 726
+ht-degree: 69%
 
 ---
 
 # CX Enterprise Déclencheur
 
-[!UICONTROL Triggers] en CX Enterprise le permite identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+Los [!UICONTROL Déclencheur] de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
 
 Por ejemplo:
 
@@ -45,7 +45,7 @@ Por ejemplo:
 
 >[!NOTE]
 >
->Encontrará más información sobre el uso de [!UICONTROL Triggers] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
+>Encontrará más información sobre el uso de [!UICONTROL Déclencheur] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
 
 ## Tipos de déclencheur
 
@@ -63,9 +63,9 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 >
 >Actualmente, existe un límite técnico de 100 activadores.
 
-1. En CX Enterprise, haga clic en ![menú](../assets/menu-icon.png) y luego en **[!UICONTROL Data Collection/Launch]**.
-1. En la tarjeta [!UICONTROL Triggers], haga clic en **[!UICONTROL Manage Triggers]**.
-1. Haga clic en **[!UICONTROL New Trigger]** y luego especifique el tipo de déclencheur:
+1. En CX Enterprise, haga clic en ![menú](../assets/menu-icon.png) y, a continuación, haga clic en **[!UICONTROL Recopilación de datos/Launch]**.
+1. En la tarjeta [!UICONTROL Déclencheur], haga clic en **[!UICONTROL Administrar Déclencheur]**.
+1. Haga clic en **[!UICONTROL Nuevo Déclencheur]** y, a continuación, especifique el tipo de déclencheur:
 
    ![Resultado de los pasos](../assets/add-trigger.png)
 
@@ -73,11 +73,11 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
    | Elemento | Descripción |
    | --- | --- |
-   | [!UICONTROL Name] | Nombre alternativo de este activador. |
-   | [!UICONTROL Description] | Descripción de este activador, el uso que le dará, etc. |
-   | [!UICONTROL Report Suite] | El [grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=es) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
-   | La visita debe incluir<br>La visita no debe incluir<br>un activador sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar. Por ejemplo, las reglas de un activador sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: [!UICONTROL Cart Addition] (métrica) y [!UICONTROL Exists]. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: [!UICONTROL Checkout].</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>[!UICONTROL Include Meta Data]: le permite agregar una dimensión [!DNL Campaign] en particular o variables que son relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar la lógica [!UICONTROL Any], [!UICONTROL And] o [!UICONTROL Or] dentro de los contenedores o entre ellos, según los criterios que determine para la regla. |
-   | [!UICONTROL Container] | [!UICONTROL Containers] es donde se establecen y almacenan las reglas, condiciones o filtros que definen un déclencheur. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita. Por ejemplo, si tiene dos contenedores unidos por el operador AND, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
+   | [!UICONTROL Nombre] | Nombre alternativo de este activador. |
+   | [!UICONTROL Descripción] | Descripción de este activador, el uso que le dará, etc. |
+   | [!UICONTROL Grupo de informes] | El [grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=es) de Analytics utilizado para este activador (Trigger). Esta configuración identifica los datos de sistema de informes que se van a utilizar. |
+   | La visita debe incluir<br>La visita no debe incluir<br>un activador sin una acción posterior<br>Incluir metadatos | Puede definir criterios o comportamientos de los visitantes que quiera que se produzcan, así como comportamientos que no quiere que tengan lugar. Por ejemplo, las reglas de un activador sencillo de abandono del carro de compras podrían ser:<ul><li>La visita debe incluir: [!UICONTROL Adición al carro] (métrica) y [!UICONTROL Existe]. (Puede acotar aún más la regla con una vista de producto específica o con dimensiones como Tipos de explorador).</li><li>La visita no debe incluir: [!UICONTROL Cierre de compra].</li><li>Activar tras no realizar una acción durante: 10 minutos.</li><li>[!UICONTROL Incluir datos de Meta]: le permite agregar una dimensión de [!DNL Campaign] en particular o variables que son relevantes para el comportamiento de un visitante. Este campo puede resultar útil para que Adobe Campaign cree el mensaje de correo electrónico adecuado para remarketing.</li></ul><br>Puede especificar la lógica [!UICONTROL Any], [!UICONTROL And] o [!UICONTROL Or] dentro de los contenedores o entre ellos, según los criterios que determine para la regla. |
+   | [!UICONTROL Contenedor] | [!UICONTROL Los contenedores] son el lugar donde se establecen y almacenan las reglas, condiciones o filtros que definen un déclencheur. Si quiere que haya eventos que tengan lugar al mismo tiempo, póngalos en el mismo contenedor. De este modo, cada contenedor procesa de forma independiente a nivel de visita. Por ejemplo, si tiene dos contenedores unidos por el operador AND, puede esperar que se activen las reglas cuando dos visitas cumplan los requisitos. |
    | Inicie una nueva sesión después | Cree un activador para los eventos de inicio y fin de sesión. |
 
    {style="table-layout:auto"}
@@ -91,7 +91,7 @@ Ejemplos de Déclencheur empresariales de CX:
 
 ### Déclencheur de abandono del carro
 
-Por ejemplo, en la siguiente página se muestran reglas que podría usar para un déclencheur de [!UICONTROL Cart Abandonment], según los productos que se vieron durante una visita.
+Por ejemplo, en la siguiente página se muestran reglas que podría usar para un déclencheur de [!UICONTROL abandono del carro de compras], en función de los productos que se vieron durante una visita.
 
 ![Activador de abandono del carro de compras](../assets/abandonment-trigger.png)
 

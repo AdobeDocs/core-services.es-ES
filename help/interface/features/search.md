@@ -24,20 +24,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 639
-ht-degree: 18%
+source-wordcount: 660
+ht-degree: 17%
 
 ---
 
-# [!UICONTROL Unified Search] en CX Enterprise
+# [!UICONTROL Búsqueda unificada] en CX Enterprise
 
-La búsqueda [!UICONTROL Unified Search] le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda también muestra los objetos a los que ha accedido recientemente.
+La búsqueda [!UICONTROL Búsqueda unificada] le permite encontrar objetos o entidades empresariales en los que realizar búsquedas de manera uniforme, sin problemas y con un solo clic. Esta búsqueda también muestra los objetos a los que ha accedido recientemente.
 
 ![Buscar globalmente objetos y entidades](../assets/platform-search.png)
 
-## Acceso [!UICONTROL Unified Search]
+## Obteniendo acceso a [!UICONTROL búsqueda unificada]
 
-[!UICONTROL Unified Search] está disponible en todas las páginas del encabezado de CX Enterprise en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
+[!UICONTROL Búsqueda unificada] está disponible en todas las páginas del encabezado de CX Enterprise en la parte superior de la página. También puede usar el método abreviado de teclado `command /` o `ctrl /` para acceder a la búsqueda.
 
 Esta función solo está disponible para productos compatibles, que actualmente son:
 
@@ -56,7 +56,7 @@ Su capacidad y permisos de objeto
 Porcentaje de coincidencia
 Si hay una coincidencia exacta
 
-![[!UICONTROL Unified Search] en CX Enterprise](../assets/unified-search-results.png)
+![[!UICONTROL Búsqueda unificada] en CX Enterprise](../assets/unified-search-results.png)
 
 Los objetos empresariales que se pueden buscar incluyen:
 
@@ -75,23 +75,23 @@ Si una palabra clave coincide con una página de navegación, puede obtener un v
 
 También puede encontrar los artículos de ayuda de Experience League y Communities. Se admiten consultas de lenguas naturales
 
-Por ejemplo, _Cómo crear un esquema_ produce resultados de Experience League en _[!UICONTROL Learning]_:
+Por ejemplo, _Cómo crear un esquema_ produce resultados de Experience League en _[!UICONTROL Aprendizaje]_:
 
-![[!UICONTROL Unified Search] en la Ayuda de CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Búsqueda unificada] en la ayuda de CX Enterprise](../assets/unified-search-learning.png)
 
 Los algoritmos de búsqueda muestran primero los registros más relevantes. El orden de los resultados depende de varios factores, como:
 
 * Permisos de usuario para acceder a objetos
 * Porcentaje de coincidencia
 * Coincidencias exactas
-* La sección _[!UICONTROL Top Results]_&#x200B;muestra los 30 resultados principales.
+* La sección _[!UICONTROL Resultados principales]_ muestra los 30 resultados principales.
 
 Para restringir la búsqueda, haga clic en una de las siguientes opciones:
 
-* **[!UICONTROL All Learning]**: abre la búsqueda en Experience League.
-* **[!UICONTROL Show all...]**: permite restringir y filtrar aún más los resultados.
+* **[!UICONTROL Todo el aprendizaje]**: Abre la búsqueda en Experience League.
+* **[!UICONTROL Mostrar todo...]**: permite restringir y filtrar aún más los resultados.
 
-## [!UICONTROL Unified Search] características
+## Características de [!UICONTROL búsqueda unificada]
 
 Las siguientes funciones están disponibles en la búsqueda unificada.
 

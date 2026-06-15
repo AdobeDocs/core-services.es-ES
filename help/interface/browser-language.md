@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,11 +69,11 @@ Además, el formato específico de la configuración regional (como fechas, hora
 
 **Para especificar un idioma predeterminado**
 
-1. En CX Enterprise, haga clic en **[!UICONTROL Profile]** > [Preferencias](https://experience.adobe.com/preferences).
+1. En CX Enterprise, haga clic en **[!UICONTROL Perfil]** > [Preferencias](https://experience.adobe.com/preferences).
 
-1. En **[!UICONTROL Profile]**, haga clic en el vínculo de idioma.
+1. En **[!UICONTROL Perfil]**, haga clic en el vínculo de idioma.
 
-1. En **[!UICONTROL Select language]**, seleccione un idioma en el menú **[!UICONTROL First language]**.
+1. En **[!UICONTROL Seleccionar idioma]**, seleccione un idioma en el menú **[!UICONTROL Primer idioma]**.
 
    Aunque todos los equipos de aplicaciones están comprometidos con la compatibilidad con idiomas globales, no todas las aplicaciones se ofrecen en todos los idiomas enumerados en la interfaz. Si el idioma principal no es compatible con una aplicación de CX Enterprise, puede establecer un idioma secundario predeterminado cuando corresponda.
 

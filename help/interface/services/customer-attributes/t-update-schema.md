@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 42%
 
 Eliminar y reemplazar atributos en el esquema.
 
-1. En la página [!UICONTROL Edit Customer Attribute Source], haga clic en Configurar suscripciones.
+1. En la página [!UICONTROL Editar atributos del cliente: Source], haga clic en Configurar suscripciones.
 
-1. Quitar valores asignados de **[!UICONTROL Target]** o **[!UICONTROL Analytics]**.
+1. Quite los valores asignados de **[!UICONTROL Target]** o **[!UICONTROL Analytics]**.
 
 1. [Cargue un nuevo archivo de datos con campos actualizados](t-crs-usecase.md).

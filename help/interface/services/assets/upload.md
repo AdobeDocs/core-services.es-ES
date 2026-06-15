@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 66%
+source-wordcount: 141
+ht-degree: 63%
 
 ---
 
@@ -28,14 +28,14 @@ Puede cargar un recurso a través de Creative Cloud Desktop o del explorador Cre
 
 Consulte [https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/es/creative-cloud/help/sync-creative-cloud-files.html) para consultar la ayuda de Creative Cloud.
 
-1. Inicie el explorador [!DNL Creative Cloud] y vaya a [!UICONTROL Creative Cloud Files].
+1. Inicie el explorador [!DNL Creative Cloud] y vaya a [!UICONTROL Archivos de Creative Cloud].
 1. Abra la carpeta compartida.
-1. Haga clic en **[!UICONTROL Actions]** > **[!UICONTROL Upload]**.
+1. Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Cargar]**.
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.
 
 ## Cargar un recurso a una carpeta compartida desde Creative Cloud local
 
 1. Habilitar el uso compartido.
 1. Inicie la versión de escritorio de [!DNL Creative Cloud] y vaya a [!UICONTROL **Assets**].
-1. Haga clic en **[!UICONTROL Open Folder].**
+1. Haga clic en **[!UICONTROL Abrir carpeta].**
 1. Utilice su exploración de archivos del sistema operativo para seleccionar o mover recursos.
