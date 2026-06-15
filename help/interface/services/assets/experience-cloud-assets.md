@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 TQID: https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +43,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 ## Acceso a la barra de herramientas
 
-Vaya a un recurso (o a un directorio de recursos) y haga clic en **[!UICONTROL Select]**.
+Vaya a un recurso (o a un directorio de recursos) y luego haga clic en **[!UICONTROL Seleccionar]**.
 
 La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
 
@@ -78,13 +71,13 @@ Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación,
 
 ## Anotación de recursos
 
-Haga clic en **[!UICONTROL Annotate]** dibujando círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
+Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
 
 ![Anotación de recursos](../../assets/assets-annotate.png)
 
 ## Visualizar recursos en pantalla completa y hacer zoom
 
-Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Image]** para ver la imagen completa del recurso y habilitar el zoom.
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y habilitar el zoom.
 
 ![Visualización de recursos de pantalla completa](../../assets/asset-zoom.png)
 
@@ -92,7 +85,7 @@ Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Image]** para ver la imagen 
 
 Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
 
-Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Properties]** para ver las propiedades de un recurso:
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
 
 ![Visualización de las propiedades de los recursos](../../assets/asset-properties.png)
 
@@ -100,6 +93,6 @@ Haga clic en **[!UICONTROL Views]** > **[!UICONTROL Properties]** para ver las p
 
 Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
 
-Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
 
 ![Ejecución de informes de uso](../../assets/assets-usage-report.png)

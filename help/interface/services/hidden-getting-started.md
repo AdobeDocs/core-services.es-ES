@@ -1,7 +1,7 @@
 ---
 description: Modernice sus aplicaciones de Adobe Analytics y Adobe Target para servicios entre aplicaciones. Aprenda a empezar a utilizar los servicios empresariales de CX.
 solution: Experience Cloud
-title: Introducción a Experience Cloud Services
+title: Introducción a los servicios de Experience Cloud
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -11,8 +11,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 46%
+source-wordcount: '2134'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ Para iniciar sesión en CX Enterprise, los usuarios deben:
 
 ### Opcional: vincule las cuentas de usuario existentes.
 
-Lo más probable es que tenga usuarios que ya sean miembros de grupos de aplicaciones, como un grupo de Analytics que haya administrado anteriormente en [!UICONTROL Analytics] > [!UICONTROL Admin Tools].
+Lo más probable es que tenga usuarios que ya sean miembros de grupos de aplicaciones, como un grupo de Analytics que haya administrado anteriormente en [!UICONTROL Analytics] > [!UICONTROL Herramientas de administración].
 
 Al asignar estos grupos a grupos empresariales de CX, estos usuarios deben vincular manualmente sus credenciales de cuenta de la aplicación a su Adobe ID.
 
@@ -66,28 +66,28 @@ Ver [Vincular cuentas en CX Enterprise](../administration/organizations.md)
 
 Las siguientes secciones describen cómo modernizar la implementación. La modernización de la implementación habilita los servicios principales en CX Enterprise.
 
-## Implementación de [!UICONTROL CX Enterprise ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Implementar [!UICONTROL CX Enterprise ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-[!UICONTROL CX Enterprise ID Service] proporciona un identificador común para la integración entre aplicaciones. Proporciona identificación de visitantes entre dominios y una ruta para la segmentación y personalización entre dispositivos y exploradores en función de los datos de CRM cargados a través de [!DNL Customer Attributes].
+El [!UICONTROL servicio Enterprise ID CX] proporciona un identificador común para la integración entre aplicaciones. Proporciona identificación de visitantes entre dominios y una ruta para la segmentación y personalización entre dispositivos y exploradores en función de los datos de CRM cargados a través de [!DNL Customer Attributes].
 
-El método más sencillo para habilitar los servicios principales de CX Enterprise es activarlos automáticamente para Analytics y Adobe Target mediante la [extensión del servicio Enterprise ID de CX](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) en [!UICONTROL Experience Platform Launch].
+El método más sencillo para activar los servicios principales de CX Enterprise es activarlos automáticamente para Analytics y Adobe Target mediante la [extensión del servicio Enterprise ID de CX](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) en [!UICONTROL Experience Platform Launch].
 
-Para obtener la ayuda completa del servicio CX Enterprise ID (anteriormente conocido como ID de visitante), vaya [aquí](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es#intro).
+Para obtener la ayuda completa del servicio CX Enterprise ID (anteriormente conocido como ID de visitante), vaya [aquí](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro).
 
-**¿No Usa [!UICONTROL Experience Platform tags]?**
+**No se están usando las [!UICONTROL etiquetas Experience Platform]?**
 
-Si no usa [!UICONTROL Experience Platform tags], implemente manualmente el servicio de ID a través de la implementación de JavaScript (`VisitorAPI.js`) de la siguiente manera:
+Si no usa [!UICONTROL Experience Platform tags], implemente manualmente el servicio de ID mediante la implementación de JavaScript (`VisitorAPI.js`) de la siguiente manera:
 
 | Tarea | Descripción |
 | -----------| ---------- |
-| [Implementar el servicio CX Enterprise ID para Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=es) | Adobe también recomienda configurar algunos [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales. Estos ID se asocian con cada visitante para activar las funciones actuales y futuras en CX Enterprise. |
-| Actualice el `s_code` existente a la versión H.27.3 o posterior, o su `AppMeasurement.js` existente a la versión 1.4 o posterior. | Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=es) de las herramientas de administración de Analytics. (La guía de [implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es#js) está disponible si necesita más información sobre `AppMeasurement.js`). |
+| [Implementar el servicio CX Enterprise ID para Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html) | Adobe también recomienda configurar algunos [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales. Estos ID se asocian con cada visitante para activar las funciones actuales y futuras en CX Enterprise. |
+| Actualice el `s_code` existente a la versión H.27.3 o posterior, o su `AppMeasurement.js` existente a la versión 1.4 o posterior. | Estos archivos están disponibles para su descarga en el [Administrador de códigos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html) de las herramientas de administración de Analytics. (La guía de [implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html#js) está disponible si necesita más información sobre `AppMeasurement.js`). |
 
 {style="table-layout:auto"}
 
 ### Analytics y Adobe Target: Sincronización del ID de cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-Como parte de la configuración del servicio CX Enterprise ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice sus [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) con CX Enterprise.
+Como parte de la configuración del servicio CX Enterprise ID, Adobe recomienda (para Analytics y [!DNL Target]) que sincronice sus [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) con CX Enterprise.
 
 En Adobe Target, `mbox3rdpartyid` debe obtener el ID de cliente y enviárselo a [!DNL Target]. (Consulte [Uso de Atributos del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=es) en [!DNL Target]).
 
@@ -127,13 +127,13 @@ Los servicios empresariales de CX (como el servicio CX Enterprise ID) están aso
 
 Si usa cookies de origen, consulte [CNAME y el servicio CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=es) para obtener información sobre los CNAME de recopilación de datos y el seguimiento entre dominios.
 
-Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La manera más sencilla de lograrlo es añadir una [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) en la recopilación de datos de Experience Platform.
+Se le recomienda modernizar su implementación de Analytics mediante la actualización de sus bibliotecas de JavaScript, incluido el API de visitante. La manera más sencilla de lograrlo es añadir una [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) en la recopilación de datos de Experience Platform.
 
 ## Actualice la implementación de Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Se recomienda agregar una [extensión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=es) en las etiquetas [!UICONTROL Experience Platform] para que la recuperación de la biblioteca sea automática. También puede configurar la extensión [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) para Adobe Target (y otras aplicaciones) con etiquetas [!UICONTROL Experience Platform]. La actualización [!UICONTROL CX Enterprise ID Service] **es necesaria** para que Adobe Target use los servicios Personas.
-* Si no usas etiquetas [!UICONTROL Experience Platform], [actualiza tu biblioteca mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=es) manualmente.
-* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para [!DNL Adobe Target]. Los datos de [!DNL Target] y [!DNL Analytics] se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos aplicaciones. Consulte [Implementación de Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es).
+* Se recomienda agregar una [extensión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) en las etiquetas [!UICONTROL Experience Platform] para que la recuperación de la biblioteca sea automática. También puede configurar la extensión [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) para Adobe Target (y otras aplicaciones) con las etiquetas [!UICONTROL Experience Platform]. La actualización **CX Enterprise ID Service] es necesaria** para que Adobe Target use los servicios Personas.[!UICONTROL 
+* Si no usas las etiquetas [!UICONTROL Experience Platform], [actualiza tu biblioteca mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html) manualmente.
+* Solicite el acceso para utilizar Adobe Analytics como el origen de generación de informes para [!DNL Adobe Target]. Los datos de [!DNL Target] y [!DNL Analytics] se combinan en la misma llamada de servidor durante el procesamiento para que los visitantes se conecten entre las dos aplicaciones. Consulte [Implementación de Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
   >[!IMPORTANT]
   >
@@ -182,13 +182,13 @@ Los usuarios que se agregan al grupo [!DNL Customer Attributes] pueden ver el el
 
 Aproveche las siguientes funciones.
 
-### [!UICONTROL Customer Attributes]
+### [!UICONTROL Atributos del cliente]
 
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en CX Enterprise. Una vez cargados, use los datos en [!DNL Adobe Analytics] y [!DNL Adobe Target].
 
 Consulte [Atributos del cliente](customer-attributes/attributes.md) para obtener más información.
 
-### [!UICONTROL People] > [!UICONTROL Audience Library]
+### [!UICONTROL Personas] > [!UICONTROL Biblioteca de audiencias]
 
 CX Enterprise [!UICONTROL Audiences] es la interfaz que le permite crear audiencias, combinar audiencias existentes para crear audiencias compuestas y ver todas las audiencias compartidas.
 

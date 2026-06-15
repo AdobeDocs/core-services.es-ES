@@ -8,23 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
 TQID: https://experienceleague.adobe.com/-1yWj0RNl4BeOPW8Z1c-vHOWS-ez38qqMBxwPma4H-Y
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,11 +62,11 @@ Además, el formato específico de la configuración regional (como fechas, hora
 
 **Para especificar un idioma predeterminado**
 
-1. En CX Enterprise, haga clic en **[!UICONTROL Profile]** > [Preferencias](https://experience.adobe.com/preferences).
+1. En CX Enterprise, haga clic en **[!UICONTROL Perfil]** > [Preferencias](https://experience.adobe.com/preferences).
 
-1. En **[!UICONTROL Profile]**, haga clic en el vínculo de idioma.
+1. En **[!UICONTROL Perfil]**, haga clic en el vínculo de idioma.
 
-1. En **[!UICONTROL Select language]**, seleccione un idioma en el menú **[!UICONTROL First language]**.
+1. En **[!UICONTROL Seleccionar idioma]**, seleccione un idioma en el menú **[!UICONTROL Primer idioma]**.
 
    Aunque todos los equipos de aplicaciones están comprometidos con la compatibilidad con idiomas globales, no todas las aplicaciones se ofrecen en todos los idiomas enumerados en la interfaz. Si el idioma principal no es compatible con una aplicación de CX Enterprise, puede establecer un idioma secundario predeterminado cuando corresponda.
 

@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 33%
+source-wordcount: 598
+ht-degree: 32%
 
 ---
 
@@ -36,7 +29,7 @@ La organización funciona como una empresa de inicio de sesión que abarca todos
 
 ![Organizaciones empresariales CX](../assets/organizations-menu.png)
 
-Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Profile]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
+Para comprobar que ha iniciado sesión en su organización correcta, haga clic en **[!UICONTROL Perfil]** para ver el nombre de organización predeterminado. Si tiene acceso a más de una organización, también puede ver y cambiar a otra organización en la barra de encabezado.
 
 >[!NOTE]
 >
@@ -50,7 +43,7 @@ Por ejemplo, para una organización con Federated IDs y el dominio `example.com`
 
 ## Ver su ID de organización
 
-Puede localizar el ID de organización asignado con fines de asistencia. Puede comprobar que se encuentra en la organización correcta o cambiar de una organización a otra mediante el selector **[!UICONTROL Organization]** del encabezado.
+Puede localizar el ID de organización asignado con fines de asistencia. Puede comprobar que se encuentra en la organización correcta o cambiar de una organización a otra mediante el selector **[!UICONTROL Organización]** del encabezado.
 
 El ID de organización es el ID asociado con la empresa CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de `@AdobeOrg` (que debe incluirse).
 
@@ -62,7 +55,7 @@ Puede ver su identificador de organización, junto con otra información de la c
 
    ![ID de organización asignado](../assets/assigned-organization.png)
 
-1. En **[!UICONTROL User Information]**, busque **[!UICONTROL Current Org ID]** y podrá encontrar el identificador de organización.
+1. En **[!UICONTROL Información de usuario]**, busque **[!UICONTROL Id. de organización actual]** y podrá encontrar el Id. de organización.
 
    Los administradores también pueden iniciar sesión en Admin Console (vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) y ver su identificador de organización en la dirección URL.
 
@@ -82,7 +75,7 @@ Normalmente, los administradores de CX Enterprise otorgan acceso a aplicaciones 
 
 1. Inicie sesión con su Adobe ID o Enterprise ID.
 
-1. Haga clic en **[!UICONTROL Application selector]**. (![menú](../assets/apps-icon.png)).
+1. Haga clic en **[!UICONTROL Selector de aplicación]**. (![menú](../assets/apps-icon.png)).
 
    ![Vinculación de una cuenta de aplicaciones a un Adobe ID](../assets/solutions-active.png)
 
@@ -94,13 +87,13 @@ Normalmente, los administradores de CX Enterprise otorgan acceso a aplicaciones 
 
    Este tipo de mensaje se muestra si es parte del grupo apropiado (y tiene permisos para la aplicación), pero todavía no ha vinculado sus credenciales de cuenta a su Adobe ID.
 
-1. Haga clic en **[!UICONTROL Link Account]** y, a continuación, proporcione las credenciales.
+1. Haga clic en **[!UICONTROL Vincular cuenta]** y, a continuación, proporcione las credenciales.
 
 ## Especificar una organización predeterminada
 
 Puede especificar la organización predeterminada que se utilizará al iniciar sesión.
 
-1. En el encabezado, haga clic en **[!UICONTROL Profile]** y luego haga clic en Preferencias.
+1. En el encabezado, haga clic en **[!UICONTROL Perfil]** y, a continuación, haga clic en Preferencias.
 
 1. En [!UICONTROL General], seleccione una organización predeterminada.
 
@@ -113,6 +106,6 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support).
 * Acceda a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
 

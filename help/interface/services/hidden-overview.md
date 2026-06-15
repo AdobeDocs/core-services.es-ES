@@ -10,8 +10,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 41%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ ejemplo
 
 Esta documentación se aplica a características del encabezado unificado en CX Enterprise, como el servicio [!DNL People] ([!DNL Audience Library] y [!DNL Customer Attributes]), la administración de usuarios y productos para CX Enterprise, las cookies, las preferencias de cuenta, las notificaciones, etc.
 
-Para acceder a estos servicios en CX Enterprise, seleccione la **[!UICONTROL Application Selector]**
+Para acceder a estos servicios en CX Enterprise, seleccione el **[!UICONTROL Selector de aplicaciones]**
 ![Selector de servicios](../assets/apps-icon.png).
 
 ![Servicios empresariales de CX](../assets/platform-core-services.png)
