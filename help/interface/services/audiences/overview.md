@@ -90,4 +90,4 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 
 ## Publicar audiencias desde Adobe Analytics
 
-Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
+Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
