@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 69%
+source-wordcount: 817
+ht-degree: 61%
 
 ---
 
 # CX Enterprise Déclencheur
 
-Los [!UICONTROL Déclencheur] de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización.
+Los [!UICONTROL Déclencheur] de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. Para obtener más información sobre el uso de [!UICONTROL Déclencheur] con Adobe Campaign, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
 
 Por ejemplo:
 
@@ -45,7 +45,7 @@ Por ejemplo:
 
 >[!NOTE]
 >
->Encontrará más información sobre el uso de [!UICONTROL Déclencheur] en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
+>Los déclencheur no son de naturaleza determinista. Cuando varios usuarios comparten un explorador o dispositivo, como un dispositivo compartido o público, es posible que no se pueda asignar un déclencheur al ID de visitante correcto.
 
 ## Tipos de déclencheur
 
@@ -101,3 +101,6 @@ El siguiente activador se desencadena cuando se produce una visita con el produc
 
 ![Activador de remitente del reenvío](../assets/fb-boots-promo.png)
 
+## Verificación de la actividad de déclencheur
+
+Para comprobar que se ha activado un déclencheur, use la interfaz [!UICONTROL Déclencheur] para revisar la actividad reciente del déclencheur. La interfaz muestra un número limitado de eventos de déclencheur recientes, por lo que en implementaciones con volúmenes de datos altos es posible que no muestre toda la actividad de déclencheur. Actualmente no se admite la verificación programática mediante una API.
