@@ -44,7 +44,7 @@ El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 
 Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491871?captions=spa&learn=on)
 
 ## Habilitar permisos de tablero {#permissions}
 
@@ -99,7 +99,7 @@ El panel Información general es el lugar central para las métricas de adopció
 * **Promedio de mensajes por conversación:** Profundidad de participación por conversación.
 * **Comentarios:** Distribución de comentarios de usuarios con miniaturas hacia arriba y miniaturas hacia abajo (solo para [!DNL AI Assistant] interacciones).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491881?captions=spa&learn=on)
 
 ### Reproducción de conversación
 
@@ -108,7 +108,7 @@ La reproducción de la conversación muestra interacciones individuales, no solo
 * **Historial de mensajes y respuestas:** El mensaje del usuario y las respuestas entregadas.
 * **Señales de comentarios:** Interacciones que los usuarios marcaron con los pulgares hacia arriba o hacia abajo para identificar fricciones, bloqueadores o necesidades de habilitación. Esta información ayuda a su organización a mejorar la relevancia rápida y ayuda a Adobe a mejorar la calidad de la respuesta con el paso del tiempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491890?captions=spa&learn=on)
 
 ## Panel de usuarios
 
@@ -125,7 +125,7 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 * **Actividad de conversación:** Número de conversaciones y mensajes por usuario.
 * **Usuarios activos principales:** Usuarios y equipos altamente comprometidos que impulsan la adopción de agentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491923?captions=spa&learn=on)
 
 ## Tablero de comentarios
 
@@ -139,7 +139,7 @@ El panel de comentarios muestra los comentarios del usuario enviados para las in
 * **Historial de mensajes y respuestas:** Mensajes de usuario y respuestas asociadas con los comentarios enviados.
 * **Notas y detalles de comentarios:** Contexto y comentarios adicionales de los usuarios durante el envío de comentarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491914?captions=spa&learn=on)
 
 ## Panel de créditos de IA
 
@@ -151,7 +151,7 @@ El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agent
 * **Tendencias diarias y mensuales:** picos, caídas y cambios en los patrones de consumo.
 * **Créditos de inteligencia artificial restantes:** Saldo restante para que pueda planificar de forma proactiva y evitar cargos adicionales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491905?captions=spa&learn=on)
 
 ## Más ayuda sobre este tema
 
