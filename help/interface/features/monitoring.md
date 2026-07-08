@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -49,6 +49,14 @@ Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de 
 ## Habilitar permisos de tablero {#permissions}
 
 Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
+
+>[!IMPORTANT]
+>
+>Los datos de monitorización solo están disponibles en la zona protegida de producción predeterminada. Los entornos limitados de desarrollo no son compatibles con la visualización de datos de monitorización. Los usuarios deben tener los permisos de monitorización necesarios para la zona protegida de producción predeterminada y cambiar a esa zona protegida para ver los datos de monitorización.
+>
+>Para evitar confusiones, Adobe recomienda conceder permisos de monitorización en todas las zonas protegidas, incluida la zona protegida de producción predeterminada. Esto ayuda a garantizar que los usuarios puedan acceder al panel de monitorización independientemente de la zona protegida seleccionada actualmente y reduce la probabilidad de confundir una zona protegida no compatible con un panel vacío o no funcional.
+
+**Para habilitar los permisos del tablero**
 
 1. Vaya a [!DNL Experience Platform] **Administración** > **Permisos**.
 
