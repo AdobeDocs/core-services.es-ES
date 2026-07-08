@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -44,11 +39,19 @@ El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 
 Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491871?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Habilitar permisos de tablero {#permissions}
 
 Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
+
+>[!IMPORTANT]
+>
+>Los datos de monitorización solo están disponibles en la zona protegida de producción predeterminada. Los entornos limitados de desarrollo no son compatibles con la visualización de datos de monitorización. Los usuarios deben tener los permisos de monitorización necesarios para la zona protegida de producción predeterminada y cambiar a esa zona protegida para ver los datos de monitorización.
+>
+>Para evitar confusiones, Adobe recomienda conceder permisos de monitorización en todas las zonas protegidas, incluida la zona protegida de producción predeterminada. Esto ayuda a garantizar que los usuarios puedan acceder al panel de monitorización independientemente de la zona protegida seleccionada actualmente y reduce la probabilidad de confundir una zona protegida no compatible con un panel vacío o no funcional.
+
+**Para habilitar los permisos del tablero**
 
 1. Vaya a [!DNL Experience Platform] **Administración** > **Permisos**.
 
@@ -91,7 +94,7 @@ El panel Información general es el lugar central para las métricas de adopció
 * **Promedio de mensajes por conversación:** Profundidad de participación por conversación.
 * **Comentarios:** Distribución de comentarios de usuarios con miniaturas hacia arriba y miniaturas hacia abajo (solo para [!DNL AI Assistant] interacciones).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491881?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Reproducción de conversación
 
@@ -100,7 +103,7 @@ La reproducción de la conversación muestra interacciones individuales, no solo
 * **Historial de mensajes y respuestas:** El mensaje del usuario y las respuestas entregadas.
 * **Señales de comentarios:** Interacciones que los usuarios marcaron con los pulgares hacia arriba o hacia abajo para identificar fricciones, bloqueadores o necesidades de habilitación. Esta información ayuda a su organización a mejorar la relevancia rápida y ayuda a Adobe a mejorar la calidad de la respuesta con el paso del tiempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491890?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Panel de usuarios
 
@@ -117,7 +120,7 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 * **Actividad de conversación:** Número de conversaciones y mensajes por usuario.
 * **Usuarios activos principales:** Usuarios y equipos altamente comprometidos que impulsan la adopción de agentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491923?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Tablero de comentarios
 
@@ -131,7 +134,7 @@ El panel de comentarios muestra los comentarios del usuario enviados para las in
 * **Historial de mensajes y respuestas:** Mensajes de usuario y respuestas asociadas con los comentarios enviados.
 * **Notas y detalles de comentarios:** Contexto y comentarios adicionales de los usuarios durante el envío de comentarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491914?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Panel de créditos de IA
 
@@ -143,11 +146,11 @@ El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agent
 * **Tendencias diarias y mensuales:** picos, caídas y cambios en los patrones de consumo.
 * **Créditos de inteligencia artificial restantes:** Saldo restante para que pueda planificar de forma proactiva y evitar cargos adicionales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491905?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Más ayuda sobre este tema
 
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
