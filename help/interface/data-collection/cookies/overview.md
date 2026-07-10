@@ -34,7 +34,7 @@ Adobe CX Enterprise usa cookies para realizar un seguimiento de la información 
 
 Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si usa el servicio de ID de visitante (`VisitorAPI.js`) o cookies de Analytics anteriores (como la cookie `s_vi`):
 
-* [Servicio de ID de visitante](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): El servicio de ID de visitante siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
+* [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio de ID de visitante siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
 
 * [Identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`): Depende de la configuración si las cookies son de origen o de terceros:
 
