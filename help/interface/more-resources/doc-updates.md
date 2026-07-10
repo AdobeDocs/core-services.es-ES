@@ -36,7 +36,7 @@ Descubra dónde se producen las actualizaciones de la documentación para la int
 
 ## Julio de 2026
 
-* Se agregaron [notas de la versión de julio de 2026](release-notes.md) para la compatibilidad de CX Enterprise con el [acceso de invitado federado](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), incluido el cambio de cuenta para usuarios invitados desde el conmutador de organización.
+* Se agregaron [notas de la versión de julio de 2026](release-notes.md) para la compatibilidad de CX Enterprise con el [acceso de invitado federado](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html), incluido el cambio de cuenta para usuarios invitados desde el conmutador de organización.
 
 ## Junio de 2026
 
