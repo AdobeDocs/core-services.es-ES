@@ -15,9 +15,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +32,9 @@ Las leyes a menudo requieren que obtenga permiso antes de almacenar o usar cooki
 
 Adobe CX Enterprise usa cookies para realizar un seguimiento de la información que no dura entre vistas de página o sesiones del explorador. Cuando es posible, Adobe utiliza cookies de origen (vinculadas a su propio sitio web). Para rastrear la actividad en varios sitios o dominios de su propiedad, se necesitan cookies de terceros.
 
-Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si utiliza el servicio de identidad de Experience Platform (ECID) o cookies de Analytics más antiguas (como la cookie `s_vi`):
+Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si usa el servicio de ID de visitante (`VisitorAPI.js`) o cookies de Analytics anteriores (como la cookie `s_vi`):
 
-* [Servicio de identidad empresarial de CX](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): el servicio ECID siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
+* [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio de ID de visitante siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
 
 * [Identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`): Depende de la configuración si las cookies son de origen o de terceros:
 

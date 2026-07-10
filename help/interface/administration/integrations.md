@@ -30,10 +30,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
-ht-degree: 31%
+source-wordcount: 1113
+ht-degree: 32%
 
 ---
 
@@ -47,7 +47,7 @@ Describe cómo:
 
 * Aprovisionar su empresa en CX Enterprise.
 * Permite que se convierta en administrador.
-* [Implemente el servicio CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+* [Implementar el servicio de identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 * Modernice sus implementaciones de [!DNL Analytics] y [!DNL Target] a través de la [!UICONTROL recopilación de datos de la plataforma].
 * Empiece a utilizar los servicios empresariales de CX como [Atributos del cliente](../services/customer-attributes/attributes.md) y [Biblioteca de audiencias](../services/audiences/overview.md).
 
@@ -56,13 +56,13 @@ Soluciones o servicios:
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=es)
-* [Servicio Enterprise ID de CX](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
+* [Servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 
-## Servicio Enterprise ID de CX
+## Servicio de ID de visitante
 
-El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las aplicaciones de CX Enterprise. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Adobe Target, Video Heartbeat y otras aplicaciones y productos de CX Enterprise.
+El servicio de ID de visitante ofrece un identificador universal y persistente que identifica a los visitantes en todas las aplicaciones de CX Enterprise. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Adobe Target, Video Heartbeat y otras aplicaciones y productos de CX Enterprise.
 
-Ver [Servicio Enterprise ID CX](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
+Ver [Servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 
 **Aplicaciones o servicios aplicables**
 
@@ -96,7 +96,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * Adobe Analytics: Informe de atributos del cliente
 * Adobe Target: configure la [suscripción](/help/interface/services/customer-attributes/subscription.md) de Adobe Target para que use los Atributos del cliente
 
-## CX Enterprise Assets
+## Recursos de CX Enterprise
 
 Ayuda: [Compartir carpetas empresariales CX con Creative Cloud](/help/interface/services/assets/share.md)
 

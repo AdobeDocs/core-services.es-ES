@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ Se crea un esquema basado en esta configuración. El esquema se utiliza para val
 
 * **[!UICONTROL Búsqueda de ID:]** Escriba un ID de cliente (CID) de su `.csv` para buscar información de CX Enterprise sobre el ID. Esta función es útil para resolver problemas sobre por qué no se muestran los datos de atributo de un visitante:
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** Muestra si está usando el servicio CX Enterprise ID más reciente. Si está en el servicio de ECID pero no hay ningún ID en la lista, CX Enterprise no ha recibido un alias para ese CID. Lo cual significa que el visitante no ha iniciado sesión o su implementación no ha pasado dicha ID.
+   * **[!UICONTROL ECID:]** se muestra si está usando el servicio de ID de visitante. Si está en el servicio de ID de visitante pero no hay ningún ID en la lista, CX Enterprise no ha recibido un alias para ese CID. Lo cual significa que el visitante no ha iniciado sesión o su implementación no ha pasado dicha ID.
 
    * **[!UICONTROL CID (ID de cliente):]** Los atributos asociados con este CID. Si utiliza una propiedad o eVar para cargar CID (AVID) y ve que se muestran atributos pero no hay AVID, esto indica que el visitante no ha iniciado sesión en su sitio.
 

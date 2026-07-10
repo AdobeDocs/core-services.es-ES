@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 76%
+source-wordcount: 359
+ht-degree: 77%
 
 ---
 
@@ -53,7 +53,7 @@ Los siguientes ejemplos muestran cómo se consigue que la precarga de DNS realic
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servicio Enterprise ID CX:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Servicio de ID de visitante:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud:**
 
