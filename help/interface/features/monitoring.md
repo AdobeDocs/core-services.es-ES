@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 2%
 
 ---
 
 # Paneles de monitorización de IA automática
 
-El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Puede ver las tendencias de los períodos de 7 o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies de conversación (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents], qué hace en esas interacciones y el valor que recibe. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
+El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
 
 **Disponibilidad**
 
 * En este momento, cualquier cuenta con una licencia para al menos una aplicación nativa de Experience Platform (Customer Journey Analytics, Journey Optimizer o Real-Time CDP) puede acceder a este panel
-* Las métricas de uso y adopción de [aplicaciones con prioridad de IA](agentic-ai.md#ai-first-cx-enterprise-applications) como Experimentation Accelerator, LLM Optimizer, Sites Optimizer, etc. no están dentro del ámbito de este tablero
+* Las métricas de uso y adopción de [aplicaciones con prioridad de IA](agentic-ai.md#ai-first-cx-enterprise-applications) como Experimentation Accelerator, LLM Optimizer y Sites Optimizer no se encuentran en el ámbito de este tablero.
 
 El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 
@@ -42,7 +42,7 @@ El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 | **Comentarios** | Señales sobre calidad de respuesta y satisfacción del usuario |
 | **Créditos de IA** | Tendencias del consumo de crédito y saldo restante |
 
-Los agentes con ámbito para la supervisión del uso se enumeran en [agentes de IA en aplicaciones empresariales de CX existentes](agentic-ai.md#existing-apps-table) en la [inteligencia artificial aplicada a agentes en Adobe CX Enterprise](agentic-ai.md).
+La documentación de [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md) enumera los agentes con ámbito para supervisar su uso en [agentes de inteligencia artificial aplicada en aplicaciones CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491871?captions=spa&learn=on)
 
@@ -90,7 +90,7 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 ## Panel de información general
 
-El panel Información general es el lugar central para las métricas de adopción y participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Desde cualquier métrica, puede profundizar en conversaciones individuales para ver qué impulsa los números.
+El panel Información general es el lugar central para las métricas de adopción y participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Para ver qué impulsa los números, explore en profundidad conversaciones individuales desde cualquier métrica.
 
 ### Métricas en el tablero Información general
 
@@ -117,7 +117,7 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 ### Métricas en el panel de usuarios
 
 * **Tendencias de adopción y participación con el paso del tiempo:** Rastree cómo cambian los segmentos de usuario durante el período seleccionado. Los usuarios se clasifican como:
-   * **Nuevo:** Primera actividad en el período seleccionado, sin actividad en los 12 meses anteriores.
+   * **Nuevo:** Primera actividad en el período seleccionado, sin actividad durante los 12 meses anteriores.
    * **Repetir:** Actividad tanto en el período seleccionado como en el período anterior.
    * **Devolver:** Actividad en el período seleccionado, pero no en el período anterior.
    * **Inactiva:** No hay actividad en el período seleccionado, sino actividad en el período anterior.
@@ -129,7 +129,7 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 
 ## Tablero de comentarios
 
-El panel de comentarios muestra los comentarios del usuario enviados para las interacciones del agente. Puede ver qué conversaciones marcaron positiva o negativamente los usuarios e investigar las interacciones detrás de los comentarios. En los resúmenes de comentarios, explore en profundidad las conversaciones individuales para revisar los mensajes, las respuestas, los detalles del razonamiento y las notas de los comentarios.
+El panel de comentarios muestra los comentarios del usuario enviados para las interacciones del agente. Puede ver qué conversaciones marcaron positiva o negativamente los usuarios e investigar las interacciones detrás de los comentarios. Para revisar los mensajes, las respuestas, los detalles de razonamiento y las notas de comentarios, explore en profundidad las conversaciones individuales a partir de los resúmenes de comentarios.
 
 ### Métricas en el panel de comentarios
 
