@@ -23,16 +23,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 787
-ht-degree: 38%
+source-wordcount: 820
+ht-degree: 37%
 
 ---
 
 # Actualizaciones de la documentación
 
 Descubra dónde se producen las actualizaciones de la documentación para la interfaz central y la administración de CX Enterprise.
+
+## Julio de 2026
+
+* Se agregaron [notas de la versión de julio de 2026](release-notes.md) para la compatibilidad de CX Enterprise con el [acceso de invitado federado](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html), incluido el cambio de cuenta para usuarios invitados desde el conmutador de organización.
 
 ## Junio de 2026
 
