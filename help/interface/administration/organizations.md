@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 29%
+source-wordcount: 677
+ht-degree: 28%
 
 ---
 
@@ -33,6 +26,8 @@ ht-degree: 29%
 Una *organización* (identificador de organización) es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en CX Enterprise.
 
 La organización funciona como una empresa de inicio de sesión que abarca todos los productos y aplicaciones de CX Enterprise. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
+
+**Menú de organización**
 
 ![Organizaciones empresariales CX](../assets/organizations-menu.png)
 
@@ -48,11 +43,13 @@ Si su organización utiliza Federated ID, CX Enterprise le permite iniciar sesi�
 
 Por ejemplo, para una organización con Federated IDs y el dominio `example.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@example.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`).
 
-### Cuentas de invitado federadas
+## Cuentas de invitado federadas
 
-Puede habilitar [acceso de invitado federado](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html) para autenticar de forma segura a los usuarios invitados en su propio dominio. Estos usuarios pueden cambiar entre cuentas dentro de la organización existente en cualquier página de CX Enterprise.
+Puede habilitar [acceso de invitado federado](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) para autenticar de forma segura a los usuarios invitados en su propio dominio. Si está activado, el menú Organización cambia para permitir que esos usuarios cambien entre cuentas dentro de la organización existente en cualquier página de CX Enterprise.
 
 Para cambiar a una cuenta de invitado federada, busque **[!UICONTROL Otras cuentas]** en el menú **[!UICONTROL Organización]** en cualquier página de [CX Enterprise](https://experience.adobe.com).
+
+**Menú de organización para una cuenta de invitado federada**
 
 ![Conmutador de cuenta federada](../assets/federated-account-switcher.png)
 
@@ -121,6 +118,6 @@ Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas
 
 Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
 
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support).
+* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support).
 * Acceda a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
 
