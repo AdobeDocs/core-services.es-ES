@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 56%
@@ -46,7 +46,7 @@ Para ver las notas de la versión que abarcan todas las aplicaciones, consulte [
 
 | Fecha | Actualización | Descripción |
 | ------- | ------- | ------- |
-| 10 de julio de 2026 | Soporte de CX Enterprise para cuentas de Federate Guest | Si ha habilitado el acceso de invitados federado [Federated Guest Access](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html) para autenticar de forma segura a los usuarios invitados en su propio dominio, CX Enterprise les permite cambiar de cuenta. El cambio de cuenta está disponible desde el conmutador de organización en cualquier página de [CX Enterprise](https://experience.adobe.com). |
+| 10 de julio de 2026 | Compatibilidad de CX Enterprise con acceso de invitado federado | Si ha habilitado el acceso de invitados federado [Federated Guest Access](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html) para autenticar de forma segura a los usuarios invitados en su propio dominio, CX Enterprise les permite cambiar de cuenta. El cambio de cuenta está disponible desde el conmutador de organización en cualquier página de [CX Enterprise](https://experience.adobe.com). |
 
 ## Junio de 2026
 
