@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,6 @@ Puede ver su identificador de organización, junto con otra información de la c
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Vinculación de una cuenta de aplicaciones a un Adobe ID
-
-Normalmente, los administradores de CX Enterprise otorgan acceso a aplicaciones y servicios. En circunstancias excepcionales, puede vincular las credenciales de la aplicación a una Adobe ID.
-
-1. Siga los pasos de su invitación por correo electrónico a CX Enterprise.
-
-1. Inicie sesión con su Adobe ID o Enterprise ID.
-
-1. Haga clic en **[!UICONTROL Selector de aplicación]**. (![menú](../assets/apps-icon.png)).
-
-   ![Vinculación de una cuenta de aplicaciones a un Adobe ID](../assets/solutions-active.png)
-
-   Las aplicaciones a las que tiene acceso se muestran coloreadas.
-
-1. Haga clic en la aplicación deseada.
-
-   ![Haga clic en su aplicación](../assets/analytics-link-accounts.png)
-
-   Este tipo de mensaje se muestra si es parte del grupo apropiado (y tiene permisos para la aplicación), pero todavía no ha vinculado sus credenciales de cuenta a su Adobe ID.
-
-1. Haga clic en **[!UICONTROL Vincular cuenta]** y, a continuación, proporcione las credenciales.
-
 ## Especificar una organización predeterminada
 
 Puede especificar la organización predeterminada que se utilizará al iniciar sesión.
@@ -118,13 +96,3 @@ Puede especificar la organización predeterminada que se utilizará al iniciar s
 
 
 ![Editar perfil](../assets/edit-profile.png)
-
-## Solución de problemas de vinculación de cuentas
-
-Ayuda relacionada con los problemas que se derivan de la vinculación de cuentas.
-
-Normalmente, la vinculación de cuentas falla porque el Adobe ID está vinculado a un usuario anterior. Cuando falla la vinculación de cuentas, puede:
-
-* [Ponerse en contacto con el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support).
-* Acceda a la aplicación mediante el inicio de sesión estándar mientras el problema se soluciona.
-
