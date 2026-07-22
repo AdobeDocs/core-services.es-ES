@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
 workflow-type: tm+mt
-source-wordcount: 1617
+source-wordcount: 1629
 ht-degree: 56%
 
 ---
@@ -53,7 +53,7 @@ Para ver las notas de la versión que abarcan todas las aplicaciones, consulte [
 | Fecha | Actualización | Descripción |
 | ------- | ------- | ------- |
 | 11 de junio de 2026 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) es una aplicación de IA auténtica que automatiza los flujos de trabajo de experiencia del cliente de extremo a extremo. [!DNL Coworker] detecta señales, crea audiencias e inicia campañas con el control integrado en horas. Próximamente documentación. |
-| 1 de junio de 2026 | [!UICONTROL Supervisión] | CX Enterprise ahora proporciona paneles para monitorizar el uso de IA agéntica en las aplicaciones existentes. Rastree la adopción, revise las conversaciones y los comentarios, y administre el consumo de crédito de IA para los agentes de Experience Platform a los que se accede a través del asistente de IA y otras superficies conversacionales. Las vistas Información general, Usuarios, Comentarios y Créditos de IA ayudan a las partes interesadas en la administración a guiar la adopción con datos. Consulte [Supervisión de inteligencia artificial aplicada a la agencia](../features/monitoring.md) para obtener acceso al panel y permisos. |
+| 1 de junio de 2026 | [!UICONTROL Supervisión] | CX Enterprise ahora proporciona paneles para monitorizar el uso de IA agéntica en las aplicaciones existentes. Rastree la adopción, revise las conversaciones y los comentarios, y administre el consumo de crédito de IA para los agentes de Experience Platform a los que se accede a través del asistente de IA y otras superficies conversacionales. Las vistas Información general, Usuarios, Comentarios y Créditos de IA ayudan a las partes interesadas en la administración a guiar la adopción con datos. Consulte [Supervisión de inteligencia artificial aplicada a la agencia](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) para obtener acceso al panel y permisos. |
 
 ## Abril de 2026
 
