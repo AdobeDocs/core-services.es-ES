@@ -40,7 +40,7 @@ Descubra dónde se producen las actualizaciones de la documentación para la int
 
 ## Junio de 2026
 
-* Se ha publicado la [supervisión de IA del agente](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con cobertura de los paneles de supervisión de Uso de licencias y AI del agente, que incluye Información general, Usuarios, Comentarios y vistas de Créditos de IA, reproducción de conversaciones y permisos para usuarios con funciones de gobernanza.
+* Se ha publicado la [supervisión de IA del agente](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con cobertura de los paneles de supervisión de Uso de licencias y AI del agente, que incluye Información general, Usuarios, Comentarios y vistas de Créditos de IA, reproducción de conversaciones y permisos para usuarios con funciones de gobernanza.
 * Se agregaron [notas de la versión de junio de 2026](release-notes.md) para la monitorización del uso de IA auténtica.
 
 ## Mayo de 2026
@@ -49,16 +49,16 @@ Actualizaciones de abril y mayo para la guía de la interfaz central de CX Enter
 
 * Se ha cambiado la marca de la documentación de Experience Cloud a **CX Enterprise** en toda la guía, incluidas las descripciones, el texto del vínculo y los metadatos de etiquetas automáticas.
 * Se agregaron [notas de la versión de abril de 2026](release-notes.md) para la página principal actualizada a las `https://experience.adobe.com/home` (actualización de la interfaz de usuario, modo oscuro y mejoras de accesibilidad).
-* Se ha actualizado [Inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, se han revisado las capacidades del agente y una columna de **Datos de estado / preparados para HIPAA** en la tabla de agentes de aplicaciones existentes.
+* Se ha actualizado [Inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, se han revisado las capacidades del agente y una columna de **Datos de estado / preparados para HIPAA** en la tabla de agentes de aplicaciones existentes.
 * Actualizaciones menores de [recopilación de datos regionales](../data-collection/rdc.md), [Validar el reenvío de nombres de host](../data-collection/adobe-managed-cert.md) y [Terminología](terms.md).
 
 ## Marzo de 2026
 
-Se agregó [consumo de trabajos y créditos de IA](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Se agregó [consumo de trabajos y créditos de IA](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## Noviembre de 2025
 
-Actualizaciones de [inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Actualizaciones de [inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Octubre de 2025
 
