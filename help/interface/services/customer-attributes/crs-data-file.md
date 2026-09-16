@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de los requisitos de archivos de datos y varios orígenes de datos para cargar datos en  [!DNL Customer Attributes] a CX Enterprise.
+description: Obtenga información acerca de los requisitos de archivos de datos y varios orígenes de datos para cargar datos en [!DNL Customer Attributes] a CX Enterprise.
 solution: Experience Cloud
 title: Archivo de datos de atributos del cliente y fuentes de datos
 feature: Customer Attributes
@@ -7,25 +7,32 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
+TQID: 'https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1176
+source-wordcount: '1177'
 ht-degree: 59%
-
 ---
-
 # Fuentes y archivos de datos de Atributos del cliente
 
 Requisitos de archivos de datos y varios orígenes de datos para cargar datos de atributos del cliente en CX Enterprise.
@@ -70,7 +77,7 @@ El mismo archivo visualizado en un editor de texto:
   </tr> 
   <tr> 
    <td colname="col1"> <p>columna de ID de cliente </p> </td> 
-   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al servicio de ID de visitante. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en CX Enterprise. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
+   <td colname="col2"> <p> La primera columna debe ser un ID de cliente único. El ID utilizado debe corresponder al ID que se pasa al servicio de ID de visitante. </p> <p>Para Analytics, el ID que se está almacenando en una propiedad o eVar. </p> <p>Para Target, establezca el valor customerID. </p> <p> Este ID de cliente es el ID único que utiliza su CRM para cada persona de la base de datos. Las columnas restantes son atributos que provienen de su CRM. Elija cuántos atributos desea cargar. </p> <p>Se recomiendan nombres sencillos y legibles para los encabezados de columna, pero no obligatorios. Cuando valide el esquema después de la carga, puede asignar nombres descriptivos a las filas y columnas cargadas. </p> <p> <b>Acerca de los ID de cliente</b> </p> <p>Normalmente, una empresa utiliza un ID de cliente de un sistema CRM. Este identificador se establece usando la llamada de <span class="codeph"> setcustomerIDs </span> cuando una persona inicia sesión. Este ID también se utiliza como clave en el archivo CRM que se carga en CX Enterprise. El<a href="t-crs-usecase.md" format="dita" scope="local"> ID de alias</a> es un nombre descriptivo para un almacén de datos en Audience Manager, en el que se almacenan los datos de alias. El sistema envía alias a este almacén de datos (a través de setcustomerIDs). El archivo CRM se aplica a los datos de ese almacén de datos. </p> <p>Para obtener <span class="codeph"> información sobre setcustomerIDs </span>, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de cliente y estados de autenticación </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encabezados y columnas posteriores </p> </td> 
@@ -148,7 +155,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) para obtener más información).
+(Consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) para obtener más información).
 
 En **[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**:
 

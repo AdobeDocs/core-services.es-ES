@@ -7,13 +7,17 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 60%
-
 ---
-
 # Información general sobre la interfaz central de CX Enterprise
 
 [CX Enterprise](https://experience.adobe.com) es la familia integrada de aplicaciones, productos y servicios de mercadotecnia digital de Adobe. Desde la intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
@@ -179,7 +183,7 @@ To access CX Enterprise applications and services provisioned for you within you
 
 ## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/es#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
@@ -187,7 +191,7 @@ The [!UICONTROL Help] menu also gives you access to:
 
 * **[!UICONTROL Support]:** Create a support ticket or contact [!UICONTROL Support] using Twitter.
 * **[!UICONTROL Feedback]:** Share feedback about your CX Enterprise experience. Your feedback is used to improve Adobe's products and services.
-* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/es-es/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigation to `adobe.io` and find developer documentation.
 
 ## Manage your user profile
@@ -220,7 +224,7 @@ Learn about the latest enhancements to CX Enterprise central interface component
 
 You can configure your account preferences to send CX Enterprise notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 
@@ -308,7 +312,6 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
-
 ## Recursos adicionales
 
 [Descripción del producto Adobe Campaign, versión 8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=es){target="_blank"} - [[!DNL Adobe Campaign] Guía de automatización](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es){target="_blank"} - [Panel de control de la versión 8 Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}

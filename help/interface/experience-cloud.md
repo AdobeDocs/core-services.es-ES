@@ -7,20 +7,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
+TQID: 'https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 44%
-
 ---
-
 # Guía de administración e interfaz empresarial de Adobe CX
 
 [Adobe CX Enterprise](https://experience.adobe.com) (Customer Experience Enterprise) es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde la intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
@@ -54,7 +58,7 @@ Inicie sesión y verifique que se encuentra en la [organización](administration
 
    Por ejemplo, para una organización con Federated IDs y el dominio `example.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@example.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`).
 
-   **Nota:** El administrador de su organización puede restringir el acceso a los productos de Adobe por direcciones IP. Si es así, puede recibir un error después de iniciar sesión en CX Enterprise o de cambiar a una organización con esto habilitado. Encontrará más información en [Limitar el acceso al producto por direcciones IP](https://helpx.adobe.com/es/enterprise/using/ip-based-access.html).
+   **Nota:** El administrador de su organización puede restringir el acceso a los productos de Adobe por direcciones IP. Si es así, puede recibir un error después de iniciar sesión en CX Enterprise o de cambiar a una organización con esto habilitado. Encontrará más información en [Limitar el acceso al producto por direcciones IP](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
 
 
 ## Acceso a aplicaciones empresariales de CX
@@ -67,7 +71,7 @@ Para acceder a las aplicaciones y servicios de CX Enterprise proporcionados por 
 
 ## Obtener ayuda y asistencia
 
-Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de ayuda]** (![recurso](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
+Acceda a aprendizaje y ayuda mediante el **[!UICONTROL Centro de ayuda]** (![recurso](assets/help-icon.png)) del encabezado, que incluye contenido de ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home), así como recursos adicionales para aplicaciones individuales. También puede enviar comentarios abiertos y crear tickets de asistencia con prioridad.
 
 ![Obtener ayuda y asistencia](assets/search-menu.png)
 
@@ -75,7 +79,7 @@ El menú [!UICONTROL Ayuda] también te da acceso a:
 
 * **[!UICONTROL Soporte técnico]:** Cree un vale de soporte técnico o póngase en contacto con el [!UICONTROL Soporte técnico] a través de Twitter.
 * **[!UICONTROL Comentarios]:** Comparta comentarios sobre su experiencia en CX Enterprise. Los comentarios se utilizan para mejorar los productos y servicios de Adobe.
-* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/es-es/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
+* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
 * **[!UICONTROL Developer Connection]:** Navegación a `adobe.io` y búsqueda de documentación para desarrolladores.
 
 ## Administrar el perfil de usuario

@@ -8,27 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
+TQID: 'https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+    internal-label: Admin tools
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 47%
-
 ---
-
 # Preguntas frecuentes sobre CX Enterprise
 
 Obtenga información sobre la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
@@ -113,7 +122,7 @@ El aprovisionamiento en CX Enterprise significa:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -121,7 +130,7 @@ El aprovisionamiento en CX Enterprise significa:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 
