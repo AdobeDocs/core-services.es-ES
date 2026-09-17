@@ -9,26 +9,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+TQID: 'https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Audience segmentation
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 760
-ht-degree: 47%
-
+source-wordcount: '760'
+ht-degree: 48%
 ---
-
 # Audiencias de CX Enterprise
 
 [!DNL Audience Library] muestra audiencias en CX Enterprise. Los públicos son recopilaciones de visitantes (una lista de ID de [!DNL CX Enterprise]). Puede administrar la traducción de los datos de visitantes en la segmentación del público. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos. También puede compartir el segmento de público con productos y servicios de [!DNL CX Enterprise].
@@ -54,7 +62,7 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 
 | Solución | Descripción |
 | --- | --- |
-| Audiencias de CX Enterprise | Cree, administre y comparta audiencias de forma nativa con la Biblioteca de audiencias. Puede hacer lo siguiente:<ul><li>Utilice audiencias en tiempo real con atributos de análisis sin procesar.</li><li>Combine audiencias para crear composiciones, uniendo datos históricos y en tiempo real.</li><li>Consulte vistas gráficas del tamaño estimado de audiencias.</li></ul><br>Para obtener sugerencias sobre el tipo de público que desea crear, consulte [Opciones de creación de público](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es). |
+| Públicos de CX Enterprise | Cree, administre y comparta audiencias de forma nativa con la Biblioteca de audiencias. Puede hacer lo siguiente:<ul><li>Utilice audiencias en tiempo real con atributos de análisis sin procesar.</li><li>Combine audiencias para crear composiciones, uniendo datos históricos y en tiempo real.</li><li>Consulte vistas gráficas del tamaño estimado de audiencias.</li></ul><br>Para obtener sugerencias sobre el tipo de público que desea crear, consulte [Opciones de creación de público](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es). |
 | Analytics | En la segmentación, puede crear un segmento, combinarlo con un grupo de informes y, a continuación, publicar el segmento en CX Enterprise. Al publicar el segmento, aparece en la página [!DNL Audience Library] de CX Enterprise. (Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es) en la ayuda de [!DNL Analytics] para obtener más información). La audiencia también está disponible como audiencia de destino para una experiencia de campaña suministrada por [!DNL Adobe Target] y en [!DNL Audience Manager]. Después de compartir una audiencia de [!DNL Adobe Analytics] y seleccionarla para usarla en una campaña activa, los perfiles de visitantes que cumplen los criterios de definición de segmento de los últimos 90 días se envían a [!UICONTROL Servicios de audiencia]. El límite de públicos compartidos se ha aumentado a 75. Las audiencias compartidas en CX Enterprise desde [!DNL Analytics] no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes eliminados en Analytics tardan 12 horas en desaparecer de CX Enterprise. |
 | Mobile Services | Analice el tráfico móvil mediante la visualización radial en el informe [!UICONTROL Tipos de dispositivos]. |
 | [!DNL Target] | El [servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todas las aplicaciones. La casilla de verificación [!UICONTROL Publicar en CX Enterprise] durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en [!DNL Analytics] o [!DNL Audience Manager] puede utilizarse para actividades en [!DNL Target]. Por ejemplo, puede crear actividades de campaña basadas en las métricas de conversión de [!DNL Analytics] y segmentos de públicos creados en [!DNL Analytics]. |
