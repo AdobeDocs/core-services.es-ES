@@ -1,5 +1,5 @@
 ---
-description: Aprenda a crear un origen de datos de [!DNL Customer Attributes] y a cargarlo en CX Enterprise.
+description: Aprenda a crear un origen de datos de [!DNL Customer Attributes] y cargarlo en CX Enterprise.
 solution: Experience Cloud
 title: Crear y cargar un archivo de Source de datos [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -56,7 +56,7 @@ Cree el origen de atributos del cliente (`.csv` y `.fin` archivos) y cargue los 
 
 * Se requiere **Adobe Target** `at.js` (cualquier versión) o `mbox.js` versión 58 o posterior para los Atributos del cliente.
 
-  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/overview)
+  Consulte [Cómo implementar at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)
 
 ## Crear un archivo de datos
 
@@ -107,7 +107,7 @@ Siga estos pasos en la página _[!UICONTROL Crear Source de atributos del client
 
      * **Etiquetas:** El ID de alias corresponde al valor de *Código de integración* en [!UICONTROL Configuración del cliente], en la extensión de etiqueta [[!UICONTROL Servicio de Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
-     * **Servicio de ID de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es) adicionales que puede asociar con cada visitante.
+     * **Servicio de ID de visitante:** El ID de alias corresponde a los [ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) adicionales que puede asociar con cada visitante.
 
        Por ejemplo, *&quot;crm_id&quot;* en:
 
@@ -129,7 +129,7 @@ Siga estos pasos en la página _[!UICONTROL Crear Source de atributos del client
 
        Consulte [Aprovechamiento de varias fuentes de datos](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) para obtener información adicional sobre el procesamiento de datos con respecto al campo ID de alias e ID de clientes.
 
-   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
+   * **[!UICONTROL Código de área de nombres:]** Use este valor para identificar el origen de atributos del cliente al usar [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) como parte de una implementación de WebSDK de AEP.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -145,13 +145,13 @@ Se crea el registro de atributos del cliente y puede cargar el archivo editando 
 
 1. Arrastre y suelte el archivo de datos `.csv`, `.zip` o `.gzip` en la ventana de arrastrar y soltar.
 
->[!IMPORTANT]
->
->Existen requisitos específicos para los archivos de datos. Consulte los [Requisitos de archivos de datos](crs-data-file.md) para obtener más información.
+   >[!IMPORTANT]
+   >
+   >Existen requisitos específicos para los archivos de datos. Consulte los [Requisitos de archivos de datos](crs-data-file.md) para obtener más información.
 
-Después de cargar el archivo, los datos de la tabla se muestran en el encabezado [!UICONTROL Carga de archivos] de esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
+   Después de cargar el archivo, los datos de la tabla se muestran en el encabezado [!UICONTROL Carga de archivos] de esta página. Puede validar el esquema, configurar suscripciones o configurar el FTP.
 
-![atributos](assets/file_upload_attributes.png)
+   ![atributos](assets/file_upload_attributes.png)
 
 * **[!UICONTROL ID único de cliente:]** Muestra cuántos ID únicos ha subido a este origen de atributos.
 
@@ -189,7 +189,7 @@ El ejemplo siguiente muestra un segmento de [!DNL Analytics] basado en los atrib
 
 ![Segmento de Analytics basado en los atributos cargados](assets/08_crs_usecase.png)
 
-Cuando publica un segmento en CX Enterprise, pasa a estar disponible en CX Enterprise Audiences y Audience Manager.
+Cuando publica un segmento en CX Enterprise, pasa a estar disponible en Audiencias de CX Enterprise y Audience Manager.
 
 ## Usar datos de [!DNL Customer Attributes] en Adobe Target
 
