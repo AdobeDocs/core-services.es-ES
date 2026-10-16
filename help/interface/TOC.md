@@ -1,17 +1,15 @@
 ---
 role: User,Admin
-user-guide-title: Guía de administración e interfaz central de CX Enterprise
+user-guide-title: interfaz central y guía de administración de CX Enterprise
 breadcrumb-title: Interfaz y administración de CX Enterprise
-title: Guía de administración e interfaz empresarial de CX
-description: Obtenga información sobre la interfaz y administración de CX Enterprise. Examine temas sobre IA, administración, servicios compartidos, recopilación de datos, cookies, notas de la versión y preguntas frecuentes.
+title: Interfaz de CX Enterprise y Guía de administración
+description: Obtenga información acerca de la interfaz y administración de CX Enterprise. Examine temas sobre IA, administración, servicios compartidos, recopilación de datos, cookies, notas de la versión y preguntas frecuentes.
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 60%
-
+source-wordcount: '207'
+ht-degree: 56%
 ---
-
 # Interfaz y administración de CX Enterprise {#interface}
 
 + [Interfaz y administración de CX Enterprise](/help/interface/experience-cloud.md)
@@ -52,7 +50,10 @@ ht-degree: 60%
   + [Activadores](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + Recopilación de datos {#data-collection}
+  + [Elija un dominio de recopilación de datos.](/help/interface/data-collection/collection-domain.md)
   + [Programa de certificados administrados por Adobe](/help/interface/data-collection/adobe-managed-cert.md)
+  + [Certificados administrados por el cliente](/help/interface/data-collection/customer-managed-cert.md)
+  + [Enrutar la recopilación de datos a través de una CDN](/help/interface/data-collection/cdn.md)
   + [Direcciones IP](/help/interface/data-collection/ip-addresses.md)
   + [Dominios](/help/interface/data-collection/domains.md)
   + Cookies {#cookies}

@@ -6,22 +6,28 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Uso de cookies en CX Enterprise
 
 Adobe CX Enterprise usa cookies. Una cookie es un pequeño fragmento de datos que un sitio web envía a su explorador, que lo almacena para su uso posterior. Las cookies ayudan al sitio web a recordar cosas cuando usted visita de nuevo o se mueve entre páginas. Las cookies ayudan a rastrear las visitas y a diferenciar un dispositivo de otro.
@@ -30,18 +36,18 @@ Las leyes a menudo requieren que obtenga permiso antes de almacenar o usar cooki
 
 ## Acerca de las cookies de origen
 
-Adobe CX Enterprise usa cookies para realizar un seguimiento de la información que no dura entre vistas de página o sesiones del explorador. Cuando es posible, Adobe utiliza cookies de origen (vinculadas a su propio sitio web). Para rastrear la actividad en varios sitios o dominios de su propiedad, se necesitan cookies de terceros.
+Adobe CX Enterprise usa cookies para rastrear información que no dura entre vistas de página o sesiones del explorador. Cuando es posible, Adobe utiliza cookies de origen (vinculadas a su propio sitio web). Para rastrear la actividad en varios sitios o dominios de su propiedad, se necesitan cookies de terceros.
 
-Algunos exploradores y herramientas antispyware bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El modo en que esto funcione depende de si usa el servicio de ID de visitante (`VisitorAPI.js`) o cookies de Analytics anteriores (como la cookie `s_vi`):
+Algunos exploradores bloquean las cookies de terceros. Adobe tiene maneras de asegurarse de que las cookies siguen funcionando aunque estén bloqueadas. El funcionamiento de este proceso depende de si usa el servicio de ID de visitante (`VisitorAPI.js`) o cookies de Analytics anteriores (como la cookie `s_vi`):
 
 * [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview): El servicio de ID de visitante siempre establece cookies de origen, independientemente de si el dominio de recopilación coincide con el del sitio. Utiliza JavaScript para colocar la cookie en el dominio del sitio.
 
 * [Identificadores heredados de Analytics](analytics.md) (como la cookie `s_vi`): Depende de la configuración si las cookies son de origen o de terceros:
 
-   * Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies son de origen.
-   * Si no coincide, las cookies son de terceros. Si las cookies de terceros están bloqueadas, Adobe establece una cookie de reserva (`s_fid`) en lugar de la habitual.
+  * Si el servidor de recopilación de datos coincide con el dominio del sitio, las cookies son de origen.
+  * Si no coincide, las cookies son de terceros. Si las cookies de terceros están bloqueadas, Adobe establece una cookie de reserva (`s_fid`) en lugar de la habitual.
 
-Para asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede usar una configuración **CNAME**. Esto implica actualizar la configuración de DNS para que dirija un dominio personalizado (el suyo) a los servidores de Adobe. Esto hace que la cookie de seguimiento aparezca como de origen. Aunque un CNAME puede funcionar en varios dominios, cualquier dominio que no coincida con el CNAME establecerá cookies de terceros.
+Para asegurarse de que el servidor de recopilación coincida con el dominio del sitio, puede usar una configuración **CNAME**. Esta configuración implica actualizar la configuración de DNS para que dirija un dominio personalizado (el suyo) a los servidores de Adobe. Esta configuración hace que la cookie de seguimiento aparezca como de origen. Aunque un CNAME puede funcionar en varios dominios, cualquier dominio que no coincida con el CNAME establecerá cookies de terceros. También puede [enrutar la recopilación de datos a través de una red de distribución de contenido (CDN)](../cdn.md) que use su propio dominio. Ver [Elegir un dominio de recopilación de datos](../collection-domain.md) para todas las opciones.
 
 >[!NOTE]
 >
