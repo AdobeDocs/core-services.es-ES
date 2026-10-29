@@ -1,5 +1,5 @@
 ---
-description: Aprenda a configurar CX Enterprise Déclencheur.
+description: Obtenga información sobre cómo configurar CX Enterprise Déclencheur.
 solution: Experience Cloud
 title: Información general sobre Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 61%
+source-wordcount: '877'
+ht-degree: 57%
 ---
 # CX Enterprise Déclencheur
 
-Los [!UICONTROL Déclencheur] de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. Para obtener más información sobre el uso de [!UICONTROL Déclencheur] con Adobe Campaign, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=es).
+Los [!UICONTROL Déclencheur] de CX Enterprise le permiten identificar, definir y supervisar los comportamientos clave de los clientes y generar comunicación entre las varias aplicaciones para volver a atraer visitantes. Puede usar Triggers en las decisiones en tiempo real y la personalización. Para obtener más información sobre el uso de [!UICONTROL Déclencheur] con Adobe Campaign, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
 
 Por ejemplo:
 
@@ -62,11 +62,15 @@ Por ejemplo:
 
 Generalmente, un Trigger (activador) puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Este periodo varía según la implementación de la recopilación de datos, la carga en el canal, la configuración personalizada del activador definido y el flujo de trabajo en Adobe Campaign.
 
-* Abandono: puede crear un activador que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra.**&#x200B;**
+* Abandono: puede crear un activador que se desencadene cuando un visitante vea un producto, pero no agregue nada al carro de compra.****
 * **Acción:** puede crear activadores, por ejemplo, para que se desencadenen después de que los usuarios se suscriban a un boletín, de una suscripción por correo electrónico o cuando se soliciten tarjetas de crédito (confirmaciones). Si tiene un comercio minorista, puede crear un activador para visitantes que se suscriben a un programa de lealtad. Si se dedica al sector de los medios de comunicación y el entretenimiento, cree activadores para visitantes que vean un determinado programa y que podrían estar interesados en responder a una encuesta.
 * **Inicio y fin de sesión:** cree un activador para los eventos de inicio y fin de sesión.
 
-## Crear un déclencheur empresarial de CX
+## Período de retención para déclencheur de abandono
+
+Los déclencheur de abandono tienen un período de retención fijo de una hora después de que finaliza una sesión de déclencheur, independientemente de si se activa o no el déclencheur. Durante este periodo, no se inicia una nueva sesión para el mismo déclencheur de abandono para ese visitante, aunque el visitante regrese y vuelva a cumplir las condiciones de déclencheur. El período de retención no se puede configurar.
+
+## Creación de un déclencheur de CX Enterprise
 
 Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un activador durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el activador.
 
@@ -98,7 +102,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
 ## Ejemplos de activadores
 
-Ejemplos de Déclencheur empresariales de CX:
+Ejemplos de Déclencheur de CX Enterprise:
 
 ### Déclencheur de abandono del carro
 
