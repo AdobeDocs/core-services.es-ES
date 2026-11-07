@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre las últimas funciones, notas de la versión y problemas conocidos de los servicios de CX Enterprise, como atributos del cliente, audiencias y administración de usuarios.
 solution: Experience Cloud
-title: Notas de la versión acumuladas de la interfaz de Experience Cloud
+title: Recopilación de notas de versiones para la interfaz de CX Enterprise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%
@@ -494,7 +494,7 @@ La búsqueda unificada se ha actualizado para que esté disponible para Journey 
 
 **Known Issues** 
 
-* Linking and unlinking your dynamic tag management organization with CX Enterprise is not working for newly created CX Enterprise organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via CX Enterprise, use the legacy login at `dtm.adobe.com`.
+* Linking and unlinking your dynamic tag management organization with CX Enterprise is not working for newly created Adobe organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via CX Enterprise, use the legacy login at `dtm.adobe.com`.
 * A known issue is preventing audience sharing from report suites which are not owned by the linked Analytics account. Remedial efforts are underway
 
 ## March 2015

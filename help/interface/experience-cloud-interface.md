@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre cómo iniciar sesión y los componentes de la interfaz central en CX Enterprise. Obtenga información sobre la búsqueda global, las preferencias de su cuenta y cómo navegar por la interfaz y obtener ayuda.
 solution: Experience Cloud
-title: Componentes de la IU central de Experience Cloud
+title: Componentes de la IU central de CX Enterprise
 feature: Central Interface Components
 topic: Administration
 role: Admin, User
@@ -18,14 +18,14 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 41%
+ht-degree: 40%
 ---
-# Componentes de la interfaz central de CX
+# Componentes de la interfaz central de CX Enterprise
 
-Los componentes de la interfaz central de CX Enterprise incluyen funciones que le permiten:
+Los componentes de la interfaz central de CX Enterprise incluyen funciones que le permiten lo siguiente:
 
 * Inicio de sesión y acceso a sus aplicaciones y servicios
 * Búsqueda de la ayuda del producto y los objetos empresariales mediante búsqueda global
@@ -45,7 +45,7 @@ Si el explorador no aparece en la lista, puede que sea compatible, pero se recom
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio de CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 ## Compatibilidad de idiomas en CX Enterprise
 
@@ -80,17 +80,17 @@ Inicie sesión y compruebe que se encuentra en la organización correcta.
 
    Por ejemplo, para una organización con Federated IDs y el dominio `example.com`, establezca el vínculo URL en `https://experience.adobe.com/#/sso:@example.com`. También puede ir directamente a una aplicación específica marcando esta URL, anexada con la ruta de la aplicación. (Por ejemplo, para Adobe Analytics, `https://experience.adobe.com/#/sso:@example.com/analytics`).
 
-## Acceso a aplicaciones empresariales de CX
+## Acceso a aplicaciones de CX Enterprise
 
 Después de iniciar sesión en CX Enterprise, puede acceder rápidamente a todas sus aplicaciones, servicios y organizaciones desde el encabezado unificado.
 
 Haga clic en el selector de aplicaciones ![menu](assets/menu-icon.png) para acceder a los servicios de CX Enterprise que posee.
 
-![Aplicaciones empresariales de Access CX](assets/platform-core-services.png)
+![Acceso a aplicaciones de CX Enterprise](assets/platform-core-services.png)
 
 ## Búsqueda y asistencia en CX Enterprise
 
-La búsqueda de CX Enterprise le permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+La búsqueda de CX Enterprise te permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
 
 ![Búsqueda y asistencia en CX Enterprise](assets/search-menu.png)
 
@@ -110,7 +110,7 @@ En el menú de preferencias de cuenta, puede hacer lo siguiente:
 * Cerrar sesión
 * Configurar las [preferencias, notificaciones y suscripciones de la cuenta](#preferences)
 
-### Administrar [!UICONTROL Preferencias] de CX Enterprise
+### Administrar CX Enterprise [!UICONTROL Preferencias]
 
 Las preferencias de CX Enterprise incluyen notificaciones, suscripciones y alertas.
 
@@ -118,7 +118,7 @@ Las preferencias de CX Enterprise incluyen notificaciones, suscripciones y alert
 
 ![Administrar CX Enterprise](assets/preferences-page.png)
 
-En [!UICONTROL preferencias de CX Enterprise], puede configurar las siguientes características:
+En [!UICONTROL preferencias de CX Enterprise], puede configurar las siguientes funciones:
 
 | Función | Descripción |
 | --- | --- |
