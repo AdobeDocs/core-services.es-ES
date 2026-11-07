@@ -1,7 +1,7 @@
 ---
-description: Obtenga información sobre la compatibilidad de exploradores y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
+description: Obtenga información acerca de la compatibilidad del explorador y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
 solution: Experience Cloud
-title: Preguntas frecuentes sobre Experience Cloud
+title: Preguntas más frecuentes sobre CX Enterprise
 index: true
 feature: Admin Console
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 47%
+ht-degree: 46%
 ---
 # Preguntas frecuentes sobre CX Enterprise
 
-Obtenga información sobre la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
+Obtenga información acerca de la compatibilidad del explorador y las preguntas frecuentes y respuestas para los administradores de CX Enterprise.
 
 +++¿Qué exploradores son compatibles con CX Enterprise?
 
@@ -56,7 +56,7 @@ El uso de otro navegador es posible, pero no se garantiza su compatibilidad.
 
 >[!NOTE]
 >
->No todas las aplicaciones que se ejecutan en el dominio CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
+>No todas las aplicaciones que se ejecutan en el dominio de CX Enterprise admiten todos los exploradores. Si no está seguro, consulte la documentación de la aplicación específica.
 
 +++
 
@@ -79,13 +79,13 @@ Aunque los equipos de aplicaciones están comprometidos con el soporte de idioma
 
 +++
 
-+++¿Cobra Adobe a mi empresa por el acceso Adobe CX Enterprise?
++++¿Adobe cobra a mi empresa por el acceso a Adobe CX Enterprise?
 
 No. Adobe CX Enterprise se incluye sin coste adicional. Sin embargo, algunos servicios básicos podrían conllevar costes adicionales.
 
 +++
 
-+++¿Por qué mi empresa debe iniciar sesión a través de la interfaz CX Enterprise?
++++¿Por qué mi empresa debe iniciar sesión a través de la interfaz de CX Enterprise?
 
 La funcionalidad proporcionada por la interfaz de CX Enterprise añade un nuevo valor a su negocio. También es la ruta estándar para acceder a las aplicaciones a partir de ahora y, con el tiempo, reemplazará otros flujos de inicio de sesión de aplicaciones individuales. El inicio de sesión a través de CX Enterprise facilita una transición más fluida posteriormente.
 
@@ -101,7 +101,7 @@ El Servicio de atención al cliente de Adobe puede enviar una solicitud de supla
 
 +++¿Qué es el &quot;aprovisionamiento&quot;?
 
-El aprovisionamiento en CX Enterprise significa:
+El aprovisionamiento en CX Enterprise significa lo siguiente:
 
 * Sus usuarios pueden empezar a iniciar sesión en CX Enterprise y a vincular aplicaciones.
 * Pueden empezar a utilizar las funciones disponibles a través de CX Enterprise.
@@ -122,7 +122,7 @@ El aprovisionamiento en CX Enterprise significa:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -130,7 +130,7 @@ El aprovisionamiento en CX Enterprise significa:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 
@@ -162,7 +162,7 @@ Consulte [Visualización del ID de la organización](../administration/organizat
 
 +++¿Qué debo hacer cuando uno de mis usuarios abandona la empresa?
 
-Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel empresarial de CX.
+Su acceso deberá ser eliminado de la aplicación en sí. No podrán acceder al producto desde CX Enterprise ni a través del inicio de sesión directo. También debe eliminarlos en el nivel de CX Enterprise.
 
 +++
 

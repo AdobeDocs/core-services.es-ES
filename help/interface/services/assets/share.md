@@ -1,7 +1,7 @@
 ---
-description: Aprenda a compartir una carpeta de recursos de CX Enterprise con usuarios de Creative Cloud.
+description: Descubra cómo compartir una carpeta de recursos de CX Enterprise con usuarios de Creative Cloud.
 solution: Experience Cloud
-title: Uso compartido de una carpeta de recursos de Experience Cloud
+title: Compartir una carpeta de recursos de CX Enterprise
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -31,14 +31,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%
 ---
 # Compartir una carpeta de recursos de CX Enterprise
 
-Comparta carpetas y recursos entre CX Enterprise y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones empresariales de CX como Adobe Target. La carpeta compartida debe proceder de CX Enterprise.
+Comparta carpetas y recursos entre CX Enterprise y Creative Cloud. Colabore, realice anotaciones en recursos compartidos y utilícelos en aplicaciones de CX Enterprise como Adobe Target. La carpeta compartida debe proceder de CX Enterprise.
 
 **Ventajas de compartir**
 
@@ -48,7 +48,7 @@ Comparta carpetas y recursos entre CX Enterprise y Creative Cloud. Colabore, rea
 * Disfrute de una mayor seguridad empresarial
 * Compartir, guardar y enviar archivos fácilmente entre creativos y especialistas en marketing
 
-Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben estar incluidos en la lista de permitidos de CX Enterprise. Consulte [Gestionar usuarios de Creative Cloud](manage-cc-users.md).
+Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben estar en la lista de permitidos de CX Enterprise. Consulte [Gestionar usuarios de Creative Cloud](manage-cc-users.md).
 
 **Para compartir una carpeta de recursos de CX Enterprise**
 
@@ -75,7 +75,7 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
    ![Adición de un comentario en la imagen](../../assets/asset_comment_cc.png)
 
-   En CX Enterprise, seleccione en una imagen y, a continuación, seleccione el icono de cronología para agregar un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y CX Enterprise.
+   En CX Enterprise, seleccione en una imagen y, a continuación, seleccione el icono de cronología para añadir un comentario a la imagen. Los comentarios se sincronizan con los recursos de Creative Cloud y CX Enterprise.
 
    ![Adición de un comentario en la imagen](../../assets/asset_comment_mac.png)
 
@@ -85,7 +85,7 @@ Antes de que los usuarios de Creative Cloud tengan acceso a los recursos, deben 
 
    Una vez que haya eliminado todos los usuarios de Creative Cloud, la carpeta deja de compartirse y los usuarios de Creative Cloud ya no tendrán acceso a ella.
 
-Otras formas de usar un recurso compartido incluyen cargar o intercambiar recursos de la [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en Adobe Target por imágenes en las actividades.
+Otras formas de usar un recurso compartido incluyen cargar o intercambiar recursos de la [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) en Adobe Target por imágenes en las actividades.
 
 Después de compartir una carpeta con Creative Cloud, verá en ella el logotipo de Creative Cloud.
 
@@ -101,5 +101,5 @@ Ayuda relacionada:
 
 Al crear actividades en [!DNL Adobe Target], puede usar un recurso de imagen compartida al intercambiar imágenes en la [!UICONTROL Biblioteca de ofertas].
 
-Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=es) en la ayuda de [!DNL Target].
+Consulte [Biblioteca de ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) en la ayuda de [!DNL Target].
 

@@ -1,7 +1,7 @@
 ---
-description: Descubra cómo se almacena y utiliza el servicio de ID de visitante en las aplicaciones empresariales de CX.
+description: Descubra cómo se almacena y utiliza el servicio de ID de visitante en todas las aplicaciones de CX Enterprise.
 solution: Experience Cloud,Analytics,Target
-title: Cookies de Experience Cloud
+title: Cookies de CX Enterprise
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
 # Cookies de CX Enterprise
 
-Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de CX Enterprise. Estas cookies se aplican específicamente para acceder a las aplicaciones de Adobe CX Enterprise en [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en las aplicaciones de CX Enterprise. Estas cookies se aplican específicamente para acceder a aplicaciones de Adobe CX Enterprise en [experience.adobe.com](https://experience.adobe.com).
 
 **Nombre de cookie: s_ecid**
 
@@ -54,7 +54,7 @@ Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en l
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> Contiene una copia de CX Enterprise ID (ECID) o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia del ECID o MID. El MID se almacena en un par de clave-valor que sigue esta sintaxis, s_ecid=MCMID|&lt;ECID&gt; </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 
@@ -81,9 +81,9 @@ Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en l
 
 **Nombre de la cookie: AMCV_###@AdobeOrg**
 
-El servicio [ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) usa JavaScript para almacenar un ID único de visitante en una cookie `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, como `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+El [servicio de identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) usa JavaScript para almacenar un ECID en una cookie de `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, como `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también [Cookies y el servicio de identificación del visitante](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
+Consulte también [Cookies y el servicio de identificación del visitante](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -95,7 +95,7 @@ Consulte también [Cookies y el servicio de identificación del visitante](https
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Información almacenada </p> </td> 
-   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de CX para empresas. </p> </td> 
+   <td colname="col2"> <p> ID únicos de visitantes utilizados por las soluciones de CX Enterprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Caducidad </p> </td> 

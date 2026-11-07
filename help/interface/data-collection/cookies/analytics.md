@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Cookies de Adobe Analytics
@@ -43,18 +43,18 @@ Analytics utiliza cookies para definir nuevos visitantes de forma anónima, anal
 
 | Nombre de la cookie | Caducidad | Tamaño | Ubicación | Descripción |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 meses | 45 bytes | Datos de origen | Almacena CX Enterprise ID (ECID) o MID. Establecido por respuesta HTTP. El MID se almacena en formato `s_ecid=MCMID`. Se establece después de que el cliente establezca la cookie AMCV. Permite el seguimiento continuado del ID de origen y se utiliza como ID de referencia si caduca la cookie de AMCV. `SameSite` está establecido en &quot;Lax&quot;. Si utiliza Web SDK para implementar Adobe Analytics, la caducidad de la cookie se establece en dos años; sin embargo, la mayoría de los exploradores modernos truncan la caducidad a trece meses. |
+| **`s_ecid`** | 13 meses | 45 bytes | Datos de origen | Almacena el ECID o MID. Establecido por respuesta HTTP. El MID se almacena en formato `s_ecid=MCMID`. Se establece después de que el cliente establezca la cookie AMCV. Permite el seguimiento continuado del ID de origen y se utiliza como ID de referencia si caduca la cookie de AMCV. `SameSite` está establecido en &quot;Lax&quot;. Si utiliza Web SDK para implementar Adobe Analytics, la caducidad de la cookie se establece en dos años; sin embargo, la mayoría de los exploradores modernos truncan la caducidad a trece meses. |
 | **`s_cc`** | Session | 4 bytes | Datos de origen | Determina si las cookies están habilitadas. La establece JavaScript. |
 | **`s_sq`** | Session | 100 a 200 bytes | Datos de origen | Utilizado por Activity Map. Contiene información sobre el vínculo anterior en el que el visitante hizo clic. La establece JavaScript. |
 | **`s_vi`** | 2 años | 44 bytes | De origen o `*.omtrdc.net` (de terceros) | Almacena una ID de visitante y una marca de tiempo únicos. Establecido por respuesta HTTP. Cada ID de visitante está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se eliminan tras un año de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante. El indicador `Secure` se establece cuando `SameSite` es &quot;None&quot; y la conexión es HTTPS. `SameSite` es &quot;Lax&quot; de forma predeterminada para las cookies de origen. `SameSite` es &quot;Ninguno&quot; cuando se usan cookies de terceros, como en `omtrdc.net` o `2o7.net`. Establezca `SameSite` como &quot;Ninguno&quot; cuando utilice un solo CNAME para rastrear varios dominios o propiedades. |
 | **`s_fid`** | 2 años | 33 bytes | Datos de origen | Almacena el ID único de visitante de reserva y la marca de tiempo. La establece JavaScript si no se puede establecer la cookie estándar `s_vi` debido a restricciones de cookies de terceros. No se utiliza en implementaciones de cookies de origen. |
 | **`s_ac`** | Inmediato | 1 byte | Datos de origen | Ayuda a determinar el dominio correcto para establecer las cookies de AppMeasurement. Contiene el valor estático `"1"`. Una vez configurada esta cookie, se elimina inmediatamente. |
 
-Consulte [Identificación de visitantes en Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/overview) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes que utilizan cookies.
+Consulte [Identificación de visitantes en Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes que utilizan cookies.
 
 ## Cookies establecidas por complementos
 
-Algunas implementaciones utilizan complementos, que son fragmentos de código que proporcionan funcionalidad adicional para Analytics. Estos complementos pueden configurar cookies que no se han enumerado anteriormente. Consulte la [descripción general de los complementos de Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/plugins/impl-plugins) para obtener una lista de los complementos disponibles y las cookies que configuran.
+Algunas implementaciones utilizan complementos, que son fragmentos de código que proporcionan funcionalidad adicional para Analytics. Estos complementos pueden configurar cookies que no se han enumerado anteriormente. Consulte la [descripción general de los complementos de Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) para obtener una lista de los complementos disponibles y las cookies que configuran.
 
 ## Consecuencias de la eliminación de cookies de Analytics
 
