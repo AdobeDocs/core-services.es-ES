@@ -83,7 +83,7 @@ Adobe CX Enterprise usa cookies para almacenar un ID de visitante utilizado en l
 
 El [servicio de identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) usa JavaScript para almacenar un ECID en una cookie de `AMCV_###@AdobeOrg` en el dominio del sitio web actual, donde `###` representa una cadena aleatoria de caracteres, como `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulte también [Cookies y el servicio de identificación del visitante](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Consulte también [Cookies y el servicio de identificación del visitante](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
