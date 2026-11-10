@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo iniciar sesión y los componentes de la interfaz central en CX Enterprise. Obtenga información sobre la búsqueda global, las preferencias de su cuenta y cómo navegar por la interfaz y obtener ayuda.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Componentes de la IU central de CX Enterprise
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%
@@ -90,7 +90,7 @@ Haga clic en el selector de aplicaciones ![menu](assets/menu-icon.png) para acce
 
 ## Búsqueda y asistencia en CX Enterprise
 
-La búsqueda de CX Enterprise te permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+La búsqueda de CX Enterprise te permite buscar ayuda (documentación, tutoriales y cursos) en [Experience League](https://experienceleague.adobe.com/?lang=es#home).
 
 ![Búsqueda y asistencia en CX Enterprise](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ El menú [!UICONTROL Ayuda] también te da acceso a:
 
 * **[!UICONTROL Soporte técnico]:** Cree un vale de soporte técnico o póngase en contacto con el [!UICONTROL Soporte técnico] a través de Twitter.
 * **[!UICONTROL Comentarios]:** Póngase en contacto con Adobe para hacernos saber sus comentarios.
-* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/es-es/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
+* **[!UICONTROL Estado]:** Vaya a `https://status.adobe.com/experience_cloud` y compruebe el estado operativo del producto y [!UICONTROL Administrar suscripciones].
 * **[!UICONTROL Developer Connection]:** Navegación a `adobe.io` y búsqueda de documentación para desarrolladores.
 
 ## Preferencias de cuenta

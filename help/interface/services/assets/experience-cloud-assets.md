@@ -1,6 +1,6 @@
 ---
 description: Obtenga información acerca de CX Enterprise Assets que puede compartir entre distintas aplicaciones.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Información general sobre recursos
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,7 +43,7 @@ CX Enterprise Assets proporciona un único repositorio centralizado de recursos 
 Entre los servicios de recursos se incluyen:
 
 * Almacenamiento de recursos, interfaz de administración, interfaz de selección de incrustación (a través de las aplicaciones).
-* Integraciones con Creative Cloud, colaboración empresarial de CX y aplicaciones empresariales de CX.
+* Integraciones con Creative Cloud, colaboración con CX Enterprise y aplicaciones de CX Enterprise.
 
 El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce el tiempo de comercialización. Puede optimizar los flujos de trabajo en las aplicaciones:
 

@@ -1,6 +1,6 @@
 ---
 description: Obtenga información acerca de la compatibilidad del explorador y consulte las preguntas frecuentes y sus respuestas para administradores de Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Preguntas más frecuentes sobre CX Enterprise
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%
@@ -122,7 +122,7 @@ El aprovisionamiento en CX Enterprise significa lo siguiente:
 
 * La administración de autorizaciones y productos de los usuarios se realiza en [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (vínculo del producto).
 
-* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=es) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
+* **Importante:** los administradores de Analytics pueden consultar [Administrar usuarios de Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) para saber más sobre la migración de ID de usuarios de las herramientas de administración de Analytics a Admin Console.
 
 +++
 
@@ -130,7 +130,7 @@ El aprovisionamiento en CX Enterprise significa lo siguiente:
 
 Los administradores de Admin Console pueden otorgar acceso a los usuarios. Los usuarios reciben correos electrónicos con instrucciones de inicio de sesión.
 
-Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
+Es posible que deba [ponerse en contacto con el equipo de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=es#support) para verificar que su compañía esté plenamente aprovisionada.
 
 +++
 

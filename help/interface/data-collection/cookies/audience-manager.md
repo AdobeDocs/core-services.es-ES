@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre las cookies de Audience Manager en Adobe CX Enterprise.
 keywords: Cookies de
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Cookies de Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%
@@ -69,7 +69,7 @@ Audience Manager depende de una serie de cookies simples para realizar diferente
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un ID único universal (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=es" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>La cookie <span class="wintitle">demdex</span> contiene un ID de usuario único (UUID) como se muestra en el siguiente ejemplo: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Consulte también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Índice de ID en Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Otros atributos</b> </p> </td> 
@@ -162,7 +162,7 @@ En la siguiente tabla se enumeran y definen los elementos de una cookie `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalidad</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=es" format="https" scope="external">destino</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> establece esta cookie cuando hay un error en el envío de datos al <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">destino</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenido</b> </p> </td> 

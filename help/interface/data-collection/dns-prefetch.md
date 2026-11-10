@@ -1,6 +1,6 @@
 ---
 description: Aprenda a implementar la precarga de DNS para ayudar a reducir los tiempos de carga de la página con diferentes aplicaciones y servicios en CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Usar precarga de DNS
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 77%
@@ -41,7 +41,7 @@ Implemente la precarga de DNS para ayudar a reducir el tiempo de la carga de las
 
 Los navegadores utilizan la precarga de DNS para resolver automáticamente los nombres de dominio vinculados en una página web con sus correspondientes direcciones IP. El proceso de precarga comienza cuando el explorador carga una página web. A modo de ejemplo, supongamos que su página contiene un vínculo que se puede seleccionar a `www.adobe.com`. Cuando un navegador carga esta página, utiliza el _sistema DNS_ para buscar el nombre de dominio vinculado y resolverlo en una dirección IP numérica correspondiente. La precarga de DNS ayuda a mejorar el rendimiento de la página porque el nombre de dominio ya está resuelto en una dirección IP antes de que un visitante del sitio haga clic en ese vínculo o botón. El proceso de precarga de DNS es transparente para los usuarios.
 
-## Precarga de DNS y aplicaciones empresariales de Adobe CX
+## Precarga de DNS y aplicaciones de Adobe CX Enterprise
 
 La precarga de DNS funciona automáticamente con vínculos estáticos incrustados en una página. Esto también significa que la precarga de DNS automática no funciona con diferentes aplicaciones y servicios de [!UICONTROL CX Enterprise] porque:
 

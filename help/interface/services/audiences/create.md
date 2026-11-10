@@ -1,7 +1,7 @@
 ---
 title: Cómo crear una audiencia en la biblioteca de audiencias
 description: Descubra cómo utilizar las reglas de atributos para crear una audiencia que se pueda compartir en la Biblioteca de audiencias. Aprenda a configurar una regla y definir una audiencia compuesta.
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # Crear un público
 
-En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
+En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartir en aplicaciones de CX Enterprise.
 
 Este artículo le ayuda a lo siguiente:
 
@@ -80,7 +80,7 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
      >[!NOTE]
      >
-     >Debido al almacenamiento en caché, los grupos de informes eliminados en Analytics tardan 12 horas en desaparecer de CX Enterprise.
+     >Debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de CX Enterprise.
 
    * **[!UICONTROL CX Enterprise:]** datos de atributo derivados de [!DNL CX Enterprise] orígenes. Por ejemplo, pueden ser datos de segmentos de público creados en [!DNL Analytics] o datos de [!DNL Audience Manager].
 
@@ -120,4 +120,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.

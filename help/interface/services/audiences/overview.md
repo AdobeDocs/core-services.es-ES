@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Audience Library]'
 description: Aprenda a administrar la traducción de datos sobre visitantes en segmentación de audiencia en CX Enterprise [!DNL Audience Library].
-solution: Experience Cloud
+solution: CX Enterprise
 type: Documentation
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 feature: Audience Library
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 45%
@@ -98,4 +98,4 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 
 ## Publicar audiencias desde Adobe Analytics
 
-Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
+Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.

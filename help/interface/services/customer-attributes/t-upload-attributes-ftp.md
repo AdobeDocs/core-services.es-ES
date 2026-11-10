@@ -1,6 +1,6 @@
 ---
-description: Aprenda a cargar datos de atributos del cliente a CX Enterprise a través de FTP.
-solution: Experience Cloud
+description: Obtenga información sobre cómo cargar datos de atributos del cliente a CX Enterprise a través de FTP.
+solution: CX Enterprise
 title: Cargar archivo de datos de atributos del cliente mediante FTP
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
@@ -46,7 +46,7 @@ Puede cargar los datos una vez que haya creado un origen de atributos del client
 Las cargas de archivos al sitio FTP de atributos del cliente se pueden realizar mediante FTP o SFTP:
 
 * Necesita un cliente que admita conexiones SFTP.
-* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=es).
+* Puede conectarse con SFTP con un nombre de usuario o una contraseña o sin contraseña, como se describe [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Para cargar el archivo de datos a través de FTP**
 

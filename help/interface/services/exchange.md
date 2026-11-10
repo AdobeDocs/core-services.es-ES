@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre Exchange Marketplace, un destino único en el que puede buscar, examinar, seleccionar, adquirir y descargar extensiones de marketing digital a través de aplicaciones.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
