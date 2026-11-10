@@ -1,6 +1,6 @@
 ---
 description: Descubra cómo los términos de la interfaz y del producto de Adobe difieren entre CX Enterprise, sus soluciones, Creative Cloud, Experience League y otras experiencias de asistencia.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Terminología
 feature-set: Experience Cloud Services
 feature: Central Interface Components
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%

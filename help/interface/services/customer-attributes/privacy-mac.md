@@ -1,6 +1,6 @@
 ---
 description: Conozca las consideraciones y prácticas recomendadas con respecto a la información de identificación personal (PII) cargada y utilizada en CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Consideraciones de privacidad para [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
@@ -52,7 +52,7 @@ Consideraciones y prácticas recomendadas con respecto a la información de iden
 
 Adobe proporciona herramientas que permiten a los anunciantes recopilar información sobre el comportamiento de los consumidores que visitan sus sitios o utilizan sus aplicaciones. Adobe también proporciona herramientas que permiten a los anunciantes mejorar esta información con registros de clientes externos o sin conexión que el anunciante pueda tener en otros sistemas de administración de la información.
 
-Un motivo común por el cuales los anunciantes hacen esto es para mejorar la información disponible cuando toman decisiones de publicidad y marketing adecuada para el cliente. Adobe Analytics y Target permiten a los anunciantes cargar información de identificación personal (PII), como direcciones de correo electrónico, solo después de haber pasado el hash para que sea imposible utilizarla para ponerse en contacto con el usuario. La información con hash puede seguir utilizándose para realizar análisis y para marketing. Como recordatorio, Adobe prohíbe a los anunciantes enviar información personal confidencial a Adobe, como registros médicos, información de cuentas financieras e información sobre menores.
+Un motivo común por el cuales los anunciantes hacen esto es para mejorar la información disponible cuando toman decisiones de publicidad y marketing adecuada para el consumidor. Adobe Analytics y Target permiten a los anunciantes cargar información de identificación personal (PII), como direcciones de correo electrónico, solo después de haber pasado el hash para que sea imposible utilizarla para ponerse en contacto con el usuario. La información con hash puede seguir utilizándose para realizar análisis y para marketing. Como recordatorio, Adobe prohíbe a los anunciantes enviar información personal confidencial a Adobe, como registros médicos, información de cuentas financieras e información sobre menores.
 
 Adobe es consciente de que estos tipos de decisiones de marketing y publicidad pueden tener implicaciones para la privacidad del consumidor, por lo que Adobe ha incorporado controles de privacidad para ayudar a los anunciantes a satisfacer las expectativas de sus consumidores. Adobe recomienda a sus anunciantes que consideren cuidadosamente qué información es apropiada para usar con fines de marketing y en qué circunstancias el anunciante tiene permiso para utilizar esa información.
 
@@ -68,4 +68,4 @@ Dado que la legislación respecto a la privacidad de los consumidores sigue en c
 1. Diga lo que hace (en su política de privacidad).
 1. No sorprenda a sus consumidores.
 
-Teniendo en cuenta estas expectativas, Adobe recomienda que cuando un anunciante asocie actividades de exploración a PII, el proporcione avisos o mensajes personalizados que indiquen que el consumidor está autenticado. Un ejemplo de esto es incluir un saludo en el encabezado del sitio web. Adobe también recomienda que los anunciantes describan en su política de privacidad qué tipo de información de navegación asocia con PII y en qué circunstancias la información de navegación está asociada con PII. Por último, Adobe recomienda a los anunciantes que revisen las opciones de exclusión que proporcionan a sus clientes para saber si pueden utilizar la información de perfiles no autenticados después de su exclusión y cómo pueden hacerlo.
+Teniendo en cuenta estas expectativas, Adobe recomienda que cuando un anunciante asocie actividades de exploración a PII, el proporcione avisos o mensajes personalizados que indiquen que el consumidor está autenticado. Un ejemplo de esto es incluir un saludo en el encabezado del sitio web. Adobe también recomienda que los anunciantes describan en su política de privacidad qué tipo de información de navegación asocia con PII y en qué circunstancias la información de navegación está asociada con PII. Por último, Adobe recomienda a los anunciantes que revisen las opciones de exclusión que proporcionan a sus consumidores para saber si pueden utilizar la información de perfiles no autenticados después de su exclusión y cómo pueden hacerlo.

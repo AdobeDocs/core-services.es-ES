@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo validar el esquema [!DNL Customer Attributes] en Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Validar el esquema [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 39%
@@ -75,4 +75,4 @@ Se crea un esquema basado en esta configuración. El esquema se utiliza para val
 
   * **[!UICONTROL CID (ID de cliente):]** Los atributos asociados con este CID. Si utiliza una propiedad o eVar para cargar CID (AVID) y ve que se muestran atributos pero no hay AVID, esto indica que el visitante no ha iniciado sesión en su sitio.
 
-  * **[!UICONTROL AVID (ID de visitante de Analytics):]** Muestra si usa una prop o eVar para cargar los CID. Si esos ID se pasan a CX Enterprise, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.
+  * **[!UICONTROL AVID (ID de visitante de Analytics):]** Muestra si usa una prop o eVar para cargar los CID. Si estos ID se pasan a CX Enterprise, aquí se mostrarán todos los ID de visitante asociados al CID que ha introducido.

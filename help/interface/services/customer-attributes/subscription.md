@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo configurar suscripciones en [!DNL Customer Attributes] para Analytics y Target y activar un origen de datos.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Configurar suscripciones en [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 45%
 ---
 # Configurar suscripciones de atributos del cliente
 
-Las suscripciones de [!DNL Customer Attributes] habilitan el flujo de datos de atributos del cliente entre CX Enterprise y las aplicaciones ([!DNL Analytics] y [!DNL Target]).
+[!DNL Customer Attributes] suscripciones habilitan el flujo de datos de atributos del cliente entre CX Enterprise y las aplicaciones ([!DNL Analytics] y [!DNL Target]).
 
 Por ejemplo, la suscripción de Adobe Analytics permite los datos de atributos en los informes. Si usa [!DNL Adobe Target], puede cargar atributos del cliente para el direccionamiento y la segmentación.
 

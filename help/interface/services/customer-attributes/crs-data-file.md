@@ -1,6 +1,6 @@
 ---
 description: Obtenga información acerca de los requisitos de archivos de datos y varios orígenes de datos para cargar datos en [!DNL Customer Attributes] a CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Archivo de datos de atributos del cliente y fuentes de datos
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 59%

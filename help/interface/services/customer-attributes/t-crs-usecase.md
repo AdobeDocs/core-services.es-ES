@@ -1,6 +1,6 @@
 ---
 description: Aprenda a crear un origen de datos de [!DNL Customer Attributes] y cargarlo en CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Crear y cargar un archivo de Source de datos [!DNL Customer Attributes]
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
