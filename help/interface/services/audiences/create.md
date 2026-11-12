@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# Crear un público
+# Crear un público {#create-audience}
 
-En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia y definir una audiencia compuesta para compartir en aplicaciones de CX Enterprise.
+En [!UICONTROL Biblioteca de audiencias], puede usar reglas de atributos para crear una audiencia, generar reglas individuales y combinar reglas en una audiencia compuesta para compartirla en aplicaciones de CX Enterprise.
 
-Este artículo le ayuda a lo siguiente:
-
-* Crear un público
-* Crear una regla
-* Usar reglas para definir un público compuesto
+## Audiencias compuestas {#composite-audiences}
 
 El siguiente gráfico representa dos reglas en un público compuesto.
 
@@ -58,14 +54,9 @@ Cada círculo representa una regla que define el abono al público. Los Visitant
 >
 >El público está completamente definido tras la recopilación de datos una vez completado el periodo especificado.
 
-El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
+## Creación de reglas de audiencia {#build-audience-rules}
 
-* Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
-* Usuarios de Chrome y Safari derivados de un segmento [publicado](overview.md) en [!DNL CX Enterprise].[!DNL Adobe Analytics]
-
-  ![Creación de reglas para un público compuesto](assets/audience_create.png)
-
-**Para crear un público**
+Siga estos pasos para crear una audiencia y definir sus reglas en [!UICONTROL Biblioteca de audiencias].
 
 1. Haga clic en [!DNL CX Enterprise] aplicaciones (![Icono de aplicaciones](assets/apps-icon.png)) y, a continuación, haga clic en **[!UICONTROL Personas]** > **[!UICONTROL Biblioteca de audiencias].**
 
@@ -86,7 +77,14 @@ El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. 
 
 1. Defina las reglas de audiencia y haga clic en **[!UICONTROL Guardar].**
 
-**Ejemplo: definir reglas para la audiencia compuesta**
+## Ejemplo de audiencia compuesta {#example-composite-audience}
+
+El siguiente ejemplo muestra cómo crear las reglas para un público compuesto. Este público está compuesto por:
+
+* Sección Hogar y jardín derivada de datos de página o datos de análisis sin procesar.
+* Usuarios de Chrome y Safari derivados de un segmento [publicado](overview.md) en [!DNL CX Enterprise].[!DNL Adobe Analytics]
+
+  ![Creación de reglas para un público compuesto](assets/audience_create.png)
 
 >[!NOTE]
 >
@@ -120,4 +118,4 @@ La regla resultante es un público definido que incluye a los usuarios de Chrome
 
 Una vez que la recopilación de datos se completa para el periodo especificado, los círculos se combinan para mostrar un público definido.
 
-Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/es/docs/target/using/activities/activities) de Adobe Target.
+Una vez guardada la audiencia, está disponible para otras aplicaciones de CX Enterprise. Por ejemplo, puede incluir una audiencia compartida en una [actividad](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) de Adobe Target.
