@@ -1,0 +1,112 @@
+---
+description: Obtenga información acerca de CX Enterprise Assets que puede compartir entre distintas aplicaciones.
+solution: CX Enterprise
+title: Información general sobre recursos
+uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Assets
+topic: Administration
+role: Admin
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+TQID: 'https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0'
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 65%
+---
+# Información general de CX Enterprise [!DNL Assets]
+
+CX Enterprise [!DNL Assets] proporciona un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
+
+El servicio [!DNL Assets] incluye:
+
+* Almacenamiento de recursos, interfaz de administración, interfaz de selección de incrustación (a través de las aplicaciones).
+* Integraciones con Creative Cloud, colaboración con CX Enterprise y aplicaciones de CX Enterprise.
+
+El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce el tiempo de comercialización. Puede optimizar los flujos de trabajo en las aplicaciones:
+
+* **[!DNL Adobe Target]**: cree experiencias para pruebas A/B y con pruebas multivariadas.
+* **[!DNL Adobe Advertising]**: desarrolle unidades de anuncios en los distintos canales y campañas.
+* **[!DNL Adobe Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
+
+## Vaya a CX Enterprise Assets
+
+![Vaya a CX Enterprise Assets](../../assets/asset-nav.png)
+
+## Acceso a la barra de herramientas
+
+Vaya a un recurso (o a un directorio de recursos) y luego haga clic en **[!UICONTROL Seleccionar]**.
+
+La barra de herramientas proporciona acceso rápido a funciones como [!UICONTROL Buscar], [!UICONTROL Cronología], [!UICONTROL Representaciones], [!UICONTROL Editar], [!UICONTROL Anotar] y [!UICONTROL Descargar].
+
+![Acceso a la barra de herramientas](../../assets/asset-tools.png)
+
+>[!NOTE]
+>
+>Los recursos deben eliminarse de las actividades de Adobe Target para poder eliminarlos correctamente de [!DNL Target].
+
+## Edición de recursos
+
+La edición de un recurso habilita funciones, entre las que se incluyen:
+
+* Recortar
+* Rotar
+* Girar
+
+![Edición de recursos](../../assets/asset-edit.png)
+
+## Buscar recursos
+
+Puede buscar por palabra clave, tipo de archivo, tamaño, última modificación, estado de publicación, orientación y estilo.
+
+![Búsqueda de recursos](../../assets/asset-search.png)
+
+## Anotación de recursos
+
+Haga clic en **[!UICONTROL Anotar]** dibujando círculos o flechas en una imagen y anote el recurso para que sus colegas lo revisen.
+
+![Anotación de recursos](../../assets/assets-annotate.png)
+
+## Visualizar recursos en pantalla completa y hacer zoom
+
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Imagen]** para ver la imagen completa del recurso y habilitar el zoom.
+
+![Visualización de recursos de pantalla completa](../../assets/asset-zoom.png)
+
+## Visualizar las propiedades de los recursos
+
+Elija entre la visualización de la tarjeta y sus propiedades, la vista de lista y la vista de columna para encontrar sus recursos más fácilmente.
+
+Haga clic en **[!UICONTROL Vistas]** > **[!UICONTROL Propiedades]** para ver las propiedades de un recurso:
+
+![Visualización de las propiedades de los recursos](../../assets/asset-properties.png)
+
+## Ejecutar informes de uso
+
+Consulte el número de usuarios, el almacenamiento utilizado y el total de los recursos.
+
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Informes]** > **[!UICONTROL Informe de uso]**
+
+![Ejecución de informes de uso](../../assets/assets-usage-report.png)

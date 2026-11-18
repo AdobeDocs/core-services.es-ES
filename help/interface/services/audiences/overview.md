@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 45%
+source-wordcount: '741'
+ht-degree: 44%
 ---
 # Audiencias de CX Enterprise
 
@@ -87,10 +87,10 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 
 | Elemento | Descripción |
 | --- | --- |
-| Nuevo | [Crear un público](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create). |
+| Nuevo | [Crear un público](create.md). |
 | Título y descripción | Un encabezado de columna que identifica y describe el público. |
 | Autor | La persona que creó el segmento de público. |
-| Fuente | Identifica dónde se creó el público.<ul><li>**Analytics:** Un segmento creado en Adobe Analytics y publicado en CX Enterprise.</li><li>**CX Enterprise:** Una nueva audiencia [creada en Audiencias de CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** Las audiencias creadas en Audience Manager se muestran automáticamente en Audiencias de CX Enterprise.</li></ul> |
+| Fuente | Identifica dónde se creó el público.<ul><li>**Analytics:** Un segmento creado en Adobe Analytics y publicado en CX Enterprise.</li><li>**CX Enterprise:** Una nueva audiencia [creada en Audiencias de CX Enterprise](create.md).</li><li>**Audience Manager:** Las audiencias creadas en Audience Manager se muestran automáticamente en Audiencias de CX Enterprise.</li></ul> |
 | Tamaño actual | El tamaño de público actual. |
 | Activo | El estado activo del segmento. |
 
@@ -98,4 +98,4 @@ En la tabla siguiente se describe cómo se utilizan las audiencias en las aplica
 
 ## Publicar audiencias desde Adobe Analytics
 
-Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.
+Consulte [Publicar segmentos en CX Enterprise](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) en la documentación de Adobe Analytics para obtener más información.

@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -47,11 +47,11 @@ Descubra dónde se producen las actualizaciones de la documentación para la int
 
 ## Julio de 2026
 
-* Se agregaron [notas de la versión de julio de 2026](release-notes.md) para la compatibilidad de CX Enterprise con el [acceso de invitado federado](https://helpx.adobe.com/es/business/enterprise/using/federated-guest-access.html), incluido el cambio de cuenta para usuarios invitados desde el conmutador de organización.
+* Se agregaron [notas de la versión de julio de 2026](release-notes.md) para la compatibilidad de CX Enterprise con el [acceso de invitado federado](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), incluido el cambio de cuenta para usuarios invitados desde el conmutador de organización.
 
 ## Junio de 2026
 
-* Se ha publicado la [supervisión de IA del agente](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con cobertura de los paneles de supervisión de Uso de licencias y AI del agente, que incluye Información general, Usuarios, Comentarios y vistas de Créditos de IA, reproducción de conversaciones y permisos para usuarios con funciones de gobernanza.
+* Se ha publicado la [supervisión de IA del agente](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con cobertura de los paneles de supervisión de Uso de licencias y AI del agente, que incluye Información general, Usuarios, Comentarios y vistas de Créditos de IA, reproducción de conversaciones y permisos para usuarios con funciones de gobernanza.
 * Se agregaron [notas de la versión de junio de 2026](release-notes.md) para la monitorización del uso de IA auténtica.
 
 ## Mayo de 2026
@@ -60,20 +60,20 @@ Actualizaciones de abril y mayo para la guía de la interfaz central de CX Enter
 
 * Se ha cambiado la marca de la documentación de Experience Cloud a **CX Enterprise** en toda la guía, incluidas las descripciones, el texto del vínculo y los metadatos de etiquetas automáticas.
 * Se agregaron [notas de la versión de abril de 2026](release-notes.md) para la página principal actualizada a las `https://experience.adobe.com/home` (actualización de la interfaz de usuario, modo oscuro y mejoras de accesibilidad).
-* Se ha actualizado [Inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, se han revisado las capacidades del agente y una columna de **Datos de estado / preparados para HIPAA** en la tabla de agentes de aplicaciones existentes.
+* Se ha actualizado [Inteligencia artificial aplicada a la agencia en CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, se han revisado las capacidades del agente y una columna de **Datos de estado / preparados para HIPAA** en la tabla de agentes de aplicaciones existentes.
 * Actualizaciones menores de [recopilación de datos regionales](../data-collection/rdc.md), [Validar el reenvío de nombres de host](../data-collection/adobe-managed-cert.md) y [Terminología](terms.md).
 
 ## Marzo de 2026
 
-Se agregó [consumo de trabajos y créditos de IA](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Se agregó [consumo de trabajos y créditos de IA](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## Noviembre de 2025
 
-Actualizaciones a [Inteligencia artificial aplicada a agentes en CX Enterprise](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Actualizaciones a [Inteligencia artificial aplicada a agentes en CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Octubre de 2025
 
-Se ha actualizado [Compruebe su organización](../experience-cloud.md) con una nota sobre el mensaje de error si un administrador restringe el acceso a los productos de Adobe mediante direcciones IP.
+Se ha actualizado [Compruebe su organización](../home.md) con una nota sobre el mensaje de error si un administrador restringe el acceso a los productos de Adobe mediante direcciones IP.
 
 ## Agosto de 2025
 
@@ -130,7 +130,7 @@ Se han actualizado las [preguntas más frecuentes sobre administración](faq.md)
 
 ## 24 de agosto de 2021
 
-Se ha actualizado la página [Componentes centrales](../experience-cloud.md) (página de destino de esta guía). Se ha agregado compatibilidad con exploradores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
+Se ha actualizado la página [Componentes centrales](../home.md) (página de destino de esta guía). Se ha agregado compatibilidad con exploradores e idiomas, actualizaciones para organizaciones, inicio de sesión y se ha agregado información sobre dominios.
 
 ## 6 de agosto de 2021
 
@@ -142,7 +142,7 @@ Estructura de la guía reorganizada, tabla de contenido.
 
 ## 1 de junio de 2021
 
-Se ha actualizado [la página de aterrizaje](../experience-cloud.md) con nueva ayuda para acceder a CX Enterprise, la búsqueda global, las preferencias y las notificaciones.
+Se ha actualizado [la página de aterrizaje](../home.md) con nueva ayuda para acceder a CX Enterprise, la búsqueda global, las preferencias y las notificaciones.
 
 ## 19 de agosto de 2020
 
@@ -197,7 +197,7 @@ Se agregó [Integraciones de CX Enterprise](../administration/integrations.md), 
 
 ## 11 de febrero de 2016
 
-Se agregó [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
+Se agregó [CX Enterprise Assets](../services/assets/overview-assets.md).
 
 ## 15 de enero de 2015
 
