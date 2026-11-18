@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ Utilice esta tabla cuando la misma palabra se muestre en diferentes experiencias
 | **Atributos del cliente** | Atributos de CRM o empresariales que se cargan y asignan para su uso en Analytics, Target y flujos de trabajo relacionados a través del servicio People. Consulte los temas [Atributos del cliente](../services/customer-attributes/attributes.md). | No se equipare con **rasgos de Audience Manager** por sí solo o con cada campo de perfil de **Real-Time CDP** sin comprobar el límite del producto. |
 | **Biblioteca de públicos** | IU de CX Enterprise para componer y compartir audiencias entre aplicaciones integradas. | **Audience Manager** y **Target** también usan &quot;audiencias&quot;, pero las reglas y los destinos de segmentación difieren según el producto. |
 | **Segmento** (Analytics) | Una definición de audiencia basada en reglas que puede crear en Adobe Analytics y, cuando se admite, publicar para audiencias compartidas. | En **Audience Manager**, los segmentos combinan **rasgos**; los nombres se superponen, pero la implementación no es idéntica. En **Target**, las &quot;audiencias&quot; reemplazaron etiquetas de &quot;segmento&quot; antiguas en muchos lugares. |
-| **Assets (Experience Cloud Assets)** | Carpetas y archivos compartidos para la colaboración entre flujos de trabajo de marketing de CX Enterprise y usuarios aprobados de **Creative Cloud**. Ver [descripción general de Assets](../services/assets/experience-cloud-assets.md). | En **Creative Cloud**, &quot;recursos&quot; suele significar archivos de diseño (PSD, AI, INDD). La misma palabra, diferentes modelos de compartir y gobernanza. |
+| **Assets (Experience Cloud Assets)** | Carpetas y archivos compartidos para la colaboración entre flujos de trabajo de marketing de CX Enterprise y usuarios aprobados de **Creative Cloud**. Ver [descripción general de Assets](../services/assets/overview-assets.md). | En **Creative Cloud**, &quot;recursos&quot; suele significar archivos de diseño (PSD, AI, INDD). La misma palabra, diferentes modelos de compartir y gobernanza. |
 
 {style="table-layout:auto"}
 

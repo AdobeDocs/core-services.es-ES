@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# Descripción general de CX Enterprise Assets
+# Información general de CX Enterprise [!DNL Assets]
 
-CX Enterprise Assets proporciona un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
+CX Enterprise [!DNL Assets] proporciona un único repositorio centralizado de recursos listos para su uso en marketing que se pueden compartir en varias aplicaciones. Un recurso es un documento digital, una imagen, un vídeo o audio (o parte del mismo) que puede tener varias representaciones y subrecursos (por ejemplo, capas de un archivo de [!DNL Photoshop], diapositivas de un [!DNL PowerPoint], páginas de un PDF o archivos en un ZIP).
 
-Entre los servicios de recursos se incluyen:
+El servicio [!DNL Assets] incluye:
 
 * Almacenamiento de recursos, interfaz de administración, interfaz de selección de incrustación (a través de las aplicaciones).
 * Integraciones con Creative Cloud, colaboración con CX Enterprise y aplicaciones de CX Enterprise.
@@ -48,9 +48,8 @@ Entre los servicios de recursos se incluyen:
 El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce el tiempo de comercialización. Puede optimizar los flujos de trabajo en las aplicaciones:
 
 * **[!DNL Adobe Target]**: cree experiencias para pruebas A/B y con pruebas multivariadas.
-* **[!DNL Ad Cloud]**: desarrolle unidades de anuncios en los distintos canales y campañas.
+* **[!DNL Adobe Advertising]**: desarrolle unidades de anuncios en los distintos canales y campañas.
 * **[!DNL Adobe Campaign]**: coloque los recursos en campañas y boletines de correo electrónico.
-
 
 ## Vaya a CX Enterprise Assets
 
@@ -60,7 +59,7 @@ El uso de recursos mejora la coherencia y el cumplimiento de la marca, y reduce 
 
 Vaya a un recurso (o a un directorio de recursos) y luego haga clic en **[!UICONTROL Seleccionar]**.
 
-La barra de herramientas proporciona acceso rápido a las funciones, incluidas Búsqueda, Cronología, Representaciones, Editar, Anotar y Descargar.
+La barra de herramientas proporciona acceso rápido a funciones como [!UICONTROL Buscar], [!UICONTROL Cronología], [!UICONTROL Representaciones], [!UICONTROL Editar], [!UICONTROL Anotar] y [!UICONTROL Descargar].
 
 ![Acceso a la barra de herramientas](../../assets/asset-tools.png)
 
